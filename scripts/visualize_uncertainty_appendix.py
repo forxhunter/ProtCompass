@@ -284,7 +284,7 @@ DISPLAY_NAMES = {
     'gearnet': 'GearNet', 'schnet': 'SchNet', 'dimenet': 'DimeNet++',
     'mace': 'MACE', 'dmasif': 'dMaSIF', 'egnn': 'EGNN', 'gvp': 'GVP',
     'tfn': 'TFN', 'ipa': 'IPA', 'gcpnet': 'GCPNet', 'esm_if': 'ESM-IF',
-    'saprot': 'SaProt', 'esm3': 'ESM-3', 'foldvision': 'FoldVision',
+    'saprot': 'SaProt', 'esm3': 'ESM3', 'foldvision': 'FoldVision',
     'cdconv': 'CDConv', 'geobpe': 'GeoBPE',
     'random': 'Random', 'length': 'Length', 'torsion': 'Torsion',
     'proteinae': 'ProteinAE',

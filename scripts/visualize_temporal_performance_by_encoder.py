@@ -84,7 +84,7 @@ DISPLAY_NAMES = {
     'ipa': 'IPA', 'ipa_pretrained': 'IPA',
     'gcpnet': 'GCPNet', 'gcpnet_pretrained': 'GCPNet',
     'esm_if': 'ESM-IF', 'saprot': 'SaProt', 'saprot_pretrained': 'SaProt',
-    'esm3': 'ESM-3', 'foldvision': 'FoldVision',
+    'esm3': 'ESM3', 'foldvision': 'FoldVision',
     'cdconv': 'CDConv', 'cdconv_pretrained': 'CDConv',
     'geobpe': 'GeoBPE',
 }

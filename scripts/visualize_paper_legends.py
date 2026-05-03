@@ -89,7 +89,7 @@ DISPLAY_NAMES = {
     'gearnet': 'GearNet', 'schnet': 'SchNet', 'dimenet': 'DimeNet++', 'mace': 'MACE', 
     'dmasif': 'dMaSIF', 'egnn': 'EGNN', 'gvp': 'GVP', 'tfn': 'TFN', 'ipa': 'IPA', 
     'gcpnet': 'GCPNet', 'esm_if': 'ESM-IF',
-    'saprot': 'SaProt', 'prostt5': 'ProstT5', 'esm3': 'ESM-3', 'foldvision': 'FoldVision', 'cdconv': 'CDConv',
+    'saprot': 'SaProt', 'prostt5': 'ProstT5', 'esm3': 'ESM3', 'foldvision': 'FoldVision', 'cdconv': 'CDConv',
     'random': 'Random', 'length': 'Length', 'torsion': 'Torsion'
 }
 

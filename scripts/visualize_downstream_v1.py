@@ -205,7 +205,7 @@ DISPLAY_NAMES = {
     'gemnet': 'GemNet', 'painn': 'PaiNN', 'se3_transformer': 'SE3-Transformer',
     'spherenet': 'SphereNet', 'lefttnet': 'LEFTNet', 'density': 'Density',
     'mif': 'MIF', 'proteinae': 'ProteinAE', 'starling': 'Starling', 'dual_stream': 'DualStream',
-    'saprot': 'SaProt', 'esm3': 'ESM-3', 'foldvision': 'FoldVision', 'cdconv': 'CDConv',
+    'saprot': 'SaProt', 'esm3': 'ESM3', 'foldvision': 'FoldVision', 'cdconv': 'CDConv',
     'random': 'Random', 'random_token': 'Random-Token', 'length': 'Length',
     'torsion': 'Torsion', 'onehot': 'OneHot', 'blosum': 'BLOSUM', 'test': 'Test',
 }

@@ -113,7 +113,7 @@ DISPLAY_NAMES = {
     'pottsmpnn_ft': 'PottsMPNN(FT)', 'gearnet': 'GearNet', 'schnet': 'SchNet',
     'dimenet': 'DimeNet++', 'mace': 'MACE', 'dmasif': 'dMaSIF', 'egnn': 'EGNN',
     'gvp': 'GVP', 'tfn': 'TFN', 'ipa': 'IPA', 'gcpnet': 'GCPNet', 'esm_if': 'ESM-IF',
-    'saprot': 'SaProt', 'esm3': 'ESM-3', 'foldvision': 'FoldVision', 'cdconv': 'CDConv',
+    'saprot': 'SaProt', 'esm3': 'ESM3', 'foldvision': 'FoldVision', 'cdconv': 'CDConv',
     'random': 'Random', 'length': 'Length', 'torsion': 'Torsion',
 }
 
