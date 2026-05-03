@@ -131,3 +131,42 @@ cd external_repos
 ```
 
 ---
+
+## Installation
+
+### Environment Setup
+
+Create the conda environment from the provided YAML file:
+
+```bash
+# Create environment
+conda env create -f environment.yml
+
+# Activate environment
+conda activate protcompass
+
+# Verify installation
+python -c "import torch; print(f'PyTorch {torch.__version__}, CUDA: {torch.cuda.is_available()}')"
+```
+
+The `environment.yml` file includes all dependencies for:
+- Running all 70+ protein encoders
+- Executing probing and downstream tasks
+- Generating visualizations and analysis
+
+### Quick Start
+
+After setting up the environment and downloading data:
+
+```bash
+# Run probing tasks
+python scripts/run_probing.py --encoder esm2 --task secondary_structure
+
+# Run downstream evaluation
+python downstream_tasks/evaluate_tasks.py --encoder esm2 --task ec_classification
+
+# Generate visualizations
+python scripts/visualize_paper_v12.py
+```
+
+---
