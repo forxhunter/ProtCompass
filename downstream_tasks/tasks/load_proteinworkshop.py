@@ -26,7 +26,7 @@ def _load_pt_structure(pt_path: Path) -> Optional[Dict]:
     """Load a ProteinWorkshop pre-processed protein graph (.pt file)."""
     import torch
     try:
-        data = torch.load(pt_path, weights_only=False)
+        data = torch.load(pt_path, weights_only=False, map_location='cpu')
         return data
     except Exception as e:
         return None
