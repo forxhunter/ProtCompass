@@ -49,6 +49,7 @@ ENCODERS_PRETRAINED = [
     "ipa_pretrained",                     # pretrained IPA
     "tfn_pretrained",                     # pretrained TFN
     "foldvision",                         # AlexanderKroll/foldvision-encoder
+    "geobpe",                             # GeoBPE structural tokenizer
 ]
 # Baselines for comparison
 ENCODERS_BASELINES = [
@@ -68,7 +69,19 @@ SEQUENCE_ONLY_ENCODERS = {
 # Tasks where structure encoders with dummy coords are MEANINGLESS
 # (sequence variants, no real PDB structure available per protein)
 # Note: mutation_effect now has AF2 structures (216/217 assays), so structure encoders can run
-SEQUENCE_ONLY_TASKS = {"fluorescence", "ppi_affinity", "solubility"}
+SEQUENCE_ONLY_TASKS: set = {
+    "secondary_structure",
+    "contact_prediction",
+    "remote_homology",
+    "ec_classification",
+    "go_mf",
+    "go_bp",
+    "ppi_site",
+    "metal_binding",
+    "subcellular_localization",
+    "membrane_soluble",
+    "stability_flip",
+}
 
 # ── Task definitions ───────────────────────────────────────────────────────────
 # metric: primary evaluation metric

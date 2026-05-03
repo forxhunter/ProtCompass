@@ -151,14 +151,30 @@ def _precision_at_L5(tertiary_list, pred_list) -> float:
 
 # ── Data loading from cached embeddings ───────────────────────────────────────
 
+def _load_flat_embeddings(flat_f: Path, offsets_f: Path) -> np.ndarray:
+    """Per-protein object array backed by mmap slices — only accessed rows paged in."""
+    flat    = np.load(flat_f, mmap_mode='r')   # memory-mapped, not fully loaded
+    offsets = np.load(offsets_f)
+    N = len(offsets) - 1
+    X = np.empty(N, dtype=object)
+    for i in range(N):
+        X[i] = flat[offsets[i]:offsets[i + 1]]   # lazy slice, no .copy()
+    return X
+
+
 def load_split(task: str, encoder: str, split: str):
     """Load cached embeddings and labels for one split."""
     d = EMB_DIR / task / encoder
-    emb_f = d / f"{split}_embeddings.npy"
-    if not emb_f.exists():
-        return None, None
+    emb_f    = d / f"{split}_embeddings.npy"
+    flat_f   = d / f"{split}_embeddings_flat.npy"
+    offsets_f= d / f"{split}_offsets.npy"
 
-    X = np.load(emb_f, allow_pickle=True)
+    if flat_f.exists() and offsets_f.exists():
+        X = _load_flat_embeddings(flat_f, offsets_f)
+    elif emb_f.exists():
+        X = np.load(emb_f, allow_pickle=True)
+    else:
+        return None, None
 
     # Try primary labels file
     lab_f = d / f"{split}_labels.npy"

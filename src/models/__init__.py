@@ -37,8 +37,8 @@ from src.models.class_b.proteinmpnn_encoder import ProteinMPNNEncoder
 from src.models.class_b.gearnet_encoder import GearNetEncoder
 try:
     from src.models.class_c.gvp_encoder import GVPEncoder
-except ImportError:
-    pass  # torch_geometric not available
+except (ImportError, OSError):
+    pass  # torch_geometric not available or incompatible
 from src.models.class_c.egnn_encoder import EGNNEncoder
 from src.models.class_c.se3_transformer_encoder import SE3TransformerEncoder
 from src.models.class_c.ipa_encoder import IPAEncoder
@@ -46,7 +46,7 @@ from src.models.class_c.schnet_encoder import SchNetEncoder
 from src.models.class_c.dimenet_encoder import DimeNetEncoder
 try:
     from src.models.class_c.cdconv_encoder import CDConvEncoder
-except (ImportError, FileNotFoundError):
+except (ImportError, FileNotFoundError, OSError):
     pass  # torch_geometric not available or external_repos missing
 from src.models.class_c.gcpnet_encoder import GCPNetEncoder
 try:

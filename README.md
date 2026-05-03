@@ -6,12 +6,37 @@
 
 ## Overview
 
-ProtEncEval is a comprehensive benchmark designed to evaluate **30 diverse protein encoders** across **19 probing tasks** and **9 downstream biological tasks**. Existing benchmarks emphasize aggregate downstream performance, leaving encoder representations opaque. ProtEncEval addresses this by introducing an *invariant-family framework* that quantifies the structural and biochemical information encapsulated in embeddings and aligns them with downstream biological requirements. 
+Protein encoders provide compact representations of protein sequence and structure for biological modeling, yet they are typically evaluated by aggregate downstream accuracy alone. This makes it difficult to determine what information an encoder captures, why it succeeds on some tasks, or how to select an encoder for a new biological problem.
 
-Our benchmark provides:
-1. **Systematic Information Profiling:** Measures encoder preservation of geometry, packing, topology, flexibility, compactness, chemistry, and sequence-structure consistency.
-2. **The Information Alignment Hypothesis:** Demonstrates that downstream task performance is governed by the alignment between an encoder's information footprint and task demands.
-3. **ESP & ESP++ Selectors:** Predictors that estimate an encoder's downstream utility based on probing profiles, enabling principled model selection prior to executing tasks.
+**ProtCompass** is an interpretable benchmark and analysis framework for task-aware evaluation of protein encoders. We evaluate **26 encoders** (sequence-based, structure-based, and multimodal) along two complementary axes:
+
+1. **Probing Suite**: Measures how well embeddings preserve 10 invariant information properties (IIPs):
+   - Local geometry, secondary structure, solvent exposure, flexibility
+   - Packing, residue contacts, global geometry, fold identity
+   - Sequence information and sequence-structure consistency
+
+2. **Downstream Benchmark**: Evaluates transfer performance across 14 biological tasks:
+   - Structural prediction (secondary structure, contact prediction, remote homology)
+   - Functional annotation (EC classification, GO terms)
+   - Protein-protein interaction (interface sites, binding affinity)
+   - Mutational effect prediction
+   - Biophysical properties (stability, fluorescence, solubility)
+
+### Key Findings
+
+**Encoders capture distinct biological profiles.** Different encoders preserve different combinations of structural and biochemical information. There is no single global ranking—encoder performance depends on task-specific information demands.
+
+**The Information Alignment Hypothesis (IAH).** An encoder performs best when its invariant information property profile aligns with the information required by the target task. This principle enables:
+- **Task interpretation**: Understanding what information each biological task requires
+- **Encoder selection**: Choosing the right encoder for a new application without trial-and-error
+- **Performance prediction**: Estimating downstream utility from probing profiles alone
+
+### Practical Tools
+
+- **ESP & ESP++ Selectors**: Predictors that estimate an encoder's downstream utility based on probing profiles, enabling principled model selection prior to executing tasks
+- **Encoder Information Profiles**: Quantitative characterization of what each encoder captures
+- **Task Information Demands**: Inferred requirements for each downstream task
+- **Selection Guide**: Evidence-based recommendations for encoder choice
 
 ## Repository Structure
 

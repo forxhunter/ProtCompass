@@ -32,12 +32,13 @@ def _load_pt_structure(pt_path: Path) -> Optional[Dict]:
         return None
 
 
-def load_ec_reaction(split: str = "testing") -> Tuple[List, List, List]:
+def load_ec_reaction(split: str = "testing") -> Tuple[List, List, List, List]:
     """
     T4: EC reaction class prediction.
     split: training | validation | testing
-    Returns (pdb_ids, ec_labels, structures)
+    Returns (pdb_ids, ec_labels, sequences, structures)
     ec_labels: integer 0-383 (384 classes after label encoding)
+    structures: list of dicts with 'coords' key containing [L, 37, 3] coordinate arrays
     """
     import torch
     base     = PW_DIR / "ECReaction"
@@ -70,7 +71,7 @@ def load_ec_reaction(split: str = "testing") -> Tuple[List, List, List]:
                     ec_to_int[ec_str] = len(ec_to_int)
                 label_map[pdb_chain] = ec_to_int[ec_str]
 
-    pdb_ids, labels, sequences = [], [], []
+    pdb_ids, labels, sequences, structures = [], [], [], []
     with open(split_f) as f:
         for line in f:
             pdb_chain = norm(line)
@@ -86,19 +87,35 @@ def load_ec_reaction(split: str = "testing") -> Tuple[List, List, List]:
                 continue
 
             seq = _extract_sequence(data)
+
+            # Extract coordinates for structure encoders
+            try:
+                import torch
+                ns = data.node_stores[0]
+                coords = ns.get("coords", None)
+                if coords is not None:
+                    if isinstance(coords, torch.Tensor):
+                        coords = coords.cpu().numpy()
+                    structure = {"coords": coords}
+                else:
+                    structure = None
+            except Exception:
+                structure = None
+
             pdb_ids.append(pdb_chain)
             labels.append(label)
             sequences.append(seq)
+            structures.append(structure)
 
     print(f"[ECReaction/{split}] {len(pdb_ids)} proteins, {len(ec_to_int)} EC classes")
-    return pdb_ids, labels, sequences
+    return pdb_ids, labels, sequences, structures
 
 
-def load_go(ontology: str = "mf", split: str = "test") -> Tuple[List, List, List]:
+def load_go(ontology: str = "mf", split: str = "test") -> Tuple[List, List, List, List]:
     """
     T5/T6: GO multi-label prediction.
     ontology: mf | bp | cc
-    Returns (pdb_ids, go_labels_binary_matrix, sequences)
+    Returns (pdb_ids, go_labels_binary_matrix, sequences, structures)
     """
     base     = PW_DIR / "GeneOntology"
     proc_dir = base / "processed"
@@ -150,7 +167,7 @@ def load_go(ontology: str = "mf", split: str = "test") -> Tuple[List, List, List
     go_id_list = sorted(all_go_ids)
     go_idx     = {g: i for i, g in enumerate(go_id_list)}
 
-    pdb_ids, labels, sequences = [], [], []
+    pdb_ids, labels, sequences, structures = [], [], [], []
     with open(split_file) as f:
         for line in f:
             pdb_chain = norm_go(line.strip())
@@ -172,24 +189,40 @@ def load_go(ontology: str = "mf", split: str = "test") -> Tuple[List, List, List
                     label_vec[go_idx[t]] = 1.0
 
             seq = _extract_sequence(data)
+
+            # Extract coordinates for structure encoders
+            try:
+                import torch
+                ns = data.node_stores[0]
+                coords = ns.get("coords", None)
+                if coords is not None:
+                    if isinstance(coords, torch.Tensor):
+                        coords = coords.cpu().numpy()
+                    structure = {"coords": coords}
+                else:
+                    structure = None
+            except Exception:
+                structure = None
+
             pdb_ids.append(pdb_chain)
             labels.append(label_vec)
             sequences.append(seq)
+            structures.append(structure)
 
     print(f"[GO-{ontology.upper()}/{split}] {len(pdb_ids)} proteins, {len(go_id_list)} GO terms")
-    return pdb_ids, labels, sequences
+    return pdb_ids, labels, sequences, structures
 
 
-def load_masif_site(split: str = "testing") -> Tuple[List, List, List]:
+def load_masif_site(split: str = "testing") -> Tuple[List, List, List, List]:
     """
     T9: PPI interface site prediction (residue-level binary).
-    Returns (pdb_ids, per_residue_labels, sequences)
+    Returns (pdb_ids, per_residue_labels, sequences, structures)
     """
     base     = PW_DIR / "masif_site"
     split_f  = base / f"{split}.txt"
     proc_dir = base / "processed"
 
-    pdb_ids, labels, sequences = [], [], []
+    pdb_ids, labels, sequences, structures = [], [], [], []
     with open(split_f) as f:
         for line in f:
             raw = line.strip()
@@ -216,25 +249,37 @@ def load_masif_site(split: str = "testing") -> Tuple[List, List, List]:
             res_labels = (chain_ids != chain_ids[0]).long().numpy()
             seq        = _extract_sequence_from_store(ns)
 
+            # Extract structure coordinates
+            try:
+                coords = ns.get("coords", None)
+                if coords is not None:
+                    structure = {"coords": coords.numpy()}
+                else:
+                    structure = None
+            except Exception:
+                structure = None
+
             pdb_ids.append(raw)
             labels.append(res_labels)
             sequences.append(seq)
+            structures.append(structure)
 
     print(f"[MaSIF-site/{split}] {len(pdb_ids)} proteins")
-    return pdb_ids, labels, sequences
+    return pdb_ids, labels, sequences, structures
 
 
-def load_metal3d(split: str = "test") -> Tuple[List, List, List]:
+def load_metal3d(split: str = "test") -> Tuple[List, List, List, List]:
     """
     T10: Metal binding site prediction (residue-level binary).
     Split file format: "1AOL" (4-char PDB ID only).
     Processed files: "1aol_all.pt"
+    Returns (pdb_ids, labels_per_residue, sequences, structures)
     """
     base     = PW_DIR / "Metal3D"
     split_f  = base / f"{split}.txt"
     proc_dir = base / "processed"
 
-    pdb_ids, labels, sequences = [], [], []
+    pdb_ids, labels, sequences, structures = [], [], [], []
     with open(split_f) as f:
         for line in f:
             raw = line.strip()
@@ -265,12 +310,21 @@ def load_metal3d(split: str = "test") -> Tuple[List, List, List]:
                         res_labels = res_labels | (dists < 8.0).long()
 
             seq = _extract_sequence_from_store(ns)
+
+            # Extract structure coordinates
+            try:
+                coords_np = coords.numpy() if hasattr(coords, 'numpy') else coords
+                struct = {"coords": coords_np}
+            except Exception:
+                struct = None
+
             pdb_ids.append(pdb_key)
             labels.append(res_labels.numpy())
             sequences.append(seq)
+            structures.append(struct)
 
     print(f"[Metal3D/{split}] {len(pdb_ids)} proteins")
-    return pdb_ids, labels, sequences
+    return pdb_ids, labels, sequences, structures
 
 
 AA_TOKENS = list("ACDEFGHIKLMNPQRSTVWYX")

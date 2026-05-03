@@ -19,7 +19,7 @@ from src.models.base_encoder import (
 )
 
 
-_DEFAULT_GEO_BPE_CKPT = Path("/tmp/geobpe_smoke2/bpe_iter=0.pkl")
+_DEFAULT_GEO_BPE_CKPT = Path(__file__).parents[3] / "checkpoints" / "bpe_iter=0.pkl"
 _GEO_BPE_ROOT = Path(__file__).parents[3] / "external_repos" / "Geo_BPE" / "GeoBPE"
 _AA3 = {
     "A": "ALA", "C": "CYS", "D": "ASP", "E": "GLU", "F": "PHE",
@@ -171,7 +171,21 @@ def _encode_single_sample(
     coords: torch.Tensor,
     mask: torch.Tensor,
 ) -> Tuple[torch.Tensor, torch.Tensor, bool]:
-    worker = _GeoBPEWorker(Path(checkpoint_path), embedding_dim, random_seed)
+    # Cache the worker per process to avoid reloading the 12MB BPE pickle for every protein.
+    # ProcessPoolExecutor reuses worker processes across submitted jobs, so this module-level
+    # cache survives across many _encode_single_sample calls within the same worker.
+    global _CACHED_WORKER
+    try:
+        cached = _CACHED_WORKER
+    except NameError:
+        cached = None
+    key = (checkpoint_path, embedding_dim, random_seed)
+    if cached is None or cached[0] != key:
+        worker = _GeoBPEWorker(Path(checkpoint_path), embedding_dim, random_seed)
+        worker._lazy_init()
+        _CACHED_WORKER = (key, worker)
+    else:
+        worker = cached[1]
     protein = ProteinInput(
         coords=coords.unsqueeze(0),
         sequence=sequence.unsqueeze(0),
@@ -180,6 +194,10 @@ def _encode_single_sample(
     out = worker.encode(protein)
     success = bool(out.residue_embeddings.abs().sum().item() > 0)
     return out.residue_embeddings[0].cpu(), out.global_embedding[0].cpu(), success
+
+
+# Module-level cache for worker reuse across jobs in same process
+_CACHED_WORKER = None
 
 
 @register_encoder("geobpe")
@@ -202,6 +220,14 @@ class GeoBPEEncoder(BaseProteinEncoder):
         self.env_name = env_name
         self.num_workers = max(1, num_workers)
         self._worker = None
+        self._pool = None
+
+    def __del__(self):
+        if self._pool is not None:
+            try:
+                self._pool.shutdown(wait=False)
+            except Exception:
+                pass
 
     @property
     def bottleneck_class(self) -> BottleneckClass:
@@ -302,9 +328,11 @@ class GeoBPEEncoder(BaseProteinEncoder):
                         protein.coords[b].detach().cpu(),
                         protein.mask[b].detach().cpu(),
                     ))
-                with ProcessPoolExecutor(max_workers=self.num_workers) as ex:
-                    futures = [ex.submit(_encode_single_sample, *job) for job in jobs]
-                    results = [f.result() for f in futures]
+                # Reuse persistent pool across batches to avoid re-loading BPE model 16x per batch
+                if self._pool is None:
+                    self._pool = ProcessPoolExecutor(max_workers=self.num_workers)
+                futures = [self._pool.submit(_encode_single_sample, *job) for job in jobs]
+                results = [f.result() for f in futures]
                 residue_embeddings = torch.stack([r[0] for r in results], dim=0).to(protein.coords.device)
                 global_embedding = torch.stack([r[1] for r in results], dim=0).to(protein.coords.device)
                 return EncoderOutput(
@@ -313,5 +341,11 @@ class GeoBPEEncoder(BaseProteinEncoder):
                     metadata={"checkpoint_path": str(self.checkpoint_path), "embedding_dim": self._embedding_dim},
                 )
             except Exception:
-                pass
+                # Pool may have died; reset and fall through to subprocess fallback
+                if self._pool is not None:
+                    try:
+                        self._pool.shutdown(wait=False)
+                    except Exception:
+                        pass
+                    self._pool = None
         return self._run_in_geobpe_env(protein)

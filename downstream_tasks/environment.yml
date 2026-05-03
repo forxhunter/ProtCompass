@@ -1,0 +1,59 @@
+name: structembed_downstream
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Core scientific stack
+  - numpy>=1.26
+  - scipy>=1.11
+  - pandas>=2.0
+  - matplotlib>=3.8
+
+  # PyTorch — adjust cuda version to match target cluster (cu118/cu121/cu124/cu128)
+  - pytorch>=2.2
+  - pytorch-cuda=12.1        # change to 11.8 or 12.4 if needed
+  - torchvision
+
+  - pip:
+    # Scikit-learn (probe training)
+    - scikit-learn>=1.4
+
+    # Data I/O
+    - lmdb>=1.4
+    - msgpack>=1.0
+    - msgpack-numpy>=0.4
+
+    # PyG ecosystem — install AFTER torch, match torch+cuda version
+    # See https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+    - torch-geometric>=2.5
+    - torch_scatter>=2.1        # may need --find-links for your cuda version
+    - torch_sparse>=0.6
+
+    # Protein language models
+    - fair-esm>=2.0.0           # ESM-1b, ESM-IF, ESM-2 (Facebook ESM)
+    - esm>=3.1.0                # ESM-3 (EvolutionaryScale)
+    - transformers>=4.40        # ProteinBERT, ProstT5, ProtTrans (via HuggingFace)
+    - sentencepiece>=0.1.99
+    - tokenizers>=0.19
+    - huggingface_hub>=0.22
+
+    # Protein structure / bio utils
+    - einops>=0.7
+    - biopython>=1.83
+    - biotite>=0.34             # pin if using GeoBPE encoder: biotite==0.34.0
+    - biotraj>=1.0
+
+    # Training utilities
+    - pytorch-lightning>=2.1
+    - torchmetrics>=1.0
+
+    # ProteinWorkshop CLI (for data download)
+    # Install from source if pip version has import errors:
+    # pip install git+https://github.com/a-r-j/ProteinWorkshop.git
+    - proteinworkshop>=0.4

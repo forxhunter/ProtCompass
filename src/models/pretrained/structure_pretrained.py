@@ -11,7 +11,7 @@ from src.models.base_encoder import register_encoder
 try:
     from src.models.class_c.gvp_encoder import GVPEncoder
     GVP_AVAILABLE = True
-except ImportError:
+except (ImportError, OSError):
     GVP_AVAILABLE = False
 
 from src.models.class_c.egnn_encoder import EGNNEncoder
@@ -28,7 +28,7 @@ from src.models.class_c.gcpnet_encoder import GCPNetEncoder
 try:
     from src.models.class_c.cdconv_encoder import CDConvEncoder
     CDCONV_AVAILABLE = True
-except (ImportError, FileNotFoundError):
+except (ImportError, FileNotFoundError, OSError):
     CDCONV_AVAILABLE = False
 
 from src.models.class_b.dmasif_encoder import dMaSIFEncoder
