@@ -34,7 +34,75 @@ The current codebase is organized into key modules to facilitate experimentation
 - **`figures/`**
   Contains the main paper graphics, including the `main.png` framework overview.
 
-- **`structure_encoder_data/` & `esm3-sm-open-v1/`**
-  Required structural data samples, generated embeddings, and caches for executing the individual evaluations (like ESM-3).
+- **`external_repos/`**
+  Third-party encoder implementations. See [EXTERNAL_REPOS.md](EXTERNAL_REPOS.md) for installation instructions and links to original repositories.
+
+**Note:** Large datasets and pre-computed embeddings are hosted on HuggingFace (see Data Download section below).
+
+---
+
+## Data Download
+
+This repository contains only the source code. Large datasets and pre-computed embeddings are hosted on HuggingFace:
+
+### Datasets (ProtEnv)
+Download raw datasets and predicted structures from HuggingFace:
+
+```bash
+# Install HuggingFace CLI
+pip install huggingface_hub
+
+# Download datasets (117GB)
+huggingface-cli download Anonymoususer2223/ProtEnv \
+    --repo-type dataset \
+    --local-dir structure_encoder_data
+```
+
+**Contents:**
+- Raw sequences, labels, and LMDB files for all tasks
+- PDB structure cache (46GB)
+- TAPE benchmark datasets
+- ProteinWorkshop tasks
+- ProteinGym mutation data
+- And more (see [ProtEnv README](https://huggingface.co/datasets/Anonymoususer2223/ProtEnv))
+
+### Pre-computed Embeddings (ProtCompass_Embeddings)
+Download pre-computed embeddings and evaluation results:
+
+```bash
+# Download embeddings and results (~150GB compressed)
+huggingface-cli download Anonymoususer2223/ProtCompass_Embeddings \
+    --repo-type dataset \
+    --local-dir .
+```
+
+**Contents:**
+- Pre-computed embeddings from 70+ encoders across 13 tasks (compressed)
+- Probing task embeddings and results
+- Evaluation results for all encoder-task combinations
+- Analysis outputs and paper figures
+
+**Decompression:**
+```bash
+# Decompress all tasks
+cd embeddings/
+for f in *.tar.gz; do tar -xzf "$f"; done
+
+# Or decompress specific task
+tar -xzf secondary_structure.tar.gz
+
+# Or decompress specific encoder (for large tasks)
+cd contact_prediction/
+tar -xzf esm2.tar.gz
+```
+
+### External Encoder Repositories
+Clone third-party encoder implementations:
+
+```bash
+# See EXTERNAL_REPOS.md for detailed instructions
+cd external_repos
+# Follow installation instructions in EXTERNAL_REPOS.md
+```
 
 ---
