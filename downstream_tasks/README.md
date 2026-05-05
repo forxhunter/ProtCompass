@@ -21,7 +21,7 @@ Twelve tasks spanning five biological application domains, drawn from three esta
 | ID | Task | Metric | Dataset | Source |
 |----|------|--------|---------|--------|
 | T1 | Secondary structure | Q3 accuracy | CB513 (513 test) | TAPE |
-| T2 | Contact prediction | Precision@L/5 | ProteinNet (40 test) | TAPE |
+| T2 | Contact prediction | top L/5 | ProteinNet (40 test) | TAPE |
 | T3 | Remote homology | Fold accuracy | SCOP fold holdout (718 test) | TAPE |
 
 ### Fitness & stability (TAPE)
