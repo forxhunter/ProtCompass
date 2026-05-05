@@ -38,8 +38,8 @@ Twelve tasks spanning five biological application domains, drawn from three esta
 | ID | Task | Metric | Dataset | Source |
 |----|------|--------|---------|--------|
 | T4 | EC reaction class | Accuracy | 384 classes, 5.6K test | ProteinWorkshop |
-| T5 | GO molecular function | Fmax | 489 terms, 3.4K test | ProteinWorkshop |
-| T6 | GO biological process | Fmax | 1943 terms, 3.4K test | ProteinWorkshop |
+| T5 | GO molecular function | $F_{max}$ | 489 terms, 3.4K test | ProteinWorkshop |
+| T6 | GO biological process | $F_{max}$ | 1943 terms, 3.4K test | ProteinWorkshop |
 
 ### Interaction & binding (ProteinWorkshop)
 
