@@ -1,4 +1,4 @@
-# <img src="figures/icon.png" alt="ProtEncEval Icon" width="100" align="left" style="margin-right: 10px" /> ProtEncEval: What Protein Structure Encoders Know, What Biological Tasks Require, and How to Choose the Right Model
+# <img src="figures/icon.png" alt="ProtEncEval Icon" width="100" align="left" style="margin-right: 10px" /> ProtCompass: Benchmarking Protein Encodersvia Invariant Information Property Probing and Alignment to Downstream Task Demands
 
 <p align="center">
   <img src="figures/main.jpg" alt="ProtEncEval Framework" width="800">
