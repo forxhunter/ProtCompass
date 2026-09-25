@@ -300,7 +300,8 @@ matches, see `protcompass/ENVIRONMENT.md`).
 | `protcompass/confirmation*/`, `protcompass/prereg/` | confirmation cohorts, frozen hypotheses and decisions |
 | `protcompass/contact_task/`, `protcompass/masif_site/` | residue-pair and residue-level tasks |
 | `protcompass/atlas/` | latent-space atlas summary |
-| `protcompass/leace_check/` | comparison of the eraser with the reference LEACE implementation |
+| `protcompass/qd/leace_check/` | comparison of the eraser with the reference LEACE implementation |
+| `protcompass/qd/gfp_competing/`, `protcompass/qd/stability_competing/` | pre-specifications of the competing-explanation panels on fluorescence and stability |
 | `protcompass/audit/` | inputs and results of the withdrawn correlational analysis |
 | `protcompass/paper/generated/` | the LaTeX tables as they appear in the paper; scripts that emit tables write here |
 | `protcompass/paper/figures/` | scripts that draw figures write here |
@@ -491,9 +492,9 @@ numbers (the paper versions add layout commands).
 | Appendix: variance removed on the two machines | – | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/named_pair_cells_full.csv` | repo |
 | Appendix Table: matched null stage 1 | `scripts/matched_null_stage1_report.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/matched_null_stage1.csv`, `erasure/named_pair_verdicts_full.csv`, `extract/scores2_selected.csv`, `extract/scores2_long.csv`, `erasure/parts_matched/*.csv`, `paper/generated/matched_null_stage1.tex` | repo |
 | Appendix: EC rows of the named pairs | – | `paper/generated/named_pairs_full.tex`, `paper/generated/bighead_holdout.tex` | repo |
-| Appendix: fluorescence competing explanations | `scripts/gfp_competing.py`, `scripts/gfp_competing_groups.py`, `scripts/gfp_competing_report.py` | `erasure/gfp_competing/verdicts.csv`, `erasure/gfp_competing/cells_summary.csv`, `erasure/gfp_competing/covariates.csv` | repo |
-| Appendix: stability competing explanations | `scripts/stability_competing.py` | `erasure/stability_competing/verdicts.csv`, `erasure/stability_competing/cells_summary.csv`, `erasure/stability_competing/rerun_vs_released.csv` | repo |
-| Appendix: eraser against reference LEACE | `leace_check/leace_check.py`, `leace_check/basis_panel.py`, `leace_check/exact_panel.py`, `leace_check/identity_check.py`, `leace_check/summarize.py`, `leace_check/floor_test.py` | `leace_check/results.csv`, `leace_check/results_basis.csv`, `leace_check/results_basis_panel.csv`, `leace_check/identity_check.csv` | repo |
+| Appendix: fluorescence competing explanations | `scripts/gfp_competing.py`, `scripts/gfp_competing_groups.py`, `scripts/gfp_competing_report.py` | `erasure/gfp_competing/verdicts.csv`, `erasure/gfp_competing/cells_summary.csv`, `erasure/gfp_competing/covariates.csv`, `qd/gfp_competing/PRESPEC.md` | repo |
+| Appendix: stability competing explanations | `scripts/stability_competing.py` | `erasure/stability_competing/verdicts.csv`, `erasure/stability_competing/cells_summary.csv`, `erasure/stability_competing/rerun_vs_released.csv`, `qd/stability_competing/PRESPEC.md` | repo |
+| Appendix: eraser against reference LEACE | `qd/leace_check/leace_check.py`, `qd/leace_check/basis_panel.py`, `qd/leace_check/exact_panel.py`, `qd/leace_check/identity_check.py`, `qd/leace_check/summarize.py`, `qd/leace_check/floor_test.py` | `qd/leace_check/results.csv`, `qd/leace_check/results_basis.csv`, `qd/leace_check/results_basis_panel.csv`, `qd/leace_check/identity_check.csv` | repo |
 | Appendix: permuted-descriptor null of the repair | `scripts/repair_permuted_null.py` | `erasure/repair_permuted_null_full.csv`, `erasure/repair_permuted_null_pairs_full.csv` | repo |
 | Appendix: repair with an MLP head | `scripts/named_pair_verdicts.py`, `scripts/mlp_repair_summary.py` | `erasure/named_pair_mlp_summary.csv`, `erasure/named_pair_verdicts_mlp.csv` | repo |
 | Appendix Table: family-weighted repair | `scripts/family_weighted_repair.py` | `erasure/family_weighted_repair_full.csv`, `paper/generated/family_weighted_repair_full.tex` | repo |

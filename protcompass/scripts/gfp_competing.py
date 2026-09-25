@@ -1,6 +1,6 @@
 """The fluorescence repair contrast with simple competing explanations in every arm.
 
-Pre-specification: manuscript/ICLR/QuestionDrivenVersion/gfp_competing/PRESPEC.md (written before any result).
+Pre-specification: protcompass/qd/gfp_competing/PRESPEC.md (written before any result).
 The arms, eraser, variance-matched nulls, head and descriptor are those of scripts/addback_named_pairs.py; the only
 change is a block of competing covariates C appended to every arm, so the repair of property p is measured as
 

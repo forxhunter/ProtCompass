@@ -3,7 +3,7 @@ For three encoders and two fluorescence properties: the covariance spectrum agai
 recomputed with a floor relative to the spectrum (1e-6 x largest eigenvalue) against the official exact map."""
 import os as _os  # release: repository root, override with the PROTCOMPASS_ROOT environment variable
 PROTCOMPASS_ROOT = _os.environ.get("PROTCOMPASS_ROOT") or _os.path.abspath(
-    _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "../.."))
+    _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "../../.."))
 import sys
 import numpy as np
 import pandas as pd

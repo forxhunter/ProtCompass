@@ -1,6 +1,6 @@
 """The stability repair contrast for amino-acid composition with simple competing explanations in every arm.
 
-Pre-specification: manuscript/ICLR/QuestionDrivenVersion/stability_competing/PRESPEC.md (written before any result).
+Pre-specification: protcompass/qd/stability_competing/PRESPEC.md (written before any result).
 Arms, eraser, shams, variance-matched nulls, head and descriptor are those of scripts/addback_named_pairs.py; the
 changes are a block of competing covariates C appended to every arm (computed in the same run as the arms without
 C) and a second test metric, the within-parent Spearman, read from the same fitted heads.

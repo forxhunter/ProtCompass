@@ -16,7 +16,7 @@ the repair rule names, over the panel, three ways:
 """
 import os as _os  # release: repository root, override with the PROTCOMPASS_ROOT environment variable
 PROTCOMPASS_ROOT = _os.environ.get("PROTCOMPASS_ROOT") or _os.path.abspath(
-    _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "../.."))
+    _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "../../.."))
 import sys
 from pathlib import Path
 
