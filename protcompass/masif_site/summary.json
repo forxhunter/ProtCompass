@@ -1,0 +1,21 @@
+{
+ "entries": 3362,
+ "kept": 3327,
+ "excluded": {
+  "missing_file": 5,
+  "multi_chain_target": 30
+ },
+ "chains_per_split": {
+  "train": 2677,
+  "val": 297,
+  "test": 353
+ },
+ "residues": 647332,
+ "interface_rate": 0.2444557043371871,
+ "interface_rate_per_split": {
+  "train": 0.25911414573866065,
+  "val": 0.2589562818498793,
+  "test": 0.17743450129662017
+ },
+ "length_median": 179.0
+}

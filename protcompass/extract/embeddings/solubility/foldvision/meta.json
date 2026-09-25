@@ -1,0 +1,42 @@
+{
+ "encoder": "foldvision",
+ "family": "patched",
+ "target": "foldvision_global",
+ "weights": "pretrained",
+ "rule": "native FoldVisionEncoder.encode global embedding; no residue states",
+ "env": "base",
+ "checkpoint": "AlexanderKroll/foldvision-encoder",
+ "n_parameters": 122226304,
+ "inputs_passed": "the structure file as given (all atoms present in it), voxelised by FoldVision's own preprocessing",
+ "patch": "patched/foldvision_global.py",
+ "residue_level": false,
+ "pose": "principal-axis pose with fixed axis signs, applied to the structure file before voxelisation",
+ "task": "solubility",
+ "date": "2026-09-19 22:40",
+ "seconds": 1539.1,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/solubility.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 1329,
+  "train": 5417,
+  "valid": 1363
+ },
+ "health": {
+  "n_rows": 8109,
+  "dim": 1024,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 8109,
+  "numerical_rank": 1024,
+  "max_abs": 4.743042469024658
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.9399117827415466,
+  "rel_change_coord_swap": 0.19160349667072296,
+  "rel_change_seq_shuffle": 0.029323811642825603,
+  "rel_change_rigid_motion": 0.0002744854864431545,
+  "verdict": "pass"
+ }
+}

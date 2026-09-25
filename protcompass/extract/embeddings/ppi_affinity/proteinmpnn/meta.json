@@ -1,0 +1,39 @@
+{
+ "encoder": "proteinmpnn",
+ "family": "registry",
+ "target": "proteinmpnn_pretrained",
+ "weights": "pretrained",
+ "rule": "encoder h_V after 3 encoder layers, before the decoder",
+ "env": "base",
+ "checkpoint": "protcompass/checkpoints/proteinmpnn_v48_020.pt",
+ "checkpoint_sha256": "c9cb4a671d796041",
+ "checkpoint_loaded_by": "wrapper load_pretrained()",
+ "weights_sha256": "01d6f9d31117f274",
+ "n_parameters": 1660485,
+ "task": "ppi_affinity",
+ "date": "2026-09-19 19:23",
+ "seconds": 54.4,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 2589,
+  "numerical_rank": 127,
+  "max_abs": 3.3200459480285645
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.2876636765789369,
+  "rel_change_coord_swap": 0.1046977269374211,
+  "rel_change_seq_shuffle": 0.0,
+  "rel_change_rigid_motion": 1.6183316549153264e-07,
+  "verdict": "pass"
+ }
+}

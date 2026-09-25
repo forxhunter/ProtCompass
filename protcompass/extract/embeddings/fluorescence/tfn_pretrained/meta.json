@@ -1,0 +1,41 @@
+{
+ "encoder": "tfn_pretrained",
+ "family": "registry",
+ "target": "tfn_pretrained",
+ "weights": "pretrained",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "protcompass/checkpoints/tfn_pretrained/best.pt",
+ "checkpoint_sha256": "17af58de61a4674c",
+ "checkpoint_loaded_by": "strict load of 'encoder_state': 39 of 39 tensors",
+ "weights_sha256": "a7afc00e258bf380",
+ "n_parameters": 250880,
+ "task": "fluorescence",
+ "date": "2026-09-19 20:57",
+ "seconds": 24.1,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/fluorescence.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 112,
+  "max_abs": 0.7016122937202454
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.038222529170867006,
+  "rel_change_coord_swap": 0.07263559081160287,
+  "rel_change_seq_shuffle": 0.2809558822048089,
+  "rel_change_rigid_motion": 9.755790208858476e-08,
+  "verdict": "pass"
+ }
+}

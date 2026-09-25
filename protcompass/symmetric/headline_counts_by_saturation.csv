@@ -1,0 +1,13 @@
+labels,subset,cells,below,unresolved,above
+saturated,all coordinate,112,112,0,0
+saturated,pretrained coordinate,62,62,0,0
+saturated,"pretrained coordinate, $\geq$100M",17,17,0,0
+saturated,sequence-only,50,0,0,50
+contained,all coordinate,45,45,0,0
+contained,pretrained coordinate,25,25,0,0
+contained,"pretrained coordinate, $\geq$100M",7,7,0,0
+contained,sequence-only,20,0,0,20
+open,all coordinate,88,74,3,11
+open,pretrained coordinate,48,35,3,10
+open,"pretrained coordinate, $\geq$100M",12,6,0,6
+open,sequence-only,40,0,0,40

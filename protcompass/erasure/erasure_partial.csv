@@ -1,0 +1,629 @@
+task,encoder,concept,rank,base,after_erasure,after_random,effect,concept_before,concept_after,erasure_ok
+stability,ankh_base,secondary structure content,2,0.539,0.443,0.6,0.158,0.95,-0.25,True
+stability,ankh_base,burial and packing,2,0.539,0.362,0.6,0.238,0.82,-0.03,True
+stability,ankh_base,global shape,3,0.539,0.443,0.603,0.16,0.34,-0.11,True
+stability,ankh_base,contact order,1,0.539,0.393,0.601,0.208,0.95,0.63,False
+stability,ankh_base,size,1,0.539,0.678,0.601,-0.078,0.57,-0.14,True
+stability,ankh_base,amino-acid composition,18,0.539,0.463,0.604,0.141,0.93,0.02,True
+stability,ankh_base,hydrophobic fraction,1,0.539,0.57,0.601,0.031,0.99,-0.45,True
+stability,ankh_base,charge,2,0.539,0.564,0.6,0.036,0.99,-0.24,True
+stability,cdconv,secondary structure content,2,0.438,0.38,0.457,0.077,0.93,-0.14,True
+stability,cdconv,burial and packing,2,0.438,0.406,0.457,0.052,0.95,-0.5,True
+stability,cdconv,global shape,3,0.438,0.422,0.463,0.041,0.69,0.29,True
+stability,cdconv,contact order,1,0.438,0.375,0.459,0.084,0.97,0.46,True
+stability,cdconv,size,1,0.438,0.431,0.459,0.028,0.31,0.19,False
+stability,cdconv,amino-acid composition,18,0.438,0.346,0.475,0.129,0.95,0.03,True
+stability,cdconv,hydrophobic fraction,1,0.438,0.488,0.459,-0.029,1.0,-0.28,True
+stability,cdconv,charge,2,0.438,0.434,0.457,0.023,1.0,0.08,True
+stability,dimenet,secondary structure content,2,0.406,0.288,0.402,0.114,0.81,-0.1,True
+stability,dimenet,burial and packing,2,0.406,0.276,0.402,0.126,0.87,-0.13,True
+stability,dimenet,global shape,3,0.406,0.307,0.399,0.091,0.7,0.25,True
+stability,dimenet,contact order,1,0.406,0.257,0.401,0.143,0.73,0.3,True
+stability,dimenet,size,1,0.406,0.368,0.401,0.033,0.29,0.16,False
+stability,dimenet,amino-acid composition,18,0.406,0.4,0.401,0.001,0.95,-0.05,True
+stability,dimenet,hydrophobic fraction,1,0.406,0.497,0.401,-0.096,1.0,-0.28,True
+stability,dimenet,charge,2,0.406,0.409,0.402,-0.008,1.0,0.01,True
+stability,esm1b,secondary structure content,2,0.671,0.669,0.657,-0.012,0.91,-0.31,True
+stability,esm1b,burial and packing,2,0.671,0.507,0.657,0.15,0.71,-0.17,True
+stability,esm1b,global shape,3,0.671,0.5,0.656,0.156,0.41,-0.29,True
+stability,esm1b,contact order,1,0.671,0.608,0.657,0.048,0.89,0.61,False
+stability,esm1b,size,1,0.671,0.702,0.657,-0.045,0.68,0.03,True
+stability,esm1b,amino-acid composition,18,0.671,0.625,0.658,0.033,0.92,0.01,True
+stability,esm1b,hydrophobic fraction,1,0.671,0.667,0.657,-0.01,0.96,-0.42,True
+stability,esm1b,charge,2,0.671,0.662,0.657,-0.005,0.98,-0.21,True
+stability,esm2_150m,secondary structure content,2,0.602,0.541,0.588,0.047,0.91,-0.22,True
+stability,esm2_150m,burial and packing,2,0.602,0.4,0.588,0.188,0.68,-0.27,True
+stability,esm2_150m,global shape,3,0.602,0.385,0.59,0.205,0.37,-0.17,True
+stability,esm2_150m,contact order,1,0.602,0.476,0.59,0.114,0.85,0.69,False
+stability,esm2_150m,size,1,0.602,0.624,0.59,-0.034,0.43,0.53,False
+stability,esm2_150m,amino-acid composition,18,0.602,0.566,0.599,0.033,0.93,0.05,True
+stability,esm2_150m,hydrophobic fraction,1,0.602,0.631,0.59,-0.041,0.97,-0.6,True
+stability,esm2_150m,charge,2,0.602,0.585,0.588,0.003,0.99,-0.31,True
+stability,esm2_35m,secondary structure content,2,0.445,0.389,0.443,0.054,0.92,-0.25,True
+stability,esm2_35m,burial and packing,2,0.445,0.325,0.443,0.117,0.77,-0.09,True
+stability,esm2_35m,global shape,3,0.445,0.372,0.445,0.072,0.43,-0.01,True
+stability,esm2_35m,contact order,1,0.445,0.333,0.442,0.109,0.89,0.65,False
+stability,esm2_35m,size,1,0.445,0.48,0.442,-0.038,0.38,-0.33,True
+stability,esm2_35m,amino-acid composition,18,0.445,0.479,0.448,-0.031,0.93,0.01,True
+stability,esm2_35m,hydrophobic fraction,1,0.445,0.532,0.442,-0.091,0.98,-0.38,True
+stability,esm2_35m,charge,2,0.445,0.465,0.443,-0.023,0.99,-0.17,True
+stability,esm2_3b,secondary structure content,2,0.623,0.514,0.58,0.065,0.96,-0.23,True
+stability,esm2_3b,burial and packing,2,0.623,0.34,0.58,0.24,0.85,-0.38,True
+stability,esm2_3b,global shape,3,0.623,0.484,0.58,0.096,0.59,-0.02,True
+stability,esm2_3b,contact order,1,0.623,0.437,0.58,0.143,0.94,0.6,False
+stability,esm2_3b,size,1,0.623,0.654,0.58,-0.074,0.7,-0.47,True
+stability,esm2_3b,amino-acid composition,18,0.623,0.572,0.579,0.007,0.92,-0.01,True
+stability,esm2_3b,hydrophobic fraction,1,0.623,0.612,0.58,-0.033,0.95,-0.53,True
+stability,esm2_3b,charge,2,0.623,0.587,0.58,-0.007,0.98,-0.03,True
+stability,esm2_650m,secondary structure content,2,0.413,0.344,0.413,0.069,0.95,-0.32,True
+stability,esm2_650m,burial and packing,2,0.413,0.231,0.413,0.182,0.75,-0.41,True
+stability,esm2_650m,global shape,3,0.413,0.333,0.414,0.081,0.61,-0.09,True
+stability,esm2_650m,contact order,1,0.413,0.262,0.413,0.151,0.91,0.71,False
+stability,esm2_650m,size,1,0.413,0.524,0.413,-0.111,0.45,-0.39,True
+stability,esm2_650m,amino-acid composition,18,0.413,0.419,0.408,-0.011,0.93,0.02,True
+stability,esm2_650m,hydrophobic fraction,1,0.413,0.478,0.413,-0.064,0.98,-0.46,True
+stability,esm2_650m,charge,2,0.413,0.445,0.413,-0.032,0.99,-0.37,True
+stability,esm2_8m,secondary structure content,2,0.62,0.603,0.629,0.026,0.89,-0.14,True
+stability,esm2_8m,burial and packing,2,0.62,0.55,0.629,0.079,0.74,-0.54,True
+stability,esm2_8m,global shape,3,0.62,0.601,0.627,0.026,0.46,0.0,True
+stability,esm2_8m,contact order,1,0.62,0.548,0.629,0.081,0.89,0.52,False
+stability,esm2_8m,size,1,0.62,0.636,0.629,-0.007,0.27,0.3,False
+stability,esm2_8m,amino-acid composition,18,0.62,0.631,0.63,-0.0,0.93,0.02,True
+stability,esm2_8m,hydrophobic fraction,1,0.62,0.66,0.629,-0.031,0.98,-0.45,True
+stability,esm2_8m,charge,2,0.62,0.616,0.629,0.014,0.99,-0.3,True
+stability,esm3,secondary structure content,2,0.67,0.65,0.688,0.039,0.99,-0.37,True
+stability,esm3,burial and packing,2,0.67,0.618,0.688,0.071,0.97,-0.12,True
+stability,esm3,global shape,3,0.67,0.634,0.689,0.054,0.83,-0.01,True
+stability,esm3,contact order,1,0.67,0.618,0.689,0.07,0.99,0.5,False
+stability,esm3,size,1,0.67,0.725,0.689,-0.037,0.39,0.14,True
+stability,esm3,amino-acid composition,18,0.67,0.656,0.688,0.031,0.92,0.03,True
+stability,esm3,hydrophobic fraction,1,0.67,0.655,0.689,0.034,0.96,-0.44,True
+stability,esm3,charge,2,0.67,0.683,0.688,0.006,0.99,-0.19,True
+stability,esm_if1,secondary structure content,2,0.19,0.142,0.184,0.042,0.98,-0.33,True
+stability,esm_if1,burial and packing,2,0.19,0.114,0.184,0.07,0.96,-0.22,True
+stability,esm_if1,global shape,3,0.19,0.161,0.183,0.023,0.82,0.12,True
+stability,esm_if1,contact order,1,0.19,0.058,0.182,0.125,0.98,0.33,True
+stability,esm_if1,size,1,0.19,0.215,0.182,-0.033,0.63,0.33,False
+stability,esm_if1,amino-acid composition,18,0.19,0.238,0.184,-0.054,0.51,0.02,True
+stability,esm_if1,hydrophobic fraction,1,0.19,0.312,0.182,-0.13,0.7,-0.38,True
+stability,esm_if1,charge,2,0.19,0.163,0.184,0.021,0.66,-0.28,True
+stability,foldseek_3di,secondary structure content,2,0.35,0.329,0.362,0.033,0.95,-0.08,True
+stability,foldseek_3di,burial and packing,2,0.35,0.291,0.362,0.071,0.83,-0.38,True
+stability,foldseek_3di,global shape,3,0.35,0.415,0.361,-0.053,0.68,-0.1,True
+stability,foldseek_3di,contact order,1,0.35,0.183,0.356,0.173,0.93,0.64,False
+stability,foldseek_3di,size,1,0.35,0.324,0.356,0.031,-0.29,-0.09,False
+stability,foldseek_3di,hydrophobic fraction,1,0.35,0.543,0.356,-0.187,0.57,-0.55,True
+stability,foldseek_3di,charge,2,0.35,0.334,0.362,0.028,0.56,-0.22,True
+stability,foldvision,secondary structure content,2,0.438,0.445,0.483,0.037,0.64,-0.22,True
+stability,foldvision,burial and packing,2,0.438,0.39,0.483,0.093,0.85,-0.29,True
+stability,foldvision,global shape,3,0.438,0.453,0.483,0.03,0.43,-0.16,True
+stability,foldvision,contact order,1,0.438,0.445,0.483,0.039,0.93,0.43,True
+stability,foldvision,size,1,0.438,0.469,0.483,0.014,0.69,-0.55,True
+stability,foldvision,amino-acid composition,18,0.438,0.539,0.483,-0.056,0.53,0.04,True
+stability,foldvision,hydrophobic fraction,1,0.438,0.535,0.483,-0.051,0.77,-0.51,True
+stability,foldvision,charge,2,0.438,0.501,0.483,-0.018,0.81,-0.06,True
+stability,gcpnet_pretrained,secondary structure content,2,0.319,0.297,0.367,0.07,0.93,-0.11,True
+stability,gcpnet_pretrained,burial and packing,2,0.319,0.29,0.367,0.077,0.77,-0.22,True
+stability,gcpnet_pretrained,global shape,3,0.319,0.304,0.367,0.064,0.56,0.07,True
+stability,gcpnet_pretrained,contact order,1,0.319,0.226,0.365,0.139,0.94,0.71,False
+stability,gcpnet_pretrained,size,1,0.319,0.363,0.365,0.001,0.0,0.01,False
+stability,gcpnet_pretrained,amino-acid composition,18,0.319,0.355,0.367,0.012,0.72,-0.03,True
+stability,gcpnet_pretrained,hydrophobic fraction,1,0.319,0.423,0.365,-0.058,0.88,-0.1,True
+stability,gcpnet_pretrained,charge,2,0.319,0.322,0.367,0.045,0.91,-0.31,True
+stability,gcpnet_random,secondary structure content,2,0.065,0.022,0.062,0.039,0.95,-0.05,True
+stability,gcpnet_random,burial and packing,2,0.065,-0.075,0.062,0.136,0.79,-0.21,True
+stability,gcpnet_random,global shape,3,0.065,-0.036,0.058,0.094,0.52,0.13,True
+stability,gcpnet_random,contact order,1,0.065,-0.067,0.058,0.125,0.96,0.45,True
+stability,gcpnet_random,size,1,0.065,0.103,0.058,-0.045,0.3,-0.07,True
+stability,gcpnet_random,amino-acid composition,18,0.065,0.074,0.035,-0.039,0.8,0.01,True
+stability,gcpnet_random,hydrophobic fraction,1,0.065,0.148,0.058,-0.09,0.94,-0.27,True
+stability,gcpnet_random,charge,2,0.065,0.052,0.062,0.009,0.96,-0.0,True
+stability,gearnet,secondary structure content,2,0.426,0.296,0.427,0.131,0.81,-0.21,True
+stability,gearnet,burial and packing,2,0.426,0.164,0.427,0.263,0.78,-0.54,True
+stability,gearnet,global shape,3,0.426,0.224,0.428,0.204,0.12,0.15,False
+stability,gearnet,contact order,1,0.426,0.254,0.429,0.174,0.71,0.37,False
+stability,gearnet,size,1,0.426,0.473,0.429,-0.044,0.28,0.36,False
+stability,gearnet,amino-acid composition,18,0.426,0.382,0.424,0.042,0.95,-0.09,True
+stability,gearnet,hydrophobic fraction,1,0.426,0.525,0.429,-0.096,1.0,-0.29,True
+stability,gearnet,charge,2,0.426,0.409,0.427,0.018,1.0,0.06,True
+stability,gearnet_pretrained,secondary structure content,2,0.207,0.127,0.211,0.084,0.55,0.09,True
+stability,gearnet_pretrained,burial and packing,2,0.207,0.149,0.211,0.062,0.52,-0.27,True
+stability,gearnet_pretrained,global shape,3,0.207,0.162,0.211,0.049,0.11,0.04,True
+stability,gearnet_pretrained,contact order,1,0.207,0.157,0.212,0.055,0.33,-0.14,True
+stability,gearnet_pretrained,size,1,0.207,0.262,0.212,-0.05,0.07,-0.09,True
+stability,gearnet_pretrained,amino-acid composition,18,0.207,0.291,0.211,-0.079,0.51,0.01,True
+stability,gearnet_pretrained,hydrophobic fraction,1,0.207,0.303,0.212,-0.091,0.46,-0.02,True
+stability,gearnet_pretrained,charge,2,0.207,0.221,0.211,-0.01,0.6,-0.23,True
+stability,gvp,secondary structure content,2,0.393,0.316,0.388,0.073,0.9,-0.07,True
+stability,gvp,burial and packing,2,0.393,0.355,0.388,0.033,0.95,-0.15,True
+stability,gvp,global shape,3,0.393,0.401,0.389,-0.012,0.8,0.33,True
+stability,gvp,contact order,1,0.393,0.178,0.386,0.208,0.92,0.34,True
+stability,gvp,size,1,0.393,0.432,0.386,-0.046,0.33,0.7,False
+stability,gvp,amino-acid composition,18,0.393,0.352,0.39,0.038,0.95,-0.05,True
+stability,gvp,hydrophobic fraction,1,0.393,0.551,0.386,-0.165,1.0,-0.23,True
+stability,gvp,charge,2,0.393,0.423,0.388,-0.035,1.0,0.01,True
+stability,ipa,secondary structure content,2,0.34,0.238,0.348,0.11,0.88,-0.1,True
+stability,ipa,burial and packing,2,0.34,0.308,0.348,0.04,0.29,-0.32,True
+stability,ipa,global shape,3,0.34,0.25,0.348,0.098,-0.06,0.36,False
+stability,ipa,contact order,1,0.34,0.303,0.338,0.035,0.74,0.3,True
+stability,ipa,size,1,0.34,0.378,0.338,-0.04,0.19,0.44,False
+stability,ipa,amino-acid composition,18,0.34,0.32,0.337,0.017,0.93,-0.02,True
+stability,ipa,hydrophobic fraction,1,0.34,0.402,0.338,-0.064,0.97,-0.29,True
+stability,ipa,charge,2,0.34,0.347,0.348,0.001,0.98,-0.06,True
+stability,ipa_pretrained,secondary structure content,2,0.19,0.133,0.202,0.069,0.79,-0.15,True
+stability,ipa_pretrained,burial and packing,2,0.19,0.113,0.202,0.088,0.76,-0.4,True
+stability,ipa_pretrained,global shape,3,0.19,0.142,0.2,0.058,0.46,-0.19,True
+stability,ipa_pretrained,contact order,1,0.19,0.103,0.201,0.098,0.79,0.48,False
+stability,ipa_pretrained,size,1,0.19,0.21,0.201,-0.009,0.06,0.08,False
+stability,ipa_pretrained,amino-acid composition,18,0.19,0.144,0.156,0.012,0.62,-0.0,True
+stability,ipa_pretrained,hydrophobic fraction,1,0.19,0.334,0.201,-0.133,0.67,0.07,True
+stability,ipa_pretrained,charge,2,0.19,0.221,0.202,-0.019,0.68,0.04,True
+stability,mace,secondary structure content,2,0.414,0.278,0.42,0.142,0.82,-0.1,True
+stability,mace,burial and packing,2,0.414,0.245,0.42,0.175,0.85,-0.25,True
+stability,mace,global shape,3,0.414,0.298,0.42,0.122,0.64,0.26,True
+stability,mace,contact order,1,0.414,0.291,0.423,0.133,0.81,0.34,True
+stability,mace,size,1,0.414,0.338,0.423,0.086,0.35,-0.23,True
+stability,mace,amino-acid composition,18,0.414,0.369,0.399,0.03,0.95,-0.01,True
+stability,mace,hydrophobic fraction,1,0.414,0.536,0.423,-0.113,1.0,-0.15,True
+stability,mace,charge,2,0.414,0.416,0.42,0.004,1.0,0.03,True
+stability,pottsmpnn,secondary structure content,2,0.014,-0.012,0.033,0.045,0.96,-0.13,True
+stability,pottsmpnn,burial and packing,2,0.014,-0.103,0.033,0.136,0.97,-0.41,True
+stability,pottsmpnn,global shape,3,0.014,-0.005,0.033,0.038,0.87,-0.14,True
+stability,pottsmpnn,contact order,1,0.014,-0.08,0.029,0.109,0.98,0.08,True
+stability,pottsmpnn,size,1,0.014,0.084,0.029,-0.055,1.0,0.37,True
+stability,pottsmpnn,amino-acid composition,18,0.014,0.158,0.089,-0.069,0.43,-0.07,True
+stability,pottsmpnn,hydrophobic fraction,1,0.014,0.334,0.029,-0.305,0.71,-0.26,True
+stability,pottsmpnn,charge,2,0.014,-0.037,0.033,0.07,0.57,-0.32,True
+stability,pottsmpnn_ft,secondary structure content,2,0.165,0.133,0.158,0.025,0.97,-0.26,True
+stability,pottsmpnn_ft,burial and packing,2,0.165,0.008,0.158,0.149,0.96,-0.53,True
+stability,pottsmpnn_ft,global shape,3,0.165,0.137,0.158,0.021,0.8,0.07,True
+stability,pottsmpnn_ft,contact order,1,0.165,0.008,0.171,0.163,0.97,0.51,False
+stability,pottsmpnn_ft,size,1,0.165,0.179,0.171,-0.008,0.35,0.27,False
+stability,pottsmpnn_ft,amino-acid composition,18,0.165,0.027,0.145,0.118,0.49,-0.01,True
+stability,pottsmpnn_ft,hydrophobic fraction,1,0.165,0.351,0.171,-0.181,0.68,-0.4,True
+stability,pottsmpnn_ft,charge,2,0.165,0.092,0.158,0.066,0.62,-0.24,True
+stability,pottsmpnn_pretrained,secondary structure content,2,0.107,0.096,0.113,0.017,0.98,-0.26,True
+stability,pottsmpnn_pretrained,burial and packing,2,0.107,0.034,0.113,0.079,0.96,-0.27,True
+stability,pottsmpnn_pretrained,global shape,3,0.107,0.085,0.113,0.027,0.78,0.16,True
+stability,pottsmpnn_pretrained,contact order,1,0.107,-0.047,0.116,0.162,0.97,0.45,True
+stability,pottsmpnn_pretrained,size,1,0.107,0.122,0.116,-0.006,0.57,0.18,True
+stability,pottsmpnn_pretrained,amino-acid composition,18,0.107,-0.055,0.091,0.146,0.51,0.06,True
+stability,pottsmpnn_pretrained,hydrophobic fraction,1,0.107,0.313,0.116,-0.198,0.69,-0.35,True
+stability,pottsmpnn_pretrained,charge,2,0.107,0.116,0.113,-0.003,0.69,-0.07,True
+stability,pottsmpnn_soluble,secondary structure content,2,0.223,0.18,0.243,0.063,0.98,-0.26,True
+stability,pottsmpnn_soluble,burial and packing,2,0.223,0.096,0.243,0.148,0.97,-0.25,True
+stability,pottsmpnn_soluble,global shape,3,0.223,0.172,0.245,0.074,0.82,0.2,True
+stability,pottsmpnn_soluble,contact order,1,0.223,0.049,0.235,0.186,0.97,0.62,False
+stability,pottsmpnn_soluble,size,1,0.223,0.236,0.235,-0.001,0.57,0.19,True
+stability,pottsmpnn_soluble,amino-acid composition,18,0.223,0.072,0.271,0.199,0.51,-0.06,True
+stability,pottsmpnn_soluble,hydrophobic fraction,1,0.223,0.329,0.235,-0.094,0.66,-0.32,True
+stability,pottsmpnn_soluble,charge,2,0.223,0.174,0.243,0.07,0.63,-0.41,True
+stability,prostt5,secondary structure content,2,0.485,0.47,0.497,0.027,0.97,-0.25,True
+stability,prostt5,burial and packing,2,0.485,0.325,0.497,0.172,0.83,-0.24,True
+stability,prostt5,global shape,3,0.485,0.387,0.497,0.109,0.64,0.06,True
+stability,prostt5,contact order,1,0.485,0.371,0.499,0.128,0.95,0.56,False
+stability,prostt5,size,1,0.485,0.563,0.499,-0.064,0.63,0.19,True
+stability,prostt5,amino-acid composition,18,0.485,0.525,0.499,-0.026,0.89,-0.01,True
+stability,prostt5,hydrophobic fraction,1,0.485,0.542,0.499,-0.043,0.97,-0.55,True
+stability,prostt5,charge,2,0.485,0.511,0.497,-0.014,0.98,-0.22,True
+stability,protbert_bfd,secondary structure content,2,0.534,0.451,0.52,0.07,0.93,-0.4,True
+stability,protbert_bfd,burial and packing,2,0.534,0.376,0.52,0.144,0.73,-0.19,True
+stability,protbert_bfd,global shape,3,0.534,0.442,0.52,0.078,0.47,0.19,True
+stability,protbert_bfd,contact order,1,0.534,0.433,0.519,0.086,0.9,0.52,False
+stability,protbert_bfd,size,1,0.534,0.58,0.519,-0.06,0.42,0.07,True
+stability,protbert_bfd,amino-acid composition,18,0.534,0.511,0.519,0.008,0.93,0.01,True
+stability,protbert_bfd,hydrophobic fraction,1,0.534,0.545,0.519,-0.026,0.99,-0.48,True
+stability,protbert_bfd,charge,2,0.534,0.534,0.52,-0.014,0.99,-0.16,True
+stability,proteinmpnn,secondary structure content,2,0.106,0.065,0.104,0.039,0.93,-0.17,True
+stability,proteinmpnn,burial and packing,2,0.106,-0.058,0.104,0.162,0.96,-0.47,True
+stability,proteinmpnn,global shape,3,0.106,0.035,0.098,0.063,0.94,-0.17,True
+stability,proteinmpnn,contact order,1,0.106,-0.049,0.104,0.154,0.98,0.58,False
+stability,proteinmpnn,size,1,0.106,0.147,0.104,-0.043,0.96,-0.02,True
+stability,proteinmpnn,amino-acid composition,18,0.106,0.37,0.055,-0.315,0.34,-0.05,True
+stability,proteinmpnn,hydrophobic fraction,1,0.106,0.313,0.104,-0.209,0.55,-0.68,True
+stability,proteinmpnn,charge,2,0.106,0.144,0.104,-0.041,0.56,-0.38,True
+stability,prottrans_t5_xl_u50,secondary structure content,2,0.737,0.69,0.758,0.068,0.94,-0.12,True
+stability,prottrans_t5_xl_u50,burial and packing,2,0.737,0.628,0.758,0.129,0.81,-0.57,True
+stability,prottrans_t5_xl_u50,global shape,3,0.737,0.682,0.758,0.075,0.6,-0.17,True
+stability,prottrans_t5_xl_u50,contact order,1,0.737,0.661,0.757,0.096,0.93,0.69,False
+stability,prottrans_t5_xl_u50,size,1,0.737,0.746,0.757,0.011,0.56,-0.51,True
+stability,prottrans_t5_xl_u50,amino-acid composition,18,0.737,0.707,0.756,0.048,0.92,0.02,True
+stability,prottrans_t5_xl_u50,hydrophobic fraction,1,0.737,0.697,0.757,0.06,0.98,-0.57,True
+stability,prottrans_t5_xl_u50,charge,2,0.737,0.714,0.758,0.044,0.99,-0.44,True
+stability,saprot,secondary structure content,2,0.623,0.572,0.619,0.047,0.98,-0.3,True
+stability,saprot,burial and packing,2,0.623,0.535,0.619,0.084,0.95,-0.17,True
+stability,saprot,global shape,3,0.623,0.553,0.619,0.066,0.76,0.03,True
+stability,saprot,contact order,1,0.623,0.541,0.619,0.078,0.97,0.49,False
+stability,saprot,size,1,0.623,0.641,0.619,-0.022,0.52,0.28,False
+stability,saprot,amino-acid composition,18,0.623,0.605,0.62,0.015,0.92,0.06,True
+stability,saprot,hydrophobic fraction,1,0.623,0.643,0.619,-0.024,0.96,-0.56,True
+stability,saprot,charge,2,0.623,0.625,0.619,-0.006,0.97,-0.15,True
+stability,schnet,secondary structure content,2,0.509,0.469,0.508,0.039,0.77,-0.03,True
+stability,schnet,burial and packing,2,0.509,0.442,0.508,0.066,0.95,-0.62,True
+stability,schnet,global shape,3,0.509,0.455,0.509,0.055,0.38,0.27,False
+stability,schnet,contact order,1,0.509,0.356,0.512,0.156,0.8,0.29,True
+stability,schnet,size,1,0.509,0.481,0.512,0.031,0.35,0.55,False
+stability,schnet,amino-acid composition,18,0.509,0.537,0.462,-0.075,0.95,-0.04,True
+stability,schnet,hydrophobic fraction,1,0.509,0.606,0.512,-0.093,1.0,-0.36,True
+stability,schnet,charge,2,0.509,0.513,0.508,-0.005,1.0,0.05,True
+stability,tfn,secondary structure content,2,0.472,0.224,0.47,0.246,0.82,-0.3,True
+stability,tfn,burial and packing,2,0.472,0.261,0.47,0.209,0.78,-0.53,True
+stability,tfn,global shape,3,0.472,0.23,0.477,0.247,0.24,0.13,False
+stability,tfn,contact order,1,0.472,0.271,0.469,0.199,0.66,0.19,True
+stability,tfn,size,1,0.472,0.404,0.469,0.065,0.48,0.62,False
+stability,tfn,amino-acid composition,18,0.472,0.437,0.484,0.047,0.94,-0.02,True
+stability,tfn,hydrophobic fraction,1,0.472,0.558,0.469,-0.089,0.99,-0.52,True
+stability,tfn,charge,2,0.472,0.491,0.47,-0.021,0.99,-0.17,True
+stability,tfn_pretrained,secondary structure content,2,0.302,0.216,0.281,0.064,0.79,-0.17,True
+stability,tfn_pretrained,burial and packing,2,0.302,0.172,0.281,0.109,0.73,-0.29,True
+stability,tfn_pretrained,global shape,3,0.302,0.209,0.281,0.072,0.33,0.11,True
+stability,tfn_pretrained,contact order,1,0.302,0.176,0.282,0.106,0.56,0.41,False
+stability,tfn_pretrained,size,1,0.302,0.275,0.282,0.007,0.28,-0.21,True
+stability,tfn_pretrained,amino-acid composition,18,0.302,0.32,0.277,-0.043,0.91,-0.06,True
+stability,tfn_pretrained,hydrophobic fraction,1,0.302,0.447,0.282,-0.165,0.98,-0.56,True
+stability,tfn_pretrained,charge,2,0.302,0.291,0.281,-0.011,0.98,0.09,True
+fluorescence,ankh_base,secondary structure content,2,0.592,0.588,0.591,0.003,0.45,-0.0,True
+fluorescence,ankh_base,burial and packing,2,0.592,0.528,0.591,0.062,0.46,-0.01,True
+fluorescence,ankh_base,global shape,3,0.592,0.559,0.591,0.032,0.34,-0.02,True
+fluorescence,ankh_base,contact order,1,0.592,0.558,0.591,0.033,0.49,-0.05,True
+fluorescence,ankh_base,size,1,0.592,0.586,0.591,0.005,0.6,0.0,True
+fluorescence,ankh_base,amino-acid composition,19,0.592,0.525,0.591,0.066,0.99,0.0,True
+fluorescence,ankh_base,hydrophobic fraction,1,0.592,0.569,0.591,0.022,1.0,-0.02,True
+fluorescence,ankh_base,charge,2,0.592,0.59,0.591,0.001,1.0,-0.0,True
+fluorescence,cdconv,secondary structure content,2,0.451,0.446,0.451,0.004,0.83,-0.01,True
+fluorescence,cdconv,burial and packing,2,0.451,0.388,0.451,0.063,0.99,-0.02,True
+fluorescence,cdconv,global shape,3,0.451,0.417,0.45,0.033,0.82,-0.01,True
+fluorescence,cdconv,contact order,1,0.451,0.417,0.451,0.034,0.96,-0.18,True
+fluorescence,cdconv,size,1,0.451,0.435,0.451,0.015,0.22,0.0,True
+fluorescence,cdconv,amino-acid composition,19,0.451,0.349,0.449,0.1,1.0,0.0,True
+fluorescence,cdconv,hydrophobic fraction,1,0.451,0.425,0.451,0.026,1.0,-0.03,True
+fluorescence,cdconv,charge,2,0.451,0.452,0.451,-0.002,1.0,-0.0,True
+fluorescence,dimenet,secondary structure content,2,0.388,0.384,0.386,0.002,0.62,-0.0,True
+fluorescence,dimenet,burial and packing,2,0.388,0.314,0.386,0.073,0.96,0.02,True
+fluorescence,dimenet,global shape,3,0.388,0.36,0.386,0.025,0.8,0.01,True
+fluorescence,dimenet,contact order,1,0.388,0.346,0.386,0.041,0.89,-0.04,True
+fluorescence,dimenet,size,1,0.388,0.367,0.386,0.019,0.21,0.0,True
+fluorescence,dimenet,amino-acid composition,19,0.388,0.265,0.381,0.116,1.0,-0.0,True
+fluorescence,dimenet,hydrophobic fraction,1,0.388,0.349,0.386,0.037,1.0,0.02,True
+fluorescence,dimenet,charge,2,0.388,0.389,0.386,-0.002,1.0,-0.01,True
+fluorescence,esm1b,secondary structure content,2,0.592,0.59,0.591,0.002,0.44,0.0,True
+fluorescence,esm1b,burial and packing,2,0.592,0.533,0.591,0.059,0.44,0.03,True
+fluorescence,esm1b,global shape,3,0.592,0.561,0.591,0.031,0.33,0.02,True
+fluorescence,esm1b,contact order,1,0.592,0.566,0.591,0.025,0.47,-0.08,True
+fluorescence,esm1b,size,1,0.592,0.588,0.591,0.003,0.64,0.0,True
+fluorescence,esm1b,amino-acid composition,19,0.592,0.527,0.592,0.065,0.99,0.0,True
+fluorescence,esm1b,hydrophobic fraction,1,0.592,0.567,0.591,0.025,0.99,0.02,True
+fluorescence,esm1b,charge,2,0.592,0.59,0.591,0.001,0.99,-0.0,True
+fluorescence,esm2_150m,secondary structure content,2,0.547,0.548,0.547,-0.002,0.43,-0.0,True
+fluorescence,esm2_150m,burial and packing,2,0.547,0.466,0.547,0.08,0.44,0.02,True
+fluorescence,esm2_150m,global shape,3,0.547,0.506,0.547,0.041,0.32,0.0,True
+fluorescence,esm2_150m,contact order,1,0.547,0.511,0.546,0.035,0.45,-0.02,True
+fluorescence,esm2_150m,size,1,0.547,0.542,0.546,0.004,0.56,0.0,True
+fluorescence,esm2_150m,amino-acid composition,19,0.547,0.473,0.546,0.073,0.99,0.0,True
+fluorescence,esm2_150m,hydrophobic fraction,1,0.547,0.524,0.546,0.022,0.99,-0.01,True
+fluorescence,esm2_150m,charge,2,0.547,0.545,0.547,0.002,0.99,0.01,True
+fluorescence,esm2_35m,secondary structure content,2,0.565,0.565,0.563,-0.001,0.42,-0.0,True
+fluorescence,esm2_35m,burial and packing,2,0.565,0.506,0.563,0.058,0.43,0.06,True
+fluorescence,esm2_35m,global shape,3,0.565,0.522,0.563,0.041,0.31,-0.02,True
+fluorescence,esm2_35m,contact order,1,0.565,0.528,0.564,0.035,0.46,-0.09,True
+fluorescence,esm2_35m,size,1,0.565,0.554,0.564,0.01,0.5,0.0,True
+fluorescence,esm2_35m,amino-acid composition,19,0.565,0.494,0.564,0.07,0.98,-0.0,True
+fluorescence,esm2_35m,hydrophobic fraction,1,0.565,0.535,0.564,0.029,0.99,0.04,True
+fluorescence,esm2_35m,charge,2,0.565,0.564,0.563,-0.0,0.99,0.0,True
+fluorescence,esm2_3b,secondary structure content,2,0.569,0.565,0.558,-0.007,0.51,-0.0,True
+fluorescence,esm2_3b,burial and packing,2,0.569,0.5,0.558,0.058,0.5,0.06,True
+fluorescence,esm2_3b,global shape,3,0.569,0.529,0.558,0.029,0.37,0.01,True
+fluorescence,esm2_3b,contact order,1,0.569,0.53,0.558,0.027,0.57,-0.07,True
+fluorescence,esm2_3b,size,1,0.569,0.558,0.558,0.0,0.63,0.0,True
+fluorescence,esm2_3b,amino-acid composition,19,0.569,0.494,0.558,0.063,0.96,-0.0,True
+fluorescence,esm2_3b,hydrophobic fraction,1,0.569,0.547,0.558,0.011,0.98,-0.05,True
+fluorescence,esm2_3b,charge,2,0.569,0.573,0.558,-0.016,0.98,-0.01,True
+fluorescence,esm2_650m,secondary structure content,2,0.572,0.571,0.569,-0.002,0.45,-0.0,True
+fluorescence,esm2_650m,burial and packing,2,0.572,0.473,0.569,0.096,0.47,0.06,True
+fluorescence,esm2_650m,global shape,3,0.572,0.524,0.569,0.045,0.34,-0.01,True
+fluorescence,esm2_650m,contact order,1,0.572,0.523,0.569,0.046,0.47,-0.04,True
+fluorescence,esm2_650m,size,1,0.572,0.552,0.569,0.017,0.57,0.0,True
+fluorescence,esm2_650m,amino-acid composition,19,0.572,0.486,0.569,0.083,0.98,0.0,True
+fluorescence,esm2_650m,hydrophobic fraction,1,0.572,0.526,0.569,0.043,0.99,0.02,True
+fluorescence,esm2_650m,charge,2,0.572,0.572,0.569,-0.003,0.99,0.02,True
+fluorescence,esm2_8m,secondary structure content,2,0.553,0.555,0.554,-0.001,0.41,-0.0,True
+fluorescence,esm2_8m,burial and packing,2,0.553,0.471,0.554,0.083,0.42,0.02,True
+fluorescence,esm2_8m,global shape,3,0.553,0.503,0.553,0.05,0.3,0.0,True
+fluorescence,esm2_8m,contact order,1,0.553,0.513,0.554,0.041,0.45,-0.03,True
+fluorescence,esm2_8m,size,1,0.553,0.547,0.554,0.007,0.63,0.0,True
+fluorescence,esm2_8m,amino-acid composition,19,0.553,0.499,0.551,0.053,0.99,0.0,True
+fluorescence,esm2_8m,hydrophobic fraction,1,0.553,0.529,0.554,0.025,0.99,0.02,True
+fluorescence,esm2_8m,charge,2,0.553,0.552,0.554,0.002,0.99,-0.02,True
+fluorescence,esm3,secondary structure content,2,0.481,0.478,0.481,0.003,0.95,0.0,True
+fluorescence,esm3,burial and packing,2,0.481,0.419,0.481,0.062,0.99,0.09,True
+fluorescence,esm3,global shape,3,0.481,0.463,0.481,0.018,0.9,-0.02,True
+fluorescence,esm3,contact order,1,0.481,0.449,0.481,0.032,0.98,-0.29,True
+fluorescence,esm3,size,1,0.481,0.472,0.481,0.009,0.27,0.0,True
+fluorescence,esm3,amino-acid composition,19,0.481,0.375,0.481,0.107,0.87,0.0,True
+fluorescence,esm3,hydrophobic fraction,1,0.481,0.441,0.481,0.04,0.93,0.02,True
+fluorescence,esm3,charge,2,0.481,0.481,0.481,-0.0,0.93,0.0,True
+fluorescence,esm_if1,secondary structure content,2,0.418,0.413,0.417,0.004,0.94,-0.0,True
+fluorescence,esm_if1,burial and packing,2,0.418,0.348,0.417,0.069,0.98,0.11,True
+fluorescence,esm_if1,global shape,3,0.418,0.387,0.417,0.03,0.86,0.04,True
+fluorescence,esm_if1,contact order,1,0.418,0.386,0.416,0.03,0.96,-0.32,True
+fluorescence,esm_if1,size,1,0.418,0.407,0.416,0.01,0.37,0.0,True
+fluorescence,esm_if1,amino-acid composition,19,0.418,0.301,0.416,0.115,0.19,0.0,True
+fluorescence,esm_if1,hydrophobic fraction,1,0.418,0.387,0.416,0.029,0.25,0.02,True
+fluorescence,esm_if1,charge,2,0.418,0.415,0.417,0.001,0.2,0.01,True
+fluorescence,foldseek_3di,secondary structure content,2,0.249,0.244,0.248,0.004,0.83,-0.01,True
+fluorescence,foldseek_3di,burial and packing,2,0.249,0.145,0.248,0.103,0.94,0.24,True
+fluorescence,foldseek_3di,global shape,3,0.249,0.164,0.24,0.076,0.61,-0.01,True
+fluorescence,foldseek_3di,contact order,1,0.249,0.209,0.248,0.039,0.76,-0.24,True
+fluorescence,foldseek_3di,size,1,0.249,0.209,0.248,0.039,0.1,0.0,True
+fluorescence,foldseek_3di,hydrophobic fraction,1,0.249,0.236,0.248,0.012,0.12,0.0,True
+fluorescence,foldseek_3di,charge,2,0.249,0.22,0.248,0.029,0.1,0.0,True
+fluorescence,foldvision,secondary structure content,2,0.325,0.332,0.341,0.009,0.3,-0.0,True
+fluorescence,foldvision,burial and packing,2,0.325,0.23,0.341,0.111,0.55,0.17,True
+fluorescence,foldvision,global shape,3,0.325,0.289,0.34,0.051,0.29,-0.0,True
+fluorescence,foldvision,contact order,1,0.325,0.284,0.341,0.057,0.19,-0.0,True
+fluorescence,foldvision,size,1,0.325,0.336,0.341,0.005,0.01,0.0,True
+fluorescence,foldvision,amino-acid composition,19,0.325,0.247,0.34,0.093,0.14,-0.0,True
+fluorescence,foldvision,hydrophobic fraction,1,0.325,0.312,0.341,0.029,0.04,0.03,False
+fluorescence,foldvision,charge,2,0.325,0.331,0.341,0.009,0.2,-0.0,True
+fluorescence,gcpnet_pretrained,secondary structure content,2,0.36,0.357,0.361,0.003,0.85,-0.0,True
+fluorescence,gcpnet_pretrained,burial and packing,2,0.36,0.255,0.361,0.106,0.97,0.1,True
+fluorescence,gcpnet_pretrained,global shape,3,0.36,0.311,0.36,0.05,0.74,-0.0,True
+fluorescence,gcpnet_pretrained,contact order,1,0.36,0.312,0.361,0.048,0.9,-0.22,True
+fluorescence,gcpnet_pretrained,size,1,0.36,0.333,0.361,0.028,0.1,0.0,True
+fluorescence,gcpnet_pretrained,amino-acid composition,19,0.36,0.271,0.357,0.086,0.38,0.0,True
+fluorescence,gcpnet_pretrained,hydrophobic fraction,1,0.36,0.328,0.361,0.033,0.47,-0.01,True
+fluorescence,gcpnet_pretrained,charge,2,0.36,0.36,0.361,0.001,0.54,-0.0,True
+fluorescence,gcpnet_random,secondary structure content,2,0.38,0.374,0.379,0.005,0.9,-0.01,True
+fluorescence,gcpnet_random,burial and packing,2,0.38,0.277,0.379,0.102,0.97,0.04,True
+fluorescence,gcpnet_random,global shape,3,0.38,0.336,0.379,0.043,0.73,-0.05,True
+fluorescence,gcpnet_random,contact order,1,0.38,0.333,0.378,0.045,0.88,-0.25,True
+fluorescence,gcpnet_random,size,1,0.38,0.339,0.378,0.039,0.11,0.0,True
+fluorescence,gcpnet_random,amino-acid composition,19,0.38,0.259,0.378,0.118,0.62,0.0,True
+fluorescence,gcpnet_random,hydrophobic fraction,1,0.38,0.333,0.378,0.045,0.78,-0.05,True
+fluorescence,gcpnet_random,charge,2,0.38,0.374,0.379,0.004,0.82,-0.0,True
+fluorescence,gearnet,secondary structure content,2,0.46,0.458,0.46,0.002,0.76,0.0,True
+fluorescence,gearnet,burial and packing,2,0.46,0.408,0.46,0.052,0.95,0.16,True
+fluorescence,gearnet,global shape,3,0.46,0.437,0.46,0.023,0.78,-0.02,True
+fluorescence,gearnet,contact order,1,0.46,0.433,0.46,0.027,0.91,-0.19,True
+fluorescence,gearnet,size,1,0.46,0.442,0.46,0.018,0.22,0.0,True
+fluorescence,gearnet,amino-acid composition,19,0.46,0.351,0.458,0.107,0.98,0.0,True
+fluorescence,gearnet,hydrophobic fraction,1,0.46,0.426,0.46,0.035,0.98,0.05,True
+fluorescence,gearnet,charge,2,0.46,0.459,0.46,0.001,0.99,-0.01,True
+fluorescence,gearnet_pretrained,secondary structure content,2,0.37,0.352,0.356,0.004,0.52,-0.0,True
+fluorescence,gearnet_pretrained,burial and packing,2,0.37,0.239,0.356,0.117,0.93,0.04,True
+fluorescence,gearnet_pretrained,global shape,3,0.37,0.299,0.356,0.056,0.65,0.03,True
+fluorescence,gearnet_pretrained,contact order,1,0.37,0.29,0.356,0.066,0.85,-0.12,True
+fluorescence,gearnet_pretrained,size,1,0.37,0.35,0.356,0.006,0.09,0.0,True
+fluorescence,gearnet_pretrained,amino-acid composition,19,0.37,0.261,0.355,0.095,0.48,0.0,True
+fluorescence,gearnet_pretrained,hydrophobic fraction,1,0.37,0.341,0.356,0.015,0.45,0.01,True
+fluorescence,gearnet_pretrained,charge,2,0.37,0.354,0.356,0.002,0.47,0.0,True
+fluorescence,gvp,secondary structure content,2,0.399,0.393,0.4,0.007,0.75,-0.01,True
+fluorescence,gvp,burial and packing,2,0.399,0.328,0.4,0.072,0.99,0.04,True
+fluorescence,gvp,global shape,3,0.399,0.366,0.4,0.033,0.78,-0.01,True
+fluorescence,gvp,contact order,1,0.399,0.364,0.4,0.036,0.89,-0.08,True
+fluorescence,gvp,size,1,0.399,0.382,0.4,0.018,0.23,0.0,True
+fluorescence,gvp,amino-acid composition,19,0.399,0.298,0.396,0.098,1.0,0.0,True
+fluorescence,gvp,hydrophobic fraction,1,0.399,0.367,0.4,0.033,1.0,-0.01,True
+fluorescence,gvp,charge,2,0.399,0.401,0.4,-0.001,1.0,-0.02,True
+fluorescence,ipa,secondary structure content,2,0.309,0.305,0.309,0.004,0.67,-0.0,True
+fluorescence,ipa,burial and packing,2,0.309,0.233,0.309,0.076,0.68,0.07,True
+fluorescence,ipa,global shape,3,0.309,0.276,0.309,0.033,0.61,0.01,True
+fluorescence,ipa,contact order,1,0.309,0.28,0.309,0.03,0.67,-0.06,True
+fluorescence,ipa,size,1,0.309,0.299,0.309,0.011,0.15,0.0,True
+fluorescence,ipa,amino-acid composition,19,0.309,0.154,0.303,0.149,0.88,0.0,True
+fluorescence,ipa,hydrophobic fraction,1,0.309,0.268,0.309,0.042,0.87,-0.03,True
+fluorescence,ipa,charge,2,0.309,0.31,0.309,-0.0,0.89,0.0,True
+fluorescence,ipa_pretrained,secondary structure content,2,0.252,0.251,0.253,0.002,0.48,0.01,True
+fluorescence,ipa_pretrained,burial and packing,2,0.252,0.138,0.253,0.115,0.76,-0.01,True
+fluorescence,ipa_pretrained,global shape,3,0.252,0.186,0.253,0.067,0.66,-0.04,True
+fluorescence,ipa_pretrained,contact order,1,0.252,0.201,0.253,0.052,0.74,0.0,True
+fluorescence,ipa_pretrained,size,1,0.252,0.237,0.253,0.016,0.07,0.0,True
+fluorescence,ipa_pretrained,amino-acid composition,19,0.252,0.155,0.25,0.095,0.22,-0.0,True
+fluorescence,ipa_pretrained,hydrophobic fraction,1,0.252,0.243,0.253,0.01,0.18,0.0,True
+fluorescence,ipa_pretrained,charge,2,0.252,0.254,0.253,-0.001,0.12,0.0,True
+fluorescence,mace,secondary structure content,2,0.411,0.408,0.41,0.002,0.62,0.0,True
+fluorescence,mace,burial and packing,2,0.411,0.342,0.41,0.068,0.87,0.07,True
+fluorescence,mace,global shape,3,0.411,0.388,0.41,0.023,0.79,-0.01,True
+fluorescence,mace,contact order,1,0.411,0.377,0.41,0.033,0.86,-0.05,True
+fluorescence,mace,size,1,0.411,0.392,0.41,0.018,0.21,0.0,True
+fluorescence,mace,amino-acid composition,19,0.411,0.29,0.408,0.118,1.0,-0.0,True
+fluorescence,mace,hydrophobic fraction,1,0.411,0.374,0.41,0.036,1.0,0.01,True
+fluorescence,mace,charge,2,0.411,0.412,0.41,-0.002,1.0,-0.0,True
+fluorescence,pottsmpnn,secondary structure content,2,0.353,0.346,0.354,0.008,0.84,-0.0,True
+fluorescence,pottsmpnn,burial and packing,2,0.353,0.24,0.354,0.115,0.99,0.21,True
+fluorescence,pottsmpnn,global shape,3,0.353,0.298,0.354,0.056,0.83,-0.02,True
+fluorescence,pottsmpnn,contact order,1,0.353,0.297,0.354,0.057,0.94,-0.37,True
+fluorescence,pottsmpnn,size,1,0.353,0.31,0.354,0.044,0.1,0.0,True
+fluorescence,pottsmpnn,amino-acid composition,19,0.353,0.241,0.351,0.11,0.11,-0.0,True
+fluorescence,pottsmpnn,hydrophobic fraction,1,0.353,0.302,0.354,0.052,0.16,0.01,True
+fluorescence,pottsmpnn,charge,2,0.353,0.348,0.354,0.007,0.11,0.0,True
+fluorescence,pottsmpnn_ft,secondary structure content,2,0.392,0.388,0.394,0.006,0.92,-0.01,True
+fluorescence,pottsmpnn_ft,burial and packing,2,0.392,0.31,0.394,0.084,0.99,0.27,True
+fluorescence,pottsmpnn_ft,global shape,3,0.392,0.355,0.393,0.039,0.8,0.01,True
+fluorescence,pottsmpnn_ft,contact order,1,0.392,0.35,0.394,0.044,0.93,-0.27,True
+fluorescence,pottsmpnn_ft,size,1,0.392,0.342,0.394,0.052,0.12,0.0,True
+fluorescence,pottsmpnn_ft,amino-acid composition,19,0.392,0.245,0.387,0.142,0.15,0.0,True
+fluorescence,pottsmpnn_ft,hydrophobic fraction,1,0.392,0.338,0.394,0.056,0.19,0.05,True
+fluorescence,pottsmpnn_ft,charge,2,0.392,0.394,0.394,-0.0,0.13,-0.0,True
+fluorescence,pottsmpnn_pretrained,secondary structure content,2,0.381,0.376,0.38,0.004,0.93,-0.0,True
+fluorescence,pottsmpnn_pretrained,burial and packing,2,0.381,0.29,0.38,0.09,0.98,0.28,True
+fluorescence,pottsmpnn_pretrained,global shape,3,0.381,0.341,0.38,0.039,0.81,0.03,True
+fluorescence,pottsmpnn_pretrained,contact order,1,0.381,0.335,0.38,0.045,0.93,-0.32,True
+fluorescence,pottsmpnn_pretrained,size,1,0.381,0.332,0.38,0.048,0.12,0.0,True
+fluorescence,pottsmpnn_pretrained,amino-acid composition,19,0.381,0.216,0.375,0.159,0.15,0.0,True
+fluorescence,pottsmpnn_pretrained,hydrophobic fraction,1,0.381,0.33,0.38,0.051,0.2,0.03,True
+fluorescence,pottsmpnn_pretrained,charge,2,0.381,0.382,0.38,-0.002,0.13,0.0,True
+fluorescence,pottsmpnn_soluble,secondary structure content,2,0.375,0.369,0.375,0.006,0.93,-0.0,True
+fluorescence,pottsmpnn_soluble,burial and packing,2,0.375,0.276,0.375,0.099,0.98,0.11,True
+fluorescence,pottsmpnn_soluble,global shape,3,0.375,0.328,0.375,0.047,0.8,-0.01,True
+fluorescence,pottsmpnn_soluble,contact order,1,0.375,0.333,0.375,0.043,0.93,-0.28,True
+fluorescence,pottsmpnn_soluble,size,1,0.375,0.346,0.375,0.029,0.11,0.0,True
+fluorescence,pottsmpnn_soluble,amino-acid composition,19,0.375,0.253,0.37,0.117,0.16,-0.0,True
+fluorescence,pottsmpnn_soluble,hydrophobic fraction,1,0.375,0.344,0.375,0.031,0.22,-0.03,True
+fluorescence,pottsmpnn_soluble,charge,2,0.375,0.37,0.375,0.005,0.14,0.0,True
+fluorescence,prostt5,secondary structure content,2,0.582,0.577,0.579,0.002,0.45,-0.0,True
+fluorescence,prostt5,burial and packing,2,0.582,0.511,0.579,0.068,0.48,0.04,True
+fluorescence,prostt5,global shape,3,0.582,0.54,0.579,0.039,0.34,0.04,True
+fluorescence,prostt5,contact order,1,0.582,0.54,0.579,0.039,0.51,-0.05,True
+fluorescence,prostt5,size,1,0.582,0.57,0.579,0.008,0.61,0.0,True
+fluorescence,prostt5,amino-acid composition,19,0.582,0.508,0.578,0.07,0.94,0.0,True
+fluorescence,prostt5,hydrophobic fraction,1,0.582,0.557,0.579,0.022,0.97,0.03,True
+fluorescence,prostt5,charge,2,0.582,0.576,0.579,0.003,0.97,-0.01,True
+fluorescence,protbert_bfd,secondary structure content,2,0.573,0.573,0.572,-0.001,0.38,-0.01,True
+fluorescence,protbert_bfd,burial and packing,2,0.573,0.494,0.572,0.078,0.42,-0.0,True
+fluorescence,protbert_bfd,global shape,3,0.573,0.521,0.572,0.052,0.3,-0.02,True
+fluorescence,protbert_bfd,contact order,1,0.573,0.543,0.572,0.03,0.43,-0.07,True
+fluorescence,protbert_bfd,size,1,0.573,0.573,0.572,-0.001,0.51,0.0,True
+fluorescence,protbert_bfd,amino-acid composition,19,0.573,0.515,0.571,0.056,0.99,0.0,True
+fluorescence,protbert_bfd,hydrophobic fraction,1,0.573,0.553,0.572,0.02,1.0,-0.02,True
+fluorescence,protbert_bfd,charge,2,0.573,0.571,0.572,0.001,0.99,-0.0,True
+fluorescence,proteinmpnn,secondary structure content,2,0.372,0.365,0.373,0.008,0.82,-0.01,True
+fluorescence,proteinmpnn,burial and packing,2,0.372,0.271,0.373,0.102,0.99,0.14,True
+fluorescence,proteinmpnn,global shape,3,0.372,0.323,0.372,0.048,0.8,0.01,True
+fluorescence,proteinmpnn,contact order,1,0.372,0.333,0.372,0.039,0.93,-0.38,True
+fluorescence,proteinmpnn,size,1,0.372,0.34,0.372,0.031,0.1,0.0,True
+fluorescence,proteinmpnn,amino-acid composition,19,0.372,0.243,0.367,0.125,0.12,-0.0,True
+fluorescence,proteinmpnn,hydrophobic fraction,1,0.372,0.335,0.372,0.037,0.18,0.04,True
+fluorescence,proteinmpnn,charge,2,0.372,0.366,0.373,0.007,0.12,-0.0,True
+fluorescence,prottrans_t5_xl_u50,secondary structure content,2,0.53,0.538,0.53,-0.008,0.42,-0.0,True
+fluorescence,prottrans_t5_xl_u50,burial and packing,2,0.53,0.471,0.53,0.06,0.4,0.0,True
+fluorescence,prottrans_t5_xl_u50,global shape,3,0.53,0.501,0.53,0.029,0.31,0.0,True
+fluorescence,prottrans_t5_xl_u50,contact order,1,0.53,0.502,0.53,0.028,0.44,-0.04,True
+fluorescence,prottrans_t5_xl_u50,size,1,0.53,0.533,0.53,-0.003,0.44,0.0,True
+fluorescence,prottrans_t5_xl_u50,amino-acid composition,19,0.53,0.455,0.529,0.074,0.96,-0.0,True
+fluorescence,prottrans_t5_xl_u50,hydrophobic fraction,1,0.53,0.507,0.53,0.023,0.98,0.02,True
+fluorescence,prottrans_t5_xl_u50,charge,2,0.53,0.532,0.53,-0.002,0.98,0.01,True
+fluorescence,saprot,secondary structure content,2,0.444,0.442,0.446,0.003,0.91,-0.0,True
+fluorescence,saprot,burial and packing,2,0.444,0.387,0.446,0.059,0.96,0.13,True
+fluorescence,saprot,global shape,3,0.444,0.417,0.446,0.029,0.77,-0.02,True
+fluorescence,saprot,contact order,1,0.444,0.415,0.446,0.03,0.95,-0.25,True
+fluorescence,saprot,size,1,0.444,0.434,0.446,0.011,0.15,0.0,True
+fluorescence,saprot,amino-acid composition,19,0.444,0.33,0.446,0.116,0.86,0.0,True
+fluorescence,saprot,hydrophobic fraction,1,0.444,0.417,0.446,0.029,0.91,-0.04,True
+fluorescence,saprot,charge,2,0.444,0.445,0.446,0.001,0.92,0.02,True
+fluorescence,schnet,secondary structure content,2,0.386,0.383,0.386,0.003,0.72,-0.01,True
+fluorescence,schnet,burial and packing,2,0.386,0.308,0.386,0.078,0.98,0.06,True
+fluorescence,schnet,global shape,3,0.386,0.353,0.385,0.033,0.8,0.0,True
+fluorescence,schnet,contact order,1,0.386,0.339,0.386,0.047,0.92,-0.17,True
+fluorescence,schnet,size,1,0.386,0.365,0.386,0.021,0.22,0.0,True
+fluorescence,schnet,amino-acid composition,19,0.386,0.273,0.372,0.099,1.0,-0.0,True
+fluorescence,schnet,hydrophobic fraction,1,0.386,0.348,0.386,0.038,1.0,-0.01,True
+fluorescence,schnet,charge,2,0.386,0.387,0.386,-0.001,1.0,-0.01,True
+fluorescence,tfn,secondary structure content,2,0.406,0.403,0.404,0.001,0.6,0.0,True
+fluorescence,tfn,burial and packing,2,0.406,0.337,0.404,0.067,0.86,0.05,True
+fluorescence,tfn,global shape,3,0.406,0.374,0.404,0.031,0.71,-0.01,True
+fluorescence,tfn,contact order,1,0.406,0.368,0.404,0.036,0.84,-0.04,True
+fluorescence,tfn,size,1,0.406,0.396,0.404,0.008,0.22,0.0,True
+fluorescence,tfn,amino-acid composition,19,0.406,0.284,0.4,0.115,0.96,0.0,True
+fluorescence,tfn,hydrophobic fraction,1,0.406,0.37,0.404,0.034,0.97,0.03,True
+fluorescence,tfn,charge,2,0.406,0.406,0.404,-0.002,0.97,0.01,True
+fluorescence,tfn_pretrained,secondary structure content,2,0.388,0.373,0.375,0.001,0.58,0.0,True
+fluorescence,tfn_pretrained,burial and packing,2,0.388,0.312,0.375,0.063,0.82,0.1,True
+fluorescence,tfn_pretrained,global shape,3,0.388,0.343,0.375,0.032,0.7,0.04,True
+fluorescence,tfn_pretrained,contact order,1,0.388,0.346,0.375,0.028,0.83,-0.14,True
+fluorescence,tfn_pretrained,size,1,0.388,0.349,0.375,0.026,0.16,0.0,True
+fluorescence,tfn_pretrained,amino-acid composition,19,0.388,0.296,0.374,0.078,0.82,0.0,True
+fluorescence,tfn_pretrained,hydrophobic fraction,1,0.388,0.345,0.375,0.03,0.88,0.02,True
+fluorescence,tfn_pretrained,charge,2,0.388,0.371,0.375,0.004,0.86,0.01,True
+solubility,ankh_base,secondary structure content,2,0.701,0.703,0.702,-0.001,0.91,-0.0,True
+solubility,ankh_base,burial and packing,2,0.701,0.699,0.702,0.003,0.93,-0.06,True
+solubility,ankh_base,global shape,3,0.701,0.701,0.702,0.001,0.74,-0.02,True
+solubility,ankh_base,contact order,1,0.701,0.702,0.702,0.0,0.86,0.02,True
+solubility,ankh_base,size,1,0.701,0.702,0.702,-0.0,0.96,-0.02,True
+solubility,ankh_base,amino-acid composition,19,0.701,0.681,0.702,0.021,0.96,-0.0,True
+solubility,ankh_base,hydrophobic fraction,1,0.701,0.705,0.702,-0.003,0.98,0.12,True
+solubility,ankh_base,charge,2,0.701,0.7,0.702,0.002,0.99,-0.03,True
+solubility,cdconv,secondary structure content,2,0.632,0.631,0.633,0.002,0.94,0.0,True
+solubility,cdconv,burial and packing,2,0.632,0.629,0.633,0.004,0.99,-0.06,True
+solubility,cdconv,global shape,3,0.632,0.637,0.633,-0.004,0.61,0.0,True
+solubility,cdconv,contact order,1,0.632,0.633,0.633,0.0,0.88,-0.02,True
+solubility,cdconv,size,1,0.632,0.636,0.633,-0.003,0.81,-0.02,True
+solubility,cdconv,amino-acid composition,19,0.632,0.596,0.633,0.037,1.0,0.01,True
+solubility,cdconv,hydrophobic fraction,1,0.632,0.655,0.633,-0.022,1.0,-0.02,True
+solubility,cdconv,charge,2,0.632,0.635,0.633,-0.002,1.0,-0.0,True
+solubility,dimenet,secondary structure content,2,0.641,0.638,0.642,0.004,0.83,-0.01,True
+solubility,dimenet,burial and packing,2,0.641,0.635,0.642,0.007,0.96,-0.06,True
+solubility,dimenet,global shape,3,0.641,0.629,0.641,0.013,0.68,-0.01,True
+solubility,dimenet,contact order,1,0.641,0.634,0.641,0.008,0.73,-0.03,True
+solubility,dimenet,size,1,0.641,0.641,0.641,0.0,0.86,-0.01,True
+solubility,dimenet,amino-acid composition,19,0.641,0.625,0.641,0.016,1.0,0.01,True
+solubility,dimenet,hydrophobic fraction,1,0.641,0.644,0.641,-0.003,1.0,0.05,True
+solubility,dimenet,charge,2,0.641,0.643,0.642,-0.001,1.0,-0.01,True
+solubility,esm1b,secondary structure content,2,0.687,0.687,0.688,0.001,0.91,-0.0,True
+solubility,esm1b,burial and packing,2,0.687,0.684,0.688,0.004,0.93,-0.05,True
+solubility,esm1b,global shape,3,0.687,0.685,0.688,0.003,0.74,-0.02,True
+solubility,esm1b,contact order,1,0.687,0.686,0.688,0.002,0.85,-0.02,True
+solubility,esm1b,size,1,0.687,0.687,0.688,0.001,0.97,0.07,True
+solubility,esm1b,amino-acid composition,19,0.687,0.678,0.688,0.01,0.93,-0.0,True
+solubility,esm1b,hydrophobic fraction,1,0.687,0.69,0.688,-0.002,0.96,0.02,True
+solubility,esm1b,charge,2,0.687,0.687,0.688,0.001,0.96,-0.05,True
+solubility,esm2_150m,secondary structure content,2,0.688,0.689,0.691,0.002,0.91,0.01,True
+solubility,esm2_150m,burial and packing,2,0.688,0.686,0.691,0.005,0.93,-0.06,True
+solubility,esm2_150m,global shape,3,0.688,0.687,0.691,0.004,0.73,-0.05,True
+solubility,esm2_150m,contact order,1,0.688,0.689,0.691,0.003,0.84,0.03,True
+solubility,esm2_150m,size,1,0.688,0.687,0.691,0.004,0.97,0.07,True
+solubility,esm2_150m,amino-acid composition,19,0.688,0.673,0.691,0.018,0.96,-0.0,True
+solubility,esm2_150m,hydrophobic fraction,1,0.688,0.69,0.691,0.001,0.98,-0.02,True
+solubility,esm2_150m,charge,2,0.688,0.689,0.691,0.002,0.98,-0.07,True
+solubility,esm2_35m,secondary structure content,2,0.687,0.686,0.687,0.001,0.9,0.01,True
+solubility,esm2_35m,burial and packing,2,0.687,0.683,0.687,0.004,0.91,-0.04,True
+solubility,esm2_35m,global shape,3,0.687,0.688,0.686,-0.001,0.71,-0.03,True
+solubility,esm2_35m,contact order,1,0.687,0.683,0.687,0.004,0.81,0.01,True
+solubility,esm2_35m,size,1,0.687,0.687,0.687,-0.001,0.95,0.09,True
+solubility,esm2_35m,amino-acid composition,19,0.687,0.67,0.685,0.015,0.94,0.0,True
+solubility,esm2_35m,hydrophobic fraction,1,0.687,0.69,0.687,-0.003,0.97,-0.05,True
+solubility,esm2_35m,charge,2,0.687,0.686,0.687,0.001,0.97,-0.04,True
+solubility,esm2_3b,secondary structure content,2,0.708,0.711,0.711,-0.0,0.91,-0.0,True
+solubility,esm2_3b,burial and packing,2,0.708,0.712,0.711,-0.001,0.94,-0.01,True
+solubility,esm2_3b,global shape,3,0.708,0.712,0.711,-0.001,0.76,-0.05,True
+solubility,esm2_3b,contact order,1,0.708,0.711,0.711,-0.001,0.86,0.03,True
+solubility,esm2_3b,size,1,0.708,0.713,0.711,-0.002,0.97,0.04,True
+solubility,esm2_3b,amino-acid composition,19,0.708,0.695,0.711,0.016,0.93,0.0,True
+solubility,esm2_3b,hydrophobic fraction,1,0.708,0.712,0.711,-0.001,0.96,-0.02,True
+solubility,esm2_3b,charge,2,0.708,0.71,0.711,0.0,0.96,-0.07,True
+solubility,esm2_650m,secondary structure content,2,0.71,0.709,0.706,-0.003,0.92,0.01,True
+solubility,esm2_650m,burial and packing,2,0.71,0.707,0.706,-0.001,0.94,-0.03,True
+solubility,esm2_650m,global shape,3,0.71,0.71,0.706,-0.004,0.75,-0.05,True
+solubility,esm2_650m,contact order,1,0.71,0.709,0.706,-0.003,0.86,-0.0,True
+solubility,esm2_650m,size,1,0.71,0.708,0.706,-0.002,0.97,0.02,True
+solubility,esm2_650m,amino-acid composition,19,0.71,0.699,0.704,0.005,0.95,0.0,True
+solubility,esm2_650m,hydrophobic fraction,1,0.71,0.713,0.706,-0.007,0.97,-0.01,True
+solubility,esm2_650m,charge,2,0.71,0.705,0.706,0.001,0.98,-0.08,True
+solubility,esm2_8m,secondary structure content,2,0.685,0.689,0.684,-0.005,0.88,0.02,True
+solubility,esm2_8m,burial and packing,2,0.685,0.686,0.684,-0.002,0.89,-0.04,True
+solubility,esm2_8m,global shape,3,0.685,0.682,0.684,0.002,0.7,-0.04,True
+solubility,esm2_8m,contact order,1,0.685,0.684,0.684,-0.001,0.78,-0.01,True
+solubility,esm2_8m,size,1,0.685,0.684,0.684,-0.0,0.93,0.02,True
+solubility,esm2_8m,amino-acid composition,19,0.685,0.669,0.684,0.015,0.94,-0.0,True
+solubility,esm2_8m,hydrophobic fraction,1,0.685,0.687,0.684,-0.003,0.96,0.0,True
+solubility,esm2_8m,charge,2,0.685,0.68,0.684,0.004,0.97,-0.06,True
+solubility,esm3,secondary structure content,2,0.707,0.708,0.708,0.0,0.99,0.02,True
+solubility,esm3,burial and packing,2,0.707,0.702,0.708,0.006,1.0,-0.13,True
+solubility,esm3,global shape,3,0.707,0.707,0.708,0.001,0.86,-0.06,True
+solubility,esm3,contact order,1,0.707,0.708,0.708,0.0,0.96,0.06,True
+solubility,esm3,size,1,0.707,0.707,0.708,0.0,0.99,-0.05,True
+solubility,esm3,amino-acid composition,19,0.707,0.693,0.707,0.014,0.94,-0.0,True
+solubility,esm3,hydrophobic fraction,1,0.707,0.713,0.708,-0.005,0.98,-0.08,True
+solubility,esm3,charge,2,0.707,0.707,0.708,0.001,0.98,-0.07,True
+solubility,esm_if1,secondary structure content,2,0.652,0.649,0.651,0.002,0.98,0.04,True
+solubility,esm_if1,burial and packing,2,0.652,0.643,0.651,0.008,0.99,-0.14,True
+solubility,esm_if1,global shape,3,0.652,0.651,0.651,0.001,0.87,-0.07,True
+solubility,esm_if1,contact order,1,0.652,0.648,0.651,0.004,0.94,0.09,True
+solubility,esm_if1,size,1,0.652,0.645,0.651,0.006,0.99,-0.0,True
+solubility,esm_if1,amino-acid composition,19,0.652,0.63,0.651,0.022,0.55,0.01,True
+solubility,esm_if1,hydrophobic fraction,1,0.652,0.655,0.651,-0.003,0.67,0.03,True
+solubility,esm_if1,charge,2,0.652,0.648,0.651,0.003,0.47,0.0,True
+solubility,foldseek_3di,secondary structure content,2,0.569,0.578,0.572,-0.005,0.97,0.07,True
+solubility,foldseek_3di,burial and packing,2,0.569,0.549,0.572,0.023,0.97,-0.01,True
+solubility,foldseek_3di,global shape,3,0.569,0.564,0.574,0.01,0.5,-0.04,True
+solubility,foldseek_3di,contact order,1,0.569,0.557,0.571,0.015,0.75,0.01,True
+solubility,foldseek_3di,size,1,0.569,0.571,0.571,0.001,0.57,0.06,True
+solubility,foldseek_3di,hydrophobic fraction,1,0.569,0.567,0.571,0.004,0.49,0.01,True
+solubility,foldseek_3di,charge,2,0.569,0.54,0.572,0.032,0.32,-0.02,True
+solubility,foldvision,secondary structure content,2,0.633,0.613,0.623,0.01,0.92,0.01,True
+solubility,foldvision,burial and packing,2,0.633,0.615,0.623,0.008,0.96,-0.1,True
+solubility,foldvision,global shape,3,0.633,0.617,0.622,0.006,0.88,-0.04,True
+solubility,foldvision,contact order,1,0.633,0.62,0.622,0.002,0.87,0.02,True
+solubility,foldvision,size,1,0.633,0.615,0.622,0.007,0.97,0.01,True
+solubility,foldvision,amino-acid composition,19,0.633,0.588,0.623,0.035,0.7,-0.0,True
+solubility,foldvision,hydrophobic fraction,1,0.633,0.625,0.622,-0.002,0.82,0.01,True

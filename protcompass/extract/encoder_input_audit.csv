@@ -1,0 +1,70 @@
+encoder,dataset,weights,n_proteins,rel_change_jitter_1A,rel_change_coord_swap,rel_change_seq_shuffle,rel_change_rigid_motion,uses_coordinates,uses_residue_identity,invariant,declared_coordinates,declared_residue_identity,verdict,problems,seconds,inputs_passed
+foldseek_3di,probing,pretrained,32,0.5357915293141494,0.6654983190984456,0.0,0.0,True,False,True,True,False,pass,,0.3,"N, CA, C, CB coordinates"
+saprot,probing,pretrained,32,1.3544401831309625,1.4170465628268611,1.26896618314233,0.0,True,True,True,True,True,pass,,7.4,amino-acid track: real sequence; 3Di track: real tokens from mini3di on the structure; no pLDDT masking
+foldvision,probing,pretrained,32,0.94193834066391,0.2384798899292946,0.0217757923528552,0.0003848234919132,True,True,True,True,True,pass,,21.6,"the structure file as given (all atoms present in it), voxelised by FoldVision's own preprocessing"
+geobpe,probing,pretrained,32,0.9487959534610516,0.4263771450705801,0.0,0.1052071838039965,True,False,False,True,False,fail,output changes under rigid motion (relative change 1.05e-01),1636.9,"the structure file (backbone geometry), in a principal-axis pose"
+geobpe,stage1,pretrained,32,0.8548818836102487,0.3065230813985797,0.0,0.1257089413037431,True,False,False,True,False,fail,output changes under rigid motion (relative change 1.26e-01),996.7,"the structure file (backbone geometry), in a principal-axis pose"
+schnet,probing,random,32,0.0263818889895843,0.0915268438895756,0.0905218298387744,1.514841965004422e-07,True,True,True,True,True,pass,,2.2,"coordinates, sequence indices and mask via ProteinInput"
+tfn,probing,random,32,0.0425720033029462,0.1694589417754851,0.1551641092135091,1.028889695777024e-07,True,True,True,True,True,pass,,3.8,"coordinates, sequence indices and mask via ProteinInput"
+dimenet,probing,random,32,0.003207840710392,0.0095909596490998,0.0090933856245238,1.2348123625554317e-07,True,True,True,True,True,pass,,3.1,"coordinates, sequence indices and mask via ProteinInput"
+ipa,probing,random,32,0.1110396779886022,0.0670987924995657,0.0625206660959003,5.30528949200398e-07,True,True,True,True,True,pass,,4.3,"coordinates, sequence indices and mask via ProteinInput"
+mace,probing,random,32,0.0154750713574162,0.0661954688018785,0.0485177154521355,1.4050815587066848e-07,True,True,True,True,True,pass,,3.2,"coordinates, sequence indices and mask via ProteinInput"
+gearnet,probing,random,32,0.0629280736787109,0.1550812126575808,0.1716769964897748,0.0,True,True,True,True,True,pass,,2.4,"coordinates, sequence indices and mask via ProteinInput"
+gvp,probing,random,32,0.0315919350631933,0.0049114967030739,0.0025094562557999,9.158737772611417e-08,True,True,True,True,True,pass,,3.8,backbone coordinates and residue identity
+pottsmpnn,probing,random,32,0.0719982413657546,0.0434262364248603,0.0,1.376159200654198e-07,True,False,True,True,False,pass,,2.6,"coordinates, sequence indices and mask via ProteinInput"
+pottsmpnn_pretrained,probing,pretrained,32,0.7203195931962361,0.122893907151196,0.0,1.598579403537612e-07,True,False,True,True,False,pass,,4.5,"coordinates, sequence indices and mask via ProteinInput"
+pottsmpnn_soluble,probing,pretrained,32,0.9061211334868456,0.1344547298481961,0.0,2.064322196655709e-07,True,False,True,True,False,pass,,6.3,"coordinates, sequence indices and mask via ProteinInput"
+pottsmpnn_ft,probing,pretrained,32,0.681632164944024,0.1285565413937244,0.0,2.0394372754446537e-07,True,False,True,True,False,pass,,5.7,"coordinates, sequence indices and mask via ProteinInput"
+gearnet_pretrained,probing,pretrained,32,0.5610158640093938,0.9423409053002072,0.9330913150740354,1.2491228074596284e-07,True,True,True,True,True,pass,,366.4,"coordinates, sequence indices and mask via ProteinInput"
+proteinmpnn,probing,pretrained,32,0.287102170257815,0.1067904385541642,0.0,2.393737204849772e-07,True,False,True,True,False,pass,,2.8,"coordinates, sequence indices and mask via ProteinInput"
+tfn_pretrained,probing,pretrained,32,0.046318201549163,0.227720624757691,0.2245980314482527,9.468620275569988e-08,True,True,True,True,True,pass,,3.9,"coordinates, sequence indices and mask via ProteinInput"
+ipa_pretrained,probing,pretrained,32,0.3543026052970367,0.3766962781011411,0.2678303917582483,1.1809816624306276e-05,True,True,True,True,True,pass,,1.8,"coordinates, sequence indices and mask via ProteinInput"
+esm_if1,probing,pretrained,32,2.1570314094846834,0.7743802121986032,4.319426797455186e-07,9.53587551058792e-05,True,False,True,True,False,pass,,14.7,"coordinates, sequence indices and mask via ProteinInput"
+esm3,probing,pretrained,32,0.509009407826544,0.4000935921683898,0.3555063612407773,0.0018285819013779,True,True,True,True,True,pass,,17.6,"sequence track: true residues; structure track: VQ-VAE tokens from the real backbone (N, CA, C, O, CB) plus coordinates for geometric attention; function, SASA and secondary-structure tracks at their defaults"
+esm2_8m,probing,pretrained,32,0.0,0.0,0.2860173440334557,0.0,False,True,True,False,True,pass,,1.7,amino-acid sequence only
+esm2_35m,probing,pretrained,32,0.0,0.0,0.449848246168434,0.0,False,True,True,False,True,pass,,4.0,amino-acid sequence only
+esm2_150m,probing,pretrained,32,0.0,0.0,0.4371036354711899,0.0,False,True,True,False,True,pass,,4.5,amino-acid sequence only
+esm2_650m,probing,pretrained,32,0.0,0.0,0.6629953742083206,0.0,False,True,True,False,True,pass,,6.0,amino-acid sequence only
+esm1b,probing,pretrained,32,0.0,0.0,0.3568214498274769,0.0,False,True,True,False,True,pass,,4.9,amino-acid sequence only
+protbert_bfd,probing,pretrained,32,0.0,0.0,1.5530271902446289,0.0,False,True,True,False,True,pass,,4.6,amino-acid sequence only
+ankh_base,probing,pretrained,32,0.0,0.0,1.0315461286475334,0.0,False,True,True,False,True,pass,,6.3,amino-acid sequence only
+esm2_3b,probing,pretrained,32,0.0,0.0,0.4181991315506019,0.0,False,True,True,False,True,pass,,8.4,amino-acid sequence only
+prostt5,probing,pretrained,32,0.0,0.0,1.0236069306793083,0.0,False,True,True,False,True,pass,,6.3,amino-acid sequence only
+egnn,probing,random,32,1.7027203706833465e-07,3.593160500295556e-07,2.371882685552941e-07,0.0,False,False,True,True,True,fail,"declared uses_coordinates=True, measured False; declared uses_residue_identity=True, measured False",1.8,"coordinates, sequence indices and mask via ProteinInput"
+prottrans_t5_xl_u50,probing,pretrained,32,0.0,0.0,1.2595056244258669,0.0,False,True,True,False,True,pass,,5.0,amino-acid sequence only
+cdconv,probing,random,32,0.0020019138464704,0.0081192925572395,0.0052487056236714,7.857047990000866e-08,True,True,True,True,True,pass,,7.3,"coordinates, sequence indices and mask via ProteinInput"
+gcpnet_pretrained,probing,pretrained,32,0.8373841047286987,0.2519155889749527,0.0510408356785774,0.0005293000722303,True,True,True,True,True,pass,,19.2,all heavy atoms of the structure file (elements and coordinates); residue identity enters through side-chain atoms
+gcpnet_random,probing,random,32,0.0677197687327861,0.0068823522888123,0.0012669170973822,2.724326895986451e-05,True,True,True,True,True,pass,,16.3,all heavy atoms of the structure file (elements and coordinates); residue identity enters through side-chain atoms
+gvp,stage1,random,32,0.0311854612705834,0.0063201343217855,0.002777464178389,8.371926795479818e-08,True,True,True,True,True,pass,,1.8,backbone coordinates and residue identity
+esm2_8m,stage1,pretrained,32,0.0,0.0,0.2041863371369027,0.0,False,True,True,False,True,pass,,1.5,amino-acid sequence only
+esm2_3b,stage1,pretrained,32,0.0,0.0,0.160590378027336,0.0,False,True,True,False,True,pass,,5.8,amino-acid sequence only
+esm_if1,stage1,pretrained,32,1.5038823538036952,0.4455433655312988,3.792294619537519e-07,1.1028196959619184e-05,True,False,True,True,False,pass,,29.7,"coordinates, sequence indices and mask via ProteinInput"
+gcpnet_random,stage1,random,32,0.0685410797595977,0.0053557388018816,0.0014149970375001,1.3349166692933068e-05,True,True,True,True,True,pass,,14.6,all heavy atoms of the structure file (elements and coordinates); residue identity enters through side-chain atoms
+esm3,stage1,pretrained,32,0.3911045424821484,0.1052052461015038,0.2324472845120969,0.002026578006498,True,True,True,True,True,pass,,11.3,"sequence track: true residues; structure track: VQ-VAE tokens from the real backbone (N, CA, C, O, CB) plus coordinates for geometric attention; function, SASA and secondary-structure tracks at their defaults"
+foldseek_3di,stage1,pretrained,32,0.7178714286952135,0.499313693938592,0.0,0.0,True,False,True,True,False,pass,,0.7,"N, CA, C, CB coordinates"
+proteinmpnn,stage1,pretrained,32,0.2876636765789369,0.1046977269374211,0.0,1.6183316549153264e-07,True,False,True,True,False,pass,,3.3,"coordinates, sequence indices and mask via ProteinInput"
+saprot,stage1,pretrained,32,0.8705030813272382,0.4102216970171252,0.8413755808217256,0.0,True,True,True,True,True,pass,,8.6,amino-acid track: real sequence; 3Di track: real tokens from mini3di on the structure; no pLDDT masking
+pottsmpnn,stage1,random,32,0.0718960748062994,0.0645299256834538,0.0,1.150863828075338e-07,True,False,True,True,False,pass,,4.1,"coordinates, sequence indices and mask via ProteinInput"
+pottsmpnn_ft,stage1,pretrained,32,0.5082692283690026,0.1342137334072697,0.0,1.330835728765909e-07,True,False,True,True,False,pass,,3.7,"coordinates, sequence indices and mask via ProteinInput"
+esm2_650m,stage1,pretrained,32,0.0,0.0,0.1866167885722063,0.0,False,True,True,False,True,pass,,9.0,amino-acid sequence only
+gcpnet_pretrained,stage1,pretrained,32,0.545786440372467,0.2609523087739944,0.0356923919171094,0.0002571855366113,True,True,True,True,True,pass,,20.0,all heavy atoms of the structure file (elements and coordinates); residue identity enters through side-chain atoms
+esm1b,stage1,pretrained,32,0.0,0.0,0.1196861957151104,0.0,False,True,True,False,True,pass,,7.3,amino-acid sequence only
+pottsmpnn_pretrained,stage1,pretrained,32,0.6454550569687352,0.1207681455759476,0.0,1.1436842851380085e-07,True,False,True,True,False,pass,,3.4,"coordinates, sequence indices and mask via ProteinInput"
+prottrans_t5_xl_u50,stage1,pretrained,32,0.0,0.0,0.7503630666663541,0.0,False,True,True,False,True,pass,,2.9,amino-acid sequence only
+prostt5,stage1,pretrained,32,0.0,0.0,0.5110924480134234,0.0,False,True,True,False,True,pass,,4.3,amino-acid sequence only
+pottsmpnn_soluble,stage1,pretrained,32,0.6675711994212048,0.1791722733828678,0.0,1.4140547445011488e-07,True,False,True,True,False,pass,,4.4,"coordinates, sequence indices and mask via ProteinInput"
+protbert_bfd,stage1,pretrained,32,0.0,0.0,0.4072423163663681,0.0,False,True,True,False,True,pass,,9.3,amino-acid sequence only
+ankh_base,stage1,pretrained,32,0.0,0.0,0.5002829140921271,0.0,False,True,True,False,True,pass,,7.6,amino-acid sequence only
+gearnet,stage1,random,32,0.0596617094353016,0.0903857713791805,0.2058370455057908,0.0,True,True,True,True,True,pass,,2.3,"coordinates, sequence indices and mask via ProteinInput"
+esm2_150m,stage1,pretrained,32,0.0,0.0,0.2330605701452823,0.0,False,True,True,False,True,pass,,4.9,amino-acid sequence only
+esm2_35m,stage1,pretrained,32,0.0,0.0,0.2002921266035882,0.0,False,True,True,False,True,pass,,3.6,amino-acid sequence only
+gearnet_pretrained,stage1,pretrained,32,0.6126984392243746,0.8348703340556809,0.9662573101809144,1.2897130267876713e-07,True,True,True,True,True,pass,,144.6,"coordinates, sequence indices and mask via ProteinInput"
+schnet,stage1,random,32,0.0242723461508891,0.0406799702414425,0.0926744111105295,1.4309623780125318e-07,True,True,True,True,True,pass,,0.9,"coordinates, sequence indices and mask via ProteinInput"
+tfn,stage1,random,32,0.0359184624374984,0.0889022173374072,0.15717391339058,1.0727833879441204e-07,True,True,True,True,True,pass,,1.5,"coordinates, sequence indices and mask via ProteinInput"
+tfn_pretrained,stage1,pretrained,32,0.0382225492372723,0.072635599897489,0.2809559028131745,9.265320502308793e-08,True,True,True,True,True,pass,,1.7,"coordinates, sequence indices and mask via ProteinInput"
+ipa,stage1,random,32,0.1225740681938831,0.051555121385846,0.0797983344401608,3.133067188033077e-07,True,True,True,True,True,pass,,2.5,"coordinates, sequence indices and mask via ProteinInput"
+ipa_pretrained,stage1,pretrained,32,0.3578874758424766,0.3508908063204801,0.2293865034825483,4.506485213165571e-06,True,True,True,True,True,pass,,1.6,"coordinates, sequence indices and mask via ProteinInput"
+mace,stage1,random,32,0.0149158652423228,0.0568394517375087,0.0523291422188011,1.3602486243731065e-07,True,True,True,True,True,pass,,1.8,"coordinates, sequence indices and mask via ProteinInput"
+dimenet,stage1,random,32,0.0035946612578117,0.0053325412738931,0.011240363811048,1.23831448402748e-07,True,True,True,True,True,pass,,1.5,"coordinates, sequence indices and mask via ProteinInput"
+foldvision,stage1,pretrained,32,0.9399117827415466,0.1916034966707229,0.0293238116428256,0.0002744854864431,True,True,True,True,True,pass,,25.3,"the structure file as given (all atoms present in it), voxelised by FoldVision's own preprocessing"
+cdconv,stage1,random,32,0.0015725423581898212,0.011715239379554987,0.004441947676241398,7.0253673101206e-08,True,True,True,True,True,pass,,1.5,"coordinates, sequence indices and mask via ProteinInput"

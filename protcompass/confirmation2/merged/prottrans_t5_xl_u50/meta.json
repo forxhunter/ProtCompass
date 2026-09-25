@@ -1,0 +1,41 @@
+{
+ "encoder": "prottrans_t5_xl_u50",
+ "family": "hf_plm",
+ "target": "Rostlab/prot_t5_xl_half_uniref50-enc",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "Rostlab/prot_t5_xl_half_uniref50-enc",
+ "checkpoint_revision": "94a6abc029ae13029317b140b7424e012bf8dfbf",
+ "dtype": "float16",
+ "hidden_size": 1024,
+ "n_layers": 24,
+ "n_parameters": 1208141824,
+ "inputs_passed": "amino-acid sequence only",
+ "dataset": "confirmation2/merged/labels.h5",
+ "date": "2026-09-23 14:00",
+ "seconds": 35.2,
+ "n_domains": 4816,
+ "dim": 1024,
+ "row_convention": "row r of residue_fp16.npy is row r of residue/* in the merged labels.h5",
+ "health": {
+  "n_rows": 1316,
+  "dim": 1024,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 1316,
+  "numerical_rank": 1024,
+  "max_abs": 0.35387974977493286
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 1.2595056244258669,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ },
+ "merged_from": [
+  "probing_embeddings/prottrans_t5_xl_u50",
+  "confirmation/embeddings/prottrans_t5_xl_u50"
+ ]
+}

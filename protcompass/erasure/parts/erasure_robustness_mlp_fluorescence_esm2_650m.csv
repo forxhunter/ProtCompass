@@ -1,0 +1,2 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+fluorescence,esm2_650m,positive control,the task label itself,1,8,0.5720155837584149,0.011415312214525544,0.5704391636203572,0.5590238514058317

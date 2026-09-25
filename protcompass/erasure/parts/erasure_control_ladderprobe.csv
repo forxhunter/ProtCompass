@@ -1,0 +1,10 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+ec_classification,esm2_650m,positive control,the task label itself,1,1,0.7663333333333333,0.7803333333333333,0.7676666666666667,-0.012666666666666604
+ec_classification,esm2_650m,positive control,the task label itself,2,2,0.7663333333333333,0.7843333333333333,0.7583333333333333,-0.026000000000000023
+ec_classification,esm2_650m,positive control,the task label itself,3,3,0.7663333333333333,0.7823333333333333,0.7613333333333333,-0.02100000000000002
+ec_classification,esm2_650m,positive control,the task label itself,5,5,0.7663333333333333,0.781,0.7541666666666667,-0.026833333333333376
+ec_classification,esm2_650m,positive control,the task label itself,8,8,0.7663333333333333,0.7823333333333333,0.7598333333333334,-0.022499999999999964
+ec_classification,esm2_650m,positive control,the task label itself,13,13,0.7663333333333333,0.7786666666666666,0.7575000000000001,-0.021166666666666556
+ec_classification,esm2_650m,positive control,the task label itself,19,19,0.7663333333333333,0.7633333333333333,0.7656666666666667,0.0023333333333334094
+remote_homology,esm2_650m,positive control,the task label itself,1,1,0.2375,0.25,0.234375,-0.015625
+remote_homology,esm2_650m,positive control,the task label itself,2,2,0.2375,0.25,0.23854166666666665,-0.011458333333333348

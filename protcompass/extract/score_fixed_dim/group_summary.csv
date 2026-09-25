@@ -1,0 +1,4 @@
+restriction,n_seq,n_crd,tasks,gap_rel,gap_fd,leads_rel,leads_fd,fam_sig_rel,fam_sig_fd
+all encoders,10,23,10,0.18623940711462456,0.164368766701962,10,10,8,9
+pretrained only,10,13,10,0.16209250000000003,0.15511243829650195,10,10,7,9
+"pretrained, at least 100M parameters",8,4,10,0.04752041666666668,0.05523749027246978,8,9,3,4

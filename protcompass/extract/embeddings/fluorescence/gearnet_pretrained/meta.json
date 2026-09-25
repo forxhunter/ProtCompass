@@ -1,0 +1,41 @@
+{
+ "encoder": "gearnet_pretrained",
+ "family": "registry",
+ "target": "gearnet_pretrained",
+ "weights": "pretrained",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "protcompass/checkpoints/gearnet/mc_gearnet_edge.pth",
+ "checkpoint_sha256": "6dc11e2db6eff3c9",
+ "checkpoint_loaded_by": "wrapper load_pretrained()",
+ "weights_sha256": "9eaaa8a2c8a79a37",
+ "n_parameters": 20145635,
+ "task": "fluorescence",
+ "date": "2026-09-19 21:15",
+ "seconds": 1769.2,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/fluorescence.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 512,
+  "max_abs": 12.025644302368164
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.6126984695136756,
+  "rel_change_coord_swap": 0.8348703678855703,
+  "rel_change_seq_shuffle": 0.9662573614566852,
+  "rel_change_rigid_motion": 1.1781363659897726e-07,
+  "verdict": "pass"
+ }
+}

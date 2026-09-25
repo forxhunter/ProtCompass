@@ -1,0 +1,39 @@
+{
+ "encoder": "dimenet",
+ "family": "registry",
+ "target": "dimenet",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "71e5f811f644cdf2",
+ "n_parameters": 362752,
+ "task": "go_bp",
+ "date": "2026-09-20 13:40",
+ "seconds": 17.1,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/go_bp.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2903,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10403,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10403,
+  "numerical_rank": 127,
+  "max_abs": 0.9039861559867859
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.00359466125781171,
+  "rel_change_coord_swap": 0.005332541273893109,
+  "rel_change_seq_shuffle": 0.01124036381104809,
+  "rel_change_rigid_motion": 1.23831448402748e-07,
+  "verdict": "pass"
+ }
+}

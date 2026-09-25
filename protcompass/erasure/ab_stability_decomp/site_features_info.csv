@@ -1,0 +1,10 @@
+,value
+n_variants,10500
+n_with_subs,7594
+point_fallback,14
+structure_residue_mismatch,0
+env_missing,0
+sites_rsa_nan,0
+sites_dssp_missing,0
+test_one_sub,2998
+test_no_sub,2

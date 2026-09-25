@@ -1,0 +1,4 @@
+encoder,n,median_change_sidechain,median_change_copy,reads_sidechain,deterministic
+gcpnet_random,32,0.0153926331549882,7.291596659797507e-08,True,True
+gcpnet_pretrained,32,1.0091164112091064,1.280682511151099e-07,True,True
+foldvision,32,0.36995601654052734,0.0,True,True

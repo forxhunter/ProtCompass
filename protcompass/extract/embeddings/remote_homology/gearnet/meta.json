@@ -1,0 +1,39 @@
+{
+ "encoder": "gearnet",
+ "family": "registry",
+ "target": "gearnet",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "c0af89eafe340139",
+ "n_parameters": 6641408,
+ "task": "remote_homology",
+ "date": "2026-09-20 11:16",
+ "seconds": 23.8,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/remote_homology.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 480,
+  "train": 6000,
+  "valid": 506
+ },
+ "health": {
+  "n_rows": 6986,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 6986,
+  "numerical_rank": 511,
+  "max_abs": 2.7345285415649414
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.05966170943530161,
+  "rel_change_coord_swap": 0.0903857713791805,
+  "rel_change_seq_shuffle": 0.2058370455057908,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

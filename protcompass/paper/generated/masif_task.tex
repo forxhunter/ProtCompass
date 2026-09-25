@@ -1,0 +1,69 @@
+\begingroup
+\fontsize{7}{8.6}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{lrrrr}
+\caption{Interface-site prediction on the 353 MaSIF-site test chains, two-layer readout (mean of three seeds),
+against a base rate of $0.177$. The last column is the encoder's mean rank among the 33 encoders over the ten pooled
+tasks of Section~\ref{sec:downstream}. The floors go through the identical probe
+(\texttt{scripts/residue\_readout\_report.py masif}).}\label{tab:masif_task}\\
+\toprule
+\rowcolor{CompassLavender!32}
+encoder & reads coordinates & interface AUPRC & rank here & mean rank, ten pooled tasks \\
+
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\small\textit{Table \thetable{} (continued)}}\\
+\toprule
+\rowcolor{CompassLavender!32}
+encoder & reads coordinates & interface AUPRC & rank here & mean rank, ten pooled tasks \\
+
+\midrule
+\endhead
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+
+ESM3 & yes & $0.702$ & 1 & $6.5$ \\
+ESM-IF1 & yes & $0.573$ & 2 & $14.2$ \\
+ProstT5 & no & $0.559$ & 3 & $7.4$ \\
+ProtT5-XL & no & $0.491$ & 4 & $4.3$ \\
+ESM2-650M & no & $0.449$ & 5 & $7.8$ \\
+ESM2-3B & no & $0.448$ & 6 & $5.0$ \\
+Ankh & no & $0.432$ & 7 & $4.5$ \\
+PottsMPNN-ft & yes & $0.403$ & 8 & $18.9$ \\
+PottsMPNN-pre & yes & $0.400$ & 9 & $17.7$ \\
+ESM-1b & no & $0.395$ & 10 & $5.5$ \\
+PottsMPNN-sol & yes & $0.395$ & 11 & $18.2$ \\
+ESM2-150M & no & $0.391$ & 12 & $8.7$ \\
+GVP & yes & $0.376$ & 13 & $18.3$ \\
+PottsMPNN & yes & $0.364$ & 14 & $24.4$ \\
+SchNet & yes & $0.358$ & 15 & $21.4$ \\
+ProtBert & no & $0.353$ & 16 & $9.9$ \\
+ProteinMPNN & yes & $0.343$ & 17 & $26.7$ \\
+CDConv & yes & $0.341$ & 18 & $21.9$ \\
+MACE & yes & $0.341$ & 19 & $22.6$ \\
+ESM2-35M & no & $0.315$ & 20 & $11.2$ \\
+DimeNet & yes & $0.287$ & 21 & $24.2$ \\
+GearNet-pre & yes & $0.272$ & 22 & $29.1$ \\
+TFN-pre & yes & $0.266$ & 23 & $21.5$ \\
+ESM2-8M & no & $0.259$ & 24 & $11.1$ \\
+IPA-pre & yes & $0.256$ & 25 & $30.9$ \\
+TFN & yes & $0.250$ & 26 & $27.3$ \\
+GearNet & yes & $0.238$ & 27 & $21.9$ \\
+IPA & yes & $0.218$ & 28 & $23.6$ \\
+\midrule
+\texttt{ref\_length} & floor & $0.180$ & & \\
+\texttt{ref\_position} & floor & $0.185$ & & \\
+\texttt{ref\_aa} & floor & $0.209$ & & \\
+\texttt{ref\_seq\_window} & floor & $0.218$ & & \\
+\texttt{ref\_seq\_expert} & floor & $0.231$ & & \\
+\texttt{ref\_seq\_global} & floor & $0.219$ & & \\
+\texttt{ref\_coords} & floor & $0.310$ & & \\
+\texttt{ref\_pairhist} & floor & $0.334$ & & \\
+\texttt{ref\_backbone} & floor & $0.334$ & & \\
+\texttt{ref\_global} & floor & $0.350$ & & \\
+
+\end{longtable}
+\endgroup

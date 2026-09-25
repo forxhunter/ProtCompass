@@ -1,0 +1,28 @@
+{
+  "split": "superfamily",
+  "n_proteins_residue_level": {
+    "train": 3000,
+    "val": 500,
+    "test": 1000
+  },
+  "hidden": 128,
+  "max_epochs": 30,
+  "patience": 3,
+  "batch": 2048,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "ridge_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0
+  ],
+  "mlp_seeds": [
+    0,
+    1,
+    2
+  ]
+}

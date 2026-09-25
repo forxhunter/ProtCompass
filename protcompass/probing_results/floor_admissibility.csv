@@ -1,0 +1,34 @@
+encoder,residue_identity,coordinates,atoms,scale,scale_change,floors
+foldseek_3di,False,True,N+CA+CB,True,0.0737696593231552,ref_length ref_position ref_coords ref_pairhist ref_backbone@N+CA+CB ref_global@N+CA+CB
+tfn,True,True,CA,False,1.0676908831534525e-07,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+dimenet,True,True,CA,False,0.0009088480624731,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+ipa,True,True,CA,True,0.0133687976381662,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+mace,True,True,CA,False,0.0009781541237532,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+gearnet,True,True,CA,True,0.019940392857356,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+gvp,True,True,N+CA+C,True,0.0044378100596217,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@N+CA+C ref_global@N+CA+C
+pottsmpnn,False,True,N+CA+C+O,True,0.0420944107144695,ref_length ref_position ref_coords ref_pairhist ref_backbone@N+CA+C+O ref_global@N+CA+C+O
+pottsmpnn_pretrained,False,True,N+CA+C+O,True,0.1711427873722948,ref_length ref_position ref_coords ref_pairhist ref_backbone@N+CA+C+O ref_global@N+CA+C+O
+pottsmpnn_soluble,False,True,N+CA+C+O,True,0.211170456221645,ref_length ref_position ref_coords ref_pairhist ref_backbone@N+CA+C+O ref_global@N+CA+C+O
+pottsmpnn_ft,False,True,N+CA+C+O,True,0.1695408329871583,ref_length ref_position ref_coords ref_pairhist ref_backbone@N+CA+C+O ref_global@N+CA+C+O
+gearnet_pretrained,True,True,CA,True,0.5247175621731865,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+proteinmpnn,False,True,N+CA+C+O,True,0.0794919790785194,ref_length ref_position ref_coords ref_pairhist ref_backbone@N+CA+C+O ref_global@N+CA+C+O
+tfn_pretrained,True,True,CA,False,8.914602884050341e-08,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+schnet,True,True,CA,True,0.0210326525588401,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+ipa_pretrained,True,True,CA,True,0.0876182115036643,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+esm3,True,True,N+CA+C,True,0.1834084744439492,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@N+CA+C ref_global@N+CA+C
+esm2_8m,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+esm2_35m,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+esm2_150m,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+esm2_650m,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+esm1b,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+protbert_bfd,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+ankh_base,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+esm2_3b,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+prostt5,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+prottrans_t5_xl_u50,True,False,--,,,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global
+cdconv,True,True,CA,True,0.0104988375678658,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@CA ref_global@CA
+esm_if1,False,True,N+CA+C,True,0.735736516745072,ref_length ref_position ref_coords ref_pairhist ref_backbone@N+CA+C ref_global@N+CA+C
+gcpnet_pretrained,True,True,N+CA+C+O+CB,True,0.2449181005358696,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone ref_global
+gcpnet_random,True,True,N+CA+C+O+CB,True,0.0152092888019979,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone ref_global
+saprot,True,True,N+CA+CB,True,0.0635380620510545,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone@N+CA+CB ref_global@N+CA+CB
+foldvision,True,True,N+CA+C+O+CB,True,0.0941893048584461,ref_length ref_position ref_aa ref_seq_window ref_seq_expert ref_seq_global ref_coords ref_pairhist ref_backbone ref_global

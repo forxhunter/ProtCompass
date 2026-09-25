@@ -1,0 +1,43 @@
+{
+ "encoder": "protbert_bfd",
+ "family": "hf_plm",
+ "target": "Rostlab/prot_bert_bfd",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "Rostlab/prot_bert_bfd",
+ "checkpoint_revision": "6c5c8a55a52ff08a664dfd584aa1773f125a0487",
+ "dtype": "float32",
+ "hidden_size": 1024,
+ "n_layers": 30,
+ "n_parameters": 418881536,
+ "inputs_passed": "amino-acid sequence only",
+ "task": "go_bp",
+ "date": "2026-09-20 13:28",
+ "seconds": 61.9,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/go_bp.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2903,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10403,
+  "dim": 1024,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10384,
+  "numerical_rank": 1023,
+  "max_abs": 2.1730058193206787
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 0.4072423163663681,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

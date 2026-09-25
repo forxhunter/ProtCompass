@@ -1,0 +1,9 @@
+task,concept
+fluorescence,amino-acid composition
+fluorescence,burial and packing
+ppi_affinity,secondary structure content
+solubility,amino-acid composition
+go_mf,amino-acid composition
+membrane_soluble,amino-acid composition
+go_bp,amino-acid composition
+subcellular_localization,amino-acid composition

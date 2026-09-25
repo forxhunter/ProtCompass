@@ -1,0 +1,11 @@
+stability                  33/33
+fluorescence               33/33
+ppi_affinity               33/33
+solubility                 33/33
+membrane_soluble           33/33
+remote_homology            32/33  missing: foldvision
+ec_classification          33/33
+subcellular_localization   33/33
+go_mf                      33/33
+go_bp                      33/33
+TOTAL 329/330

@@ -1,0 +1,8 @@
+cell: fluorescence / burial and packing / esm2_650m; n_train=6000, d=1280, rank r=2, property columns=2
+||Cov(x, z)||_F on train = 7.2394e-03
+   arm  dim_x  dim_xprime  dim_test_xprime  dim_released  crosscov_rel  var_removed_orig  var_removed_released  max_abs_B_reexpression_diff  max_abs_range_residual  max_abs_idempotence
+erased   1280        1280             1280          1278  7.230527e-15          0.040847              0.040847                 4.996004e-16            5.551115e-16         1.998401e-15
+ sham0   1280        1280             1280          1278  9.948978e-01          0.003719              0.003719                 3.885781e-16            3.877107e-16         1.776357e-15
+ null0   1280        1280             1280          1278  9.585260e-01          0.040622              0.040622                 6.106227e-16            6.938894e-16         8.881784e-16
+crosscov_rel = ||Cov(x', z)||_F / ||Cov(x, z)||_F on the training rows the projector was fitted on.
+max_abs_B_reexpression_diff = max |(x' - mu) @ B - released arm|; max_abs_range_residual = max |(x' - mu) B B^T - (x' - mu)|, zero when x' - mu lies in range(P) = span(B).

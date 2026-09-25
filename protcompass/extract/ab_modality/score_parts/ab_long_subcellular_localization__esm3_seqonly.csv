@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+subcellular_localization,esm3_seqonly,linear,0,1.0,accuracy,0.6421350586332389,1.0946049690246582,6000,2473,1536,10
+subcellular_localization,esm3_seqonly,linear,1,1.0,accuracy,0.6409219571370804,1.0973042249679565,6000,2473,1536,10
+subcellular_localization,esm3_seqonly,linear,2,1.0,accuracy,0.627982207844723,1.1048637628555298,6000,2473,1536,10
+subcellular_localization,esm3_seqonly,mlp2,0,1.0,accuracy,0.6332389809947432,1.0176501274108887,6000,2473,1536,10
+subcellular_localization,esm3_seqonly,mlp2,1,1.0,accuracy,0.6433481601293974,1.0173919200897217,6000,2473,1536,10
+subcellular_localization,esm3_seqonly,mlp2,2,1.0,accuracy,0.6360695511524465,1.0060104131698608,6000,2473,1536,10

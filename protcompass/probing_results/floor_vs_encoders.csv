@@ -1,0 +1,16 @@
+probe,label determined by the input,best floor,which floor,floor without ref_global,max encoder,which encoder,median encoder,encoders below best floor,n encoders,gap,gap without ref_global
+phi_circular,"yes, dihedral of C(i-1) N CA C",0.9997,ref_global,0.9997,0.9965,esm_if1,0.8717,32,32,-0.0033,-0.0032
+psi_circular,"yes, dihedral of N CA C N(i+1)",0.9998,ref_global,0.9996,0.9971,esm_if1,0.7801,32,32,-0.0027,-0.0026
+local_curvature,"yes, angle between consecutive CA-CA vectors",0.9998,ref_backbone,0.9998,0.9929,esm_if1,0.7849,32,32,-0.0069,-0.0069
+dssp_3,"yes, DSSP energies use N, CA, C, O",0.9312,ref_backbone,0.9312,0.9494,esm3,0.8133,28,32,0.0182,0.0182
+dssp_8,"yes, same",0.7513,ref_backbone,0.7513,0.7826,esm3,0.4164,31,32,0.0313,0.0313
+rsa,"no, freesasa uses side-chain atoms beyond CB",0.8999,ref_global,0.8955,0.9713,gcpnet_pretrained,0.8059,22,32,0.0714,0.0758
+rsa_bins,"no, same",0.7641,ref_global,0.7608,0.8831,gcpnet_pretrained,0.6799,22,32,0.119,0.1223
+bfactor,"no, experimental quantity",0.587,ref_global,0.5548,0.6596,esm_if1,0.5316,29,32,0.0726,0.1048
+core_surface,"yes, CB neighbour count",0.8973,ref_global,0.8944,0.9369,pottsmpnn,0.8038,25,32,0.0396,0.0425
+contact_density,"yes, CA neighbour count",0.9837,ref_coords,0.9837,0.7803,pottsmpnn,0.4802,32,32,-0.2035,-0.2035
+distance_bins,"yes, the CA-CA distance itself",0.5557,ref_pairhist,0.5557,0.3635,esm_if1,0.1758,32,32,-0.1921,-0.1921
+contact_order_len_resid,"yes, function of the contact map",0.9825,ref_pairhist,0.9825,0.9235,esm3,0.7072,33,33,-0.059,-0.059
+radius_of_gyration_len_resid,"yes, second moment of the CA coordinates",0.9961,ref_global,0.9954,0.9368,esm_if1,0.7477,33,33,-0.0593,-0.0586
+asphericity_len_resid,"yes, gyration-tensor invariant",0.9584,ref_global,0.9474,0.8797,foldvision,0.6941,33,33,-0.0787,-0.0678
+architecture_label,"no, CATH database label",0.3159,ref_pairhist,0.3159,0.4967,esm2_650m,0.2516,19,33,0.1807,0.1807

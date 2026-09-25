@@ -1,0 +1,38 @@
+{
+ "encoder": "esm_if1",
+ "family": "registry",
+ "target": "esm_if",
+ "weights": "pretrained",
+ "rule": "GVP-Transformer encoder output before decoding",
+ "env": "base",
+ "weights_sha256": "0edb76de890a0108",
+ "n_parameters": 141662150,
+ "task": "fluorescence",
+ "date": "2026-09-19 19:43",
+ "seconds": 525.5,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/fluorescence.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 511,
+  "max_abs": 0.9278039336204529
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 1.503882297632968,
+  "rel_change_coord_swap": 0.44554336359056074,
+  "rel_change_seq_shuffle": 3.5823450263607455e-07,
+  "rel_change_rigid_motion": 1.1020218881737187e-05,
+  "verdict": "pass"
+ }
+}

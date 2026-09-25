@@ -1,0 +1,36 @@
+{
+ "encoder": "esm_if1",
+ "family": "registry",
+ "target": "esm_if",
+ "weights": "pretrained",
+ "rule": "GVP-Transformer encoder output before decoding",
+ "env": "base",
+ "weights_sha256": "0edb76de890a0108",
+ "n_parameters": 141662150,
+ "dataset": "confirmation2/merged/labels.h5",
+ "date": "2026-09-23 13:25",
+ "seconds": 101.3,
+ "n_domains": 4816,
+ "dim": 512,
+ "row_convention": "row r of residue_fp16.npy is row r of residue/* in the merged labels.h5",
+ "health": {
+  "n_rows": 1316,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 1316,
+  "numerical_rank": 511,
+  "max_abs": 1.057643175125122
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 2.1570315003121157,
+  "rel_change_coord_swap": 0.7743802158331299,
+  "rel_change_seq_shuffle": 4.458297366771087e-07,
+  "rel_change_rigid_motion": 9.537846504016978e-05,
+  "verdict": "pass"
+ },
+ "merged_from": [
+  "probing_embeddings/esm_if1",
+  "confirmation/embeddings/esm_if1"
+ ]
+}

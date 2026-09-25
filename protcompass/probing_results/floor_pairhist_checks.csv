@@ -1,0 +1,16 @@
+check,value,verdict
+distance bin edges clash with a label cutoff,none,ok
+separation bin edges clash with a label cutoff,none,ok
+cutoffs of the spectral block,"(7.0, 10.0)","ok, 8.0 A avoided"
+"contact_order from bin midpoints, median relative error",0.1030,"ok, not closed form"
+"contact_order from bin midpoints, max relative error",0.4477,
+"contact_order from bin midpoints, pearson r",0.9761,"reported, an approximation is not an identity"
+max |pearson| of any single feature with contact_order,0.6106,ok
+max |pearson| of any single feature with contact_order_len_resid_superfamily,0.5280,ok
+max |pearson| of any single feature with radius_of_gyration,0.7073,ok
+max |pearson| of any single feature with asphericity,0.7602,ok
+residues whose 8 A contact count is not fixed by the bins,0.9915,"ok, contact_density stays undetermined"
+mean width of the contact-count bracket (neighbours),4.58,
+min feature distance from a test domain to any train domain,0.6575,"ok, no duplicate domain"
+max eta squared of any single feature on architecture,0.5912,"ok, no class indicator"
+"radius_of_gyration from bin midpoints, median relative error",0.0320,"ok, not closed form; inherited from ref_global and flagged"

@@ -1,0 +1,38 @@
+{
+ "encoder": "pottsmpnn_pretrained",
+ "family": "registry",
+ "target": "pottsmpnn_pretrained",
+ "weights": "pretrained",
+ "rule": "encoder h_V, masked mean",
+ "env": "base",
+ "weights_sha256": "1cfd2bd3bed04f09",
+ "n_parameters": 1712085,
+ "task": "go_bp",
+ "date": "2026-09-20 13:45",
+ "seconds": 38.7,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/go_bp.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2903,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10403,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10403,
+  "numerical_rank": 127,
+  "max_abs": 3.315916061401367
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.6454550569687352,
+  "rel_change_coord_swap": 0.12076814557594767,
+  "rel_change_seq_shuffle": 0.0,
+  "rel_change_rigid_motion": 1.1436842851380084e-07,
+  "verdict": "pass"
+ }
+}

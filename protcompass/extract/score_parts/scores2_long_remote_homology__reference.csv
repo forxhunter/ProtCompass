@@ -1,0 +1,7 @@
+task,encoder,probe,seed,metric,score,val_loss,n_train,n_test,dim,n_out
+remote_homology,ref_composition,linear,0,accuracy,0.03991596638655462,5.718577861785889,6000,476,23,895
+remote_homology,ref_composition,linear,1,accuracy,0.04831932773109244,5.720546722412109,6000,476,23,895
+remote_homology,ref_composition,linear,2,accuracy,0.03571428571428571,5.694245338439941,6000,476,23,895
+remote_homology,ref_composition,mlp2,0,accuracy,0.06722689075630252,5.33261251449585,6000,476,23,895
+remote_homology,ref_composition,mlp2,1,accuracy,0.07563025210084033,5.3204121589660645,6000,476,23,895
+remote_homology,ref_composition,mlp2,2,accuracy,0.07142857142857142,5.322143077850342,6000,476,23,895

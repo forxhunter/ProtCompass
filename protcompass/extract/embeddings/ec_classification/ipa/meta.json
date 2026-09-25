@@ -1,0 +1,39 @@
+{
+ "encoder": "ipa",
+ "family": "registry",
+ "target": "ipa",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues; input in canonical pose",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "e78c71b9309a3464",
+ "n_parameters": 648016,
+ "task": "ec_classification",
+ "date": "2026-09-20 11:50",
+ "seconds": 28.2,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ec_classification.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10497,
+  "numerical_rank": 127,
+  "max_abs": 1.6419694423675537
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.12257406862558927,
+  "rel_change_coord_swap": 0.05155514827303004,
+  "rel_change_seq_shuffle": 0.07979831152335126,
+  "rel_change_rigid_motion": 3.2879219539658516e-07,
+  "verdict": "pass"
+ }
+}

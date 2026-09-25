@@ -1,0 +1,8 @@
+encoder,n,missing,max_d_score,max_d_within,pass
+gcpnet_pretrained,17,0,0.0,0.0,True
+gcpnet_random,17,0,0.0,0.0,True
+gvp,17,0,0.0,0.0,True
+ipa_pretrained,17,0,0.0,0.0,True
+mace,17,0,0.0,0.0,True
+tfn,17,0,0.0,0.0,True
+tfn_pretrained,17,0,0.0,0.0,True

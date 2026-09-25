@@ -1,0 +1,70 @@
+{
+  "part_a": [
+    {
+      "rank": 1,
+      "label_directed": 22.3925744690336,
+      "identity_QC": 22.392462506161227,
+      "bound_sigma": 22.392462506161248,
+      "worst_of_random": 14.862597186999944,
+      "identity_max_abs_error": 0.0001119628723742494,
+      "identity_max_rel_error": 5.0000250014237205e-06
+    },
+    {
+      "rank": 2,
+      "label_directed": 39.43369346952206,
+      "identity_QC": 39.43349630105469,
+      "bound_sigma": 39.433496301054696,
+      "worst_of_random": 21.755903441572844,
+      "identity_max_abs_error": 0.00019716846737338756,
+      "identity_max_rel_error": 5.000025000778693e-06
+    },
+    {
+      "rank": 4,
+      "label_directed": 48.94146785008818,
+      "identity_QC": 48.94122314274894,
+      "bound_sigma": 48.94122314274894,
+      "worst_of_random": 28.003986722215007,
+      "identity_max_abs_error": 0.00024470733924175647,
+      "identity_max_rel_error": 5.000024999947554e-06
+    },
+    {
+      "rank": 8,
+      "label_directed": 48.94146785008818,
+      "identity_QC": 48.94122314274894,
+      "bound_sigma": 48.94122314274894,
+      "worst_of_random": 43.00935021074228,
+      "identity_max_abs_error": 0.00024470733924175647,
+      "identity_max_rel_error": 5.000024999947554e-06
+    }
+  ],
+  "part_b": [
+    {
+      "leak": 0.0,
+      "majority": 0.5059,
+      "top_singular_value": 0.007943767692604674,
+      "base_mlp": 0.9386,
+      "base_linear": 0.5064,
+      "label_directed_mlp": 0.9061666666666666,
+      "label_directed_linear": 0.4941,
+      "driver_mlp": 0.5043666666666667,
+      "driver_linear": 0.5091,
+      "effect_label_directed": 0.032433333333333425,
+      "effect_driver": 0.43423333333333325
+    },
+    {
+      "leak": 1.0,
+      "majority": 0.5034,
+      "top_singular_value": 0.07005256385210575,
+      "base_mlp": 0.8933333333333332,
+      "base_linear": 0.5455,
+      "label_directed_mlp": 0.9060666666666667,
+      "label_directed_linear": 0.5034,
+      "driver_mlp": 0.5453,
+      "driver_linear": 0.5472,
+      "effect_label_directed": -0.012733333333333485,
+      "effect_driver": 0.3480333333333332
+    }
+  ],
+  "part_a_ok": true,
+  "part_b_ok": true
+}

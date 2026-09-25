@@ -1,0 +1,308 @@
+{
+  "counts": [
+    {
+      "labels": "saturated",
+      "subset": "all coordinate",
+      "cells": 112,
+      "below": 112,
+      "unresolved": 0,
+      "above": 0
+    },
+    {
+      "labels": "saturated",
+      "subset": "pretrained coordinate",
+      "cells": 62,
+      "below": 62,
+      "unresolved": 0,
+      "above": 0
+    },
+    {
+      "labels": "saturated",
+      "subset": "pretrained coordinate, $\\geq$100M",
+      "cells": 17,
+      "below": 17,
+      "unresolved": 0,
+      "above": 0
+    },
+    {
+      "labels": "saturated",
+      "subset": "sequence-only",
+      "cells": 50,
+      "below": 0,
+      "unresolved": 0,
+      "above": 50
+    },
+    {
+      "labels": "contained",
+      "subset": "all coordinate",
+      "cells": 45,
+      "below": 45,
+      "unresolved": 0,
+      "above": 0
+    },
+    {
+      "labels": "contained",
+      "subset": "pretrained coordinate",
+      "cells": 25,
+      "below": 25,
+      "unresolved": 0,
+      "above": 0
+    },
+    {
+      "labels": "contained",
+      "subset": "pretrained coordinate, $\\geq$100M",
+      "cells": 7,
+      "below": 7,
+      "unresolved": 0,
+      "above": 0
+    },
+    {
+      "labels": "contained",
+      "subset": "sequence-only",
+      "cells": 20,
+      "below": 0,
+      "unresolved": 0,
+      "above": 20
+    },
+    {
+      "labels": "open",
+      "subset": "all coordinate",
+      "cells": 88,
+      "below": 74,
+      "unresolved": 3,
+      "above": 11
+    },
+    {
+      "labels": "open",
+      "subset": "pretrained coordinate",
+      "cells": 48,
+      "below": 35,
+      "unresolved": 3,
+      "above": 10
+    },
+    {
+      "labels": "open",
+      "subset": "pretrained coordinate, $\\geq$100M",
+      "cells": 12,
+      "below": 6,
+      "unresolved": 0,
+      "above": 6
+    },
+    {
+      "labels": "open",
+      "subset": "sequence-only",
+      "cells": 40,
+      "below": 0,
+      "unresolved": 0,
+      "above": 40
+    }
+  ],
+  "regression": {
+    "cells": 281,
+    "families": 20,
+    "labels": 9,
+    "rows": [
+      {
+        "term": "intercept",
+        "coef": -0.31283905037533866,
+        "se": 0.1506411052379591,
+        "lo": -0.6080956166417385,
+        "hi": -0.017582484108938812
+      },
+      {
+        "term": "log10 parameters",
+        "coef": 0.04479237854894872,
+        "se": 0.02023469819657039,
+        "lo": 0.005132370083670755,
+        "hi": 0.08445238701422669
+      },
+      {
+        "term": "pretrained",
+        "coef": 0.0837720032120158,
+        "se": 0.03669119636382727,
+        "lo": 0.011857258338914364,
+        "hi": 0.15568674808511723
+      },
+      {
+        "term": "reads coordinates",
+        "coef": -0.2583169341726055,
+        "se": 0.05678037257196041,
+        "lo": -0.36960646441364786,
+        "hi": -0.14702740393156308
+      }
+    ]
+  },
+  "undetermined_without_esm3_sidechain": {
+    "top": [
+      {
+        "probe": "bfactor",
+        "encoder": "esm_if1",
+        "margin": 0.07262274652836176
+      },
+      {
+        "probe": "rsa",
+        "encoder": "esm_if1",
+        "margin": 0.04866592318255447
+      },
+      {
+        "probe": "rsa_bins",
+        "encoder": "esm_if1",
+        "margin": 0.07140128247907551
+      }
+    ],
+    "n_above": {
+      "bfactor": 2,
+      "rsa": 7,
+      "rsa_bins": 7
+    }
+  },
+  "downstream_large": {
+    "seq_families": 6,
+    "crd_families": 4,
+    "assignments": 210,
+    "min_two_sided_p": 0.009523809523809525,
+    "holm_first_threshold": 0.005,
+    "mean_gap": 0.04891055555555555,
+    "boot_lo": -0.01594697916666666,
+    "boot_hi": 0.11357991666666666
+  },
+  "per_encoder_determinacy": {
+    "determined": {
+      "below": 123,
+      "unresolved": 3,
+      "above": 0,
+      "cells": 126
+    },
+    "not determined": {
+      "below": 58,
+      "unresolved": 0,
+      "above": 0,
+      "cells": 58
+    },
+    "not established": {
+      "below": 5,
+      "unresolved": 0,
+      "above": 11,
+      "cells": 16
+    }
+  },
+  "per_encoder_above": [
+    {
+      "encoder": "esm3",
+      "probe": "dssp_3",
+      "status": "not established"
+    },
+    {
+      "encoder": "esm_if1",
+      "probe": "dssp_3",
+      "status": "not established"
+    },
+    {
+      "encoder": "esm3",
+      "probe": "dssp_8",
+      "status": "not established"
+    },
+    {
+      "encoder": "esm_if1",
+      "probe": "dssp_8",
+      "status": "not established"
+    },
+    {
+      "encoder": "esm3",
+      "probe": "core_surface",
+      "status": "not established"
+    },
+    {
+      "encoder": "esm_if1",
+      "probe": "core_surface",
+      "status": "not established"
+    },
+    {
+      "encoder": "pottsmpnn",
+      "probe": "core_surface",
+      "status": "not established"
+    },
+    {
+      "encoder": "pottsmpnn_ft",
+      "probe": "core_surface",
+      "status": "not established"
+    },
+    {
+      "encoder": "pottsmpnn_pretrained",
+      "probe": "core_surface",
+      "status": "not established"
+    },
+    {
+      "encoder": "pottsmpnn_soluble",
+      "probe": "core_surface",
+      "status": "not established"
+    },
+    {
+      "encoder": "proteinmpnn",
+      "probe": "core_surface",
+      "status": "not established"
+    }
+  ],
+  "margin": [
+    {
+      "labels": "saturated",
+      "group": "coordinate",
+      "cells": 112,
+      "below_margin": 101,
+      "within_margin": 8,
+      "above_margin": 0
+    },
+    {
+      "labels": "saturated",
+      "group": "sequence-only",
+      "cells": 50,
+      "below_margin": 0,
+      "within_margin": 0,
+      "above_margin": 50
+    },
+    {
+      "labels": "open",
+      "group": "coordinate",
+      "cells": 88,
+      "below_margin": 72,
+      "within_margin": 4,
+      "above_margin": 11
+    },
+    {
+      "labels": "open",
+      "group": "sequence-only",
+      "cells": 40,
+      "below_margin": 0,
+      "within_margin": 2,
+      "above_margin": 38
+    }
+  ],
+  "composition_vs_large_seq": {
+    "go_bp": {
+      "ref": 0.2737,
+      "median_large_seq": 0.38655,
+      "diff": 0.11285
+    },
+    "subcellular_localization": {
+      "ref": 0.4701,
+      "median_large_seq": 0.6749499999999999,
+      "diff": 0.20484999999999992
+    },
+    "solubility": {
+      "ref": 0.5875,
+      "median_large_seq": 0.6903999999999999,
+      "diff": 0.10289999999999988
+    },
+    "fluorescence": {
+      "ref": 0.362,
+      "median_large_seq": 0.5260499999999999,
+      "diff": 0.16404999999999992
+    }
+  },
+  "pretrained_without_unchecked": {
+    "seq_families": 6,
+    "crd_families": 7,
+    "tasks_seq_leads": 10,
+    "mean_gap": 0.11665382142857139
+  }
+}

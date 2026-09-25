@@ -1,0 +1,39 @@
+{
+ "encoder": "cdconv",
+ "family": "registry",
+ "target": "cdconv",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "9203855665116c79",
+ "n_parameters": 619184,
+ "task": "solubility",
+ "date": "2026-09-19 21:43",
+ "seconds": 706.5,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/solubility.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 1329,
+  "train": 5417,
+  "valid": 1363
+ },
+ "health": {
+  "n_rows": 8109,
+  "dim": 256,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 8109,
+  "numerical_rank": 256,
+  "max_abs": 0.22298841178417206
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0015725428820587695,
+  "rel_change_coord_swap": 0.011715240776538849,
+  "rel_change_seq_shuffle": 0.004441951168701053,
+  "rel_change_rigid_motion": 7.354712749929604e-08,
+  "verdict": "pass"
+ }
+}

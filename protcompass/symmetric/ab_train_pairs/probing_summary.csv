@@ -1,0 +1,9 @@
+pair,primary,random,pretrained,all_increase,all_decrease,all_unresolved,all_no_interval,all_increase999,all_decrease999,det_increase,det_decrease,det_unresolved,det_no_interval,det_increase999,det_decrease999,undet_increase,undet_decrease,undet_unresolved,undet_no_interval,undet_increase999,undet_decrease999,det_cells,random_below_floor,pretrained_below_floor,random_above_floor,pretrained_above_floor,det_floor_state_changed,median_delta_all,median_delta_det
+GCPNet,True,gcpnet_random,gcpnet_pretrained,10,4,1,0,7,3,6,4,1,0,4,3,4,0,0,0,3,0,11,11,11,0,0,0,0.010013381987387437,0.010013381987387437
+GearNet,True,gearnet,gearnet_pretrained,5,10,0,0,4,8,2,9,0,0,2,8,3,1,0,0,2,0,11,11,11,0,0,0,-0.024975619199426702,-0.06070673545276761
+IPA,True,ipa,ipa_pretrained,9,5,1,0,9,5,6,5,0,0,6,5,3,0,1,0,3,0,11,11,11,0,0,0,0.07186166644015701,0.037156237174254356
+TFN,True,tfn,tfn_pretrained,5,4,6,0,2,4,4,2,5,0,1,2,1,2,1,0,1,2,11,11,11,0,0,0,-0.0010791801654632671,0.0026789222976532634
+PottsMPNN,True,pottsmpnn,pottsmpnn_pretrained,9,6,0,0,9,6,5,6,0,0,5,6,4,0,0,0,4,0,11,10,9,1,1,1,0.026047362828839127,-0.026728293663668135
+PottsMPNN-soluble,False,pottsmpnn,pottsmpnn_soluble,9,6,0,0,9,6,5,6,0,0,5,6,4,0,0,0,4,0,11,10,9,1,1,1,0.025895828712426683,-0.02325005772136035
+PottsMPNN-ft,False,pottsmpnn,pottsmpnn_ft,9,6,0,0,9,6,5,6,0,0,5,6,4,0,0,0,4,0,11,10,9,1,1,1,0.02679153296517711,-0.02246621455715514
+GCPNet-vframe,False,gcpnet_random_vframe,gcpnet_pretrained_vframe,6,5,4,0,6,5,4,5,2,0,4,5,2,0,2,0,2,0,11,11,11,0,0,0,0.0032755578437093646,0.0012085670524164538

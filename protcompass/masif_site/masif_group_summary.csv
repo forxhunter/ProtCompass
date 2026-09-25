@@ -1,0 +1,15 @@
+,0
+task,masif
+n_crd,18
+mean_crd,0.35479304323737765
+n_seq,10
+mean_seq,0.40931246234029556
+mw_p,0.9675490844175845
+n_both,28
+rho,0.7338168947876396
+rho_p,8.84336828367876e-06
+best_seq_floor,0.23141473054130465
+best_floor,0.34956220158988777
+which_floor,ref_global
+seq_above,10
+crd_above,8

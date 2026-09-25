@@ -1,0 +1,12 @@
+encoder,checkpoint,model_tensors,checkpoint_sha256,model_tensors_found_in_checkpoint,verdict,loaded_by
+proteinmpnn,protcompass/checkpoints/proteinmpnn_v48_020.pt,118.0,c9cb4a671d796041,118.0,loaded,wrapper load_pretrained()
+pottsmpnn_pretrained,protcompass/external_repos/PottsMPNN/proteinmpnn_compatible_model_weights/pottsmpnn_20.pt,120.0,28b1620a71883142,118.0,loaded,wrapper
+pottsmpnn_soluble,protcompass/external_repos/PottsMPNN/soluble_model_weights/sol_pottsmpnn_20.pt,120.0,f203a69773df41a1,120.0,loaded,wrapper
+pottsmpnn_ft,protcompass/external_repos/PottsMPNN/ft_model_weights/potts_ft.pt,120.0,b672ff4ed1492560,120.0,loaded,wrapper
+gearnet_pretrained,protcompass/checkpoints/gearnet/mc_gearnet_edge.pth,120.0,6dc11e2db6eff3c9,120.0,loaded,wrapper load_pretrained()
+tfn_pretrained,protcompass/checkpoints/tfn_pretrained/best.pt,39.0,17af58de61a4674c,39.0,loaded,strict load of 'encoder_state': 39 of 39 tensors
+ipa_pretrained,protcompass/checkpoints/ipa_pretrained/best.pt,95.0,cd4ca8e7f61daba2,95.0,loaded,strict load of 'encoder_state': 95 of 95 tensors
+esm_if1,None,758.0,,,checkpoint path unknown to the harness (weights come from a hub download inside the wrapper),wrapper
+gvp_pretrained,,,,,excluded: no checkpoint file on this machine (/mnt/f/checkpoints/gvp_pretrained/best.pt),
+egnn_pretrained,,,,,excluded: no checkpoint file on this machine (/mnt/f/checkpoints/egnn_pretrained/best.pt),
+cdconv_pretrained,,,,,excluded: wrapper loads no weights (structure_pretrained.py:155-163),

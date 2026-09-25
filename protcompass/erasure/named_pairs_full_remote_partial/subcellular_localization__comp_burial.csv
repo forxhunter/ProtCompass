@@ -1,0 +1,1093 @@
+task,concept,encoder,arm,descriptor,rank,dim,score,var_removed,prop_removed
+subcellular_localization,amino-acid composition,ankh_base,intact,none,19,768,0.6615446825717751,0.0,0.0
+subcellular_localization,amino-acid composition,ankh_base,erased,none,19,768,0.6154468257177517,0.11123249466215701,0.9346285862844165
+subcellular_localization,amino-acid composition,ankh_base,erased,named,19,768,0.6526486049332794,0.11123249466215701,0.9346285862844165
+subcellular_localization,amino-acid composition,ankh_base,erased,permuted,19,768,0.6037201779215527,0.11123249466215701,0.9346285862844165
+subcellular_localization,amino-acid composition,ankh_base,sham0,none,19,768,0.6380913869793773,0.02847645285532574,0.022431088477154137
+subcellular_localization,amino-acid composition,ankh_base,sham0,named,19,768,0.6389001213101496,0.02847645285532574,0.022431088477154137
+subcellular_localization,amino-acid composition,ankh_base,sham0,permuted,19,768,0.6340477153255155,0.02847645285532574,0.022431088477154137
+subcellular_localization,amino-acid composition,ankh_base,sham1,none,19,768,0.6526486049332794,0.02513706019990858,0.02328105000312808
+subcellular_localization,amino-acid composition,ankh_base,sham1,named,19,768,0.6477961989486454,0.02513706019990858,0.02328105000312808
+subcellular_localization,amino-acid composition,ankh_base,sham1,permuted,19,768,0.6502224019409624,0.02513706019990858,0.02328105000312808
+subcellular_localization,amino-acid composition,ankh_base,sham2,none,19,768,0.6542660735948241,0.028988003226426362,0.020966350459108107
+subcellular_localization,amino-acid composition,ankh_base,sham2,named,19,768,0.6566922765871411,0.028988003226426362,0.020966350459108107
+subcellular_localization,amino-acid composition,ankh_base,sham2,permuted,19,768,0.6486049332794177,0.028988003226426362,0.020966350459108107
+subcellular_localization,amino-acid composition,ankh_base,sham3,none,19,768,0.64941366761019,0.02704608459248281,0.02268778572784269
+subcellular_localization,amino-acid composition,ankh_base,sham3,named,19,768,0.6534573392640518,0.02704608459248281,0.02268778572784269
+subcellular_localization,amino-acid composition,ankh_base,sham3,permuted,19,768,0.646987464617873,0.02704608459248281,0.02268778572784269
+subcellular_localization,amino-acid composition,ankh_base,null0,none,19,768,0.5754144763445208,0.11026797791486909,0.0573020345385683
+subcellular_localization,amino-acid composition,ankh_base,null0,named,19,768,0.5879498584714921,0.11026797791486909,0.0573020345385683
+subcellular_localization,amino-acid composition,ankh_base,null0,permuted,19,768,0.5669227658714112,0.11026797791486909,0.0573020345385683
+subcellular_localization,amino-acid composition,ankh_base,null1,none,19,768,0.570966437525273,0.11046789498118381,0.029599111808185752
+subcellular_localization,amino-acid composition,ankh_base,null1,named,19,768,0.5980590376061464,0.11046789498118381,0.029599111808185752
+subcellular_localization,amino-acid composition,ankh_base,null1,permuted,19,768,0.5697533360291145,0.11046789498118381,0.029599111808185752
+subcellular_localization,amino-acid composition,ankh_base,null2,none,19,768,0.5628790942175496,0.1101288125276303,0.034107454634937584
+subcellular_localization,amino-acid composition,ankh_base,null2,named,19,768,0.5871411241407197,0.1101288125276303,0.034107454634937584
+subcellular_localization,amino-acid composition,ankh_base,null2,permuted,19,768,0.5717751718560453,0.1101288125276303,0.034107454634937584
+subcellular_localization,amino-acid composition,ankh_base,null3,none,19,768,0.5810756166599272,0.11064246809861533,0.0444256064371964
+subcellular_localization,amino-acid composition,ankh_base,null3,named,19,768,0.6008896077638496,0.11064246809861533,0.0444256064371964
+subcellular_localization,amino-acid composition,ankh_base,null3,permuted,19,768,0.5810756166599272,0.11064246809861533,0.0444256064371964
+subcellular_localization,amino-acid composition,cdconv,intact,none,19,256,0.43752527294783666,0.0,0.0
+subcellular_localization,amino-acid composition,cdconv,erased,none,19,256,0.39344925192074404,0.8683159739038402,0.9813008088876599
+subcellular_localization,amino-acid composition,cdconv,erased,named,19,256,0.46663970885564093,0.8683159739038402,0.9813008088876599
+subcellular_localization,amino-acid composition,cdconv,erased,permuted,19,256,0.3918317832591994,0.8683159739038402,0.9813008088876599
+subcellular_localization,amino-acid composition,cdconv,sham0,none,19,256,0.3983016579053781,0.7164825703966555,0.07487304112832383
+subcellular_localization,amino-acid composition,cdconv,sham0,named,19,256,0.4642135058633239,0.7164825703966555,0.07487304112832383
+subcellular_localization,amino-acid composition,cdconv,sham0,permuted,19,256,0.3914274160938132,0.7164825703966555,0.07487304112832383
+subcellular_localization,amino-acid composition,cdconv,sham1,none,19,256,0.4132632430246664,0.6814724189212352,0.07415712795181639
+subcellular_localization,amino-acid composition,cdconv,sham1,named,19,256,0.46097856854023456,0.6814724189212352,0.07415712795181639
+subcellular_localization,amino-acid composition,cdconv,sham1,permuted,19,256,0.4035584310553983,0.6814724189212352,0.07415712795181639
+subcellular_localization,amino-acid composition,cdconv,sham2,none,19,256,0.42741609381318235,0.71147403009472,0.06893528692460738
+subcellular_localization,amino-acid composition,cdconv,sham2,named,19,256,0.46623534169025477,0.71147403009472,0.06893528692460738
+subcellular_localization,amino-acid composition,cdconv,sham2,permuted,19,256,0.4257986251516377,0.71147403009472,0.06893528692460738
+subcellular_localization,amino-acid composition,cdconv,sham3,none,19,256,0.4355034371209058,0.6591369244829157,0.06959952395793045
+subcellular_localization,amino-acid composition,cdconv,sham3,named,19,256,0.4807925596441569,0.6591369244829157,0.06959952395793045
+subcellular_localization,amino-acid composition,cdconv,sham3,permuted,19,256,0.43752527294783666,0.6591369244829157,0.06959952395793045
+subcellular_localization,amino-acid composition,cdconv,null0,none,19,256,0.40921957137080467,0.8659069746482102,0.4772217271921365
+subcellular_localization,amino-acid composition,cdconv,null0,named,19,256,0.46906591184795793,0.8659069746482102,0.4772217271921365
+subcellular_localization,amino-acid composition,cdconv,null0,permuted,19,256,0.4104326728669632,0.8659069746482102,0.4772217271921365
+subcellular_localization,amino-acid composition,cdconv,null1,none,19,256,0.41447634452082494,0.8641662367559308,0.4700960207716415
+subcellular_localization,amino-acid composition,cdconv,null1,named,19,256,0.4682571775171856,0.8641662367559308,0.4700960207716415
+subcellular_localization,amino-acid composition,cdconv,null1,permuted,19,256,0.41528507885159727,0.8641662367559308,0.4700960207716415
+subcellular_localization,amino-acid composition,cdconv,null2,none,19,256,0.41447634452082494,0.8641662367559308,0.4700960207716415
+subcellular_localization,amino-acid composition,cdconv,null2,named,19,256,0.4682571775171856,0.8641662367559308,0.4700960207716415
+subcellular_localization,amino-acid composition,cdconv,null2,permuted,19,256,0.41528507885159727,0.8641662367559308,0.4700960207716415
+subcellular_localization,amino-acid composition,cdconv,null3,none,19,256,0.40962393853619083,0.8611812465036481,0.4964007527622182
+subcellular_localization,amino-acid composition,cdconv,null3,named,19,256,0.47068338050950265,0.8611812465036481,0.4964007527622182
+subcellular_localization,amino-acid composition,cdconv,null3,permuted,19,256,0.40194096239385363,0.8611812465036481,0.4964007527622182
+subcellular_localization,amino-acid composition,dimenet,intact,none,19,128,0.41366761019005255,0.0,0.0
+subcellular_localization,amino-acid composition,dimenet,erased,none,19,128,0.3938536190861302,0.9414095835637746,0.9680380094188933
+subcellular_localization,amino-acid composition,dimenet,erased,named,19,128,0.4650222401940962,0.9414095835637746,0.9680380094188933
+subcellular_localization,amino-acid composition,dimenet,erased,permuted,19,128,0.3898099474322685,0.9414095835637746,0.9680380094188933
+subcellular_localization,amino-acid composition,dimenet,sham0,none,19,128,0.4047715325515568,0.434137403533722,0.13620222161866014
+subcellular_localization,amino-acid composition,dimenet,sham0,named,19,128,0.438334007278609,0.434137403533722,0.13620222161866014
+subcellular_localization,amino-acid composition,dimenet,sham0,permuted,19,128,0.40841083704003234,0.434137403533722,0.13620222161866014
+subcellular_localization,amino-acid composition,dimenet,sham1,none,19,128,0.3918317832591994,0.4625551789836252,0.14883871213331135
+subcellular_localization,amino-acid composition,dimenet,sham1,named,19,128,0.44520824909017387,0.4625551789836252,0.14883871213331135
+subcellular_localization,amino-acid composition,dimenet,sham1,permuted,19,128,0.3894055802668823,0.4625551789836252,0.14883871213331135
+subcellular_localization,amino-acid composition,dimenet,sham2,none,19,128,0.4067933683784877,0.44826758381944987,0.1307634873099286
+subcellular_localization,amino-acid composition,dimenet,sham2,named,19,128,0.44439951475940154,0.44826758381944987,0.1307634873099286
+subcellular_localization,amino-acid composition,dimenet,sham2,permuted,19,128,0.40194096239385363,0.44826758381944987,0.1307634873099286
+subcellular_localization,amino-acid composition,dimenet,sham3,none,19,128,0.4035584310553983,0.38300517965146563,0.1460107919781113
+subcellular_localization,amino-acid composition,dimenet,sham3,named,19,128,0.4419733117670845,0.38300517965146563,0.1460107919781113
+subcellular_localization,amino-acid composition,dimenet,sham3,permuted,19,128,0.4108370400323494,0.38300517965146563,0.1460107919781113
+subcellular_localization,amino-acid composition,dimenet,null0,none,19,128,0.36433481601293977,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null0,named,19,128,0.4565305297209867,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null0,permuted,19,128,0.3594824100283057,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null1,none,19,128,0.36433481601293977,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null1,named,19,128,0.4565305297209867,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null1,permuted,19,128,0.3594824100283057,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null2,none,19,128,0.36433481601293977,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null2,named,19,128,0.4565305297209867,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null2,permuted,19,128,0.3594824100283057,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null3,none,19,128,0.36433481601293977,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null3,named,19,128,0.4565305297209867,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,dimenet,null3,permuted,19,128,0.3594824100283057,0.9335116450991147,0.7832079260187093
+subcellular_localization,amino-acid composition,esm1b,intact,none,19,1280,0.6765062676910635,0.0,0.0
+subcellular_localization,amino-acid composition,esm1b,erased,none,19,1280,0.6194904973716134,0.13971032646490833,0.9222724595722694
+subcellular_localization,amino-acid composition,esm1b,erased,named,19,1280,0.6461787302871007,0.13971032646490833,0.9222724595722694
+subcellular_localization,amino-acid composition,esm1b,erased,permuted,19,1280,0.6174686615446826,0.13971032646490833,0.9222724595722694
+subcellular_localization,amino-acid composition,esm1b,sham0,none,19,1280,0.6607359482410028,0.015436788453867423,0.014307872269257227
+subcellular_localization,amino-acid composition,esm1b,sham0,named,19,1280,0.6663970885564092,0.015436788453867423,0.014307872269257227
+subcellular_localization,amino-acid composition,esm1b,sham0,permuted,19,1280,0.661140315406389,0.015436788453867423,0.014307872269257227
+subcellular_localization,amino-acid composition,esm1b,sham1,none,19,1280,0.6676101900525677,0.014863895800892646,0.01393162397669001
+subcellular_localization,amino-acid composition,esm1b,sham1,named,19,1280,0.6627577840679337,0.014863895800892646,0.01393162397669001
+subcellular_localization,amino-acid composition,esm1b,sham1,permuted,19,1280,0.6672058228871816,0.014863895800892646,0.01393162397669001
+subcellular_localization,amino-acid composition,esm1b,sham2,none,19,1280,0.680145572179539,0.013771429221840381,0.012539792554361662
+subcellular_localization,amino-acid composition,esm1b,sham2,named,19,1280,0.6797412050141528,0.013771429221840381,0.012539792554361662
+subcellular_localization,amino-acid composition,esm1b,sham2,permuted,19,1280,0.6789324706833805,0.013771429221840381,0.012539792554361662
+subcellular_localization,amino-acid composition,esm1b,sham3,none,19,1280,0.6724625960372018,0.014835817341289248,0.013437104995379645
+subcellular_localization,amino-acid composition,esm1b,sham3,named,19,1280,0.670845127375657,0.014835817341289248,0.013437104995379645
+subcellular_localization,amino-acid composition,esm1b,sham3,permuted,19,1280,0.6680145572179539,0.014835817341289248,0.013437104995379645
+subcellular_localization,amino-acid composition,esm1b,null0,none,19,1280,0.4864536999595633,0.13834079213405637,0.0658899993495572
+subcellular_localization,amino-acid composition,esm1b,null0,named,19,1280,0.5398301657905378,0.13834079213405637,0.0658899993495572
+subcellular_localization,amino-acid composition,esm1b,null0,permuted,19,1280,0.4937323089365144,0.13834079213405637,0.0658899993495572
+subcellular_localization,amino-acid composition,esm1b,null1,none,19,1280,0.4913061059441973,0.13857057309345844,0.06619597390573995
+subcellular_localization,amino-acid composition,esm1b,null1,named,19,1280,0.5446825717751719,0.13857057309345844,0.06619597390573995
+subcellular_localization,amino-acid composition,esm1b,null1,permuted,19,1280,0.5054589567327133,0.13857057309345844,0.06619597390573995
+subcellular_localization,amino-acid composition,esm1b,null2,none,19,1280,0.4638091386979377,0.13860980131554734,0.07839691048903596
+subcellular_localization,amino-acid composition,esm1b,null2,named,19,1280,0.5216336433481601,0.13860980131554734,0.07839691048903596
+subcellular_localization,amino-acid composition,esm1b,null2,permuted,19,1280,0.46016983420946217,0.13860980131554734,0.07839691048903596
+subcellular_localization,amino-acid composition,esm1b,null3,none,19,1280,0.457339264051759,0.13831894559354885,0.07308149897931315
+subcellular_localization,amino-acid composition,esm1b,null3,named,19,1280,0.5272947836635665,0.13831894559354885,0.07308149897931315
+subcellular_localization,amino-acid composition,esm1b,null3,permuted,19,1280,0.45167812373635263,0.13831894559354885,0.07308149897931315
+subcellular_localization,amino-acid composition,esm2_150m,intact,none,19,640,0.6732713303679742,0.0,0.0
+subcellular_localization,amino-acid composition,esm2_150m,erased,none,19,640,0.6053376465830974,0.21847822336045475,0.9361051777545144
+subcellular_localization,amino-acid composition,esm2_150m,erased,named,19,640,0.6591184795794581,0.21847822336045475,0.9361051777545144
+subcellular_localization,amino-acid composition,esm2_150m,erased,permuted,19,640,0.6146380913869793,0.21847822336045475,0.9361051777545144
+subcellular_localization,amino-acid composition,esm2_150m,sham0,none,19,640,0.656287909421755,0.03190011398250869,0.028877362925898376
+subcellular_localization,amino-acid composition,esm2_150m,sham0,named,19,640,0.6583097452486858,0.03190011398250869,0.028877362925898376
+subcellular_localization,amino-acid composition,esm2_150m,sham0,permuted,19,640,0.6510311362717347,0.03190011398250869,0.028877362925898376
+subcellular_localization,amino-acid composition,esm2_150m,sham1,none,19,640,0.6607359482410028,0.030399539855783364,0.029886787211870658
+subcellular_localization,amino-acid composition,esm2_150m,sham1,named,19,640,0.6607359482410028,0.030399539855783364,0.029886787211870658
+subcellular_localization,amino-acid composition,esm2_150m,sham1,permuted,19,640,0.6542660735948241,0.030399539855783364,0.029886787211870658
+subcellular_localization,amino-acid composition,esm2_150m,sham2,none,19,640,0.6550748079255965,0.028818684777132564,0.025324934232557772
+subcellular_localization,amino-acid composition,esm2_150m,sham2,named,19,640,0.6522442377678932,0.028818684777132564,0.025324934232557772
+subcellular_localization,amino-acid composition,esm2_150m,sham2,permuted,19,640,0.6502224019409624,0.028818684777132564,0.025324934232557772
+subcellular_localization,amino-acid composition,esm2_150m,sham3,none,19,640,0.646987464617873,0.03218974995406232,0.02629530523938861
+subcellular_localization,amino-acid composition,esm2_150m,sham3,named,19,640,0.6542660735948241,0.03218974995406232,0.02629530523938861
+subcellular_localization,amino-acid composition,esm2_150m,sham3,permuted,19,640,0.6514355034371209,0.03218974995406232,0.02629530523938861
+subcellular_localization,amino-acid composition,esm2_150m,null0,none,19,640,0.5940153659522847,0.21811645751583464,0.10425664647058641
+subcellular_localization,amino-acid composition,esm2_150m,null0,named,19,640,0.61140315406389,0.21811645751583464,0.10425664647058641
+subcellular_localization,amino-acid composition,esm2_150m,null0,permuted,19,640,0.5879498584714921,0.21811645751583464,0.10425664647058641
+subcellular_localization,amino-acid composition,esm2_150m,null1,none,19,640,0.5600485240598463,0.21635156116960474,0.10993067745647722
+subcellular_localization,amino-acid composition,esm2_150m,null1,named,19,640,0.5984634047715326,0.21635156116960474,0.10993067745647722
+subcellular_localization,amino-acid composition,esm2_150m,null1,permuted,19,640,0.5539830165790538,0.21635156116960474,0.10993067745647722
+subcellular_localization,amino-acid composition,esm2_150m,null2,none,19,640,0.5851192883137889,0.21826611111265481,0.09229214283632359
+subcellular_localization,amino-acid composition,esm2_150m,null2,named,19,640,0.6069551152446422,0.21826611111265481,0.09229214283632359
+subcellular_localization,amino-acid composition,esm2_150m,null2,permuted,19,640,0.5806712494945411,0.21826611111265481,0.09229214283632359
+subcellular_localization,amino-acid composition,esm2_150m,null3,none,19,640,0.5867367569753336,0.21660675096101867,0.12848456733975144
+subcellular_localization,amino-acid composition,esm2_150m,null3,named,19,640,0.6033158107561666,0.21660675096101867,0.12848456733975144
+subcellular_localization,amino-acid composition,esm2_150m,null3,permuted,19,640,0.5818843509906996,0.21660675096101867,0.12848456733975144
+subcellular_localization,amino-acid composition,esm2_35m,intact,none,19,480,0.6502224019409624,0.0,0.0
+subcellular_localization,amino-acid composition,esm2_35m,erased,none,19,480,0.606550748079256,0.2485672280602188,0.9167263100827274
+subcellular_localization,amino-acid composition,esm2_35m,erased,named,19,480,0.6461787302871007,0.2485672280602188,0.9167263100827274
+subcellular_localization,amino-acid composition,esm2_35m,erased,permuted,19,480,0.6037201779215527,0.2485672280602188,0.9167263100827274
+subcellular_localization,amino-acid composition,esm2_35m,sham0,none,19,480,0.6207035988677719,0.03885281818357311,0.036132361015947856
+subcellular_localization,amino-acid composition,esm2_35m,sham0,named,19,480,0.632834613829357,0.03885281818357311,0.036132361015947856
+subcellular_localization,amino-acid composition,esm2_35m,sham0,permuted,19,480,0.6101900525677315,0.03885281818357311,0.036132361015947856
+subcellular_localization,amino-acid composition,esm2_35m,sham1,none,19,480,0.6364739183178326,0.03579093512407383,0.036014049301450135
+subcellular_localization,amino-acid composition,esm2_35m,sham1,named,19,480,0.6421350586332389,0.03579093512407383,0.036014049301450135
+subcellular_localization,amino-acid composition,esm2_35m,sham1,permuted,19,480,0.6287909421754954,0.03579093512407383,0.036014049301450135
+subcellular_localization,amino-acid composition,esm2_35m,sham2,none,19,480,0.6380913869793773,0.03537742379988151,0.035144290266097
+subcellular_localization,amino-acid composition,esm2_35m,sham2,named,19,480,0.6384957541447634,0.03537742379988151,0.035144290266097
+subcellular_localization,amino-acid composition,esm2_35m,sham2,permuted,19,480,0.6291953093408815,0.03537742379988151,0.035144290266097
+subcellular_localization,amino-acid composition,esm2_35m,sham3,none,19,480,0.6263647391831784,0.041411325333449045,0.03675773962382067
+subcellular_localization,amino-acid composition,esm2_35m,sham3,named,19,480,0.6344520824909018,0.041411325333449045,0.03675773962382067
+subcellular_localization,amino-acid composition,esm2_35m,sham3,permuted,19,480,0.6243429033562474,0.041411325333449045,0.03675773962382067
+subcellular_localization,amino-acid composition,esm2_35m,null0,none,19,480,0.5539830165790538,0.24656885833494613,0.18506303047597283
+subcellular_localization,amino-acid composition,esm2_35m,null0,named,19,480,0.5988677719369188,0.24656885833494613,0.18506303047597283
+subcellular_localization,amino-acid composition,esm2_35m,null0,permuted,19,480,0.5531742822482815,0.24656885833494613,0.18506303047597283
+subcellular_localization,amino-acid composition,esm2_35m,null1,none,19,480,0.5729882733522038,0.24638658888869291,0.15973109336150437
+subcellular_localization,amino-acid composition,esm2_35m,null1,named,19,480,0.6000808734330773,0.24638658888869291,0.15973109336150437
+subcellular_localization,amino-acid composition,esm2_35m,null1,permuted,19,480,0.5737970076829761,0.24638658888869291,0.15973109336150437
+subcellular_localization,amino-acid composition,esm2_35m,null2,none,19,480,0.5681358673675697,0.24789624905882002,0.20742782733276
+subcellular_localization,amino-acid composition,esm2_35m,null2,named,19,480,0.594824100283057,0.24789624905882002,0.20742782733276
+subcellular_localization,amino-acid composition,esm2_35m,null2,permuted,19,480,0.5653052972098666,0.24789624905882002,0.20742782733276
+subcellular_localization,amino-acid composition,esm2_35m,null3,none,19,480,0.5818843509906996,0.2461376299072131,0.20354986654856022
+subcellular_localization,amino-acid composition,esm2_35m,null3,named,19,480,0.6004852405984634,0.2461376299072131,0.20354986654856022
+subcellular_localization,amino-acid composition,esm2_35m,null3,permuted,19,480,0.5737970076829761,0.2461376299072131,0.20354986654856022
+subcellular_localization,amino-acid composition,esm2_3b,intact,none,19,2560,0.6934896886372827,0.0,0.0
+subcellular_localization,amino-acid composition,esm2_3b,erased,none,19,2560,0.6542660735948241,0.11493768387604286,0.960494562715509
+subcellular_localization,amino-acid composition,esm2_3b,erased,named,19,2560,0.6769106348564496,0.11493768387604286,0.960494562715509
+subcellular_localization,amino-acid composition,esm2_3b,erased,permuted,19,2560,0.6579053780832996,0.11493768387604286,0.960494562715509
+subcellular_localization,amino-acid composition,esm2_3b,sham0,none,19,2560,0.6906591184795795,0.007430766769512931,0.007316978894986947
+subcellular_localization,amino-acid composition,esm2_3b,sham0,named,19,2560,0.696724625960372,0.007430766769512931,0.007316978894986947
+subcellular_localization,amino-acid composition,esm2_3b,sham0,permuted,19,2560,0.691872219975738,0.007430766769512931,0.007316978894986947
+subcellular_localization,amino-acid composition,esm2_3b,sham1,none,19,2560,0.6647796198948646,0.008194459307823032,0.007038818864972263
+subcellular_localization,amino-acid composition,esm2_3b,sham1,named,19,2560,0.675293166194905,0.008194459307823032,0.007038818864972263
+subcellular_localization,amino-acid composition,esm2_3b,sham1,permuted,19,2560,0.672866963202588,0.008194459307823032,0.007038818864972263
+subcellular_localization,amino-acid composition,esm2_3b,sham2,none,19,2560,0.6947027901334412,0.006865909661482816,0.006502024991907107
+subcellular_localization,amino-acid composition,esm2_3b,sham2,named,19,2560,0.6938940558026688,0.006865909661482816,0.006502024991907107
+subcellular_localization,amino-acid composition,esm2_3b,sham2,permuted,19,2560,0.6874241811564901,0.006865909661482816,0.006502024991907107
+subcellular_localization,amino-acid composition,esm2_3b,sham3,none,19,2560,0.6401132228063081,0.009325900331609849,0.006834480574270496
+subcellular_localization,amino-acid composition,esm2_3b,sham3,named,19,2560,0.6934896886372827,0.009325900331609849,0.006834480574270496
+subcellular_localization,amino-acid composition,esm2_3b,sham3,permuted,19,2560,0.6914678528103518,0.009325900331609849,0.006834480574270496
+subcellular_localization,amino-acid composition,esm2_3b,null0,none,19,2560,0.33926405175899715,0.11387941635064547,0.09111989280761756
+subcellular_localization,amino-acid composition,esm2_3b,null0,named,19,2560,0.3857662757784068,0.11387941635064547,0.09111989280761756
+subcellular_localization,amino-acid composition,esm2_3b,null0,permuted,19,2560,0.336433481601294,0.11387941635064547,0.09111989280761756
+subcellular_localization,amino-acid composition,esm2_3b,null1,none,19,2560,0.33522038010513544,0.11380305230706034,0.11981105737941
+subcellular_localization,amino-acid composition,esm2_3b,null1,named,19,2560,0.38495754144763444,0.11380305230706034,0.11981105737941
+subcellular_localization,amino-acid composition,esm2_3b,null1,permuted,19,2560,0.3408815204205419,0.11380305230706034,0.11981105737941
+subcellular_localization,amino-acid composition,esm2_3b,null2,none,19,2560,0.32187626364739186,0.11383146512938647,0.10059236791110648
+subcellular_localization,amino-acid composition,esm2_3b,null2,named,19,2560,0.3821269712899313,0.11383146512938647,0.10059236791110648
+subcellular_localization,amino-acid composition,esm2_3b,null2,permuted,19,2560,0.3323898099474323,0.11383146512938647,0.10059236791110648
+subcellular_localization,amino-acid composition,esm2_3b,null3,none,19,2560,0.34977759805903763,0.11384020021715324,0.08736396361619136
+subcellular_localization,amino-acid composition,esm2_3b,null3,named,19,2560,0.40598463404771534,0.11384020021715324,0.08736396361619136
+subcellular_localization,amino-acid composition,esm2_3b,null3,permuted,19,2560,0.3538212697128993,0.11384020021715324,0.08736396361619136
+subcellular_localization,amino-acid composition,esm2_650m,intact,none,19,1280,0.6862110796603316,0.0,0.0
+subcellular_localization,amino-acid composition,esm2_650m,erased,none,19,1280,0.6389001213101496,0.1326542000794193,0.9466644628273634
+subcellular_localization,amino-acid composition,esm2_650m,erased,named,19,1280,0.6769106348564496,0.1326542000794193,0.9466644628273634
+subcellular_localization,amino-acid composition,esm2_650m,erased,permuted,19,1280,0.6356651839870603,0.1326542000794193,0.9466644628273634
+subcellular_localization,amino-acid composition,esm2_650m,sham0,none,19,1280,0.6639708855640922,0.0153912312581993,0.01445012387696154
+subcellular_localization,amino-acid composition,esm2_650m,sham0,named,19,1280,0.6680145572179539,0.0153912312581993,0.01445012387696154
+subcellular_localization,amino-acid composition,esm2_650m,sham0,permuted,19,1280,0.6631621512333199,0.0153912312581993,0.01445012387696154
+subcellular_localization,amino-acid composition,esm2_650m,sham1,none,19,1280,0.677719369187222,0.015055961012410801,0.013849515717638927
+subcellular_localization,amino-acid composition,esm2_650m,sham1,named,19,1280,0.6821674080064699,0.015055961012410801,0.013849515717638927
+subcellular_localization,amino-acid composition,esm2_650m,sham1,permuted,19,1280,0.6781237363526081,0.015055961012410801,0.013849515717638927
+subcellular_localization,amino-acid composition,esm2_650m,sham2,none,19,1280,0.6858067124949454,0.01549429257179058,0.012909873638584646
+subcellular_localization,amino-acid composition,esm2_650m,sham2,named,19,1280,0.6769106348564496,0.01549429257179058,0.012909873638584646
+subcellular_localization,amino-acid composition,esm2_650m,sham2,permuted,19,1280,0.6744844318641326,0.01549429257179058,0.012909873638584646
+subcellular_localization,amino-acid composition,esm2_650m,sham3,none,19,1280,0.675293166194905,0.018136697777080935,0.013655917032020182
+subcellular_localization,amino-acid composition,esm2_650m,sham3,named,19,1280,0.6756975333602911,0.018136697777080935,0.013655917032020182
+subcellular_localization,amino-acid composition,esm2_650m,sham3,permuted,19,1280,0.6736756975333603,0.018136697777080935,0.013655917032020182
+subcellular_localization,amino-acid composition,esm2_650m,null0,none,19,1280,0.5345733926405176,0.13138632175451226,0.02867650018058343
+subcellular_localization,amino-acid composition,esm2_650m,null0,named,19,1280,0.5713708046906592,0.13138632175451226,0.02867650018058343
+subcellular_localization,amino-acid composition,esm2_650m,null0,permuted,19,1280,0.5390214314597654,0.13138632175451226,0.02867650018058343
+subcellular_localization,amino-acid composition,esm2_650m,null1,none,19,1280,0.5390214314597654,0.13133053769394065,0.05282393188782686
+subcellular_localization,amino-acid composition,esm2_650m,null1,named,19,1280,0.5705620703598868,0.13133053769394065,0.05282393188782686
+subcellular_localization,amino-acid composition,esm2_650m,null1,permuted,19,1280,0.5357864941366761,0.13133053769394065,0.05282393188782686
+subcellular_localization,amino-acid composition,esm2_650m,null2,none,19,1280,0.5479175090982612,0.13335589232294676,0.04062877566243728
+subcellular_localization,amino-acid composition,esm2_650m,null2,named,19,1280,0.5737970076829761,0.13335589232294676,0.04062877566243728
+subcellular_localization,amino-acid composition,esm2_650m,null2,permuted,19,1280,0.5454913061059442,0.13335589232294676,0.04062877566243728
+subcellular_localization,amino-acid composition,esm2_650m,null3,none,19,1280,0.5369995956328346,0.1314116027102279,0.04182640105196278
+subcellular_localization,amino-acid composition,esm2_650m,null3,named,19,1280,0.5657096643752527,0.1314116027102279,0.04182640105196278
+subcellular_localization,amino-acid composition,esm2_650m,null3,permuted,19,1280,0.5337646583097453,0.1314116027102279,0.04182640105196278
+subcellular_localization,amino-acid composition,esm2_8m,intact,none,19,320,0.6073594824100284,0.0,0.0
+subcellular_localization,amino-acid composition,esm2_8m,erased,none,19,320,0.5673271330367974,0.29207692176503963,0.9028348861120585
+subcellular_localization,amino-acid composition,esm2_8m,erased,named,19,320,0.6101900525677315,0.29207692176503963,0.9028348861120585
+subcellular_localization,amino-acid composition,esm2_8m,erased,permuted,19,320,0.5596441568944601,0.29207692176503963,0.9028348861120585
+subcellular_localization,amino-acid composition,esm2_8m,sham0,none,19,320,0.5976546704407603,0.06063968381176499,0.05079474496287173
+subcellular_localization,amino-acid composition,esm2_8m,sham0,named,19,320,0.6029114435907804,0.06063968381176499,0.05079474496287173
+subcellular_localization,amino-acid composition,esm2_8m,sham0,permuted,19,320,0.5928022644561262,0.06063968381176499,0.05079474496287173
+subcellular_localization,amino-acid composition,esm2_8m,sham1,none,19,320,0.5928022644561262,0.056133604920572955,0.05762674275781099
+subcellular_localization,amino-acid composition,esm2_8m,sham1,named,19,320,0.5964415689446017,0.056133604920572955,0.05762674275781099
+subcellular_localization,amino-acid composition,esm2_8m,sham1,permuted,19,320,0.5871411241407197,0.056133604920572955,0.05762674275781099
+subcellular_localization,amino-acid composition,esm2_8m,sham2,none,19,320,0.6025070764253943,0.05943172436008115,0.0492905061302803
+subcellular_localization,amino-acid composition,esm2_8m,sham2,named,19,320,0.6037201779215527,0.05943172436008115,0.0492905061302803
+subcellular_localization,amino-acid composition,esm2_8m,sham2,permuted,19,320,0.6025070764253943,0.05943172436008115,0.0492905061302803
+subcellular_localization,amino-acid composition,esm2_8m,sham3,none,19,320,0.5964415689446017,0.05828679008561877,0.05610967031319025
+subcellular_localization,amino-acid composition,esm2_8m,sham3,named,19,320,0.6069551152446422,0.05828679008561877,0.05610967031319025
+subcellular_localization,amino-acid composition,esm2_8m,sham3,permuted,19,320,0.5919935301253538,0.05828679008561877,0.05610967031319025
+subcellular_localization,amino-acid composition,esm2_8m,null0,none,19,320,0.5721795390214315,0.29025586042267304,0.022737522894673234
+subcellular_localization,amino-acid composition,esm2_8m,null0,named,19,320,0.5806712494945411,0.29025586042267304,0.022737522894673234
+subcellular_localization,amino-acid composition,esm2_8m,null0,permuted,19,320,0.5661140315406389,0.29025586042267304,0.022737522894673234
+subcellular_localization,amino-acid composition,esm2_8m,null1,none,19,320,0.5572179539021431,0.28923051542344913,0.11842070074896383
+subcellular_localization,amino-acid composition,esm2_8m,null1,named,19,320,0.5766275778406793,0.28923051542344913,0.11842070074896383
+subcellular_localization,amino-acid composition,esm2_8m,null1,permuted,19,320,0.551961180752123,0.28923051542344913,0.11842070074896383
+subcellular_localization,amino-acid composition,esm2_8m,null2,none,19,320,0.5697533360291145,0.290345104344622,0.022718049947121233
+subcellular_localization,amino-acid composition,esm2_8m,null2,named,19,320,0.5794581479983826,0.290345104344622,0.022718049947121233
+subcellular_localization,amino-acid composition,esm2_8m,null2,permuted,19,320,0.5632834613829357,0.290345104344622,0.022718049947121233
+subcellular_localization,amino-acid composition,esm2_8m,null3,none,19,320,0.57339264051759,0.28916162191277583,0.07486107428037436
+subcellular_localization,amino-acid composition,esm2_8m,null3,named,19,320,0.5750101091791346,0.28916162191277583,0.07486107428037436
+subcellular_localization,amino-acid composition,esm2_8m,null3,permuted,19,320,0.5685402345329559,0.28916162191277583,0.07486107428037436
+subcellular_localization,amino-acid composition,esm3,intact,none,19,1536,0.6109987868985038,0.0,0.0
+subcellular_localization,amino-acid composition,esm3,erased,none,19,1536,0.5596441568944601,0.09845100133790807,0.9537120705397201
+subcellular_localization,amino-acid composition,esm3,erased,named,19,1536,0.5976546704407603,0.09845100133790807,0.9537120705397201
+subcellular_localization,amino-acid composition,esm3,erased,permuted,19,1536,0.5576223210675293,0.09845100133790807,0.9537120705397201
+subcellular_localization,amino-acid composition,esm3,sham0,none,19,1536,0.5863323898099474,0.012812091629776923,0.012046362238812724
+subcellular_localization,amino-acid composition,esm3,sham0,named,19,1536,0.6077638495754145,0.012812091629776923,0.012046362238812724
+subcellular_localization,amino-acid composition,esm3,sham0,permuted,19,1536,0.5952284674484432,0.012812091629776923,0.012046362238812724
+subcellular_localization,amino-acid composition,esm3,sham1,none,19,1536,0.5976546704407603,0.011848156034808599,0.011699506208428079
+subcellular_localization,amino-acid composition,esm3,sham1,named,19,1536,0.6097856854023453,0.011848156034808599,0.011699506208428079
+subcellular_localization,amino-acid composition,esm3,sham1,permuted,19,1536,0.6008896077638496,0.011848156034808599,0.011699506208428079
+subcellular_localization,amino-acid composition,esm3,sham2,none,19,1536,0.5988677719369188,0.012225765493304563,0.010785281883599951
+subcellular_localization,amino-acid composition,esm3,sham2,named,19,1536,0.6130206227254347,0.012225765493304563,0.010785281883599951
+subcellular_localization,amino-acid composition,esm3,sham2,permuted,19,1536,0.6037201779215527,0.012225765493304563,0.010785281883599951
+subcellular_localization,amino-acid composition,esm3,sham3,none,19,1536,0.6029114435907804,0.01190544132714677,0.011338953646332195
+subcellular_localization,amino-acid composition,esm3,sham3,named,19,1536,0.5940153659522847,0.01190544132714677,0.011338953646332195
+subcellular_localization,amino-acid composition,esm3,sham3,permuted,19,1536,0.5915891629599677,0.01190544132714677,0.011338953646332195
+subcellular_localization,amino-acid composition,esm3,null0,none,19,1536,0.3736352608168217,0.09887760081630392,0.024403076043625238
+subcellular_localization,amino-acid composition,esm3,null0,named,19,1536,0.4330772341285888,0.09887760081630392,0.024403076043625238
+subcellular_localization,amino-acid composition,esm3,null0,permuted,19,1536,0.36676101900525676,0.09887760081630392,0.024403076043625238
+subcellular_localization,amino-acid composition,esm3,null1,none,19,1536,0.36554791750909826,0.09779244896539108,0.03571377424135469
+subcellular_localization,amino-acid composition,esm3,null1,named,19,1536,0.4298422968054994,0.09779244896539108,0.03571377424135469
+subcellular_localization,amino-acid composition,esm3,null1,permuted,19,1536,0.3623129801860089,0.09779244896539108,0.03571377424135469
+subcellular_localization,amino-acid composition,esm3,null2,none,19,1536,0.37403962798220786,0.09749214311267085,0.029814200761713927
+subcellular_localization,amino-acid composition,esm3,null2,named,19,1536,0.4257986251516377,0.09749214311267085,0.029814200761713927
+subcellular_localization,amino-acid composition,esm3,null2,permuted,19,1536,0.35705620703598867,0.09749214311267085,0.029814200761713927
+subcellular_localization,amino-acid composition,esm3,null3,none,19,1536,0.3631217145167812,0.09752204269805864,0.04116405740504958
+subcellular_localization,amino-acid composition,esm3,null3,named,19,1536,0.44439951475940154,0.09752204269805864,0.04116405740504958
+subcellular_localization,amino-acid composition,esm3,null3,permuted,19,1536,0.3566518398706025,0.09752204269805864,0.04116405740504958
+subcellular_localization,amino-acid composition,esm_if1,intact,none,19,512,0.48281439547108773,0.0,0.0
+subcellular_localization,amino-acid composition,esm_if1,erased,none,19,512,0.4488475535786494,0.0887137403801238,0.4471095228550924
+subcellular_localization,amino-acid composition,esm_if1,erased,named,19,512,0.47472705216336436,0.0887137403801238,0.4471095228550924
+subcellular_localization,amino-acid composition,esm_if1,erased,permuted,19,512,0.4468257177517186,0.0887137403801238,0.4471095228550924
+subcellular_localization,amino-acid composition,esm_if1,sham0,none,19,512,0.45936109987868984,0.037388243021910794,0.016472683007993094
+subcellular_localization,amino-acid composition,esm_if1,sham0,named,19,512,0.504650222401941,0.037388243021910794,0.016472683007993094
+subcellular_localization,amino-acid composition,esm_if1,sham0,permuted,19,512,0.4670440760210271,0.037388243021910794,0.016472683007993094
+subcellular_localization,amino-acid composition,esm_if1,sham1,none,19,512,0.4710877476748888,0.03517922577175214,0.01700729775630816
+subcellular_localization,amino-acid composition,esm_if1,sham1,named,19,512,0.49534977759805904,0.03517922577175214,0.01700729775630816
+subcellular_localization,amino-acid composition,esm_if1,sham1,permuted,19,512,0.4670440760210271,0.03517922577175214,0.01700729775630816
+subcellular_localization,amino-acid composition,esm_if1,sham2,none,19,512,0.4864536999595633,0.04118574934042285,0.012685985371334918
+subcellular_localization,amino-acid composition,esm_if1,sham2,named,19,512,0.5050545895673272,0.04118574934042285,0.012685985371334918
+subcellular_localization,amino-acid composition,esm_if1,sham2,permuted,19,512,0.4751314193287505,0.04118574934042285,0.012685985371334918
+subcellular_localization,amino-acid composition,esm_if1,sham3,none,19,512,0.48038819247877074,0.03575349959422014,0.014792880428665
+subcellular_localization,amino-acid composition,esm_if1,sham3,named,19,512,0.49939344925192075,0.03575349959422014,0.014792880428665
+subcellular_localization,amino-acid composition,esm_if1,sham3,permuted,19,512,0.4702790133441165,0.03575349959422014,0.014792880428665
+subcellular_localization,amino-acid composition,esm_if1,null0,none,19,512,0.4310553983016579,0.08863727788286924,0.012859228697477687
+subcellular_localization,amino-acid composition,esm_if1,null0,named,19,512,0.4492519207440356,0.08863727788286924,0.012859228697477687
+subcellular_localization,amino-acid composition,esm_if1,null0,permuted,19,512,0.43145976546704407,0.08863727788286924,0.012859228697477687
+subcellular_localization,amino-acid composition,esm_if1,null1,none,19,512,0.42660735948241,0.0881517815133791,0.012111416263650754
+subcellular_localization,amino-acid composition,esm_if1,null1,named,19,512,0.44116457743631216,0.0881517815133791,0.012111416263650754
+subcellular_localization,amino-acid composition,esm_if1,null1,permuted,19,512,0.4278204609785685,0.0881517815133791,0.012111416263650754
+subcellular_localization,amino-acid composition,esm_if1,null2,none,19,512,0.4342903356247473,0.08790607822149066,0.012041669826856505
+subcellular_localization,amino-acid composition,esm_if1,null2,named,19,512,0.4512737565709664,0.08790607822149066,0.012041669826856505
+subcellular_localization,amino-acid composition,esm_if1,null2,permuted,19,512,0.43024666397088557,0.08790607822149066,0.012041669826856505
+subcellular_localization,amino-acid composition,esm_if1,null3,none,19,512,0.4278204609785685,0.08787157425904346,0.015065450253080925
+subcellular_localization,amino-acid composition,esm_if1,null3,named,19,512,0.4476344520824909,0.08787157425904346,0.015065450253080925
+subcellular_localization,amino-acid composition,esm_if1,null3,permuted,19,512,0.4257986251516377,0.08787157425904346,0.015065450253080925
+subcellular_localization,amino-acid composition,foldvision,intact,none,19,1024,0.5131419328750505,0.0,0.0
+subcellular_localization,amino-acid composition,foldvision,erased,none,19,1024,0.4415689446016983,0.1817850755801106,0.6629719350529625
+subcellular_localization,amino-acid composition,foldvision,erased,named,19,1024,0.4795794581479984,0.1817850755801106,0.6629719350529625
+subcellular_localization,amino-acid composition,foldvision,erased,permuted,19,1024,0.44116457743631216,0.1817850755801106,0.6629719350529625
+subcellular_localization,amino-acid composition,foldvision,sham0,none,19,1024,0.4848362312980186,0.02271365178368101,0.013188668705855111
+subcellular_localization,amino-acid composition,foldvision,sham0,named,19,1024,0.4977759805903761,0.02271365178368101,0.013188668705855111
+subcellular_localization,amino-acid composition,foldvision,sham0,permuted,19,1024,0.48887990295188033,0.02271365178368101,0.013188668705855111
+subcellular_localization,amino-acid composition,foldvision,sham1,none,19,1024,0.49534977759805904,0.01685266004235031,0.012097531657899951
+subcellular_localization,amino-acid composition,foldvision,sham1,named,19,1024,0.49939344925192075,0.01685266004235031,0.012097531657899951
+subcellular_localization,amino-acid composition,foldvision,sham1,permuted,19,1024,0.4977759805903761,0.01685266004235031,0.012097531657899951
+subcellular_localization,amino-acid composition,foldvision,sham2,none,19,1024,0.4989890820865346,0.019496098634198322,0.01126829166944332
+subcellular_localization,amino-acid composition,foldvision,sham2,named,19,1024,0.5066720582288718,0.019496098634198322,0.01126829166944332
+subcellular_localization,amino-acid composition,foldvision,sham2,permuted,19,1024,0.5082895268904165,0.019496098634198322,0.01126829166944332
+subcellular_localization,amino-acid composition,foldvision,sham3,none,19,1024,0.48847553578649416,0.017551155229567184,0.011103813459885092
+subcellular_localization,amino-acid composition,foldvision,sham3,named,19,1024,0.5030327537403962,0.017551155229567184,0.011103813459885092
+subcellular_localization,amino-acid composition,foldvision,sham3,permuted,19,1024,0.49656287909421754,0.017551155229567184,0.011103813459885092
+subcellular_localization,amino-acid composition,foldvision,null0,none,19,1024,0.33683784876668016,0.18304591030025574,0.06602469382389187
+subcellular_localization,amino-acid composition,foldvision,null0,named,19,1024,0.38657501010917916,0.18304591030025574,0.06602469382389187
+subcellular_localization,amino-acid composition,foldvision,null0,permuted,19,1024,0.3348160129397493,0.18304591030025574,0.06602469382389187
+subcellular_localization,amino-acid composition,foldvision,null1,none,19,1024,0.32106752931661947,0.18250827096328714,0.023800724224476433
+subcellular_localization,amino-acid composition,foldvision,null1,named,19,1024,0.38495754144763444,0.18250827096328714,0.023800724224476433
+subcellular_localization,amino-acid composition,foldvision,null1,permuted,19,1024,0.31904569348968864,0.18250827096328714,0.023800724224476433
+subcellular_localization,amino-acid composition,foldvision,null2,none,19,1024,0.32025879498584714,0.18028767453550476,0.044485556686065575
+subcellular_localization,amino-acid composition,foldvision,null2,named,19,1024,0.3801051354630004,0.18028767453550476,0.044485556686065575
+subcellular_localization,amino-acid composition,foldvision,null2,permuted,19,1024,0.3251112009704812,0.18028767453550476,0.044485556686065575
+subcellular_localization,amino-acid composition,foldvision,null3,none,19,1024,0.3101496158511929,0.1816536264564641,0.0619491413542832
+subcellular_localization,amino-acid composition,foldvision,null3,named,19,1024,0.3760614638091387,0.1816536264564641,0.0619491413542832
+subcellular_localization,amino-acid composition,foldvision,null3,permuted,19,1024,0.3238980994743227,0.1816536264564641,0.0619491413542832
+subcellular_localization,amino-acid composition,gcpnet_pretrained,intact,none,19,116,0.421754953497776,0.0,0.0
+subcellular_localization,amino-acid composition,gcpnet_pretrained,erased,none,19,116,0.3873837444399515,0.04328143870185519,0.6690174645432502
+subcellular_localization,amino-acid composition,gcpnet_pretrained,erased,named,19,116,0.45248685806712496,0.04328143870185519,0.6690174645432502
+subcellular_localization,amino-acid composition,gcpnet_pretrained,erased,permuted,19,116,0.38172260412454506,0.04328143870185519,0.6690174645432502
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham0,none,19,116,0.43145976546704407,0.22730506422233243,0.12054007393172839
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham0,named,19,116,0.4710877476748888,0.22730506422233243,0.12054007393172839
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham0,permuted,19,116,0.42094621916700364,0.22730506422233243,0.12054007393172839
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham1,none,19,116,0.43752527294783666,0.14540354854487836,0.11079628725197499
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham1,named,19,116,0.4767488879902952,0.14540354854487836,0.11079628725197499
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham1,permuted,19,116,0.4298422968054994,0.14540354854487836,0.11079628725197499
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham2,none,19,116,0.4427820460978569,0.2563370364906411,0.1003378164483566
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham2,named,19,116,0.4779619894864537,0.2563370364906411,0.1003378164483566
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham2,permuted,19,116,0.43712090578245044,0.2563370364906411,0.1003378164483566
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham3,none,19,116,0.4480388192478771,0.15928280370064762,0.10101169250968811
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham3,named,19,116,0.46663970885564093,0.15928280370064762,0.10101169250968811
+subcellular_localization,amino-acid composition,gcpnet_pretrained,sham3,permuted,19,116,0.43712090578245044,0.15928280370064762,0.10101169250968811
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null0,none,19,116,0.4367165386170643,0.04284997924133027,0.11691048340051924
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null0,named,19,116,0.4767488879902952,0.04284997924133027,0.11691048340051924
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null0,permuted,19,116,0.43186413263243023,0.04284997924133027,0.11691048340051924
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null1,none,19,116,0.3845531742822483,0.04284962187767438,0.26964730260675296
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null1,named,19,116,0.44723008491710475,0.04284962187767438,0.26964730260675296
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null1,permuted,19,116,0.3813182369591589,0.04284962187767438,0.26964730260675296
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null2,none,19,116,0.40274969672462596,0.04321750421662662,0.12679783499983244
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null2,named,19,116,0.46987464617873026,0.04321750421662662,0.12679783499983244
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null2,permuted,19,116,0.39425798625151637,0.04321750421662662,0.12679783499983244
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null3,none,19,116,0.4330772341285888,0.04285069387250229,0.11683971252718706
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null3,named,19,116,0.48038819247877074,0.04285069387250229,0.11683971252718706
+subcellular_localization,amino-acid composition,gcpnet_pretrained,null3,permuted,19,116,0.4310553983016579,0.04285069387250229,0.11683971252718706
+subcellular_localization,amino-acid composition,gcpnet_random,intact,none,19,116,0.4415689446016983,0.0,0.0
+subcellular_localization,amino-acid composition,gcpnet_random,erased,none,19,116,0.38495754144763444,0.3841316579964994,0.8471302621337882
+subcellular_localization,amino-acid composition,gcpnet_random,erased,named,19,116,0.457339264051759,0.3841316579964994,0.8471302621337882
+subcellular_localization,amino-acid composition,gcpnet_random,erased,permuted,19,116,0.37646583097452485,0.3841316579964994,0.8471302621337882
+subcellular_localization,amino-acid composition,gcpnet_random,sham0,none,19,116,0.419328750505459,0.5661493956546657,0.14848018197445156
+subcellular_localization,amino-acid composition,gcpnet_random,sham0,named,19,116,0.4755357864941367,0.5661493956546657,0.14848018197445156
+subcellular_localization,amino-acid composition,gcpnet_random,sham0,permuted,19,116,0.4185200161746866,0.5661493956546657,0.14848018197445156
+subcellular_localization,amino-acid composition,gcpnet_random,sham1,none,19,116,0.4270117266477962,0.490558195585422,0.13951005704299924
+subcellular_localization,amino-acid composition,gcpnet_random,sham1,named,19,116,0.47189648200566114,0.490558195585422,0.13951005704299924
+subcellular_localization,amino-acid composition,gcpnet_random,sham1,permuted,19,116,0.4148807116862111,0.490558195585422,0.13951005704299924
+subcellular_localization,amino-acid composition,gcpnet_random,sham2,none,19,116,0.4468257177517186,0.6098282437771867,0.1442945803898834
+subcellular_localization,amino-acid composition,gcpnet_random,sham2,named,19,116,0.4767488879902952,0.6098282437771867,0.1442945803898834
+subcellular_localization,amino-acid composition,gcpnet_random,sham2,permuted,19,116,0.4532955923978973,0.6098282437771867,0.1442945803898834
+subcellular_localization,amino-acid composition,gcpnet_random,sham3,none,19,116,0.42903356247472707,0.51108092592362,0.1280037118683851
+subcellular_localization,amino-acid composition,gcpnet_random,sham3,named,19,116,0.4630004043671654,0.51108092592362,0.1280037118683851
+subcellular_localization,amino-acid composition,gcpnet_random,sham3,permuted,19,116,0.41366761019005255,0.51108092592362,0.1280037118683851
+subcellular_localization,amino-acid composition,gcpnet_random,null0,none,19,116,0.4201374848362313,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null0,named,19,116,0.46663970885564093,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null0,permuted,19,116,0.4067933683784877,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null1,none,19,116,0.4201374848362313,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null1,named,19,116,0.46663970885564093,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null1,permuted,19,116,0.4067933683784877,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null2,none,19,116,0.4201374848362313,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null2,named,19,116,0.46663970885564093,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null2,permuted,19,116,0.4067933683784877,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null3,none,19,116,0.4201374848362313,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null3,named,19,116,0.46663970885564093,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gcpnet_random,null3,permuted,19,116,0.4067933683784877,0.38087362891141663,0.19532404724256902
+subcellular_localization,amino-acid composition,gearnet,intact,none,19,512,0.4751314193287505,0.0,0.0
+subcellular_localization,amino-acid composition,gearnet,erased,none,19,512,0.41892438334007276,0.7366551938011219,0.9565057406387787
+subcellular_localization,amino-acid composition,gearnet,erased,named,19,512,0.47594015365952286,0.7366551938011219,0.9565057406387787
+subcellular_localization,amino-acid composition,gearnet,erased,permuted,19,512,0.41690254751314193,0.7366551938011219,0.9565057406387787
+subcellular_localization,amino-acid composition,gearnet,sham0,none,19,512,0.4532955923978973,0.04158372360323903,0.03739582980671008
+subcellular_localization,amino-acid composition,gearnet,sham0,named,19,512,0.4650222401940962,0.04158372360323903,0.03739582980671008
+subcellular_localization,amino-acid composition,gearnet,sham0,permuted,19,512,0.4557217953902143,0.04158372360323903,0.03739582980671008
+subcellular_localization,amino-acid composition,gearnet,sham1,none,19,512,0.47472705216336436,0.04092278512282144,0.03547246420137051
+subcellular_localization,amino-acid composition,gearnet,sham1,named,19,512,0.4727052163364335,0.04092278512282144,0.03547246420137051
+subcellular_localization,amino-acid composition,gearnet,sham1,permuted,19,512,0.46987464617873026,0.04092278512282144,0.03547246420137051
+subcellular_localization,amino-acid composition,gearnet,sham2,none,19,512,0.4767488879902952,0.03991555638224531,0.033131488189165004
+subcellular_localization,amino-acid composition,gearnet,sham2,named,19,512,0.48160129397492923,0.03991555638224531,0.033131488189165004
+subcellular_localization,amino-acid composition,gearnet,sham2,permuted,19,512,0.46866154468257176,0.03991555638224531,0.033131488189165004
+subcellular_localization,amino-acid composition,gearnet,sham3,none,19,512,0.4751314193287505,0.04004567218463484,0.03452001001528138
+subcellular_localization,amino-acid composition,gearnet,sham3,named,19,512,0.48281439547108773,0.04004567218463484,0.03452001001528138
+subcellular_localization,amino-acid composition,gearnet,sham3,permuted,19,512,0.46340477153255155,0.04004567218463484,0.03452001001528138
+subcellular_localization,amino-acid composition,gearnet,null0,none,19,512,0.33279417711281845,0.7300916121111312,0.6255106804510222
+subcellular_localization,amino-acid composition,gearnet,null0,named,19,512,0.4140719773554387,0.7300916121111312,0.6255106804510222
+subcellular_localization,amino-acid composition,gearnet,null0,permuted,19,512,0.3206631621512333,0.7300916121111312,0.6255106804510222
+subcellular_localization,amino-acid composition,gearnet,null1,none,19,512,0.31500202183582693,0.7298018782999653,0.6298256338632146
+subcellular_localization,amino-acid composition,gearnet,null1,named,19,512,0.41771128184391426,0.7298018782999653,0.6298256338632146
+subcellular_localization,amino-acid composition,gearnet,null1,permuted,19,512,0.3162151233319854,0.7298018782999653,0.6298256338632146
+subcellular_localization,amino-acid composition,gearnet,null2,none,19,512,0.3186413263243025,0.7293059127952619,0.630961048117848
+subcellular_localization,amino-acid composition,gearnet,null2,named,19,512,0.4160938131823696,0.7293059127952619,0.630961048117848
+subcellular_localization,amino-acid composition,gearnet,null2,permuted,19,512,0.30772341285887583,0.7293059127952619,0.630961048117848
+subcellular_localization,amino-acid composition,gearnet,null3,none,19,512,0.3263243024666397,0.7297548545639352,0.6214801088143479
+subcellular_localization,amino-acid composition,gearnet,null3,named,19,512,0.4120501415285079,0.7297548545639352,0.6214801088143479
+subcellular_localization,amino-acid composition,gearnet,null3,permuted,19,512,0.31783259199353014,0.7297548545639352,0.6214801088143479
+subcellular_localization,amino-acid composition,gearnet_pretrained,intact,none,19,512,0.376870198139911,0.0,0.0
+subcellular_localization,amino-acid composition,gearnet_pretrained,erased,none,19,512,0.35179943388596846,0.0520600366533055,0.5728106809130744
+subcellular_localization,amino-acid composition,gearnet_pretrained,erased,named,19,512,0.3983016579053781,0.0520600366533055,0.5728106809130744
+subcellular_localization,amino-acid composition,gearnet_pretrained,erased,permuted,19,512,0.34452082490901736,0.0520600366533055,0.5728106809130744
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham0,none,19,512,0.3631217145167812,0.031522316174116494,0.023196011549329487
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham0,named,19,512,0.39870602507076425,0.031522316174116494,0.023196011549329487
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham0,permuted,19,512,0.3606955115244642,0.031522316174116494,0.023196011549329487
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham1,none,19,512,0.36878285483218765,0.023044676807876807,0.02001461538825322
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham1,named,19,512,0.3958754549130611,0.023044676807876807,0.02001461538825322
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham1,permuted,19,512,0.3606955115244642,0.023044676807876807,0.02001461538825322
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham2,none,19,512,0.36029114435907805,0.09382109939518124,0.021136981801434418
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham2,named,19,512,0.39344925192074404,0.09382109939518124,0.021136981801434418
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham2,permuted,19,512,0.3558431055398302,0.09382109939518124,0.021136981801434418
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham3,none,19,512,0.35867367569753333,0.04927096839264855,0.02254068861180536
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham3,named,19,512,0.39991912656692274,0.04927096839264855,0.02254068861180536
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham3,permuted,19,512,0.3594824100283057,0.04927096839264855,0.02254068861180536
+subcellular_localization,amino-acid composition,gearnet_pretrained,null0,none,19,512,0.33683784876668016,0.05193585862723826,0.015048236741360133
+subcellular_localization,amino-acid composition,gearnet_pretrained,null0,named,19,512,0.3704003234937323,0.05193585862723826,0.015048236741360133
+subcellular_localization,amino-acid composition,gearnet_pretrained,null0,permuted,19,512,0.3360291144359078,0.05193585862723826,0.015048236741360133
+subcellular_localization,amino-acid composition,gearnet_pretrained,null1,none,19,512,0.3416902547513142,0.052026044793636705,0.013605696026813607
+subcellular_localization,amino-acid composition,gearnet_pretrained,null1,named,19,512,0.36271734735139505,0.052026044793636705,0.013605696026813607
+subcellular_localization,amino-acid composition,gearnet_pretrained,null1,permuted,19,512,0.32187626364739186,0.052026044793636705,0.013605696026813607
+subcellular_localization,amino-acid composition,gearnet_pretrained,null2,none,19,512,0.3449251920744036,0.051779312880017025,0.01539342582900205
+subcellular_localization,amino-acid composition,gearnet_pretrained,null2,named,19,512,0.36473918317832593,0.051779312880017025,0.01539342582900205
+subcellular_localization,amino-acid composition,gearnet_pretrained,null2,permuted,19,512,0.3323898099474323,0.051779312880017025,0.01539342582900205
+subcellular_localization,amino-acid composition,gearnet_pretrained,null3,none,19,512,0.3416902547513142,0.05189130655484764,0.014080890974361493
+subcellular_localization,amino-acid composition,gearnet_pretrained,null3,named,19,512,0.3619086130206227,0.05189130655484764,0.014080890974361493
+subcellular_localization,amino-acid composition,gearnet_pretrained,null3,permuted,19,512,0.3238980994743227,0.05189130655484764,0.014080890974361493
+subcellular_localization,amino-acid composition,gvp,intact,none,19,116,0.4342903356247473,0.0,0.0
+subcellular_localization,amino-acid composition,gvp,erased,none,19,116,0.4229680549939345,0.8781471253454626,0.9800142178700485
+subcellular_localization,amino-acid composition,gvp,erased,named,19,116,0.5022240194096239,0.8781471253454626,0.9800142178700485
+subcellular_localization,amino-acid composition,gvp,erased,permuted,19,116,0.42215932066316214,0.8781471253454626,0.9800142178700485
+subcellular_localization,amino-acid composition,gvp,sham0,none,19,116,0.40921957137080467,0.3047014080343179,0.15244531841970133
+subcellular_localization,amino-acid composition,gvp,sham0,named,19,116,0.46542660735948244,0.3047014080343179,0.15244531841970133
+subcellular_localization,amino-acid composition,gvp,sham0,permuted,19,116,0.39870602507076425,0.3047014080343179,0.15244531841970133
+subcellular_localization,amino-acid composition,gvp,sham1,none,19,116,0.43145976546704407,0.31422650018899434,0.1572469384055556
+subcellular_localization,amino-acid composition,gvp,sham1,named,19,116,0.4751314193287505,0.31422650018899434,0.1572469384055556
+subcellular_localization,amino-acid composition,gvp,sham1,permuted,19,116,0.41973311767084515,0.31422650018899434,0.1572469384055556
+subcellular_localization,amino-acid composition,gvp,sham2,none,19,116,0.42903356247472707,0.303557902144058,0.1458586026772638
+subcellular_localization,amino-acid composition,gvp,sham2,named,19,116,0.46623534169025477,0.303557902144058,0.1458586026772638
+subcellular_localization,amino-acid composition,gvp,sham2,permuted,19,116,0.424181156490093,0.303557902144058,0.1458586026772638
+subcellular_localization,amino-acid composition,gvp,sham3,none,19,116,0.4504650222401941,0.25496706669475744,0.1540787280161553
+subcellular_localization,amino-acid composition,gvp,sham3,named,19,116,0.47432268499797814,0.25496706669475744,0.1540787280161553
+subcellular_localization,amino-acid composition,gvp,sham3,permuted,19,116,0.4419733117670845,0.25496706669475744,0.1540787280161553
+subcellular_localization,amino-acid composition,gvp,null0,none,19,116,0.4148807116862111,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null0,named,19,116,0.4957541447634452,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null0,permuted,19,116,0.40962393853619083,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null1,none,19,116,0.4148807116862111,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null1,named,19,116,0.4957541447634452,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null1,permuted,19,116,0.40962393853619083,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null2,none,19,116,0.4173069146785281,0.8693901464914111,0.6930644150467825
+subcellular_localization,amino-acid composition,gvp,null2,named,19,116,0.49413667610190054,0.8693901464914111,0.6930644150467825
+subcellular_localization,amino-acid composition,gvp,null2,permuted,19,116,0.41124140719773555,0.8693901464914111,0.6930644150467825
+subcellular_localization,amino-acid composition,gvp,null3,none,19,116,0.4148807116862111,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null3,named,19,116,0.4957541447634452,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,gvp,null3,permuted,19,116,0.40962393853619083,0.8693885342015284,0.6930593714661358
+subcellular_localization,amino-acid composition,ipa,intact,none,19,128,0.4140719773554387,0.0,0.0
+subcellular_localization,amino-acid composition,ipa,erased,none,19,128,0.3344116457743631,0.8641952352395844,0.9326525503640761
+subcellular_localization,amino-acid composition,ipa,erased,named,19,128,0.41973311767084515,0.8641952352395844,0.9326525503640761
+subcellular_localization,amino-acid composition,ipa,erased,permuted,19,128,0.33522038010513544,0.8641952352395844,0.9326525503640761
+subcellular_localization,amino-acid composition,ipa,sham0,none,19,128,0.3760614638091387,0.19181565722300786,0.13841328990016588
+subcellular_localization,amino-acid composition,ipa,sham0,named,19,128,0.4128588758592802,0.19181565722300786,0.13841328990016588
+subcellular_localization,amino-acid composition,ipa,sham0,permuted,19,128,0.37970076829761423,0.19181565722300786,0.13841328990016588
+subcellular_localization,amino-acid composition,ipa,sham1,none,19,128,0.3938536190861302,0.17938362110446138,0.14712449590753074
+subcellular_localization,amino-acid composition,ipa,sham1,named,19,128,0.4116457743631217,0.17938362110446138,0.14712449590753074
+subcellular_localization,amino-acid composition,ipa,sham1,permuted,19,128,0.3881924787707238,0.17938362110446138,0.14712449590753074
+subcellular_localization,amino-acid composition,ipa,sham2,none,19,128,0.38697937727456533,0.1949676789475948,0.13205737572395104
+subcellular_localization,amino-acid composition,ipa,sham2,named,19,128,0.41447634452082494,0.1949676789475948,0.13205737572395104
+subcellular_localization,amino-acid composition,ipa,sham2,permuted,19,128,0.38657501010917916,0.1949676789475948,0.13205737572395104
+subcellular_localization,amino-acid composition,ipa,sham3,none,19,128,0.40396279822078446,0.17916481019013486,0.13308219554779377
+subcellular_localization,amino-acid composition,ipa,sham3,named,19,128,0.4160938131823696,0.17916481019013486,0.13308219554779377
+subcellular_localization,amino-acid composition,ipa,sham3,permuted,19,128,0.4104326728669632,0.17916481019013486,0.13308219554779377
+subcellular_localization,amino-acid composition,ipa,null0,none,19,128,0.33279417711281845,0.855772718467459,0.6319640491930595
+subcellular_localization,amino-acid composition,ipa,null0,named,19,128,0.40921957137080467,0.855772718467459,0.6319640491930595
+subcellular_localization,amino-acid composition,ipa,null0,permuted,19,128,0.33077234128588756,0.855772718467459,0.6319640491930595
+subcellular_localization,amino-acid composition,ipa,null1,none,19,128,0.3267286696320259,0.8557365803966859,0.6341334978004015
+subcellular_localization,amino-acid composition,ipa,null1,named,19,128,0.40800646987464617,0.8557365803966859,0.6341334978004015
+subcellular_localization,amino-acid composition,ipa,null1,permuted,19,128,0.3291548726243429,0.8557365803966859,0.6341334978004015
+subcellular_localization,amino-acid composition,ipa,null2,none,19,128,0.32834613829357057,0.8610483265495856,0.6341148669093077
+subcellular_localization,amino-acid composition,ipa,null2,named,19,128,0.40841083704003234,0.8610483265495856,0.6341148669093077
+subcellular_localization,amino-acid composition,ipa,null2,permuted,19,128,0.3263243024666397,0.8610483265495856,0.6341148669093077
+subcellular_localization,amino-acid composition,ipa,null3,none,19,128,0.3331985442782046,0.8557256355879832,0.6319589339383023
+subcellular_localization,amino-acid composition,ipa,null3,named,19,128,0.4063890012131015,0.8557256355879832,0.6319589339383023
+subcellular_localization,amino-acid composition,ipa,null3,permuted,19,128,0.3263243024666397,0.8557256355879832,0.6319589339383023
+subcellular_localization,amino-acid composition,ipa_pretrained,intact,none,19,128,0.36595228467448443,0.0,0.0
+subcellular_localization,amino-acid composition,ipa_pretrained,erased,none,19,128,0.3291548726243429,0.15769696840646552,0.674308296252318
+subcellular_localization,amino-acid composition,ipa_pretrained,erased,named,19,128,0.421754953497776,0.15769696840646552,0.674308296252318
+subcellular_localization,amino-acid composition,ipa_pretrained,erased,permuted,19,128,0.32875050545895673,0.15769696840646552,0.674308296252318
+subcellular_localization,amino-acid composition,ipa_pretrained,sham0,none,19,128,0.3558431055398302,0.1981423928370304,0.11245263999922095
+subcellular_localization,amino-acid composition,ipa_pretrained,sham0,named,19,128,0.41447634452082494,0.1981423928370304,0.11245263999922095
+subcellular_localization,amino-acid composition,ipa_pretrained,sham0,permuted,19,128,0.35826930853214717,0.1981423928370304,0.11245263999922095
+subcellular_localization,amino-acid composition,ipa_pretrained,sham1,none,19,128,0.36797412050141526,0.21574696043027763,0.08917501487006607
+subcellular_localization,amino-acid composition,ipa_pretrained,sham1,named,19,128,0.41568944601698343,0.21574696043027763,0.08917501487006607
+subcellular_localization,amino-acid composition,ipa_pretrained,sham1,permuted,19,128,0.36473918317832593,0.21574696043027763,0.08917501487006607
+subcellular_localization,amino-acid composition,ipa_pretrained,sham2,none,19,128,0.3732308936514355,0.21708392698021717,0.09942540442784664
+subcellular_localization,amino-acid composition,ipa_pretrained,sham2,named,19,128,0.4201374848362313,0.21708392698021717,0.09942540442784664
+subcellular_localization,amino-acid composition,ipa_pretrained,sham2,permuted,19,128,0.374443995147594,0.21708392698021717,0.09942540442784664
+subcellular_localization,amino-acid composition,ipa_pretrained,sham3,none,19,128,0.3542256368782855,0.20426614451965308,0.10141293338465363
+subcellular_localization,amino-acid composition,ipa_pretrained,sham3,named,19,128,0.40760210270926,0.20426614451965308,0.10141293338465363
+subcellular_localization,amino-acid composition,ipa_pretrained,sham3,permuted,19,128,0.3538212697128993,0.20426614451965308,0.10141293338465363
+subcellular_localization,amino-acid composition,ipa_pretrained,null0,none,19,128,0.3683784876668015,0.1586243000366575,0.03860518473606822
+subcellular_localization,amino-acid composition,ipa_pretrained,null0,named,19,128,0.40921957137080467,0.1586243000366575,0.03860518473606822
+subcellular_localization,amino-acid composition,ipa_pretrained,null0,permuted,19,128,0.36352608168216743,0.1586243000366575,0.03860518473606822
+subcellular_localization,amino-acid composition,ipa_pretrained,null1,none,19,128,0.36433481601293977,0.15614311743183484,0.03696384653794482
+subcellular_localization,amino-acid composition,ipa_pretrained,null1,named,19,128,0.40962393853619083,0.15614311743183484,0.03696384653794482
+subcellular_localization,amino-acid composition,ipa_pretrained,null1,permuted,19,128,0.36878285483218765,0.15614311743183484,0.03696384653794482
+subcellular_localization,amino-acid composition,ipa_pretrained,null2,none,19,128,0.3683784876668015,0.1586243000366575,0.03860518473606822
+subcellular_localization,amino-acid composition,ipa_pretrained,null2,named,19,128,0.40921957137080467,0.1586243000366575,0.03860518473606822
+subcellular_localization,amino-acid composition,ipa_pretrained,null2,permuted,19,128,0.36352608168216743,0.1586243000366575,0.03860518473606822
+subcellular_localization,amino-acid composition,ipa_pretrained,null3,none,19,128,0.3675697533360291,0.15671353488164608,0.03973873898428959
+subcellular_localization,amino-acid composition,ipa_pretrained,null3,named,19,128,0.42620299231702385,0.15671353488164608,0.03973873898428959
+subcellular_localization,amino-acid composition,ipa_pretrained,null3,permuted,19,128,0.3546300040436717,0.15671353488164608,0.03973873898428959
+subcellular_localization,amino-acid composition,mace,intact,none,19,128,0.44520824909017387,0.0,0.0
+subcellular_localization,amino-acid composition,mace,erased,none,19,128,0.3873837444399515,0.747642387947357,0.9549357028107535
+subcellular_localization,amino-acid composition,mace,erased,named,19,128,0.4670440760210271,0.747642387947357,0.9549357028107535
+subcellular_localization,amino-acid composition,mace,erased,permuted,19,128,0.3841488071168621,0.747642387947357,0.9549357028107535
+subcellular_localization,amino-acid composition,mace,sham0,none,19,128,0.42741609381318235,0.3172448126963531,0.1359365124863059
+subcellular_localization,amino-acid composition,mace,sham0,named,19,128,0.4557217953902143,0.3172448126963531,0.1359365124863059
+subcellular_localization,amino-acid composition,mace,sham0,permuted,19,128,0.41690254751314193,0.3172448126963531,0.1359365124863059
+subcellular_localization,amino-acid composition,mace,sham1,none,19,128,0.4148807116862111,0.275142155375096,0.1501891984416629
+subcellular_localization,amino-acid composition,mace,sham1,named,19,128,0.4577436312171452,0.275142155375096,0.1501891984416629
+subcellular_localization,amino-acid composition,mace,sham1,permuted,19,128,0.4132632430246664,0.275142155375096,0.1501891984416629
+subcellular_localization,amino-acid composition,mace,sham2,none,19,128,0.43752527294783666,0.27523215853189376,0.12101098132110055
+subcellular_localization,amino-acid composition,mace,sham2,named,19,128,0.4561261625556005,0.27523215853189376,0.12101098132110055
+subcellular_localization,amino-acid composition,mace,sham2,permuted,19,128,0.4282248281439547,0.27523215853189376,0.12101098132110055
+subcellular_localization,amino-acid composition,mace,sham3,none,19,128,0.43469470279013345,0.26810834753499646,0.1434845455078806
+subcellular_localization,amino-acid composition,mace,sham3,named,19,128,0.46785281035179943,0.26810834753499646,0.1434845455078806
+subcellular_localization,amino-acid composition,mace,sham3,permuted,19,128,0.43024666397088557,0.26810834753499646,0.1434845455078806
+subcellular_localization,amino-acid composition,mace,null0,none,19,128,0.3894055802668823,0.7411419993492803,0.46023307475525477
+subcellular_localization,amino-acid composition,mace,null0,named,19,128,0.46097856854023456,0.7411419993492803,0.46023307475525477
+subcellular_localization,amino-acid composition,mace,null0,permuted,19,128,0.38900121310149616,0.7411419993492803,0.46023307475525477
+subcellular_localization,amino-acid composition,mace,null1,none,19,128,0.4120501415285079,0.7436347991569332,0.4521300779841654
+subcellular_localization,amino-acid composition,mace,null1,named,19,128,0.4658309745248686,0.7436347991569332,0.4521300779841654
+subcellular_localization,amino-acid composition,mace,null1,permuted,19,128,0.40841083704003234,0.7436347991569332,0.4521300779841654
+subcellular_localization,amino-acid composition,mace,null2,none,19,128,0.4120501415285079,0.7436347991569332,0.4521300779841654
+subcellular_localization,amino-acid composition,mace,null2,named,19,128,0.4658309745248686,0.7436347991569332,0.4521300779841654
+subcellular_localization,amino-acid composition,mace,null2,permuted,19,128,0.40841083704003234,0.7436347991569332,0.4521300779841654
+subcellular_localization,amino-acid composition,mace,null3,none,19,128,0.4055802668823292,0.7443911923145414,0.45412612760063376
+subcellular_localization,amino-acid composition,mace,null3,named,19,128,0.46542660735948244,0.7443911923145414,0.45412612760063376
+subcellular_localization,amino-acid composition,mace,null3,permuted,19,128,0.39870602507076425,0.7443911923145414,0.45412612760063376
+subcellular_localization,amino-acid composition,pottsmpnn,intact,none,19,128,0.39304488475535787,0.0,0.0
+subcellular_localization,amino-acid composition,pottsmpnn,erased,none,19,128,0.37120905782450464,0.0913911618699802,0.15381960175561737
+subcellular_localization,amino-acid composition,pottsmpnn,erased,named,19,128,0.4427820460978569,0.0913911618699802,0.15381960175561737
+subcellular_localization,amino-acid composition,pottsmpnn,erased,permuted,19,128,0.3732308936514355,0.0913911618699802,0.15381960175561737
+subcellular_localization,amino-acid composition,pottsmpnn,sham0,none,19,128,0.38495754144763444,0.1340445437179293,0.026737675924649484
+subcellular_localization,amino-acid composition,pottsmpnn,sham0,named,19,128,0.4532955923978973,0.1340445437179293,0.026737675924649484
+subcellular_localization,amino-acid composition,pottsmpnn,sham0,permuted,19,128,0.3906186817630408,0.1340445437179293,0.026737675924649484
+subcellular_localization,amino-acid composition,pottsmpnn,sham1,none,19,128,0.39425798625151637,0.13121167837230263,0.021769591913040398
+subcellular_localization,amino-acid composition,pottsmpnn,sham1,named,19,128,0.46097856854023456,0.13121167837230263,0.021769591913040398
+subcellular_localization,amino-acid composition,pottsmpnn,sham1,permuted,19,128,0.3906186817630408,0.13121167837230263,0.021769591913040398
+subcellular_localization,amino-acid composition,pottsmpnn,sham2,none,19,128,0.39627982207844725,0.2847953845786513,0.01947953610481068
+subcellular_localization,amino-acid composition,pottsmpnn,sham2,named,19,128,0.45248685806712496,0.2847953845786513,0.01947953610481068
+subcellular_localization,amino-acid composition,pottsmpnn,sham2,permuted,19,128,0.3983016579053781,0.2847953845786513,0.01947953610481068
+subcellular_localization,amino-acid composition,pottsmpnn,sham3,none,19,128,0.3991103922361504,0.17974033995238226,0.02194810989893481
+subcellular_localization,amino-acid composition,pottsmpnn,sham3,named,19,128,0.45086938940558025,0.17974033995238226,0.02194810989893481
+subcellular_localization,amino-acid composition,pottsmpnn,sham3,permuted,19,128,0.3983016579053781,0.17974033995238226,0.02194810989893481
+subcellular_localization,amino-acid composition,pottsmpnn,null0,none,19,128,0.3950667205822887,0.09048084532634737,0.016773985150867476
+subcellular_localization,amino-acid composition,pottsmpnn,null0,named,19,128,0.44844318641326325,0.09048084532634737,0.016773985150867476
+subcellular_localization,amino-acid composition,pottsmpnn,null0,permuted,19,128,0.39547108774767487,0.09048084532634737,0.016773985150867476
+subcellular_localization,amino-acid composition,pottsmpnn,null1,none,19,128,0.4011322280630813,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null1,named,19,128,0.4500606550748079,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null1,permuted,19,128,0.3995147594015366,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null2,none,19,128,0.4011322280630813,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null2,named,19,128,0.4500606550748079,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null2,permuted,19,128,0.3995147594015366,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null3,none,19,128,0.4011322280630813,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null3,named,19,128,0.4500606550748079,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn,null3,permuted,19,128,0.3995147594015366,0.09057257568756538,0.01625531334362118
+subcellular_localization,amino-acid composition,pottsmpnn_ft,intact,none,19,128,0.44561261625556003,0.0,0.0
+subcellular_localization,amino-acid composition,pottsmpnn_ft,erased,none,19,128,0.40072786089769513,0.14214312508107674,0.2681614457279268
+subcellular_localization,amino-acid composition,pottsmpnn_ft,erased,named,19,128,0.46906591184795793,0.14214312508107674,0.2681614457279268
+subcellular_localization,amino-acid composition,pottsmpnn_ft,erased,permuted,19,128,0.39749292357460575,0.14214312508107674,0.2681614457279268
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham0,none,19,128,0.42943792964011324,0.14975841088493147,0.03820634804545131
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham0,named,19,128,0.4755357864941367,0.14975841088493147,0.03820634804545131
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham0,permuted,19,128,0.4278204609785685,0.14975841088493147,0.03820634804545131
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham1,none,19,128,0.42498989082086536,0.14563611890590544,0.0373693522877091
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham1,named,19,128,0.4779619894864537,0.14563611890590544,0.0373693522877091
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham1,permuted,19,128,0.42903356247472707,0.14563611890590544,0.0373693522877091
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham2,none,19,128,0.44723008491710475,0.17378909038138235,0.03436346657419975
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham2,named,19,128,0.48038819247877074,0.17378909038138235,0.03436346657419975
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham2,permuted,19,128,0.43469470279013345,0.17378909038138235,0.03436346657419975
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham3,none,19,128,0.4330772341285888,0.1578529262320425,0.03607946480708757
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham3,named,19,128,0.4727052163364335,0.1578529262320425,0.03607946480708757
+subcellular_localization,amino-acid composition,pottsmpnn_ft,sham3,permuted,19,128,0.4286291953093409,0.1578529262320425,0.03607946480708757
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null0,none,19,128,0.42094621916700364,0.14126099433577077,0.016926386741164423
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null0,named,19,128,0.47836635665183985,0.14126099433577077,0.016926386741164423
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null0,permuted,19,128,0.4257986251516377,0.14126099433577077,0.016926386741164423
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null1,none,19,128,0.4435907804286292,0.14102480452543997,0.013932456210378641
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null1,named,19,128,0.4795794581479984,0.14102480452543997,0.013932456210378641
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null1,permuted,19,128,0.4391427416093813,0.14102480452543997,0.013932456210378641
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null2,none,19,128,0.43267286696320256,0.14095906897987975,0.016536461078097586
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null2,named,19,128,0.4848362312980186,0.14095906897987975,0.016536461078097586
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null2,permuted,19,128,0.4245855236554792,0.14095906897987975,0.016536461078097586
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null3,none,19,128,0.44439951475940154,0.1409834114002646,0.013940541933830985
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null3,named,19,128,0.4795794581479984,0.1409834114002646,0.013940541933830985
+subcellular_localization,amino-acid composition,pottsmpnn_ft,null3,permuted,19,128,0.440760210270926,0.1409834114002646,0.013940541933830985
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,intact,none,19,128,0.4545086938940558,0.0,0.0
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,erased,none,19,128,0.39344925192074404,0.14258958867704263,0.26325183136935115
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,erased,named,19,128,0.4658309745248686,0.14258958867704263,0.26325183136935115
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,erased,permuted,19,128,0.38657501010917916,0.14258958867704263,0.26325183136935115
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham0,none,19,128,0.4229680549939345,0.15593333948069998,0.04052823745658485
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham0,named,19,128,0.473918317832592,0.15593333948069998,0.04052823745658485
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham0,permuted,19,128,0.4310553983016579,0.15593333948069998,0.04052823745658485
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham1,none,19,128,0.4330772341285888,0.16870039646184776,0.03524662494503639
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham1,named,19,128,0.4727052163364335,0.16870039646184776,0.03524662494503639
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham1,permuted,19,128,0.42498989082086536,0.16870039646184776,0.03524662494503639
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham2,none,19,128,0.4367165386170643,0.2001712877301014,0.03843149746621899
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham2,named,19,128,0.4767488879902952,0.2001712877301014,0.03843149746621899
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham2,permuted,19,128,0.43752527294783666,0.2001712877301014,0.03843149746621899
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham3,none,19,128,0.43145976546704407,0.15010658865033377,0.03641796780092532
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham3,named,19,128,0.46623534169025477,0.15010658865033377,0.03641796780092532
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,sham3,permuted,19,128,0.4245855236554792,0.15010658865033377,0.03641796780092532
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null0,none,19,128,0.44723008491710475,0.14377366264881686,0.010992809891068323
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null0,named,19,128,0.4694702790133441,0.14377366264881686,0.010992809891068323
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null0,permuted,19,128,0.4391427416093813,0.14377366264881686,0.010992809891068323
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null1,none,19,128,0.44965628790942175,0.14123655131344715,0.011522259384357025
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null1,named,19,128,0.4723008491710473,0.14123655131344715,0.011522259384357025
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null1,permuted,19,128,0.44399514759401537,0.14123655131344715,0.011522259384357025
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null2,none,19,128,0.4476344520824909,0.14379199282259536,0.011031969650685092
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null2,named,19,128,0.47310958350181964,0.14379199282259536,0.011031969650685092
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null2,permuted,19,128,0.43873837444399516,0.14379199282259536,0.011031969650685092
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null3,none,19,128,0.4427820460978569,0.14127798870331187,0.011535687453935517
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null3,named,19,128,0.4682571775171856,0.14127798870331187,0.011535687453935517
+subcellular_localization,amino-acid composition,pottsmpnn_pretrained,null3,permuted,19,128,0.4391427416093813,0.14127798870331187,0.011535687453935517
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,intact,none,19,128,0.4427820460978569,0.0,0.0
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,erased,none,19,128,0.38697937727456533,0.11325092813018434,0.26681306777970426
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,erased,named,19,128,0.4702790133441165,0.11325092813018434,0.26681306777970426
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,erased,permuted,19,128,0.38495754144763444,0.11325092813018434,0.26681306777970426
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham0,none,19,128,0.42215932066316214,0.15788436351793955,0.04271934530822419
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham0,named,19,128,0.47310958350181964,0.15788436351793955,0.04271934530822419
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham0,permuted,19,128,0.42498989082086536,0.15788436351793955,0.04271934530822419
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham1,none,19,128,0.42903356247472707,0.13747349426838418,0.03919446336131205
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham1,named,19,128,0.4735139506672058,0.13747349426838418,0.03919446336131205
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham1,permuted,19,128,0.4270117266477962,0.13747349426838418,0.03919446336131205
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham2,none,19,128,0.4427820460978569,0.19995525065746111,0.03554890528173382
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham2,named,19,128,0.48160129397492923,0.19995525065746111,0.03554890528173382
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham2,permuted,19,128,0.43995147594015366,0.19995525065746111,0.03554890528173382
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham3,none,19,128,0.424181156490093,0.16237442419247416,0.03539711583106708
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham3,named,19,128,0.4710877476748888,0.16237442419247416,0.03539711583106708
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,sham3,permuted,19,128,0.42660735948241,0.16237442419247416,0.03539711583106708
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null0,none,19,128,0.4435907804286292,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null0,named,19,128,0.4840274969672463,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null0,permuted,19,128,0.43792964011322283,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null1,none,19,128,0.4435907804286292,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null1,named,19,128,0.4840274969672463,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null1,permuted,19,128,0.43792964011322283,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null2,none,19,128,0.4435907804286292,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null2,named,19,128,0.4840274969672463,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null2,permuted,19,128,0.43792964011322283,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null3,none,19,128,0.4435907804286292,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null3,named,19,128,0.4840274969672463,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,pottsmpnn_soluble,null3,permuted,19,128,0.43792964011322283,0.1123757613111116,0.011462632602421974
+subcellular_localization,amino-acid composition,prostt5,intact,none,19,1024,0.6486049332794177,0.0,0.0
+subcellular_localization,amino-acid composition,prostt5,erased,none,19,1024,0.589971694298423,0.0780998655424675,0.8708638606120759
+subcellular_localization,amino-acid composition,prostt5,erased,named,19,1024,0.6308127780024262,0.0780998655424675,0.8708638606120759
+subcellular_localization,amino-acid composition,prostt5,erased,permuted,19,1024,0.5887585928022645,0.0780998655424675,0.8708638606120759
+subcellular_localization,amino-acid composition,prostt5,sham0,none,19,1024,0.6231298018600889,0.02073817218246754,0.015943453007536856
+subcellular_localization,amino-acid composition,prostt5,sham0,named,19,1024,0.6287909421754954,0.02073817218246754,0.015943453007536856
+subcellular_localization,amino-acid composition,prostt5,sham0,permuted,19,1024,0.6198948645369996,0.02073817218246754,0.015943453007536856
+subcellular_localization,amino-acid composition,prostt5,sham1,none,19,1024,0.6300040436716539,0.01625032860124398,0.017307176418998038
+subcellular_localization,amino-acid composition,prostt5,sham1,named,19,1024,0.6364739183178326,0.01625032860124398,0.017307176418998038
+subcellular_localization,amino-acid composition,prostt5,sham1,permuted,19,1024,0.6231298018600889,0.01625032860124398,0.017307176418998038
+subcellular_localization,amino-acid composition,prostt5,sham2,none,19,1024,0.6316215123331985,0.022776926641785655,0.014427548678642155
+subcellular_localization,amino-acid composition,prostt5,sham2,named,19,1024,0.6437525272947837,0.022776926641785655,0.014427548678642155
+subcellular_localization,amino-acid composition,prostt5,sham2,permuted,19,1024,0.6401132228063081,0.022776926641785655,0.014427548678642155
+subcellular_localization,amino-acid composition,prostt5,sham3,none,19,1024,0.6263647391831784,0.0183425295139239,0.014187441692061098
+subcellular_localization,amino-acid composition,prostt5,sham3,named,19,1024,0.6336433481601293,0.0183425295139239,0.014187441692061098
+subcellular_localization,amino-acid composition,prostt5,sham3,permuted,19,1024,0.6308127780024262,0.0183425295139239,0.014187441692061098
+subcellular_localization,amino-acid composition,prostt5,null0,none,19,1024,0.5224423776789324,0.0777998818399428,0.03637697162438103
+subcellular_localization,amino-acid composition,prostt5,null0,named,19,1024,0.5341690254751315,0.0777998818399428,0.03637697162438103
+subcellular_localization,amino-acid composition,prostt5,null0,permuted,19,1024,0.5030327537403962,0.0777998818399428,0.03637697162438103
+subcellular_localization,amino-acid composition,prostt5,null1,none,19,1024,0.511928831378892,0.07754749470358335,0.017102565675688464
+subcellular_localization,amino-acid composition,prostt5,null1,named,19,1024,0.5386170642943793,0.07754749470358335,0.017102565675688464
+subcellular_localization,amino-acid composition,prostt5,null1,permuted,19,1024,0.5074807925596442,0.07754749470358335,0.017102565675688464
+subcellular_localization,amino-acid composition,prostt5,null2,none,19,1024,0.5143550343712091,0.07732023191635906,0.02452595839371463
+subcellular_localization,amino-acid composition,prostt5,null2,named,19,1024,0.5341690254751315,0.07732023191635906,0.02452595839371463
+subcellular_localization,amino-acid composition,prostt5,null2,permuted,19,1024,0.504650222401941,0.07732023191635906,0.02452595839371463
+subcellular_localization,amino-acid composition,prostt5,null3,none,19,1024,0.5107157298827335,0.07736471176203619,0.03995705827987084
+subcellular_localization,amino-acid composition,prostt5,null3,named,19,1024,0.5382126971289931,0.07736471176203619,0.03995705827987084
+subcellular_localization,amino-acid composition,prostt5,null3,permuted,19,1024,0.5078851597250303,0.07736471176203619,0.03995705827987084
+subcellular_localization,amino-acid composition,protbert_bfd,intact,none,19,1024,0.651839870602507,0.0,0.0
+subcellular_localization,amino-acid composition,protbert_bfd,erased,none,19,1024,0.6049332794177112,0.26634949784127226,0.9547218253497248
+subcellular_localization,amino-acid composition,protbert_bfd,erased,named,19,1024,0.6324302466639709,0.26634949784127226,0.9547218253497248
+subcellular_localization,amino-acid composition,protbert_bfd,erased,permuted,19,1024,0.6033158107561666,0.26634949784127226,0.9547218253497248
+subcellular_localization,amino-acid composition,protbert_bfd,sham0,none,19,1024,0.6409219571370804,0.021983512974333652,0.01833422608393953
+subcellular_localization,amino-acid composition,protbert_bfd,sham0,named,19,1024,0.6295996765062677,0.021983512974333652,0.01833422608393953
+subcellular_localization,amino-acid composition,protbert_bfd,sham0,permuted,19,1024,0.6239385361908613,0.021983512974333652,0.01833422608393953
+subcellular_localization,amino-acid composition,protbert_bfd,sham1,none,19,1024,0.6421350586332389,0.01863845270522746,0.01777804658092008
+subcellular_localization,amino-acid composition,protbert_bfd,sham1,named,19,1024,0.6429437929640113,0.01863845270522746,0.01777804658092008
+subcellular_localization,amino-acid composition,protbert_bfd,sham1,permuted,19,1024,0.6465830974524869,0.01863845270522746,0.01777804658092008
+subcellular_localization,amino-acid composition,protbert_bfd,sham2,none,19,1024,0.6368782854832188,0.018851982602632766,0.016551038999959466
+subcellular_localization,amino-acid composition,protbert_bfd,sham2,named,19,1024,0.6360695511524465,0.018851982602632766,0.016551038999959466
+subcellular_localization,amino-acid composition,protbert_bfd,sham2,permuted,19,1024,0.6364739183178326,0.018851982602632766,0.016551038999959466
+subcellular_localization,amino-acid composition,protbert_bfd,sham3,none,19,1024,0.6405175899716943,0.020760591574799925,0.017358857677528983
+subcellular_localization,amino-acid composition,protbert_bfd,sham3,named,19,1024,0.6437525272947837,0.020760591574799925,0.017358857677528983
+subcellular_localization,amino-acid composition,protbert_bfd,sham3,permuted,19,1024,0.6389001213101496,0.020760591574799925,0.017358857677528983
+subcellular_localization,amino-acid composition,protbert_bfd,null0,none,19,1024,0.45289122523251113,0.2636868260065929,0.23795850771736116
+subcellular_localization,amino-acid composition,protbert_bfd,null0,named,19,1024,0.5204205418520016,0.2636868260065929,0.23795850771736116
+subcellular_localization,amino-acid composition,protbert_bfd,null0,permuted,19,1024,0.4468257177517186,0.2636868260065929,0.23795850771736116
+subcellular_localization,amino-acid composition,protbert_bfd,null1,none,19,1024,0.46623534169025477,0.2637818324749045,0.24995481628814753
+subcellular_localization,amino-acid composition,protbert_bfd,null1,named,19,1024,0.5171856045289123,0.2637818324749045,0.24995481628814753
+subcellular_localization,amino-acid composition,protbert_bfd,null1,permuted,19,1024,0.4670440760210271,0.2637818324749045,0.24995481628814753
+subcellular_localization,amino-acid composition,protbert_bfd,null2,none,19,1024,0.47068338050950265,0.26419012471781866,0.2371722964722176
+subcellular_localization,amino-acid composition,protbert_bfd,null2,named,19,1024,0.5264860493327942,0.26419012471781866,0.2371722964722176
+subcellular_localization,amino-acid composition,protbert_bfd,null2,permuted,19,1024,0.46785281035179943,0.26419012471781866,0.2371722964722176
+subcellular_localization,amino-acid composition,protbert_bfd,null3,none,19,1024,0.44520824909017387,0.26370887428290857,0.26151481956348743
+subcellular_localization,amino-acid composition,protbert_bfd,null3,named,19,1024,0.5196118075212293,0.26370887428290857,0.26151481956348743
+subcellular_localization,amino-acid composition,protbert_bfd,null3,permuted,19,1024,0.4427820460978569,0.26370887428290857,0.26151481956348743
+subcellular_localization,amino-acid composition,proteinmpnn,intact,none,19,128,0.39021431459765465,0.0,0.0
+subcellular_localization,amino-acid composition,proteinmpnn,erased,none,19,128,0.3756570966437525,0.13024269274783107,0.154487984568195
+subcellular_localization,amino-acid composition,proteinmpnn,erased,named,19,128,0.4520824909017388,0.13024269274783107,0.154487984568195
+subcellular_localization,amino-acid composition,proteinmpnn,erased,permuted,19,128,0.374443995147594,0.13024269274783107,0.154487984568195
+subcellular_localization,amino-acid composition,proteinmpnn,sham0,none,19,128,0.40760210270926,0.183155660034101,0.027521982719219462
+subcellular_localization,amino-acid composition,proteinmpnn,sham0,named,19,128,0.44723008491710475,0.183155660034101,0.027521982719219462
+subcellular_localization,amino-acid composition,proteinmpnn,sham0,permuted,19,128,0.4047715325515568,0.183155660034101,0.027521982719219462
+subcellular_localization,amino-acid composition,proteinmpnn,sham1,none,19,128,0.405175899716943,0.1674797459016909,0.01825654072374905
+subcellular_localization,amino-acid composition,proteinmpnn,sham1,named,19,128,0.459765467044076,0.1674797459016909,0.01825654072374905
+subcellular_localization,amino-acid composition,proteinmpnn,sham1,permuted,19,128,0.40153659522846746,0.1674797459016909,0.01825654072374905
+subcellular_localization,amino-acid composition,proteinmpnn,sham2,none,19,128,0.39223615042458554,0.25928417773749646,0.020978522361387197
+subcellular_localization,amino-acid composition,proteinmpnn,sham2,named,19,128,0.45248685806712496,0.25928417773749646,0.020978522361387197
+subcellular_localization,amino-acid composition,proteinmpnn,sham2,permuted,19,128,0.39223615042458554,0.25928417773749646,0.020978522361387197
+subcellular_localization,amino-acid composition,proteinmpnn,sham3,none,19,128,0.40072786089769513,0.21033856732971623,0.017702850432604444
+subcellular_localization,amino-acid composition,proteinmpnn,sham3,named,19,128,0.45491306105944196,0.21033856732971623,0.017702850432604444
+subcellular_localization,amino-acid composition,proteinmpnn,sham3,permuted,19,128,0.39466235341690253,0.21033856732971623,0.017702850432604444
+subcellular_localization,amino-acid composition,proteinmpnn,null0,none,19,128,0.3950667205822887,0.13007828470341498,0.03183304146957833
+subcellular_localization,amino-acid composition,proteinmpnn,null0,named,19,128,0.457339264051759,0.13007828470341498,0.03183304146957833
+subcellular_localization,amino-acid composition,proteinmpnn,null0,permuted,19,128,0.3970885564092196,0.13007828470341498,0.03183304146957833
+subcellular_localization,amino-acid composition,proteinmpnn,null1,none,19,128,0.3950667205822887,0.13007828470341498,0.03183304146957833
+subcellular_localization,amino-acid composition,proteinmpnn,null1,named,19,128,0.457339264051759,0.13007828470341498,0.03183304146957833
+subcellular_localization,amino-acid composition,proteinmpnn,null1,permuted,19,128,0.3970885564092196,0.13007828470341498,0.03183304146957833
+subcellular_localization,amino-acid composition,proteinmpnn,null2,none,19,128,0.39627982207844725,0.12894981871266809,0.0317057781257476
+subcellular_localization,amino-acid composition,proteinmpnn,null2,named,19,128,0.4512737565709664,0.12894981871266809,0.0317057781257476
+subcellular_localization,amino-acid composition,proteinmpnn,null2,permuted,19,128,0.3978972907399919,0.12894981871266809,0.0317057781257476
+subcellular_localization,amino-acid composition,proteinmpnn,null3,none,19,128,0.39547108774767487,0.12894597451580037,0.03170115795510431
+subcellular_localization,amino-acid composition,proteinmpnn,null3,named,19,128,0.4577436312171452,0.12894597451580037,0.03170115795510431
+subcellular_localization,amino-acid composition,proteinmpnn,null3,permuted,19,128,0.3966841892438334,0.12894597451580037,0.03170115795510431
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,intact,none,19,1024,0.6902547513141933,0.0,0.0
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,erased,none,19,1024,0.6603315810756166,0.13851282988009217,0.955810720259993
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,erased,named,19,1024,0.6809543065103114,0.13851282988009217,0.955810720259993
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,erased,permuted,19,1024,0.661140315406389,0.13851282988009217,0.955810720259993
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham0,none,19,1024,0.677719369187222,0.01984522794551491,0.017390468220969568
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham0,named,19,1024,0.6878285483218762,0.01984522794551491,0.017390468220969568
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham0,permuted,19,1024,0.6858067124949454,0.01984522794551491,0.017390468220969568
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham1,none,19,1024,0.6821674080064699,0.017811564465232244,0.01719405787523598
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham1,named,19,1024,0.6849979781641731,0.017811564465232244,0.01719405787523598
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham1,permuted,19,1024,0.6785281035179943,0.017811564465232244,0.01719405787523598
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham2,none,19,1024,0.6914678528103518,0.018594781602156774,0.016617362128496738
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham2,named,19,1024,0.6878285483218762,0.018594781602156774,0.016617362128496738
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham2,permuted,19,1024,0.6890416498180347,0.018594781602156774,0.016617362128496738
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham3,none,19,1024,0.6849979781641731,0.01976620549463648,0.016826614025448383
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham3,named,19,1024,0.6934896886372827,0.01976620549463648,0.016826614025448383
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,sham3,permuted,19,1024,0.6841892438334007,0.01976620549463648,0.016826614025448383
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null0,none,19,1024,0.5414476344520824,0.13724591989746904,0.031804079312076516
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null0,named,19,1024,0.5770319450060655,0.13724591989746904,0.031804079312076516
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null0,permuted,19,1024,0.5430651031136272,0.13724591989746904,0.031804079312076516
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null1,none,19,1024,0.528507885159725,0.13713670306391013,0.0879241536369827
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null1,named,19,1024,0.5657096643752527,0.13713670306391013,0.0879241536369827
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null1,permuted,19,1024,0.5272947836635665,0.13713670306391013,0.0879241536369827
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null2,none,19,1024,0.5390214314597654,0.1372365200353879,0.04358907620739039
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null2,named,19,1024,0.5713708046906592,0.1372365200353879,0.04358907620739039
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null2,permuted,19,1024,0.537808329963607,0.1372365200353879,0.04358907620739039
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null3,none,19,1024,0.5321471896482005,0.1371294231055964,0.05586468292902258
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null3,named,19,1024,0.5657096643752527,0.1371294231055964,0.05586468292902258
+subcellular_localization,amino-acid composition,prottrans_t5_xl_u50,null3,permuted,19,1024,0.5293166194904974,0.1371294231055964,0.05586468292902258
+subcellular_localization,amino-acid composition,saprot,intact,none,19,1280,0.6623534169025476,0.0,0.0
+subcellular_localization,amino-acid composition,saprot,erased,none,19,1280,0.6122118883946623,0.17946437732641718,0.9683798520529621
+subcellular_localization,amino-acid composition,saprot,erased,named,19,1280,0.6534573392640518,0.17946437732641718,0.9683798520529621
+subcellular_localization,amino-acid composition,saprot,erased,permuted,19,1280,0.6085725839061868,0.17946437732641718,0.9683798520529621
+subcellular_localization,amino-acid composition,saprot,sham0,none,19,1280,0.6461787302871007,0.017042417262176257,0.01477632184791633
+subcellular_localization,amino-acid composition,saprot,sham0,named,19,1280,0.644561261625556,0.017042417262176257,0.01477632184791633
+subcellular_localization,amino-acid composition,saprot,sham0,permuted,19,1280,0.6433481601293974,0.017042417262176257,0.01477632184791633
+subcellular_localization,amino-acid composition,saprot,sham1,none,19,1280,0.6506267691063485,0.013520942876727005,0.014153063468949734
+subcellular_localization,amino-acid composition,saprot,sham1,named,19,1280,0.6566922765871411,0.013520942876727005,0.014153063468949734
+subcellular_localization,amino-acid composition,saprot,sham1,permuted,19,1280,0.6502224019409624,0.013520942876727005,0.014153063468949734
+subcellular_localization,amino-acid composition,saprot,sham2,none,19,1280,0.656287909421755,0.017108252193752782,0.01349851707303662
+subcellular_localization,amino-acid composition,saprot,sham2,named,19,1280,0.6643752527294784,0.017108252193752782,0.01349851707303662
+subcellular_localization,amino-acid composition,saprot,sham2,permuted,19,1280,0.6623534169025476,0.017108252193752782,0.01349851707303662
+subcellular_localization,amino-acid composition,saprot,sham3,none,19,1280,0.6384957541447634,0.015327121510998243,0.014049112388196616
+subcellular_localization,amino-acid composition,saprot,sham3,named,19,1280,0.6405175899716943,0.015327121510998243,0.014049112388196616
+subcellular_localization,amino-acid composition,saprot,sham3,permuted,19,1280,0.6401132228063081,0.015327121510998243,0.014049112388196616
+subcellular_localization,amino-acid composition,saprot,null0,none,19,1280,0.4512737565709664,0.17790208419632414,0.08673608624232454
+subcellular_localization,amino-acid composition,saprot,null0,named,19,1280,0.5107157298827335,0.17790208419632414,0.08673608624232454
+subcellular_localization,amino-acid composition,saprot,null0,permuted,19,1280,0.44116457743631216,0.17790208419632414,0.08673608624232454
+subcellular_localization,amino-acid composition,saprot,null1,none,19,1280,0.46785281035179943,0.17884727977958004,0.08418890779517141
+subcellular_localization,amino-acid composition,saprot,null1,named,19,1280,0.5196118075212293,0.17884727977958004,0.08418890779517141
+subcellular_localization,amino-acid composition,saprot,null1,permuted,19,1280,0.46906591184795793,0.17884727977958004,0.08418890779517141
+subcellular_localization,amino-acid composition,saprot,null2,none,19,1280,0.4589567327133037,0.17767006642112504,0.08248661226044118
+subcellular_localization,amino-acid composition,saprot,null2,named,19,1280,0.5127375657096643,0.17767006642112504,0.08248661226044118
+subcellular_localization,amino-acid composition,saprot,null2,permuted,19,1280,0.46663970885564093,0.17767006642112504,0.08248661226044118
+subcellular_localization,amino-acid composition,saprot,null3,none,19,1280,0.4585523655479175,0.17767035527440833,0.08815336683253538
+subcellular_localization,amino-acid composition,saprot,null3,named,19,1280,0.5159725030327538,0.17767035527440833,0.08815336683253538
+subcellular_localization,amino-acid composition,saprot,null3,permuted,19,1280,0.4545086938940558,0.17767035527440833,0.08815336683253538
+subcellular_localization,amino-acid composition,schnet,intact,none,19,128,0.4435907804286292,0.0,0.0
+subcellular_localization,amino-acid composition,schnet,erased,none,19,128,0.4055802668823292,0.8693063240249502,0.9655046828747312
+subcellular_localization,amino-acid composition,schnet,erased,named,19,128,0.46623534169025477,0.8693063240249502,0.9655046828747312
+subcellular_localization,amino-acid composition,schnet,erased,permuted,19,128,0.39344925192074404,0.8693063240249502,0.9655046828747312
+subcellular_localization,amino-acid composition,schnet,sham0,none,19,128,0.42903356247472707,0.23295306725305642,0.1414193237675042
+subcellular_localization,amino-acid composition,schnet,sham0,named,19,128,0.4617873028710069,0.23295306725305642,0.1414193237675042
+subcellular_localization,amino-acid composition,schnet,sham0,permuted,19,128,0.4253942579862515,0.23295306725305642,0.1414193237675042
+subcellular_localization,amino-acid composition,schnet,sham1,none,19,128,0.4181156490093004,0.2229767960658776,0.14253328735316184
+subcellular_localization,amino-acid composition,schnet,sham1,named,19,128,0.45369995956328346,0.2229767960658776,0.14253328735316184
+subcellular_localization,amino-acid composition,schnet,sham1,permuted,19,128,0.4148807116862111,0.2229767960658776,0.14253328735316184
+subcellular_localization,amino-acid composition,schnet,sham2,none,19,128,0.42377678932470686,0.19766865201759576,0.12668523077227944
+subcellular_localization,amino-acid composition,schnet,sham2,named,19,128,0.4565305297209867,0.19766865201759576,0.12668523077227944
+subcellular_localization,amino-acid composition,schnet,sham2,permuted,19,128,0.4132632430246664,0.19766865201759576,0.12668523077227944
+subcellular_localization,amino-acid composition,schnet,sham3,none,19,128,0.4367165386170643,0.18603006474995265,0.13083365282245674
+subcellular_localization,amino-acid composition,schnet,sham3,named,19,128,0.4585523655479175,0.18603006474995265,0.13083365282245674
+subcellular_localization,amino-acid composition,schnet,sham3,permuted,19,128,0.4229680549939345,0.18603006474995265,0.13083365282245674
+subcellular_localization,amino-acid composition,schnet,null0,none,19,128,0.38050950262838656,0.8608159121153892,0.6329965224947488
+subcellular_localization,amino-acid composition,schnet,null0,named,19,128,0.46057420137484834,0.8608159121153892,0.6329965224947488
+subcellular_localization,amino-acid composition,schnet,null0,permuted,19,128,0.3788920339668419,0.8608159121153892,0.6329965224947488
+subcellular_localization,amino-acid composition,schnet,null1,none,19,128,0.38050950262838656,0.8608159121153892,0.6329965224947488
+subcellular_localization,amino-acid composition,schnet,null1,named,19,128,0.46057420137484834,0.8608159121153892,0.6329965224947488
+subcellular_localization,amino-acid composition,schnet,null1,permuted,19,128,0.3788920339668419,0.8608159121153892,0.6329965224947488
+subcellular_localization,amino-acid composition,schnet,null2,none,19,128,0.38900121310149616,0.8606144067907757,0.6374608587528502
+subcellular_localization,amino-acid composition,schnet,null2,named,19,128,0.46785281035179943,0.8606144067907757,0.6374608587528502
+subcellular_localization,amino-acid composition,schnet,null2,permuted,19,128,0.3845531742822483,0.8606144067907757,0.6374608587528502
+subcellular_localization,amino-acid composition,schnet,null3,none,19,128,0.39223615042458554,0.8639563206092667,0.6392942328557689
+subcellular_localization,amino-acid composition,schnet,null3,named,19,128,0.46785281035179943,0.8639563206092667,0.6392942328557689
+subcellular_localization,amino-acid composition,schnet,null3,permuted,19,128,0.3841488071168621,0.8639563206092667,0.6392942328557689
+subcellular_localization,amino-acid composition,tfn,intact,none,19,128,0.4213505863323898,0.0,0.0
+subcellular_localization,amino-acid composition,tfn,erased,none,19,128,0.37808329963606957,0.8289136427875075,0.9200025248326859
+subcellular_localization,amino-acid composition,tfn,erased,named,19,128,0.4694702790133441,0.8289136427875075,0.9200025248326859
+subcellular_localization,amino-acid composition,tfn,erased,permuted,19,128,0.3841488071168621,0.8289136427875075,0.9200025248326859
+subcellular_localization,amino-acid composition,tfn,sham0,none,19,128,0.4120501415285079,0.21073775705741815,0.14417446999630756
+subcellular_localization,amino-acid composition,tfn,sham0,named,19,128,0.4585523655479175,0.21073775705741815,0.14417446999630756
+subcellular_localization,amino-acid composition,tfn,sham0,permuted,19,128,0.40396279822078446,0.21073775705741815,0.14417446999630756
+subcellular_localization,amino-acid composition,tfn,sham1,none,19,128,0.4355034371209058,0.2104773351629673,0.15126920524587095
+subcellular_localization,amino-acid composition,tfn,sham1,named,19,128,0.45814799838253134,0.2104773351629673,0.15126920524587095
+subcellular_localization,amino-acid composition,tfn,sham1,permuted,19,128,0.4342903356247473,0.2104773351629673,0.15126920524587095
+subcellular_localization,amino-acid composition,tfn,sham2,none,19,128,0.43065103113627173,0.19369006268888045,0.11671691760042957
+subcellular_localization,amino-acid composition,tfn,sham2,named,19,128,0.45814799838253134,0.19369006268888045,0.11671691760042957
+subcellular_localization,amino-acid composition,tfn,sham2,permuted,19,128,0.43065103113627173,0.19369006268888045,0.11671691760042957
+subcellular_localization,amino-acid composition,tfn,sham3,none,19,128,0.4310553983016579,0.18786602027701982,0.11945828177236972
+subcellular_localization,amino-acid composition,tfn,sham3,named,19,128,0.4577436312171452,0.18786602027701982,0.11945828177236972
+subcellular_localization,amino-acid composition,tfn,sham3,permuted,19,128,0.43186413263243023,0.18786602027701982,0.11945828177236972
+subcellular_localization,amino-acid composition,tfn,null0,none,19,128,0.40598463404771534,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null0,named,19,128,0.46906591184795793,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null0,permuted,19,128,0.40072786089769513,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null1,none,19,128,0.40598463404771534,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null1,named,19,128,0.46906591184795793,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null1,permuted,19,128,0.40072786089769513,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null2,none,19,128,0.40598463404771534,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null2,named,19,128,0.46906591184795793,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null2,permuted,19,128,0.40072786089769513,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null3,none,19,128,0.40598463404771534,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null3,named,19,128,0.46906591184795793,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn,null3,permuted,19,128,0.40072786089769513,0.8211557429576966,0.42109187914569235
+subcellular_localization,amino-acid composition,tfn_pretrained,intact,none,19,128,0.4727052163364335,0.0,0.0
+subcellular_localization,amino-acid composition,tfn_pretrained,erased,none,19,128,0.4055802668823292,0.6057208861860186,0.900830219552746
+subcellular_localization,amino-acid composition,tfn_pretrained,erased,named,19,128,0.48968863728265266,0.6057208861860186,0.900830219552746
+subcellular_localization,amino-acid composition,tfn_pretrained,erased,permuted,19,128,0.41124140719773555,0.6057208861860186,0.900830219552746
+subcellular_localization,amino-acid composition,tfn_pretrained,sham0,none,19,128,0.40760210270926,0.41145521502874893,0.14196369627827665
+subcellular_localization,amino-acid composition,tfn_pretrained,sham0,named,19,128,0.4638091386979377,0.41145521502874893,0.14196369627827665
+subcellular_localization,amino-acid composition,tfn_pretrained,sham0,permuted,19,128,0.3983016579053781,0.41145521502874893,0.14196369627827665
+subcellular_localization,amino-acid composition,tfn_pretrained,sham1,none,19,128,0.3978972907399919,0.4384626802138646,0.14104851326787438
+subcellular_localization,amino-acid composition,tfn_pretrained,sham1,named,19,128,0.4512737565709664,0.4384626802138646,0.14104851326787438
+subcellular_localization,amino-acid composition,tfn_pretrained,sham1,permuted,19,128,0.40072786089769513,0.4384626802138646,0.14104851326787438
+subcellular_localization,amino-acid composition,tfn_pretrained,sham2,none,19,128,0.42943792964011324,0.525126678842558,0.11671339263014036
+subcellular_localization,amino-acid composition,tfn_pretrained,sham2,named,19,128,0.46906591184795793,0.525126678842558,0.11671339263014036
+subcellular_localization,amino-acid composition,tfn_pretrained,sham2,permuted,19,128,0.43590780428629194,0.525126678842558,0.11671339263014036
+subcellular_localization,amino-acid composition,tfn_pretrained,sham3,none,19,128,0.4557217953902143,0.4154523792004694,0.12241648659849191
+subcellular_localization,amino-acid composition,tfn_pretrained,sham3,named,19,128,0.4751314193287505,0.4154523792004694,0.12241648659849191
+subcellular_localization,amino-acid composition,tfn_pretrained,sham3,permuted,19,128,0.4504650222401941,0.4154523792004694,0.12241648659849191
+subcellular_localization,amino-acid composition,tfn_pretrained,null0,none,19,128,0.46097856854023456,0.6070070633049127,0.14224881200657324
+subcellular_localization,amino-acid composition,tfn_pretrained,null0,named,19,128,0.4957541447634452,0.6070070633049127,0.14224881200657324
+subcellular_localization,amino-acid composition,tfn_pretrained,null0,permuted,19,128,0.4553174282248281,0.6070070633049127,0.14224881200657324
+subcellular_localization,amino-acid composition,tfn_pretrained,null1,none,19,128,0.46057420137484834,0.6070070635013423,0.1421985017259052
+subcellular_localization,amino-acid composition,tfn_pretrained,null1,named,19,128,0.5014152850788516,0.6070070635013423,0.1421985017259052
+subcellular_localization,amino-acid composition,tfn_pretrained,null1,permuted,19,128,0.4557217953902143,0.6070070635013423,0.1421985017259052
+subcellular_localization,amino-acid composition,tfn_pretrained,null2,none,19,128,0.4670440760210271,0.6070070635012378,0.1420035821040292
+subcellular_localization,amino-acid composition,tfn_pretrained,null2,named,19,128,0.5010109179134654,0.6070070635012378,0.1420035821040292
+subcellular_localization,amino-acid composition,tfn_pretrained,null2,permuted,19,128,0.45693489688637284,0.6070070635012378,0.1420035821040292
+subcellular_localization,amino-acid composition,tfn_pretrained,null3,none,19,128,0.4670440760210271,0.6070070635012378,0.1420035821040292
+subcellular_localization,amino-acid composition,tfn_pretrained,null3,named,19,128,0.5010109179134654,0.6070070635012378,0.1420035821040292
+subcellular_localization,amino-acid composition,tfn_pretrained,null3,permuted,19,128,0.45693489688637284,0.6070070635012378,0.1420035821040292
+subcellular_localization,burial and packing,ankh_base,intact,none,2,768,0.6615446825717751,0.0,0.0
+subcellular_localization,burial and packing,ankh_base,erased,none,2,768,0.64941366761019,0.037368582505744374,0.6977488710578365
+subcellular_localization,burial and packing,ankh_base,erased,named,2,768,0.6526486049332794,0.037368582505744374,0.6977488710578365
+subcellular_localization,burial and packing,ankh_base,erased,permuted,2,768,0.6482005661140315,0.037368582505744374,0.6977488710578365
+subcellular_localization,burial and packing,ankh_base,sham0,none,2,768,0.6663970885564092,0.0030035676138864265,0.0019259222876878423
+subcellular_localization,burial and packing,ankh_base,sham0,named,2,768,0.66841892438334,0.0030035676138864265,0.0019259222876878423
+subcellular_localization,burial and packing,ankh_base,sham0,permuted,2,768,0.6692276587141124,0.0030035676138864265,0.0019259222876878423
+subcellular_localization,burial and packing,ankh_base,sham1,none,2,768,0.6627577840679337,0.0028319388023818615,0.0005287175585424464
+subcellular_localization,burial and packing,ankh_base,sham1,named,2,768,0.6639708855640922,0.0028319388023818615,0.0005287175585424464
+subcellular_localization,burial and packing,ankh_base,sham1,permuted,2,768,0.6663970885564092,0.0028319388023818615,0.0005287175585424464
+subcellular_localization,burial and packing,ankh_base,sham2,none,2,768,0.6619490497371613,0.0031640350494596126,0.0015855908842150601
+subcellular_localization,burial and packing,ankh_base,sham2,named,2,768,0.6659927213910231,0.0031640350494596126,0.0015855908842150601
+subcellular_localization,burial and packing,ankh_base,sham2,permuted,2,768,0.6651839870602507,0.0031640350494596126,0.0015855908842150601
+subcellular_localization,burial and packing,ankh_base,sham3,none,2,768,0.661140315406389,0.002443012994398419,0.00034528302347991424
+subcellular_localization,burial and packing,ankh_base,sham3,named,2,768,0.661140315406389,0.002443012994398419,0.00034528302347991424
+subcellular_localization,burial and packing,ankh_base,sham3,permuted,2,768,0.6635665183987061,0.002443012994398419,0.00034528302347991424
+subcellular_localization,burial and packing,ankh_base,null0,none,2,768,0.5964415689446017,0.03801043457309505,0.027519127145367417
+subcellular_localization,burial and packing,ankh_base,null0,named,2,768,0.5915891629599677,0.03801043457309505,0.027519127145367417
+subcellular_localization,burial and packing,ankh_base,null0,permuted,2,768,0.59239789729074,0.03801043457309505,0.027519127145367417
+subcellular_localization,burial and packing,ankh_base,null1,none,2,768,0.5964415689446017,0.03755836386876832,0.042406294449175874
+subcellular_localization,burial and packing,ankh_base,null1,named,2,768,0.5936109987868985,0.03755836386876832,0.042406294449175874
+subcellular_localization,burial and packing,ankh_base,null1,permuted,2,768,0.5976546704407603,0.03755836386876832,0.042406294449175874
+subcellular_localization,burial and packing,ankh_base,null2,none,2,768,0.5980590376061464,0.03735310369303968,0.027708083226551827
+subcellular_localization,burial and packing,ankh_base,null2,named,2,768,0.5915891629599677,0.03735310369303968,0.027708083226551827
+subcellular_localization,burial and packing,ankh_base,null2,permuted,2,768,0.5968459361099878,0.03735310369303968,0.027708083226551827
+subcellular_localization,burial and packing,ankh_base,null3,none,2,768,0.5839061868176304,0.03818610229628494,0.011032308794688639
+subcellular_localization,burial and packing,ankh_base,null3,named,2,768,0.5891629599676507,0.03818610229628494,0.011032308794688639
+subcellular_localization,burial and packing,ankh_base,null3,permuted,2,768,0.5859280226445612,0.03818610229628494,0.011032308794688639
+subcellular_localization,burial and packing,cdconv,intact,none,2,256,0.43752527294783666,0.0,0.0
+subcellular_localization,burial and packing,cdconv,erased,none,2,256,0.4148807116862111,0.05194788265194983,0.574419071003701
+subcellular_localization,burial and packing,cdconv,erased,named,2,256,0.43186413263243023,0.05194788265194983,0.574419071003701
+subcellular_localization,burial and packing,cdconv,erased,permuted,2,256,0.41124140719773555,0.05194788265194983,0.574419071003701
+subcellular_localization,burial and packing,cdconv,sham0,none,2,256,0.42377678932470686,0.0724509629390877,0.0084781967383174
+subcellular_localization,burial and packing,cdconv,sham0,named,2,256,0.4330772341285888,0.0724509629390877,0.0084781967383174
+subcellular_localization,burial and packing,cdconv,sham0,permuted,2,256,0.4245855236554792,0.0724509629390877,0.0084781967383174
+subcellular_localization,burial and packing,cdconv,sham1,none,2,256,0.4278204609785685,0.07467503864428449,0.009073041945556248
+subcellular_localization,burial and packing,cdconv,sham1,named,2,256,0.43267286696320256,0.07467503864428449,0.009073041945556248
+subcellular_localization,burial and packing,cdconv,sham1,permuted,2,256,0.42498989082086536,0.07467503864428449,0.009073041945556248
+subcellular_localization,burial and packing,cdconv,sham2,none,2,256,0.4270117266477962,0.0672486169925196,0.0003913922043553564
+subcellular_localization,burial and packing,cdconv,sham2,named,2,256,0.43752527294783666,0.0672486169925196,0.0003913922043553564
+subcellular_localization,burial and packing,cdconv,sham2,permuted,2,256,0.4355034371209058,0.0672486169925196,0.0003913922043553564
+subcellular_localization,burial and packing,cdconv,sham3,none,2,256,0.42215932066316214,0.09272055532992651,0.0004945546182637539
+subcellular_localization,burial and packing,cdconv,sham3,named,2,256,0.42660735948241,0.09272055532992651,0.0004945546182637539
+subcellular_localization,burial and packing,cdconv,sham3,permuted,2,256,0.42337242215932064,0.09272055532992651,0.0004945546182637539
+subcellular_localization,burial and packing,cdconv,null0,none,2,256,0.4670440760210271,0.05248245601258905,0.020666529719219784
+subcellular_localization,burial and packing,cdconv,null0,named,2,256,0.46461787302871005,0.05248245601258905,0.020666529719219784
+subcellular_localization,burial and packing,cdconv,null0,permuted,2,256,0.4694702790133441,0.05248245601258905,0.020666529719219784
+subcellular_localization,burial and packing,cdconv,null1,none,2,256,0.4589567327133037,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null1,named,2,256,0.4613829357056207,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null1,permuted,2,256,0.46057420137484834,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null2,none,2,256,0.4589567327133037,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null2,named,2,256,0.4613829357056207,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null2,permuted,2,256,0.46057420137484834,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null3,none,2,256,0.4589567327133037,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null3,named,2,256,0.4613829357056207,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,cdconv,null3,permuted,2,256,0.46057420137484834,0.051682893557199905,0.01922587217607119
+subcellular_localization,burial and packing,dimenet,intact,none,2,128,0.41366761019005255,0.0,0.0
+subcellular_localization,burial and packing,dimenet,erased,none,2,128,0.40274969672462596,0.00020026312145671188,0.4522985896419198
+subcellular_localization,burial and packing,dimenet,erased,named,2,128,0.4257986251516377,0.00020026312145671188,0.4522985896419198
+subcellular_localization,burial and packing,dimenet,erased,permuted,2,128,0.40841083704003234,0.00020026312145671188,0.4522985896419198
+subcellular_localization,burial and packing,dimenet,sham0,none,2,128,0.4148807116862111,0.039601072471157295,0.011462504424155529
+subcellular_localization,burial and packing,dimenet,sham0,named,2,128,0.43267286696320256,0.039601072471157295,0.011462504424155529
+subcellular_localization,burial and packing,dimenet,sham0,permuted,2,128,0.4181156490093004,0.039601072471157295,0.011462504424155529
+subcellular_localization,burial and packing,dimenet,sham1,none,2,128,0.41124140719773555,0.04995422227719726,0.011584585341995912
+subcellular_localization,burial and packing,dimenet,sham1,named,2,128,0.42377678932470686,0.04995422227719726,0.011584585341995912
+subcellular_localization,burial and packing,dimenet,sham1,permuted,2,128,0.4088152042054185,0.04995422227719726,0.011584585341995912
+subcellular_localization,burial and packing,dimenet,sham2,none,2,128,0.3978972907399919,0.04582098189293926,0.00014320466369488472
+subcellular_localization,burial and packing,dimenet,sham2,named,2,128,0.4201374848362313,0.04582098189293926,0.00014320466369488472
+subcellular_localization,burial and packing,dimenet,sham2,permuted,2,128,0.4047715325515568,0.04582098189293926,0.00014320466369488472
+subcellular_localization,burial and packing,dimenet,sham3,none,2,128,0.40396279822078446,0.04534321146719322,0.0014418463867553744
+subcellular_localization,burial and packing,dimenet,sham3,named,2,128,0.4173069146785281,0.04534321146719322,0.0014418463867553744
+subcellular_localization,burial and packing,dimenet,sham3,permuted,2,128,0.4055802668823292,0.04534321146719322,0.0014418463867553744
+subcellular_localization,burial and packing,dimenet,null0,none,2,128,0.44439951475940154,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null0,named,2,128,0.45814799838253134,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null0,permuted,2,128,0.4448038819247877,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null1,none,2,128,0.44439951475940154,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null1,named,2,128,0.45814799838253134,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null1,permuted,2,128,0.4448038819247877,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null2,none,2,128,0.44439951475940154,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null2,named,2,128,0.45814799838253134,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null2,permuted,2,128,0.4448038819247877,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null3,none,2,128,0.44439951475940154,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null3,named,2,128,0.45814799838253134,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,dimenet,null3,permuted,2,128,0.4448038819247877,0.00019761644716587146,0.10404524614898192
+subcellular_localization,burial and packing,esm1b,intact,none,2,1280,0.6765062676910635,0.0,0.0
+subcellular_localization,burial and packing,esm1b,erased,none,2,1280,0.6623534169025476,0.033426094071072776,0.742088981676759
+subcellular_localization,burial and packing,esm1b,erased,named,2,1280,0.6655883542256369,0.033426094071072776,0.742088981676759
+subcellular_localization,burial and packing,esm1b,erased,permuted,2,1280,0.6623534169025476,0.033426094071072776,0.742088981676759
+subcellular_localization,burial and packing,esm1b,sham0,none,2,1280,0.6833805095026284,0.0013797568899795998,0.0022474569106376574
+subcellular_localization,burial and packing,esm1b,sham0,named,2,1280,0.6821674080064699,0.0013797568899795998,0.0022474569106376574
+subcellular_localization,burial and packing,esm1b,sham0,permuted,2,1280,0.6829761423372422,0.0013797568899795998,0.0022474569106376574
+subcellular_localization,burial and packing,esm1b,sham1,none,2,1280,0.6817630408410837,0.0011775867619905345,0.0009336085222835244
+subcellular_localization,burial and packing,esm1b,sham1,named,2,1280,0.6809543065103114,0.0011775867619905345,0.0009336085222835244
+subcellular_localization,burial and packing,esm1b,sham1,permuted,2,1280,0.6789324706833805,0.0011775867619905345,0.0009336085222835244
+subcellular_localization,burial and packing,esm1b,sham2,none,2,1280,0.6841892438334007,0.0012893029044290794,0.000843470874508423
+subcellular_localization,burial and packing,esm1b,sham2,named,2,1280,0.6821674080064699,0.0012893029044290794,0.000843470874508423
+subcellular_localization,burial and packing,esm1b,sham2,permuted,2,1280,0.6829761423372422,0.0012893029044290794,0.000843470874508423
+subcellular_localization,burial and packing,esm1b,sham3,none,2,1280,0.6748887990295188,0.0011631539300041016,0.00011901050801599311
+subcellular_localization,burial and packing,esm1b,sham3,named,2,1280,0.6793368378487666,0.0011631539300041016,0.00011901050801599311
+subcellular_localization,burial and packing,esm1b,sham3,permuted,2,1280,0.6781237363526081,0.0011631539300041016,0.00011901050801599311
+subcellular_localization,burial and packing,esm1b,null0,none,2,1280,0.5026283865750101,0.03320861907899797,0.0005363062498658921
+subcellular_localization,burial and packing,esm1b,null0,named,2,1280,0.4876668014557218,0.03320861907899797,0.0005363062498658921
+subcellular_localization,burial and packing,esm1b,null0,permuted,2,1280,0.4872624342903356,0.03320861907899797,0.0005363062498658921
+subcellular_localization,burial and packing,esm1b,null1,none,2,1280,0.5018196522442377,0.03315161420861079,0.0008572973907907677
+subcellular_localization,burial and packing,esm1b,null1,named,2,1280,0.48807116862110794,0.03315161420861079,0.0008572973907907677
+subcellular_localization,burial and packing,esm1b,null1,permuted,2,1280,0.48281439547108773,0.03315161420861079,0.0008572973907907677
+subcellular_localization,burial and packing,esm1b,null2,none,2,1280,0.5054589567327133,0.03523842042659775,0.019252633476193104
+subcellular_localization,burial and packing,esm1b,null2,named,2,1280,0.4977759805903761,0.03523842042659775,0.019252633476193104
+subcellular_localization,burial and packing,esm1b,null2,permuted,2,1280,0.5010109179134654,0.03523842042659775,0.019252633476193104
+subcellular_localization,burial and packing,esm1b,null3,none,2,1280,0.49939344925192075,0.03363668687814425,0.0007812701268441469
+subcellular_localization,burial and packing,esm1b,null3,named,2,1280,0.48847553578649416,0.03363668687814425,0.0007812701268441469
+subcellular_localization,burial and packing,esm1b,null3,permuted,2,1280,0.4832187626364739,0.03363668687814425,0.0007812701268441469
+subcellular_localization,burial and packing,esm2_150m,intact,none,2,640,0.6732713303679742,0.0,0.0
+subcellular_localization,burial and packing,esm2_150m,erased,none,2,640,0.6659927213910231,0.051615869377331536,0.659343692860917
+subcellular_localization,burial and packing,esm2_150m,erased,named,2,640,0.6663970885564092,0.051615869377331536,0.659343692860917
+subcellular_localization,burial and packing,esm2_150m,erased,permuted,2,640,0.6603315810756166,0.051615869377331536,0.659343692860917
+subcellular_localization,burial and packing,esm2_150m,sham0,none,2,640,0.6676101900525677,0.0036658560973591436,0.0043618298642320585
+subcellular_localization,burial and packing,esm2_150m,sham0,named,2,640,0.6712494945410432,0.0036658560973591436,0.0043618298642320585
+subcellular_localization,burial and packing,esm2_150m,sham0,permuted,2,640,0.6680145572179539,0.0036658560973591436,0.0043618298642320585
+subcellular_localization,burial and packing,esm2_150m,sham1,none,2,640,0.6663970885564092,0.0036432669973842646,0.00239489141931859
+subcellular_localization,burial and packing,esm2_150m,sham1,named,2,640,0.6712494945410432,0.0036432669973842646,0.00239489141931859
+subcellular_localization,burial and packing,esm2_150m,sham1,permuted,2,640,0.6663970885564092,0.0036432669973842646,0.00239489141931859
+subcellular_localization,burial and packing,esm2_150m,sham2,none,2,640,0.6756975333602911,0.002597210432404462,0.0006471004029285909
+subcellular_localization,burial and packing,esm2_150m,sham2,named,2,640,0.6756975333602911,0.002597210432404462,0.0006471004029285909
+subcellular_localization,burial and packing,esm2_150m,sham2,permuted,2,640,0.6765062676910635,0.002597210432404462,0.0006471004029285909
+subcellular_localization,burial and packing,esm2_150m,sham3,none,2,640,0.6663970885564092,0.002098396424038085,0.0011594476640933715
+subcellular_localization,burial and packing,esm2_150m,sham3,named,2,640,0.6712494945410432,0.002098396424038085,0.0011594476640933715
+subcellular_localization,burial and packing,esm2_150m,sham3,permuted,2,640,0.66841892438334,0.002098396424038085,0.0011594476640933715
+subcellular_localization,burial and packing,esm2_150m,null0,none,2,640,0.5830974524868581,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null0,named,2,640,0.5843105539830166,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null0,permuted,2,640,0.5814799838253134,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null1,none,2,640,0.5830974524868581,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null1,named,2,640,0.5843105539830166,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null1,permuted,2,640,0.5814799838253134,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null2,none,2,640,0.5818843509906996,0.05133533829451775,0.012104360814348736
+subcellular_localization,burial and packing,esm2_150m,null2,named,2,640,0.5887585928022645,0.05133533829451775,0.012104360814348736
+subcellular_localization,burial and packing,esm2_150m,null2,permuted,2,640,0.5826930853214719,0.05133533829451775,0.012104360814348736
+subcellular_localization,burial and packing,esm2_150m,null3,none,2,640,0.5830974524868581,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null3,named,2,640,0.5843105539830166,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_150m,null3,permuted,2,640,0.5814799838253134,0.05130351271292133,0.012104195047503263
+subcellular_localization,burial and packing,esm2_35m,intact,none,2,480,0.6502224019409624,0.0,0.0
+subcellular_localization,burial and packing,esm2_35m,erased,none,2,480,0.6425394257986251,0.043608016536160976,0.6063234901955711
+subcellular_localization,burial and packing,esm2_35m,erased,named,2,480,0.6433481601293974,0.043608016536160976,0.6063234901955711
+subcellular_localization,burial and packing,esm2_35m,erased,permuted,2,480,0.6393044884755358,0.043608016536160976,0.6063234901955711
+subcellular_localization,burial and packing,esm2_35m,sham0,none,2,480,0.6417306914678528,0.00593626316785012,0.0021722381413482594
+subcellular_localization,burial and packing,esm2_35m,sham0,named,2,480,0.6473918317832592,0.00593626316785012,0.0021722381413482594
+subcellular_localization,burial and packing,esm2_35m,sham0,permuted,2,480,0.6502224019409624,0.00593626316785012,0.0021722381413482594
+subcellular_localization,burial and packing,esm2_35m,sham1,none,2,480,0.64941366761019,0.0035945612736391075,0.0008679065673509179
+subcellular_localization,burial and packing,esm2_35m,sham1,named,2,480,0.6514355034371209,0.0035945612736391075,0.0008679065673509179
+subcellular_localization,burial and packing,esm2_35m,sham1,permuted,2,480,0.6502224019409624,0.0035945612736391075,0.0008679065673509179
+subcellular_localization,burial and packing,esm2_35m,sham2,none,2,480,0.6534573392640518,0.004307738804755101,0.001467325451590451
+subcellular_localization,burial and packing,esm2_35m,sham2,named,2,480,0.6558835422563688,0.004307738804755101,0.001467325451590451
+subcellular_localization,burial and packing,esm2_35m,sham2,permuted,2,480,0.651839870602507,0.004307738804755101,0.001467325451590451
+subcellular_localization,burial and packing,esm2_35m,sham3,none,2,480,0.6526486049332794,0.0028537966346047217,0.0004281609344976012
+subcellular_localization,burial and packing,esm2_35m,sham3,named,2,480,0.6570966437525273,0.0028537966346047217,0.0004281609344976012
+subcellular_localization,burial and packing,esm2_35m,sham3,permuted,2,480,0.6554791750909826,0.0028537966346047217,0.0004281609344976012
+subcellular_localization,burial and packing,esm2_35m,null0,none,2,480,0.5616659927213911,0.04395622511017927,0.011334084078150397
+subcellular_localization,burial and packing,esm2_35m,null0,named,2,480,0.5612616255560049,0.04395622511017927,0.011334084078150397
+subcellular_localization,burial and packing,esm2_35m,null0,permuted,2,480,0.5596441568944601,0.04395622511017927,0.011334084078150397
+subcellular_localization,burial and packing,esm2_35m,null1,none,2,480,0.5572179539021431,0.044027859240551526,0.011405794134625946
+subcellular_localization,burial and packing,esm2_35m,null1,named,2,480,0.5596441568944601,0.044027859240551526,0.011405794134625946
+subcellular_localization,burial and packing,esm2_35m,null1,permuted,2,480,0.556813586736757,0.044027859240551526,0.011405794134625946
+subcellular_localization,burial and packing,esm2_35m,null2,none,2,480,0.5604528912252326,0.04346585355071764,0.011316893432026465
+subcellular_localization,burial and packing,esm2_35m,null2,named,2,480,0.5564092195713708,0.04346585355071764,0.011316893432026465
+subcellular_localization,burial and packing,esm2_35m,null2,permuted,2,480,0.5604528912252326,0.04346585355071764,0.011316893432026465
+subcellular_localization,burial and packing,esm2_35m,null3,none,2,480,0.559239789729074,0.04366723089799496,0.011399579047653319
+subcellular_localization,burial and packing,esm2_35m,null3,named,2,480,0.5584310553983016,0.04366723089799496,0.011399579047653319
+subcellular_localization,burial and packing,esm2_35m,null3,permuted,2,480,0.5580266882329155,0.04366723089799496,0.011399579047653319
+subcellular_localization,burial and packing,esm2_3b,intact,none,2,2560,0.6934896886372827,0.0,0.0
+subcellular_localization,burial and packing,esm2_3b,erased,none,2,2560,0.6870198139911039,0.02598434261142568,0.8546719838686777
+subcellular_localization,burial and packing,esm2_3b,erased,named,2,2560,0.6914678528103518,0.02598434261142568,0.8546719838686777
+subcellular_localization,burial and packing,esm2_3b,erased,permuted,2,2560,0.6930853214718965,0.02598434261142568,0.8546719838686777
+subcellular_localization,burial and packing,esm2_3b,sham0,none,2,2560,0.6975333602911443,0.0008310568476889157,0.001635198857707132
+subcellular_localization,burial and packing,esm2_3b,sham0,named,2,2560,0.694298422968055,0.0008310568476889157,0.001635198857707132
+subcellular_localization,burial and packing,esm2_3b,sham0,permuted,2,2560,0.6934896886372827,0.0008310568476889157,0.001635198857707132
+subcellular_localization,burial and packing,esm2_3b,sham1,none,2,2560,0.6983420946219167,0.0005148405918742327,0.0011445444038975516
+subcellular_localization,burial and packing,esm2_3b,sham1,named,2,2560,0.7068338050950262,0.0005148405918742327,0.0011445444038975516
+subcellular_localization,burial and packing,esm2_3b,sham1,permuted,2,2560,0.7052163364334816,0.0005148405918742327,0.0011445444038975516
+subcellular_localization,burial and packing,esm2_3b,sham2,none,2,2560,0.6991508289526891,0.0005414694561965971,7.640733497205066e-05
+subcellular_localization,burial and packing,esm2_3b,sham2,named,2,2560,0.6934896886372827,0.0005414694561965971,7.640733497205066e-05
+subcellular_localization,burial and packing,esm2_3b,sham2,permuted,2,2560,0.694298422968055,0.0005414694561965971,7.640733497205066e-05
+subcellular_localization,burial and packing,esm2_3b,sham3,none,2,2560,0.7056207035988677,0.0004582577659655307,1.0584095664456505e-05
+subcellular_localization,burial and packing,esm2_3b,sham3,named,2,2560,0.6979377274565305,0.0004582577659655307,1.0584095664456505e-05
+subcellular_localization,burial and packing,esm2_3b,sham3,permuted,2,2560,0.6947027901334412,0.0004582577659655307,1.0584095664456505e-05
+subcellular_localization,burial and packing,esm2_3b,null0,none,2,2560,0.3675697533360291,0.025843956856698047,0.005660233332362541
+subcellular_localization,burial and packing,esm2_3b,null0,named,2,2560,0.36150424585523655,0.025843956856698047,0.005660233332362541
+subcellular_localization,burial and packing,esm2_3b,null0,permuted,2,2560,0.3485644965628791,0.025843956856698047,0.005660233332362541
+subcellular_localization,burial and packing,esm2_3b,null1,none,2,2560,0.36473918317832593,0.02556469038650111,0.0057051213857466365
+subcellular_localization,burial and packing,esm2_3b,null1,named,2,2560,0.36433481601293977,0.02556469038650111,0.0057051213857466365
+subcellular_localization,burial and packing,esm2_3b,null1,permuted,2,2560,0.34896886372826524,0.02556469038650111,0.0057051213857466365
+subcellular_localization,burial and packing,esm2_3b,null2,none,2,2560,0.36029114435907805,0.021856618145999596,0.004212580067514571
+subcellular_localization,burial and packing,esm2_3b,null2,named,2,2560,0.35301253538212696,0.021856618145999596,0.004212580067514571
+subcellular_localization,burial and packing,esm2_3b,null2,permuted,2,2560,0.34209462191670037,0.021856618145999596,0.004212580067514571
+subcellular_localization,burial and packing,esm2_3b,null3,none,2,2560,0.3675697533360291,0.026328307760810965,0.006131490858625077
+subcellular_localization,burial and packing,esm2_3b,null3,named,2,2560,0.3610998786898504,0.026328307760810965,0.006131490858625077
+subcellular_localization,burial and packing,esm2_3b,null3,permuted,2,2560,0.34654266073594825,0.026328307760810965,0.006131490858625077

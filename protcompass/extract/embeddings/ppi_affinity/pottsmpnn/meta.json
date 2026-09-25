@@ -1,0 +1,37 @@
+{
+ "encoder": "pottsmpnn",
+ "family": "registry",
+ "target": "pottsmpnn",
+ "weights": "random",
+ "rule": "encoder h_V after 3 layers, masked mean",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "fd9636d73a1e9994",
+ "n_parameters": 1712085,
+ "task": "ppi_affinity",
+ "date": "2026-09-19 19:15",
+ "seconds": 41.3,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 2589,
+  "numerical_rank": 127,
+  "max_abs": 2.9866631031036377
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.07189607480629943,
+  "rel_change_coord_swap": 0.06452992568345384,
+  "rel_change_seq_shuffle": 0.0,
+  "rel_change_rigid_motion": 1.150863828075338e-07,
+  "verdict": "pass"
+ }
+}

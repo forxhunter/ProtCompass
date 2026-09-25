@@ -1,0 +1,30 @@
+{
+  "H1": {
+    "confirmed": false,
+    "detail": "per encoder below of 9: esm3 6, esm_if1 7, proteinmpnn 8"
+  },
+  "H2": {
+    "confirmed": true,
+    "detail": "0 of 27 sequence-only cells below"
+  },
+  "H3": {
+    "confirmed": true,
+    "detail": "best gap: bfactor +0.197, rsa +0.263, rsa_bins +0.174"
+  },
+  "H4": {
+    "confirmed": false,
+    "detail": "vs ref_pairhist: esm_if1 +0.291, esm3 +0.384, esm2_650m +0.309"
+  },
+  "H1b": {
+    "confirmed": false,
+    "detail": "per encoder below of 9: esm3 6, esm_if1 6, proteinmpnn 8"
+  },
+  "H2b": {
+    "confirmed": true,
+    "detail": "0 of 27 sequence-only cells below"
+  },
+  "H5": {
+    "confirmed": false,
+    "detail": "47 domains; H1 False (esm3:6 esm_if1:7 proteinmpnn:8), H2 True (0 of 27), H3 True (bfactor:+0.158 rsa:+0.269 rsa_bins:+0.148), H4 False"
+  }
+}

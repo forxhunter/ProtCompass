@@ -1,0 +1,71 @@
+7710 rows, 10 tasks, 33 encoders, arms: conditional, contrast within amino-acid composition, marginal, matched rank 2
+
+=== how much the old control inflated the effect ===
+mean effect against the sham null: +0.0136
+mean effect against the old rotation control: +0.0167
+mean inflation: +0.0031 over 7708 cells; the rotation arm scores above the unerased representation in 49% of them
+cells positive under the old control and negative under the sham: 8%
+
+=== conditional demand against the sham null, arm 'conditional' ===
+task                         ec_classification  fluorescence  go_bp  go_mf  membrane_soluble  ppi_affinity  remote_homology  solubility  stability  subcellular_localization
+concept                                                                                                                                                                     
+amino-acid composition                   0.012         0.036  0.014  0.020             0.051        -0.050           -0.006       0.024      0.070                     0.035
+burial and packing                      -0.003         0.050  0.001  0.001             0.000        -0.027            0.004       0.004     -0.011                     0.007
+contact order                            0.009        -0.001  0.000  0.000             0.000         0.040            0.005       0.001     -0.039                    -0.001
+global shape                             0.001         0.013  0.000  0.003             0.009        -0.087            0.001       0.004     -0.013                     0.003
+secondary structure content              0.004         0.003  0.000  0.001             0.010         0.067            0.005       0.001     -0.009                    -0.001
+size                                     0.005         0.012  0.000  0.004             0.002         0.001           -0.004       0.000      0.010                    -0.001
+
+mean sham spread over permutation seeds, per task:
+task
+ec_classification           0.0096
+fluorescence                0.0024
+go_bp                       0.0025
+go_mf                       0.0021
+membrane_soluble            0.0023
+ppi_affinity                0.0296
+remote_homology             0.0064
+solubility                  0.0026
+stability                   0.0222
+subcellular_localization    0.0035
+
+8 of 60 task-property pairs are demanded: sign test Holm p < 0.05, mean effect >= 0.02, and the property varies on the task (cv >= 0.02)
+  fluorescence               burial and packing (+0.050, rank 2), amino-acid composition (+0.036, rank 20)
+  go_mf                      amino-acid composition (+0.020, rank 19)
+  membrane_soluble           amino-acid composition (+0.051, rank 19)
+  ppi_affinity               secondary structure content (+0.067, rank 6), contact order (+0.040, rank 2)
+  solubility                 amino-acid composition (+0.024, rank 19)
+  subcellular_localization   amino-acid composition (+0.035, rank 19)
+
+14 pairs pass the sign test but fall below the magnitude floor, and are not reported:
+  go_bp                      amino-acid composition       +0.0141  p=9.2e-08  cv=0.4257
+  fluorescence               global shape                 +0.0133  p=5.6e-06  cv=0.0373
+  fluorescence               size                         +0.0119  p=5.6e-06  cv=0.0001
+  membrane_soluble           secondary structure content  +0.0105  p=6.5e-07  cv=0.4294
+  membrane_soluble           global shape                 +0.0092  p=6.5e-07  cv=0.3852
+  subcellular_localization   burial and packing           +0.0072  p=0.0016  cv=0.2566
+  solubility                 global shape                 +0.0039  p=0.0053  cv=0.3656
+  solubility                 burial and packing           +0.0036  p=0.00033  cv=0.1976
+  go_mf                      global shape                 +0.0030  p=0.023  cv=0.3048
+  membrane_soluble           size                         +0.0023  p=0.021  cv=0.1084
+  fluorescence               contact order                -0.0009  p=0.027  cv=0.1775
+  stability                  contact order                -0.0393  p=0.0011  cv=0.4893
+  ppi_affinity               amino-acid composition       -0.0501  p=0.0069  cv=0.4735
+  ppi_affinity               global shape                 -0.0869  p=8.9e-08  cv=0.4050
+
+1 pairs pass the sign test but are on a property that barely varies on that task, and are not reported:
+  fluorescence               size                         +0.0119  p=5.6e-06  cv=0.0001
+
+=== does the ordering survive rank matching? ===
+
+matched rank 2, every property erased at the same rank:
+                               mean     std  size
+concept                                          
+burial and packing           0.0318  0.0464   327
+secondary structure content  0.0192  0.0325   329
+contact order                0.0169  0.0350   303
+amino-acid composition       0.0157  0.0275   316
+charge                       0.0115  0.0246   317
+hydrophobic fraction         0.0094  0.0513   317
+global shape                 0.0091  0.0255   325
+size                         0.0046  0.0256   306

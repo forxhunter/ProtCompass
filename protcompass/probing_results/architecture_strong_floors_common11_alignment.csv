@@ -1,0 +1,3 @@
+split,class_set,source,dim,readout,seed,accuracy,balanced_accuracy,n_test,with_hit,median_tm
+superfamily,common11,ref_align_1nn,0,1-nn,0,0.6550387596899225,0.5178500068767659,1548,1519,0.7428
+topology,common11,ref_align_1nn,0,1-nn,0,0.1721813725490196,0.215082710705453,1632,1610,0.6892

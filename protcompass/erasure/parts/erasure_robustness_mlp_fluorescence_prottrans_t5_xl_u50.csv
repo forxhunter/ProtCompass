@@ -1,0 +1,2 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+fluorescence,prottrans_t5_xl_u50,positive control,the task label itself,1,8,0.5298546349445019,0.018061043183864634,0.5303090410512208,0.5122479978673562

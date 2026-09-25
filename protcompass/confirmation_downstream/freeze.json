@@ -1,0 +1,166 @@
+{
+  "written_utc": "2026-09-22T21:52:47+00:00",
+  "purpose": "confirmation of the Section 4.3 demand results on downstream proteins never scored by this project",
+  "rule": "rows of the released manifest with stage1 != 1, preferring the source dataset's own test split",
+  "sampling": "seed 20260922, up to 2000 per task",
+  "panel": [
+    "esm2_650m",
+    "prottrans_t5_xl_u50",
+    "ankh_base",
+    "esm3",
+    "esm_if1",
+    "proteinmpnn"
+  ],
+  "cohorts": {
+    "membrane_soluble": {
+      "n": 1692,
+      "pool": 1692,
+      "origin": "unused rows of the source test split",
+      "manifest": "confirmation_downstream/cohort_membrane_soluble.csv",
+      "sha256": "d841dea246c3235fdb9149c0bd791e0a95aa726614c617d851d360073f25265f",
+      "n_scored_in_stage1": 10500,
+      "label_summary": {
+        "mean": 0.24231678486997635,
+        "sd": 0.42861163664786245
+      }
+    },
+    "subcellular_localization": {
+      "n": 2000,
+      "pool": 2703,
+      "origin": "unused rows of the source validation split",
+      "manifest": "confirmation_downstream/cohort_subcellular_localization.csv",
+      "sha256": "db99133b4d25a7e39da9bb2cd6c63a80e6729ac60f1829ba6bdc728c7554fe93",
+      "n_scored_in_stage1": 9973,
+      "label_summary": {
+        "0": 655,
+        "1": 440,
+        "2": 228,
+        "4": 188,
+        "3": 183,
+        "6": 121
+      }
+    },
+    "fluorescence": {
+      "n": 2000,
+      "pool": 24217,
+      "origin": "unused rows of the source test split",
+      "manifest": "confirmation_downstream/cohort_fluorescence.csv",
+      "sha256": "768699e49860ead9535a4ff2f2db956541b0b35673f71da5d2b86c462c348976",
+      "n_scored_in_stage1": 10500,
+      "label_summary": {
+        "mean": 2.101609847307205,
+        "sd": 0.9799255962265073
+      }
+    },
+    "stability": {
+      "n": 2000,
+      "pool": 9841,
+      "origin": "unused rows of the source test split",
+      "manifest": "confirmation_downstream/cohort_stability.csv",
+      "sha256": "e45674297e3e12746fb8c10ffdcccee6b732a7d47d15b3f7710059e6bdae04e5",
+      "n_scored_in_stage1": 10500,
+      "label_summary": {
+        "mean": 1.00246000149101,
+        "sd": 0.4139584896453218
+      }
+    },
+    "ec_classification": {
+      "n": 2000,
+      "pool": 2478,
+      "origin": "unused rows of the source test split",
+      "manifest": "confirmation_downstream/cohort_ec_classification.csv",
+      "sha256": "397c076d7e6499c215b6cb41bd224a53d9660a148a9e1d8f1c77657917b24100",
+      "n_scored_in_stage1": 10500,
+      "label_summary": {
+        "352": 65,
+        "147": 61,
+        "29": 50,
+        "208": 49,
+        "310": 47,
+        "55": 47
+      }
+    },
+    "go_mf": {
+      "n": 1033,
+      "pool": 1033,
+      "origin": "unused rows of the source validation split",
+      "manifest": "confirmation_downstream/cohort_go_mf.csv",
+      "sha256": "454187077ee0e3ee0555e146c38d24ee353f002bad74041567843a823ab01064",
+      "n_scored_in_stage1": 10404,
+      "label_summary": {
+        "[214, 397]": 35,
+        "[257]": 31,
+        "[214]": 19,
+        "[11, 214, 397, 463]": 17,
+        "[121, 130]": 17,
+        "[463]": 14
+      }
+    },
+    "go_bp": {
+      "n": 907,
+      "pool": 907,
+      "origin": "unused rows of the source validation split",
+      "manifest": "confirmation_downstream/cohort_go_bp.csv",
+      "sha256": "82bac4b016b17c9310ab3027cf29b10c7cb83318b911daee76992ea763a57d8e",
+      "n_scored_in_stage1": 10403,
+      "label_summary": {
+        "[363, 1095, 1110, 1326, 1596]": 55,
+        "[57]": 38,
+        "[47, 50, 108, 116, 193, 322, 346, 543, 546, 661, 767, 809, 817, 1208, 1244, 1367, 1442, 1485, 1516, 1713, 1775]": 23,
+        "[1514]": 23,
+        "[1250, 1731]": 15,
+        "[241, 345, 623, 956, 1118, 1297, 1872]": 9
+      }
+    },
+    "remote_homology": {
+      "n": 2000,
+      "pool": 2122,
+      "origin": "unused rows of any split",
+      "manifest": "confirmation_downstream/cohort_remote_homology.csv",
+      "sha256": "a458eb49a31b76deb2a68105c271d8c8bdc5b780ceb98ae16cdaf8dca3101553",
+      "n_scored_in_stage1": 6986,
+      "label_summary": {
+        "mean": 208.0685,
+        "sd": 259.3117083526974
+      }
+    }
+  },
+  "excluded": {
+    "solubility": "no unused rows; the whole manifest was scored",
+    "ppi_affinity": "no unused rows; the whole manifest was scored"
+  },
+  "not_claimed": "these proteins come from the same source datasets as the scored rows, so this establishes that no descriptor, threshold or naming rule was developed against them, and nothing about pretraining exposure, fold novelty or homology separation",
+  "protocol": {
+    "fit": "the released stage-1 training rows and their heads, unchanged",
+    "evaluate": "the cohorts above, used once",
+    "erasure": "LEACE on the conditional composition residual, the released construction",
+    "controls": "sham erasure of the permuted property; permuted and alternative descriptors for the add-back",
+    "no_refitting": "no threshold, property or rule may change after this file is written"
+  },
+  "hypotheses": [
+    {
+      "id": "D1",
+      "claim": "Erasing linear access to amino-acid composition costs the retrained head more than the sham erasure does, on membrane and soluble and on subcellular localisation.",
+      "released": "+0.051 and +0.035 over 33 encoders",
+      "decision": "confirmed on a task if the mean conditional effect is positive and the sign test over the panel is one-sided p < 0.05"
+    },
+    {
+      "id": "D2",
+      "claim": "The named descriptor repairs its own erasure more than it repairs the sham, and the permuted copy and the other structural blocks do not.",
+      "released": "R = +0.036, +0.015 for composition; within 0.003 of zero for both controls",
+      "decision": "confirmed on a task if mean R for composition is positive on every panel encoder and exceeds the mean R of both controls"
+    },
+    {
+      "id": "D3",
+      "claim": "Where the released run named nothing, nothing is named here either: GO-BP stays below the magnitude floor and stability does not hold in sign across the panel.",
+      "released": "GO-BP +0.014 below the floor of 0.02; stability +0.070 fails the sign test",
+      "decision": "confirmed if neither task passes the released naming rule on the held-out cohort"
+    },
+    {
+      "id": "D4",
+      "claim": "Remote homology remains a bound: no property reaches the magnitude floor.",
+      "released": "largest effect +0.005, every upper limit at or below +0.009",
+      "decision": "confirmed if every Holm-adjusted one-sided 95% upper limit stays below 0.02"
+    }
+  ]
+}

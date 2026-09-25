@@ -1,0 +1,39 @@
+{
+ "encoder": "cdconv",
+ "family": "registry",
+ "target": "cdconv",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "9203855665116c79",
+ "n_parameters": 619184,
+ "task": "go_bp",
+ "date": "2026-09-20 13:43",
+ "seconds": 82.9,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/go_bp.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2903,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10403,
+  "dim": 256,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10403,
+  "numerical_rank": 256,
+  "max_abs": 0.22707928717136383
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0015725427074357867,
+  "rel_change_coord_swap": 0.011715237982571125,
+  "rel_change_seq_shuffle": 0.004441945347934961,
+  "rel_change_rigid_motion": 7.49465343119482e-08,
+  "verdict": "pass"
+ }
+}

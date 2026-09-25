@@ -1,0 +1,41 @@
+{
+ "encoder": "gvp",
+ "family": "patched",
+ "target": "gvp_inproc",
+ "weights": "random",
+ "rule": "scalar channels + vector norms (invariant), masked mean",
+ "env": "base",
+ "weights_sha256": "4199962f00f771e2",
+ "seed": 20260919,
+ "n_parameters": 476935,
+ "inputs_passed": "backbone coordinates and residue identity",
+ "patch": "patched/gvp_inproc.py",
+ "task": "go_mf",
+ "date": "2026-09-20 12:49",
+ "seconds": 33.4,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/go_mf.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2904,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10404,
+  "dim": 116,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10404,
+  "numerical_rank": 115,
+  "max_abs": 2.875061511993408
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.031185459542244547,
+  "rel_change_coord_swap": 0.0063201345160243646,
+  "rel_change_seq_shuffle": 0.0027774681296060446,
+  "rel_change_rigid_motion": 8.399049766645085e-08,
+  "verdict": "pass"
+ }
+}

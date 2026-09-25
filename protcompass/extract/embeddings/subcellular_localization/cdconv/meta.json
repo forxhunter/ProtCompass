@@ -1,0 +1,39 @@
+{
+ "encoder": "cdconv",
+ "family": "registry",
+ "target": "cdconv",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "9203855665116c79",
+ "n_parameters": 619184,
+ "task": "subcellular_localization",
+ "date": "2026-09-20 05:05",
+ "seconds": 76.8,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/subcellular_localization.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2473,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 9973,
+  "dim": 256,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 9973,
+  "numerical_rank": 256,
+  "max_abs": 0.20996303856372833
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.001572546549141407,
+  "rel_change_coord_swap": 0.011715235188603401,
+  "rel_change_seq_shuffle": 0.004441949771717191,
+  "rel_change_rigid_motion": 7.226870835097543e-08,
+  "verdict": "pass"
+ }
+}

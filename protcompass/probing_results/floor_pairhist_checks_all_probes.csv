@@ -1,0 +1,37 @@
+probe,check,value,verdict
+all probes,label distance cutoffs equal to a histogram bin edge,0,"ok, none"
+all probes,label separation cutoffs equal to a separation bin edge,0,"ok, none"
+core_surface,label distance cutoffs equal to a spectral cutoff,"['CORE_RADIUS (core_surface)', 'distance_bins edge 10']","reported: 10.0 A is the core radius, so the exact CA neighbour count within 10 A is a feature; the label thresholds the CB count, measured below"
+distance_bins,label distance cutoffs equal to a spectral cutoff,"['CORE_RADIUS (core_surface)', 'distance_bins edge 10']",reported: 10.0 A is also the fourth of the 16 label bin edges; what that pins down is measured below
+phi_angle_bins,max eta squared of any one of the 335 features,0.1723,"ok, no feature is the label; phi is the dihedral of C(i-1), N, CA, C; the descriptor reads CA only"
+psi_angle_bins,max eta squared of any one of the 335 features,0.2595,"ok, no feature is the label; psi is the dihedral of N, CA, C, N(i+1); the descriptor reads CA only"
+phi_circular,max |pearson| of any one of the 335 features,0.3738,"ok, no feature is the label; same as phi_angle_bins"
+psi_circular,max |pearson| of any one of the 335 features,0.4625,"ok, no feature is the label; same as psi_angle_bins"
+local_curvature,max |pearson| of any one of the 335 features,0.4246,"ok, no feature is the label"
+dssp_3,max eta squared of any one of the 335 features,0.3175,"ok, no feature is the label; DSSP hydrogen-bond energies use N, CA, C, O; the descriptor reads CA only"
+dssp_8,max eta squared of any one of the 335 features,0.3415,"ok, no feature is the label; same as dssp_3"
+rsa,max |pearson| of any one of the 335 features,0.4334,"ok, no feature is the label; freesasa uses every side-chain atom; the descriptor reads CA only"
+rsa_bins,max eta squared of any one of the 335 features,0.1603,"ok, no feature is the label; same as rsa"
+bfactor,max |pearson| of any one of the 335 features,0.3635,"ok, no feature is the label; an experimental quantity, not a function of the coordinates at all"
+core_surface,max eta squared of any one of the 335 features,0.1656,"ok, no feature is the label; the CB neighbour count within 10 A; the descriptor reads CA only"
+contact_density,max eta squared of any one of the 335 features,0.2203,"ok, no feature is the label"
+sequence_recovery,max eta squared of any one of the 335 features,0.0416,"ok, no feature is the label; residue type is not a function of the CA positions"
+local_curvature,eta squared of curvature on the exact sep<3 histogram block,0.3477,"ok, not determined: 51 distinct blocks over 632731 residues, 0.6523 of the variance is inside a block"
+local_curvature,residual sd of curvature inside a block (radians),0.2398,against a total sd of 0.2969
+contact_density,residues whose 8 A CA count is not pinned by the 7 A and 10 A counts,0.9992,"ok, the label stays bracketed, not determined"
+contact_density,mean width of the CA contact-count bracket (neighbours),8.81,
+contact_density,residues whose density bin is not pinned by the bracket,0.9360,"ok, the 4-way label is not a function of the features"
+core_surface,best accuracy of a threshold on the exact 10 A CA count,0.8911,"ok, not the label: the CB count differs from the CA count on 0.8408 of residues, median |CB - CA| = 2.0"
+core_surface,pearson of the exact 10 A CA count with the CB count,0.9141,"reported: strongly related, not equal"
+distance_bins,"rank-8 reconstruction of the 7 A adjacency, accuracy on sampled pairs",0.9901,on 153600 pairs from 300 domains
+distance_bins,"rank-8 reconstruction of the 10 A adjacency, accuracy on sampled pairs",0.9776,
+distance_bins,"best accuracy from a perfect (<7, 7-10, >=10) bracket",0.1835,"ok, the 16-way label is not determined: the brackets hold [2, 2, 12] distinct bins"
+contact_order,max |pearson| of any one of the 174 features,0.6106,"ok, no feature is the label"
+contact_order_len_resid,max |pearson| of any one of the 174 features,0.5280,"ok, no feature is the label"
+radius_of_gyration,max |pearson| of any one of the 174 features,0.7073,"ok, no feature is the label"
+radius_of_gyration_len_resid,max |pearson| of any one of the 174 features,0.8399,"ok, no feature is the label"
+asphericity,max |pearson| of any one of the 174 features,0.7602,"ok, no feature is the label"
+asphericity_len_resid,max |pearson| of any one of the 174 features,0.7203,"ok, no feature is the label"
+architecture_label,max eta squared of any one of the 174 features,0.5912,"ok, no feature is the label; a CATH annotation, not a function of the coordinates"
+asphericity,"best closed form from the histogram moments, median relative error",0.2607,"ok, not closed form; the gyration eigenvalues are not a function of the pair-distance distribution"
+asphericity,"same, pearson r against the label",0.9194,"reported, an approximation is not an identity"

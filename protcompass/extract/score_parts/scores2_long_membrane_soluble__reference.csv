@@ -1,0 +1,7 @@
+task,encoder,probe,seed,metric,score,val_loss,n_train,n_test,dim,n_out
+membrane_soluble,ref_composition,linear,0,AUROC,0.7782752564249218,0.5196106433868408,6000,3000,23,2
+membrane_soluble,ref_composition,linear,1,AUROC,0.7769031686113018,0.5367575883865356,6000,3000,23,2
+membrane_soluble,ref_composition,linear,2,AUROC,0.7777557338137726,0.5135102868080139,6000,3000,23,2
+membrane_soluble,ref_composition,mlp2,0,AUROC,0.7783282810950964,0.4856965243816376,6000,3000,23,2
+membrane_soluble,ref_composition,mlp2,1,AUROC,0.7791182891024173,0.48481079936027527,6000,3000,23,2
+membrane_soluble,ref_composition,mlp2,2,AUROC,0.7790587108213223,0.4826522171497345,6000,3000,23,2

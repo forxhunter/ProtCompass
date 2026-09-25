@@ -1,0 +1,25 @@
+planted,concept,mean_effect,n,p_holm,named,erasure_gate
+amino-acid composition,amino-acid composition,0.6120474869558935,12,0.0380859375,True,True
+amino-acid composition,burial and packing,0.005208708591091124,12,1.0,False,True
+amino-acid composition,contact order,0.0033122140223447887,12,1.0,False,True
+amino-acid composition,global shape,0.0003717696894559065,8,0.3515625,False,True
+amino-acid composition,secondary structure content,-0.0024684167310586335,12,0.583984375,False,True
+amino-acid composition,size,-0.006582281842475772,4,1.0,False,True
+global shape,amino-acid composition,0.019976625503575676,12,1.0,False,True
+global shape,burial and packing,0.09295983481035203,12,0.0029296875,True,True
+global shape,contact order,-0.003042953498599777,12,1.0,False,True
+global shape,global shape,0.5579974574626805,8,0.0390625,True,True
+global shape,secondary structure content,-0.02485594619387053,12,0.583984375,False,True
+global shape,size,-0.05342853571428176,4,1.0,False,True
+none,amino-acid composition,-0.0023748524490576775,12,1.0,False,True
+none,burial and packing,0.001463094804541394,12,1.0,False,True
+none,contact order,0.000854621465328308,12,1.0,False,True
+none,global shape,0.000945854364354189,8,1.0,False,True
+none,secondary structure content,0.00138951880871197,12,1.0,False,True
+none,size,0.007320889924543328,4,0.75,False,True
+secondary structure content,amino-acid composition,-0.008344803556830031,12,1.0,False,True
+secondary structure content,burial and packing,0.0061083901108088005,12,1.0,False,True
+secondary structure content,contact order,-0.01341942365154091,12,1.0,False,True
+secondary structure content,global shape,0.0027061594858695786,8,1.0,False,True
+secondary structure content,secondary structure content,0.19989210309912253,12,0.0380859375,True,True
+secondary structure content,size,0.005748287786846815,4,1.0,False,True

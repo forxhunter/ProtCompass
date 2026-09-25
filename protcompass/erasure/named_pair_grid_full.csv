@@ -1,0 +1,61 @@
+task,concept
+ec_classification,amino-acid composition
+ec_classification,burial and packing
+ec_classification,contact order
+ec_classification,global shape
+ec_classification,secondary structure content
+ec_classification,size
+fluorescence,amino-acid composition
+fluorescence,burial and packing
+fluorescence,contact order
+fluorescence,global shape
+fluorescence,secondary structure content
+fluorescence,size
+go_bp,amino-acid composition
+go_bp,burial and packing
+go_bp,contact order
+go_bp,global shape
+go_bp,secondary structure content
+go_bp,size
+go_mf,amino-acid composition
+go_mf,burial and packing
+go_mf,contact order
+go_mf,global shape
+go_mf,secondary structure content
+go_mf,size
+membrane_soluble,amino-acid composition
+membrane_soluble,burial and packing
+membrane_soluble,contact order
+membrane_soluble,global shape
+membrane_soluble,secondary structure content
+membrane_soluble,size
+ppi_affinity,amino-acid composition
+ppi_affinity,burial and packing
+ppi_affinity,contact order
+ppi_affinity,global shape
+ppi_affinity,secondary structure content
+ppi_affinity,size
+remote_homology,amino-acid composition
+remote_homology,burial and packing
+remote_homology,contact order
+remote_homology,global shape
+remote_homology,secondary structure content
+remote_homology,size
+solubility,amino-acid composition
+solubility,burial and packing
+solubility,contact order
+solubility,global shape
+solubility,secondary structure content
+solubility,size
+stability,amino-acid composition
+stability,burial and packing
+stability,contact order
+stability,global shape
+stability,secondary structure content
+stability,size
+subcellular_localization,amino-acid composition
+subcellular_localization,burial and packing
+subcellular_localization,contact order
+subcellular_localization,global shape
+subcellular_localization,secondary structure content
+subcellular_localization,size

@@ -1,0 +1,52 @@
+\begingroup
+\fontsize{8}{9.6}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{P{3.0cm}P{2.35cm}P{2.15cm}P{5.2cm}}
+\caption{Every probe in the suite and its status. Fifteen enter the floor comparison; the other six are excluded
+for the stated reason, which does not depend on their result. \emph{Undetermined} means the label is not a function
+of the encoder's input, and \emph{not established} means we can neither exhibit such a function nor rule one out
+(Appendix~\ref{sec:appendix_determinacy}). \emph{Tautological} means the floor descriptor contains the label by
+construction, so no choice of features separates a representation from the descriptor there.}\label{tab:probe_inventory}\\
+\toprule
+\rowcolor{CompassLavender!32}
+probe & label status & in the comparison & note \\
+
+\midrule
+\endfirsthead
+\multicolumn{4}{l}{\small\textit{Table \thetable{} (continued)}}\\
+\toprule
+\rowcolor{CompassLavender!32}
+probe & label status & in the comparison & note \\
+
+\midrule
+\endhead
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+
+backbone $\phi$ & determined & yes & a closed-form function of the coordinates \\
+backbone $\psi$ & determined & yes & a closed-form function of the coordinates \\
+local curvature & determined & yes & a closed-form function of the coordinates \\
+DSSP-3 & determined & yes & a closed-form function of the coordinates \\
+DSSP-8 & determined & yes & a closed-form function of the coordinates \\
+RSA & undetermined & yes & not a function of the encoder's input \\
+RSA bins & undetermined & yes & not a function of the encoder's input \\
+B-factor & undetermined & yes & not a function of the encoder's input \\
+core/surface & determined & yes & a closed-form function of the coordinates \\
+contact density & tautological & yes & the floor contains the label by construction \\
+CA distance bins & determined & yes & a closed-form function of the coordinates \\
+contact order & tautological & yes & the floor contains the label by construction \\
+radius of gyration & determined & yes & a closed-form function of the coordinates \\
+asphericity & determined & yes & a closed-form function of the coordinates \\
+fold architecture & not established & yes & neither shown to be a function of the encoder's input nor shown not to be \\
+asphericity (raw) & --- & no & raw form; the length-residualised form is reported \\
+contact order (raw) & --- & no & raw form; the length-residualised form is reported \\
+$\phi$ bins & --- & no & binned twin of backbone $\phi$; the circular form is reported \\
+$\psi$ bins & --- & no & binned twin of backbone $\psi$; the circular form is reported \\
+radius of gyration (raw) & --- & no & raw form; the length-residualised form is reported, since length alone predicts it \\
+sequence recovery & --- & no & uninformative for any source given residue identity: 7 encoders and 2 floors score 1.000 \\
+
+\end{longtable}
+\endgroup

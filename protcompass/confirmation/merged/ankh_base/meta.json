@@ -1,0 +1,41 @@
+{
+ "encoder": "ankh_base",
+ "family": "hf_plm",
+ "target": "ElnaggarLab/ankh-base",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "ElnaggarLab/ankh-base",
+ "checkpoint_revision": "d99cb6b966530dfc2ae96bc69d9255c2a07308b0",
+ "dtype": "float32",
+ "hidden_size": 768,
+ "n_layers": 48,
+ "n_parameters": 453170688,
+ "inputs_passed": "amino-acid sequence only",
+ "dataset": "confirmation/merged/labels.h5",
+ "date": "2026-09-22 16:03",
+ "seconds": 20.3,
+ "n_domains": 5490,
+ "dim": 768,
+ "row_convention": "row r of residue_fp16.npy is row r of residue/* in the merged labels.h5",
+ "health": {
+  "n_rows": 1990,
+  "dim": 768,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 1990,
+  "numerical_rank": 768,
+  "max_abs": 0.8685762286186218
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 1.0315461286475334,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ },
+ "merged_from": [
+  "probing_embeddings/ankh_base",
+  "confirmation/embeddings/ankh_base"
+ ]
+}

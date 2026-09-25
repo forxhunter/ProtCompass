@@ -1,0 +1,25 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+subcellular_localization,esm2_650m,positive control,the task label itself,1,1,0.6926809543065103,0.6534573392640518,0.6940962393853619,0.040638900121310106
+subcellular_localization,esm2_650m,positive control,the task label itself,2,2,0.6926809543065103,0.5414476344520824,0.6894460169834209,0.14799838253133846
+subcellular_localization,esm2_650m,positive control,the task label itself,3,3,0.6926809543065103,0.473918317832592,0.6936918722199757,0.21977355438738377
+subcellular_localization,esm2_650m,positive control,the task label itself,5,5,0.6926809543065103,0.4067933683784877,0.6920744035584311,0.2852810351799434
+subcellular_localization,esm2_650m,positive control,the task label itself,8,8,0.6926809543065103,0.338859684593611,0.6906591184795794,0.3517994338859684
+subcellular_localization,esm2_650m,positive control,the task label itself,9,13,0.6926809543065103,0.3238980994743227,0.6926809543065103,0.36878285483218765
+subcellular_localization,prottrans_t5_xl_u50,positive control,the task label itself,1,1,0.6926809543065103,0.6465830974524869,0.701374848362313,0.05479175090982613
+subcellular_localization,prottrans_t5_xl_u50,positive control,the task label itself,2,2,0.6926809543065103,0.551961180752123,0.6995551961180753,0.1475940153659523
+subcellular_localization,prottrans_t5_xl_u50,positive control,the task label itself,3,3,0.6926809543065103,0.43792964011322283,0.6993530125353822,0.26142337242215935
+subcellular_localization,prottrans_t5_xl_u50,positive control,the task label itself,5,5,0.6926809543065103,0.36029114435907805,0.6979377274565306,0.33764658309745255
+subcellular_localization,prottrans_t5_xl_u50,positive control,the task label itself,8,8,0.6926809543065103,0.355438738374444,0.6973311767084512,0.34189243833400723
+subcellular_localization,prottrans_t5_xl_u50,positive control,the task label itself,9,13,0.6926809543065103,0.3631217145167812,0.6993530125353822,0.33623129801860097
+subcellular_localization,esm_if1,positive control,the task label itself,1,1,0.49413667610190054,0.45814799838253134,0.48968863728265266,0.03154063890012132
+subcellular_localization,esm_if1,positive control,the task label itself,2,2,0.49413667610190054,0.391023048928427,0.4902951880307319,0.09927213910230492
+subcellular_localization,esm_if1,positive control,the task label itself,3,3,0.49413667610190054,0.3534169025475131,0.4832187626364739,0.12980186008896077
+subcellular_localization,esm_if1,positive control,the task label itself,5,5,0.49413667610190054,0.35867367569753333,0.488071168621108,0.12939749292357466
+subcellular_localization,esm_if1,positive control,the task label itself,8,8,0.49413667610190054,0.3538212697128993,0.48887990295188033,0.13505863323898104
+subcellular_localization,esm_if1,positive control,the task label itself,9,13,0.49413667610190054,0.3538212697128993,0.4917104731095835,0.1378892033966842
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,1,1,0.3772745653052972,0.3631217145167812,0.37403962798220786,0.010917913465426643
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,2,2,0.3772745653052972,0.35301253538212696,0.3756570966437525,0.022644561261625562
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,3,3,0.3772745653052972,0.34209462191670037,0.3776789324706834,0.035584310553983034
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,5,5,0.3772745653052972,0.3546300040436717,0.3801051354630004,0.025475131419328723
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,8,8,0.3772745653052972,0.3534169025475131,0.3786898503841488,0.025272947836635695
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,9,13,0.3772745653052972,0.3526081682167408,0.3730287100687424,0.020420541852001595

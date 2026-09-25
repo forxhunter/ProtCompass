@@ -1,0 +1,13 @@
+encoder,reads_coordinates,pooled_mean_rank,contact_rank,interface_rank,contact_auprc,interface_auprc
+ProtT5-XL,no,4.3,7,4,0.367,0.491
+Ankh,no,4.5,8,7,0.367,0.432
+ESM2-3B,no,5.0,19,6,0.192,0.448
+ESM-1b,no,5.5,17,10,0.206,0.395
+ESM3,yes,6.5,5,1,0.419,0.702
+ProstT5,no,7.4,2,3,0.533,0.559
+ProtBert,no,9.9,28,16,0.136,0.353
+ESM2-8M,no,11.1,30,24,0.125,0.259
+ESM2-35M,no,11.2,26,20,0.151,0.315
+ESM-IF1,yes,14.2,1,2,0.541,0.573
+TFN-pre,yes,21.5,4,23,0.441,0.266
+TFN,yes,27.3,3,26,0.489,0.25

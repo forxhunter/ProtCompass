@@ -1,0 +1,342 @@
+{
+ "ec": {
+  "n_proteins": 2242,
+  "n_classes": 7,
+  "cka_mean": 0.2901907196969697,
+  "cka_min": 0.0245,
+  "cka_max": 0.9259,
+  "knn_overlap_mean": 0.19165833333333332,
+  "cka_within_class": 0.3356032258064516,
+  "cka_between_class": 0.2585041800643087,
+  "cka_rand_rand": 0.5348472222222221,
+  "cka_pre_pre": 0.28105111111111114,
+  "cka_rand_pre": 0.21405666666666667,
+  "purity_min": [
+   0.2893,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.8021,
+   "Ankh"
+  ],
+  "purity_median": 0.572,
+  "purity_chance": 0.2092,
+  "probe_min": [
+   0.3617,
+   "Foldseek"
+  ],
+  "probe_max": [
+   0.9367,
+   "ESM2-3B"
+  ],
+  "majority": 0.2979,
+  "distinct_rows_min": 2242,
+  "n_encoders": 33
+ },
+ "go_mf": {
+  "n_proteins": 2215,
+  "n_classes": 9,
+  "cka_mean": 0.28753844696969694,
+  "cka_min": 0.0276,
+  "cka_max": 0.946,
+  "knn_overlap_mean": 0.08455378787878787,
+  "cka_within_class": 0.3390004608294931,
+  "cka_between_class": 0.25163086816720254,
+  "cka_rand_rand": 0.533036111111111,
+  "cka_pre_pre": 0.31014888888888886,
+  "cka_rand_pre": 0.22708,
+  "purity_min": [
+   0.2587,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.5595,
+   "Ankh"
+  ],
+  "purity_median": 0.3822,
+  "purity_chance": 0.2364,
+  "probe_min": [
+   0.3327,
+   "GearNet-pre"
+  ],
+  "probe_max": [
+   0.7079,
+   "ESM2-3B"
+  ],
+  "majority": 0.4447,
+  "distinct_rows_min": 2215,
+  "n_encoders": 33
+ },
+ "go_bp": {
+  "n_proteins": 2087,
+  "n_classes": 9,
+  "cka_mean": 0.28662007575757575,
+  "cka_min": 0.0159,
+  "cka_max": 0.9441,
+  "knn_overlap_mean": 0.08429431818181819,
+  "cka_within_class": 0.3330032258064516,
+  "cka_between_class": 0.254256270096463,
+  "cka_rand_rand": 0.5266194444444445,
+  "cka_pre_pre": 0.30315333333333333,
+  "cka_rand_pre": 0.21929666666666667,
+  "purity_min": [
+   0.1677,
+   "GearNet-pre"
+  ],
+  "purity_max": [
+   0.3666,
+   "Ankh"
+  ],
+  "purity_median": 0.247,
+  "purity_chance": 0.1514,
+  "probe_min": [
+   0.1936,
+   "GearNet-pre"
+  ],
+  "probe_max": [
+   0.4859,
+   "ESM2-3B"
+  ],
+  "majority": 0.2918,
+  "distinct_rows_min": 2086,
+  "n_encoders": 33
+ },
+ "localisation": {
+  "n_proteins": 2362,
+  "n_classes": 10,
+  "cka_mean": 0.39699090909090906,
+  "cka_min": 0.032,
+  "cka_max": 0.9427,
+  "knn_overlap_mean": 0.0874378787878788,
+  "cka_within_class": 0.44248294930875576,
+  "cka_between_class": 0.3652488745980707,
+  "cka_rand_rand": 0.5738222222222221,
+  "cka_pre_pre": 0.4673933333333334,
+  "cka_rand_pre": 0.3231555555555556,
+  "purity_min": [
+   0.1789,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.4673,
+   "ProtT5-XL"
+  ],
+  "purity_median": 0.2877,
+  "purity_chance": 0.1531,
+  "probe_min": [
+   0.2748,
+   "GearNet-pre"
+  ],
+  "probe_max": [
+   0.624,
+   "ESM2-3B"
+  ],
+  "majority": 0.2917,
+  "distinct_rows_min": 2362,
+  "n_encoders": 33
+ },
+ "homology": {
+  "n_proteins": 2129,
+  "n_classes": 7,
+  "cka_mean": 0.32114697580645163,
+  "cka_min": 0.0226,
+  "cka_max": 0.9257,
+  "knn_overlap_mean": 0.08568306451612903,
+  "cka_within_class": 0.35315070422535216,
+  "cka_between_class": 0.2970593639575972,
+  "cka_rand_rand": 0.5527861111111112,
+  "cka_pre_pre": 0.2702822222222222,
+  "cka_rand_pre": 0.2189444444444445,
+  "purity_min": [
+   0.2821,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.7477,
+   "Ankh"
+  ],
+  "purity_median": 0.5939,
+  "purity_chance": 0.1868,
+  "probe_min": [
+   0.4016,
+   "GearNet-pre"
+  ],
+  "probe_max": [
+   0.9248,
+   "ESM3"
+  ],
+  "majority": 0.2287,
+  "distinct_rows_min": 2129,
+  "n_encoders": 32
+ },
+ "solubility": {
+  "n_proteins": 1999,
+  "n_classes": 2,
+  "cka_mean": 0.35969337121212125,
+  "cka_min": 0.0289,
+  "cka_max": 0.9403,
+  "knn_overlap_mean": 0.06585965909090909,
+  "cka_within_class": 0.39334654377880185,
+  "cka_between_class": 0.3362118971061093,
+  "cka_rand_rand": 0.5395166666666666,
+  "cka_pre_pre": 0.3990777777777777,
+  "cka_rand_pre": 0.25364444444444445,
+  "purity_min": [
+   0.571,
+   "Foldseek"
+  ],
+  "purity_max": [
+   0.6283,
+   "ProtT5-XL"
+  ],
+  "purity_median": 0.5916,
+  "purity_chance": 0.5759,
+  "probe_min": [
+   0.5983,
+   "FoldVision"
+  ],
+  "probe_max": [
+   0.6963,
+   "GCPNet-pre"
+  ],
+  "majority": 0.6948,
+  "distinct_rows_min": 1999,
+  "n_encoders": 33
+ },
+ "membrane": {
+  "n_proteins": 1999,
+  "n_classes": 2,
+  "cka_mean": 0.3964537878787879,
+  "cka_min": 0.0349,
+  "cka_max": 0.9442,
+  "knn_overlap_mean": 0.09699829545454546,
+  "cka_within_class": 0.4405170506912442,
+  "cka_between_class": 0.3657086816720257,
+  "cka_rand_rand": 0.5688805555555555,
+  "cka_pre_pre": 0.46565111111111096,
+  "cka_rand_pre": 0.32195000000000007,
+  "purity_min": [
+   0.6352,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.7621,
+   "Ankh"
+  ],
+  "purity_median": 0.715,
+  "purity_chance": 0.6025,
+  "probe_min": [
+   0.6818,
+   "GearNet-pre"
+  ],
+  "probe_max": [
+   0.8254,
+   "ESM2-3B"
+  ],
+  "majority": 0.7264,
+  "distinct_rows_min": 1999,
+  "n_encoders": 33
+ },
+ "stability": {
+  "n_proteins": 1998,
+  "n_classes": 4,
+  "cka_mean": 0.48426231060606056,
+  "cka_min": 0.0603,
+  "cka_max": 0.9501,
+  "knn_overlap_mean": 0.1438816287878788,
+  "cka_within_class": 0.473536866359447,
+  "cka_between_class": 0.4917459807073955,
+  "cka_rand_rand": 0.6092388888888888,
+  "cka_pre_pre": 0.4039977777777778,
+  "cka_rand_pre": 0.29677333333333333,
+  "purity_min": [
+   0.3938,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.485,
+   "ESM2-150M"
+  ],
+  "purity_median": 0.4544,
+  "purity_chance": 0.25,
+  "probe_min": [
+   0.4494,
+   "GearNet-pre"
+  ],
+  "probe_max": [
+   0.5375,
+   "Ankh"
+  ],
+  "majority": 0.2538,
+  "distinct_rows_min": 1661,
+  "n_encoders": 33
+ },
+ "fluorescence": {
+  "n_proteins": 2000,
+  "n_classes": 4,
+  "cka_mean": 0.2074621212121212,
+  "cka_min": 0.0025,
+  "cka_max": 0.913,
+  "knn_overlap_mean": 0.03474242424242424,
+  "cka_within_class": 0.2824175115207373,
+  "cka_between_class": 0.15516205787781348,
+  "cka_rand_rand": 0.3454083333333333,
+  "cka_pre_pre": 0.3517044444444445,
+  "cka_rand_pre": 0.24285888888888887,
+  "purity_min": [
+   0.2757,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.3459,
+   "ProstT5"
+  ],
+  "purity_median": 0.3059,
+  "purity_chance": 0.25,
+  "probe_min": [
+   0.3155,
+   "FoldVision"
+  ],
+  "probe_max": [
+   0.46,
+   "Ankh"
+  ],
+  "majority": 0.25,
+  "distinct_rows_min": 2000,
+  "n_encoders": 33
+ },
+ "affinity": {
+  "n_proteins": 1998,
+  "n_classes": 4,
+  "cka_mean": 0.6178223484848484,
+  "cka_min": 0.1594,
+  "cka_max": 0.9446,
+  "knn_overlap_mean": 0.33502765151515157,
+  "cka_within_class": 0.5919341013824885,
+  "cka_between_class": 0.6358858520900322,
+  "cka_rand_rand": 0.752163888888889,
+  "cka_pre_pre": 0.43216222222222217,
+  "cka_rand_pre": 0.4834655555555556,
+  "purity_min": [
+   0.4818,
+   "IPA-pre"
+  ],
+  "purity_max": [
+   0.5956,
+   "ESM2-650M"
+  ],
+  "purity_median": 0.551,
+  "purity_chance": 0.25,
+  "probe_min": [
+   0.513,
+   "Foldseek"
+  ],
+  "probe_max": [
+   0.6722,
+   "ProstT5"
+  ],
+  "majority": 0.2503,
+  "distinct_rows_min": 1090,
+  "n_encoders": 33
+ }
+}

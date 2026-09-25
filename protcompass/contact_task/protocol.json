@@ -1,0 +1,13 @@
+{
+  "base_rate": 0.02826249971985817,
+  "sep_only": 0.02074505273491246,
+  "contact_angstrom": 8.0,
+  "min_separation": 6,
+  "split": "superfamily",
+  "n_proteins": {
+    "train": 3000,
+    "val": 500,
+    "test": 1000
+  },
+  "max_pairs": 400000
+}

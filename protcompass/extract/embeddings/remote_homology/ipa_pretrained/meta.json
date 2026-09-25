@@ -1,0 +1,41 @@
+{
+ "encoder": "ipa_pretrained",
+ "family": "registry",
+ "target": "ipa_pretrained",
+ "weights": "pretrained",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues; input in canonical pose",
+ "env": "base",
+ "checkpoint": "protcompass/checkpoints/ipa_pretrained/best.pt",
+ "checkpoint_sha256": "cd4ca8e7f61daba2",
+ "checkpoint_loaded_by": "strict load of 'encoder_state': 95 of 95 tensors",
+ "weights_sha256": "d858a2f47e2041f3",
+ "n_parameters": 648016,
+ "task": "remote_homology",
+ "date": "2026-09-20 11:20",
+ "seconds": 22.1,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/remote_homology.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 480,
+  "train": 6000,
+  "valid": 506
+ },
+ "health": {
+  "n_rows": 6986,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 6986,
+  "numerical_rank": 128,
+  "max_abs": 1.084496021270752
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.35788750826111515,
+  "rel_change_coord_swap": 0.3508906508841694,
+  "rel_change_seq_shuffle": 0.22938671359061477,
+  "rel_change_rigid_motion": 4.247136406923421e-06,
+  "verdict": "pass"
+ }
+}

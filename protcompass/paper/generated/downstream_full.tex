@@ -1,0 +1,74 @@
+\begingroup
+\fontsize{7}{8.6}\selectfont
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{lrrrrrrrrrrr}
+\caption{Downstream task scores on all ten scored tasks. Each cell is the mean over three seeds of the head (linear
+or MLP-2) selected on validation loss; the metric is named in the column header.
+Encoders are grouped by the \emph{measured} input audit and sorted within a group by
+mean rank over the tasks they have a score for (column MR, rank 1 best). The best score in each column is bold. The
+one empty cell is FoldVision on remote homology, for which no extraction exists. The last row is the non-learned
+composition reference of Appendix~\ref{sec:appendix_downstream_reference}, scored through the identical protocol.
+Seed standard deviations are in Table~\ref{tab:downstream_full_sd}.}\label{tab:downstream_full}\\
+\toprule
+\rowcolor{CompassLavender!32}
+\textbf{Encoder} & \textbf{EC} & \textbf{R.Hom.} & \textbf{Subcell.} & \textbf{GO-MF} & \textbf{GO-BP} & \textbf{Solub.} & \textbf{Memb.} & \textbf{Fluor.} & \textbf{Stab.} & \textbf{PPI Aff.} & \textbf{MR} \\
+ & \textit{Acc.} & \textit{Acc.} & \textit{Acc.} & \textit{F-max} & \textit{F-max} & \textit{AUROC} & \textit{AUROC} & \textit{Sp.} & \textit{Sp.} & \textit{Sp.} & \\
+
+\midrule
+\endfirsthead
+\multicolumn{12}{l}{\small\textit{Table \thetable{} (continued)}}\\
+\toprule
+\rowcolor{CompassLavender!32}
+\textbf{Encoder} & \textbf{EC} & \textbf{R.Hom.} & \textbf{Subcell.} & \textbf{GO-MF} & \textbf{GO-BP} & \textbf{Solub.} & \textbf{Memb.} & \textbf{Fluor.} & \textbf{Stab.} & \textbf{PPI Aff.} & \textbf{MR} \\
+ & \textit{Acc.} & \textit{Acc.} & \textit{Acc.} & \textit{F-max} & \textit{F-max} & \textit{AUROC} & \textit{AUROC} & \textit{Sp.} & \textit{Sp.} & \textit{Sp.} & \\
+
+\midrule
+\endhead
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+
+\rowcolor{CompassApricot!35}
+\multicolumn{12}{l}{\textit{Measured to read sequence only (10 encoders)}} \\*
+ProtT5-XL & 0.803 & 0.238 & \textbf{0.705} & 0.540 & 0.388 & \textbf{0.707} & 0.913 & 0.544 & 0.697 & 0.345 & 4.3 \\
+Ankh & 0.818 & 0.294 & 0.662 & \textbf{0.565} & \textbf{0.405} & 0.690 & 0.907 & \textbf{0.587} & 0.752 & 0.254 & 4.5 \\
+ESM2-3B & \textbf{0.819} & 0.284 & 0.701 & 0.549 & 0.385 & 0.688 & \textbf{0.913} & 0.500 & 0.535 & 0.425 & 5.0 \\
+ESM-1b & 0.811 & 0.274 & 0.682 & 0.534 & 0.390 & 0.690 & 0.913 & 0.534 & 0.690 & 0.303 & 5.5 \\
+ProstT5 & 0.807 & 0.365 & 0.628 & 0.544 & 0.392 & 0.669 & 0.902 & 0.579 & 0.373 & 0.199 & 7.4 \\
+ESM2-650M & 0.791 & 0.246 & 0.690 & 0.530 & 0.385 & 0.706 & 0.904 & 0.518 & 0.578 & 0.161 & 7.8 \\
+ESM2-150M & 0.757 & 0.251 & 0.668 & 0.485 & 0.366 & 0.691 & 0.900 & 0.508 & 0.654 & 0.196 & 8.7 \\
+ProtBert & 0.590 & 0.148 & 0.650 & 0.426 & 0.347 & 0.705 & 0.899 & 0.518 & 0.595 & 0.331 & 9.9 \\
+ESM2-8M & 0.546 & 0.198 & 0.611 & 0.428 & 0.339 & 0.657 & 0.885 & 0.570 & 0.640 & 0.249 & 11.1 \\
+ESM2-35M & 0.709 & 0.239 & 0.644 & 0.476 & 0.363 & 0.687 & 0.895 & 0.553 & 0.627 & 0.042 & 11.2 \\
+\rowcolor{CompassApricot!35}
+\multicolumn{12}{l}{\textit{Measured to read coordinates (23 encoders)}} \\*
+ESM3 & 0.802 & \textbf{0.403} & 0.616 & 0.533 & 0.381 & 0.705 & 0.889 & 0.459 & \textbf{0.777} & 0.338 & 6.5 \\
+SaProt & 0.687 & 0.298 & 0.659 & 0.486 & 0.369 & 0.680 & 0.902 & 0.427 & 0.715 & 0.439 & 7.3 \\
+ESM-IF1 & 0.714 & 0.358 & 0.505 & 0.419 & 0.329 & 0.642 & 0.831 & 0.408 & 0.235 & 0.144 & 14.2 \\
+FoldVision & 0.471 & -- & 0.529 & 0.317 & 0.296 & 0.639 & 0.865 & 0.295 & 0.466 & 0.265 & 15.6 \\
+PottsMPNN-pre & 0.401 & 0.172 & 0.455 & 0.295 & 0.285 & 0.605 & 0.808 & 0.363 & 0.220 & 0.304 & 17.7 \\
+PottsMPNN-sol & 0.385 & 0.190 & 0.472 & 0.290 & 0.285 & 0.569 & 0.792 & 0.363 & 0.276 & 0.331 & 18.2 \\
+GVP & 0.190 & 0.105 & 0.475 & 0.251 & 0.285 & 0.598 & 0.804 & 0.392 & 0.212 & 0.357 & 18.3 \\
+PottsMPNN-ft & 0.416 & 0.171 & 0.466 & 0.293 & 0.287 & 0.578 & 0.817 & 0.363 & 0.264 & 0.160 & 18.9 \\
+SchNet & 0.148 & 0.054 & 0.483 & 0.238 & 0.279 & 0.595 & 0.795 & 0.378 & 0.284 & 0.140 & 21.4 \\
+GCPNet-pre & 0.147 & 0.135 & 0.458 & 0.235 & 0.268 & 0.585 & 0.828 & 0.346 & 0.482 & 0.264 & 21.4 \\
+TFN-pre & 0.155 & 0.050 & 0.497 & 0.242 & 0.277 & 0.548 & 0.826 & 0.356 & 0.323 & 0.190 & 21.5 \\
+CDConv & 0.127 & 0.062 & 0.464 & 0.237 & 0.279 & 0.588 & 0.792 & 0.353 & 0.159 & 0.442 & 21.9 \\
+GearNet & 0.198 & 0.047 & 0.488 & 0.236 & 0.274 & 0.613 & 0.788 & 0.446 & 0.232 & 0.150 & 21.9 \\
+MACE & 0.145 & 0.076 & 0.481 & 0.241 & 0.281 & 0.580 & 0.778 & 0.392 & 0.261 & 0.071 & 22.6 \\
+GCPNet & 0.103 & 0.107 & 0.485 & 0.230 & 0.274 & 0.582 & 0.832 & 0.343 & -0.068 & 0.228 & 23.4 \\
+IPA & 0.199 & 0.068 & 0.451 & 0.226 & 0.275 & 0.539 & 0.785 & 0.353 & 0.177 & \textbf{0.499} & 23.6 \\
+DimeNet & 0.133 & 0.057 & 0.466 & 0.227 & 0.275 & 0.558 & 0.778 & 0.364 & 0.037 & 0.329 & 24.2 \\
+PottsMPNN & 0.199 & 0.129 & 0.439 & 0.239 & 0.267 & 0.546 & 0.778 & 0.337 & 0.089 & 0.338 & 24.4 \\
+ProteinMPNN & 0.204 & 0.149 & 0.420 & 0.236 & 0.268 & 0.544 & 0.775 & 0.328 & 0.110 & 0.121 & 26.7 \\
+Foldseek & 0.240 & 0.153 & 0.392 & 0.229 & 0.259 & 0.537 & 0.710 & 0.270 & 0.280 & 0.124 & 26.9 \\
+TFN & 0.110 & 0.048 & 0.455 & 0.233 & 0.273 & 0.555 & 0.780 & 0.321 & 0.348 & -0.004 & 27.3 \\
+GearNet-pre & 0.036 & 0.052 & 0.403 & 0.174 & 0.254 & 0.556 & 0.700 & 0.363 & 0.182 & 0.130 & 29.1 \\
+IPA-pre & 0.057 & 0.066 & 0.380 & 0.179 & 0.253 & 0.496 & 0.741 & 0.210 & -0.088 & 0.156 & 30.9 \\
+\midrule
+\textit{composition reference} & 0.086 & 0.071 & 0.470 & 0.227 & 0.274 & 0.588 & 0.779 & 0.362 & 0.090 & 0.091 & -- \\
+
+\end{longtable}
+\endgroup

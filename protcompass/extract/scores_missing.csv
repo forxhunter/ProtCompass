@@ -1,0 +1,7 @@
+encoder,task,reason
+egnn,stability,no embeddings (not extracted or refused by the harness)
+egnn,fluorescence,no embeddings (not extracted or refused by the harness)
+egnn,ppi_affinity,no embeddings (not extracted or refused by the harness)
+geobpe,stability,no embeddings (not extracted or refused by the harness)
+geobpe,fluorescence,no embeddings (not extracted or refused by the harness)
+geobpe,ppi_affinity,no embeddings (not extracted or refused by the harness)

@@ -1,0 +1,1034 @@
+id,split,label,length,structure_path
+5mhf_A,valid,"[121, 130, 167]",736,protcompass/structures/go/pdb/5mhf_A.pdb
+3s47_A,valid,[399],386,protcompass/structures/go/pdb/3s47_A.pdb
+5lda_A,valid,"[35, 192, 350, 475]",126,protcompass/structures/go/pdb/5lda_A.pdb
+5mgz_A,valid,"[160, 276]",230,protcompass/structures/go/pdb/5mgz_A.pdb
+4cud_A,valid,[135],122,protcompass/structures/go/pdb/4cud_A.pdb
+5lwg_B,valid,[214],247,protcompass/structures/go/pdb/5lwg_B.pdb
+5l7n_A,valid,"[122, 172, 197]",344,protcompass/structures/go/pdb/5l7n_A.pdb
+5l8s_A,valid,"[35, 36, 47, 81, 192, 475]",604,protcompass/structures/go/pdb/5l8s_A.pdb
+2cfc_A,valid,"[30, 483]",250,protcompass/structures/go/pdb/2cfc_A.pdb
+4ch7_A,valid,"[38, 185, 257, 300]",304,protcompass/structures/go/pdb/4ch7_A.pdb
+5lcx_A,valid,"[392, 415, 462]",310,protcompass/structures/go/pdb/5lcx_A.pdb
+3rd8_A,valid,"[57, 287, 355]",457,protcompass/structures/go/pdb/3rd8_A.pdb
+3rrm_C,valid,"[214, 408]",370,protcompass/structures/go/pdb/3rrm_C.pdb
+3rde_A,valid,"[143, 199, 266, 310, 312]",552,protcompass/structures/go/pdb/3rde_A.pdb
+2cj1_A,valid,"[230, 238, 357]",298,protcompass/structures/go/pdb/2cj1_A.pdb
+2cw3_A,valid,"[113, 126, 230]",200,protcompass/structures/go/pdb/2cw3_A.pdb
+5lc5_E,valid,"[28, 39, 261, 293, 297, 349, 370, 470]",186,protcompass/structures/go/pdb/5lc5_E.pdb
+3ch8_A,valid,[407],190,protcompass/structures/go/pdb/3ch8_A.pdb
+4d0l_A,valid,"[42, 294]",470,protcompass/structures/go/pdb/4d0l_A.pdb
+4cq1_A,valid,[463],191,protcompass/structures/go/pdb/4cq1_A.pdb
+2d4e_A,valid,"[178, 486]",513,protcompass/structures/go/pdb/2d4e_A.pdb
+3gee_A,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 377, 437, 440, 488]",427,protcompass/structures/go/pdb/3gee_A.pdb
+2d5v_A,valid,[257],135,protcompass/structures/go/pdb/2d5v_A.pdb
+2cs2_A,valid,"[199, 257, 384]",134,protcompass/structures/go/pdb/2cs2_A.pdb
+5lqd_A,valid,"[296, 342, 391, 457]",446,protcompass/structures/go/pdb/5lqd_A.pdb
+5lsq_A,valid,"[310, 312, 341]",342,protcompass/structures/go/pdb/5lsq_A.pdb
+2d4v_A,valid,"[30, 385, 399, 483]",427,protcompass/structures/go/pdb/2d4v_A.pdb
+3rue_A,valid,"[75, 250, 420]",336,protcompass/structures/go/pdb/3rue_A.pdb
+2cq9_A,valid,"[107, 188, 315, 474]",130,protcompass/structures/go/pdb/2cq9_A.pdb
+3ru8_X,valid,"[121, 130]",277,protcompass/structures/go/pdb/3ru8_X.pdb
+3gbe_A,valid,"[250, 432]",558,protcompass/structures/go/pdb/3gbe_A.pdb
+5m99_B,valid,"[121, 130]",505,protcompass/structures/go/pdb/5m99_B.pdb
+5lyw_A,valid,"[35, 79, 83, 117, 192, 350, 475]",359,protcompass/structures/go/pdb/5lyw_A.pdb
+5me6_A,valid,"[4, 76, 108, 364, 463]",175,protcompass/structures/go/pdb/5me6_A.pdb
+3s2f_A,valid,"[199, 384]",340,protcompass/structures/go/pdb/3s2f_A.pdb
+2cvk_A,valid,"[188, 315, 474]",102,protcompass/structures/go/pdb/2cvk_A.pdb
+2dga_A,valid,"[20, 121, 130, 167]",491,protcompass/structures/go/pdb/2dga_A.pdb
+3gju_A,valid,"[46, 51, 90, 318, 455]",446,protcompass/structures/go/pdb/3gju_A.pdb
+3gh6_A,valid,"[17, 115]",209,protcompass/structures/go/pdb/3gh6_A.pdb
+4cxu_A,valid,"[101, 247, 353]",516,protcompass/structures/go/pdb/4cxu_A.pdb
+3ccm_W,valid,"[11, 214, 397, 463]",154,protcompass/structures/go/pdb/3ccm_W.pdb
+5m3k_C,valid,"[74, 205]",395,protcompass/structures/go/pdb/5m3k_C.pdb
+5ly3_A,valid,"[9, 88, 98, 114, 253, 337, 339, 488]",427,protcompass/structures/go/pdb/5ly3_A.pdb
+5jph_A,valid,"[68, 74, 183, 205, 482]",133,protcompass/structures/go/pdb/5jph_A.pdb
+3gxk_A,valid,"[121, 130, 201, 469]",185,protcompass/structures/go/pdb/3gxk_A.pdb
+5jnu_A,valid,"[247, 285, 353, 425, 473, 475]",153,protcompass/structures/go/pdb/5jnu_A.pdb
+4nq1_A,valid,"[57, 287, 355]",289,protcompass/structures/go/pdb/4nq1_A.pdb
+2ffh_A,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 463, 488]",407,protcompass/structures/go/pdb/2ffh_A.pdb
+3gyx_B,valid,"[95, 293, 370, 382, 383]",166,protcompass/structures/go/pdb/3gyx_B.pdb
+4nov_A,valid,"[121, 130, 165]",298,protcompass/structures/go/pdb/4nov_A.pdb
+4e44_A,valid,"[382, 383]",104,protcompass/structures/go/pdb/4e44_A.pdb
+5jx1_A,valid,"[73, 171, 249]",64,protcompass/structures/go/pdb/5jx1_A.pdb
+3qhq_A,valid,[257],222,protcompass/structures/go/pdb/3qhq_A.pdb
+2f1z_A,valid,"[35, 71, 80, 127, 192, 245, 280, 475]",470,protcompass/structures/go/pdb/2f1z_A.pdb
+3qgy_A,valid,"[9, 42, 45, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",246,protcompass/structures/go/pdb/3qgy_A.pdb
+4udf_1B,valid,[214],229,protcompass/structures/go/pdb/4udf_1B.pdb
+3qde_A,valid,"[191, 342, 457]",811,protcompass/structures/go/pdb/3qde_A.pdb
+3gw2_A,valid,"[38, 185]",92,protcompass/structures/go/pdb/3gw2_A.pdb
+2f9h_A,valid,"[22, 43, 217, 262, 294, 428]",119,protcompass/structures/go/pdb/2f9h_A.pdb
+3qau_A,valid,"[30, 483]",421,protcompass/structures/go/pdb/3qau_A.pdb
+2g9w_A,valid,[257],116,protcompass/structures/go/pdb/2g9w_A.pdb
+3h33_A,valid,"[107, 264, 445]",72,protcompass/structures/go/pdb/3h33_A.pdb
+3ppi_A,valid,"[30, 483]",258,protcompass/structures/go/pdb/3ppi_A.pdb
+3ppb_A,valid,[257],183,protcompass/structures/go/pdb/3ppb_A.pdb
+3ba1_A,valid,"[30, 385, 483]",312,protcompass/structures/go/pdb/3ba1_A.pdb
+4eml_A,valid,"[57, 225, 252]",261,protcompass/structures/go/pdb/4eml_A.pdb
+3pmi_A,valid,"[319, 452]",119,protcompass/structures/go/pdb/3pmi_A.pdb
+3h49_A,valid,"[42, 262, 294]",301,protcompass/structures/go/pdb/3h49_A.pdb
+5it7_XX,valid,"[214, 397]",121,protcompass/structures/go/pdb/5it7_XX.pdb
+4en2_B,valid,"[53, 88, 114, 142, 148, 155, 176, 216, 222, 242, 253, 314, 337, 359, 407, 437, 488]",149,protcompass/structures/go/pdb/4en2_B.pdb
+2ghb_A,valid,"[22, 35, 43, 192, 386, 428, 475]",373,protcompass/structures/go/pdb/2ghb_A.pdb
+2gje_A,valid,[257],142,protcompass/structures/go/pdb/2gje_A.pdb
+5it7_JJ,valid,"[11, 214, 397, 463]",168,protcompass/structures/go/pdb/5it7_JJ.pdb
+5it7_jj,valid,"[11, 214, 397, 463]",85,protcompass/structures/go/pdb/5it7_jj.pdb
+4ei8_A,valid,"[137, 156, 234, 244, 440]",356,protcompass/structures/go/pdb/4ei8_A.pdb
+5iz3_A,valid,"[247, 353, 425]",316,protcompass/structures/go/pdb/5iz3_A.pdb
+3q10_A,valid,"[9, 88, 98, 114, 195, 212, 253, 337, 339, 378, 488]",285,protcompass/structures/go/pdb/3q10_A.pdb
+3h08_A,valid,"[8, 14, 159, 207, 210, 353, 399, 401, 423]",139,protcompass/structures/go/pdb/3h08_A.pdb
+2g3m_A,valid,"[121, 130, 167, 191]",691,protcompass/structures/go/pdb/2g3m_A.pdb
+4unz_A,valid,"[69, 177]",317,protcompass/structures/go/pdb/4unz_A.pdb
+3bbu_A,valid,[463],104,protcompass/structures/go/pdb/3bbu_A.pdb
+4uop_A,valid,[353],408,protcompass/structures/go/pdb/4uop_A.pdb
+2g77_B,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 488]",169,protcompass/structures/go/pdb/2g77_B.pdb
+3bx3_A,valid,[463],325,protcompass/structures/go/pdb/3bx3_A.pdb
+5kvu_A,valid,"[30, 170, 377, 382, 399, 483]",738,protcompass/structures/go/pdb/5kvu_A.pdb
+2e2w_A,valid,"[9, 88, 98, 114, 124, 253, 257, 337, 339, 378, 488]",113,protcompass/structures/go/pdb/2e2w_A.pdb
+4u1e_I,valid,"[4, 76, 108, 364, 463]",330,protcompass/structures/go/pdb/4u1e_I.pdb
+3r2n_A,valid,"[59, 199, 308, 345, 384]",119,protcompass/structures/go/pdb/3r2n_A.pdb
+4dja_A,valid,"[57, 95, 124, 136, 252, 257, 283, 293, 370]",509,protcompass/structures/go/pdb/4dja_A.pdb
+5ksh_A,valid,"[10, 18, 27, 35, 36, 47, 61, 77, 81, 85, 117, 128, 192, 340, 342, 398, 448, 457, 475]",449,protcompass/structures/go/pdb/5ksh_A.pdb
+5krv_A,valid,"[30, 415, 483]",394,protcompass/structures/go/pdb/5krv_A.pdb
+3bwn_A,valid,"[46, 51, 57, 90, 220, 318, 455]",362,protcompass/structures/go/pdb/3bwn_A.pdb
+4dk1_A,valid,[428],274,protcompass/structures/go/pdb/4dk1_A.pdb
+2e8b_A,valid,"[88, 114, 142, 148, 176, 222, 253, 294, 314, 337, 359, 404, 437, 488]",185,protcompass/structures/go/pdb/2e8b_A.pdb
+3r1j_A,valid,"[228, 310]",246,protcompass/structures/go/pdb/3r1j_A.pdb
+2ea3_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",183,protcompass/structures/go/pdb/2ea3_A.pdb
+4tx4_B,valid,"[24, 62, 119, 163, 290, 346, 426, 443]",79,protcompass/structures/go/pdb/4tx4_B.pdb
+4tx8_A,valid,"[121, 130, 190, 191, 253]",374,protcompass/structures/go/pdb/4tx8_A.pdb
+4dcb_A,valid,"[35, 192, 369, 386, 475, 481]",277,protcompass/structures/go/pdb/4dcb_A.pdb
+4txk_A,valid,"[49, 136, 228, 249, 267, 283, 341]",581,protcompass/structures/go/pdb/4txk_A.pdb
+5l18_A,valid,"[121, 130, 265, 409]",388,protcompass/structures/go/pdb/5l18_A.pdb
+5kz7_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",296,protcompass/structures/go/pdb/5kz7_A.pdb
+3goc_A,valid,"[14, 41, 78, 124, 159, 207, 353, 399, 405]",228,protcompass/structures/go/pdb/3goc_A.pdb
+2dxl_A,valid,"[101, 129, 247, 353]",271,protcompass/structures/go/pdb/2dxl_A.pdb
+3r79_A,valid,"[90, 318, 455]",224,protcompass/structures/go/pdb/3r79_A.pdb
+4df0_A,valid,"[57, 252, 411]",199,protcompass/structures/go/pdb/4df0_A.pdb
+5l0p_A,valid,"[38, 185, 257, 300]",311,protcompass/structures/go/pdb/5l0p_A.pdb
+2cd0_A,valid,[19],111,protcompass/structures/go/pdb/2cd0_A.pdb
+4dmm_A,valid,"[30, 74, 110, 205, 385, 483]",246,protcompass/structures/go/pdb/4dmm_A.pdb
+4nta_A,valid,"[17, 24, 32, 57, 61, 62, 92, 115, 158, 220, 230, 238, 357, 377, 382, 383, 448, 453]",147,protcompass/structures/go/pdb/4nta_A.pdb
+5k5s_A,valid,"[122, 172, 197, 465]",531,protcompass/structures/go/pdb/5k5s_A.pdb
+5k58_E,valid,"[257, 300]",190,protcompass/structures/go/pdb/5k58_E.pdb
+5k53_A,valid,"[57, 252]",217,protcompass/structures/go/pdb/5k53_A.pdb
+5k52_A,valid,"[57, 199, 252]",221,protcompass/structures/go/pdb/5k52_A.pdb
+5k36_E,valid,[463],259,protcompass/structures/go/pdb/5k36_E.pdb
+2eo5_A,valid,"[46, 51, 90, 318, 455]",412,protcompass/structures/go/pdb/2eo5_A.pdb
+3brw_A,valid,"[24, 62, 158, 186, 259, 344]",336,protcompass/structures/go/pdb/3brw_A.pdb
+2eo9_A,valid,"[122, 172, 197]",118,protcompass/structures/go/pdb/2eo9_A.pdb
+3qof_A,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 488]",404,protcompass/structures/go/pdb/3qof_A.pdb
+4u8u_A,valid,"[23, 123, 199, 264, 266, 428, 445]",148,protcompass/structures/go/pdb/4u8u_A.pdb
+5jy6_A,valid,"[178, 385, 415, 486]",334,protcompass/structures/go/pdb/5jy6_A.pdb
+2evz_A,valid,[463],208,protcompass/structures/go/pdb/2evz_A.pdb
+3bs6_A,valid,[168],254,protcompass/structures/go/pdb/3bs6_A.pdb
+5k9m_A,valid,[115],353,protcompass/structures/go/pdb/5k9m_A.pdb
+4u3t_A,valid,"[10, 27, 61, 85, 128, 398, 448]",322,protcompass/structures/go/pdb/4u3t_A.pdb
+4dni_A,valid,"[189, 257]",257,protcompass/structures/go/pdb/4dni_A.pdb
+5kha_A,valid,"[9, 13, 88, 98, 114, 195, 253, 337, 339, 378, 488]",526,protcompass/structures/go/pdb/5kha_A.pdb
+2ede_A,valid,"[122, 172, 197]",114,protcompass/structures/go/pdb/2ede_A.pdb
+4u4p_B,valid,"[9, 88, 98, 114, 253, 337, 339, 488]",196,protcompass/structures/go/pdb/4u4p_B.pdb
+3gpv_A,valid,[257],108,protcompass/structures/go/pdb/3gpv_A.pdb
+2ef0_A,valid,"[40, 85, 128, 276, 324]",287,protcompass/structures/go/pdb/2ef0_A.pdb
+5kck_A,valid,"[57, 225, 252]",421,protcompass/structures/go/pdb/5kck_A.pdb
+4dox_A,valid,[214],164,protcompass/structures/go/pdb/4dox_A.pdb
+3qs9_A,valid,"[62, 224, 258, 407, 436, 441]",130,protcompass/structures/go/pdb/3qs9_A.pdb
+5kbf_A,valid,"[24, 62, 133, 464]",282,protcompass/structures/go/pdb/5kbf_A.pdb
+4dxw_A,valid,"[22, 135, 209, 231, 301, 338, 387, 428]",210,protcompass/structures/go/pdb/4dxw_A.pdb
+2cbu_A,valid,"[20, 121, 130, 167]",440,protcompass/structures/go/pdb/2cbu_A.pdb
+2cbf_A,valid,"[160, 233, 276]",234,protcompass/structures/go/pdb/2cbf_A.pdb
+4a7x_A,valid,"[9, 42, 88, 98, 114, 203, 240, 253, 294, 332, 337, 339, 488]",234,protcompass/structures/go/pdb/4a7x_A.pdb
+5oql_R,valid,"[11, 214, 397, 463]",242,protcompass/structures/go/pdb/5oql_R.pdb
+1yvy_A,valid,"[9, 57, 88, 98, 114, 252, 253, 337, 339, 411, 488]",507,protcompass/structures/go/pdb/1yvy_A.pdb
+4qlo_A,valid,"[74, 205]",327,protcompass/structures/go/pdb/4qlo_A.pdb
+3v3q_A,valid,"[38, 122, 157, 172, 174, 185, 257]",237,protcompass/structures/go/pdb/3v3q_A.pdb
+3f2i_A,valid,"[247, 353, 425, 473, 475]",159,protcompass/structures/go/pdb/3f2i_A.pdb
+5szd_A,valid,[463],72,protcompass/structures/go/pdb/5szd_A.pdb
+5sys_A,valid,"[9, 42, 45, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",258,protcompass/structures/go/pdb/5sys_A.pdb
+5sy5_B,valid,[382],278,protcompass/structures/go/pdb/5sy5_B.pdb
+3v94_A,valid,"[101, 129, 247, 353]",332,protcompass/structures/go/pdb/3v94_A.pdb
+3dzd_A,valid,"[2, 9, 88, 98, 114, 253, 337, 339, 488]",366,protcompass/structures/go/pdb/3dzd_A.pdb
+5svb_C,valid,"[9, 88, 98, 114, 253, 337, 339, 378, 488]",163,protcompass/structures/go/pdb/5svb_C.pdb
+5opt_b,valid,"[11, 214, 397, 463]",164,protcompass/structures/go/pdb/5opt_b.pdb
+4a26_A,valid,"[278, 302, 308, 345]",296,protcompass/structures/go/pdb/4a26_A.pdb
+3v7i_A,valid,"[74, 205]",384,protcompass/structures/go/pdb/3v7i_A.pdb
+4a2f_A,valid,"[116, 199, 333]",496,protcompass/structures/go/pdb/4a2f_A.pdb
+3dzb_A,valid,"[392, 462]",281,protcompass/structures/go/pdb/3dzb_A.pdb
+1ykw_A,valid,"[57, 252, 377, 399, 411]",414,protcompass/structures/go/pdb/1ykw_A.pdb
+5ovr_A,valid,"[247, 285, 353, 425, 473, 475]",286,protcompass/structures/go/pdb/5ovr_A.pdb
+3v4l_A,valid,"[35, 127, 134, 192, 386, 475]",386,protcompass/structures/go/pdb/3v4l_A.pdb
+1yhu_B,valid,"[23, 123, 199, 264, 266, 428, 445]",144,protcompass/structures/go/pdb/1yhu_B.pdb
+3f7a_A,valid,"[38, 152, 172, 185, 235, 257, 300, 327, 413]",366,protcompass/structures/go/pdb/3f7a_A.pdb
+3ukh_A,valid,"[250, 432]",504,protcompass/structures/go/pdb/3ukh_A.pdb
+3fb4_A,valid,"[9, 42, 88, 98, 114, 199, 203, 240, 253, 294, 332, 337, 339, 384, 488]",215,protcompass/structures/go/pdb/3fb4_A.pdb
+1zdx_A,valid,"[22, 60, 231, 301, 354, 428]",101,protcompass/structures/go/pdb/1zdx_A.pdb
+1zg3_A,valid,"[160, 233, 276, 382, 396]",358,protcompass/structures/go/pdb/1zg3_A.pdb
+3fcp_A,valid,"[199, 250, 460]",356,protcompass/structures/go/pdb/3fcp_A.pdb
+3dms_A,valid,"[30, 385, 399, 483]",413,protcompass/structures/go/pdb/3dms_A.pdb
+4al7_A,valid,"[159, 207, 353, 463]",155,protcompass/structures/go/pdb/4al7_A.pdb
+3fdw_A,valid,"[32, 154, 242, 254, 323, 389, 479]",130,protcompass/structures/go/pdb/3fdw_A.pdb
+5obv_A,valid,"[9, 88, 98, 114, 187, 253, 337, 339, 488]",520,protcompass/structures/go/pdb/5obv_A.pdb
+4aom_A,valid,[135],143,protcompass/structures/go/pdb/4aom_A.pdb
+3ueq_A,valid,"[342, 457]",632,protcompass/structures/go/pdb/3ueq_A.pdb
+3dll_K,valid,"[11, 214, 397, 463]",113,protcompass/structures/go/pdb/3dll_K.pdb
+5o9x_A,valid,"[202, 250, 432]",541,protcompass/structures/go/pdb/5o9x_A.pdb
+5oev_A,valid,"[9, 88, 98, 114, 195, 212, 253, 337, 339, 378, 488]",451,protcompass/structures/go/pdb/5oev_A.pdb
+1z1f_A,valid,"[74, 205]",388,protcompass/structures/go/pdb/1z1f_A.pdb
+1z2e_A,valid,"[247, 285, 353, 425, 473, 475]",139,protcompass/structures/go/pdb/1z2e_A.pdb
+3dv8_A,valid,[257],207,protcompass/structures/go/pdb/3dv8_A.pdb
+4agu_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",277,protcompass/structures/go/pdb/4agu_A.pdb
+3une_I,valid,"[35, 65, 91, 192, 386, 475]",204,protcompass/structures/go/pdb/3une_I.pdb
+1z7r_A,valid,"[107, 188, 293, 297, 315, 370, 377, 474]",117,protcompass/structures/go/pdb/1z7r_A.pdb
+5ojf_A,valid,"[137, 156, 244, 273, 412, 440]",262,protcompass/structures/go/pdb/5ojf_A.pdb
+1z8p_A,valid,"[199, 228, 264, 266, 341, 445]",403,protcompass/structures/go/pdb/1z8p_A.pdb
+1z6k_A,valid,"[57, 399]",219,protcompass/structures/go/pdb/1z6k_A.pdb
+1ydl_A,valid,"[152, 235, 257, 300]",68,protcompass/structures/go/pdb/1ydl_A.pdb
+3eu1_A,valid,"[23, 123, 199, 264, 266, 428, 445]",141,protcompass/structures/go/pdb/3eu1_A.pdb
+1xdw_A,valid,"[30, 385, 483]",331,protcompass/structures/go/pdb/1xdw_A.pdb
+3ego_A,valid,"[30, 415, 483]",292,protcompass/structures/go/pdb/3ego_A.pdb
+3wvs_A,valid,"[199, 228, 264, 266, 341, 445]",393,protcompass/structures/go/pdb/3wvs_A.pdb
+1xfk_A,valid,"[94, 199, 345, 460]",324,protcompass/structures/go/pdb/1xfk_A.pdb
+3edi_A,valid,"[35, 192, 199, 316, 350, 384, 386, 475]",195,protcompass/structures/go/pdb/3edi_A.pdb
+1xkw_A,valid,"[22, 122, 172, 199, 266, 428]",655,protcompass/structures/go/pdb/1xkw_A.pdb
+4q7a_A,valid,"[35, 50, 192, 199, 274, 345, 350, 384, 475]",353,protcompass/structures/go/pdb/4q7a_A.pdb
+3w0k_A,valid,"[121, 130]",330,protcompass/structures/go/pdb/3w0k_A.pdb
+3w01_A,valid,"[115, 320, 399]",230,protcompass/structures/go/pdb/3w01_A.pdb
+3ew2_A,valid,"[61, 85, 90, 128, 398, 448]",114,protcompass/structures/go/pdb/3ew2_A.pdb
+1xdh_A,valid,"[35, 192, 369, 386, 475, 481]",329,protcompass/structures/go/pdb/1xdh_A.pdb
+3eoo_A,valid,"[57, 225, 252]",290,protcompass/structures/go/pdb/3eoo_A.pdb
+1x3l_A,valid,"[9, 42, 88, 98, 114, 253, 262, 294, 337, 339, 348, 488]",436,protcompass/structures/go/pdb/1x3l_A.pdb
+1x3u_A,valid,[257],79,protcompass/structures/go/pdb/1x3u_A.pdb
+5tvz_A,valid,"[214, 408]",103,protcompass/structures/go/pdb/5tvz_A.pdb
+5tvl_A,valid,"[7, 250, 336, 475]",270,protcompass/structures/go/pdb/5tvl_A.pdb
+5tuf_A,valid,"[136, 283]",388,protcompass/structures/go/pdb/5tuf_A.pdb
+1xat_A,valid,"[74, 205, 403, 482]",208,protcompass/structures/go/pdb/1xat_A.pdb
+1xbn_A,valid,"[264, 445]",195,protcompass/structures/go/pdb/1xbn_A.pdb
+3vmw_A,valid,[57],324,protcompass/structures/go/pdb/3vmw_A.pdb
+5t5d_A,valid,"[22, 43, 217, 262, 294, 428]",150,protcompass/structures/go/pdb/5t5d_A.pdb
+5t4o_D,valid,"[9, 22, 48, 88, 98, 114, 209, 217, 223, 231, 240, 253, 255, 288, 294, 301, 305, 317, 325, 337, 338, 339, 380, 387, 394, 400, 414, 428, 480, 488]",466,protcompass/structures/go/pdb/5t4o_D.pdb
+1y7r_A,valid,"[68, 74, 183, 205, 482]",126,protcompass/structures/go/pdb/1y7r_A.pdb
+1y7u_A,valid,"[9, 61, 88, 253, 337, 339, 353, 388, 448, 488]",160,protcompass/structures/go/pdb/1y7u_A.pdb
+3e7d_A,valid,"[250, 432]",202,protcompass/structures/go/pdb/3e7d_A.pdb
+4pov_A,valid,"[22, 428]",178,protcompass/structures/go/pdb/4pov_A.pdb
+1ya9_A,valid,[32],168,protcompass/structures/go/pdb/1ya9_A.pdb
+1yak_A,valid,[345],219,protcompass/structures/go/pdb/1yak_A.pdb
+3vh5_A,valid,"[152, 257, 319, 382, 383]",100,protcompass/structures/go/pdb/3vh5_A.pdb
+4pkx_A,valid,"[22, 209, 231, 301, 338, 374, 387, 428]",235,protcompass/structures/go/pdb/4pkx_A.pdb
+3zym_A,valid,"[32, 323, 416]",278,protcompass/structures/go/pdb/3zym_A.pdb
+3dlc_A,valid,"[160, 276]",215,protcompass/structures/go/pdb/3dlc_A.pdb
+5t5h_e,valid,"[214, 397]",245,protcompass/structures/go/pdb/5t5h_e.pdb
+3zh3_A,valid,[115],412,protcompass/structures/go/pdb/3zh3_A.pdb
+1xqj_A,valid,"[24, 62, 163, 290, 295, 346, 426, 443]",378,protcompass/structures/go/pdb/1xqj_A.pdb
+1xqp_A,valid,"[57, 124, 130, 303, 355, 367]",252,protcompass/structures/go/pdb/1xqp_A.pdb
+1xr5_A,valid,"[140, 272, 294, 404, 423, 463, 466]",460,protcompass/structures/go/pdb/1xr5_A.pdb
+3exa_A,valid,"[9, 88, 98, 114, 115, 253, 307, 337, 339, 423, 488]",293,protcompass/structures/go/pdb/3exa_A.pdb
+1y1x_A,valid,[135],182,protcompass/structures/go/pdb/1y1x_A.pdb
+3zhm_A,valid,[257],79,protcompass/structures/go/pdb/3zhm_A.pdb
+3vpx_A,valid,[54],356,protcompass/structures/go/pdb/3vpx_A.pdb
+3vov_A,valid,"[42, 294]",297,protcompass/structures/go/pdb/3vov_A.pdb
+1xyn_A,valid,"[121, 130]",178,protcompass/structures/go/pdb/1xyn_A.pdb
+3e97_A,valid,[257],218,protcompass/structures/go/pdb/3e97_A.pdb
+4ar9_A,valid,"[35, 192, 199, 316, 350, 384, 386, 475]",392,protcompass/structures/go/pdb/4ar9_A.pdb
+5myj_AE,valid,"[11, 214, 397, 463]",156,protcompass/structures/go/pdb/5myj_AE.pdb
+5myj_AC,valid,"[11, 214, 397, 463, 487]",211,protcompass/structures/go/pdb/5myj_AC.pdb
+5mwl_A,valid,"[9, 42, 88, 98, 102, 114, 253, 262, 294, 337, 339, 488]",421,protcompass/structures/go/pdb/5mwl_A.pdb
+3fpn_B,valid,"[9, 88, 98, 114, 137, 156, 244, 253, 257, 337, 339, 402, 440, 488]",94,protcompass/structures/go/pdb/3fpn_B.pdb
+3t7b_A,valid,"[9, 42, 70, 85, 88, 98, 114, 128, 253, 294, 324, 337, 339, 488]",248,protcompass/structures/go/pdb/3t7b_A.pdb
+2bkc_A,valid,"[199, 266, 362, 422]",150,protcompass/structures/go/pdb/2bkc_A.pdb
+2bkm_A,valid,"[23, 264, 445]",128,protcompass/structures/go/pdb/2bkm_A.pdb
+5mti_A,valid,"[90, 92, 448]",101,protcompass/structures/go/pdb/5mti_A.pdb
+5ms3_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",228,protcompass/structures/go/pdb/5ms3_A.pdb
+4rf9_A,valid,"[9, 42, 88, 89, 98, 114, 253, 294, 337, 339, 488]",690,protcompass/structures/go/pdb/4rf9_A.pdb
+4bts_AG,valid,"[214, 397, 463]",192,protcompass/structures/go/pdb/4bts_AG.pdb
+3cym_A,valid,"[159, 200, 353, 454]",415,protcompass/structures/go/pdb/3cym_A.pdb
+4eq0_A,valid,"[35, 192, 369, 386, 475, 481]",198,protcompass/structures/go/pdb/4eq0_A.pdb
+5n4h_A,valid,[135],231,protcompass/structures/go/pdb/5n4h_A.pdb
+5n11_A,valid,"[69, 177, 353]",342,protcompass/structures/go/pdb/5n11_A.pdb
+3tck_A,valid,"[52, 307, 353, 423]",188,protcompass/structures/go/pdb/3tck_A.pdb
+2b9s_A,valid,"[124, 250, 257, 459]",426,protcompass/structures/go/pdb/2b9s_A.pdb
+2bbe_A,valid,[341],103,protcompass/structures/go/pdb/2bbe_A.pdb
+2bbv_A,valid,"[35, 192, 369, 386, 475, 481]",308,protcompass/structures/go/pdb/2bbv_A.pdb
+4ov1_A,valid,"[293, 370]",66,protcompass/structures/go/pdb/4ov1_A.pdb
+3t14_A,valid,[451],421,protcompass/structures/go/pdb/3t14_A.pdb
+3t0q_A,valid,"[9, 73, 88, 98, 114, 137, 156, 171, 244, 249, 253, 273, 337, 339, 412, 440, 488]",304,protcompass/structures/go/pdb/3t0q_A.pdb
+3cqf_A,valid,"[16, 32, 356, 439]",462,protcompass/structures/go/pdb/3cqf_A.pdb
+4c7y_A,valid,"[107, 178, 293, 297, 370]",906,protcompass/structures/go/pdb/4c7y_A.pdb
+2c47_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",288,protcompass/structures/go/pdb/2c47_A.pdb
+4rs1_B,valid,"[122, 172, 197, 241, 279]",267,protcompass/structures/go/pdb/4rs1_B.pdb
+4rsi_B,valid,"[9, 88, 98, 114, 253, 337, 339, 488]",386,protcompass/structures/go/pdb/4rsi_B.pdb
+4omf_G,valid,"[15, 95, 136, 199, 293, 370]",231,protcompass/structures/go/pdb/4omf_G.pdb
+3sft_A,valid,"[52, 172, 353, 475]",189,protcompass/structures/go/pdb/3sft_A.pdb
+4rso_A,valid,[214],520,protcompass/structures/go/pdb/4rso_A.pdb
+3g5q_A,valid,"[136, 160, 276, 307, 406, 421, 423]",423,protcompass/structures/go/pdb/3g5q_A.pdb
+3sch_A,valid,"[105, 199, 228, 257, 266, 310]",190,protcompass/structures/go/pdb/3sch_A.pdb
+2c6y_A,valid,"[38, 185, 257, 300]",98,protcompass/structures/go/pdb/2c6y_A.pdb
+3co8_A,valid,"[90, 100, 184, 250, 318, 410, 420, 455]",352,protcompass/structures/go/pdb/3co8_A.pdb
+3cn7_A,valid,"[52, 353]",214,protcompass/structures/go/pdb/3cn7_A.pdb
+4om7_A,valid,"[122, 172, 197]",143,protcompass/structures/go/pdb/4om7_A.pdb
+5n6m_A,valid,"[74, 183, 205]",491,protcompass/structures/go/pdb/5n6m_A.pdb
+4rqo_A,valid,"[57, 95, 293, 313, 370]",426,protcompass/structures/go/pdb/4rqo_A.pdb
+3cvj_A,valid,[253],235,protcompass/structures/go/pdb/3cvj_A.pdb
+2bud_A,valid,"[68, 74, 147, 183, 196, 205, 239, 482]",92,protcompass/structures/go/pdb/2bud_A.pdb
+3sxs_A,valid,"[9, 42, 45, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",264,protcompass/structures/go/pdb/3sxs_A.pdb
+4opx_A,valid,"[199, 257, 384]",222,protcompass/structures/go/pdb/4opx_A.pdb
+5mrc_BB,valid,"[214, 397]",266,protcompass/structures/go/pdb/5mrc_BB.pdb
+3suz_A,valid,"[448, 453]",287,protcompass/structures/go/pdb/3suz_A.pdb
+2bzl_A,valid,"[247, 285, 353, 425, 473, 475]",284,protcompass/structures/go/pdb/2bzl_A.pdb
+3ctk_A,valid,"[44, 130, 277, 299, 303, 423]",248,protcompass/structures/go/pdb/3ctk_A.pdb
+2c0r_A,valid,"[46, 51, 90, 318, 455]",361,protcompass/structures/go/pdb/2c0r_A.pdb
+3crc_A,valid,"[9, 88, 98, 114, 137, 156, 244, 253, 337, 339, 431, 488]",225,protcompass/structures/go/pdb/3crc_A.pdb
+5nsf_B,valid,"[9, 55, 88, 98, 114, 253, 307, 322, 337, 339, 378, 423, 488]",306,protcompass/structures/go/pdb/5nsf_B.pdb
+3u43_B,valid,"[159, 207, 353, 407]",132,protcompass/structures/go/pdb/3u43_B.pdb
+4r1z_A,valid,"[57, 199, 228, 252, 264, 266, 341, 429, 445]",417,protcompass/structures/go/pdb/4r1z_A.pdb
+3deu_A,valid,"[38, 185, 257]",132,protcompass/structures/go/pdb/3deu_A.pdb
+2aa4_A,valid,"[9, 42, 86, 88, 98, 114, 199, 253, 262, 294, 337, 339, 384, 488]",289,protcompass/structures/go/pdb/2aa4_A.pdb
+4b17_A,valid,"[160, 233, 276, 277, 396, 421, 423, 471]",356,protcompass/structures/go/pdb/4b17_A.pdb
+2af7_A,valid,"[26, 230, 357]",114,protcompass/structures/go/pdb/2af7_A.pdb
+3tyz_A,valid,[115],275,protcompass/structures/go/pdb/3tyz_A.pdb
+3dha_A,valid,"[52, 353]",254,protcompass/structures/go/pdb/3dha_A.pdb
+5nw4_Z,valid,"[104, 249, 267, 452]",270,protcompass/structures/go/pdb/5nw4_Z.pdb
+4p7c_A,valid,[115],312,protcompass/structures/go/pdb/4p7c_A.pdb
+1zu1_A,valid,"[199, 384]",127,protcompass/structures/go/pdb/1zu1_A.pdb
+4p7b_A,valid,"[52, 307, 353, 423]",188,protcompass/structures/go/pdb/4p7b_A.pdb
+5o5j_P,valid,"[214, 397]",113,protcompass/structures/go/pdb/5o5j_P.pdb
+5o31_Q,valid,"[28, 39, 107, 261, 349, 470]",123,protcompass/structures/go/pdb/5o31_Q.pdb
+4r3u_C,valid,"[90, 250, 264]",131,protcompass/structures/go/pdb/4r3u_C.pdb
+1zzg_A,valid,"[37, 250, 450]",415,protcompass/structures/go/pdb/1zzg_A.pdb
+3fi9_A,valid,"[30, 483]",321,protcompass/structures/go/pdb/3fi9_A.pdb
+3di2_B,valid,"[122, 172, 197, 241, 279]",195,protcompass/structures/go/pdb/3di2_B.pdb
+4qzd_A,valid,"[29, 124, 211, 257, 294, 404]",348,protcompass/structures/go/pdb/4qzd_A.pdb
+3u8e_A,valid,"[35, 127, 192, 475]",216,protcompass/structures/go/pdb/3u8e_A.pdb
+5nl9_A,valid,"[38, 185, 257]",146,protcompass/structures/go/pdb/5nl9_A.pdb
+2as9_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",207,protcompass/structures/go/pdb/2as9_A.pdb
+5nd8_t,valid,"[11, 214, 397, 463]",80,protcompass/structures/go/pdb/5nd8_t.pdb
+5nd8_p,valid,"[214, 397]",90,protcompass/structures/go/pdb/5nd8_p.pdb
+4bgj_A,valid,"[32, 323, 416]",118,protcompass/structures/go/pdb/4bgj_A.pdb
+2avd_A,valid,"[160, 276, 396]",219,protcompass/structures/go/pdb/2avd_A.pdb
+3tk9_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",226,protcompass/structures/go/pdb/3tk9_A.pdb
+3tj3_A,valid,[428],426,protcompass/structures/go/pdb/3tj3_A.pdb
+4p2l_A,valid,[188],498,protcompass/structures/go/pdb/4p2l_A.pdb
+3d6x_A,valid,"[57, 287, 355]",130,protcompass/structures/go/pdb/3d6x_A.pdb
+3d4u_A,valid,"[18, 35, 79, 117, 192, 199, 350, 384, 475]",296,protcompass/structures/go/pdb/3d4u_A.pdb
+2aih_A,valid,"[24, 62, 163, 290, 295, 346, 426, 443]",67,protcompass/structures/go/pdb/2aih_A.pdb
+5njb_B,valid,"[35, 192, 350, 475]",445,protcompass/structures/go/pdb/5njb_B.pdb
+3tu9_A,valid,"[57, 252, 429]",349,protcompass/structures/go/pdb/3tu9_A.pdb
+4b55_A,valid,"[74, 205, 482]",273,protcompass/structures/go/pdb/4b55_A.pdb
+4b6u_A,valid,"[4, 76, 108, 364, 463]",207,protcompass/structures/go/pdb/4b6u_A.pdb
+3tr9_A,valid,[115],270,protcompass/structures/go/pdb/3tr9_A.pdb
+3tr6_A,valid,"[160, 276, 396]",217,protcompass/structures/go/pdb/3tr6_A.pdb
+3da8_A,valid,"[206, 276, 399]",213,protcompass/structures/go/pdb/3da8_A.pdb
+4bf5_A,valid,"[100, 184, 250, 410, 420]",396,protcompass/structures/go/pdb/4bf5_A.pdb
+2gm5_A,valid,"[124, 257]",119,protcompass/structures/go/pdb/2gm5_A.pdb
+3ldh_A,valid,"[30, 483]",329,protcompass/structures/go/pdb/3ldh_A.pdb
+4iqf_A,valid,"[206, 276, 307, 423]",308,protcompass/structures/go/pdb/4iqf_A.pdb
+5c0s_A,valid,"[69, 177]",242,protcompass/structures/go/pdb/5c0s_A.pdb
+5bwl_A,valid,"[274, 345, 385, 433]",267,protcompass/structures/go/pdb/5bwl_A.pdb
+3l7g_A,valid,"[35, 79, 117, 192, 247, 350, 353, 425, 475]",425,protcompass/structures/go/pdb/3l7g_A.pdb
+2plt_A,valid,"[107, 199, 333]",98,protcompass/structures/go/pdb/2plt_A.pdb
+3ieq_A,valid,"[57, 218]",158,protcompass/structures/go/pdb/3ieq_A.pdb
+2p5t_B,valid,"[9, 42, 88, 98, 114, 253, 294, 337, 339, 488]",244,protcompass/structures/go/pdb/2p5t_B.pdb
+3ljc_A,valid,"[9, 35, 36, 47, 81, 88, 98, 114, 137, 156, 192, 243, 244, 253, 337, 339, 386, 402, 440, 475, 488]",227,protcompass/structures/go/pdb/3ljc_A.pdb
+2p8i_A,valid,[310],115,protcompass/structures/go/pdb/2p8i_A.pdb
+4m8i_A,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 488]",311,protcompass/structures/go/pdb/4m8i_A.pdb
+3lez_A,valid,"[309, 343, 345]",260,protcompass/structures/go/pdb/3lez_A.pdb
+3lev_A,valid,"[38, 185]",177,protcompass/structures/go/pdb/3lev_A.pdb
+2pmu_A,valid,[257],98,protcompass/structures/go/pdb/2pmu_A.pdb
+2xv7_A,valid,"[62, 258, 291, 407, 436, 441]",104,protcompass/structures/go/pdb/2xv7_A.pdb
+3ky7_A,valid,"[160, 233, 276, 307, 406, 421, 423]",228,protcompass/structures/go/pdb/3ky7_A.pdb
+4jay_A,valid,"[30, 136, 283, 483]",338,protcompass/structures/go/pdb/4jay_A.pdb
+4jb7_A,valid,"[22, 118, 217, 255, 305, 317, 338, 387, 428, 447, 480]",228,protcompass/structures/go/pdb/4jb7_A.pdb
+5b4s_A,valid,"[121, 130]",303,protcompass/structures/go/pdb/5b4s_A.pdb
+4jb8_B,valid,"[35, 127, 134, 192, 386, 475]",92,protcompass/structures/go/pdb/4jb8_B.pdb
+4jdh_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",289,protcompass/structures/go/pdb/4jdh_A.pdb
+4je5_A,valid,"[46, 51, 90, 318, 455]",494,protcompass/structures/go/pdb/4je5_A.pdb
+3ii6_A,valid,[257],201,protcompass/structures/go/pdb/3ii6_A.pdb
+4jek_A,valid,"[136, 462]",399,protcompass/structures/go/pdb/4jek_A.pdb
+2xqc_A,valid,"[124, 257]",129,protcompass/structures/go/pdb/2xqc_A.pdb
+5ayi_A,valid,"[20, 121, 130, 167]",441,protcompass/structures/go/pdb/5ayi_A.pdb
+3ife_A,valid,"[35, 83, 117, 192, 199, 350, 384, 475]",416,protcompass/structures/go/pdb/3ife_A.pdb
+4izo_A,valid,"[9, 57, 88, 98, 114, 195, 252, 253, 337, 339, 378, 411, 488]",376,protcompass/structures/go/pdb/4izo_A.pdb
+5bqn_A,valid,"[12, 22, 35, 112, 132, 192, 199, 316, 350, 384, 386, 428, 430, 461, 475]",838,protcompass/structures/go/pdb/5bqn_A.pdb
+4j0e_A,valid,"[30, 385, 433, 483]",296,protcompass/structures/go/pdb/4j0e_A.pdb
+4j0w_A,valid,[463],327,protcompass/structures/go/pdb/4j0w_A.pdb
+3l1z_B,valid,"[175, 475, 484]",78,protcompass/structures/go/pdb/3l1z_B.pdb
+3kzo_A,valid,"[40, 85, 128, 276, 324]",331,protcompass/structures/go/pdb/3kzo_A.pdb
+5bnx_C,valid,"[9, 88, 98, 114, 253, 257, 337, 339, 488]",57,protcompass/structures/go/pdb/5bnx_C.pdb
+2pu3_A,valid,"[159, 207, 353]",207,protcompass/structures/go/pdb/2pu3_A.pdb
+3l0o_A,valid,"[9, 88, 98, 114, 137, 153, 156, 244, 253, 337, 339, 402, 440, 463, 488]",413,protcompass/structures/go/pdb/3l0o_A.pdb
+5bn1_A,valid,"[52, 353]",218,protcompass/structures/go/pdb/5bn1_A.pdb
+4j52_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",293,protcompass/structures/go/pdb/4j52_A.pdb
+2pvo_C,valid,"[188, 315, 474]",111,protcompass/structures/go/pdb/2pvo_C.pdb
+2pvp_A,valid,"[9, 88, 98, 114, 195, 212, 253, 337, 339, 378, 488]",329,protcompass/structures/go/pdb/2pvp_A.pdb
+2psm_A,valid,"[1, 407]",117,protcompass/structures/go/pdb/2psm_A.pdb
+3m4p_A,valid,"[9, 55, 88, 98, 114, 253, 307, 322, 337, 339, 378, 423, 488]",435,protcompass/structures/go/pdb/3m4p_A.pdb
+3ia1_A,valid,[230],143,protcompass/structures/go/pdb/3ia1_A.pdb
+4w91_A,valid,"[90, 248, 306, 318, 455]",403,protcompass/structures/go/pdb/4w91_A.pdb
+4i2t_A,valid,"[107, 188, 315, 474]",108,protcompass/structures/go/pdb/4i2t_A.pdb
+4w9b_A,valid,[214],172,protcompass/structures/go/pdb/4w9b_A.pdb
+2ysz_A,valid,"[448, 453]",185,protcompass/structures/go/pdb/2ysz_A.pdb
+3lx8_A,valid,"[88, 114, 142, 148, 176, 222, 253, 314, 337, 359, 437, 488]",258,protcompass/structures/go/pdb/3lx8_A.pdb
+2yw2_A,valid,"[9, 88, 98, 114, 195, 253, 337, 339, 378, 488]",423,protcompass/structures/go/pdb/2yw2_A.pdb
+2o59_A,valid,"[124, 250, 257, 399, 459]",619,protcompass/structures/go/pdb/2o59_A.pdb
+4i60_A,valid,"[61, 85, 90, 128, 398, 448]",128,protcompass/structures/go/pdb/4i60_A.pdb
+3ian_A,valid,"[121, 130, 190, 253]",319,protcompass/structures/go/pdb/3ian_A.pdb
+2obe_A,valid,[214],915,protcompass/structures/go/pdb/2obe_A.pdb
+2yqg_A,valid,[135],123,protcompass/structures/go/pdb/2yqg_A.pdb
+4wer_A,valid,"[42, 262, 294]",281,protcompass/structures/go/pdb/4wer_A.pdb
+4hob_A,valid,"[59, 308, 345, 463]",62,protcompass/structures/go/pdb/4hob_A.pdb
+3i6s_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",642,protcompass/structures/go/pdb/3i6s_A.pdb
+2nug_A,valid,"[8, 14, 159, 207, 210, 256, 353, 377, 401, 423, 463]",216,protcompass/structures/go/pdb/2nug_A.pdb
+3mca_B,valid,"[4, 76, 108, 151, 159, 207, 353, 434, 452, 463]",341,protcompass/structures/go/pdb/3mca_B.pdb
+2yx8_A,valid,"[122, 172]",79,protcompass/structures/go/pdb/2yx8_A.pdb
+2nvo_A,valid,[463],496,protcompass/structures/go/pdb/2nvo_A.pdb
+2nzo_A,valid,"[270, 463]",111,protcompass/structures/go/pdb/2nzo_A.pdb
+3mbr_X,valid,"[74, 475]",236,protcompass/structures/go/pdb/3mbr_X.pdb
+4htg_A,valid,[115],302,protcompass/structures/go/pdb/4htg_A.pdb
+3i9v_3,valid,"[28, 39, 95, 107, 261, 293, 297, 349, 370, 451, 470]",754,protcompass/structures/go/pdb/3i9v_3.pdb
+5d3m_C,valid,[428],168,protcompass/structures/go/pdb/5d3m_C.pdb
+2yev_B,valid,"[22, 48, 107, 149, 199, 226, 264, 269, 286, 325, 333, 338, 387, 394, 414, 428, 445]",319,protcompass/structures/go/pdb/2yev_B.pdb
+5cnm_A,valid,"[122, 172, 197, 465]",434,protcompass/structures/go/pdb/5cnm_A.pdb
+5cm8_A,valid,"[62, 161, 242, 479]",419,protcompass/structures/go/pdb/5cm8_A.pdb
+3ln8_A,valid,"[159, 207, 353]",126,protcompass/structures/go/pdb/3ln8_A.pdb
+5cj9_A,valid,"[38, 85, 128, 185, 257, 324]",146,protcompass/structures/go/pdb/5cj9_A.pdb
+5chz_A,valid,"[124, 130, 257, 303, 367]",140,protcompass/structures/go/pdb/5chz_A.pdb
+3lod_A,valid,[74],145,protcompass/structures/go/pdb/3lod_A.pdb
+4wnz_A,valid,"[159, 207, 353, 463]",237,protcompass/structures/go/pdb/4wnz_A.pdb
+2y8y_A,valid,"[159, 207, 353, 463]",201,protcompass/structures/go/pdb/2y8y_A.pdb
+3llo_A,valid,"[22, 118, 217, 255, 338, 387, 417, 428, 447]",132,protcompass/structures/go/pdb/3llo_A.pdb
+3lor_A,valid,[250],149,protcompass/structures/go/pdb/3lor_A.pdb
+2onk_A,valid,"[9, 88, 98, 114, 137, 156, 244, 253, 337, 339, 402, 440, 488]",240,protcompass/structures/go/pdb/2onk_A.pdb
+4i7u_A,valid,"[57, 287, 355]",294,protcompass/structures/go/pdb/4i7u_A.pdb
+3luy_A,valid,"[57, 250, 287, 355, 432]",320,protcompass/structures/go/pdb/3luy_A.pdb
+2ynp_A,valid,[214],601,protcompass/structures/go/pdb/2ynp_A.pdb
+3iay_A,valid,"[29, 124, 211, 257, 294, 404]",885,protcompass/structures/go/pdb/3iay_A.pdb
+2ynm_A,valid,"[9, 88, 95, 98, 114, 131, 253, 293, 337, 339, 370, 462, 488]",267,protcompass/structures/go/pdb/2ynm_A.pdb
+5d18_A,valid,[257],202,protcompass/structures/go/pdb/5d18_A.pdb
+2odv_A,valid,[249],217,protcompass/structures/go/pdb/2odv_A.pdb
+2oer_A,valid,[257],178,protcompass/structures/go/pdb/2oer_A.pdb
+5cz2_A,valid,"[199, 384]",151,protcompass/structures/go/pdb/5cz2_A.pdb
+5cyv_A,valid,"[38, 185, 257]",138,protcompass/structures/go/pdb/5cyv_A.pdb
+5cxp_A,valid,"[121, 130]",387,protcompass/structures/go/pdb/5cxp_A.pdb
+5cvi_A,valid,"[38, 185, 199, 257, 382]",207,protcompass/structures/go/pdb/5cvi_A.pdb
+5cuy_A,valid,"[135, 137, 156, 199, 244, 384, 399]",392,protcompass/structures/go/pdb/5cuy_A.pdb
+2ome_A,valid,"[30, 385, 483]",330,protcompass/structures/go/pdb/2ome_A.pdb
+2xq1_A,valid,"[230, 238, 264, 357, 445]",491,protcompass/structures/go/pdb/2xq1_A.pdb
+2xpj_A,valid,[214],165,protcompass/structures/go/pdb/2xpj_A.pdb
+3ij5_A,valid,"[247, 294, 353, 404, 425]",185,protcompass/structures/go/pdb/3ij5_A.pdb
+2wrt_A,valid,"[17, 115]",217,protcompass/structures/go/pdb/2wrt_A.pdb
+4koq_A,valid,"[189, 257]",169,protcompass/structures/go/pdb/4koq_A.pdb
+4zdw_B,valid,"[62, 161, 242, 479]",91,protcompass/structures/go/pdb/4zdw_B.pdb
+2wnr_B,valid,"[5, 8, 159, 200, 353, 395, 423, 438, 454]",222,protcompass/structures/go/pdb/2wnr_B.pdb
+3js9_A,valid,"[42, 138, 203, 240, 294]",148,protcompass/structures/go/pdb/3js9_A.pdb
+4z8x_A,valid,"[9, 35, 88, 98, 114, 192, 253, 316, 337, 339, 350, 386, 475, 488]",425,protcompass/structures/go/pdb/4z8x_A.pdb
+2v3b_A,valid,"[131, 136]",381,protcompass/structures/go/pdb/2v3b_A.pdb
+3jcd_s,valid,"[11, 214, 270, 397, 463]",79,protcompass/structures/go/pdb/3jcd_s.pdb
+3jbp_A5,valid,"[214, 397]",223,protcompass/structures/go/pdb/3jbp_A5.pdb
+2wjg_A,valid,"[88, 114, 142, 148, 176, 222, 253, 314, 337, 359, 437, 488]",170,protcompass/structures/go/pdb/2wjg_A.pdb
+4kud_A,valid,"[257, 319, 382, 383, 452]",96,protcompass/structures/go/pdb/4kud_A.pdb
+2v5o_A,valid,"[122, 172]",604,protcompass/structures/go/pdb/2v5o_A.pdb
+4z5s_A,valid,"[57, 199, 252]",223,protcompass/structures/go/pdb/4z5s_A.pdb
+4z8i_A,valid,"[190, 199, 201, 227, 253, 274, 345, 384]",224,protcompass/structures/go/pdb/4z8i_A.pdb
+2vac_A,valid,"[249, 267]",134,protcompass/structures/go/pdb/2vac_A.pdb
+2ws9_2,valid,[214],200,protcompass/structures/go/pdb/2ws9_2.pdb
+4xi7_A,valid,"[175, 199, 384, 475, 484]",362,protcompass/structures/go/pdb/4xi7_A.pdb
+2rm4_A,valid,"[463, 487]",103,protcompass/structures/go/pdb/2rm4_A.pdb
+3k0w_A,valid,"[35, 127, 134, 192, 386, 475]",184,protcompass/structures/go/pdb/3k0w_A.pdb
+3jzv_A,valid,[57],144,protcompass/structures/go/pdb/3jzv_A.pdb
+2rob_A,valid,[135],70,protcompass/structures/go/pdb/2rob_A.pdb
+2rok_A,valid,"[5, 8, 159, 200, 353, 395, 423, 438, 454, 463]",100,protcompass/structures/go/pdb/2rok_A.pdb
+4zju_A,valid,"[74, 110, 205, 392, 462]",260,protcompass/structures/go/pdb/4zju_A.pdb
+4kgk_A,valid,"[9, 88, 98, 114, 142, 148, 176, 222, 253, 294, 314, 337, 339, 359, 399, 404, 437, 488]",210,protcompass/structures/go/pdb/4kgk_A.pdb
+4xkm_A,valid,"[37, 250, 399, 450]",435,protcompass/structures/go/pdb/4xkm_A.pdb
+4zht_A,valid,"[75, 121, 130, 250, 420]",372,protcompass/structures/go/pdb/4zht_A.pdb
+3jtj_A,valid,"[294, 404]",244,protcompass/structures/go/pdb/3jtj_A.pdb
+3jyu_A,valid,"[35, 71, 80, 127, 192, 245, 280, 475]",216,protcompass/structures/go/pdb/3jyu_A.pdb
+2vc6_A,valid,"[57, 287, 355]",291,protcompass/structures/go/pdb/2vc6_A.pdb
+4yke_A,valid,"[159, 199, 200, 207, 353, 454, 460]",404,protcompass/structures/go/pdb/4yke_A.pdb
+4yjy_A,valid,"[74, 205]",393,protcompass/structures/go/pdb/4yjy_A.pdb
+4y4n_A,valid,"[199, 266, 457, 468]",259,protcompass/structures/go/pdb/4y4n_A.pdb
+4yj1_A,valid,"[463, 487]",600,protcompass/structures/go/pdb/4yj1_A.pdb
+4yla_A,valid,[115],374,protcompass/structures/go/pdb/4yla_A.pdb
+4l6v_C,valid,"[95, 107, 293, 370]",80,protcompass/structures/go/pdb/4l6v_C.pdb
+2w8x_A,valid,"[24, 62, 163, 290, 295, 346, 426, 443]",72,protcompass/structures/go/pdb/2w8x_A.pdb
+2w88_A,valid,"[107, 199, 333]",106,protcompass/structures/go/pdb/2w88_A.pdb
+4l8q_A,valid,"[67, 191]",233,protcompass/structures/go/pdb/4l8q_A.pdb
+2w82_A,valid,[377],163,protcompass/structures/go/pdb/2w82_A.pdb
+4lbu_A,valid,"[307, 423, 457, 468]",369,protcompass/structures/go/pdb/4lbu_A.pdb
+4xz9_A,valid,"[57, 252, 429]",217,protcompass/structures/go/pdb/4xz9_A.pdb
+4l42_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 360, 475, 488]",299,protcompass/structures/go/pdb/4l42_A.pdb
+2wcz_A,valid,"[41, 58, 78, 124, 159, 207, 257, 353, 399]",123,protcompass/structures/go/pdb/2wcz_A.pdb
+3jb9_D,valid,"[7, 250, 336, 475]",96,protcompass/structures/go/pdb/3jb9_D.pdb
+2whd_A,valid,"[39, 188, 230, 347, 474]",318,protcompass/structures/go/pdb/2whd_A.pdb
+4xxj_A,valid,"[22, 122, 172, 209, 231, 301, 338, 387, 428]",228,protcompass/structures/go/pdb/4xxj_A.pdb
+2vfs_A,valid,"[30, 136, 283]",414,protcompass/structures/go/pdb/2vfs_A.pdb
+2vhl_A,valid,"[170, 199, 266, 274, 345, 373, 377, 382]",392,protcompass/structures/go/pdb/2vhl_A.pdb
+2vlv_A,valid,"[188, 315, 474]",111,protcompass/structures/go/pdb/2vlv_A.pdb
+4l18_B,valid,"[38, 185, 257, 300]",107,protcompass/structures/go/pdb/4l18_B.pdb
+4ysh_A,valid,"[54, 136, 283]",370,protcompass/structures/go/pdb/4ysh_A.pdb
+4ypt_A,valid,"[35, 71, 127, 134, 140, 192, 272, 294, 386, 404, 423, 466, 475]",377,protcompass/structures/go/pdb/4ypt_A.pdb
+3j9m_i,valid,"[214, 397]",97,protcompass/structures/go/pdb/3j9m_i.pdb
+3j9m_L,valid,"[214, 397, 463]",115,protcompass/structures/go/pdb/3j9m_L.pdb
+2rkf_A,valid,"[35, 192, 369, 386, 475, 481]",99,protcompass/structures/go/pdb/2rkf_A.pdb
+3kk8_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",283,protcompass/structures/go/pdb/3kk8_A.pdb
+4lt9_A,valid,"[57, 252, 411]",244,protcompass/structures/go/pdb/4lt9_A.pdb
+3kin_B,valid,"[9, 73, 88, 98, 114, 137, 156, 171, 244, 249, 253, 273, 337, 339, 412, 440, 488]",117,protcompass/structures/go/pdb/3kin_B.pdb
+3kij_A,valid,"[230, 238, 357]",171,protcompass/structures/go/pdb/3kij_A.pdb
+5afd_A,valid,"[57, 225, 252]",300,protcompass/structures/go/pdb/5afd_A.pdb
+3ki1_A,valid,"[457, 468]",196,protcompass/structures/go/pdb/3ki1_A.pdb
+2r0j_A,valid,"[9, 88, 98, 114, 175, 253, 337, 339, 475, 484, 488]",147,protcompass/structures/go/pdb/2r0j_A.pdb
+2xdq_A,valid,"[9, 88, 95, 98, 114, 131, 253, 293, 337, 339, 370, 462, 488]",425,protcompass/structures/go/pdb/2xdq_A.pdb
+3isp_A,valid,"[38, 152, 185, 235, 257, 300]",290,protcompass/structures/go/pdb/3isp_A.pdb
+2r0x_A,valid,"[253, 375, 488]",153,protcompass/structures/go/pdb/2r0x_A.pdb
+4xb1_A,valid,"[30, 415, 483]",319,protcompass/structures/go/pdb/4xb1_A.pdb
+4xb5_A,valid,"[122, 172]",313,protcompass/structures/go/pdb/4xb5_A.pdb
+4lql_A,valid,"[37, 250, 450]",474,protcompass/structures/go/pdb/4lql_A.pdb
+5a7m_A,valid,"[121, 130, 165]",760,protcompass/structures/go/pdb/5a7m_A.pdb
+2xig_A,valid,"[38, 185, 199, 257, 384]",146,protcompass/structures/go/pdb/2xig_A.pdb
+4jgx_A,valid,[32],119,protcompass/structures/go/pdb/4jgx_A.pdb
+3kre_A,valid,"[9, 88, 98, 114, 195, 212, 253, 337, 339, 378, 488]",237,protcompass/structures/go/pdb/3kre_A.pdb
+2qez_A,valid,"[57, 313]",424,protcompass/structures/go/pdb/2qez_A.pdb
+4x3f_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",274,protcompass/structures/go/pdb/4x3f_A.pdb
+2qg3_A,valid,"[160, 276, 307, 406, 421, 423]",192,protcompass/structures/go/pdb/2qg3_A.pdb
+5aog_A,valid,"[230, 238, 264, 357, 445]",307,protcompass/structures/go/pdb/5aog_A.pdb
+2qhs_A,valid,"[74, 205]",210,protcompass/structures/go/pdb/2qhs_A.pdb
+3kpx_A,valid,"[135, 312, 341]",189,protcompass/structures/go/pdb/3kpx_A.pdb
+3koz_A,valid,"[90, 250, 264, 382, 432]",728,protcompass/structures/go/pdb/3koz_A.pdb
+2qko_A,valid,[257],171,protcompass/structures/go/pdb/2qko_A.pdb
+5aj4_AB,valid,"[214, 397]",220,protcompass/structures/go/pdb/5aj4_AB.pdb
+4low_A,valid,"[57, 287, 355]",84,protcompass/structures/go/pdb/4low_A.pdb
+4k2g_A,valid,"[274, 345]",164,protcompass/structures/go/pdb/4k2g_A.pdb
+3k6t_A,valid,"[298, 463]",54,protcompass/structures/go/pdb/3k6t_A.pdb
+4k3x_B,valid,"[69, 177]",170,protcompass/structures/go/pdb/4k3x_B.pdb
+4k4c_A,valid,"[353, 377, 388]",137,protcompass/structures/go/pdb/4k4c_A.pdb
+2x3e_A,valid,"[74, 110, 205]",325,protcompass/structures/go/pdb/2x3e_A.pdb
+2rdy_A,valid,"[121, 130]",769,protcompass/structures/go/pdb/2rdy_A.pdb
+2rex_B,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 488]",171,protcompass/structures/go/pdb/2rex_B.pdb
+4kav_A,valid,"[294, 353]",326,protcompass/structures/go/pdb/4kav_A.pdb
+3k29_A,valid,[377],157,protcompass/structures/go/pdb/3k29_A.pdb
+4zri_A,valid,[249],293,protcompass/structures/go/pdb/4zri_A.pdb
+2rio_A,valid,"[8, 9, 42, 88, 98, 114, 159, 253, 262, 282, 294, 337, 339, 353, 423, 475, 488]",396,protcompass/structures/go/pdb/2rio_A.pdb
+4lk4_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",326,protcompass/structures/go/pdb/4lk4_A.pdb
+5a79_A,valid,"[214, 377]",177,protcompass/structures/go/pdb/5a79_A.pdb
+4jwj_A,valid,"[160, 276]",193,protcompass/structures/go/pdb/4jwj_A.pdb
+2r44_A,valid,"[9, 88, 98, 114, 137, 156, 244, 253, 337, 339, 402, 440, 488]",320,protcompass/structures/go/pdb/2r44_A.pdb
+3kep_A,valid,"[214, 408]",140,protcompass/structures/go/pdb/3kep_A.pdb
+2x8a_A,valid,"[9, 88, 98, 114, 253, 337, 339, 488]",237,protcompass/structures/go/pdb/2x8a_A.pdb
+2r5j_A,valid,[214],417,protcompass/structures/go/pdb/2r5j_A.pdb
+4xdx_A,valid,"[1, 34, 62, 63, 169, 224, 258, 407, 436, 441]",70,protcompass/structures/go/pdb/4xdx_A.pdb
+3ka0_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",279,protcompass/structures/go/pdb/3ka0_A.pdb
+2x5f_A,valid,"[90, 318, 455]",428,protcompass/structures/go/pdb/2x5f_A.pdb
+2r6z_A,valid,"[72, 160, 233, 276, 277, 421, 423, 471]",222,protcompass/structures/go/pdb/2r6z_A.pdb
+4k0v_A,valid,"[9, 42, 45, 88, 98, 114, 122, 172, 197, 253, 262, 282, 294, 337, 339, 366, 379, 475, 488]",514,protcompass/structures/go/pdb/4k0v_A.pdb
+2r80_B,valid,"[23, 123, 264, 428, 445]",146,protcompass/structures/go/pdb/2r80_B.pdb
+2r8r_A,valid,"[42, 89, 262, 282, 294, 475]",203,protcompass/structures/go/pdb/2r8r_A.pdb
+5dm6_H,valid,"[11, 150, 214, 397, 463]",134,protcompass/structures/go/pdb/5dm6_H.pdb
+3ogf_A,valid,"[62, 180, 258, 291, 407, 436, 441]",81,protcompass/structures/go/pdb/3ogf_A.pdb
+2ihm_A,valid,"[29, 124, 211, 257, 294, 404]",332,protcompass/structures/go/pdb/2ihm_A.pdb
+2ijd_1,valid,"[35, 127, 134, 140, 192, 272, 294, 386, 404, 423, 463, 466, 475]",644,protcompass/structures/go/pdb/2ijd_1.pdb
+5h53_B,valid,[135],146,protcompass/structures/go/pdb/5h53_B.pdb
+2ilx_A,valid,"[101, 129, 247, 353]",219,protcompass/structures/go/pdb/2ilx_A.pdb
+3a5r_A,valid,"[74, 170, 205, 377, 382]",376,protcompass/structures/go/pdb/3a5r_A.pdb
+3oiq_A,valid,"[189, 257, 300]",183,protcompass/structures/go/pdb/3oiq_A.pdb
+3a4l_A,valid,"[9, 42, 88, 98, 114, 253, 262, 294, 337, 339, 488]",236,protcompass/structures/go/pdb/3a4l_A.pdb
+5h3g_A,valid,"[9, 32, 61, 88, 253, 337, 339, 448, 488]",93,protcompass/structures/go/pdb/5h3g_A.pdb
+2ioo_A,valid,"[38, 185, 257]",187,protcompass/structures/go/pdb/2ioo_A.pdb
+2iq1_A,valid,"[84, 247, 353, 425, 473, 475]",257,protcompass/structures/go/pdb/2iq1_A.pdb
+3oe7_H,valid,"[22, 48, 209, 223, 231, 240, 288, 294, 301, 325, 338, 387, 394, 400, 414, 428]",120,protcompass/structures/go/pdb/3oe7_H.pdb
+2inf_A,valid,"[57, 252, 411]",344,protcompass/structures/go/pdb/2inf_A.pdb
+3a3j_A,valid,"[18, 35, 36, 47, 77, 81, 117, 192, 340, 386, 475]",344,protcompass/structures/go/pdb/3a3j_A.pdb
+3a6m_A,valid,"[24, 62, 88, 120, 170, 339, 344, 377, 382]",168,protcompass/structures/go/pdb/3a6m_A.pdb
+5h9h_A,valid,[168],73,protcompass/structures/go/pdb/5h9h_A.pdb
+4n83_A,valid,[321],285,protcompass/structures/go/pdb/4n83_A.pdb
+3hdo_A,valid,"[46, 51, 90, 318, 455]",344,protcompass/structures/go/pdb/3hdo_A.pdb
+2i51_A,valid,"[54, 253, 375, 488]",191,protcompass/structures/go/pdb/2i51_A.pdb
+2i5p_O,valid,"[178, 385, 415, 486]",309,protcompass/structures/go/pdb/2i5p_O.pdb
+3hgm_A,valid,"[9, 88, 98, 114, 253, 337, 339, 488]",147,protcompass/structures/go/pdb/3hgm_A.pdb
+5h8w_A,valid,"[9, 88, 95, 98, 114, 124, 137, 153, 156, 215, 244, 253, 257, 293, 337, 339, 370, 390, 402, 440, 488]",596,protcompass/structures/go/pdb/5h8w_A.pdb
+3a8j_A,valid,"[46, 51, 160, 276]",363,protcompass/structures/go/pdb/3a8j_A.pdb
+5hee_A,valid,"[105, 199, 266]",262,protcompass/structures/go/pdb/5hee_A.pdb
+4fm4_A,valid,"[57, 199, 287, 355]",204,protcompass/structures/go/pdb/4fm4_A.pdb
+2iai_A,valid,[257],196,protcompass/structures/go/pdb/2iai_A.pdb
+3oks_A,valid,"[46, 51, 90, 318, 455]",443,protcompass/structures/go/pdb/3oks_A.pdb
+2i6e_A,valid,"[57, 287, 355]",268,protcompass/structures/go/pdb/2i6e_A.pdb
+2isn_A,valid,"[84, 247, 353, 425, 473, 475]",324,protcompass/structures/go/pdb/2isn_A.pdb
+3hi2_B,valid,"[8, 159, 207, 353, 401, 423]",97,protcompass/structures/go/pdb/3hi2_B.pdb
+5gtj_A,valid,"[146, 247, 353, 425, 473, 475]",166,protcompass/structures/go/pdb/5gtj_A.pdb
+5gt5_A,valid,"[57, 355]",444,protcompass/structures/go/pdb/5gt5_A.pdb
+4g1g_A,valid,[214],329,protcompass/structures/go/pdb/4g1g_A.pdb
+5gqy_A,valid,"[121, 130, 342, 457]",755,protcompass/structures/go/pdb/5gqy_A.pdb
+4g1k_A,valid,"[37, 250, 328, 450]",248,protcompass/structures/go/pdb/4g1k_A.pdb
+2jbh_A,valid,"[170, 377, 382, 399, 457, 468]",207,protcompass/structures/go/pdb/2jbh_A.pdb
+2jd8_0,valid,"[199, 266, 422]",167,protcompass/structures/go/pdb/2jd8_0.pdb
+3o55_A,valid,[188],115,protcompass/structures/go/pdb/3o55_A.pdb
+5gnx_A,valid,"[20, 121, 130, 167]",451,protcompass/structures/go/pdb/5gnx_A.pdb
+5gn7_A,valid,"[116, 199, 266, 422]",264,protcompass/structures/go/pdb/5gn7_A.pdb
+5glr_A,valid,"[121, 130]",330,protcompass/structures/go/pdb/5glr_A.pdb
+5gla_A,valid,"[309, 343, 345]",267,protcompass/structures/go/pdb/5gla_A.pdb
+3o15_A,valid,"[115, 399]",219,protcompass/structures/go/pdb/3o15_A.pdb
+3o0a_A,valid,"[9, 52, 55, 88, 98, 114, 253, 307, 322, 337, 339, 353, 378, 423, 488]",211,protcompass/structures/go/pdb/3o0a_A.pdb
+2iss_D,valid,"[57, 274, 313, 345]",185,protcompass/structures/go/pdb/2iss_D.pdb
+3a28_C,valid,"[30, 385, 433, 483]",257,protcompass/structures/go/pdb/3a28_C.pdb
+3him_A,valid,[257],190,protcompass/structures/go/pdb/3him_A.pdb
+3oan_A,valid,"[214, 408]",113,protcompass/structures/go/pdb/3oan_A.pdb
+4n13_A,valid,"[22, 217, 338, 417, 428]",253,protcompass/structures/go/pdb/4n13_A.pdb
+3hit_A,valid,"[44, 130, 277, 299, 303, 356, 423]",257,protcompass/structures/go/pdb/3hit_A.pdb
+3oa2_A,valid,"[39, 261, 385]",306,protcompass/structures/go/pdb/3oa2_A.pdb
+2j5a_A,valid,"[11, 214, 397, 463]",106,protcompass/structures/go/pdb/2j5a_A.pdb
+3o8v_A,valid,"[463, 487]",102,protcompass/structures/go/pdb/3o8v_A.pdb
+3a0g_B,valid,"[23, 123, 264, 428, 445]",144,protcompass/structures/go/pdb/3a0g_B.pdb
+5gup_i,valid,"[28, 39, 261, 349, 470]",347,protcompass/structures/go/pdb/5gup_i.pdb
+4n02_A,valid,"[250, 253, 375, 399, 415, 450, 488]",332,protcompass/structures/go/pdb/4n02_A.pdb
+4fi4_A,valid,"[57, 287, 355, 399]",407,protcompass/structures/go/pdb/4fi4_A.pdb
+2h12_A,valid,"[74, 106]",418,protcompass/structures/go/pdb/2h12_A.pdb
+5ibx_C,valid,"[37, 250, 328, 450]",250,protcompass/structures/go/pdb/5ibx_C.pdb
+2h47_C,valid,"[107, 199, 333]",128,protcompass/structures/go/pdb/2h47_C.pdb
+4evi_A,valid,"[160, 276, 382, 396]",360,protcompass/structures/go/pdb/4evi_A.pdb
+4uzv_A,valid,"[23, 264, 445]",129,protcompass/structures/go/pdb/4uzv_A.pdb
+3azc_A,valid,"[0, 107, 109, 116, 293, 297, 370]",133,protcompass/structures/go/pdb/3azc_A.pdb
+4v03_A,valid,"[9, 88, 98, 114, 137, 156, 244, 253, 337, 339, 402, 440, 488]",236,protcompass/structures/go/pdb/4v03_A.pdb
+5i6s_A,valid,"[121, 130]",305,protcompass/structures/go/pdb/5i6s_A.pdb
+4v19_F,valid,"[214, 397]",250,protcompass/structures/go/pdb/4v19_F.pdb
+5i4j_A,valid,"[199, 266, 362, 422]",177,protcompass/structures/go/pdb/5i4j_A.pdb
+3pbl_A,valid,"[121, 122, 130, 172, 197, 201, 281, 465, 469]",432,protcompass/structures/go/pdb/3pbl_A.pdb
+4nc4_A,valid,"[122, 170, 172, 377, 382]",369,protcompass/structures/go/pdb/4nc4_A.pdb
+2gn1_A,valid,"[57, 90, 313, 318, 455]",326,protcompass/structures/go/pdb/2gn1_A.pdb
+5imy_A,valid,"[16, 32, 439]",474,protcompass/structures/go/pdb/5imy_A.pdb
+3pip_I,valid,"[11, 214, 397, 463]",134,protcompass/structures/go/pdb/3pip_I.pdb
+5imr_C,valid,"[4, 76, 88, 108, 114, 137, 142, 148, 151, 156, 176, 222, 234, 244, 253, 314, 337, 359, 434, 437, 440, 452, 458, 463, 488]",570,protcompass/structures/go/pdb/5imr_C.pdb
+5ikl_B,valid,[378],514,protcompass/structures/go/pdb/5ikl_B.pdb
+3b6c_A,valid,[257],202,protcompass/structures/go/pdb/3b6c_A.pdb
+4utt_A,valid,"[75, 250, 420]",229,protcompass/structures/go/pdb/4utt_A.pdb
+4etm_A,valid,"[247, 285, 353, 425, 473, 475]",162,protcompass/structures/go/pdb/4etm_A.pdb
+2gux_A,valid,"[67, 191, 253, 377]",124,protcompass/structures/go/pdb/2gux_A.pdb
+4ne4_A,valid,"[22, 428]",278,protcompass/structures/go/pdb/4ne4_A.pdb
+3b6e_A,valid,"[9, 88, 98, 114, 253, 257, 337, 339, 488]",182,protcompass/structures/go/pdb/3b6e_A.pdb
+3axc_A,valid,"[139, 214, 242, 263, 397, 463]",149,protcompass/structures/go/pdb/3axc_A.pdb
+3auf_A,valid,"[206, 276]",212,protcompass/structures/go/pdb/3auf_A.pdb
+3p8g_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",241,protcompass/structures/go/pdb/3p8g_A.pdb
+3oyy_A,valid,"[4, 76, 108, 458, 463]",187,protcompass/structures/go/pdb/3oyy_A.pdb
+2huu_A,valid,"[46, 51]",384,protcompass/structures/go/pdb/2huu_A.pdb
+4n9f_U,valid,"[139, 242, 263]",299,protcompass/structures/go/pdb/4n9f_U.pdb
+5hl7_P,valid,"[11, 214, 397, 463]",112,protcompass/structures/go/pdb/5hl7_P.pdb
+4ffk_A,valid,"[113, 126, 230]",212,protcompass/structures/go/pdb/4ffk_A.pdb
+4v5m_B2,valid,"[214, 397]",71,protcompass/structures/go/pdb/4v5m_B2.pdb
+2i0x_A,valid,"[8, 159, 207, 353, 401, 423]",84,protcompass/structures/go/pdb/2i0x_A.pdb
+4n9x_A,valid,"[49, 136, 228, 283, 341]",359,protcompass/structures/go/pdb/4n9x_A.pdb
+2hdw_A,valid,"[20, 121, 130, 167]",321,protcompass/structures/go/pdb/2hdw_A.pdb
+4v3p_LX,valid,"[214, 397]",122,protcompass/structures/go/pdb/4v3p_LX.pdb
+2hfd_A,valid,"[448, 453]",132,protcompass/structures/go/pdb/2hfd_A.pdb
+4nbe_D,valid,"[293, 297, 310, 370]",103,protcompass/structures/go/pdb/4nbe_D.pdb
+4f3q_A,valid,[257],228,protcompass/structures/go/pdb/4f3q_A.pdb
+4v3p_Li,valid,"[214, 397]",119,protcompass/structures/go/pdb/4v3p_Li.pdb
+2hhl_A,valid,"[84, 247, 353, 425, 473, 475]",180,protcompass/structures/go/pdb/2hhl_A.pdb
+3p3a_A,valid,"[248, 306]",288,protcompass/structures/go/pdb/3p3a_A.pdb
+4v3p_SC,valid,"[11, 214, 397, 463]",195,protcompass/structures/go/pdb/4v3p_SC.pdb
+5hud_A,valid,[115],444,protcompass/structures/go/pdb/5hud_A.pdb
+4f4x_A,valid,"[29, 124, 211, 257, 260, 294, 404]",342,protcompass/structures/go/pdb/4f4x_A.pdb
+4g55_A,valid,[214],358,protcompass/structures/go/pdb/4g55_A.pdb
+3nzw_L,valid,"[35, 65, 91, 192, 386, 475]",222,protcompass/structures/go/pdb/3nzw_L.pdb
+5ef4_A,valid,"[35, 127, 192, 475]",328,protcompass/structures/go/pdb/5ef4_A.pdb
+3mwq_A,valid,"[8, 57, 159, 207, 353, 423]",256,protcompass/structures/go/pdb/3mwq_A.pdb
+2zah_A,valid,[214],296,protcompass/structures/go/pdb/2zah_A.pdb
+5ehf_A,valid,"[116, 199, 333]",497,protcompass/structures/go/pdb/5ehf_A.pdb
+2max_A,valid,"[140, 257, 294, 404, 418, 423, 466]",114,protcompass/structures/go/pdb/2max_A.pdb
+4mjm_A,valid,"[30, 483]",328,protcompass/structures/go/pdb/4mjm_A.pdb
+4mif_A,valid,"[30, 136]",572,protcompass/structures/go/pdb/4mif_A.pdb
+5e9h_A,valid,"[57, 225, 252]",518,protcompass/structures/go/pdb/5e9h_A.pdb
+3mvk_A,valid,"[67, 191, 250]",137,protcompass/structures/go/pdb/3mvk_A.pdb
+4mid_A,valid,"[62, 258, 291, 407, 436, 441]",105,protcompass/structures/go/pdb/4mid_A.pdb
+2mhh_A,valid,[135],96,protcompass/structures/go/pdb/2mhh_A.pdb
+2zez_A,valid,[130],142,protcompass/structures/go/pdb/2zez_A.pdb
+4v7h_AL,valid,"[214, 397]",118,protcompass/structures/go/pdb/4v7h_AL.pdb
+4v7h_AO,valid,"[214, 397]",84,protcompass/structures/go/pdb/4v7h_AO.pdb
+4v7h_B0,valid,"[214, 397]",109,protcompass/structures/go/pdb/4v7h_B0.pdb
+5eny_A,valid,"[90, 92, 448]",563,protcompass/structures/go/pdb/5eny_A.pdb
+2ly9_A,valid,[257],74,protcompass/structures/go/pdb/2ly9_A.pdb
+2m08_A,valid,"[7, 250, 336, 475]",93,protcompass/structures/go/pdb/2m08_A.pdb
+4v7h_BX,valid,"[214, 397]",86,protcompass/structures/go/pdb/4v7h_BX.pdb
+4v7o_A5,valid,"[24, 62, 144, 158, 426, 452]",799,protcompass/structures/go/pdb/4v7o_A5.pdb
+5eov_A,valid,"[160, 276, 463]",205,protcompass/structures/go/pdb/5eov_A.pdb
+2z1e_A,valid,"[9, 88, 98, 114, 253, 337, 339, 488]",298,protcompass/structures/go/pdb/2z1e_A.pdb
+4hdt_A,valid,"[353, 388]",340,protcompass/structures/go/pdb/4hdt_A.pdb
+2n74_A,valid,[463],73,protcompass/structures/go/pdb/2n74_A.pdb
+4v8p_AX,valid,"[214, 397]",188,protcompass/structures/go/pdb/4v8p_AX.pdb
+5dsy_A,valid,"[457, 468]",248,protcompass/structures/go/pdb/5dsy_A.pdb
+4v8p_BC,valid,"[214, 397]",409,protcompass/structures/go/pdb/4v8p_BC.pdb
+2yzl_A,valid,"[9, 88, 98, 114, 195, 212, 253, 337, 339, 378, 488]",238,protcompass/structures/go/pdb/2yzl_A.pdb
+4mf3_A,valid,"[22, 56, 122, 172, 197, 209, 231, 281, 301, 326, 330, 338, 352, 374, 387, 428, 442, 446, 485]",258,protcompass/structures/go/pdb/4mf3_A.pdb
+3mnd_A,valid,"[113, 126, 230, 377]",152,protcompass/structures/go/pdb/3mnd_A.pdb
+2n28_A,valid,"[22, 209, 231, 301, 325, 338, 387, 400, 407, 414, 428]",81,protcompass/structures/go/pdb/2n28_A.pdb
+4h7x_A,valid,"[42, 262, 282, 294, 475]",138,protcompass/structures/go/pdb/4h7x_A.pdb
+5e4a_A,valid,[179],116,protcompass/structures/go/pdb/5e4a_A.pdb
+5e3v_A,valid,"[57, 313]",310,protcompass/structures/go/pdb/5e3v_A.pdb
+5e38_A,valid,"[88, 114, 142, 148, 176, 222, 253, 314, 337, 359, 399, 437, 457, 468, 488]",209,protcompass/structures/go/pdb/5e38_A.pdb
+3mr7_A,valid,"[57, 218]",169,protcompass/structures/go/pdb/3mr7_A.pdb
+4v8m_AE,valid,"[214, 397, 463, 487]",160,protcompass/structures/go/pdb/4v8m_AE.pdb
+4mhv_A,valid,"[257, 300]",94,protcompass/structures/go/pdb/4mhv_A.pdb
+2z5c_C,valid,"[35, 65, 91, 192, 386, 475]",189,protcompass/structures/go/pdb/2z5c_C.pdb
+2mxn_A,valid,"[107, 188, 315, 474]",142,protcompass/structures/go/pdb/2mxn_A.pdb
+2mxz_A,valid,"[192, 475]",137,protcompass/structures/go/pdb/2mxz_A.pdb
+3i46_A,valid,"[101, 247, 353]",289,protcompass/structures/go/pdb/3i46_A.pdb
+4v7e_Be,valid,"[214, 397]",60,protcompass/structures/go/pdb/4v7e_Be.pdb
+5euf_A,valid,"[35, 192, 316, 350, 386, 475]",406,protcompass/structures/go/pdb/5euf_A.pdb
+4ga4_A,valid,"[342, 457, 468]",418,protcompass/structures/go/pdb/4ga4_A.pdb
+5fw4_A,valid,"[230, 238, 264, 357, 445]",368,protcompass/structures/go/pdb/5fw4_A.pdb
+2k89_A,valid,[251],80,protcompass/structures/go/pdb/2k89_A.pdb
+2k9n_A,valid,[257],107,protcompass/structures/go/pdb/2k9n_A.pdb
+5fub_A,valid,"[160, 276]",337,protcompass/structures/go/pdb/5fub_A.pdb
+4gaa_A,valid,"[35, 192, 199, 350, 384, 475]",606,protcompass/structures/go/pdb/4gaa_A.pdb
+2kfh_A,valid,[135],105,protcompass/structures/go/pdb/2kfh_A.pdb
+4gbu_A,valid,"[39, 188, 253, 348, 375, 488]",399,protcompass/structures/go/pdb/4gbu_A.pdb
+3hrd_D,valid,"[107, 293, 297, 321, 370]",160,protcompass/structures/go/pdb/3hrd_D.pdb
+3nqx_A,valid,"[35, 192, 316, 350, 386, 475]",299,protcompass/structures/go/pdb/3nqx_A.pdb
+4gfv_A,valid,"[247, 285, 353, 425, 473, 475]",286,protcompass/structures/go/pdb/4gfv_A.pdb
+2k6p_A,valid,[463],84,protcompass/structures/go/pdb/2k6p_A.pdb
+2jqt_A,valid,[257],57,protcompass/structures/go/pdb/2jqt_A.pdb
+4mtx_A,valid,"[42, 89, 262, 282, 294, 475]",89,protcompass/structures/go/pdb/4mtx_A.pdb
+5fyf_A,valid,"[199, 228, 264, 266, 341, 445]",420,protcompass/structures/go/pdb/5fyf_A.pdb
+4g7e_B,valid,"[15, 199, 274, 345]",830,protcompass/structures/go/pdb/4g7e_B.pdb
+2k1e_A,valid,"[22, 66, 96, 209, 231, 237, 301, 325, 329, 338, 374, 387, 394, 400, 414, 428, 449, 472, 477]",103,protcompass/structures/go/pdb/2k1e_A.pdb
+4g89_A,valid,"[130, 303]",233,protcompass/structures/go/pdb/4g89_A.pdb
+2k40_A,valid,"[257, 300]",67,protcompass/structures/go/pdb/2k40_A.pdb
+3hqy_A,valid,"[101, 129, 247, 353]",305,protcompass/structures/go/pdb/3hqy_A.pdb
+3hrw_A,valid,"[23, 85, 123, 199, 230, 238, 264, 266, 357, 428, 445]",141,protcompass/structures/go/pdb/3hrw_A.pdb
+2kpn_A,valid,[135],97,protcompass/structures/go/pdb/2kpn_A.pdb
+3n77_A,valid,"[137, 156, 244, 399, 431]",141,protcompass/structures/go/pdb/3n77_A.pdb
+2l38_A,valid,"[22, 231, 301, 356, 377, 428]",175,protcompass/structures/go/pdb/2l38_A.pdb
+3n72_A,valid,"[24, 62, 120, 158, 268, 344]",143,protcompass/structures/go/pdb/3n72_A.pdb
+3n6q_A,valid,"[30, 483]",314,protcompass/structures/go/pdb/3n6q_A.pdb
+3n5m_A,valid,"[46, 51, 90, 318, 455]",435,protcompass/structures/go/pdb/3n5m_A.pdb
+5ez3_A,valid,"[136, 462]",540,protcompass/structures/go/pdb/5ez3_A.pdb
+3n9t_A,valid,"[143, 199, 266, 310, 312, 422]",286,protcompass/structures/go/pdb/3n9t_A.pdb
+3hyi_A,valid,[257],284,protcompass/structures/go/pdb/3hyi_A.pdb
+2ld5_A,valid,"[257, 300]",67,protcompass/structures/go/pdb/2ld5_A.pdb
+2zjr_R,valid,"[11, 214, 397, 463]",110,protcompass/structures/go/pdb/2zjr_R.pdb
+3n1k_A,valid,"[189, 257]",161,protcompass/structures/go/pdb/3n1k_A.pdb
+3ngy_A,valid,"[5, 8, 159, 200, 353, 377, 395, 399, 423, 438, 454]",204,protcompass/structures/go/pdb/3ngy_A.pdb
+2krb_A,valid,"[4, 76, 108, 194, 364, 463]",81,protcompass/structures/go/pdb/2krb_A.pdb
+4gms_A,valid,"[69, 177]",316,protcompass/structures/go/pdb/4gms_A.pdb
+2kuo_A,valid,"[124, 159, 200, 353, 454]",91,protcompass/structures/go/pdb/2kuo_A.pdb
+3nf1_A,valid,"[137, 156, 244, 273, 412, 440]",283,protcompass/structures/go/pdb/3nf1_A.pdb
+5fds_A,valid,"[249, 267]",131,protcompass/structures/go/pdb/5fds_A.pdb
+4gpg_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",263,protcompass/structures/go/pdb/4gpg_A.pdb
+5fau_A,valid,"[57, 170, 313, 377, 382]",794,protcompass/structures/go/pdb/5fau_A.pdb
+3ndz_E,valid,"[121, 130, 145, 191]",107,protcompass/structures/go/pdb/3ndz_E.pdb
+2mc9_A,valid,"[7, 250, 336, 475]",178,protcompass/structures/go/pdb/2mc9_A.pdb
+1j5k_A,valid,"[257, 463]",76,protcompass/structures/go/pdb/1j5k_A.pdb
+1j5t_A,valid,"[37, 57, 250, 252, 411, 450]",233,protcompass/structures/go/pdb/1j5t_A.pdb
+1cvr_A,valid,"[35, 127, 192, 475]",432,protcompass/structures/go/pdb/1cvr_A.pdb
+6j5g_A,valid,[382],373,protcompass/structures/go/pdb/6j5g_A.pdb
+5w9q_A,valid,"[199, 257, 384]",56,protcompass/structures/go/pdb/5w9q_A.pdb
+6j8g_B,valid,"[62, 221, 476]",173,protcompass/structures/go/pdb/6j8g_B.pdb
+1cyw_A,valid,"[22, 48, 107, 116, 149, 199, 226, 269, 286, 325, 333, 338, 387, 394, 414, 428]",159,protcompass/structures/go/pdb/1cyw_A.pdb
+6iz6_A,valid,"[22, 66, 209, 231, 237, 301, 325, 338, 387, 394, 400, 414, 428, 477]",224,protcompass/structures/go/pdb/6iz6_A.pdb
+5wit_1k,valid,"[11, 214, 397, 463]",114,protcompass/structures/go/pdb/5wit_1k.pdb
+6e6i_A,valid,"[57, 252, 411]",332,protcompass/structures/go/pdb/6e6i_A.pdb
+6irx_A,valid,"[64, 160, 233, 242, 276, 421, 423]",471,protcompass/structures/go/pdb/6irx_A.pdb
+1ojq_A,valid,"[457, 468]",212,protcompass/structures/go/pdb/1ojq_A.pdb
+1d02_A,valid,"[14, 41, 78, 124, 159, 207, 257, 353, 405]",197,protcompass/structures/go/pdb/1d02_A.pdb
+1czf_A,valid,"[121, 130]",335,protcompass/structures/go/pdb/1czf_A.pdb
+6a6w_A,valid,[257],135,protcompass/structures/go/pdb/6a6w_A.pdb
+1o7f_A,valid,"[62, 161, 242, 479]",421,protcompass/structures/go/pdb/1o7f_A.pdb
+1um9_A,valid,[178],331,protcompass/structures/go/pdb/1um9_A.pdb
+1ny4_A,valid,"[214, 397]",71,protcompass/structures/go/pdb/1ny4_A.pdb
+1unn_C,valid,"[257, 260]",111,protcompass/structures/go/pdb/1unn_C.pdb
+1upc_A,valid,"[61, 90, 115, 399]",559,protcompass/structures/go/pdb/1upc_A.pdb
+1cg5_A,valid,"[23, 123, 264, 428, 445]",141,protcompass/structures/go/pdb/1cg5_A.pdb
+5w5c_F,valid,"[32, 323]",261,protcompass/structures/go/pdb/5w5c_F.pdb
+5w78_B,valid,"[52, 353]",406,protcompass/structures/go/pdb/5w78_B.pdb
+1jc5_A,valid,"[250, 420]",145,protcompass/structures/go/pdb/1jc5_A.pdb
+1uk5_A,valid,[120],111,protcompass/structures/go/pdb/1uk5_A.pdb
+1o4s_A,valid,"[46, 51, 90, 318, 455]",375,protcompass/structures/go/pdb/1o4s_A.pdb
+1civ_A,valid,"[30, 483]",374,protcompass/structures/go/pdb/1civ_A.pdb
+1uax_A,valid,"[8, 14, 159, 199, 207, 210, 353, 401, 423, 460, 463]",211,protcompass/structures/go/pdb/1uax_A.pdb
+1oo0_B,valid,"[463, 487]",92,protcompass/structures/go/pdb/1oo0_B.pdb
+1txa_A,valid,[356],73,protcompass/structures/go/pdb/1txa_A.pdb
+5wu6_A,valid,"[294, 404, 423, 463, 487]",415,protcompass/structures/go/pdb/5wu6_A.pdb
+5zm4_A,valid,[310],285,protcompass/structures/go/pdb/5zm4_A.pdb
+5zji_4,valid,"[3, 264]",199,protcompass/structures/go/pdb/5zji_4.pdb
+5wxl_A,valid,"[11, 463]",226,protcompass/structures/go/pdb/5wxl_A.pdb
+1tp9_A,valid,"[26, 230, 238, 357]",162,protcompass/structures/go/pdb/1tp9_A.pdb
+6hu9_f,valid,"[22, 48, 107, 149, 226, 269, 286, 325, 338, 387, 394, 414, 428]",102,protcompass/structures/go/pdb/6hu9_f.pdb
+5x02_A,valid,"[9, 42, 45, 88, 98, 114, 122, 172, 197, 253, 262, 282, 294, 337, 339, 366, 379, 475, 488]",305,protcompass/structures/go/pdb/5x02_A.pdb
+1il2_A,valid,"[9, 55, 88, 98, 114, 253, 307, 322, 337, 339, 378, 423, 488]",585,protcompass/structures/go/pdb/1il2_A.pdb
+1p4e_A,valid,"[124, 152, 189, 257]",400,protcompass/structures/go/pdb/1p4e_A.pdb
+6ejz_A,valid,"[38, 185, 257, 300]",103,protcompass/structures/go/pdb/6ejz_A.pdb
+5wxm_A,valid,"[11, 463]",130,protcompass/structures/go/pdb/5wxm_A.pdb
+1dli_A,valid,"[30, 385, 483]",402,protcompass/structures/go/pdb/1dli_A.pdb
+6e86_B,valid,"[199, 384]",64,protcompass/structures/go/pdb/6e86_B.pdb
+1u6t_A,valid,[53],121,protcompass/structures/go/pdb/1u6t_A.pdb
+5zug_A,valid,"[22, 48, 217, 255, 325, 338, 387, 394, 414, 417, 428, 447]",182,protcompass/structures/go/pdb/5zug_A.pdb
+1iy1_A,valid,"[9, 35, 88, 98, 114, 192, 253, 316, 337, 339, 350, 386, 475, 488]",234,protcompass/structures/go/pdb/1iy1_A.pdb
+5wka_A,valid,"[20, 121, 130, 167]",467,protcompass/structures/go/pdb/5wka_A.pdb
+6efv_A,valid,"[39, 136, 188, 253, 347, 375, 488]",530,protcompass/structures/go/pdb/6efv_A.pdb
+6efn_A,valid,"[95, 293, 370]",383,protcompass/structures/go/pdb/6efn_A.pdb
+6ef6_A,valid,"[42, 262, 282, 294, 475]",325,protcompass/structures/go/pdb/6ef6_A.pdb
+1dix_A,valid,"[8, 57, 58, 159, 207, 353, 401, 423, 463]",208,protcompass/structures/go/pdb/1dix_A.pdb
+1u1z_A,valid,"[57, 287, 355]",137,protcompass/structures/go/pdb/1u1z_A.pdb
+6dqw_A,valid,[321],504,protcompass/structures/go/pdb/6dqw_A.pdb
+6b1b_A,valid,[341],510,protcompass/structures/go/pdb/6b1b_A.pdb
+5v93_X,valid,"[214, 397]",63,protcompass/structures/go/pdb/5v93_X.pdb
+1bf5_A,valid,"[38, 185, 257]",544,protcompass/structures/go/pdb/1bf5_A.pdb
+1vkr_A,valid,"[22, 43, 217, 262, 294, 338, 428]",97,protcompass/structures/go/pdb/1vkr_A.pdb
+6b18_A,valid,"[240, 294]",299,protcompass/structures/go/pdb/6b18_A.pdb
+6b20_C,valid,"[137, 156, 234, 244, 440]",56,protcompass/structures/go/pdb/6b20_C.pdb
+6d21_A,valid,[249],280,protcompass/structures/go/pdb/6d21_A.pdb
+1bdg_A,valid,"[9, 42, 67, 86, 88, 98, 114, 191, 253, 262, 294, 337, 339, 488]",444,protcompass/structures/go/pdb/1bdg_A.pdb
+1vjz_A,valid,"[121, 130]",320,protcompass/structures/go/pdb/1vjz_A.pdb
+1k4j_A,valid,"[74, 183, 205]",193,protcompass/structures/go/pdb/1k4j_A.pdb
+1ng0_A,valid,"[140, 192, 214, 272, 294, 404, 423, 466, 475]",192,protcompass/structures/go/pdb/1ng0_A.pdb
+5vcb_b,valid,"[294, 399]",121,protcompass/structures/go/pdb/5vcb_b.pdb
+1nf2_A,valid,"[247, 353, 399, 425]",267,protcompass/structures/go/pdb/1nf2_A.pdb
+6d6q_G,valid,"[5, 8, 159, 200, 353, 395, 423, 438, 454, 463]",237,protcompass/structures/go/pdb/6d6q_G.pdb
+6d8d_B,valid,"[69, 177]",171,protcompass/structures/go/pdb/6d8d_B.pdb
+5uxx_A,valid,"[38, 185, 257]",156,protcompass/structures/go/pdb/5uxx_A.pdb
+1b7v_A,valid,"[107, 199, 264, 266, 445]",71,protcompass/structures/go/pdb/1b7v_A.pdb
+1mv5_A,valid,"[9, 88, 98, 114, 137, 156, 244, 253, 337, 339, 402, 440, 488]",242,protcompass/structures/go/pdb/1mv5_A.pdb
+6nn3_A,valid,[214],479,protcompass/structures/go/pdb/6nn3_A.pdb
+6nlx_A,valid,"[178, 385, 415, 486]",337,protcompass/structures/go/pdb/6nlx_A.pdb
+5v6y_A,valid,"[22, 43, 122, 172, 197, 428, 465]",550,protcompass/structures/go/pdb/5v6y_A.pdb
+1vp5_A,valid,"[30, 311, 483]",284,protcompass/structures/go/pdb/1vp5_A.pdb
+6nf8_U,valid,"[214, 397]",86,protcompass/structures/go/pdb/6nf8_U.pdb
+1vq3_A,valid,"[9, 13, 88, 98, 114, 195, 253, 337, 339, 378, 488]",86,protcompass/structures/go/pdb/1vq3_A.pdb
+1n2a_A,valid,"[17, 115]",201,protcompass/structures/go/pdb/1n2a_A.pdb
+1n1d_A,valid,"[294, 404]",126,protcompass/structures/go/pdb/1n1d_A.pdb
+1kho_A,valid,"[101, 199, 247, 353, 356, 384, 435, 444]",370,protcompass/structures/go/pdb/1kho_A.pdb
+6cw2_D,valid,"[68, 74, 147, 183, 196, 205, 239, 482]",241,protcompass/structures/go/pdb/6cw2_D.pdb
+6n7l_A,valid,"[199, 384]",342,protcompass/structures/go/pdb/6n7l_A.pdb
+1nh9_A,valid,"[152, 257, 463]",80,protcompass/structures/go/pdb/1nh9_A.pdb
+5vsl_A,valid,"[293, 370]",262,protcompass/structures/go/pdb/5vsl_A.pdb
+1c3c_A,valid,"[57, 313]",424,protcompass/structures/go/pdb/1c3c_A.pdb
+1nre_A,valid,"[62, 407, 441]",81,protcompass/structures/go/pdb/1nre_A.pdb
+5vt9_A,valid,[135],134,protcompass/structures/go/pdb/5vt9_A.pdb
+1jpa_A,valid,"[9, 42, 45, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",273,protcompass/structures/go/pdb/1jpa_A.pdb
+5vmt_A,valid,"[178, 385, 415, 486]",333,protcompass/structures/go/pdb/5vmt_A.pdb
+1jr7_A,valid,"[105, 199, 228, 266, 310, 377]",306,protcompass/structures/go/pdb/1jr7_A.pdb
+1nsl_A,valid,"[68, 74, 183, 196, 205, 482]",173,protcompass/structures/go/pdb/1nsl_A.pdb
+1cb7_A,valid,"[90, 250, 264, 432]",137,protcompass/structures/go/pdb/1cb7_A.pdb
+1ux6_A,valid,"[61, 135, 227, 253, 368]",335,protcompass/structures/go/pdb/1ux6_A.pdb
+6dht_A,valid,"[99, 121, 130]",547,protcompass/structures/go/pdb/6dht_A.pdb
+1uzg_A,valid,[382],392,protcompass/structures/go/pdb/1uzg_A.pdb
+6mrf_A,valid,"[35, 79, 83, 117, 192, 350, 475]",247,protcompass/structures/go/pdb/6mrf_A.pdb
+1v02_A,valid,"[121, 130]",484,protcompass/structures/go/pdb/1v02_A.pdb
+1v6p_A,valid,[356],62,protcompass/structures/go/pdb/1v6p_A.pdb
+1bzs_A,valid,"[35, 192, 199, 316, 350, 384, 386, 475]",165,protcompass/structures/go/pdb/1bzs_A.pdb
+1v6s_A,valid,"[9, 42, 70, 88, 98, 114, 253, 294, 337, 339, 488]",390,protcompass/structures/go/pdb/1v6s_A.pdb
+1jza_A,valid,"[62, 221, 232, 292, 356, 363, 365, 476]",66,protcompass/structures/go/pdb/1jza_A.pdb
+1vc9_A,valid,"[9, 88, 98, 114, 156, 244, 253, 337, 339, 488]",126,protcompass/structures/go/pdb/1vc9_A.pdb
+6az1_Z,valid,"[214, 397]",127,protcompass/structures/go/pdb/6az1_Z.pdb
+6n41_A,valid,"[69, 177]",483,protcompass/structures/go/pdb/6n41_A.pdb
+5vft_S,valid,"[35, 65, 91, 192, 386, 475]",213,protcompass/structures/go/pdb/5vft_S.pdb
+1vec_A,valid,"[9, 88, 98, 114, 253, 337, 339, 488]",206,protcompass/structures/go/pdb/1vec_A.pdb
+1jsg_A,valid,"[24, 62, 133, 155, 158, 216, 242, 377, 464]",111,protcompass/structures/go/pdb/1jsg_A.pdb
+5vkt_A,valid,"[199, 384]",353,protcompass/structures/go/pdb/5vkt_A.pdb
+1bxu_A,valid,"[107, 199, 333]",91,protcompass/structures/go/pdb/1bxu_A.pdb
+6dcc_A,valid,"[160, 276]",221,protcompass/structures/go/pdb/6dcc_A.pdb
+6ax6_A,valid,"[67, 85, 90, 128, 191, 199, 228, 266]",189,protcompass/structures/go/pdb/6ax6_A.pdb
+1bw5_A,valid,"[257, 300]",66,protcompass/structures/go/pdb/1bw5_A.pdb
+1tnt_A,valid,[257],76,protcompass/structures/go/pdb/1tnt_A.pdb
+6eml_c,valid,"[214, 397]",144,protcompass/structures/go/pdb/6eml_c.pdb
+6gcs_2,valid,"[28, 39, 261, 349, 470]",452,protcompass/structures/go/pdb/6gcs_2.pdb
+1s4q_A,valid,"[9, 42, 88, 98, 114, 142, 148, 176, 203, 240, 253, 294, 314, 332, 337, 339, 359, 399, 437, 488]",183,protcompass/structures/go/pdb/1s4q_A.pdb
+1qs0_A,valid,[178],395,protcompass/structures/go/pdb/1qs0_A.pdb
+1gzj_A,valid,"[99, 121, 130]",304,protcompass/structures/go/pdb/1gzj_A.pdb
+1gyc_A,valid,"[116, 199, 333]",499,protcompass/structures/go/pdb/1gyc_A.pdb
+5xvh_A,valid,"[385, 415]",296,protcompass/structures/go/pdb/5xvh_A.pdb
+1fno_A,valid,"[35, 83, 117, 192, 199, 350, 384, 475]",393,protcompass/structures/go/pdb/1fno_A.pdb
+6fjw_A,valid,"[159, 207, 353, 463]",231,protcompass/structures/go/pdb/6fjw_A.pdb
+6gcs_I,valid,"[39, 95, 261, 293, 370]",180,protcompass/structures/go/pdb/6gcs_I.pdb
+6fki_E,valid,"[9, 22, 48, 88, 98, 114, 209, 223, 231, 240, 253, 288, 294, 301, 325, 337, 338, 339, 387, 394, 400, 414, 428, 488]",498,protcompass/structures/go/pdb/6fki_E.pdb
+5ybb_D,valid,"[159, 207, 257, 353]",390,protcompass/structures/go/pdb/5ybb_D.pdb
+1s29_A,valid,[463],89,protcompass/structures/go/pdb/1s29_A.pdb
+6fo0_T,valid,"[0, 107, 109, 116]",74,protcompass/structures/go/pdb/6fo0_T.pdb
+1qyc_A,valid,[39],307,protcompass/structures/go/pdb/1qyc_A.pdb
+5xxb_L,valid,"[214, 397]",131,protcompass/structures/go/pdb/5xxb_L.pdb
+5xxb_J,valid,"[214, 397]",166,protcompass/structures/go/pdb/5xxb_J.pdb
+1fse_A,valid,[257],67,protcompass/structures/go/pdb/1fse_A.pdb
+5yii_A,valid,"[46, 51]",311,protcompass/structures/go/pdb/5yii_A.pdb
+6fg0_A,valid,"[199, 384]",346,protcompass/structures/go/pdb/6fg0_A.pdb
+1qhg_A,valid,"[9, 88, 98, 114, 124, 137, 153, 156, 215, 244, 253, 257, 337, 339, 390, 402, 440, 488]",622,protcompass/structures/go/pdb/1qhg_A.pdb
+5xrw_C,valid,"[137, 156, 244, 412, 440]",78,protcompass/structures/go/pdb/5xrw_C.pdb
+1si4_B,valid,"[23, 85, 123, 230, 238, 264, 357, 428, 445]",146,protcompass/structures/go/pdb/1si4_B.pdb
+1qgo_A,valid,"[50, 57, 199, 264]",257,protcompass/structures/go/pdb/1qgo_A.pdb
+1fc4_A,valid,"[74, 90, 205, 318, 378, 455, 482]",389,protcompass/structures/go/pdb/1fc4_A.pdb
+6gdt_A,valid,"[99, 121, 130]",566,protcompass/structures/go/pdb/6gdt_A.pdb
+1qnz_H,valid,"[19, 407, 478]",119,protcompass/structures/go/pdb/1qnz_H.pdb
+5ygq_A,valid,"[131, 136, 415]",341,protcompass/structures/go/pdb/5ygq_A.pdb
+1ffu_B,valid,"[178, 199, 333]",795,protcompass/structures/go/pdb/1ffu_B.pdb
+1qle_B,valid,"[22, 48, 107, 149, 199, 226, 269, 286, 325, 333, 338, 387, 394, 414, 428]",252,protcompass/structures/go/pdb/1qle_B.pdb
+6fs8_B,valid,[463],185,protcompass/structures/go/pdb/6fs8_B.pdb
+6g2j_Q,valid,"[28, 39, 261, 349, 470]",125,protcompass/structures/go/pdb/6g2j_Q.pdb
+5xz4_A,valid,"[199, 201, 227, 253, 274, 345, 384]",167,protcompass/structures/go/pdb/5xz4_A.pdb
+1rif_A,valid,"[9, 88, 98, 114, 253, 257, 337, 339, 488]",282,protcompass/structures/go/pdb/1rif_A.pdb
+1ril_A,valid,"[8, 14, 159, 207, 210, 353, 399, 401, 423]",147,protcompass/structures/go/pdb/1ril_A.pdb
+6g2j_l,valid,"[28, 39, 261, 349, 470]",152,protcompass/structures/go/pdb/6g2j_l.pdb
+1g8w_A,valid,"[67, 191, 356]",233,protcompass/structures/go/pdb/1g8w_A.pdb
+1g6p_A,valid,[257],66,protcompass/structures/go/pdb/1g6p_A.pdb
+1gji_A,valid,"[38, 185, 257]",275,protcompass/structures/go/pdb/1gji_A.pdb
+1ght_A,valid,"[124, 257]",105,protcompass/structures/go/pdb/1ght_A.pdb
+1g9l_A,valid,[463],144,protcompass/structures/go/pdb/1g9l_A.pdb
+5xyi_R,valid,"[214, 397]",118,protcompass/structures/go/pdb/5xyi_R.pdb
+6fz6_A,valid,"[11, 95, 160, 233, 270, 276, 277, 293, 307, 370, 406, 421, 423, 463, 471]",340,protcompass/structures/go/pdb/6fz6_A.pdb
+5xyi_Q,valid,"[214, 397, 463]",133,protcompass/structures/go/pdb/5xyi_Q.pdb
+1rh7_A,valid,"[62, 258, 331, 407, 436, 441]",81,protcompass/structures/go/pdb/1rh7_A.pdb
+1rhc_A,valid,[228],330,protcompass/structures/go/pdb/1rhc_A.pdb
+6fz3_A,valid,"[74, 183, 205]",387,protcompass/structures/go/pdb/6fz3_A.pdb
+1r73_A,valid,"[214, 397]",66,protcompass/structures/go/pdb/1r73_A.pdb
+1rr7_A,valid,[257],94,protcompass/structures/go/pdb/1rr7_A.pdb
+5xxu_L,valid,"[214, 397]",147,protcompass/structures/go/pdb/5xxu_L.pdb
+6gaw_Ak,valid,"[214, 397]",275,protcompass/structures/go/pdb/6gaw_Ak.pdb
+1gpm_A,valid,"[9, 13, 88, 98, 114, 137, 156, 195, 244, 253, 337, 339, 377, 378, 488]",501,protcompass/structures/go/pdb/1gpm_A.pdb
+6gaw_BD,valid,"[214, 397]",240,protcompass/structures/go/pdb/6gaw_BD.pdb
+1ru2_A,valid,"[9, 42, 88, 98, 114, 253, 294, 337, 339, 399, 488]",146,protcompass/structures/go/pdb/1ru2_A.pdb
+1rv6_V,valid,"[62, 258, 291, 407, 436, 441]",94,protcompass/structures/go/pdb/1rv6_V.pdb
+1qz9_A,valid,"[90, 318, 455]",404,protcompass/structures/go/pdb/1qz9_A.pdb
+1got_G,valid,"[137, 156, 234, 244, 440]",58,protcompass/structures/go/pdb/1got_G.pdb
+6fw4_A,valid,[428],101,protcompass/structures/go/pdb/6fw4_A.pdb
+1g25_A,valid,"[24, 62, 133, 158, 464]",65,protcompass/structures/go/pdb/1g25_A.pdb
+1roe_A,valid,"[107, 293, 297, 370]",97,protcompass/structures/go/pdb/1roe_A.pdb
+6g72_q,valid,"[28, 39, 107, 261, 349, 470]",143,protcompass/structures/go/pdb/6g72_q.pdb
+1r4w_A,valid,"[17, 115, 188, 230, 238, 315, 357, 474]",221,protcompass/structures/go/pdb/1r4w_A.pdb
+1r4i_A,valid,"[38, 185, 199, 257, 300, 384]",74,protcompass/structures/go/pdb/1r4i_A.pdb
+1fz2_A,valid,"[49, 228, 341]",511,protcompass/structures/go/pdb/1fz2_A.pdb
+1fyb_A,valid,"[24, 62, 163, 290, 295, 346, 426, 443]",111,protcompass/structures/go/pdb/1fyb_A.pdb
+6gaq_A,valid,"[253, 375, 488]",146,protcompass/structures/go/pdb/6gaq_A.pdb
+1r20_D,valid,"[16, 32, 38, 122, 157, 172, 174, 179, 185, 257, 439]",228,protcompass/structures/go/pdb/1r20_D.pdb
+1w27_A,valid,"[57, 85, 128, 313, 324]",689,protcompass/structures/go/pdb/1w27_A.pdb
+1i4j_A,valid,"[11, 214, 397, 463]",110,protcompass/structures/go/pdb/1i4j_A.pdb
+5x9w_A,valid,"[9, 88, 98, 114, 152, 253, 257, 260, 337, 339, 488]",771,protcompass/structures/go/pdb/5x9w_A.pdb
+5x8t_Q,valid,"[214, 397]",118,protcompass/structures/go/pdb/5x8t_Q.pdb
+6eri_BQ,valid,"[214, 397]",84,protcompass/structures/go/pdb/6eri_BQ.pdb
+6eri_BO,valid,"[214, 397]",72,protcompass/structures/go/pdb/6eri_BO.pdb
+5xa5_A,valid,"[104, 219, 229, 249, 267, 452]",248,protcompass/structures/go/pdb/5xa5_A.pdb
+1ppy_A,valid,"[57, 252, 411]",117,protcompass/structures/go/pdb/1ppy_A.pdb
+1i6q_A,valid,"[35, 36, 47, 81, 192, 475]",689,protcompass/structures/go/pdb/1i6q_A.pdb
+5x8r_m,valid,"[214, 397, 463]",110,protcompass/structures/go/pdb/5x8r_m.pdb
+1i5d_A,valid,[294],190,protcompass/structures/go/pdb/1i5d_A.pdb
+1i4g_A,valid,"[356, 407]",224,protcompass/structures/go/pdb/1i4g_A.pdb
+6ha7_C,valid,"[32, 62, 253, 258, 291, 407, 436, 441]",152,protcompass/structures/go/pdb/6ha7_C.pdb
+1hy5_A,valid,"[24, 62, 158, 186, 259, 344]",115,protcompass/structures/go/pdb/1hy5_A.pdb
+1hy8_A,valid,[168],76,protcompass/structures/go/pdb/1hy8_A.pdb
+5z6h_A,valid,"[121, 130]",505,protcompass/structures/go/pdb/5z6h_A.pdb
+6eu6_A,valid,"[22, 325, 338, 387, 394, 414, 428]",405,protcompass/structures/go/pdb/6eu6_A.pdb
+5z6t_A,valid,"[30, 311, 463, 483, 487]",317,protcompass/structures/go/pdb/5z6t_A.pdb
+1prz_A,valid,"[250, 432, 463]",242,protcompass/structures/go/pdb/1prz_A.pdb
+6ha8_s,valid,"[11, 214, 397, 463]",78,protcompass/structures/go/pdb/6ha8_s.pdb
+1pm7_A,valid,"[75, 250, 420]",199,protcompass/structures/go/pdb/1pm7_A.pdb
+6hn6_A,valid,"[122, 157, 172, 199, 257, 384]",238,protcompass/structures/go/pdb/6hn6_A.pdb
+6en1_A,valid,[257],316,protcompass/structures/go/pdb/6en1_A.pdb
+1p9k_A,valid,[463],79,protcompass/structures/go/pdb/1p9k_A.pdb
+5zgb_A,valid,"[3, 95, 107, 264, 293, 370, 399]",741,protcompass/structures/go/pdb/5zgb_A.pdb
+1tmq_A,valid,"[121, 130, 135]",470,protcompass/structures/go/pdb/1tmq_A.pdb
+5zgm_A,valid,[135],109,protcompass/structures/go/pdb/5zgm_A.pdb
+1pew_A,valid,[19],108,protcompass/structures/go/pdb/1pew_A.pdb
+1ece_A,valid,"[121, 130]",358,protcompass/structures/go/pdb/1ece_A.pdb
+1i8t_A,valid,"[136, 250, 432]",367,protcompass/structures/go/pdb/1i8t_A.pdb
+6erf_B,valid,"[257, 260, 300]",521,protcompass/structures/go/pdb/6erf_B.pdb
+6heh_A,valid,"[35, 71, 80, 127, 192, 245, 280, 475]",339,protcompass/structures/go/pdb/6heh_A.pdb
+1pjz_A,valid,"[160, 233, 276]",201,protcompass/structures/go/pdb/1pjz_A.pdb
+1ea9_C,valid,"[121, 130]",583,protcompass/structures/go/pdb/1ea9_C.pdb
+1e8v_A,valid,"[69, 121, 130, 177, 265, 409]",447,protcompass/structures/go/pdb/1e8v_A.pdb
+1ph1_B,valid,"[257, 300]",217,protcompass/structures/go/pdb/1ph1_B.pdb
+1pgj_A,valid,"[30, 415, 483]",478,protcompass/structures/go/pdb/1pgj_A.pdb
+1e5r_A,valid,"[228, 310]",260,protcompass/structures/go/pdb/1e5r_A.pdb
+1puj_A,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 463, 488]",261,protcompass/structures/go/pdb/1puj_A.pdb
+1t1i_A,valid,"[35, 36, 47, 81, 192, 243, 386, 475]",357,protcompass/structures/go/pdb/1t1i_A.pdb
+1he9_A,valid,"[24, 62, 158, 186, 259, 344]",131,protcompass/structures/go/pdb/1he9_A.pdb
+5yu8_H,valid,"[104, 249, 267, 452]",164,protcompass/structures/go/pdb/5yu8_H.pdb
+1f2n_A,valid,[214],189,protcompass/structures/go/pdb/1f2n_A.pdb
+6f9p_A,valid,"[228, 310]",347,protcompass/structures/go/pdb/6f9p_A.pdb
+6fah_C,valid,"[136, 283, 392, 462]",379,protcompass/structures/go/pdb/6fah_C.pdb
+5xmj_A,valid,"[136, 462]",622,protcompass/structures/go/pdb/5xmj_A.pdb
+6f8h_A,valid,[257],96,protcompass/structures/go/pdb/6f8h_A.pdb
+5yw2_A,valid,"[457, 468]",178,protcompass/structures/go/pdb/5yw2_A.pdb
+1f1c_A,valid,"[107, 199, 264, 266, 445]",129,protcompass/structures/go/pdb/1f1c_A.pdb
+6gwu_A,valid,"[57, 199, 204, 287, 355, 384]",208,protcompass/structures/go/pdb/6gwu_A.pdb
+6fao_A,valid,"[121, 130]",286,protcompass/structures/go/pdb/6fao_A.pdb
+1f3l_A,valid,"[160, 276]",321,protcompass/structures/go/pdb/1f3l_A.pdb
+1sj7_A,valid,[214],167,protcompass/structures/go/pdb/1sj7_A.pdb
+6fdf_A,valid,"[124, 160, 233, 270, 276, 307, 406, 421, 423, 463]",325,protcompass/structures/go/pdb/6fdf_A.pdb
+6gov_N,valid,"[64, 185, 242, 257, 463]",110,protcompass/structures/go/pdb/6gov_N.pdb
+5ypv_A,valid,"[74, 110, 205]",314,protcompass/structures/go/pdb/5ypv_A.pdb
+5yqs_A,valid,"[121, 130]",754,protcompass/structures/go/pdb/5yqs_A.pdb
+5xjm_A,valid,"[107, 122, 172, 197, 199, 264, 266, 445, 465]",375,protcompass/structures/go/pdb/5xjm_A.pdb
+6gxc_A,valid,"[342, 399, 457]",706,protcompass/structures/go/pdb/6gxc_A.pdb
+6f1e_A,valid,"[1, 62, 170, 224, 258, 377, 382, 407, 436, 441]",143,protcompass/structures/go/pdb/6f1e_A.pdb
+6ezl_A,valid,"[46, 51, 90, 318, 455]",392,protcompass/structures/go/pdb/6ezl_A.pdb
+6f3t_E,valid,"[382, 383]",93,protcompass/structures/go/pdb/6f3t_E.pdb
+6h2m_A,valid,"[67, 191]",237,protcompass/structures/go/pdb/6h2m_A.pdb
+1hkt_A,valid,"[38, 185, 257, 300]",106,protcompass/structures/go/pdb/1hkt_A.pdb
+5xip_A,valid,"[9, 55, 88, 98, 114, 253, 307, 322, 337, 339, 378, 423, 488]",471,protcompass/structures/go/pdb/5xip_A.pdb
+5z09_A,valid,"[68, 74, 183, 205, 294, 404, 482]",401,protcompass/structures/go/pdb/5z09_A.pdb
+1sur_A,valid,[188],215,protcompass/structures/go/pdb/1sur_A.pdb
+1hml_A,valid,"[135, 296, 342, 457]",123,protcompass/structures/go/pdb/1hml_A.pdb
+1pzd_A,valid,[214],271,protcompass/structures/go/pdb/1pzd_A.pdb
+1evs_A,valid,"[1, 62, 224, 258, 407, 436, 441]",163,protcompass/structures/go/pdb/1evs_A.pdb
+5z1l_A,valid,[214],199,protcompass/structures/go/pdb/5z1l_A.pdb
+6otu_A,valid,"[37, 250, 450]",517,protcompass/structures/go/pdb/6otu_A.pdb
+6co6_A,valid,[248],293,protcompass/structures/go/pdb/6co6_A.pdb
+1wov_A,valid,"[228, 264, 445]",244,protcompass/structures/go/pdb/1wov_A.pdb
+6qzo_A,valid,"[230, 238, 264, 357, 445]",361,protcompass/structures/go/pdb/6qzo_A.pdb
+1a3q_A,valid,"[38, 185, 257]",285,protcompass/structures/go/pdb/1a3q_A.pdb
+5uq6_A,valid,"[105, 199, 247, 266, 353, 422, 425]",301,protcompass/structures/go/pdb/5uq6_A.pdb
+1alc_A,valid,"[135, 296, 342, 457]",122,protcompass/structures/go/pdb/1alc_A.pdb
+6cn0_A,valid,"[160, 233, 276, 277, 421, 423, 471]",269,protcompass/structures/go/pdb/6cn0_A.pdb
+6nu3_AC,valid,"[214, 397, 463]",132,protcompass/structures/go/pdb/6nu3_AC.pdb
+1m9s_A,valid,"[32, 61, 227, 253, 368]",523,protcompass/structures/go/pdb/1m9s_A.pdb
+6blj_A,valid,"[9, 55, 88, 98, 114, 253, 307, 322, 337, 339, 378, 423, 488]",473,protcompass/structures/go/pdb/6blj_A.pdb
+1m90_N,valid,"[11, 214, 397, 463]",194,protcompass/structures/go/pdb/1m90_N.pdb
+6cmz_A,valid,"[39, 107, 136, 188, 347]",462,protcompass/structures/go/pdb/6cmz_A.pdb
+1x2l_A,valid,[257],101,protcompass/structures/go/pdb/1x2l_A.pdb
+1b35_C,valid,[214],282,protcompass/structures/go/pdb/1b35_C.pdb
+1w7i_B,valid,[135],145,protcompass/structures/go/pdb/1w7i_B.pdb
+1w55_A,valid,"[57, 218, 294, 404]",369,protcompass/structures/go/pdb/1w55_A.pdb
+1l5a_A,valid,"[195, 378]",424,protcompass/structures/go/pdb/1l5a_A.pdb
+6ccf_A,valid,"[9, 42, 88, 98, 114, 253, 262, 282, 294, 337, 339, 475, 488]",260,protcompass/structures/go/pdb/6ccf_A.pdb
+1koq_A,valid,"[57, 199, 204, 287, 355, 384]",222,protcompass/structures/go/pdb/1koq_A.pdb
+6nt4_B,valid,"[62, 221, 232, 292, 356, 363, 365, 476]",64,protcompass/structures/go/pdb/6nt4_B.pdb
+6c0e_A,valid,"[30, 385, 399, 483]",419,protcompass/structures/go/pdb/6c0e_A.pdb
+1wk9_A,valid,"[9, 52, 55, 88, 98, 114, 253, 307, 322, 337, 339, 353, 378, 423, 488]",143,protcompass/structures/go/pdb/1wk9_A.pdb
+1mfq_C,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 463, 488]",108,protcompass/structures/go/pdb/1mfq_C.pdb
+5uf2_A,valid,"[37, 250, 450]",223,protcompass/structures/go/pdb/5uf2_A.pdb
+6bmq_A,valid,"[30, 57, 287, 355, 415, 483]",498,protcompass/structures/go/pdb/6bmq_A.pdb
+1llu_A,valid,"[30, 199, 384, 483]",341,protcompass/structures/go/pdb/1llu_A.pdb
+1lti_A,valid,[356],185,protcompass/structures/go/pdb/1lti_A.pdb
+6con_A,valid,[248],292,protcompass/structures/go/pdb/6con_A.pdb
+1wyw_A,valid,"[124, 130, 303, 367]",216,protcompass/structures/go/pdb/1wyw_A.pdb
+6cg9_A,valid,"[37, 250, 328, 450]",249,protcompass/structures/go/pdb/6cg9_A.pdb
+1mhd_A,valid,"[38, 185]",123,protcompass/structures/go/pdb/1mhd_A.pdb
+6cgm_A,valid,"[9, 88, 98, 114, 253, 321, 337, 339, 488]",657,protcompass/structures/go/pdb/6cgm_A.pdb
+6o7w_C,valid,"[9, 22, 48, 88, 98, 114, 217, 253, 255, 305, 317, 325, 337, 338, 339, 380, 387, 394, 414, 428, 480, 488]",593,protcompass/structures/go/pdb/6o7w_C.pdb
+1aso_A,valid,"[116, 199, 333]",552,protcompass/structures/go/pdb/1aso_A.pdb
+1m56_C,valid,"[22, 48, 107, 149, 226, 269, 286, 325, 338, 387, 394, 414, 428]",265,protcompass/structures/go/pdb/1m56_C.pdb
+6bka_A,valid,"[312, 341]",373,protcompass/structures/go/pdb/6bka_A.pdb
+6qsp_A,valid,"[74, 110, 205]",399,protcompass/structures/go/pdb/6qsp_A.pdb
+5umd_a,valid,"[214, 397]",106,protcompass/structures/go/pdb/5umd_a.pdb
+1ws7_A,valid,[107],107,protcompass/structures/go/pdb/1ws7_A.pdb
+1miw_A,valid,"[9, 88, 98, 114, 253, 270, 294, 307, 337, 339, 381, 399, 404, 423, 463, 488]",385,protcompass/structures/go/pdb/1miw_A.pdb
+1lg9_A,valid,"[199, 228, 264, 266, 341, 445]",377,protcompass/structures/go/pdb/1lg9_A.pdb
+1wfg_A,valid,"[154, 242, 254, 389, 479]",131,protcompass/structures/go/pdb/1wfg_A.pdb
+1wfy_A,valid,"[24, 62, 73, 158, 171, 186, 249, 259, 344]",104,protcompass/structures/go/pdb/1wfy_A.pdb
+1avg_I,valid,"[24, 62, 163, 290, 295, 346, 426, 443]",142,protcompass/structures/go/pdb/1avg_I.pdb
+1wdz_A,valid,"[82, 102, 249]",231,protcompass/structures/go/pdb/1wdz_A.pdb
+1ksg_A,valid,"[88, 114, 137, 142, 148, 156, 176, 222, 234, 244, 253, 314, 337, 359, 437, 440, 488]",180,protcompass/structures/go/pdb/1ksg_A.pdb
+1aoh_A,valid,[191],143,protcompass/structures/go/pdb/1aoh_A.pdb
+1llf_A,valid,"[52, 353, 435]",534,protcompass/structures/go/pdb/1llf_A.pdb
+6bro_B,valid,"[175, 475, 484]",614,protcompass/structures/go/pdb/6bro_B.pdb
+1ldm_A,valid,"[30, 483]",329,protcompass/structures/go/pdb/1ldm_A.pdb
+1aor_A,valid,"[95, 107, 178, 293, 370]",605,protcompass/structures/go/pdb/1aor_A.pdb
+1mkp_A,valid,"[146, 247, 353, 425, 473, 475]",144,protcompass/structures/go/pdb/1mkp_A.pdb
+5u84_A,valid,"[274, 345]",352,protcompass/structures/go/pdb/5u84_A.pdb
+1wql_A,valid,"[199, 266, 293, 297, 310, 370]",436,protcompass/structures/go/pdb/1wql_A.pdb
+5um2_A,valid,"[22, 61, 118, 217, 255, 305, 317, 338, 387, 428, 447, 480]",316,protcompass/structures/go/pdb/5um2_A.pdb
+1lk5_A,valid,"[37, 250, 450]",229,protcompass/structures/go/pdb/1lk5_A.pdb
+1m4g_A,valid,"[68, 74, 183, 205, 482]",181,protcompass/structures/go/pdb/1m4g_A.pdb
+1agx_A,valid,"[274, 345]",331,protcompass/structures/go/pdb/1agx_A.pdb
+6c55_A,valid,"[30, 399, 415, 483]",326,protcompass/structures/go/pdb/6c55_A.pdb
+1lrw_A,valid,"[30, 135]",600,protcompass/structures/go/pdb/1lrw_A.pdb
+1l5p_A,valid,"[107, 293, 370]",93,protcompass/structures/go/pdb/1l5p_A.pdb
+6c6b_A,valid,"[9, 42, 88, 98, 114, 253, 262, 294, 337, 339, 488]",197,protcompass/structures/go/pdb/6c6b_A.pdb
+6cfe_A,valid,[32],141,protcompass/structures/go/pdb/6cfe_A.pdb
+1md6_A,valid,"[1, 62, 180, 224, 258, 407, 436, 441]",154,protcompass/structures/go/pdb/1md6_A.pdb
+1x0p_A,valid,"[122, 136, 172, 283]",142,protcompass/structures/go/pdb/1x0p_A.pdb
+192l_A,valid,"[121, 130, 201, 469]",162,protcompass/structures/go/pdb/192l_A.pdb
+1wo8_A,valid,"[57, 236, 355]",126,protcompass/structures/go/pdb/1wo8_A.pdb

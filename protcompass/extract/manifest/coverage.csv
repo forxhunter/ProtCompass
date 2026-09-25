@@ -1,0 +1,3 @@
+task,rows in the official splits,"length 1..600, standard residues only",structure file exists and its sequence equals the task sequence,duplicate sequences within a split removed,sequences shared with a later split removed (test > valid > train),train_with_length_ok,train_final,train_stage1,valid_with_length_ok,valid_final,valid_stage1,test_with_length_ok,test_final,test_stage1,valid_source,mean_plddt,manifest_sha256
+fluorescence,54025,54025,54025,54025,54025,21446,21446,6000,5362,5362,1500,27217,27217,3000,official,44.5,2c1670afaf7b4fbe
+solubility,69331,66563,8109,8109,8109,53460,5417,5417,6564,1363,1363,6539,1329,1329,official,78.2,d693bb9f355b01f4

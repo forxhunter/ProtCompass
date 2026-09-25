@@ -1,0 +1,36 @@
+{
+ "encoder": "esm_if1",
+ "family": "registry",
+ "target": "esm_if",
+ "weights": "pretrained",
+ "rule": "GVP-Transformer encoder output before decoding",
+ "env": "base",
+ "weights_sha256": "0edb76de890a0108",
+ "n_parameters": 141662150,
+ "task": "ppi_affinity",
+ "date": "2026-09-19 19:34",
+ "seconds": 120.2,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 2589,
+  "numerical_rank": 511,
+  "max_abs": 0.9645476937294006
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 1.5038823543675324,
+  "rel_change_coord_swap": 0.4455433979368485,
+  "rel_change_seq_shuffle": 3.707824160810826e-07,
+  "rel_change_rigid_motion": 1.1028912382388506e-05,
+  "verdict": "pass"
+ }
+}

@@ -1,0 +1,9 @@
+task,concept,encoders_positive,n,mean_effect,p_holm,significant
+stability,amino-acid composition,0,2,-0.02979316928993695,1.0,False
+stability,burial and packing,2,2,0.1241096512828727,1.0,False
+stability,charge,2,2,0.0242257343241076,1.0,False
+stability,contact order,1,1,0.1185251524495546,1.0,False
+stability,global shape,2,2,0.0542637196366361,1.0,False
+stability,hydrophobic fraction,0,2,-0.08882387276829154,1.0,False
+stability,secondary structure content,2,2,0.07070131891369305,1.0,False
+stability,size,0,2,-0.0571290109160804,1.0,False

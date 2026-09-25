@@ -1,0 +1,7 @@
+task,encoder,probe,seed,metric,score,val_loss,n_train,n_test,dim,n_out
+solubility,ref_composition,linear,0,AUROC,0.6054909447280019,0.5878585577011108,5417,1329,23,2
+solubility,ref_composition,linear,1,AUROC,0.6055362635744107,0.5761048793792725,5417,1329,23,2
+solubility,ref_composition,linear,2,AUROC,0.5997382836619894,0.5954326391220093,5417,1329,23,2
+solubility,ref_composition,mlp2,0,AUROC,0.5945124541854787,0.5617247819900513,5417,1329,23,2
+solubility,ref_composition,mlp2,1,AUROC,0.5772516385595405,0.5583237409591675,5417,1329,23,2
+solubility,ref_composition,mlp2,2,AUROC,0.5906178658222254,0.5570024251937866,5417,1329,23,2

@@ -1,0 +1,2 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+fluorescence,gearnet_pretrained,positive control,the task label itself,1,8,0.3699388565504994,-0.02311182155983612,0.35542582115519017,0.37853764271502627

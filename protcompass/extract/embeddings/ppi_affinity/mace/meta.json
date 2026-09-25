@@ -1,0 +1,37 @@
+{
+ "encoder": "mace",
+ "family": "registry",
+ "target": "mace",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "e8e9d6fd9722cc4e",
+ "n_parameters": 584064,
+ "task": "ppi_affinity",
+ "date": "2026-09-19 18:52",
+ "seconds": 18.8,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 2589,
+  "numerical_rank": 127,
+  "max_abs": 1.0207737684249878
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.014915865242322838,
+  "rel_change_coord_swap": 0.05683945173750876,
+  "rel_change_seq_shuffle": 0.0523291422188011,
+  "rel_change_rigid_motion": 1.3602486243731065e-07,
+  "verdict": "pass"
+ }
+}

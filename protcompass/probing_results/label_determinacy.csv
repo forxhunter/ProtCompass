@@ -1,0 +1,14 @@
+label,determined by the input,derivation,max error over 400 domains,unit
+phi,yes,"dihedral of C(i-1), N(i), CA(i), C(i)",5.157152825163713e-05,rad
+psi,yes,"dihedral of N(i), CA(i), C(i), N(i+1)",4.9473522965914896e-05,rad
+local curvature,yes,angle between consecutive CA-CA vectors,1.3158132101231956e-05,rad
+contact density,yes,count of CA within 8 A,0.0,count
+core / surface,yes,"CB neighbours within 10 A, threshold 20",0.0,label
+radius of gyration,yes,sqrt of the trace of the CA gyration tensor,1.8603120821580887e-06,A
+asphericity,yes,gyration-tensor invariant,2.0280955659313094e-07,unitless
+CA distance bins,yes,the CA-CA distance itself,9.316786446333936e-06,A
+contact order,yes,mean sequence separation of contacts over length,,derived from the contact map
+DSSP-3 / DSSP-8,yes,"DSSP hydrogen-bond energies use N, CA, C, O",,mkdssp reads the same atoms
+"RSA, RSA bins",no,freesasa uses side-chain atoms beyond CB,,
+B-factor,no,"experimental refinement quantity, not geometry",,
+fold architecture,no,CATH database label,,

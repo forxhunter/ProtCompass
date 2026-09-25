@@ -1,0 +1,41 @@
+{
+ "encoder": "gvp",
+ "family": "patched",
+ "target": "gvp_inproc",
+ "weights": "random",
+ "rule": "scalar channels + vector norms (invariant), masked mean",
+ "env": "base",
+ "weights_sha256": "4199962f00f771e2",
+ "seed": 20260919,
+ "n_parameters": 476935,
+ "inputs_passed": "backbone coordinates and residue identity",
+ "patch": "patched/gvp_inproc.py",
+ "task": "stability",
+ "date": "2026-09-19 19:00",
+ "seconds": 90.0,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/stability.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 116,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 115,
+  "max_abs": 2.8747527599334717
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.031185454351663002,
+  "rel_change_coord_swap": 0.006320141648041101,
+  "rel_change_seq_shuffle": 0.0027774650952451995,
+  "rel_change_rigid_motion": 8.275581229078682e-08,
+  "verdict": "pass"
+ }
+}

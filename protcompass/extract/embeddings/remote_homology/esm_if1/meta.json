@@ -1,0 +1,38 @@
+{
+ "encoder": "esm_if1",
+ "family": "registry",
+ "target": "esm_if",
+ "weights": "pretrained",
+ "rule": "GVP-Transformer encoder output before decoding",
+ "env": "base",
+ "weights_sha256": "0edb76de890a0108",
+ "n_parameters": 141662150,
+ "task": "remote_homology",
+ "date": "2026-09-20 11:27",
+ "seconds": 165.8,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/remote_homology.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 480,
+  "train": 6000,
+  "valid": 506
+ },
+ "health": {
+  "n_rows": 6986,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 6986,
+  "numerical_rank": 511,
+  "max_abs": 1.1939232349395752
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 1.5038821683720154,
+  "rel_change_coord_swap": 0.4455433658448733,
+  "rel_change_seq_shuffle": 3.688018042013385e-07,
+  "rel_change_rigid_motion": 1.1035746150230329e-05,
+  "verdict": "pass"
+ }
+}

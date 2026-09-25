@@ -1,0 +1,38 @@
+{
+ "encoder": "esm_if1",
+ "family": "registry",
+ "target": "esm_if",
+ "weights": "pretrained",
+ "rule": "GVP-Transformer encoder output before decoding",
+ "env": "base",
+ "weights_sha256": "0edb76de890a0108",
+ "n_parameters": 141662150,
+ "task": "go_mf",
+ "date": "2026-09-20 13:11",
+ "seconds": 331.0,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/go_mf.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2904,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10404,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10404,
+  "numerical_rank": 511,
+  "max_abs": 1.2861385345458984
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 1.5038823538036952,
+  "rel_change_coord_swap": 0.4455433640719881,
+  "rel_change_seq_shuffle": 3.639419831034964e-07,
+  "rel_change_rigid_motion": 1.104376318091359e-05,
+  "verdict": "pass"
+ }
+}

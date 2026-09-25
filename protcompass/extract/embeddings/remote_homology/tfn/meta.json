@@ -1,0 +1,39 @@
+{
+ "encoder": "tfn",
+ "family": "registry",
+ "target": "tfn",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "b07ce6d9887ef8db",
+ "n_parameters": 250880,
+ "task": "remote_homology",
+ "date": "2026-09-20 11:16",
+ "seconds": 35.3,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/remote_homology.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 480,
+  "train": 6000,
+  "valid": 506
+ },
+ "health": {
+  "n_rows": 6986,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 6986,
+  "numerical_rank": 127,
+  "max_abs": 4.0769500732421875
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.03591845664260404,
+  "rel_change_coord_swap": 0.08890220571531798,
+  "rel_change_seq_shuffle": 0.15717390618985286,
+  "rel_change_rigid_motion": 1.1080414874236863e-07,
+  "verdict": "pass"
+ }
+}

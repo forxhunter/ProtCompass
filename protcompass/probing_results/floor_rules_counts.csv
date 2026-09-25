@@ -1,0 +1,9 @@
+rule,coordinates,sum,count,sum_informative,count_informative
+admissible,False,0,110,0,90
+admissible,True,231,245,186,200
+both,False,0,110,0,90
+both,True,231,245,186,200
+released,False,0,110,0,90
+released,True,233,245,188,200
+validation,False,0,110,0,90
+validation,True,233,245,188,200

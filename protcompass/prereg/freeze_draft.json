@@ -1,0 +1,1796 @@
+{
+  "written_utc": "2026-09-23T21:18:22Z",
+  "status": "draft for the synthetic pipeline check",
+  "claim": "Empirical prediction. Under the pre-specified reference family and evaluation protocol below, labels determined by an encoder's audited input are predicted to yield predominantly non-positive encoder-minus-reference gaps (G_ref <= 0), whereas labels not determined by that input are predicted to yield predominantly positive gaps. This is a prediction about this reference family, not a consequence of the definition: a label that is a function of the input need not be recovered by a fixed descriptor and a finite probe.",
+  "labels": {
+    "primary": {
+      "hbond_count": "backbone hydrogen bonds the residue takes part in (DSSP energy < -0.5 kcal/mol, amide H from the backbone), classes 0, 1, 2+",
+      "chi1_class": "chi1 rotamer class g- [0,120), t [120,240), g+ [240,360)",
+      "chi2_class": "chi2 rotamer class for R K Q E M I L W, same bins"
+    },
+    "control": {
+      "ca_dihedral": "CA(i-1) CA(i) CA(i+1) CA(i+2) virtual dihedral as (sin, cos); positive control, excluded from the headline"
+    },
+    "descriptive": {
+      "sc_contacts": "residues with a side-chain heavy atom within 4.5 A of this residue's side chain; reported only"
+    },
+    "dropped": {
+      "hse_up": "duplicates the CB-neighbour count (Spearman 0.88)",
+      "sc_rsa": "duplicates RSA (0.965)",
+      "sc_polar_hbond": "3.5 A N/O criterion without angles and with His/Asn/Gln flip ambiguity"
+    },
+    "metric": {
+      "hbond_count": "balanced_accuracy",
+      "chi1_class": "balanced_accuracy",
+      "chi2_class": "balanced_accuracy",
+      "ca_dihedral": "circ_cos",
+      "sc_contacts": "pearson"
+    },
+    "sha256": {
+      "labels_released.h5": "7d667f215211a75ad9ddb0254e393db83329b207123db1ddb51fbca1e7ec193a",
+      "labels_cohortB.h5": "c0e9aa00327939b84c398d9299d68f962a697f3d16548ec0dd93634bf5cb295a",
+      "labels_cohortB_merged.h5": "fc4da3ceee887fc6cc73f99ac6e447b2c6b8589b3fdd8a9de82ab21e12771fa4"
+    }
+  },
+  "determinacy": {
+    "definition": "determined: the label is reconstructed exactly from the atoms the encoder is measured to read (agreement >= 0.99999, angle error <= 1e-4); undetermined: an executable construction changes the label with every read atom fixed; not_established otherwise. not_established cells do not enter H1-H4 and are reported descriptively. No approximate category is used.",
+    "checks": [
+      {
+        "check": "hbond@N+CA+C+O",
+        "kind": "reconstruction",
+        "statistic": "min per-domain agreement",
+        "value": 1.0,
+        "mean": 1.0,
+        "passes": true,
+        "n": 200
+      },
+      {
+        "check": "hbond@N+CA+C(ideal O)",
+        "kind": "reconstruction",
+        "statistic": "min per-domain agreement",
+        "value": 0.8695652173913043,
+        "mean": 0.975300861308378,
+        "passes": false,
+        "n": 200
+      },
+      {
+        "check": "ca_dihedral@CA",
+        "kind": "reconstruction",
+        "statistic": "max abs error",
+        "value": 2.9802210366192128e-08,
+        "mean": 2.9629844435774544e-08,
+        "passes": true,
+        "n": 200
+      },
+      {
+        "check": "chi1@full",
+        "kind": "reconstruction",
+        "statistic": "min per-domain agreement",
+        "value": 1.0,
+        "mean": 1.0,
+        "passes": true,
+        "n": 200
+      },
+      {
+        "check": "chi2@full",
+        "kind": "reconstruction",
+        "statistic": "min per-domain agreement",
+        "value": 1.0,
+        "mean": 1.0,
+        "passes": true,
+        "n": 200
+      },
+      {
+        "check": "hbond@CA peptide-plane rotation",
+        "kind": "construction",
+        "statistic": "share of domains where the label changes",
+        "value": 0.99,
+        "mean": 0.99,
+        "passes": true,
+        "n": 200
+      },
+      {
+        "check": "chi1@N+CA+C+O+CB side-chain rotation",
+        "kind": "construction",
+        "statistic": "share of domains where the label changes",
+        "value": 1.0,
+        "mean": 1.0,
+        "passes": true,
+        "n": 200
+      },
+      {
+        "check": "chi2@N+CA+C+O+CB side-chain rotation",
+        "kind": "construction",
+        "statistic": "share of domains where the label changes",
+        "value": 1.0,
+        "mean": 1.0,
+        "passes": true,
+        "n": 200
+      },
+      {
+        "check": "ca_dihedral@sequence crankshaft",
+        "kind": "construction",
+        "statistic": "share of domains where the label changes",
+        "value": 1.0,
+        "mean": 1.0,
+        "passes": true,
+        "n": 200
+      }
+    ],
+    "map": [
+      {
+        "encoder": "ankh_base",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ankh_base",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ankh_base",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ankh_base",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ankh_base",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "cdconv",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "cdconv",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "cdconv",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "cdconv",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "cdconv",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "dimenet",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "dimenet",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "dimenet",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "dimenet",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "dimenet",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm1b",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm1b",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm1b",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm1b",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm1b",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm2_150m",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_150m",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_150m",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_150m",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_150m",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm2_35m",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_35m",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_35m",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_35m",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_35m",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm2_3b",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_3b",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_3b",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_3b",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_3b",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm2_650m",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_650m",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_650m",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_650m",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_650m",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm2_8m",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_8m",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_8m",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_8m",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm2_8m",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm3",
+        "input": "N+CA+C",
+        "label": "hbond_count",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm3",
+        "input": "N+CA+C",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm3",
+        "input": "N+CA+C",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm3",
+        "input": "N+CA+C",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "esm3",
+        "input": "N+CA+C",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm_if1",
+        "input": "N+CA+C",
+        "label": "hbond_count",
+        "status": "not_established"
+      },
+      {
+        "encoder": "esm_if1",
+        "input": "N+CA+C",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm_if1",
+        "input": "N+CA+C",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "esm_if1",
+        "input": "N+CA+C",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "esm_if1",
+        "input": "N+CA+C",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "foldseek_3di",
+        "input": "N+CA+CB",
+        "label": "hbond_count",
+        "status": "not_established"
+      },
+      {
+        "encoder": "foldseek_3di",
+        "input": "N+CA+CB",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "foldseek_3di",
+        "input": "N+CA+CB",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "foldseek_3di",
+        "input": "N+CA+CB",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "foldseek_3di",
+        "input": "N+CA+CB",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "foldvision",
+        "input": "full",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "foldvision",
+        "input": "full",
+        "label": "chi1_class",
+        "status": "determined"
+      },
+      {
+        "encoder": "foldvision",
+        "input": "full",
+        "label": "chi2_class",
+        "status": "determined"
+      },
+      {
+        "encoder": "foldvision",
+        "input": "full",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "foldvision",
+        "input": "full",
+        "label": "sc_contacts",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_pretrained",
+        "input": "full",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_pretrained",
+        "input": "full",
+        "label": "chi1_class",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_pretrained",
+        "input": "full",
+        "label": "chi2_class",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_pretrained",
+        "input": "full",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_pretrained",
+        "input": "full",
+        "label": "sc_contacts",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_random",
+        "input": "full",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_random",
+        "input": "full",
+        "label": "chi1_class",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_random",
+        "input": "full",
+        "label": "chi2_class",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_random",
+        "input": "full",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "gcpnet_random",
+        "input": "full",
+        "label": "sc_contacts",
+        "status": "determined"
+      },
+      {
+        "encoder": "gearnet",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gearnet",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gearnet",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gearnet",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "gearnet",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "gearnet_pretrained",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gearnet_pretrained",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gearnet_pretrained",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gearnet_pretrained",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "gearnet_pretrained",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "gvp",
+        "input": "N+CA+C",
+        "label": "hbond_count",
+        "status": "not_established"
+      },
+      {
+        "encoder": "gvp",
+        "input": "N+CA+C",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gvp",
+        "input": "N+CA+C",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "gvp",
+        "input": "N+CA+C",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "gvp",
+        "input": "N+CA+C",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "ipa",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ipa",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ipa",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ipa",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "ipa",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "ipa_pretrained",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ipa_pretrained",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ipa_pretrained",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "ipa_pretrained",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "ipa_pretrained",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "mace",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "mace",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "mace",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "mace",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "mace",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "pottsmpnn",
+        "input": "N+CA+C+O",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn",
+        "input": "N+CA+C+O",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn",
+        "input": "N+CA+C+O",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn",
+        "input": "N+CA+C+O",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn",
+        "input": "N+CA+C+O",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "pottsmpnn_ft",
+        "input": "N+CA+C+O",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn_ft",
+        "input": "N+CA+C+O",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn_ft",
+        "input": "N+CA+C+O",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn_ft",
+        "input": "N+CA+C+O",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn_ft",
+        "input": "N+CA+C+O",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "pottsmpnn_pretrained",
+        "input": "N+CA+C+O",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn_pretrained",
+        "input": "N+CA+C+O",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn_pretrained",
+        "input": "N+CA+C+O",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn_pretrained",
+        "input": "N+CA+C+O",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn_pretrained",
+        "input": "N+CA+C+O",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "pottsmpnn_soluble",
+        "input": "N+CA+C+O",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn_soluble",
+        "input": "N+CA+C+O",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn_soluble",
+        "input": "N+CA+C+O",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "pottsmpnn_soluble",
+        "input": "N+CA+C+O",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "pottsmpnn_soluble",
+        "input": "N+CA+C+O",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "prostt5",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prostt5",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prostt5",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prostt5",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prostt5",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "protbert_bfd",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "protbert_bfd",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "protbert_bfd",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "protbert_bfd",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "protbert_bfd",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "proteinmpnn",
+        "input": "N+CA+C+O",
+        "label": "hbond_count",
+        "status": "determined"
+      },
+      {
+        "encoder": "proteinmpnn",
+        "input": "N+CA+C+O",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "proteinmpnn",
+        "input": "N+CA+C+O",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "proteinmpnn",
+        "input": "N+CA+C+O",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "proteinmpnn",
+        "input": "N+CA+C+O",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "prottrans_t5_xl_u50",
+        "input": "sequence",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prottrans_t5_xl_u50",
+        "input": "sequence",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prottrans_t5_xl_u50",
+        "input": "sequence",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prottrans_t5_xl_u50",
+        "input": "sequence",
+        "label": "ca_dihedral",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "prottrans_t5_xl_u50",
+        "input": "sequence",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "saprot",
+        "input": "N+CA+CB",
+        "label": "hbond_count",
+        "status": "not_established"
+      },
+      {
+        "encoder": "saprot",
+        "input": "N+CA+CB",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "saprot",
+        "input": "N+CA+CB",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "saprot",
+        "input": "N+CA+CB",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "saprot",
+        "input": "N+CA+CB",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "schnet",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "schnet",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "schnet",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "schnet",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "schnet",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "tfn",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "tfn",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "tfn",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "tfn",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "tfn",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      },
+      {
+        "encoder": "tfn_pretrained",
+        "input": "CA",
+        "label": "hbond_count",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "tfn_pretrained",
+        "input": "CA",
+        "label": "chi1_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "tfn_pretrained",
+        "input": "CA",
+        "label": "chi2_class",
+        "status": "undetermined"
+      },
+      {
+        "encoder": "tfn_pretrained",
+        "input": "CA",
+        "label": "ca_dihedral",
+        "status": "determined"
+      },
+      {
+        "encoder": "tfn_pretrained",
+        "input": "CA",
+        "label": "sc_contacts",
+        "status": "not_established"
+      }
+    ],
+    "audits": {
+      "encoder_atom_audit.csv": "fb81938cdf2748a9039fdcb8d825a0fd0fc9d80076f6a6ad606681c93de14468",
+      "encoder_sidechain_audit.csv": "9744bb2a97216a5f5848cab3db821511fb3c448ba53ebef98eca9232a6e6c911"
+    }
+  },
+  "panel_residue": [
+    "ankh_base",
+    "cdconv",
+    "dimenet",
+    "esm1b",
+    "esm2_150m",
+    "esm2_35m",
+    "esm2_3b",
+    "esm2_650m",
+    "esm2_8m",
+    "esm3",
+    "esm_if1",
+    "foldseek_3di",
+    "gcpnet_pretrained",
+    "gcpnet_random",
+    "gearnet",
+    "gearnet_pretrained",
+    "gvp",
+    "ipa",
+    "ipa_pretrained",
+    "mace",
+    "pottsmpnn",
+    "pottsmpnn_ft",
+    "pottsmpnn_pretrained",
+    "pottsmpnn_soluble",
+    "prostt5",
+    "protbert_bfd",
+    "proteinmpnn",
+    "prottrans_t5_xl_u50",
+    "saprot",
+    "schnet",
+    "tfn",
+    "tfn_pretrained"
+  ],
+  "panel_excluded": {
+    "foldvision": "no residue-level embeddings (one vector per protein), so no residue label can be probed"
+  },
+  "families": {
+    "ankh_base": "Ankh",
+    "cdconv": "CDConv",
+    "dimenet": "DimeNet++",
+    "esm1b": "ESM-1b",
+    "esm2_150m": "ESM-2",
+    "esm2_35m": "ESM-2",
+    "esm2_3b": "ESM-2",
+    "esm2_650m": "ESM-2",
+    "esm2_8m": "ESM-2",
+    "esm3": "ESM3",
+    "esm_if1": "ESM-IF",
+    "foldseek_3di": "Foldseek",
+    "gcpnet_pretrained": "GCPNet",
+    "gcpnet_random": "GCPNet",
+    "gearnet": "GearNet",
+    "gearnet_pretrained": "GearNet",
+    "gvp": "GVP",
+    "ipa": "IPA",
+    "ipa_pretrained": "IPA",
+    "mace": "MACE",
+    "pottsmpnn": "PottsMPNN",
+    "pottsmpnn_ft": "PottsMPNN",
+    "pottsmpnn_pretrained": "PottsMPNN",
+    "pottsmpnn_soluble": "PottsMPNN",
+    "prostt5": "ProstT5",
+    "protbert_bfd": "ProtTrans",
+    "proteinmpnn": "ProteinMPNN",
+    "prottrans_t5_xl_u50": "ProtTrans",
+    "saprot": "SaProt",
+    "schnet": "SchNet",
+    "tfn": "TFN",
+    "tfn_pretrained": "TFN"
+  },
+  "floors": [
+    "ref_length",
+    "ref_position",
+    "ref_aa",
+    "ref_seq_window",
+    "ref_seq_expert",
+    "ref_seq_global",
+    "ref_coords",
+    "ref_pairhist",
+    "ref_backbone@CA",
+    "ref_global@CA",
+    "ref_backbone@N+CA+C",
+    "ref_global@N+CA+C",
+    "ref_backbone@N+CA+C+O",
+    "ref_global@N+CA+C+O",
+    "ref_backbone@N+CA+CB",
+    "ref_global@N+CA+CB",
+    "ref_backbone",
+    "ref_global",
+    "ref_atom_neighborhood@CA",
+    "ref_atom_neighborhood@N+CA+C",
+    "ref_atom_neighborhood@N+CA+C+O",
+    "ref_atom_neighborhood@N+CA+CB",
+    "ref_atom_neighborhood@full",
+    "ref_allatom_local"
+  ],
+  "floor_atoms": {
+    "ref_coords": [
+      "CA"
+    ],
+    "ref_pairhist": [
+      "CA"
+    ],
+    "ref_backbone@CA": [
+      "CA"
+    ],
+    "ref_global@CA": [
+      "CA"
+    ],
+    "ref_backbone@N+CA+C": [
+      "C",
+      "CA",
+      "N"
+    ],
+    "ref_global@N+CA+C": [
+      "C",
+      "CA",
+      "N"
+    ],
+    "ref_backbone@N+CA+C+O": [
+      "C",
+      "CA",
+      "N",
+      "O"
+    ],
+    "ref_global@N+CA+C+O": [
+      "C",
+      "CA",
+      "N",
+      "O"
+    ],
+    "ref_backbone@N+CA+CB": [
+      "CA",
+      "CB",
+      "N"
+    ],
+    "ref_global@N+CA+CB": [
+      "CA",
+      "CB",
+      "N"
+    ],
+    "ref_backbone": [
+      "C",
+      "CA",
+      "CB",
+      "N",
+      "O"
+    ],
+    "ref_global": [
+      "C",
+      "CA",
+      "CB",
+      "N",
+      "O"
+    ],
+    "ref_atom_neighborhood@CA": [
+      "CA"
+    ],
+    "ref_atom_neighborhood@N+CA+C": [
+      "C",
+      "CA",
+      "N"
+    ],
+    "ref_atom_neighborhood@N+CA+C+O": [
+      "C",
+      "CA",
+      "N",
+      "O"
+    ],
+    "ref_atom_neighborhood@N+CA+CB": [
+      "CA",
+      "CB",
+      "N"
+    ],
+    "ref_atom_neighborhood@full": [
+      "full"
+    ],
+    "ref_allatom_local": [
+      "full",
+      "identity"
+    ]
+  },
+  "admissible_floors": {
+    "ankh_base": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "cdconv": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "dimenet": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "esm1b": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "esm2_150m": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "esm2_35m": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "esm2_3b": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "esm2_650m": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "esm2_8m": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "esm3": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C"
+    ],
+    "esm_if1": [
+      "ref_length",
+      "ref_position",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C"
+    ],
+    "foldseek_3di": [
+      "ref_length",
+      "ref_position",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+CB",
+      "ref_global@N+CA+CB",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+CB"
+    ],
+    "gcpnet_pretrained": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_backbone@N+CA+C+O",
+      "ref_global@N+CA+C+O",
+      "ref_backbone@N+CA+CB",
+      "ref_global@N+CA+CB",
+      "ref_backbone",
+      "ref_global",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C",
+      "ref_atom_neighborhood@N+CA+C+O",
+      "ref_atom_neighborhood@N+CA+CB",
+      "ref_atom_neighborhood@full",
+      "ref_allatom_local"
+    ],
+    "gcpnet_random": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_backbone@N+CA+C+O",
+      "ref_global@N+CA+C+O",
+      "ref_backbone@N+CA+CB",
+      "ref_global@N+CA+CB",
+      "ref_backbone",
+      "ref_global",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C",
+      "ref_atom_neighborhood@N+CA+C+O",
+      "ref_atom_neighborhood@N+CA+CB",
+      "ref_atom_neighborhood@full",
+      "ref_allatom_local"
+    ],
+    "gearnet": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "gearnet_pretrained": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "gvp": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C"
+    ],
+    "ipa": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "ipa_pretrained": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "mace": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "pottsmpnn": [
+      "ref_length",
+      "ref_position",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_backbone@N+CA+C+O",
+      "ref_global@N+CA+C+O",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C",
+      "ref_atom_neighborhood@N+CA+C+O"
+    ],
+    "pottsmpnn_ft": [
+      "ref_length",
+      "ref_position",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_backbone@N+CA+C+O",
+      "ref_global@N+CA+C+O",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C",
+      "ref_atom_neighborhood@N+CA+C+O"
+    ],
+    "pottsmpnn_pretrained": [
+      "ref_length",
+      "ref_position",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_backbone@N+CA+C+O",
+      "ref_global@N+CA+C+O",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C",
+      "ref_atom_neighborhood@N+CA+C+O"
+    ],
+    "pottsmpnn_soluble": [
+      "ref_length",
+      "ref_position",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_backbone@N+CA+C+O",
+      "ref_global@N+CA+C+O",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C",
+      "ref_atom_neighborhood@N+CA+C+O"
+    ],
+    "prostt5": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "protbert_bfd": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "proteinmpnn": [
+      "ref_length",
+      "ref_position",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+C",
+      "ref_global@N+CA+C",
+      "ref_backbone@N+CA+C+O",
+      "ref_global@N+CA+C+O",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+C",
+      "ref_atom_neighborhood@N+CA+C+O"
+    ],
+    "prottrans_t5_xl_u50": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "saprot": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_backbone@N+CA+CB",
+      "ref_global@N+CA+CB",
+      "ref_atom_neighborhood@CA",
+      "ref_atom_neighborhood@N+CA+CB"
+    ],
+    "schnet": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "tfn": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ],
+    "tfn_pretrained": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global",
+      "ref_coords",
+      "ref_pairhist",
+      "ref_backbone@CA",
+      "ref_global@CA",
+      "ref_atom_neighborhood@CA"
+    ]
+  },
+  "admissibility_rule": "an encoder is held to every floor built only from inputs it is measured to read: length and position always; residue-identity floors if it reads residue identity; a coordinate floor if the floor's atoms are a subset of the encoder's audited atoms (full = side chains read, encoder_sidechain_audit.csv)",
+  "readout": {
+    "families": [
+      "linear (closed-form ridge for angle and count, softmax for classes)",
+      "mlp2 (two hidden layers of 128, seeds 0 1 2, mean)"
+    ],
+    "fitting": "train part; ridge alpha and MLP early stopping on the validation part, as in the released suite",
+    "selection": "for encoders and floors alike: the family with the higher validation headline score, ties to linear; the reference is the admissible floor with the highest validation score; test scores are read only after both choices",
+    "split": "released superfamily split, seed-0 draw of 3,000 train, 500 validation and 1,000 test domains"
+  },
+  "hypotheses": {
+    "unit": "an (architecture family, label, status) triple; G_ref averaged over the family's members of that status",
+    "H1": "among determined units on the primary labels, the share with G_ref <= 0 is at least 0.80",
+    "H2": "among undetermined units on the primary labels, the share with G_ref > 0 is at least 0.80",
+    "H3": "Delta_G = mean G_ref over undetermined units minus mean over determined units is > 0, and the 95% interval of a bootstrap resampling architecture families (10,000 draws, seed 0) excludes 0",
+    "H4": "on cohort B (proteins frozen before reading, confirmation2/freeze.json) with the cohort panel below: Delta_G^B > 0 and at least 80% of primary cells have the predicted sign",
+    "threshold_note": "0.80 is a pre-specified tolerance for exceptions and measurement noise, not a fitted estimate of the released rate; the shares at every threshold from 0.50 to 1.00 are reported descriptively",
+    "cell_intervals": "protein-level paired bootstrap, 1,000 draws, seed 0; encoder and floor on the same resampled proteins"
+  },
+  "cohort_B_panel": [
+    "esm2_650m",
+    "prottrans_t5_xl_u50",
+    "ankh_base",
+    "esm3",
+    "esm_if1",
+    "proteinmpnn",
+    "gcpnet_pretrained",
+    "gcpnet_random"
+  ],
+  "cohort_B_note": "the six encoders frozen for cohort B plus GCPNet (pretrained and random), added before scoring so that the side-chain labels have a determined arm on cohort B; the six-encoder subset is reported alongside",
+  "interpretation": {
+    "H1 H2 H3 H4 hold": "a prospective confirmation of the prediction",
+    "H1 H2 H3 hold, H4 fails": "generalisation to new labels on the development proteins holds; external replication on new proteins does not",
+    "H3 holds, an 80% sign rule fails": "determinacy predicts a graded shift in the gap, not a binary sign",
+    "determined side fails, undetermined side holds": "input determinacy alone is insufficient to predict floor dominance",
+    "undetermined side fails": "encoders do not generally infer missing label information beyond the fixed descriptors",
+    "hbond_count alone fails": "reported as a frozen failure on that label, with an analysis of descriptor sufficiency; it is not removed from the headline",
+    "chi1 or chi2 fails for the full-atom encoders": "even when the input determines side-chain geometry, the representation and readout may not keep it accessible",
+    "the whole test fails": "the central claim that determinacy predicts the sign is dropped; the matched-reference measurement framework is kept"
+  },
+  "development_context": "released labels under admissible floors chosen on validation: 231/245 determined cells of coordinate encoders at or below the floor and 0/110 for sequence-only encoders; with the encoder readout chosen either way the count lies between 231 and 237 of 245, and stays 0/110 (probing_results/floor_rules_cells.csv)",
+  "protocol_assertions": {
+    "admissible_floors_within_audited_input": true,
+    "encoder_readout_selected_on_validation_only": true,
+    "floor_and_floor_readout_selected_on_validation_only": true,
+    "all_determinacy_checks_used_pass_or_cell_not_established": true,
+    "panel_encoders_have_residue_embeddings": true,
+    "families_defined": true,
+    "admissible_lists_nonempty": true
+  },
+  "code_sha256": {
+    "prereg_labels.py": "1e790cf190956e813d007991215f72a005f00e77b6d067c399d8b1b590d59da3",
+    "prereg_chi2.py": "8e1fb711fe4cfbdb85cf250f0d6a19358a27c7e9f99fe11ee805d7a374882de6",
+    "prereg_floors.py": "8d84e41f5b3a4bbfea08a1debc8913277e5e0511513f9108e1e9472671127728",
+    "prereg_determinacy.py": "988698bbd5063f35bb64039cc5462b80c41a520c85e3e029e60e3a7ac13a858b",
+    "prereg_run.py": "d4d3aa39bdc6e18efecf58769c053c1adb620616542e4e8ff02d42ace6a87de5",
+    "prereg_decide.py": "43080c48c461db631802c1364b335b97132b5c512818e6aedca0f462df31d8b0",
+    "prereg_freeze.py": "c787375945864c3641b23984a27adf82e7755ab4e0d838f7ae036eeee2704cf4",
+    "prereg_merge_cohortB.py": "ec0764abeab5ee0e4ccf6f1e942b32fc95426683a5840d45df320921739624cb",
+    "run_probing_suite.py": "c022086dcbe24f2cc87190919999dc4972f87cbdbc9fc7b962db48fd00c34a42",
+    "atom_matched_floors.py": "8319fe781b387fedff5e04a4eeb34017fca93abdaff8047b8a2e32f0e4b31d04",
+    "family_weighted_demand.py": "93260707bae4c8a9a93233f2f5420e909b24500caa99e9c7c833582c18bd836a",
+    "panel.py": "f822de291c0d654df99560ea88197c1fbf64290d8fa6be94e8e68ab506f52a17",
+    "confirmation_merge.py": "9bde3e47bbaa6b74ee4dd670390c69074de04065d77542422abb481e2938ac11"
+  },
+  "floor_cache_sha256": {
+    "ref_allatom_local__test.npy": "63d6f52d67b9bad12e29f198790a473a9d0306a4ddc5883d548dd5160ac8cede",
+    "ref_allatom_local__train.npy": "6d7c70a59691422214f7208bda04f22caa360e31098ac093eb3b02d842ae7531",
+    "ref_allatom_local__val.npy": "6c17f8be7487fbe564f6792d08fc48b9af2cd17b0c8c3eb242a8abeafa06808c",
+    "ref_atom_neighborhood@CA__test.npy": "5522aab5ac8ccf5ea5d80c63fd29664855a560d6af2820bf0b306b3a702894f2",
+    "ref_atom_neighborhood@CA__train.npy": "3e67a9b0f07108fd5525302d28301b4bdd69165274f8b3357aa00d594724838e",
+    "ref_atom_neighborhood@CA__val.npy": "a1d8d0feb91a7fddf0807e5f36f82d8a54b0d80318a58ccf6821199e30dc67fd",
+    "ref_atom_neighborhood@N+CA+C+O__test.npy": "a0b3b62b696472be15f03071f71dc3ee94b9e2f9ed097b724ca2265326e9ecef",
+    "ref_atom_neighborhood@N+CA+C+O__train.npy": "79437edf167be8ac02bcc012b7981fd8f836dcfd6254b759ab6413f1c87eaf71",
+    "ref_atom_neighborhood@N+CA+C+O__val.npy": "6c95c055110b781c1e2c3ce20f75def73bb9723c3f83424c6bb0adee214e1f9e",
+    "ref_atom_neighborhood@N+CA+CB__test.npy": "aa6bcd01681d2cff989d6dc33dae2ab6a822ad12e5e50bde9c0ca9b92fa3298c",
+    "ref_atom_neighborhood@N+CA+CB__train.npy": "0a3fcb9bceb7b39d68b9d69337439f324ec3b8fb690570b06f3271c84b42dc19",
+    "ref_atom_neighborhood@N+CA+CB__val.npy": "cea86ef0db29a69166002ab1144449c5f04fcc54958ea8bc4fdaef59daf3f1c2",
+    "ref_atom_neighborhood@N+CA+C__test.npy": "dbad294c0d24e11691828cf5dd853f782291f7dc11b98cf9522ebaa486703a6b",
+    "ref_atom_neighborhood@N+CA+C__train.npy": "7949f7e995fc4e88834de08e20e47945fcf36a7ca7192db09a996bef85b8da23",
+    "ref_atom_neighborhood@N+CA+C__val.npy": "885e1da2b3ff95f422c73bd71cd6037eb43a4ea01b0f8cfa1310e8bc6a1903b3",
+    "ref_atom_neighborhood@full__test.npy": "91d688895737ec1bd689b36c8f3b2885a970af2895662d601c9d8416dbe02b79",
+    "ref_atom_neighborhood@full__train.npy": "d31aded058e943e222bec630d4378168f0be394c63ef52b8365bb8f85d9a41f3",
+    "ref_atom_neighborhood@full__val.npy": "915b60fc42dfe5ba13bd96ed382299efbc54feb022c20e41c46e1514d772905f"
+  }
+}

@@ -1,0 +1,7 @@
+task,encoder,probe,seed,metric,score,val_loss,n_train,n_test,dim,n_out
+ec_classification,ref_composition,linear,0,accuracy,0.0910344827586207,5.162250995635986,6000,2900,23,373
+ec_classification,ref_composition,linear,1,accuracy,0.08448275862068966,5.197963237762451,6000,2900,23,373
+ec_classification,ref_composition,linear,2,accuracy,0.08206896551724138,5.1639862060546875,6000,2900,23,373
+ec_classification,ref_composition,mlp2,0,accuracy,0.17896551724137932,5.337338447570801,6000,2900,23,373
+ec_classification,ref_composition,mlp2,1,accuracy,0.16275862068965516,5.389767169952393,6000,2900,23,373
+ec_classification,ref_composition,mlp2,2,accuracy,0.13827586206896553,5.238015174865723,6000,2900,23,373

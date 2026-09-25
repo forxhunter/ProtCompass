@@ -1,0 +1,38 @@
+{
+ "encoder": "pottsmpnn_soluble",
+ "family": "registry",
+ "target": "pottsmpnn_soluble_pretrained",
+ "weights": "pretrained",
+ "rule": "encoder h_V, masked mean",
+ "env": "base",
+ "weights_sha256": "31f0aac7f4cefa1a",
+ "n_parameters": 1712085,
+ "task": "subcellular_localization",
+ "date": "2026-09-20 05:08",
+ "seconds": 43.4,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/subcellular_localization.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2473,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 9973,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 9973,
+  "numerical_rank": 127,
+  "max_abs": 2.0122992992401123
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.6675711994212048,
+  "rel_change_coord_swap": 0.17917227338286784,
+  "rel_change_seq_shuffle": 0.0,
+  "rel_change_rigid_motion": 1.4140547445011483e-07,
+  "verdict": "pass"
+ }
+}

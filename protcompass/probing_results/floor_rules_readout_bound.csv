@@ -1,0 +1,5 @@
+rule,coordinates,cells,below_best,below_worst,min_margin_worst
+released,False,110,0,0,0.002789162560857275
+released,True,245,233,237,
+both,False,110,0,0,0.002789162560857275
+both,True,245,231,237,

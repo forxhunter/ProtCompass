@@ -1,0 +1,38 @@
+{
+ "encoder": "pottsmpnn_soluble",
+ "family": "registry",
+ "target": "pottsmpnn_soluble_pretrained",
+ "weights": "pretrained",
+ "rule": "encoder h_V, masked mean",
+ "env": "base",
+ "weights_sha256": "31f0aac7f4cefa1a",
+ "n_parameters": 1712085,
+ "task": "solubility",
+ "date": "2026-09-19 21:38",
+ "seconds": 94.0,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/solubility.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 1329,
+  "train": 5417,
+  "valid": 1363
+ },
+ "health": {
+  "n_rows": 8109,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 8109,
+  "numerical_rank": 127,
+  "max_abs": 2.092064142227173
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.6675711994212048,
+  "rel_change_coord_swap": 0.17917227338286784,
+  "rel_change_seq_shuffle": 0.0,
+  "rel_change_rigid_motion": 1.4140547445011483e-07,
+  "verdict": "pass"
+ }
+}

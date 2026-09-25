@@ -1,0 +1,41 @@
+{
+ "encoder": "saprot",
+ "family": "patched",
+ "target": "saprot_hf",
+ "weights": "pretrained",
+ "rule": "final hidden states at the L residue positions of AA+3Di tokens",
+ "env": "base",
+ "checkpoint": "westlake-repl/SaProt_650M_AF2",
+ "checkpoint_revision": "d9b9ad00ef61c0990e611b2b43f2231c7de24b38",
+ "n_parameters": 651242901,
+ "inputs_passed": "amino-acid track: real sequence; 3Di track: real tokens from mini3di on the structure; no pLDDT masking",
+ "patch": "patched/saprot_hf.py",
+ "task": "subcellular_localization",
+ "date": "2026-09-20 05:34",
+ "seconds": 454.5,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/subcellular_localization.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2473,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 9973,
+  "dim": 1280,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 9973,
+  "numerical_rank": 1279,
+  "max_abs": 1.595617651939392
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.8705030813272382,
+  "rel_change_coord_swap": 0.4102216970171252,
+  "rel_change_seq_shuffle": 0.8413755808217256,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

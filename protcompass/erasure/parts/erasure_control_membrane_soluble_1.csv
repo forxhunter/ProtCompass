@@ -1,0 +1,3 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+membrane_soluble,esm2_650m,positive control,the task label itself,1,1,0.9059973880881569,0.4976335506749028,0.9081180770037368,0.41048452632883403
+membrane_soluble,prottrans_t5_xl_u50,positive control,the task label itself,1,1,0.9060968838175855,0.5846437576260199,0.906543125142988,0.321899367516968

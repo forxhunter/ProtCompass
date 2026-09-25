@@ -1,0 +1,38 @@
+{
+ "encoder": "foldseek_3di",
+ "family": "patched",
+ "target": "foldseek_3di",
+ "weights": "pretrained",
+ "rule": "one-hot 3Di state per residue; protein level is the state frequency",
+ "env": "base",
+ "tool": "mini3di 0.2.1",
+ "inputs_passed": "N, CA, C, CB coordinates",
+ "n_parameters": 0,
+ "patch": "patched/foldseek_3di.py",
+ "task": "ppi_affinity",
+ "date": "2026-09-19 19:26",
+ "seconds": 2.4,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 20,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 1380,
+  "numerical_rank": 19,
+  "max_abs": 0.6666666865348816
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.7178714286952135,
+  "rel_change_coord_swap": 0.49931369393859204,
+  "rel_change_seq_shuffle": 0.0,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+stability,saprot_seqonly,linear,0,1.0,spearman,0.6629806948884325,0.723448634147644,6000,3000,1280,1
+stability,saprot_seqonly,linear,1,1.0,spearman,0.6925378875482099,0.7253587245941162,6000,3000,1280,1
+stability,saprot_seqonly,linear,2,1.0,spearman,0.7149376641177968,0.7162200212478638,6000,3000,1280,1
+stability,saprot_seqonly,mlp2,0,1.0,spearman,0.7580133379643949,0.7137451171875,6000,3000,1280,1
+stability,saprot_seqonly,mlp2,1,1.0,spearman,0.747003429523938,0.7151941657066345,6000,3000,1280,1
+stability,saprot_seqonly,mlp2,2,1.0,spearman,0.7158711309461221,0.7110744714736938,6000,3000,1280,1

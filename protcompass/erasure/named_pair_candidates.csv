@@ -1,0 +1,19 @@
+task,concept
+fluorescence,amino-acid composition
+fluorescence,burial and packing
+fluorescence,global shape
+fluorescence,size
+go_bp,amino-acid composition
+go_mf,amino-acid composition
+go_mf,global shape
+membrane_soluble,amino-acid composition
+membrane_soluble,global shape
+membrane_soluble,secondary structure content
+membrane_soluble,size
+ppi_affinity,contact order
+ppi_affinity,secondary structure content
+solubility,amino-acid composition
+solubility,burial and packing
+solubility,global shape
+subcellular_localization,amino-acid composition
+subcellular_localization,burial and packing

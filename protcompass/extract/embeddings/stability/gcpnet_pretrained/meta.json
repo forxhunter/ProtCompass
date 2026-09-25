@@ -1,0 +1,43 @@
+{
+ "encoder": "gcpnet_pretrained",
+ "family": "patched",
+ "target": "gcpnet_official",
+ "weights": "pretrained",
+ "rule": "official PSR model; 100 scalar channels + 16 vector norms, mean over the heavy atoms of each residue",
+ "env": "base",
+ "checkpoint": "protcompass/external_repos/GCPNet/checkpoints/PSR/model_epoch_115_localpearson_0_616_localspearman_0_532_localkendall_0_385_globalpearson_0_871_globalspearman_0_869_globalkendall_0_676.ckpt",
+ "checkpoint_sha256": "ff7b73be01fb57d5",
+ "checkpoint_loaded_by": "strict=True",
+ "weights_sha256": "15bd126ac55f26a2",
+ "n_parameters": 1153181,
+ "inputs_passed": "all heavy atoms of the structure file (elements and coordinates); residue identity enters through side-chain atoms",
+ "patch": "patched/gcpnet_official.py",
+ "task": "stability",
+ "date": "2026-09-19 20:26",
+ "seconds": 474.0,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/stability.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 116,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 115,
+  "max_abs": 2.613701820373535
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.545786440372467,
+  "rel_change_coord_swap": 0.26095232367515564,
+  "rel_change_seq_shuffle": 0.03569233790040016,
+  "rel_change_rigid_motion": 0.0002571983786765486,
+  "verdict": "pass"
+ }
+}

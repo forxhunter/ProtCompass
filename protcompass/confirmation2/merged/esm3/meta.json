@@ -1,0 +1,39 @@
+{
+ "encoder": "esm3",
+ "family": "patched",
+ "target": "esm3_inproc",
+ "weights": "pretrained",
+ "rule": "final trunk residue embeddings, sequence and structure tracks",
+ "env": "base",
+ "checkpoint": "protcompass/esm3-sm-open-v1/data/weights/esm3_sm_open_v1.pth",
+ "dtype": "bfloat16",
+ "n_parameters": 1401735748,
+ "inputs_passed": "sequence track: true residues; structure track: VQ-VAE tokens from the real backbone (N, CA, C, O, CB) plus coordinates for geometric attention; function, SASA and secondary-structure tracks at their defaults",
+ "patch": "patched/esm3_inproc.py",
+ "dataset": "confirmation2/merged/labels.h5",
+ "date": "2026-09-23 13:22",
+ "seconds": 183.8,
+ "n_domains": 4816,
+ "dim": 1536,
+ "row_convention": "row r of residue_fp16.npy is row r of residue/* in the merged labels.h5",
+ "health": {
+  "n_rows": 1316,
+  "dim": 1536,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 1316,
+  "numerical_rank": 1315,
+  "max_abs": 9147.5693359375
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.509009407826544,
+  "rel_change_coord_swap": 0.4000935921683898,
+  "rel_change_seq_shuffle": 0.35550636124077734,
+  "rel_change_rigid_motion": 0.0018285819013779668,
+  "verdict": "pass"
+ },
+ "merged_from": [
+  "probing_embeddings/esm3",
+  "confirmation/embeddings/esm3"
+ ]
+}

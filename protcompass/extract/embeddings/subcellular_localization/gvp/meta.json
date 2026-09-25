@@ -1,0 +1,41 @@
+{
+ "encoder": "gvp",
+ "family": "patched",
+ "target": "gvp_inproc",
+ "weights": "random",
+ "rule": "scalar channels + vector norms (invariant), masked mean",
+ "env": "base",
+ "weights_sha256": "4199962f00f771e2",
+ "seed": 20260919,
+ "n_parameters": 476935,
+ "inputs_passed": "backbone coordinates and residue identity",
+ "patch": "patched/gvp_inproc.py",
+ "task": "subcellular_localization",
+ "date": "2026-09-20 05:04",
+ "seconds": 44.8,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/subcellular_localization.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2473,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 9973,
+  "dim": 116,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 9973,
+  "numerical_rank": 115,
+  "max_abs": 2.874041795730591
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.031185457816853324,
+  "rel_change_coord_swap": 0.006320132805021874,
+  "rel_change_seq_shuffle": 0.0027774664930066313,
+  "rel_change_rigid_motion": 8.429715441997498e-08,
+  "verdict": "pass"
+ }
+}

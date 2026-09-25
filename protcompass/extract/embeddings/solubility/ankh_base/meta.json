@@ -1,0 +1,43 @@
+{
+ "encoder": "ankh_base",
+ "family": "hf_plm",
+ "target": "ElnaggarLab/ankh-base",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "ElnaggarLab/ankh-base",
+ "checkpoint_revision": "d99cb6b966530dfc2ae96bc69d9255c2a07308b0",
+ "dtype": "float32",
+ "hidden_size": 768,
+ "n_layers": 48,
+ "n_parameters": 453170688,
+ "inputs_passed": "amino-acid sequence only",
+ "task": "solubility",
+ "date": "2026-09-19 21:25",
+ "seconds": 206.4,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/solubility.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 1329,
+  "train": 5417,
+  "valid": 1363
+ },
+ "health": {
+  "n_rows": 8109,
+  "dim": 768,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 8109,
+  "numerical_rank": 768,
+  "max_abs": 0.9213368892669678
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 0.5002829140921271,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

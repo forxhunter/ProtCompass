@@ -1,0 +1,25 @@
+planted,concept,mean_effect,n,p_holm,named,erasure_gate
+amino-acid composition,amino-acid composition,0.24959836585660855,12,0.05078125,False,False
+amino-acid composition,burial and packing,-0.004690328385345146,12,1.0,False,False
+amino-acid composition,charge,0.0019951053574808336,12,0.2314453125,False,False
+amino-acid composition,contact order,0.01385768213233505,12,0.2314453125,False,False
+amino-acid composition,global shape,-0.04125429360850174,12,0.05078125,False,False
+amino-acid composition,hydrophobic fraction,0.0021155914079052257,12,1.0,False,False
+amino-acid composition,secondary structure content,0.022730671784889463,12,0.583984375,False,False
+amino-acid composition,size,-0.004056420302565213,12,1.0,False,False
+global shape,amino-acid composition,0.06324215331085653,12,0.72998046875,False,False
+global shape,burial and packing,-0.053573384532845186,12,0.05078125,False,False
+global shape,charge,-0.009841366957682745,12,1.0,False,False
+global shape,contact order,0.000978152380288531,12,1.0,False,False
+global shape,global shape,-0.03731423999787851,12,0.27001953125,False,False
+global shape,hydrophobic fraction,-0.010048542474529411,12,1.0,False,False
+global shape,secondary structure content,-0.008038106214110568,12,1.0,False,False
+global shape,size,0.05275998586222064,12,0.27001953125,False,False
+none,amino-acid composition,-0.0023748524490576775,12,1.0,False,False
+none,burial and packing,0.001463094804541394,12,1.0,False,False
+none,charge,0.002088790491347091,12,1.0,False,False
+none,contact order,0.000854621465328308,12,1.0,False,False
+none,global shape,-0.0012100981838380684,12,1.0,False,False
+none,hydrophobic fraction,0.0010648860319009163,12,1.0,False,False
+none,secondary structure content,0.00138951880871197,12,1.0,False,False
+none,size,0.0007419977984935861,12,1.0,False,False

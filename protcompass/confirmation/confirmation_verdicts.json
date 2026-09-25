@@ -1,0 +1,36 @@
+{
+  "cohort": {
+    "rule": "in cath-dataset-nonredundant-S40-v4_4_0.list and absent from cath-domain-list-v4_3_0.txt",
+    "source_release": "CATH v4.4.0, file date 16.12.2024",
+    "candidates_before_sampling": 3324,
+    "overlap_with_anything_inspected": 0,
+    "sampling": "stratified by CATH architecture, floor of 10 per architecture, seed 20260922",
+    "n": 2000,
+    "architectures": 38,
+    "manifest": "confirmation/cohort_manifest.csv",
+    "manifest_sha256": "052e94c39a649f924704b631b716eeed82f5b96faa02122ca76a1af1bd0df06d",
+    "provenance": "experimental structures, the CATH domain PDB set; no predicted model enters the cohort",
+    "not_claimed": "topology-disjointness from the released training split, and absence from any encoder's pretraining corpus, neither of which this construction establishes"
+  },
+  "panel": [
+    "esm2_650m",
+    "prottrans_t5_xl_u50",
+    "ankh_base",
+    "esm3",
+    "esm_if1",
+    "proteinmpnn"
+  ],
+  "verdicts": {
+    "H1": false,
+    "H2": true,
+    "H3": true,
+    "H4": false
+  },
+  "detail": {
+    "H1": "coordinate encoders below their floor on the nine informative determined probes: esm3 6/9, esm_if1 7/9, proteinmpnn 8/9",
+    "H2": "sequence-only cells below the sequence floor: 0 of 27",
+    "H3": "best encoder minus best floor: B-factor +0.203, RSA +0.255, RSA bins +0.168",
+    "H4": "against ref_pairhist on fold architecture: esm_if1 +0.302, esm3 +0.381, esm2_650m +0.339"
+  },
+  "n_cells": 78
+}

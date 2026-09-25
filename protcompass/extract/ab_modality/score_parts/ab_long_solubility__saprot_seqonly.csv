@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+solubility,saprot_seqonly,linear,0,1.0,AUROC,0.7020200875786707,0.5777324438095093,5417,1329,1280,2
+solubility,saprot_seqonly,linear,1,1.0,AUROC,0.6993887620590618,0.6001616716384888,5417,1329,1280,2
+solubility,saprot_seqonly,linear,2,1.0,AUROC,0.693706911690563,0.5898913741111755,5417,1329,1280,2
+solubility,saprot_seqonly,mlp2,0,1.0,AUROC,0.7132081777858346,0.5289987921714783,5417,1329,1280,2
+solubility,saprot_seqonly,mlp2,1,1.0,AUROC,0.7191987627954932,0.5313815474510193,5417,1329,1280,2
+solubility,saprot_seqonly,mlp2,2,1.0,AUROC,0.7139955927421868,0.5375418663024902,5417,1329,1280,2

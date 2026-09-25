@@ -1,0 +1,4 @@
+task,encoder,check,concept,rank,base,after,random,effect
+remote_homology,esm2_650m,positive control,the task label itself,8,0.2375,0.20833333333333334,0.23125000000000004,0.022916666666666696
+remote_homology,esm2_650m,conditional,amino-acid composition,20,0.2375,0.25625,0.24375000000000002,-0.012499999999999956
+remote_homology,esm2_650m,conditional,global shape,3,0.2375,0.24583333333333332,0.23333333333333334,-0.012499999999999983

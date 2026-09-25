@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+ec_classification,esm3,linear,0,1.0,accuracy,0.79,1.4680451154708862,6000,2900,1536,373
+ec_classification,esm3,linear,1,1.0,accuracy,0.8089655172413793,1.4762670993804932,6000,2900,1536,373
+ec_classification,esm3,linear,2,1.0,accuracy,0.8058620689655173,1.518915057182312,6000,2900,1536,373
+ec_classification,esm3,mlp2,0,1.0,accuracy,0.7975862068965517,1.7582484483718872,6000,2900,1536,373
+ec_classification,esm3,mlp2,1,1.0,accuracy,0.8031034482758621,1.770351529121399,6000,2900,1536,373
+ec_classification,esm3,mlp2,2,1.0,accuracy,0.7682758620689655,1.7180086374282837,6000,2900,1536,373

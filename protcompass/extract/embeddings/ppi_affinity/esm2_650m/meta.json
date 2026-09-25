@@ -1,0 +1,41 @@
+{
+ "encoder": "esm2_650m",
+ "family": "hf_plm",
+ "target": "facebook/esm2_t33_650M_UR50D",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "facebook/esm2_t33_650M_UR50D",
+ "checkpoint_revision": "08e4846e537177426273712802403f7ba8261b6c",
+ "dtype": "float32",
+ "hidden_size": 1280,
+ "n_layers": 33,
+ "n_parameters": 650714261,
+ "inputs_passed": "amino-acid sequence only",
+ "task": "ppi_affinity",
+ "date": "2026-09-19 18:46",
+ "seconds": 25.6,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 1280,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 2589,
+  "numerical_rank": 1279,
+  "max_abs": 8.617515563964844
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 0.18661678857220632,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

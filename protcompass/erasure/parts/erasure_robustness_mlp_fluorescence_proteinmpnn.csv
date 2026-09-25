@@ -1,0 +1,2 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+fluorescence,proteinmpnn,positive control,the task label itself,1,8,0.37225301358785245,0.049515513307562334,0.3713034802061451,0.3217879668985828

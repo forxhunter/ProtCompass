@@ -1,0 +1,103 @@
+{
+  "written_utc": "2026-09-22T20:58:45+00:00",
+  "purpose": "confirmation of the released probing claims on proteins no part of this work has inspected",
+  "cohort": {
+    "rule": "in cath-dataset-nonredundant-S40-v4_4_0.list and absent from cath-domain-list-v4_3_0.txt",
+    "source_release": "CATH v4.4.0, file date 16.12.2024",
+    "candidates_before_sampling": 3324,
+    "overlap_with_anything_inspected": 0,
+    "sampling": "stratified by CATH architecture, floor of 10 per architecture, seed 20260922",
+    "n": 2000,
+    "architectures": 38,
+    "manifest": "confirmation/cohort_manifest.csv",
+    "manifest_sha256": "052e94c39a649f924704b631b716eeed82f5b96faa02122ca76a1af1bd0df06d",
+    "provenance": "experimental structures, the CATH domain PDB set; no predicted model enters the cohort",
+    "not_claimed": "topology-disjointness from the released training split, and absence from any encoder's pretraining corpus, neither of which this construction establishes"
+  },
+  "panel": [
+    "esm2_650m",
+    "prottrans_t5_xl_u50",
+    "ankh_base",
+    "esm3",
+    "esm_if1",
+    "proteinmpnn"
+  ],
+  "floors": {
+    "sequence": [
+      "ref_length",
+      "ref_position",
+      "ref_aa",
+      "ref_seq_window",
+      "ref_seq_expert",
+      "ref_seq_global"
+    ],
+    "coordinate": [
+      "ref_coords",
+      "ref_backbone",
+      "ref_global",
+      "ref_pairhist"
+    ]
+  },
+  "probes": {
+    "phi_circular": "determined",
+    "psi_circular": "determined",
+    "local_curvature": "determined",
+    "dssp_3": "determined",
+    "dssp_8": "determined",
+    "core_surface": "determined",
+    "contact_density": "tautological",
+    "distance_bins": "determined",
+    "contact_order_len_resid": "tautological",
+    "radius_of_gyration_len_resid": "determined",
+    "asphericity_len_resid": "determined",
+    "rsa": "undetermined",
+    "rsa_bins": "undetermined",
+    "bfactor": "undetermined",
+    "architecture_label": "not established"
+  },
+  "protocol": {
+    "fit_on": "probing_data/splits/superfamily_train.txt and superfamily_val.txt, v4.3, released embeddings",
+    "evaluate_on": "the cohort manifest written by this script, never used in fitting or selection",
+    "readouts": "closed-form ridge with the penalty chosen on the released validation split, and MLP-2 (width 128, at most 30 epochs, patience 3, seeds 0/1/2); the family is chosen on validation loss",
+    "aggregation": "mean over seeds within a readout family, then the better family, as in floor_vs_encoders.py",
+    "floor_assignment": "the measured input audit in extract/encoder_input_audit.csv, unchanged",
+    "no_refitting": "no descriptor, threshold, probe or readout rule may be changed after this file is written"
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "claim": "On the nine informative determined probes, every coordinate-reading encoder in the panel scores below the floor built from the atoms it receives.",
+      "released": "188 of 200 cells over 23 coordinate encoders",
+      "decision": "confirmed if both coordinate encoders fall below their floor on at least 7 of the 9 probes"
+    },
+    {
+      "id": "H2",
+      "claim": "On the nine informative determined probes, no sequence-only encoder in the panel falls below the sequence floor.",
+      "released": "0 of 90 cells over 10 sequence-only encoders",
+      "decision": "confirmed if 0 of the 27 sequence-only cells falls below the floor"
+    },
+    {
+      "id": "H3",
+      "claim": "On RSA, RSA bins and B-factor, some encoder in the panel beats every floor.",
+      "released": "+0.071, +0.119 and +0.073 over the full panel",
+      "decision": "confirmed if the best panel encoder exceeds the best floor on all three"
+    },
+    {
+      "id": "H4",
+      "claim": "On fold architecture, ESM-IF1, ESM3 and ProstT5 clear ref_pairhist and ESM2-650M does not. ProstT5 is outside this panel, so the prediction is tested for ESM-IF1 and ESM3.",
+      "released": "+0.055, +0.056 and +0.048 clear; ESM2-650M at -0.004 does not",
+      "decision": "confirmed if ESM-IF1 and ESM3 exceed ref_pairhist and ESM2-650M does not"
+    }
+  ],
+  "script_sha256": {
+    "confirmation_freeze.py": "53f55c2beea062786ffb0dc40a24927719c083ef5d1ebe220fd475e7d7f3cda3",
+    "floor_vs_encoders.py": "c3d3ef499685b4668d610675c2d9757c8368009081c799dbd0d4e045ce79e523",
+    "run_probing_suite.py": "f256885e0912332f1e09f51a5daf940e814e29fb804d01dfb021fc03f0c29c33",
+    "summarize_probing.py": "a15c9108d483ba492ed0abad532c3b49c309d566e3cb6ba54bb85fccd8d87774"
+  },
+  "input_sha256": {
+    "cath_domain_list_v4_4_0": "2f87544bb8844ff37ad1d9348dfe0a23a7c9e4837e0d207733935148e088cc81",
+    "s40_v4_4_0": "a4b32ed9738a45aacd3a2c0db8d4987704b56730da49ff9460deb4c55d6e4989",
+    "cath_domain_list_v4_3_0": "39ba309f1ce007bebb3c0b1338b97f31c4638f0fce012a10acf8ef21ad5c607e"
+  }
+}

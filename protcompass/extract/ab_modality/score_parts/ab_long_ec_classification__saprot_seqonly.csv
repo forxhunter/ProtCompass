@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+ec_classification,saprot_seqonly,linear,0,1.0,accuracy,0.4244827586206897,3.4781806468963623,6000,2900,1280,373
+ec_classification,saprot_seqonly,linear,1,1.0,accuracy,0.43137931034482757,3.5001018047332764,6000,2900,1280,373
+ec_classification,saprot_seqonly,linear,2,1.0,accuracy,0.4489655172413793,3.481440544128418,6000,2900,1280,373
+ec_classification,saprot_seqonly,mlp2,0,1.0,accuracy,0.39482758620689656,4.670764446258545,6000,2900,1280,373
+ec_classification,saprot_seqonly,mlp2,1,1.0,accuracy,0.39517241379310347,4.678582668304443,6000,2900,1280,373
+ec_classification,saprot_seqonly,mlp2,2,1.0,accuracy,0.3493103448275862,4.750300407409668,6000,2900,1280,373

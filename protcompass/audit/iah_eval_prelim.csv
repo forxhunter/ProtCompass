@@ -1,0 +1,11 @@
+setting,predictor,median_rho,median_r2,tasks_r2_pos,n_tasks,null_rho,null_r2,p_rho,p_r2,regret,top3
+new_encoder,modality,0.2727272727272727,0.9008836375536161,9.0,9.0,,,,,,
+new_encoder,cheap (modality+size+pretrained),0.33333333333333326,0.7101375931428118,9.0,9.0,,,,,,
+new_encoder,cheap + mean probe,0.6727272727272726,0.8537809624148562,8.0,9.0,,,,,,
+new_encoder,IIP profile,0.6969696969696969,0.7655463475235386,9.0,9.0,,,,,,
+new_encoder,cheap + IIP profile,0.6606060606060605,0.6651379870726757,9.0,9.0,,,,,,
+new_encoder,perm test: cheap + IIP,0.6606060606060605,0.6651379870726757,,,0.4721719114219114,0.5825030186133964,0.05472636815920398,0.3582089552238806,,
+new_task,no IIP: encoder mean over other tasks,0.507936507936508,,,2.0,,,,,0.03633926233863589,0.9833333333333334
+new_task,no IIP: 3 nearest tasks on pilot scores,0.4768650793650794,,,2.0,,,,,0.03626011044347802,0.9833333333333334
+new_task,"IIP: pooled ridge, no pilot information",0.6186507936507938,,,2.0,,,,,0.03593185366735331,1.0
+new_task,IIP: low-rank task demand fitted on pilots,0.4138888888888889,,,2.0,,,,,0.2324051571790216,0.8666666666666667

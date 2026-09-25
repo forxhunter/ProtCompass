@@ -1,0 +1,7 @@
+task,encoder,probe,seed,metric,score,val_loss,n_train,n_test,dim,n_out
+stability,ref_composition,linear,0,spearman,0.2366713286408913,0.9667603373527527,6000,3000,23,1
+stability,ref_composition,linear,1,spearman,0.18256307460614832,0.9759379029273987,6000,3000,23,1
+stability,ref_composition,linear,2,spearman,0.33375053255559106,0.9783456325531006,6000,3000,23,1
+stability,ref_composition,mlp2,0,spearman,0.10630780705316284,0.8896262645721436,6000,3000,23,1
+stability,ref_composition,mlp2,1,spearman,0.13143374257848903,0.8888219594955444,6000,3000,23,1
+stability,ref_composition,mlp2,2,spearman,0.03356957299899443,0.8797569870948792,6000,3000,23,1

@@ -1,0 +1,43 @@
+{
+ "encoder": "esm2_150m",
+ "family": "hf_plm",
+ "target": "facebook/esm2_t30_150M_UR50D",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "facebook/esm2_t30_150M_UR50D",
+ "checkpoint_revision": "a695f6045e2e32885fa60af20c13cb35398ce30c",
+ "dtype": "float32",
+ "hidden_size": 640,
+ "n_layers": 30,
+ "n_parameters": 148385241,
+ "inputs_passed": "amino-acid sequence only",
+ "task": "stability",
+ "date": "2026-09-19 18:43",
+ "seconds": 11.4,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/stability.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 640,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 639,
+  "max_abs": 7.328146934509277
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 0.23306057014528236,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

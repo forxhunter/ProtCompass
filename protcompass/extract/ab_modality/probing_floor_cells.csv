@@ -1,0 +1,61 @@
+probe,determined,source,rule,fam,S,floor,floor_family,floor_S,gap,lo,hi,state,state999
+phi_circular,True,esm3_seqonly,admissible = sequence floors,nonlinear,0.9158380736016417,ref_seq_expert,nonlinear,0.8173593047640676,0.09847876883757412,0.09494451347651259,0.1017629762110551,above,above
+phi_circular,True,saprot_seqonly,admissible = sequence floors,nonlinear,0.8649768514505766,ref_seq_expert,nonlinear,0.8173593047640676,0.04761754668650897,0.04503404750784657,0.05023328495907274,above,above
+phi_circular,True,esm3,admissible (released cell),nonlinear,0.9895019700730168,ref_global@N+CA+C,nonlinear,0.9969862363311136,-0.0074842662580967,-0.0080110599508044,-0.0069931673494481,below,below
+phi_circular,True,saprot,admissible (released cell),nonlinear,0.943339256262132,ref_backbone@N+CA+CB,nonlinear,0.9981181819359324,-0.0547789256738004,-0.0575066076153726,-0.0524214008150657,below,below
+psi_circular,True,esm3_seqonly,admissible = sequence floors,nonlinear,0.8404333508300209,ref_seq_expert,nonlinear,0.5066432177671131,0.33379013306290783,0.32437686467334687,0.34323940835924344,above,above
+psi_circular,True,saprot_seqonly,admissible = sequence floors,nonlinear,0.688354481356459,ref_seq_expert,nonlinear,0.5066432177671131,0.18171126358934597,0.17279635093636453,0.19106944663809675,above,above
+psi_circular,True,esm3,admissible (released cell),nonlinear,0.9871760776268804,ref_global@N+CA+C,nonlinear,0.9985408312300842,-0.0113647536032037,-0.0122287390008581,-0.0105575282156115,below,below
+psi_circular,True,saprot,admissible (released cell),nonlinear,0.9347377880029498,ref_backbone@N+CA+CB,nonlinear,0.9989707850569516,-0.0642329970540018,-0.0672391869155008,-0.0612635253292545,below,below
+local_curvature,True,esm3_seqonly,admissible = sequence floors,nonlinear,0.8549707269611484,ref_seq_expert,nonlinear,0.5190228427031528,0.3359478842579956,0.32695803430358156,0.3445347751026364,above,above
+local_curvature,True,saprot_seqonly,admissible = sequence floors,nonlinear,0.7143100238511678,ref_seq_expert,nonlinear,0.5190228427031528,0.19528718114801502,0.18701489896609286,0.2033999314689398,above,above
+local_curvature,True,esm3,admissible (released cell),nonlinear,0.9892014139718028,ref_global@N+CA+C,nonlinear,0.9996827135550808,-0.0104812995832781,-0.0110620630092623,-0.0099717691523047,below,below
+local_curvature,True,saprot,admissible (released cell),nonlinear,0.942842496515997,ref_global@N+CA+CB,nonlinear,0.99980111595332,-0.0569586194373228,-0.0587388768304114,-0.0552868090539169,below,below
+dssp_3,True,esm3_seqonly,admissible = sequence floors,nonlinear,0.8754842452681815,ref_seq_expert,nonlinear,0.6691337370328161,0.20635050823536538,0.20011449678344553,0.21221089334671084,above,above
+dssp_3,True,saprot_seqonly,admissible = sequence floors,nonlinear,0.7823545583640673,ref_seq_expert,nonlinear,0.6691337370328161,0.11322082133125122,0.10786557346904929,0.11891276921373463,above,above
+dssp_3,True,esm3,admissible (released cell),nonlinear,0.9493848888644626,ref_backbone@N+CA+C,nonlinear,0.9242230665813284,0.0251618222831341,0.023645033529336,0.0266090432692214,above,above
+dssp_3,True,saprot,admissible (released cell),nonlinear,0.9186643727600372,ref_backbone@N+CA+CB,nonlinear,0.925302008944274,-0.0066376361842367,-0.0086558649789046,-0.0046222055142791,below,below
+dssp_8,True,esm3_seqonly,admissible = sequence floors,linear,0.5691442448747381,ref_seq_expert,nonlinear,0.29547613823265806,0.2736681066420801,0.2601099160756831,0.28650192664856267,above,above
+dssp_8,True,saprot_seqonly,admissible = sequence floors,linear,0.4078725378342346,ref_seq_expert,nonlinear,0.29547613823265806,0.11239639960157655,0.1038184778429476,0.12235248212472907,above,above
+dssp_8,True,esm3,admissible (released cell),nonlinear,0.7826175446474607,ref_backbone@N+CA+C,nonlinear,0.7140160969537427,0.068601447693718,0.0612251898922628,0.0759303270028101,above,above
+dssp_8,True,saprot,admissible (released cell),nonlinear,0.6699841729824038,ref_backbone@N+CA+CB,nonlinear,0.7169633715587943,-0.0469791985763905,-0.0548628628727808,-0.0391297019161465,below,below
+core_surface,True,esm3_seqonly,admissible = sequence floors,linear,0.852031786897024,ref_seq_global,nonlinear,0.6706758456045998,0.18135594129242416,0.17573407807109792,0.18677549950093217,above,above
+core_surface,True,saprot_seqonly,admissible = sequence floors,linear,0.7614490914852936,ref_seq_global,nonlinear,0.6706758456045998,0.0907732458806938,0.08491390109032153,0.09616310020854348,above,above
+core_surface,True,esm3,admissible (released cell),nonlinear,0.9185346246498456,ref_backbone@N+CA+C,nonlinear,0.8956946789805214,0.0228399456693241,0.0208764283566509,0.0248972950027192,above,above
+core_surface,True,saprot,admissible (released cell),linear,0.886082764657825,ref_global@N+CA+CB,nonlinear,0.8986217496603071,-0.012538985002482,-0.0151198977521267,-0.0098055328100097,below,below
+contact_density,True,esm3_seqonly,admissible = sequence floors,nonlinear,0.5702819722627361,ref_seq_expert,nonlinear,0.3654368552957805,0.20484511696695562,0.19550644168948383,0.21354675382229873,above,above
+contact_density,True,saprot_seqonly,admissible = sequence floors,nonlinear,0.4446125923590627,ref_seq_expert,nonlinear,0.3654368552957805,0.07917573706328218,0.07195209153468933,0.08644482229944457,above,above
+contact_density,True,esm3,admissible (released cell),nonlinear,0.7314278222475602,ref_coords,nonlinear,0.9837309171230972,-0.2523030948755369,-0.2589454655881558,-0.2457793653518294,below,below
+contact_density,True,saprot,admissible (released cell),nonlinear,0.6517698418839722,ref_coords,nonlinear,0.9837309171230972,-0.3319610752391249,-0.3382047255098314,-0.3256089395751704,below,below
+distance_bins,True,esm3_seqonly,admissible = sequence floors,nonlinear,0.23648579628229435,ref_seq_expert,nonlinear,0.12268398345274438,0.11380181282954997,0.10948885799027683,0.11836409965168936,above,above
+distance_bins,True,saprot_seqonly,admissible = sequence floors,nonlinear,0.16642680127711887,ref_seq_expert,nonlinear,0.12268398345274438,0.04374281782437449,0.04038914886184006,0.047145303293559725,above,above
+distance_bins,True,esm3,admissible (released cell),nonlinear,0.3383548062779502,ref_pairhist,nonlinear,0.5556828457601578,-0.2173280394822075,-0.2216802827751061,-0.2130173150124605,below,below
+distance_bins,True,saprot,admissible (released cell),nonlinear,0.293678684471534,ref_pairhist,nonlinear,0.5556828457601578,-0.2620041612886237,-0.2666322874806333,-0.2572127273687825,below,below
+contact_order_len_resid,True,esm3_seqonly,admissible = sequence floors,linear,0.8242744396896324,ref_seq_expert,nonlinear,0.42303651433737594,0.4012379253522565,0.3638035458691161,0.4391156035110461,above,above
+contact_order_len_resid,True,saprot_seqonly,admissible = sequence floors,linear,0.7504228264563593,ref_seq_expert,nonlinear,0.42303651433737594,0.32738631211898334,0.28959337317179645,0.36601521618637933,above,above
+contact_order_len_resid,True,esm3,admissible (released cell),linear,0.923470027664356,ref_pairhist,nonlinear,0.982451501655392,-0.058981473991036,-0.0661229732982156,-0.0520127083494173,below,below
+contact_order_len_resid,True,saprot,admissible (released cell),linear,0.9012507745626294,ref_pairhist,nonlinear,0.982451501655392,-0.0812007270927627,-0.0904615399374909,-0.0722731981015147,below,below
+radius_of_gyration_len_resid,True,esm3_seqonly,admissible = sequence floors,linear,0.7554505598611347,ref_seq_expert,nonlinear,0.4815921645481412,0.27385839531299355,0.1988117505093093,0.35825524463056063,above,above
+radius_of_gyration_len_resid,True,saprot_seqonly,admissible = sequence floors,nonlinear,0.7381405148060152,ref_seq_expert,nonlinear,0.4815921645481412,0.256548350257874,0.18249877432788644,0.3367227710358743,above,above
+radius_of_gyration_len_resid,True,esm3,admissible (released cell),nonlinear,0.9094723546106592,ref_global@N+CA+C,nonlinear,0.9953944820868466,-0.0859221274761874,-0.1070047854492823,-0.0663521164151834,below,below
+radius_of_gyration_len_resid,True,saprot,admissible (released cell),linear,0.8799030321887075,ref_global@N+CA+CB,nonlinear,0.9953944820868466,-0.115491449898139,-0.1371965857185021,-0.0951205077476984,below,below
+asphericity_len_resid,True,esm3_seqonly,admissible = sequence floors,linear,0.736501633223262,ref_seq_expert,nonlinear,0.4477241181273126,0.2887775150959494,0.24403680327598162,0.3351075087771634,above,above
+asphericity_len_resid,True,saprot_seqonly,admissible = sequence floors,linear,0.6798977933720614,ref_seq_expert,nonlinear,0.4477241181273126,0.23217367524474875,0.18754301603330734,0.27782735875959486,above,above
+asphericity_len_resid,True,esm3,admissible (released cell),linear,0.8483296703270029,ref_global@N+CA+C,nonlinear,0.9584191823757702,-0.1100895120487672,-0.1284336974217396,-0.0945224493313739,below,below
+asphericity_len_resid,True,saprot,admissible (released cell),linear,0.8010931362181335,ref_global@N+CA+CB,nonlinear,0.9584191823757702,-0.1573260461576366,-0.1830536519899542,-0.1364989923657961,below,below
+rsa,False,esm3_seqonly,admissible = sequence floors,nonlinear,0.8390334470349966,ref_seq_expert,nonlinear,0.5700561546512817,0.2689772923837149,0.2615779516242896,0.27633071658663116,above,above
+rsa,False,saprot_seqonly,admissible = sequence floors,nonlinear,0.7075547064826574,ref_seq_expert,nonlinear,0.5700561546512817,0.13749855183137571,0.13152089481715093,0.14382967344917655,above,above
+rsa,False,esm3,admissible (released cell),nonlinear,0.9648856357670464,ref_global@N+CA+C,nonlinear,0.8982107934103847,0.0666748423566617,0.0654353358050113,0.0679011625368077,above,above
+rsa,False,saprot,admissible (released cell),nonlinear,0.9141644111777496,ref_global@N+CA+CB,nonlinear,0.9002892336587284,0.0138751775190211,0.0117184999864746,0.0159781672463021,above,above
+rsa_bins,False,esm3_seqonly,admissible = sequence floors,nonlinear,0.736801723773807,ref_seq_expert,nonlinear,0.5326211761026612,0.2041805476711458,0.19785485519280507,0.21068454282457127,above,above
+rsa_bins,False,saprot_seqonly,admissible = sequence floors,nonlinear,0.6231203307013602,ref_seq_expert,nonlinear,0.5326211761026612,0.09049915459869895,0.08616070815580662,0.09517057519675516,above,above
+rsa_bins,False,esm3,admissible (released cell),nonlinear,0.8707797976193739,ref_global@N+CA+C,nonlinear,0.7594288788007103,0.1113509188186635,0.1087760493733409,0.1138953600037741,above,above
+rsa_bins,False,saprot,admissible (released cell),nonlinear,0.80149633291586,ref_global@N+CA+CB,nonlinear,0.7607764926809075,0.0407198402349524,0.0375511494001465,0.0438830456415043,above,above
+bfactor,False,esm3_seqonly,admissible = sequence floors,linear,0.5763042059107079,ref_seq_expert,nonlinear,0.4236485174048837,0.15265568850582417,0.14249510889937392,0.16290981379120595,above,above
+bfactor,False,saprot_seqonly,admissible = sequence floors,linear,0.4926702398459624,ref_seq_expert,nonlinear,0.4236485174048837,0.06902172244107874,0.061630802527329075,0.07625336252552582,above,above
+bfactor,False,esm3,admissible (released cell),nonlinear,0.6468027010020899,ref_global@N+CA+C,nonlinear,0.5851279638124312,0.0616747371896587,0.0535485661451151,0.0701490794685951,above,above
+bfactor,False,saprot,admissible (released cell),nonlinear,0.6117328536617698,ref_global@N+CA+CB,nonlinear,0.5734000533103484,0.0383328003514213,0.0293094814068189,0.048341340520433,above,above
+architecture_label,False,esm3_seqonly,admissible = sequence floors,linear,0.4727487368858828,ref_seq_expert,nonlinear,0.11033136927770787,0.36241736760817495,0.27566170624348707,0.3959087278836987,above,above
+architecture_label,False,saprot_seqonly,admissible = sequence floors,linear,0.4088455155545991,ref_seq_expert,nonlinear,0.11033136927770787,0.2985141462768912,0.1957952457459296,0.3364055043334057,above,above
+architecture_label,False,esm3,admissible (released cell),linear,0.4334756260324336,ref_pairhist,nonlinear,0.3159282704589594,0.1175473555734742,0.0912055970632297,0.163724035359285,above,above
+architecture_label,False,saprot,admissible (released cell),linear,0.4646662078505514,ref_pairhist,nonlinear,0.3159282704589594,0.148737937391592,0.1075092044190619,0.2015837130854764,above,above

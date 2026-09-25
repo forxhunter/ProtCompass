@@ -1,0 +1,41 @@
+{
+ "encoder": "gcpnet_random",
+ "family": "patched",
+ "target": "gcpnet_official_random",
+ "weights": "random",
+ "rule": "official architecture, random weights; 100 scalar channels + 16 vector norms per residue",
+ "env": "base",
+ "checkpoint": null,
+ "checkpoint_sha256": null,
+ "checkpoint_loaded_by": "none (random weights, fixed seed)",
+ "weights_sha256": "cdec9adf86f7cd39",
+ "n_parameters": 1153181,
+ "inputs_passed": "all heavy atoms of the structure file (elements and coordinates); residue identity enters through side-chain atoms",
+ "patch": "patched/gcpnet_official.py",
+ "task": "ppi_affinity",
+ "date": "2026-09-19 20:29",
+ "seconds": 162.6,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 116,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 2589,
+  "numerical_rank": 116,
+  "max_abs": 2.0643062591552734
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.06854108721017838,
+  "rel_change_coord_swap": 0.005355729255825281,
+  "rel_change_seq_shuffle": 0.001415007165633142,
+  "rel_change_rigid_motion": 1.3346775631362107e-05,
+  "verdict": "pass"
+ }
+}

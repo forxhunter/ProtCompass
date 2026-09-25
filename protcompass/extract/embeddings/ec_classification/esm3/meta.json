@@ -1,0 +1,41 @@
+{
+ "encoder": "esm3",
+ "family": "patched",
+ "target": "esm3_inproc",
+ "weights": "pretrained",
+ "rule": "final trunk residue embeddings, sequence and structure tracks",
+ "env": "base",
+ "checkpoint": "protcompass/esm3-sm-open-v1/data/weights/esm3_sm_open_v1.pth",
+ "dtype": "bfloat16",
+ "n_parameters": 1401735748,
+ "inputs_passed": "sequence track: true residues; structure track: VQ-VAE tokens from the real backbone (N, CA, C, O, CB) plus coordinates for geometric attention; function, SASA and secondary-structure tracks at their defaults",
+ "patch": "patched/esm3_inproc.py",
+ "task": "ec_classification",
+ "date": "2026-09-20 12:28",
+ "seconds": 412.3,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ec_classification.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 1536,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10499,
+  "numerical_rank": 1536,
+  "max_abs": 9116.4443359375
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.3911045424821484,
+  "rel_change_coord_swap": 0.1052052461015038,
+  "rel_change_seq_shuffle": 0.23244728451209695,
+  "rel_change_rigid_motion": 0.0020265780064980155,
+  "verdict": "pass"
+ }
+}

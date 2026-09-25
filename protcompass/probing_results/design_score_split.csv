@@ -1,0 +1,16 @@
+probe,determined,floor_chosen_on_design,floor_chosen_on_full_test,floor_score_on_score_half,best_encoder_on_score_half,best_encoder_score,gap_selection_corrected,encoders_below,n_encoders,gap_published,below_published,n_published
+phi_circular,yes,ref_global,ref_global,0.999734973225146,esm_if1,0.9964831013935417,-0.0032518718316043582,32,32,-0.0033,32,32
+psi_circular,yes,ref_global,ref_global,0.9997622111759306,esm_if1,0.9970675679014555,-0.002694643274475106,32,32,-0.0027,32,32
+local_curvature,yes,ref_backbone,ref_backbone,0.9997267765635517,esm_if1,0.9928474983611064,-0.0068792782024452714,32,32,-0.0069,32,32
+dssp_3,yes,ref_backbone,ref_backbone,0.93193569072255,esm3,0.9504464292128793,0.018510738490329248,28,32,0.0182,28,32
+dssp_8,yes,ref_backbone,ref_backbone,0.757200574628052,esm3,0.7850694200831513,0.027868845455099267,31,32,0.0313,31,32
+rsa,no,ref_global,ref_global,0.8998239862526871,gcpnet_pretrained,0.9718517341427347,0.07202774789004762,22,32,0.0714,22,32
+rsa_bins,no,ref_global,ref_global,0.7630956291358032,gcpnet_pretrained,0.8841564030501465,0.12106077391434333,22,32,0.119,22,32
+bfactor,no,ref_global,ref_global,0.5861119992330304,esm_if1,0.6555396717630253,0.06942767252999493,29,32,0.0726,29,32
+core_surface,yes,ref_global,ref_global,0.8971017033975857,pottsmpnn,0.9368317119153149,0.03973000851772923,25,32,0.0396,25,32
+contact_density,tautological,ref_coords,ref_coords,0.9842013144051697,pottsmpnn,0.7817520866796612,-0.20244922772550844,32,32,-0.2035,32,32
+distance_bins,yes,ref_pairhist,ref_pairhist,0.5569125186813241,esm_if1,0.3655731238107461,-0.191339394870578,32,32,-0.1921,32,32
+contact_order_len_resid,tautological,ref_pairhist,ref_pairhist,0.9836303852517291,esm3,0.9306631027564416,-0.05296728249528748,33,33,-0.059,33,33
+radius_of_gyration_len_resid,yes,ref_coords,ref_global,0.9950103841860543,esm_if1,0.9269678629414949,-0.06804252124455934,33,33,-0.0593,33,33
+asphericity_len_resid,yes,ref_global,ref_global,0.9577492160137687,foldvision,0.8767223596511872,-0.08102685636258156,33,33,-0.0787,33,33
+architecture_label,no,ref_pairhist,ref_pairhist,0.330956936763573,saprot,0.4673741163168116,0.13641717955323857,19,33,0.1807,19,33

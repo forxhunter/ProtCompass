@@ -1,0 +1,10 @@
+check,kind,statistic,value,mean,passes,n
+hbond@N+CA+C+O,reconstruction,min per-domain agreement,1.0,1.0,True,200
+hbond@N+CA+C(ideal O),reconstruction,min per-domain agreement,0.8695652173913043,0.9753008613083781,False,200
+ca_dihedral@CA,reconstruction,max abs error,2.9802210366192128e-08,2.9629844435774544e-08,True,200
+chi1@full,reconstruction,min per-domain agreement,1.0,1.0,True,200
+chi2@full,reconstruction,min per-domain agreement,1.0,1.0,True,200
+hbond@CA peptide-plane rotation,construction,share of domains where the label changes,0.99,0.99,True,200
+chi1@N+CA+C+O+CB side-chain rotation,construction,share of domains where the label changes,1.0,1.0,True,200
+chi2@N+CA+C+O+CB side-chain rotation,construction,share of domains where the label changes,1.0,1.0,True,200
+ca_dihedral@sequence crankshaft,construction,share of domains where the label changes,1.0,1.0,True,200

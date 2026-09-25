@@ -1,0 +1,18 @@
+{
+ "encoder": "ref_composition",
+ "family": "non-learned reference",
+ "weights": "none",
+ "n_parameters": 0,
+ "rule": "20 amino-acid frequencies, log length, length/600, fraction outside the 20-letter alphabet",
+ "inputs_passed": "amino-acid sequence only",
+ "hidden_size": 23,
+ "task": "ec_classification",
+ "ids_copied_from": "esm2_150m",
+ "n_per_split": {
+  "train": 6000,
+  "valid": 1500,
+  "test": 3000
+ },
+ "purpose": "downstream floor: what the task scores without any learned representation",
+ "date": "2026-09-21 14:00"
+}

@@ -1,0 +1,41 @@
+{
+ "encoder": "prostt5",
+ "family": "hf_plm",
+ "target": "Rostlab/ProstT5",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues; amino-acid track with the <AA2fold> prefix, no 3Di input",
+ "env": "base",
+ "checkpoint": "Rostlab/ProstT5",
+ "checkpoint_revision": "d7d097d5bf9a993ab8f68488b4681d6ca70db9e5",
+ "dtype": "float16",
+ "hidden_size": 1024,
+ "n_layers": 24,
+ "n_parameters": 1208164352,
+ "inputs_passed": "amino-acid sequence only",
+ "task": "ppi_affinity",
+ "date": "2026-09-19 19:04",
+ "seconds": 37.0,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ppi_affinity.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "chains": 2589
+ },
+ "health": {
+  "n_rows": 2589,
+  "dim": 1024,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 2589,
+  "numerical_rank": 1022,
+  "max_abs": 1.3355034589767456
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 0.5110924480134234,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

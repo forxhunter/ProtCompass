@@ -1,0 +1,1093 @@
+task,concept,encoder,arm,descriptor,rank,dim,score,var_removed,prop_removed
+subcellular_localization,secondary structure content,ankh_base,intact,none,2,768,0.6615446825717751,0.0,0.0
+subcellular_localization,secondary structure content,ankh_base,erased,none,2,768,0.6566922765871411,0.013589616189694564,0.7675998291710204
+subcellular_localization,secondary structure content,ankh_base,erased,named,2,768,0.658714112414072,0.013589616189694564,0.7675998291710204
+subcellular_localization,secondary structure content,ankh_base,erased,permuted,2,768,0.6558835422563688,0.013589616189694564,0.7675998291710204
+subcellular_localization,secondary structure content,ankh_base,sham0,none,2,768,0.6668014557217954,0.0022913190193727395,0.004003509481605438
+subcellular_localization,secondary structure content,ankh_base,sham0,named,2,768,0.6676101900525677,0.0022913190193727395,0.004003509481605438
+subcellular_localization,secondary structure content,ankh_base,sham0,permuted,2,768,0.6635665183987061,0.0022913190193727395,0.004003509481605438
+subcellular_localization,secondary structure content,ankh_base,sham1,none,2,768,0.6663970885564092,0.0021992441808714736,0.0011631259663886784
+subcellular_localization,secondary structure content,ankh_base,sham1,named,2,768,0.6558835422563688,0.0021992441808714736,0.0011631259663886784
+subcellular_localization,secondary structure content,ankh_base,sham1,permuted,2,768,0.6546704407602103,0.0021992441808714736,0.0011631259663886784
+subcellular_localization,secondary structure content,ankh_base,sham2,none,2,768,0.6651839870602507,0.002678184149677021,0.0007385463305664697
+subcellular_localization,secondary structure content,ankh_base,sham2,named,2,768,0.6607359482410028,0.002678184149677021,0.0007385463305664697
+subcellular_localization,secondary structure content,ankh_base,sham2,permuted,2,768,0.6635665183987061,0.002678184149677021,0.0007385463305664697
+subcellular_localization,secondary structure content,ankh_base,sham3,none,2,768,0.6631621512333199,0.0031228572625258133,0.0003510070933983034
+subcellular_localization,secondary structure content,ankh_base,sham3,named,2,768,0.6579053780832996,0.0031228572625258133,0.0003510070933983034
+subcellular_localization,secondary structure content,ankh_base,sham3,permuted,2,768,0.6575010109179135,0.0031228572625258133,0.0003510070933983034
+subcellular_localization,secondary structure content,ankh_base,null0,none,2,768,0.5976546704407603,0.013650010876595897,0.007009928260787723
+subcellular_localization,secondary structure content,ankh_base,null0,named,2,768,0.5919935301253538,0.013650010876595897,0.007009928260787723
+subcellular_localization,secondary structure content,ankh_base,null0,permuted,2,768,0.5936109987868985,0.013650010876595897,0.007009928260787723
+subcellular_localization,secondary structure content,ankh_base,null1,none,2,768,0.5964415689446017,0.013652784196745649,0.007010458768810901
+subcellular_localization,secondary structure content,ankh_base,null1,named,2,768,0.5928022644561262,0.013652784196745649,0.007010458768810901
+subcellular_localization,secondary structure content,ankh_base,null1,permuted,2,768,0.5907804286291953,0.013652784196745649,0.007010458768810901
+subcellular_localization,secondary structure content,ankh_base,null2,none,2,768,0.5996765062676911,0.013503603546233367,0.001108757248409864
+subcellular_localization,secondary structure content,ankh_base,null2,named,2,768,0.5956328346138293,0.013503603546233367,0.001108757248409864
+subcellular_localization,secondary structure content,ankh_base,null2,permuted,2,768,0.5891629599676507,0.013503603546233367,0.001108757248409864
+subcellular_localization,secondary structure content,ankh_base,null3,none,2,768,0.5972503032753741,0.013658482595777288,0.0010987360853548234
+subcellular_localization,secondary structure content,ankh_base,null3,named,2,768,0.5944197331176708,0.013658482595777288,0.0010987360853548234
+subcellular_localization,secondary structure content,ankh_base,null3,permuted,2,768,0.5919935301253538,0.013658482595777288,0.0010987360853548234
+subcellular_localization,secondary structure content,cdconv,intact,none,2,256,0.43752527294783666,0.0,0.0
+subcellular_localization,secondary structure content,cdconv,erased,none,2,256,0.43267286696320256,0.0019300475389678606,0.8070600963462955
+subcellular_localization,secondary structure content,cdconv,erased,named,2,256,0.44116457743631216,0.0019300475389678606,0.8070600963462955
+subcellular_localization,secondary structure content,cdconv,erased,permuted,2,256,0.4355034371209058,0.0019300475389678606,0.8070600963462955
+subcellular_localization,secondary structure content,cdconv,sham0,none,2,256,0.43065103113627173,0.08301445246365691,0.013889404457618548
+subcellular_localization,secondary structure content,cdconv,sham0,named,2,256,0.43469470279013345,0.08301445246365691,0.013889404457618548
+subcellular_localization,secondary structure content,cdconv,sham0,permuted,2,256,0.43186413263243023,0.08301445246365691,0.013889404457618548
+subcellular_localization,secondary structure content,cdconv,sham1,none,2,256,0.4213505863323898,0.11004750292017518,0.0036984003016569122
+subcellular_localization,secondary structure content,cdconv,sham1,named,2,256,0.41649818034775576,0.11004750292017518,0.0036984003016569122
+subcellular_localization,secondary structure content,cdconv,sham1,permuted,2,256,0.42377678932470686,0.11004750292017518,0.0036984003016569122
+subcellular_localization,secondary structure content,cdconv,sham2,none,2,256,0.438334007278609,0.08708039092751274,0.003496141557151944
+subcellular_localization,secondary structure content,cdconv,sham2,named,2,256,0.43348160129397495,0.08708039092751274,0.003496141557151944
+subcellular_localization,secondary structure content,cdconv,sham2,permuted,2,256,0.4342903356247473,0.08708039092751274,0.003496141557151944
+subcellular_localization,secondary structure content,cdconv,sham3,none,2,256,0.40760210270926,0.07168501259656868,0.0002638170956418273
+subcellular_localization,secondary structure content,cdconv,sham3,named,2,256,0.41124140719773555,0.07168501259656868,0.0002638170956418273
+subcellular_localization,secondary structure content,cdconv,sham3,permuted,2,256,0.4003234937323089,0.07168501259656868,0.0002638170956418273
+subcellular_localization,secondary structure content,cdconv,null0,none,2,256,0.4642135058633239,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null0,named,2,256,0.4658309745248686,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null0,permuted,2,256,0.46057420137484834,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null1,none,2,256,0.4727052163364335,0.001968836544009034,0.0023536086684157187
+subcellular_localization,secondary structure content,cdconv,null1,named,2,256,0.4727052163364335,0.001968836544009034,0.0023536086684157187
+subcellular_localization,secondary structure content,cdconv,null1,permuted,2,256,0.46987464617873026,0.001968836544009034,0.0023536086684157187
+subcellular_localization,secondary structure content,cdconv,null2,none,2,256,0.4642135058633239,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null2,named,2,256,0.4658309745248686,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null2,permuted,2,256,0.46057420137484834,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null3,none,2,256,0.4642135058633239,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null3,named,2,256,0.4658309745248686,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,cdconv,null3,permuted,2,256,0.46057420137484834,0.0019286351432967752,0.016643869202778494
+subcellular_localization,secondary structure content,dimenet,intact,none,2,128,0.41366761019005255,0.0,0.0
+subcellular_localization,secondary structure content,dimenet,erased,none,2,128,0.40841083704003234,0.00011381775732954846,0.3998623922951562
+subcellular_localization,secondary structure content,dimenet,erased,named,2,128,0.41124140719773555,0.00011381775732954846,0.3998623922951562
+subcellular_localization,secondary structure content,dimenet,erased,permuted,2,128,0.4120501415285079,0.00011381775732954846,0.3998623922951562
+subcellular_localization,secondary structure content,dimenet,sham0,none,2,128,0.4055802668823292,0.039320068005044395,0.03318678018889687
+subcellular_localization,secondary structure content,dimenet,sham0,named,2,128,0.40962393853619083,0.039320068005044395,0.03318678018889687
+subcellular_localization,secondary structure content,dimenet,sham0,permuted,2,128,0.41002830570157706,0.039320068005044395,0.03318678018889687
+subcellular_localization,secondary structure content,dimenet,sham1,none,2,128,0.405175899716943,0.05102479318478148,0.0015664000376678366
+subcellular_localization,secondary structure content,dimenet,sham1,named,2,128,0.4116457743631217,0.05102479318478148,0.0015664000376678366
+subcellular_localization,secondary structure content,dimenet,sham1,permuted,2,128,0.4067933683784877,0.05102479318478148,0.0015664000376678366
+subcellular_localization,secondary structure content,dimenet,sham2,none,2,128,0.4132632430246664,0.033802938445753106,0.006377308385280056
+subcellular_localization,secondary structure content,dimenet,sham2,named,2,128,0.41568944601698343,0.033802938445753106,0.006377308385280056
+subcellular_localization,secondary structure content,dimenet,sham2,permuted,2,128,0.4120501415285079,0.033802938445753106,0.006377308385280056
+subcellular_localization,secondary structure content,dimenet,sham3,none,2,128,0.3970885564092196,0.040112442548091765,0.0004733173602423646
+subcellular_localization,secondary structure content,dimenet,sham3,named,2,128,0.40072786089769513,0.040112442548091765,0.0004733173602423646
+subcellular_localization,secondary structure content,dimenet,sham3,permuted,2,128,0.4035584310553983,0.040112442548091765,0.0004733173602423646
+subcellular_localization,secondary structure content,dimenet,null0,none,2,128,0.44318641326324304,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null0,named,2,128,0.4460169834209462,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null0,permuted,2,128,0.4423776789324707,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null1,none,2,128,0.44318641326324304,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null1,named,2,128,0.4460169834209462,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null1,permuted,2,128,0.4423776789324707,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null2,none,2,128,0.44318641326324304,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null2,named,2,128,0.4460169834209462,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null2,permuted,2,128,0.4423776789324707,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null3,none,2,128,0.44318641326324304,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null3,named,2,128,0.4460169834209462,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,dimenet,null3,permuted,2,128,0.4423776789324707,0.00011387917567484696,0.0034096001334457116
+subcellular_localization,secondary structure content,esm1b,intact,none,2,1280,0.6765062676910635,0.0,0.0
+subcellular_localization,secondary structure content,esm1b,erased,none,2,1280,0.6841892438334007,0.010516250319059672,0.7861011635249167
+subcellular_localization,secondary structure content,esm1b,erased,named,2,1280,0.6862110796603316,0.010516250319059672,0.7861011635249167
+subcellular_localization,secondary structure content,esm1b,erased,permuted,2,1280,0.6858067124949454,0.010516250319059672,0.7861011635249167
+subcellular_localization,secondary structure content,esm1b,sham0,none,2,1280,0.66841892438334,0.0012519462220539346,0.002953798426313936
+subcellular_localization,secondary structure content,esm1b,sham0,named,2,1280,0.6845936109987869,0.0012519462220539346,0.002953798426313936
+subcellular_localization,secondary structure content,esm1b,sham0,permuted,2,1280,0.6837848766680146,0.0012519462220539346,0.002953798426313936
+subcellular_localization,secondary structure content,esm1b,sham1,none,2,1280,0.6821674080064699,0.0011264315809810244,0.0009534320870219215
+subcellular_localization,secondary structure content,esm1b,sham1,named,2,1280,0.6874241811564901,0.0011264315809810244,0.0009534320870219215
+subcellular_localization,secondary structure content,esm1b,sham1,permuted,2,1280,0.6866154468257177,0.0011264315809810244,0.0009534320870219215
+subcellular_localization,secondary structure content,esm1b,sham2,none,2,1280,0.6821674080064699,0.0016059576829953182,0.0006524771009860375
+subcellular_localization,secondary structure content,esm1b,sham2,named,2,1280,0.6829761423372422,0.0016059576829953182,0.0006524771009860375
+subcellular_localization,secondary structure content,esm1b,sham2,permuted,2,1280,0.6797412050141528,0.0016059576829953182,0.0006524771009860375
+subcellular_localization,secondary structure content,esm1b,sham3,none,2,1280,0.6736756975333603,0.0017697784892581891,0.00044671947126107003
+subcellular_localization,secondary structure content,esm1b,sham3,named,2,1280,0.6837848766680146,0.0017697784892581891,0.00044671947126107003
+subcellular_localization,secondary structure content,esm1b,sham3,permuted,2,1280,0.6805499393449251,0.0017697784892581891,0.00044671947126107003
+subcellular_localization,secondary structure content,esm1b,null0,none,2,1280,0.5099069955519612,0.010546686490252033,0.014018851339710925
+subcellular_localization,secondary structure content,esm1b,null0,named,2,1280,0.5220380105135463,0.010546686490252033,0.014018851339710925
+subcellular_localization,secondary structure content,esm1b,null0,permuted,2,1280,0.511928831378892,0.010546686490252033,0.014018851339710925
+subcellular_localization,secondary structure content,esm1b,null1,none,2,1280,0.504650222401941,0.010672399007292888,0.037526936200616645
+subcellular_localization,secondary structure content,esm1b,null1,named,2,1280,0.5208249090173878,0.010672399007292888,0.037526936200616645
+subcellular_localization,secondary structure content,esm1b,null1,permuted,2,1280,0.5111200970481197,0.010672399007292888,0.037526936200616645
+subcellular_localization,secondary structure content,esm1b,null2,none,2,1280,0.5082895268904165,0.01051922594290422,0.0005299089333667961
+subcellular_localization,secondary structure content,esm1b,null2,named,2,1280,0.5107157298827335,0.01051922594290422,0.0005299089333667961
+subcellular_localization,secondary structure content,esm1b,null2,permuted,2,1280,0.5123331985442782,0.01051922594290422,0.0005299089333667961
+subcellular_localization,secondary structure content,esm1b,null3,none,2,1280,0.5192074403558431,0.010617533927810063,0.08073475775469197
+subcellular_localization,secondary structure content,esm1b,null3,named,2,1280,0.5252729478366357,0.010617533927810063,0.08073475775469197
+subcellular_localization,secondary structure content,esm1b,null3,permuted,2,1280,0.5155681358673676,0.010617533927810063,0.08073475775469197
+subcellular_localization,secondary structure content,esm2_150m,intact,none,2,640,0.6732713303679742,0.0,0.0
+subcellular_localization,secondary structure content,esm2_150m,erased,none,2,640,0.6761019005256773,0.016707482851909705,0.7482645657410214
+subcellular_localization,secondary structure content,esm2_150m,erased,named,2,640,0.6696320258794985,0.016707482851909705,0.7482645657410214
+subcellular_localization,secondary structure content,esm2_150m,erased,permuted,2,640,0.6712494945410432,0.016707482851909705,0.7482645657410214
+subcellular_localization,secondary structure content,esm2_150m,sham0,none,2,640,0.670845127375657,0.0022351498200379183,0.005933786943819852
+subcellular_localization,secondary structure content,esm2_150m,sham0,named,2,640,0.6736756975333603,0.0022351498200379183,0.005933786943819852
+subcellular_localization,secondary structure content,esm2_150m,sham0,permuted,2,640,0.6756975333602911,0.0022351498200379183,0.005933786943819852
+subcellular_localization,secondary structure content,esm2_150m,sham1,none,2,640,0.6635665183987061,0.0018040523942866038,0.0018016768999569166
+subcellular_localization,secondary structure content,esm2_150m,sham1,named,2,640,0.6696320258794985,0.0018040523942866038,0.0018016768999569166
+subcellular_localization,secondary structure content,esm2_150m,sham1,permuted,2,640,0.670845127375657,0.0018040523942866038,0.0018016768999569166
+subcellular_localization,secondary structure content,esm2_150m,sham2,none,2,640,0.6765062676910635,0.0035238455721045003,0.0017495658368975597
+subcellular_localization,secondary structure content,esm2_150m,sham2,named,2,640,0.6672058228871816,0.0035238455721045003,0.0017495658368975597
+subcellular_localization,secondary structure content,esm2_150m,sham2,permuted,2,640,0.6704407602102709,0.0035238455721045003,0.0017495658368975597
+subcellular_localization,secondary structure content,esm2_150m,sham3,none,2,640,0.6647796198948646,0.003342531336050669,0.0009160259583671504
+subcellular_localization,secondary structure content,esm2_150m,sham3,named,2,640,0.6631621512333199,0.003342531336050669,0.0009160259583671504
+subcellular_localization,secondary structure content,esm2_150m,sham3,permuted,2,640,0.6643752527294784,0.003342531336050669,0.0009160259583671504
+subcellular_localization,secondary structure content,esm2_150m,null0,none,2,640,0.5936109987868985,0.016820661392526026,0.009731117071564599
+subcellular_localization,secondary structure content,esm2_150m,null0,named,2,640,0.5968459361099878,0.016820661392526026,0.009731117071564599
+subcellular_localization,secondary structure content,esm2_150m,null0,permuted,2,640,0.5984634047715326,0.016820661392526026,0.009731117071564599
+subcellular_localization,secondary structure content,esm2_150m,null1,none,2,640,0.5992721391023049,0.016732670270927064,0.03847131286369043
+subcellular_localization,secondary structure content,esm2_150m,null1,named,2,640,0.5988677719369188,0.016732670270927064,0.03847131286369043
+subcellular_localization,secondary structure content,esm2_150m,null1,permuted,2,640,0.6016983420946219,0.016732670270927064,0.03847131286369043
+subcellular_localization,secondary structure content,esm2_150m,null2,none,2,640,0.6012939749292358,0.01677683808135988,0.017158372005860567
+subcellular_localization,secondary structure content,esm2_150m,null2,named,2,640,0.6000808734330773,0.01677683808135988,0.017158372005860567
+subcellular_localization,secondary structure content,esm2_150m,null2,permuted,2,640,0.5980590376061464,0.01677683808135988,0.017158372005860567
+subcellular_localization,secondary structure content,esm2_150m,null3,none,2,640,0.5972503032753741,0.016546473591557587,0.021600718726254353
+subcellular_localization,secondary structure content,esm2_150m,null3,named,2,640,0.5996765062676911,0.016546473591557587,0.021600718726254353
+subcellular_localization,secondary structure content,esm2_150m,null3,permuted,2,640,0.5976546704407603,0.016546473591557587,0.021600718726254353
+subcellular_localization,secondary structure content,esm2_35m,intact,none,2,480,0.6502224019409624,0.0,0.0
+subcellular_localization,secondary structure content,esm2_35m,erased,none,2,480,0.6453699959563284,0.019887777789148187,0.6916956060790311
+subcellular_localization,secondary structure content,esm2_35m,erased,named,2,480,0.6482005661140315,0.019887777789148187,0.6916956060790311
+subcellular_localization,secondary structure content,esm2_35m,erased,permuted,2,480,0.6482005661140315,0.019887777789148187,0.6916956060790311
+subcellular_localization,secondary structure content,esm2_35m,sham0,none,2,480,0.6473918317832592,0.002700569043705525,0.006138819910562865
+subcellular_localization,secondary structure content,esm2_35m,sham0,named,2,480,0.6526486049332794,0.002700569043705525,0.006138819910562865
+subcellular_localization,secondary structure content,esm2_35m,sham0,permuted,2,480,0.6477961989486454,0.002700569043705525,0.006138819910562865
+subcellular_localization,secondary structure content,esm2_35m,sham1,none,2,480,0.6510311362717347,0.0021078178526788838,0.0029035921090782013
+subcellular_localization,secondary structure content,esm2_35m,sham1,named,2,480,0.646987464617873,0.0021078178526788838,0.0029035921090782013
+subcellular_localization,secondary structure content,esm2_35m,sham1,permuted,2,480,0.6477961989486454,0.0021078178526788838,0.0029035921090782013
+subcellular_localization,secondary structure content,esm2_35m,sham2,none,2,480,0.6461787302871007,0.003994113427788104,0.0016915309044727156
+subcellular_localization,secondary structure content,esm2_35m,sham2,named,2,480,0.6437525272947837,0.003994113427788104,0.0016915309044727156
+subcellular_localization,secondary structure content,esm2_35m,sham2,permuted,2,480,0.6437525272947837,0.003994113427788104,0.0016915309044727156
+subcellular_localization,secondary structure content,esm2_35m,sham3,none,2,480,0.6473918317832592,0.004572406270980989,0.0008913695265180266
+subcellular_localization,secondary structure content,esm2_35m,sham3,named,2,480,0.6465830974524869,0.004572406270980989,0.0008913695265180266
+subcellular_localization,secondary structure content,esm2_35m,sham3,permuted,2,480,0.646987464617873,0.004572406270980989,0.0008913695265180266
+subcellular_localization,secondary structure content,esm2_35m,null0,none,2,480,0.5907804286291953,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null0,named,2,480,0.5928022644561262,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null0,permuted,2,480,0.5936109987868985,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null1,none,2,480,0.5907804286291953,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null1,named,2,480,0.5928022644561262,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null1,permuted,2,480,0.5936109987868985,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null2,none,2,480,0.5907804286291953,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null2,named,2,480,0.5928022644561262,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null2,permuted,2,480,0.5936109987868985,0.020031150081224913,0.006248590478116989
+subcellular_localization,secondary structure content,esm2_35m,null3,none,2,480,0.5956328346138293,0.019867149418899666,0.0096850884043308
+subcellular_localization,secondary structure content,esm2_35m,null3,named,2,480,0.5988677719369188,0.019867149418899666,0.0096850884043308
+subcellular_localization,secondary structure content,esm2_35m,null3,permuted,2,480,0.5940153659522847,0.019867149418899666,0.0096850884043308
+subcellular_localization,secondary structure content,esm2_3b,intact,none,2,2560,0.6934896886372827,0.0,0.0
+subcellular_localization,secondary structure content,esm2_3b,erased,none,2,2560,0.6910634856449657,0.008258122719733252,0.8896824858128298
+subcellular_localization,secondary structure content,esm2_3b,erased,named,2,2560,0.6947027901334412,0.008258122719733252,0.8896824858128298
+subcellular_localization,secondary structure content,esm2_3b,erased,permuted,2,2560,0.6934896886372827,0.008258122719733252,0.8896824858128298
+subcellular_localization,secondary structure content,esm2_3b,sham0,none,2,2560,0.6870198139911039,0.0009815601440954502,0.0014937633872790235
+subcellular_localization,secondary structure content,esm2_3b,sham0,named,2,2560,0.7015770319450061,0.0009815601440954502,0.0014937633872790235
+subcellular_localization,secondary structure content,esm2_3b,sham0,permuted,2,2560,0.6987464617873028,0.0009815601440954502,0.0014937633872790235
+subcellular_localization,secondary structure content,esm2_3b,sham1,none,2,2560,0.6934896886372827,0.0006336840831846491,0.0005138130855434353
+subcellular_localization,secondary structure content,esm2_3b,sham1,named,2,2560,0.6987464617873028,0.0006336840831846491,0.0005138130855434353
+subcellular_localization,secondary structure content,esm2_3b,sham1,permuted,2,2560,0.6983420946219167,0.0006336840831846491,0.0005138130855434353
+subcellular_localization,secondary structure content,esm2_3b,sham2,none,2,2560,0.7023857662757784,0.0005173392176117675,0.0008023558215191073
+subcellular_localization,secondary structure content,esm2_3b,sham2,named,2,2560,0.7015770319450061,0.0005173392176117675,0.0008023558215191073
+subcellular_localization,secondary structure content,esm2_3b,sham2,permuted,2,2560,0.6991508289526891,0.0005173392176117675,0.0008023558215191073
+subcellular_localization,secondary structure content,esm2_3b,sham3,none,2,2560,0.691872219975738,0.0008305930672857231,0.0002653199593622979
+subcellular_localization,secondary structure content,esm2_3b,sham3,named,2,2560,0.6971289931257582,0.0008305930672857231,0.0002653199593622979
+subcellular_localization,secondary structure content,esm2_3b,sham3,permuted,2,2560,0.6959158916295997,0.0008305930672857231,0.0002653199593622979
+subcellular_localization,secondary structure content,esm2_3b,null0,none,2,2560,0.3671653861706429,0.008212234100495763,0.015291399646780168
+subcellular_localization,secondary structure content,esm2_3b,null0,named,2,2560,0.37808329963606957,0.008212234100495763,0.015291399646780168
+subcellular_localization,secondary structure content,esm2_3b,null0,permuted,2,2560,0.36271734735139505,0.008212234100495763,0.015291399646780168
+subcellular_localization,secondary structure content,esm2_3b,null1,none,2,2560,0.36473918317832593,0.008178944357030704,0.020673603353278613
+subcellular_localization,secondary structure content,esm2_3b,null1,named,2,2560,0.3788920339668419,0.008178944357030704,0.020673603353278613
+subcellular_localization,secondary structure content,esm2_3b,null1,permuted,2,2560,0.3639304488475536,0.008178944357030704,0.020673603353278613
+subcellular_localization,secondary structure content,esm2_3b,null2,none,2,2560,0.36797412050141526,0.00820337747490496,0.000228817188879904
+subcellular_localization,secondary structure content,esm2_3b,null2,named,2,2560,0.38091386979377273,0.00820337747490496,0.000228817188879904
+subcellular_localization,secondary structure content,esm2_3b,null2,permuted,2,2560,0.3651435503437121,0.00820337747490496,0.000228817188879904
+subcellular_localization,secondary structure content,esm2_3b,null3,none,2,2560,0.3639304488475536,0.00829764760772822,0.016790556031159976
+subcellular_localization,secondary structure content,esm2_3b,null3,named,2,2560,0.374443995147594,0.00829764760772822,0.016790556031159976
+subcellular_localization,secondary structure content,esm2_3b,null3,permuted,2,2560,0.36473918317832593,0.00829764760772822,0.016790556031159976
+subcellular_localization,secondary structure content,esm2_650m,intact,none,2,1280,0.6862110796603316,0.0,0.0
+subcellular_localization,secondary structure content,esm2_650m,erased,none,2,1280,0.6809543065103114,0.010802120506910096,0.8176070777140187
+subcellular_localization,secondary structure content,esm2_650m,erased,named,2,1280,0.6898503841488072,0.010802120506910096,0.8176070777140187
+subcellular_localization,secondary structure content,esm2_650m,erased,permuted,2,1280,0.6894460169834209,0.010802120506910096,0.8176070777140187
+subcellular_localization,secondary structure content,esm2_650m,sham0,none,2,1280,0.6805499393449251,0.001702837420678338,0.004228039664615046
+subcellular_localization,secondary structure content,esm2_650m,sham0,named,2,1280,0.6837848766680146,0.001702837420678338,0.004228039664615046
+subcellular_localization,secondary structure content,esm2_650m,sham0,permuted,2,1280,0.6862110796603316,0.001702837420678338,0.004228039664615046
+subcellular_localization,secondary structure content,esm2_650m,sham1,none,2,1280,0.6898503841488072,0.001136845564063127,0.000735193440242643
+subcellular_localization,secondary structure content,esm2_650m,sham1,named,2,1280,0.6910634856449657,0.001136845564063127,0.000735193440242643
+subcellular_localization,secondary structure content,esm2_650m,sham1,permuted,2,1280,0.6934896886372827,0.001136845564063127,0.000735193440242643
+subcellular_localization,secondary structure content,esm2_650m,sham2,none,2,1280,0.6854023453295592,0.0012070834056343571,0.0013199355290093306
+subcellular_localization,secondary structure content,esm2_650m,sham2,named,2,1280,0.6890416498180347,0.0012070834056343571,0.0013199355290093306
+subcellular_localization,secondary structure content,esm2_650m,sham2,permuted,2,1280,0.6849979781641731,0.0012070834056343571,0.0013199355290093306
+subcellular_localization,secondary structure content,esm2_650m,sham3,none,2,1280,0.6854023453295592,0.0019690531308648174,0.00011616376952694463
+subcellular_localization,secondary structure content,esm2_650m,sham3,named,2,1280,0.6890416498180347,0.0019690531308648174,0.00011616376952694463
+subcellular_localization,secondary structure content,esm2_650m,sham3,permuted,2,1280,0.6862110796603316,0.0019690531308648174,0.00011616376952694463
+subcellular_localization,secondary structure content,esm2_650m,null0,none,2,1280,0.5463000404367165,0.010768729000522725,0.0006133256223818107
+subcellular_localization,secondary structure content,esm2_650m,null0,named,2,1280,0.5523655479175091,0.010768729000522725,0.0006133256223818107
+subcellular_localization,secondary structure content,esm2_650m,null0,permuted,2,1280,0.5483218762636474,0.010768729000522725,0.0006133256223818107
+subcellular_localization,secondary structure content,esm2_650m,null1,none,2,1280,0.547513141932875,0.010848435390470201,0.001038898062592386
+subcellular_localization,secondary structure content,esm2_650m,null1,named,2,1280,0.5523655479175091,0.010848435390470201,0.001038898062592386
+subcellular_localization,secondary structure content,esm2_650m,null1,permuted,2,1280,0.5479175090982612,0.010848435390470201,0.001038898062592386
+subcellular_localization,secondary structure content,esm2_650m,null2,none,2,1280,0.5479175090982612,0.010841778031540406,0.0009884544091356418
+subcellular_localization,secondary structure content,esm2_650m,null2,named,2,1280,0.5539830165790538,0.010841778031540406,0.0009884544091356418
+subcellular_localization,secondary structure content,esm2_650m,null2,permuted,2,1280,0.5479175090982612,0.010841778031540406,0.0009884544091356418
+subcellular_localization,secondary structure content,esm2_650m,null3,none,2,1280,0.5463000404367165,0.010768729000522725,0.0006133256223818107
+subcellular_localization,secondary structure content,esm2_650m,null3,named,2,1280,0.5523655479175091,0.010768729000522725,0.0006133256223818107
+subcellular_localization,secondary structure content,esm2_650m,null3,permuted,2,1280,0.5483218762636474,0.010768729000522725,0.0006133256223818107
+subcellular_localization,secondary structure content,esm2_8m,intact,none,2,320,0.6073594824100284,0.0,0.0
+subcellular_localization,secondary structure content,esm2_8m,erased,none,2,320,0.6109987868985038,0.023312280947925035,0.6328324211259123
+subcellular_localization,secondary structure content,esm2_8m,erased,named,2,320,0.613829357056207,0.023312280947925035,0.6328324211259123
+subcellular_localization,secondary structure content,esm2_8m,erased,permuted,2,320,0.6049332794177112,0.023312280947925035,0.6328324211259123
+subcellular_localization,secondary structure content,esm2_8m,sham0,none,2,320,0.6057420137484836,0.005099436309785155,0.008271382437680885
+subcellular_localization,secondary structure content,esm2_8m,sham0,named,2,320,0.6101900525677315,0.005099436309785155,0.008271382437680885
+subcellular_localization,secondary structure content,esm2_8m,sham0,permuted,2,320,0.6045289122523251,0.005099436309785155,0.008271382437680885
+subcellular_localization,secondary structure content,esm2_8m,sham1,none,2,320,0.6093813182369592,0.004228498510760792,0.0027250671413435734
+subcellular_localization,secondary structure content,esm2_8m,sham1,named,2,320,0.6097856854023453,0.004228498510760792,0.0027250671413435734
+subcellular_localization,secondary structure content,esm2_8m,sham1,permuted,2,320,0.6085725839061868,0.004228498510760792,0.0027250671413435734
+subcellular_localization,secondary structure content,esm2_8m,sham2,none,2,320,0.6101900525677315,0.00678858475139088,0.0022023494290746015
+subcellular_localization,secondary structure content,esm2_8m,sham2,named,2,320,0.61140315406389,0.00678858475139088,0.0022023494290746015
+subcellular_localization,secondary structure content,esm2_8m,sham2,permuted,2,320,0.6057420137484836,0.00678858475139088,0.0022023494290746015
+subcellular_localization,secondary structure content,esm2_8m,sham3,none,2,320,0.6093813182369592,0.006279839861704217,0.002830079818813336
+subcellular_localization,secondary structure content,esm2_8m,sham3,named,2,320,0.6122118883946623,0.006279839861704217,0.002830079818813336
+subcellular_localization,secondary structure content,esm2_8m,sham3,permuted,2,320,0.6101900525677315,0.006279839861704217,0.002830079818813336
+subcellular_localization,secondary structure content,esm2_8m,null0,none,2,320,0.5681358673675697,0.02310914240729256,0.0018623306225559189
+subcellular_localization,secondary structure content,esm2_8m,null0,named,2,320,0.5693489688637282,0.02310914240729256,0.0018623306225559189
+subcellular_localization,secondary structure content,esm2_8m,null0,permuted,2,320,0.5644965628790942,0.02310914240729256,0.0018623306225559189
+subcellular_localization,secondary structure content,esm2_8m,null1,none,2,320,0.5713708046906592,0.023356850139920504,0.004957178175120758
+subcellular_localization,secondary structure content,esm2_8m,null1,named,2,320,0.5721795390214315,0.023356850139920504,0.004957178175120758
+subcellular_localization,secondary structure content,esm2_8m,null1,permuted,2,320,0.5693489688637282,0.023356850139920504,0.004957178175120758
+subcellular_localization,secondary structure content,esm2_8m,null2,none,2,320,0.5681358673675697,0.023540961317314535,0.026728435318874255
+subcellular_localization,secondary structure content,esm2_8m,null2,named,2,320,0.570966437525273,0.023540961317314535,0.026728435318874255
+subcellular_localization,secondary structure content,esm2_8m,null2,permuted,2,320,0.5669227658714112,0.023540961317314535,0.026728435318874255
+subcellular_localization,secondary structure content,esm2_8m,null3,none,2,320,0.5681358673675697,0.023540961317314535,0.026728435318874255
+subcellular_localization,secondary structure content,esm2_8m,null3,named,2,320,0.570966437525273,0.023540961317314535,0.026728435318874255
+subcellular_localization,secondary structure content,esm2_8m,null3,permuted,2,320,0.5669227658714112,0.023540961317314535,0.026728435318874255
+subcellular_localization,secondary structure content,esm3,intact,none,2,1536,0.6109987868985038,0.0,0.0
+subcellular_localization,secondary structure content,esm3,erased,none,2,1536,0.6142337242215932,0.0281939611938945,0.953782641516269
+subcellular_localization,secondary structure content,esm3,erased,named,2,1536,0.6134249898908208,0.0281939611938945,0.953782641516269
+subcellular_localization,secondary structure content,esm3,erased,permuted,2,1536,0.6069551152446422,0.0281939611938945,0.953782641516269
+subcellular_localization,secondary structure content,esm3,sham0,none,2,1536,0.6081682167408007,0.0012841611562229849,0.0031625292512479364
+subcellular_localization,secondary structure content,esm3,sham0,named,2,1536,0.6146380913869793,0.0012841611562229849,0.0031625292512479364
+subcellular_localization,secondary structure content,esm3,sham0,permuted,2,1536,0.6130206227254347,0.0012841611562229849,0.0031625292512479364
+subcellular_localization,secondary structure content,esm3,sham1,none,2,1536,0.6186817630408411,0.0016600491298920383,0.00045742881529897694
+subcellular_localization,secondary structure content,esm3,sham1,named,2,1536,0.6105944197331177,0.0016600491298920383,0.00045742881529897694
+subcellular_localization,secondary structure content,esm3,sham1,permuted,2,1536,0.608976951071573,0.0016600491298920383,0.00045742881529897694
+subcellular_localization,secondary structure content,esm3,sham2,none,2,1536,0.613829357056207,0.001331888562005057,0.001100877382379517
+subcellular_localization,secondary structure content,esm3,sham2,named,2,1536,0.6122118883946623,0.001331888562005057,0.001100877382379517
+subcellular_localization,secondary structure content,esm3,sham2,permuted,2,1536,0.6118075212292762,0.001331888562005057,0.001100877382379517
+subcellular_localization,secondary structure content,esm3,sham3,none,2,1536,0.6029114435907804,0.001580045849578049,0.00012637384189573275
+subcellular_localization,secondary structure content,esm3,sham3,named,2,1536,0.6057420137484836,0.001580045849578049,0.00012637384189573275
+subcellular_localization,secondary structure content,esm3,sham3,permuted,2,1536,0.6069551152446422,0.001580045849578049,0.00012637384189573275
+subcellular_localization,secondary structure content,esm3,null0,none,2,1536,0.3716134249898908,0.028014477302955698,0.01607338520764645
+subcellular_localization,secondary structure content,esm3,null0,named,2,1536,0.3898099474322685,0.028014477302955698,0.01607338520764645
+subcellular_localization,secondary structure content,esm3,null0,permuted,2,1536,0.37970076829761423,0.028014477302955698,0.01607338520764645
+subcellular_localization,secondary structure content,esm3,null1,none,2,1536,0.36352608168216743,0.028275491732680846,0.023992391933223778
+subcellular_localization,secondary structure content,esm3,null1,named,2,1536,0.38617064294379294,0.028275491732680846,0.023992391933223778
+subcellular_localization,secondary structure content,esm3,null1,permuted,2,1536,0.37242215932066314,0.028275491732680846,0.023992391933223778
+subcellular_localization,secondary structure content,esm3,null2,none,2,1536,0.36676101900525676,0.0280194778610533,0.019044976493793664
+subcellular_localization,secondary structure content,esm3,null2,named,2,1536,0.3813182369591589,0.0280194778610533,0.019044976493793664
+subcellular_localization,secondary structure content,esm3,null2,permuted,2,1536,0.36352608168216743,0.0280194778610533,0.019044976493793664
+subcellular_localization,secondary structure content,esm3,null3,none,2,1536,0.36352608168216743,0.02821798338828818,0.007495222457030604
+subcellular_localization,secondary structure content,esm3,null3,named,2,1536,0.3776789324706834,0.02821798338828818,0.007495222457030604
+subcellular_localization,secondary structure content,esm3,null3,permuted,2,1536,0.36473918317832593,0.02821798338828818,0.007495222457030604
+subcellular_localization,secondary structure content,esm_if1,intact,none,2,512,0.48281439547108773,0.0,0.0
+subcellular_localization,secondary structure content,esm_if1,erased,none,2,512,0.48887990295188033,0.037425361121101286,0.7247726410858452
+subcellular_localization,secondary structure content,esm_if1,erased,named,2,512,0.4945410432672867,0.037425361121101286,0.7247726410858452
+subcellular_localization,secondary structure content,esm_if1,erased,permuted,2,512,0.48685806712494945,0.037425361121101286,0.7247726410858452
+subcellular_localization,secondary structure content,esm_if1,sham0,none,2,512,0.4872624342903356,0.0034522562115840705,0.01061631364716309
+subcellular_localization,secondary structure content,esm_if1,sham0,named,2,512,0.48887990295188033,0.0034522562115840705,0.01061631364716309
+subcellular_localization,secondary structure content,esm_if1,sham0,permuted,2,512,0.4876668014557218,0.0034522562115840705,0.01061631364716309
+subcellular_localization,secondary structure content,esm_if1,sham1,none,2,512,0.48968863728265266,0.0028991373783029406,0.0008193728760048646
+subcellular_localization,secondary structure content,esm_if1,sham1,named,2,512,0.4969672462596037,0.0028991373783029406,0.0008193728760048646
+subcellular_localization,secondary structure content,esm_if1,sham1,permuted,2,512,0.4917104731095835,0.0028991373783029406,0.0008193728760048646
+subcellular_localization,secondary structure content,esm_if1,sham2,none,2,512,0.48281439547108773,0.003642822594397521,0.0018064011682890069
+subcellular_localization,secondary structure content,esm_if1,sham2,named,2,512,0.4840274969672463,0.003642822594397521,0.0018064011682890069
+subcellular_localization,secondary structure content,esm_if1,sham2,permuted,2,512,0.4864536999595633,0.003642822594397521,0.0018064011682890069
+subcellular_localization,secondary structure content,esm_if1,sham3,none,2,512,0.490497371613425,0.0035826948670589776,0.0011990230737635166
+subcellular_localization,secondary structure content,esm_if1,sham3,named,2,512,0.4913061059441973,0.0035826948670589776,0.0011990230737635166
+subcellular_localization,secondary structure content,esm_if1,sham3,permuted,2,512,0.4913061059441973,0.0035826948670589776,0.0011990230737635166
+subcellular_localization,secondary structure content,esm_if1,null0,none,2,512,0.4286291953093409,0.037371474615351175,0.04412208829790765
+subcellular_localization,secondary structure content,esm_if1,null0,named,2,512,0.4270117266477962,0.037371474615351175,0.04412208829790765
+subcellular_localization,secondary structure content,esm_if1,null0,permuted,2,512,0.42741609381318235,0.037371474615351175,0.04412208829790765
+subcellular_localization,secondary structure content,esm_if1,null1,none,2,512,0.4350990699555196,0.03709580762227416,0.04559697451165756
+subcellular_localization,secondary structure content,esm_if1,null1,named,2,512,0.42903356247472707,0.03709580762227416,0.04559697451165756
+subcellular_localization,secondary structure content,esm_if1,null1,permuted,2,512,0.43590780428629194,0.03709580762227416,0.04559697451165756
+subcellular_localization,secondary structure content,esm_if1,null2,none,2,512,0.4338859684593611,0.03672251807582538,0.1547123778489049
+subcellular_localization,secondary structure content,esm_if1,null2,named,2,512,0.4282248281439547,0.03672251807582538,0.1547123778489049
+subcellular_localization,secondary structure content,esm_if1,null2,permuted,2,512,0.4330772341285888,0.03672251807582538,0.1547123778489049
+subcellular_localization,secondary structure content,esm_if1,null3,none,2,512,0.4282248281439547,0.03711933850309246,0.04410464850902085
+subcellular_localization,secondary structure content,esm_if1,null3,named,2,512,0.42943792964011324,0.03711933850309246,0.04410464850902085
+subcellular_localization,secondary structure content,esm_if1,null3,permuted,2,512,0.43065103113627173,0.03711933850309246,0.04410464850902085
+subcellular_localization,secondary structure content,foldseek_3di,intact,none,2,20,0.3449251920744036,0.0,0.0
+subcellular_localization,secondary structure content,foldseek_3di,erased,none,2,20,0.36271734735139505,0.21765190811802648,0.4935717181782009
+subcellular_localization,secondary structure content,foldseek_3di,erased,named,2,20,0.35503437120905784,0.21765190811802648,0.4935717181782009
+subcellular_localization,secondary structure content,foldseek_3di,erased,permuted,2,20,0.3558431055398302,0.21765190811802648,0.4935717181782009
+subcellular_localization,secondary structure content,foldseek_3di,sham0,none,2,20,0.3639304488475536,0.09448707975093862,0.1212076179045819
+subcellular_localization,secondary structure content,foldseek_3di,sham0,named,2,20,0.36554791750909826,0.09448707975093862,0.1212076179045819
+subcellular_localization,secondary structure content,foldseek_3di,sham0,permuted,2,20,0.357864941366761,0.09448707975093862,0.1212076179045819
+subcellular_localization,secondary structure content,foldseek_3di,sham1,none,2,20,0.35058633238980996,0.10982341086927727,0.012638651747489571
+subcellular_localization,secondary structure content,foldseek_3di,sham1,named,2,20,0.3651435503437121,0.10982341086927727,0.012638651747489571
+subcellular_localization,secondary structure content,foldseek_3di,sham1,permuted,2,20,0.35867367569753333,0.10982341086927727,0.012638651747489571
+subcellular_localization,secondary structure content,foldseek_3di,sham2,none,2,20,0.35907804286291956,0.04505153969759246,0.014818849294531145
+subcellular_localization,secondary structure content,foldseek_3di,sham2,named,2,20,0.357864941366761,0.04505153969759246,0.014818849294531145
+subcellular_localization,secondary structure content,foldseek_3di,sham2,permuted,2,20,0.3534169025475131,0.04505153969759246,0.014818849294531145
+subcellular_localization,secondary structure content,foldseek_3di,sham3,none,2,20,0.35503437120905784,0.0787155927656592,0.00700621972515203
+subcellular_localization,secondary structure content,foldseek_3di,sham3,named,2,20,0.3594824100283057,0.0787155927656592,0.00700621972515203
+subcellular_localization,secondary structure content,foldseek_3di,sham3,permuted,2,20,0.3534169025475131,0.0787155927656592,0.00700621972515203
+subcellular_localization,secondary structure content,foldseek_3di,null0,none,2,20,0.3416902547513142,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null0,named,2,20,0.34896886372826524,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null0,permuted,2,20,0.33683784876668016,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null1,none,2,20,0.3416902547513142,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null1,named,2,20,0.34896886372826524,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null1,permuted,2,20,0.33683784876668016,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null2,none,2,20,0.3416902547513142,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null2,named,2,20,0.34896886372826524,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null2,permuted,2,20,0.33683784876668016,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null3,none,2,20,0.3416902547513142,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null3,named,2,20,0.34896886372826524,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldseek_3di,null3,permuted,2,20,0.33683784876668016,0.298292444344631,0.02652697505962942
+subcellular_localization,secondary structure content,foldvision,intact,none,2,1024,0.5131419328750505,0.0,0.0
+subcellular_localization,secondary structure content,foldvision,erased,none,2,1024,0.5115244642135058,0.036929123318644175,0.6724239359665997
+subcellular_localization,secondary structure content,foldvision,erased,named,2,1024,0.5103113627173473,0.036929123318644175,0.6724239359665997
+subcellular_localization,secondary structure content,foldvision,erased,permuted,2,1024,0.5078851597250303,0.036929123318644175,0.6724239359665997
+subcellular_localization,secondary structure content,foldvision,sham0,none,2,1024,0.5139506672058229,0.002167423920706568,0.005093235887125069
+subcellular_localization,secondary structure content,foldvision,sham0,named,2,1024,0.5151637687019814,0.002167423920706568,0.005093235887125069
+subcellular_localization,secondary structure content,foldvision,sham0,permuted,2,1024,0.5111200970481197,0.002167423920706568,0.005093235887125069
+subcellular_localization,secondary structure content,foldvision,sham1,none,2,1024,0.5171856045289123,0.0012836409995878872,0.0010499678499775733
+subcellular_localization,secondary structure content,foldvision,sham1,named,2,1024,0.5200161746866154,0.0012836409995878872,0.0010499678499775733
+subcellular_localization,secondary structure content,foldvision,sham1,permuted,2,1024,0.5220380105135463,0.0012836409995878872,0.0010499678499775733
+subcellular_localization,secondary structure content,foldvision,sham2,none,2,1024,0.5038414880711686,0.0017946424481355416,0.00014253101910233212
+subcellular_localization,secondary structure content,foldvision,sham2,named,2,1024,0.5058633238980995,0.0017946424481355416,0.00014253101910233212
+subcellular_localization,secondary structure content,foldvision,sham2,permuted,2,1024,0.5014152850788516,0.0017946424481355416,0.00014253101910233212
+subcellular_localization,secondary structure content,foldvision,sham3,none,2,1024,0.511928831378892,0.002144742436166025,0.00014218279948963186
+subcellular_localization,secondary structure content,foldvision,sham3,named,2,1024,0.5050545895673272,0.002144742436166025,0.00014218279948963186
+subcellular_localization,secondary structure content,foldvision,sham3,permuted,2,1024,0.5038414880711686,0.002144742436166025,0.00014218279948963186
+subcellular_localization,secondary structure content,foldvision,null0,none,2,1024,0.3396684189243833,0.03702637576819001,0.012696698055077227
+subcellular_localization,secondary structure content,foldvision,null0,named,2,1024,0.3493732308936514,0.03702637576819001,0.012696698055077227
+subcellular_localization,secondary structure content,foldvision,null0,permuted,2,1024,0.3408815204205419,0.03702637576819001,0.012696698055077227
+subcellular_localization,secondary structure content,foldvision,null1,none,2,1024,0.34209462191670037,0.03700140148823472,0.01533169972283377
+subcellular_localization,secondary structure content,foldvision,null1,named,2,1024,0.36271734735139505,0.03700140148823472,0.01533169972283377
+subcellular_localization,secondary structure content,foldvision,null1,permuted,2,1024,0.34896886372826524,0.03700140148823472,0.01533169972283377
+subcellular_localization,secondary structure content,foldvision,null2,none,2,1024,0.3356247472705216,0.03726372373556075,0.011115785591589211
+subcellular_localization,secondary structure content,foldvision,null2,named,2,1024,0.3546300040436717,0.03726372373556075,0.011115785591589211
+subcellular_localization,secondary structure content,foldvision,null2,permuted,2,1024,0.3429033562474727,0.03726372373556075,0.011115785591589211
+subcellular_localization,secondary structure content,foldvision,null3,none,2,1024,0.3356247472705216,0.03726372373556075,0.011115785591589211
+subcellular_localization,secondary structure content,foldvision,null3,named,2,1024,0.3546300040436717,0.03726372373556075,0.011115785591589211
+subcellular_localization,secondary structure content,foldvision,null3,permuted,2,1024,0.3429033562474727,0.03726372373556075,0.011115785591589211
+subcellular_localization,secondary structure content,gcpnet_pretrained,intact,none,2,116,0.421754953497776,0.0,0.0
+subcellular_localization,secondary structure content,gcpnet_pretrained,erased,none,2,116,0.4173069146785281,0.011455095124375148,0.6887665526734471
+subcellular_localization,secondary structure content,gcpnet_pretrained,erased,named,2,116,0.41892438334007276,0.011455095124375148,0.6887665526734471
+subcellular_localization,secondary structure content,gcpnet_pretrained,erased,permuted,2,116,0.40962393853619083,0.011455095124375148,0.6887665526734471
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham0,none,2,116,0.4160938131823696,0.03064504077938013,0.052226585591232166
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham0,named,2,116,0.4181156490093004,0.03064504077938013,0.052226585591232166
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham0,permuted,2,116,0.41447634452082494,0.03064504077938013,0.052226585591232166
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham1,none,2,116,0.42903356247472707,0.008581722543138048,0.008700481953753947
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham1,named,2,116,0.43267286696320256,0.008581722543138048,0.008700481953753947
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham1,permuted,2,116,0.43267286696320256,0.008581722543138048,0.008700481953753947
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham2,none,2,116,0.42094621916700364,0.020238925255537277,0.00331818252124938
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham2,named,2,116,0.42903356247472707,0.020238925255537277,0.00331818252124938
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham2,permuted,2,116,0.4205418520016175,0.020238925255537277,0.00331818252124938
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham3,none,2,116,0.40800646987464617,0.005511821426778418,0.0029385896142944956
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham3,named,2,116,0.41447634452082494,0.005511821426778418,0.0029385896142944956
+subcellular_localization,secondary structure content,gcpnet_pretrained,sham3,permuted,2,116,0.40194096239385363,0.005511821426778418,0.0029385896142944956
+subcellular_localization,secondary structure content,gcpnet_pretrained,null0,none,2,116,0.45289122523251113,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null0,named,2,116,0.459765467044076,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null0,permuted,2,116,0.44965628790942175,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null1,none,2,116,0.45289122523251113,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null1,named,2,116,0.459765467044076,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null1,permuted,2,116,0.44965628790942175,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null2,none,2,116,0.45289122523251113,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null2,named,2,116,0.459765467044076,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null2,permuted,2,116,0.44965628790942175,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null3,none,2,116,0.45289122523251113,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null3,named,2,116,0.459765467044076,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_pretrained,null3,permuted,2,116,0.44965628790942175,0.01144168698531367,0.04206524043145432
+subcellular_localization,secondary structure content,gcpnet_random,intact,none,2,116,0.4415689446016983,0.0,0.0
+subcellular_localization,secondary structure content,gcpnet_random,erased,none,2,116,0.438334007278609,0.030371742818358083,0.746518241066008
+subcellular_localization,secondary structure content,gcpnet_random,erased,named,2,116,0.4419733117670845,0.030371742818358083,0.746518241066008
+subcellular_localization,secondary structure content,gcpnet_random,erased,permuted,2,116,0.43186413263243023,0.030371742818358083,0.746518241066008
+subcellular_localization,secondary structure content,gcpnet_random,sham0,none,2,116,0.4468257177517186,0.10927381920243484,0.03803061680974951
+subcellular_localization,secondary structure content,gcpnet_random,sham0,named,2,116,0.45167812373635263,0.10927381920243484,0.03803061680974951
+subcellular_localization,secondary structure content,gcpnet_random,sham0,permuted,2,116,0.4435907804286292,0.10927381920243484,0.03803061680974951
+subcellular_localization,secondary structure content,gcpnet_random,sham1,none,2,116,0.4350990699555196,0.028325354380472345,0.023430357536660895
+subcellular_localization,secondary structure content,gcpnet_random,sham1,named,2,116,0.4322684997978164,0.028325354380472345,0.023430357536660895
+subcellular_localization,secondary structure content,gcpnet_random,sham1,permuted,2,116,0.4322684997978164,0.028325354380472345,0.023430357536660895
+subcellular_localization,secondary structure content,gcpnet_random,sham2,none,2,116,0.44318641326324304,0.12398044233208583,0.02658068434446803
+subcellular_localization,secondary structure content,gcpnet_random,sham2,named,2,116,0.44439951475940154,0.12398044233208583,0.02658068434446803
+subcellular_localization,secondary structure content,gcpnet_random,sham2,permuted,2,116,0.43995147594015366,0.12398044233208583,0.02658068434446803
+subcellular_localization,secondary structure content,gcpnet_random,sham3,none,2,116,0.4286291953093409,0.03294545159368556,0.002685738079994171
+subcellular_localization,secondary structure content,gcpnet_random,sham3,named,2,116,0.4286291953093409,0.03294545159368556,0.002685738079994171
+subcellular_localization,secondary structure content,gcpnet_random,sham3,permuted,2,116,0.4286291953093409,0.03294545159368556,0.002685738079994171
+subcellular_localization,secondary structure content,gcpnet_random,null0,none,2,116,0.46987464617873026,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null0,named,2,116,0.4670440760210271,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null0,permuted,2,116,0.46866154468257176,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null1,none,2,116,0.46987464617873026,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null1,named,2,116,0.4670440760210271,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null1,permuted,2,116,0.46866154468257176,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null2,none,2,116,0.46987464617873026,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null2,named,2,116,0.4670440760210271,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null2,permuted,2,116,0.46866154468257176,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null3,none,2,116,0.46987464617873026,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null3,named,2,116,0.4670440760210271,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gcpnet_random,null3,permuted,2,116,0.46866154468257176,0.030309941372756444,0.2772269171943592
+subcellular_localization,secondary structure content,gearnet,intact,none,2,512,0.4751314193287505,0.0,0.0
+subcellular_localization,secondary structure content,gearnet,erased,none,2,512,0.47594015365952286,0.0014266605760799855,0.3359134880514284
+subcellular_localization,secondary structure content,gearnet,erased,named,2,512,0.4767488879902952,0.0014266605760799855,0.3359134880514284
+subcellular_localization,secondary structure content,gearnet,erased,permuted,2,512,0.4852405984634048,0.0014266605760799855,0.3359134880514284
+subcellular_localization,secondary structure content,gearnet,sham0,none,2,512,0.48443186413263245,0.0030028712031234805,0.0005729521653757841
+subcellular_localization,secondary structure content,gearnet,sham0,named,2,512,0.47594015365952286,0.0030028712031234805,0.0005729521653757841
+subcellular_localization,secondary structure content,gearnet,sham0,permuted,2,512,0.48160129397492923,0.0030028712031234805,0.0005729521653757841
+subcellular_localization,secondary structure content,gearnet,sham1,none,2,512,0.47715325515568136,0.003225327297213476,0.000707700650415144
+subcellular_localization,secondary structure content,gearnet,sham1,named,2,512,0.4767488879902952,0.003225327297213476,0.000707700650415144
+subcellular_localization,secondary structure content,gearnet,sham1,permuted,2,512,0.47917509098261224,0.003225327297213476,0.000707700650415144
+subcellular_localization,secondary structure content,gearnet,sham2,none,2,512,0.4727052163364335,0.0032833704186322477,0.0008097339634426381
+subcellular_localization,secondary structure content,gearnet,sham2,named,2,512,0.4779619894864537,0.0032833704186322477,0.0008097339634426381
+subcellular_localization,secondary structure content,gearnet,sham2,permuted,2,512,0.4820056611403154,0.0032833704186322477,0.0008097339634426381
+subcellular_localization,secondary structure content,gearnet,sham3,none,2,512,0.46987464617873026,0.004765130090091829,0.00016424624851973935
+subcellular_localization,secondary structure content,gearnet,sham3,named,2,512,0.4767488879902952,0.004765130090091829,0.00016424624851973935
+subcellular_localization,secondary structure content,gearnet,sham3,permuted,2,512,0.4779619894864537,0.004765130090091829,0.00016424624851973935
+subcellular_localization,secondary structure content,gearnet,null0,none,2,512,0.41366761019005255,0.0014350169721835115,0.0003344740140915903
+subcellular_localization,secondary structure content,gearnet,null0,named,2,512,0.4140719773554387,0.0014350169721835115,0.0003344740140915903
+subcellular_localization,secondary structure content,gearnet,null0,permuted,2,512,0.40962393853619083,0.0014350169721835115,0.0003344740140915903
+subcellular_localization,secondary structure content,gearnet,null1,none,2,512,0.4201374848362313,0.0014281706639979186,0.0005077515142944966
+subcellular_localization,secondary structure content,gearnet,null1,named,2,512,0.4160938131823696,0.0014281706639979186,0.0005077515142944966
+subcellular_localization,secondary structure content,gearnet,null1,permuted,2,512,0.4140719773554387,0.0014281706639979186,0.0005077515142944966
+subcellular_localization,secondary structure content,gearnet,null2,none,2,512,0.4132632430246664,0.0014211810238791145,0.007052632615056398
+subcellular_localization,secondary structure content,gearnet,null2,named,2,512,0.41771128184391426,0.0014211810238791145,0.007052632615056398
+subcellular_localization,secondary structure content,gearnet,null2,permuted,2,512,0.4108370400323494,0.0014211810238791145,0.007052632615056398
+subcellular_localization,secondary structure content,gearnet,null3,none,2,512,0.4132632430246664,0.0014337368524056648,0.0005927732458215207
+subcellular_localization,secondary structure content,gearnet,null3,named,2,512,0.4132632430246664,0.0014337368524056648,0.0005927732458215207
+subcellular_localization,secondary structure content,gearnet,null3,permuted,2,512,0.41528507885159727,0.0014337368524056648,0.0005927732458215207
+subcellular_localization,secondary structure content,gearnet_pretrained,intact,none,2,512,0.376870198139911,0.0,0.0
+subcellular_localization,secondary structure content,gearnet_pretrained,erased,none,2,512,0.37646583097452485,0.0046356379668116565,0.2218910821894685
+subcellular_localization,secondary structure content,gearnet_pretrained,erased,named,2,512,0.37282652648604936,0.0046356379668116565,0.2218910821894685
+subcellular_localization,secondary structure content,gearnet_pretrained,erased,permuted,2,512,0.37646583097452485,0.0046356379668116565,0.2218910821894685
+subcellular_localization,secondary structure content,gearnet_pretrained,sham0,none,2,512,0.3671653861706429,0.0014611156288562022,0.0011931451872827514
+subcellular_localization,secondary structure content,gearnet_pretrained,sham0,named,2,512,0.37646583097452485,0.0014611156288562022,0.0011931451872827514
+subcellular_localization,secondary structure content,gearnet_pretrained,sham0,permuted,2,512,0.37201779215527697,0.0014611156288562022,0.0011931451872827514
+subcellular_localization,secondary structure content,gearnet_pretrained,sham1,none,2,512,0.3598867771936919,0.0013631183563937999,0.0003772644666923952
+subcellular_localization,secondary structure content,gearnet_pretrained,sham1,named,2,512,0.38091386979377273,0.0013631183563937999,0.0003772644666923952
+subcellular_localization,secondary structure content,gearnet_pretrained,sham1,permuted,2,512,0.36595228467448443,0.0013631183563937999,0.0003772644666923952
+subcellular_localization,secondary structure content,gearnet_pretrained,sham2,none,2,512,0.3619086130206227,0.0014608217818559144,0.00022563259953345405
+subcellular_localization,secondary structure content,gearnet_pretrained,sham2,named,2,512,0.3594824100283057,0.0014608217818559144,0.00022563259953345405
+subcellular_localization,secondary structure content,gearnet_pretrained,sham2,permuted,2,512,0.36473918317832593,0.0014608217818559144,0.00022563259953345405
+subcellular_localization,secondary structure content,gearnet_pretrained,sham3,none,2,512,0.3631217145167812,0.0025887715486914153,0.00021967911398690365
+subcellular_localization,secondary structure content,gearnet_pretrained,sham3,named,2,512,0.36959158916296,0.0025887715486914153,0.00021967911398690365
+subcellular_localization,secondary structure content,gearnet_pretrained,sham3,permuted,2,512,0.37525272947836635,0.0025887715486914153,0.00021967911398690365
+subcellular_localization,secondary structure content,gearnet_pretrained,null0,none,2,512,0.3259199353012535,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null0,named,2,512,0.336433481601294,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null0,permuted,2,512,0.3331985442782046,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null1,none,2,512,0.3259199353012535,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null1,named,2,512,0.336433481601294,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null1,permuted,2,512,0.3331985442782046,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null2,none,2,512,0.3259199353012535,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null2,named,2,512,0.336433481601294,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null2,permuted,2,512,0.3331985442782046,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null3,none,2,512,0.3259199353012535,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null3,named,2,512,0.336433481601294,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gearnet_pretrained,null3,permuted,2,512,0.3331985442782046,0.004681491349119327,0.0003506171623985921
+subcellular_localization,secondary structure content,gvp,intact,none,2,116,0.4342903356247473,0.0,0.0
+subcellular_localization,secondary structure content,gvp,erased,none,2,116,0.424181156490093,0.00028166997831091667,0.7058133094719189
+subcellular_localization,secondary structure content,gvp,erased,named,2,116,0.4338859684593611,0.00028166997831091667,0.7058133094719189
+subcellular_localization,secondary structure content,gvp,erased,permuted,2,116,0.4278204609785685,0.00028166997831091667,0.7058133094719189
+subcellular_localization,secondary structure content,gvp,sham0,none,2,116,0.4229680549939345,0.022807745937498347,0.028205439557442702
+subcellular_localization,secondary structure content,gvp,sham0,named,2,116,0.4282248281439547,0.022807745937498347,0.028205439557442702
+subcellular_localization,secondary structure content,gvp,sham0,permuted,2,116,0.42903356247472707,0.022807745937498347,0.028205439557442702
+subcellular_localization,secondary structure content,gvp,sham1,none,2,116,0.43065103113627173,0.02193721170876628,0.014652862497864794
+subcellular_localization,secondary structure content,gvp,sham1,named,2,116,0.4342903356247473,0.02193721170876628,0.014652862497864794
+subcellular_localization,secondary structure content,gvp,sham1,permuted,2,116,0.43267286696320256,0.02193721170876628,0.014652862497864794
+subcellular_localization,secondary structure content,gvp,sham2,none,2,116,0.4257986251516377,0.03226652116103801,0.0014563491071626355
+subcellular_localization,secondary structure content,gvp,sham2,named,2,116,0.4355034371209058,0.03226652116103801,0.0014563491071626355
+subcellular_localization,secondary structure content,gvp,sham2,permuted,2,116,0.42903356247472707,0.03226652116103801,0.0014563491071626355
+subcellular_localization,secondary structure content,gvp,sham3,none,2,116,0.41690254751314193,0.02677875337577973,0.0024401093243340277
+subcellular_localization,secondary structure content,gvp,sham3,named,2,116,0.41568944601698343,0.02677875337577973,0.0024401093243340277
+subcellular_localization,secondary structure content,gvp,sham3,permuted,2,116,0.41366761019005255,0.02677875337577973,0.0024401093243340277
+subcellular_localization,secondary structure content,gvp,null0,none,2,116,0.4917104731095835,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null0,named,2,116,0.4945410432672867,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null0,permuted,2,116,0.48685806712494945,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null1,none,2,116,0.4917104731095835,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null1,named,2,116,0.4945410432672867,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null1,permuted,2,116,0.48685806712494945,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null2,none,2,116,0.4917104731095835,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null2,named,2,116,0.4945410432672867,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null2,permuted,2,116,0.48685806712494945,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null3,none,2,116,0.4917104731095835,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null3,named,2,116,0.4945410432672867,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,gvp,null3,permuted,2,116,0.48685806712494945,0.00028047352198234954,0.028956773279319448
+subcellular_localization,secondary structure content,ipa,intact,none,2,128,0.4140719773554387,0.0,0.0
+subcellular_localization,secondary structure content,ipa,erased,none,2,128,0.4108370400323494,0.008339609285398897,0.5493277867578942
+subcellular_localization,secondary structure content,ipa,erased,named,2,128,0.4148807116862111,0.008339609285398897,0.5493277867578942
+subcellular_localization,secondary structure content,ipa,erased,permuted,2,128,0.4108370400323494,0.008339609285398897,0.5493277867578942
+subcellular_localization,secondary structure content,ipa,sham0,none,2,128,0.4088152042054185,0.01346001980834266,0.009351558102314916
+subcellular_localization,secondary structure content,ipa,sham0,named,2,128,0.4173069146785281,0.01346001980834266,0.009351558102314916
+subcellular_localization,secondary structure content,ipa,sham0,permuted,2,128,0.40841083704003234,0.01346001980834266,0.009351558102314916
+subcellular_localization,secondary structure content,ipa,sham1,none,2,128,0.40194096239385363,0.018944788323320916,0.012453108722245698
+subcellular_localization,secondary structure content,ipa,sham1,named,2,128,0.4128588758592802,0.018944788323320916,0.012453108722245698
+subcellular_localization,secondary structure content,ipa,sham1,permuted,2,128,0.40274969672462596,0.018944788323320916,0.012453108722245698
+subcellular_localization,secondary structure content,ipa,sham2,none,2,128,0.405175899716943,0.015423696053047942,0.0063348725467600175
+subcellular_localization,secondary structure content,ipa,sham2,named,2,128,0.40962393853619083,0.015423696053047942,0.0063348725467600175
+subcellular_localization,secondary structure content,ipa,sham2,permuted,2,128,0.40274969672462596,0.015423696053047942,0.0063348725467600175
+subcellular_localization,secondary structure content,ipa,sham3,none,2,128,0.3991103922361504,0.023235870166464223,0.007539585715036656
+subcellular_localization,secondary structure content,ipa,sham3,named,2,128,0.40760210270926,0.023235870166464223,0.007539585715036656
+subcellular_localization,secondary structure content,ipa,sham3,permuted,2,128,0.40396279822078446,0.023235870166464223,0.007539585715036656
+subcellular_localization,secondary structure content,ipa,null0,none,2,128,0.4067933683784877,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null0,named,2,128,0.40760210270926,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null0,permuted,2,128,0.40841083704003234,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null1,none,2,128,0.4067933683784877,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null1,named,2,128,0.40760210270926,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null1,permuted,2,128,0.40841083704003234,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null2,none,2,128,0.4067933683784877,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null2,named,2,128,0.40760210270926,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null2,permuted,2,128,0.40841083704003234,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null3,none,2,128,0.4067933683784877,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null3,named,2,128,0.40760210270926,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa,null3,permuted,2,128,0.40841083704003234,0.00836827887969338,0.01589595793133869
+subcellular_localization,secondary structure content,ipa_pretrained,intact,none,2,128,0.36595228467448443,0.0,0.0
+subcellular_localization,secondary structure content,ipa_pretrained,erased,none,2,128,0.3623129801860089,0.05679287056054072,0.4702472995879029
+subcellular_localization,secondary structure content,ipa_pretrained,erased,named,2,128,0.38374443995147595,0.05679287056054072,0.4702472995879029
+subcellular_localization,secondary structure content,ipa_pretrained,erased,permuted,2,128,0.37242215932066314,0.05679287056054072,0.4702472995879029
+subcellular_localization,secondary structure content,ipa_pretrained,sham0,none,2,128,0.36029114435907805,0.022288814366828502,0.017350823240783297
+subcellular_localization,secondary structure content,ipa_pretrained,sham0,named,2,128,0.3772745653052972,0.022288814366828502,0.017350823240783297
+subcellular_localization,secondary structure content,ipa_pretrained,sham0,permuted,2,128,0.36878285483218765,0.022288814366828502,0.017350823240783297
+subcellular_localization,secondary structure content,ipa_pretrained,sham1,none,2,128,0.36797412050141526,0.033927670784328345,0.011676581254623453
+subcellular_localization,secondary structure content,ipa_pretrained,sham1,named,2,128,0.3691872219975738,0.033927670784328345,0.011676581254623453
+subcellular_localization,secondary structure content,ipa_pretrained,sham1,permuted,2,128,0.3675697533360291,0.033927670784328345,0.011676581254623453
+subcellular_localization,secondary structure content,ipa_pretrained,sham2,none,2,128,0.36797412050141526,0.024951842611050212,0.0006628529523506899
+subcellular_localization,secondary structure content,ipa_pretrained,sham2,named,2,128,0.37808329963606957,0.024951842611050212,0.0006628529523506899
+subcellular_localization,secondary structure content,ipa_pretrained,sham2,permuted,2,128,0.3788920339668419,0.024951842611050212,0.0006628529523506899
+subcellular_localization,secondary structure content,ipa_pretrained,sham3,none,2,128,0.36999595632834614,0.02141053207039989,0.002103668916458523
+subcellular_localization,secondary structure content,ipa_pretrained,sham3,named,2,128,0.37848766680145574,0.02141053207039989,0.002103668916458523
+subcellular_localization,secondary structure content,ipa_pretrained,sham3,permuted,2,128,0.38091386979377273,0.02141053207039989,0.002103668916458523
+subcellular_localization,secondary structure content,ipa_pretrained,null0,none,2,128,0.36352608168216743,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null0,named,2,128,0.37929640113222807,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null0,permuted,2,128,0.36959158916296,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null1,none,2,128,0.36352608168216743,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null1,named,2,128,0.37929640113222807,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null1,permuted,2,128,0.36959158916296,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null2,none,2,128,0.36959158916296,0.05384022674155442,0.017240370944119676
+subcellular_localization,secondary structure content,ipa_pretrained,null2,named,2,128,0.3813182369591589,0.05384022674155442,0.017240370944119676
+subcellular_localization,secondary structure content,ipa_pretrained,null2,permuted,2,128,0.3776789324706834,0.05384022674155442,0.017240370944119676
+subcellular_localization,secondary structure content,ipa_pretrained,null3,none,2,128,0.36352608168216743,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null3,named,2,128,0.37929640113222807,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,ipa_pretrained,null3,permuted,2,128,0.36959158916296,0.056140917622494735,0.0015857523133819829
+subcellular_localization,secondary structure content,mace,intact,none,2,128,0.44520824909017387,0.0,0.0
+subcellular_localization,secondary structure content,mace,erased,none,2,128,0.4330772341285888,0.008744034797267153,0.21502013913361218
+subcellular_localization,secondary structure content,mace,erased,named,2,128,0.4355034371209058,0.008744034797267153,0.21502013913361218
+subcellular_localization,secondary structure content,mace,erased,permuted,2,128,0.43065103113627173,0.008744034797267153,0.21502013913361218
+subcellular_localization,secondary structure content,mace,sham0,none,2,128,0.43145976546704407,0.018756199066949475,0.002493138201549394
+subcellular_localization,secondary structure content,mace,sham0,named,2,128,0.44116457743631216,0.018756199066949475,0.002493138201549394
+subcellular_localization,secondary structure content,mace,sham0,permuted,2,128,0.4338859684593611,0.018756199066949475,0.002493138201549394
+subcellular_localization,secondary structure content,mace,sham1,none,2,128,0.4282248281439547,0.016548102154876676,0.003631062705543253
+subcellular_localization,secondary structure content,mace,sham1,named,2,128,0.43590780428629194,0.016548102154876676,0.003631062705543253
+subcellular_localization,secondary structure content,mace,sham1,permuted,2,128,0.43065103113627173,0.016548102154876676,0.003631062705543253
+subcellular_localization,secondary structure content,mace,sham2,none,2,128,0.440760210270926,0.0323736973925165,0.0020944531337067085
+subcellular_localization,secondary structure content,mace,sham2,named,2,128,0.4363121714516781,0.0323736973925165,0.0020944531337067085
+subcellular_localization,secondary structure content,mace,sham2,permuted,2,128,0.440760210270926,0.0323736973925165,0.0020944531337067085
+subcellular_localization,secondary structure content,mace,sham3,none,2,128,0.4282248281439547,0.0242947256324737,0.00023217105525574766
+subcellular_localization,secondary structure content,mace,sham3,named,2,128,0.43065103113627173,0.0242947256324737,0.00023217105525574766
+subcellular_localization,secondary structure content,mace,sham3,permuted,2,128,0.43752527294783666,0.0242947256324737,0.00023217105525574766
+subcellular_localization,secondary structure content,mace,null0,none,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null0,named,2,128,0.4630004043671654,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null0,permuted,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null1,none,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null1,named,2,128,0.4630004043671654,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null1,permuted,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null2,none,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null2,named,2,128,0.4630004043671654,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null2,permuted,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null3,none,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null3,named,2,128,0.4630004043671654,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,mace,null3,permuted,2,128,0.4561261625556005,0.008346758561010303,0.0006867377782742157
+subcellular_localization,secondary structure content,pottsmpnn,intact,none,2,128,0.39304488475535787,0.0,0.0
+subcellular_localization,secondary structure content,pottsmpnn,erased,none,2,128,0.39223615042458554,0.010210805628223296,0.5538521079793133
+subcellular_localization,secondary structure content,pottsmpnn,erased,named,2,128,0.39223615042458554,0.010210805628223296,0.5538521079793133
+subcellular_localization,secondary structure content,pottsmpnn,erased,permuted,2,128,0.3906186817630408,0.010210805628223296,0.5538521079793133
+subcellular_localization,secondary structure content,pottsmpnn,sham0,none,2,128,0.38778811160533766,0.020835100169581233,0.022980614810888422
+subcellular_localization,secondary structure content,pottsmpnn,sham0,named,2,128,0.3873837444399515,0.020835100169581233,0.022980614810888422
+subcellular_localization,secondary structure content,pottsmpnn,sham0,permuted,2,128,0.3898099474322685,0.020835100169581233,0.022980614810888422
+subcellular_localization,secondary structure content,pottsmpnn,sham1,none,2,128,0.39870602507076425,0.008746975595959938,0.0038824501201029094
+subcellular_localization,secondary structure content,pottsmpnn,sham1,named,2,128,0.3938536190861302,0.008746975595959938,0.0038824501201029094
+subcellular_localization,secondary structure content,pottsmpnn,sham1,permuted,2,128,0.40072786089769513,0.008746975595959938,0.0038824501201029094
+subcellular_localization,secondary structure content,pottsmpnn,sham2,none,2,128,0.39223615042458554,0.023117574221880766,0.006204257419008208
+subcellular_localization,secondary structure content,pottsmpnn,sham2,named,2,128,0.4003234937323089,0.023117574221880766,0.006204257419008208
+subcellular_localization,secondary structure content,pottsmpnn,sham2,permuted,2,128,0.3991103922361504,0.023117574221880766,0.006204257419008208
+subcellular_localization,secondary structure content,pottsmpnn,sham3,none,2,128,0.3970885564092196,0.008650698829473336,0.000475939156719285
+subcellular_localization,secondary structure content,pottsmpnn,sham3,named,2,128,0.39991912656692274,0.008650698829473336,0.000475939156719285
+subcellular_localization,secondary structure content,pottsmpnn,sham3,permuted,2,128,0.3983016579053781,0.008650698829473336,0.000475939156719285
+subcellular_localization,secondary structure content,pottsmpnn,null0,none,2,128,0.41568944601698343,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null0,named,2,128,0.424181156490093,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null0,permuted,2,128,0.41690254751314193,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null1,none,2,128,0.41568944601698343,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null1,named,2,128,0.424181156490093,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null1,permuted,2,128,0.41690254751314193,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null2,none,2,128,0.41568944601698343,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null2,named,2,128,0.424181156490093,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null2,permuted,2,128,0.41690254751314193,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null3,none,2,128,0.41568944601698343,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null3,named,2,128,0.424181156490093,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn,null3,permuted,2,128,0.41690254751314193,0.009756554476353485,0.06573534200212827
+subcellular_localization,secondary structure content,pottsmpnn_ft,intact,none,2,128,0.44561261625556003,0.0,0.0
+subcellular_localization,secondary structure content,pottsmpnn_ft,erased,none,2,128,0.438334007278609,0.044745117323496064,0.6120101665349169
+subcellular_localization,secondary structure content,pottsmpnn_ft,erased,named,2,128,0.44318641326324304,0.044745117323496064,0.6120101665349169
+subcellular_localization,secondary structure content,pottsmpnn_ft,erased,permuted,2,128,0.43792964011322283,0.044745117323496064,0.6120101665349169
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham0,none,2,128,0.4460169834209462,0.016287874273586467,0.03173247346707575
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham0,named,2,128,0.4512737565709664,0.016287874273586467,0.03173247346707575
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham0,permuted,2,128,0.4532955923978973,0.016287874273586467,0.03173247346707575
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham1,none,2,128,0.4520824909017388,0.009272386335548055,0.0026303208922964227
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham1,named,2,128,0.4541043267286696,0.009272386335548055,0.0026303208922964227
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham1,permuted,2,128,0.45248685806712496,0.009272386335548055,0.0026303208922964227
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham2,none,2,128,0.4557217953902143,0.01056364859169312,0.0028980056352435613
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham2,named,2,128,0.45814799838253134,0.01056364859169312,0.0028980056352435613
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham2,permuted,2,128,0.45936109987868984,0.01056364859169312,0.0028980056352435613
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham3,none,2,128,0.44723008491710475,0.00992204205532421,0.0047077447121636196
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham3,named,2,128,0.4415689446016983,0.00992204205532421,0.0047077447121636196
+subcellular_localization,secondary structure content,pottsmpnn_ft,sham3,permuted,2,128,0.440760210270926,0.00992204205532421,0.0047077447121636196
+subcellular_localization,secondary structure content,pottsmpnn_ft,null0,none,2,128,0.4435907804286292,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null0,named,2,128,0.4553174282248281,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null0,permuted,2,128,0.44844318641326325,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null1,none,2,128,0.4435907804286292,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null1,named,2,128,0.4553174282248281,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null1,permuted,2,128,0.44844318641326325,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null2,none,2,128,0.4435907804286292,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null2,named,2,128,0.4553174282248281,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null2,permuted,2,128,0.44844318641326325,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null3,none,2,128,0.4435907804286292,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null3,named,2,128,0.4553174282248281,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_ft,null3,permuted,2,128,0.44844318641326325,0.04334941863588648,0.1097531351398916
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,intact,none,2,128,0.4545086938940558,0.0,0.0
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,erased,none,2,128,0.4367165386170643,0.04967676927076936,0.6148877693594134
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,erased,named,2,128,0.4500606550748079,0.04967676927076936,0.6148877693594134
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,erased,permuted,2,128,0.438334007278609,0.04967676927076936,0.6148877693594134
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham0,none,2,128,0.4500606550748079,0.01912071946973437,0.026456365608660493
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham0,named,2,128,0.4565305297209867,0.01912071946973437,0.026456365608660493
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham0,permuted,2,128,0.4520824909017388,0.01912071946973437,0.026456365608660493
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham1,none,2,128,0.44642135058633237,0.011722733883025138,0.0031407638200828814
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham1,named,2,128,0.4480388192478771,0.011722733883025138,0.0031407638200828814
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham1,permuted,2,128,0.44561261625556003,0.011722733883025138,0.0031407638200828814
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham2,none,2,128,0.4577436312171452,0.014256893874281973,0.002612752835343901
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham2,named,2,128,0.459765467044076,0.014256893874281973,0.002612752835343901
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham2,permuted,2,128,0.45369995956328346,0.014256893874281973,0.002612752835343901
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham3,none,2,128,0.44561261625556003,0.009147777531484325,0.004800005250861217
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham3,named,2,128,0.4532955923978973,0.009147777531484325,0.004800005250861217
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,sham3,permuted,2,128,0.44723008491710475,0.009147777531484325,0.004800005250861217
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null0,none,2,128,0.43348160129397495,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null0,named,2,128,0.43267286696320256,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null0,permuted,2,128,0.4367165386170643,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null1,none,2,128,0.43348160129397495,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null1,named,2,128,0.43267286696320256,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null1,permuted,2,128,0.4367165386170643,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null2,none,2,128,0.43348160129397495,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null2,named,2,128,0.43267286696320256,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null2,permuted,2,128,0.4367165386170643,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null3,none,2,128,0.43348160129397495,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null3,named,2,128,0.43267286696320256,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_pretrained,null3,permuted,2,128,0.4367165386170643,0.0493981230385695,0.059922314580657776
+subcellular_localization,secondary structure content,pottsmpnn_soluble,intact,none,2,128,0.4427820460978569,0.0,0.0
+subcellular_localization,secondary structure content,pottsmpnn_soluble,erased,none,2,128,0.4403558431055398,0.042631688585066496,0.6030007683382667
+subcellular_localization,secondary structure content,pottsmpnn_soluble,erased,named,2,128,0.438334007278609,0.042631688585066496,0.6030007683382667
+subcellular_localization,secondary structure content,pottsmpnn_soluble,erased,permuted,2,128,0.43267286696320256,0.042631688585066496,0.6030007683382667
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham0,none,2,128,0.4476344520824909,0.02008774597977292,0.03361704443155178
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham0,named,2,128,0.45369995956328346,0.02008774597977292,0.03361704443155178
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham0,permuted,2,128,0.4427820460978569,0.02008774597977292,0.03361704443155178
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham1,none,2,128,0.4448038819247877,0.012810054182500918,0.004330906480482732
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham1,named,2,128,0.4435907804286292,0.012810054182500918,0.004330906480482732
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham1,permuted,2,128,0.4460169834209462,0.012810054182500918,0.004330906480482732
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham2,none,2,128,0.4492519207440356,0.009633194562238323,0.0027109516366614628
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham2,named,2,128,0.43873837444399516,0.009633194562238323,0.0027109516366614628
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham2,permuted,2,128,0.4338859684593611,0.009633194562238323,0.0027109516366614628
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham3,none,2,128,0.42741609381318235,0.006484304856607892,0.004351094039563352
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham3,named,2,128,0.4330772341285888,0.006484304856607892,0.004351094039563352
+subcellular_localization,secondary structure content,pottsmpnn_soluble,sham3,permuted,2,128,0.4278204609785685,0.006484304856607892,0.004351094039563352
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null0,none,2,128,0.43024666397088557,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null0,named,2,128,0.438334007278609,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null0,permuted,2,128,0.4298422968054994,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null1,none,2,128,0.43024666397088557,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null1,named,2,128,0.438334007278609,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null1,permuted,2,128,0.4298422968054994,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null2,none,2,128,0.43024666397088557,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null2,named,2,128,0.438334007278609,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null2,permuted,2,128,0.4298422968054994,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null3,none,2,128,0.43024666397088557,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null3,named,2,128,0.438334007278609,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,pottsmpnn_soluble,null3,permuted,2,128,0.4298422968054994,0.043947185218690454,0.176312250547356
+subcellular_localization,secondary structure content,prostt5,intact,none,2,1024,0.6486049332794177,0.0,0.0
+subcellular_localization,secondary structure content,prostt5,erased,none,2,1024,0.6453699959563284,0.030917908454482834,0.8371815153916228
+subcellular_localization,secondary structure content,prostt5,erased,named,2,1024,0.6384957541447634,0.030917908454482834,0.8371815153916228
+subcellular_localization,secondary structure content,prostt5,erased,permuted,2,1024,0.6413263243024666,0.030917908454482834,0.8371815153916228
+subcellular_localization,secondary structure content,prostt5,sham0,none,2,1024,0.6433481601293974,0.001602073899693135,0.003106087265542734
+subcellular_localization,secondary structure content,prostt5,sham0,named,2,1024,0.6364739183178326,0.001602073899693135,0.003106087265542734
+subcellular_localization,secondary structure content,prostt5,sham0,permuted,2,1024,0.6368782854832188,0.001602073899693135,0.003106087265542734
+subcellular_localization,secondary structure content,prostt5,sham1,none,2,1024,0.64941366761019,0.0015863630535818407,0.0015033172214324875
+subcellular_localization,secondary structure content,prostt5,sham1,named,2,1024,0.6421350586332389,0.0015863630535818407,0.0015033172214324875
+subcellular_localization,secondary structure content,prostt5,sham1,permuted,2,1024,0.644561261625556,0.0015863630535818407,0.0015033172214324875
+subcellular_localization,secondary structure content,prostt5,sham2,none,2,1024,0.6401132228063081,0.0026917841091600447,0.0009656992873284809
+subcellular_localization,secondary structure content,prostt5,sham2,named,2,1024,0.6457743631217145,0.0026917841091600447,0.0009656992873284809
+subcellular_localization,secondary structure content,prostt5,sham2,permuted,2,1024,0.6405175899716943,0.0026917841091600447,0.0009656992873284809
+subcellular_localization,secondary structure content,prostt5,sham3,none,2,1024,0.6449656287909422,0.0019307044431557951,0.0005494525916187598
+subcellular_localization,secondary structure content,prostt5,sham3,named,2,1024,0.6360695511524465,0.0019307044431557951,0.0005494525916187598
+subcellular_localization,secondary structure content,prostt5,sham3,permuted,2,1024,0.6376870198139911,0.0019307044431557951,0.0005494525916187598
+subcellular_localization,secondary structure content,prostt5,null0,none,2,1024,0.5192074403558431,0.030621004058584034,0.011087741304359522
+subcellular_localization,secondary structure content,prostt5,null0,named,2,1024,0.5066720582288718,0.030621004058584034,0.011087741304359522
+subcellular_localization,secondary structure content,prostt5,null0,permuted,2,1024,0.5014152850788516,0.030621004058584034,0.011087741304359522
+subcellular_localization,secondary structure content,prostt5,null1,none,2,1024,0.5151637687019814,0.031319788565553286,0.01493185082063897
+subcellular_localization,secondary structure content,prostt5,null1,named,2,1024,0.504650222401941,0.031319788565553286,0.01493185082063897
+subcellular_localization,secondary structure content,prostt5,null1,permuted,2,1024,0.5066720582288718,0.031319788565553286,0.01493185082063897
+subcellular_localization,secondary structure content,prostt5,null2,none,2,1024,0.5159725030327538,0.030986840204031085,0.005906205101353645
+subcellular_localization,secondary structure content,prostt5,null2,named,2,1024,0.5147594015365953,0.030986840204031085,0.005906205101353645
+subcellular_localization,secondary structure content,prostt5,null2,permuted,2,1024,0.5127375657096643,0.030986840204031085,0.005906205101353645
+subcellular_localization,secondary structure content,prostt5,null3,none,2,1024,0.5159725030327538,0.030986840204031085,0.005906205101353645
+subcellular_localization,secondary structure content,prostt5,null3,named,2,1024,0.5147594015365953,0.030986840204031085,0.005906205101353645
+subcellular_localization,secondary structure content,prostt5,null3,permuted,2,1024,0.5127375657096643,0.030986840204031085,0.005906205101353645
+subcellular_localization,secondary structure content,protbert_bfd,intact,none,2,1024,0.651839870602507,0.0,0.0
+subcellular_localization,secondary structure content,protbert_bfd,erased,none,2,1024,0.6526486049332794,0.016654919878389962,0.777646027321665
+subcellular_localization,secondary structure content,protbert_bfd,erased,named,2,1024,0.6570966437525273,0.016654919878389962,0.777646027321665
+subcellular_localization,secondary structure content,protbert_bfd,erased,permuted,2,1024,0.6554791750909826,0.016654919878389962,0.777646027321665
+subcellular_localization,secondary structure content,protbert_bfd,sham0,none,2,1024,0.6486049332794177,0.001340209079144672,0.0023627284585441277
+subcellular_localization,secondary structure content,protbert_bfd,sham0,named,2,1024,0.6542660735948241,0.001340209079144672,0.0023627284585441277
+subcellular_localization,secondary structure content,protbert_bfd,sham0,permuted,2,1024,0.6554791750909826,0.001340209079144672,0.0023627284585441277
+subcellular_localization,secondary structure content,protbert_bfd,sham1,none,2,1024,0.6554791750909826,0.001646522690989305,0.002021551895661111
+subcellular_localization,secondary structure content,protbert_bfd,sham1,named,2,1024,0.6566922765871411,0.001646522690989305,0.002021551895661111
+subcellular_localization,secondary structure content,protbert_bfd,sham1,permuted,2,1024,0.6542660735948241,0.001646522690989305,0.002021551895661111
+subcellular_localization,secondary structure content,protbert_bfd,sham2,none,2,1024,0.6506267691063485,0.002773922200411616,0.0008151781288190385
+subcellular_localization,secondary structure content,protbert_bfd,sham2,named,2,1024,0.6534573392640518,0.002773922200411616,0.0008151781288190385
+subcellular_localization,secondary structure content,protbert_bfd,sham2,permuted,2,1024,0.653861706429438,0.002773922200411616,0.0008151781288190385
+subcellular_localization,secondary structure content,protbert_bfd,sham3,none,2,1024,0.646987464617873,0.004032531806099637,0.00019653123057228328
+subcellular_localization,secondary structure content,protbert_bfd,sham3,named,2,1024,0.6413263243024666,0.004032531806099637,0.00019653123057228328
+subcellular_localization,secondary structure content,protbert_bfd,sham3,permuted,2,1024,0.6413263243024666,0.004032531806099637,0.00019653123057228328
+subcellular_localization,secondary structure content,protbert_bfd,null0,none,2,1024,0.4989890820865346,0.016720695777021177,0.005042693481331129
+subcellular_localization,secondary structure content,protbert_bfd,null0,named,2,1024,0.509502628386575,0.016720695777021177,0.005042693481331129
+subcellular_localization,secondary structure content,protbert_bfd,null0,permuted,2,1024,0.5054589567327133,0.016720695777021177,0.005042693481331129
+subcellular_localization,secondary structure content,protbert_bfd,null1,none,2,1024,0.49939344925192075,0.016475398875882674,0.018321508392351804
+subcellular_localization,secondary structure content,protbert_bfd,null1,named,2,1024,0.5131419328750505,0.016475398875882674,0.018321508392351804
+subcellular_localization,secondary structure content,protbert_bfd,null1,permuted,2,1024,0.5030327537403962,0.016475398875882674,0.018321508392351804
+subcellular_localization,secondary structure content,protbert_bfd,null2,none,2,1024,0.49939344925192075,0.016475398875882674,0.018321508392351804
+subcellular_localization,secondary structure content,protbert_bfd,null2,named,2,1024,0.5131419328750505,0.016475398875882674,0.018321508392351804
+subcellular_localization,secondary structure content,protbert_bfd,null2,permuted,2,1024,0.5030327537403962,0.016475398875882674,0.018321508392351804
+subcellular_localization,secondary structure content,protbert_bfd,null3,none,2,1024,0.5014152850788516,0.01655913594991909,0.009236392144167827
+subcellular_localization,secondary structure content,protbert_bfd,null3,named,2,1024,0.5139506672058229,0.01655913594991909,0.009236392144167827
+subcellular_localization,secondary structure content,protbert_bfd,null3,permuted,2,1024,0.5074807925596442,0.01655913594991909,0.009236392144167827
+subcellular_localization,secondary structure content,proteinmpnn,intact,none,2,128,0.39021431459765465,0.0,0.0
+subcellular_localization,secondary structure content,proteinmpnn,erased,none,2,128,0.38374443995147595,0.028023139724075108,0.5404824361355715
+subcellular_localization,secondary structure content,proteinmpnn,erased,named,2,128,0.3966841892438334,0.028023139724075108,0.5404824361355715
+subcellular_localization,secondary structure content,proteinmpnn,erased,permuted,2,128,0.39223615042458554,0.028023139724075108,0.5404824361355715
+subcellular_localization,secondary structure content,proteinmpnn,sham0,none,2,128,0.3950667205822887,0.023247579259288553,0.019410729112890435
+subcellular_localization,secondary structure content,proteinmpnn,sham0,named,2,128,0.3978972907399919,0.023247579259288553,0.019410729112890435
+subcellular_localization,secondary structure content,proteinmpnn,sham0,permuted,2,128,0.39870602507076425,0.023247579259288553,0.019410729112890435
+subcellular_localization,secondary structure content,proteinmpnn,sham1,none,2,128,0.4043671653861706,0.013834739284350306,0.0015292693135724456
+subcellular_localization,secondary structure content,proteinmpnn,sham1,named,2,128,0.39991912656692274,0.013834739284350306,0.0015292693135724456
+subcellular_localization,secondary structure content,proteinmpnn,sham1,permuted,2,128,0.3991103922361504,0.013834739284350306,0.0015292693135724456
+subcellular_localization,secondary structure content,proteinmpnn,sham2,none,2,128,0.39547108774767487,0.022431374716798236,0.0034958539102578623
+subcellular_localization,secondary structure content,proteinmpnn,sham2,named,2,128,0.39304488475535787,0.022431374716798236,0.0034958539102578623
+subcellular_localization,secondary structure content,proteinmpnn,sham2,permuted,2,128,0.40072786089769513,0.022431374716798236,0.0034958539102578623
+subcellular_localization,secondary structure content,proteinmpnn,sham3,none,2,128,0.3918317832591994,0.006758021572438544,0.002704541163869978
+subcellular_localization,secondary structure content,proteinmpnn,sham3,named,2,128,0.3958754549130611,0.006758021572438544,0.002704541163869978
+subcellular_localization,secondary structure content,proteinmpnn,sham3,permuted,2,128,0.3970885564092196,0.006758021572438544,0.002704541163869978
+subcellular_localization,secondary structure content,proteinmpnn,null0,none,2,128,0.4128588758592802,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null0,named,2,128,0.41771128184391426,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null0,permuted,2,128,0.41447634452082494,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null1,none,2,128,0.4128588758592802,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null1,named,2,128,0.41771128184391426,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null1,permuted,2,128,0.41447634452082494,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null2,none,2,128,0.4128588758592802,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null2,named,2,128,0.41771128184391426,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null2,permuted,2,128,0.41447634452082494,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null3,none,2,128,0.4128588758592802,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null3,named,2,128,0.41771128184391426,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,proteinmpnn,null3,permuted,2,128,0.41447634452082494,0.03077736573648593,0.020548971354061196
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,intact,none,2,1024,0.6902547513141933,0.0,0.0
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,erased,none,2,1024,0.6963202587949858,0.011539906531606636,0.8170543758036933
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,erased,named,2,1024,0.7023857662757784,0.011539906531606636,0.8170543758036933
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,erased,permuted,2,1024,0.7023857662757784,0.011539906531606636,0.8170543758036933
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham0,none,2,1024,0.7052163364334816,0.001852223348983828,0.0029544833237042933
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham0,named,2,1024,0.6987464617873028,0.001852223348983828,0.0029544833237042933
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham0,permuted,2,1024,0.6991508289526891,0.001852223348983828,0.0029544833237042933
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham1,none,2,1024,0.6987464617873028,0.001661249954040711,0.0006083659646959338
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham1,named,2,1024,0.6991508289526891,0.001661249954040711,0.0006083659646959338
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham1,permuted,2,1024,0.6979377274565305,0.001661249954040711,0.0006083659646959338
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham2,none,2,1024,0.7027901334411646,0.0021794247788355925,0.0008096750295656374
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham2,named,2,1024,0.6991508289526891,0.0021794247788355925,0.0008096750295656374
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham2,permuted,2,1024,0.6963202587949858,0.0021794247788355925,0.0008096750295656374
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham3,none,2,1024,0.6951071572988273,0.0024269956430472694,0.0005356052894965879
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham3,named,2,1024,0.6894460169834209,0.0024269956430472694,0.0005356052894965879
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,sham3,permuted,2,1024,0.691872219975738,0.0024269956430472694,0.0005356052894965879
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null0,none,2,1024,0.5588354225636878,0.011429186367562516,0.0026137547398948913
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null0,named,2,1024,0.5612616255560049,0.011429186367562516,0.0026137547398948913
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null0,permuted,2,1024,0.5551961180752123,0.011429186367562516,0.0026137547398948913
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null1,none,2,1024,0.556813586736757,0.01145127772560206,0.00442283472164029
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null1,named,2,1024,0.5640921957137081,0.01145127772560206,0.00442283472164029
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null1,permuted,2,1024,0.5588354225636878,0.01145127772560206,0.00442283472164029
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null2,none,2,1024,0.5547917509098261,0.011439792457718534,0.0018525155666448967
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null2,named,2,1024,0.5596441568944601,0.011439792457718534,0.0018525155666448967
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null2,permuted,2,1024,0.5491306105944197,0.011439792457718534,0.0018525155666448967
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null3,none,2,1024,0.5588354225636878,0.011429186367562516,0.0026137547398948913
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null3,named,2,1024,0.5612616255560049,0.011429186367562516,0.0026137547398948913
+subcellular_localization,secondary structure content,prottrans_t5_xl_u50,null3,permuted,2,1024,0.5551961180752123,0.011429186367562516,0.0026137547398948913
+subcellular_localization,secondary structure content,saprot,intact,none,2,1280,0.6623534169025476,0.0,0.0
+subcellular_localization,secondary structure content,saprot,erased,none,2,1280,0.6631621512333199,0.037551094029921184,0.9377265349058235
+subcellular_localization,secondary structure content,saprot,erased,named,2,1280,0.6688232915487262,0.037551094029921184,0.9377265349058235
+subcellular_localization,secondary structure content,saprot,erased,permuted,2,1280,0.6676101900525677,0.037551094029921184,0.9377265349058235
+subcellular_localization,secondary structure content,saprot,sham0,none,2,1280,0.658714112414072,0.0014494346584986717,0.004097670968415068
+subcellular_localization,secondary structure content,saprot,sham0,named,2,1280,0.6635665183987061,0.0014494346584986717,0.004097670968415068
+subcellular_localization,secondary structure content,saprot,sham0,permuted,2,1280,0.6575010109179135,0.0014494346584986717,0.004097670968415068
+subcellular_localization,secondary structure content,saprot,sham1,none,2,1280,0.6639708855640922,0.0011075193410644557,0.000733171766927887
+subcellular_localization,secondary structure content,saprot,sham1,named,2,1280,0.6619490497371613,0.0011075193410644557,0.000733171766927887
+subcellular_localization,secondary structure content,saprot,sham1,permuted,2,1280,0.6603315810756166,0.0011075193410644557,0.000733171766927887
+subcellular_localization,secondary structure content,saprot,sham2,none,2,1280,0.661140315406389,0.002012009197491449,0.0020036707040251844
+subcellular_localization,secondary structure content,saprot,sham2,named,2,1280,0.6615446825717751,0.002012009197491449,0.0020036707040251844
+subcellular_localization,secondary structure content,saprot,sham2,permuted,2,1280,0.6595228467448443,0.002012009197491449,0.0020036707040251844
+subcellular_localization,secondary structure content,saprot,sham3,none,2,1280,0.6558835422563688,0.001466266339238742,0.0002764517496689489
+subcellular_localization,secondary structure content,saprot,sham3,named,2,1280,0.6639708855640922,0.001466266339238742,0.0002764517496689489
+subcellular_localization,secondary structure content,saprot,sham3,permuted,2,1280,0.6627577840679337,0.001466266339238742,0.0002764517496689489
+subcellular_localization,secondary structure content,saprot,null0,none,2,1280,0.4775576223210675,0.038739092028185707,0.1215779026703695
+subcellular_localization,secondary structure content,saprot,null0,named,2,1280,0.48685806712494945,0.038739092028185707,0.1215779026703695
+subcellular_localization,secondary structure content,saprot,null0,permuted,2,1280,0.48443186413263245,0.038739092028185707,0.1215779026703695
+subcellular_localization,secondary structure content,saprot,null1,none,2,1280,0.4751314193287505,0.0379460713613291,0.05757358652554034
+subcellular_localization,secondary structure content,saprot,null1,named,2,1280,0.4840274969672463,0.0379460713613291,0.05757358652554034
+subcellular_localization,secondary structure content,saprot,null1,permuted,2,1280,0.47998382531338457,0.0379460713613291,0.05757358652554034
+subcellular_localization,secondary structure content,saprot,null2,none,2,1280,0.4751314193287505,0.0379460713613291,0.05757358652554034
+subcellular_localization,secondary structure content,saprot,null2,named,2,1280,0.4840274969672463,0.0379460713613291,0.05757358652554034
+subcellular_localization,secondary structure content,saprot,null2,permuted,2,1280,0.47998382531338457,0.0379460713613291,0.05757358652554034
+subcellular_localization,secondary structure content,saprot,null3,none,2,1280,0.476344520824909,0.03778918637900197,0.10300579405290511
+subcellular_localization,secondary structure content,saprot,null3,named,2,1280,0.4852405984634048,0.03778918637900197,0.10300579405290511
+subcellular_localization,secondary structure content,saprot,null3,permuted,2,1280,0.4820056611403154,0.03778918637900197,0.10300579405290511
+subcellular_localization,secondary structure content,schnet,intact,none,2,128,0.4435907804286292,0.0,0.0
+subcellular_localization,secondary structure content,schnet,erased,none,2,128,0.44116457743631216,0.0007025429878056988,0.47081342131881265
+subcellular_localization,secondary structure content,schnet,erased,named,2,128,0.43752527294783666,0.0007025429878056988,0.47081342131881265
+subcellular_localization,secondary structure content,schnet,erased,permuted,2,128,0.4363121714516781,0.0007025429878056988,0.47081342131881265
+subcellular_localization,secondary structure content,schnet,sham0,none,2,128,0.43267286696320256,0.015112068361933684,0.01722257447209652
+subcellular_localization,secondary structure content,schnet,sham0,named,2,128,0.4391427416093813,0.015112068361933684,0.01722257447209652
+subcellular_localization,secondary structure content,schnet,sham0,permuted,2,128,0.4391427416093813,0.015112068361933684,0.01722257447209652
+subcellular_localization,secondary structure content,schnet,sham1,none,2,128,0.438334007278609,0.01824853218191491,0.0067717257892034866
+subcellular_localization,secondary structure content,schnet,sham1,named,2,128,0.4500606550748079,0.01824853218191491,0.0067717257892034866
+subcellular_localization,secondary structure content,schnet,sham1,permuted,2,128,0.4419733117670845,0.01824853218191491,0.0067717257892034866
+subcellular_localization,secondary structure content,schnet,sham2,none,2,128,0.4480388192478771,0.014758405951267872,0.008816222847135569
+subcellular_localization,secondary structure content,schnet,sham2,named,2,128,0.4504650222401941,0.014758405951267872,0.008816222847135569
+subcellular_localization,secondary structure content,schnet,sham2,permuted,2,128,0.44561261625556003,0.014758405951267872,0.008816222847135569
+subcellular_localization,secondary structure content,schnet,sham3,none,2,128,0.424181156490093,0.030675684818606386,0.003335313265939832
+subcellular_localization,secondary structure content,schnet,sham3,named,2,128,0.4278204609785685,0.030675684818606386,0.003335313265939832
+subcellular_localization,secondary structure content,schnet,sham3,permuted,2,128,0.42377678932470686,0.030675684818606386,0.003335313265939832
+subcellular_localization,secondary structure content,schnet,null0,none,2,128,0.46906591184795793,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null0,named,2,128,0.46906591184795793,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null0,permuted,2,128,0.4658309745248686,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null1,none,2,128,0.46785281035179943,0.0006955991272978856,0.0005728800729095651
+subcellular_localization,secondary structure content,schnet,null1,named,2,128,0.47310958350181964,0.0006955991272978856,0.0005728800729095651
+subcellular_localization,secondary structure content,schnet,null1,permuted,2,128,0.4702790133441165,0.0006955991272978856,0.0005728800729095651
+subcellular_localization,secondary structure content,schnet,null2,none,2,128,0.46906591184795793,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null2,named,2,128,0.46906591184795793,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null2,permuted,2,128,0.4658309745248686,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null3,none,2,128,0.46906591184795793,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null3,named,2,128,0.46906591184795793,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,schnet,null3,permuted,2,128,0.4658309745248686,0.0006972437791016306,0.0005724254204353407
+subcellular_localization,secondary structure content,tfn,intact,none,2,128,0.4213505863323898,0.0,0.0
+subcellular_localization,secondary structure content,tfn,erased,none,2,128,0.4181156490093004,0.008075668761955979,0.14624732702638754
+subcellular_localization,secondary structure content,tfn,erased,named,2,128,0.4140719773554387,0.008075668761955979,0.14624732702638754
+subcellular_localization,secondary structure content,tfn,erased,permuted,2,128,0.4181156490093004,0.008075668761955979,0.14624732702638754
+subcellular_localization,secondary structure content,tfn,sham0,none,2,128,0.42660735948241,0.01181929292470496,0.0004061160408667108
+subcellular_localization,secondary structure content,tfn,sham0,named,2,128,0.419328750505459,0.01181929292470496,0.0004061160408667108
+subcellular_localization,secondary structure content,tfn,sham0,permuted,2,128,0.424181156490093,0.01181929292470496,0.0004061160408667108
+subcellular_localization,secondary structure content,tfn,sham1,none,2,128,0.4185200161746866,0.016248724305034323,0.004958567511987755
+subcellular_localization,secondary structure content,tfn,sham1,named,2,128,0.4245855236554792,0.016248724305034323,0.004958567511987755
+subcellular_localization,secondary structure content,tfn,sham1,permuted,2,128,0.4173069146785281,0.016248724305034323,0.004958567511987755
+subcellular_localization,secondary structure content,tfn,sham2,none,2,128,0.4286291953093409,0.016882060474224136,0.0005922458931754138
+subcellular_localization,secondary structure content,tfn,sham2,named,2,128,0.4213505863323898,0.016882060474224136,0.0005922458931754138
+subcellular_localization,secondary structure content,tfn,sham2,permuted,2,128,0.42903356247472707,0.016882060474224136,0.0005922458931754138
+subcellular_localization,secondary structure content,tfn,sham3,none,2,128,0.41892438334007276,0.026620246808614745,0.0006332730805664877
+subcellular_localization,secondary structure content,tfn,sham3,named,2,128,0.4181156490093004,0.026620246808614745,0.0006332730805664877
+subcellular_localization,secondary structure content,tfn,sham3,permuted,2,128,0.41973311767084515,0.026620246808614745,0.0006332730805664877
+subcellular_localization,secondary structure content,tfn,null0,none,2,128,0.4577436312171452,0.007720955493581982,0.003811534177110998
+subcellular_localization,secondary structure content,tfn,null0,named,2,128,0.4613829357056207,0.007720955493581982,0.003811534177110998
+subcellular_localization,secondary structure content,tfn,null0,permuted,2,128,0.46219167003639305,0.007720955493581982,0.003811534177110998
+subcellular_localization,secondary structure content,tfn,null1,none,2,128,0.46057420137484834,0.00830679969013881,0.0011460570018464455
+subcellular_localization,secondary structure content,tfn,null1,named,2,128,0.4630004043671654,0.00830679969013881,0.0011460570018464455
+subcellular_localization,secondary structure content,tfn,null1,permuted,2,128,0.4650222401940962,0.00830679969013881,0.0011460570018464455
+subcellular_localization,secondary structure content,tfn,null2,none,2,128,0.46057420137484834,0.00830679969013881,0.0011460570018464455
+subcellular_localization,secondary structure content,tfn,null2,named,2,128,0.4630004043671654,0.00830679969013881,0.0011460570018464455
+subcellular_localization,secondary structure content,tfn,null2,permuted,2,128,0.4650222401940962,0.00830679969013881,0.0011460570018464455
+subcellular_localization,secondary structure content,tfn,null3,none,2,128,0.4577436312171452,0.007720955493581982,0.003811534177110998
+subcellular_localization,secondary structure content,tfn,null3,named,2,128,0.4613829357056207,0.007720955493581982,0.003811534177110998
+subcellular_localization,secondary structure content,tfn,null3,permuted,2,128,0.46219167003639305,0.007720955493581982,0.003811534177110998
+subcellular_localization,secondary structure content,tfn_pretrained,intact,none,2,128,0.4727052163364335,0.0,0.0
+subcellular_localization,secondary structure content,tfn_pretrained,erased,none,2,128,0.44439951475940154,0.0913953494875217,0.25216571303955526
+subcellular_localization,secondary structure content,tfn_pretrained,erased,named,2,128,0.44844318641326325,0.0913953494875217,0.25216571303955526
+subcellular_localization,secondary structure content,tfn_pretrained,erased,permuted,2,128,0.4500606550748079,0.0913953494875217,0.25216571303955526
+subcellular_localization,secondary structure content,tfn_pretrained,sham0,none,2,128,0.43995147594015366,0.07061126750839264,0.0016684493665319877
+subcellular_localization,secondary structure content,tfn_pretrained,sham0,named,2,128,0.4480388192478771,0.07061126750839264,0.0016684493665319877
+subcellular_localization,secondary structure content,tfn_pretrained,sham0,permuted,2,128,0.44439951475940154,0.07061126750839264,0.0016684493665319877
+subcellular_localization,secondary structure content,tfn_pretrained,sham1,none,2,128,0.4504650222401941,0.031311089159932415,0.004027698385726142
+subcellular_localization,secondary structure content,tfn_pretrained,sham1,named,2,128,0.44642135058633237,0.031311089159932415,0.004027698385726142
+subcellular_localization,secondary structure content,tfn_pretrained,sham1,permuted,2,128,0.4476344520824909,0.031311089159932415,0.004027698385726142
+subcellular_localization,secondary structure content,tfn_pretrained,sham2,none,2,128,0.4363121714516781,0.04558239571796152,0.004233917192917991
+subcellular_localization,secondary structure content,tfn_pretrained,sham2,named,2,128,0.4423776789324707,0.04558239571796152,0.004233917192917991
+subcellular_localization,secondary structure content,tfn_pretrained,sham2,permuted,2,128,0.4391427416093813,0.04558239571796152,0.004233917192917991
+subcellular_localization,secondary structure content,tfn_pretrained,sham3,none,2,128,0.4322684997978164,0.05265098179096095,0.006604858972395489
+subcellular_localization,secondary structure content,tfn_pretrained,sham3,named,2,128,0.43186413263243023,0.05265098179096095,0.006604858972395489
+subcellular_localization,secondary structure content,tfn_pretrained,sham3,permuted,2,128,0.43752527294783666,0.05265098179096095,0.006604858972395489
+subcellular_localization,secondary structure content,tfn_pretrained,null0,none,2,128,0.4852405984634048,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null0,named,2,128,0.4848362312980186,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null0,permuted,2,128,0.48281439547108773,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null1,none,2,128,0.4852405984634048,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null1,named,2,128,0.4848362312980186,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null1,permuted,2,128,0.48281439547108773,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null2,none,2,128,0.4852405984634048,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null2,named,2,128,0.4848362312980186,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null2,permuted,2,128,0.48281439547108773,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null3,none,2,128,0.4852405984634048,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null3,named,2,128,0.4848362312980186,0.08985749127052134,0.007481934912877519
+subcellular_localization,secondary structure content,tfn_pretrained,null3,permuted,2,128,0.48281439547108773,0.08985749127052134,0.007481934912877519
+subcellular_localization,size,ankh_base,intact,none,1,768,0.6615446825717751,0.0,0.0
+subcellular_localization,size,ankh_base,erased,none,1,768,0.6579053780832996,0.011394504201339806,0.5734109968839388
+subcellular_localization,size,ankh_base,erased,named,1,768,0.6583097452486858,0.011394504201339806,0.5734109968839388
+subcellular_localization,size,ankh_base,erased,permuted,1,768,0.6575010109179135,0.011394504201339806,0.5734109968839388
+subcellular_localization,size,ankh_base,sham0,none,1,768,0.6591184795794581,0.0014283832273552788,0.0004630572570447633
+subcellular_localization,size,ankh_base,sham0,named,1,768,0.6668014557217954,0.0014283832273552788,0.0004630572570447633
+subcellular_localization,size,ankh_base,sham0,permuted,1,768,0.6647796198948646,0.0014283832273552788,0.0004630572570447633
+subcellular_localization,size,ankh_base,sham1,none,1,768,0.6655883542256369,0.0019041184382077025,0.0002977344278465299
+subcellular_localization,size,ankh_base,sham1,named,1,768,0.6635665183987061,0.0019041184382077025,0.0002977344278465299
+subcellular_localization,size,ankh_base,sham1,permuted,1,768,0.6639708855640922,0.0019041184382077025,0.0002977344278465299
+subcellular_localization,size,ankh_base,sham2,none,1,768,0.6607359482410028,0.001493348879018086,0.003984206971748838
+subcellular_localization,size,ankh_base,sham2,named,1,768,0.6712494945410432,0.001493348879018086,0.003984206971748838
+subcellular_localization,size,ankh_base,sham2,permuted,1,768,0.6712494945410432,0.001493348879018086,0.003984206971748838
+subcellular_localization,size,ankh_base,sham3,none,1,768,0.6635665183987061,0.0010386697521856947,0.0013228055263281302
+subcellular_localization,size,ankh_base,sham3,named,1,768,0.6623534169025476,0.0010386697521856947,0.0013228055263281302
+subcellular_localization,size,ankh_base,sham3,permuted,1,768,0.6623534169025476,0.0010386697521856947,0.0013228055263281302
+subcellular_localization,size,ankh_base,null0,none,1,768,0.5932066316215123,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null0,named,1,768,0.5964415689446017,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null0,permuted,1,768,0.5928022644561262,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null1,none,1,768,0.5932066316215123,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null1,named,1,768,0.5964415689446017,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null1,permuted,1,768,0.5928022644561262,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null2,none,1,768,0.5932066316215123,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null2,named,1,768,0.5964415689446017,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null2,permuted,1,768,0.5928022644561262,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null3,none,1,768,0.5932066316215123,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null3,named,1,768,0.5964415689446017,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,ankh_base,null3,permuted,1,768,0.5928022644561262,0.01078393540032807,0.002830120767053579
+subcellular_localization,size,cdconv,intact,none,1,256,0.43752527294783666,0.0,0.0
+subcellular_localization,size,cdconv,erased,none,1,256,0.4310553983016579,0.005896281330941333,0.3270796991142272
+subcellular_localization,size,cdconv,erased,named,1,256,0.4342903356247473,0.005896281330941333,0.3270796991142272
+subcellular_localization,size,cdconv,erased,permuted,1,256,0.43065103113627173,0.005896281330941333,0.3270796991142272
+subcellular_localization,size,cdconv,sham0,none,1,256,0.44439951475940154,0.013388683055176376,0.0006997352162573245
+subcellular_localization,size,cdconv,sham0,named,1,256,0.43752527294783666,0.013388683055176376,0.0006997352162573245
+subcellular_localization,size,cdconv,sham0,permuted,1,256,0.4367165386170643,0.013388683055176376,0.0006997352162573245
+subcellular_localization,size,cdconv,sham1,none,1,256,0.4330772341285888,0.03403085341552914,0.002373869026993658
+subcellular_localization,size,cdconv,sham1,named,1,256,0.4419733117670845,0.03403085341552914,0.002373869026993658
+subcellular_localization,size,cdconv,sham1,permuted,1,256,0.43348160129397495,0.03403085341552914,0.002373869026993658
+subcellular_localization,size,cdconv,sham2,none,1,256,0.4270117266477962,0.043886675311059165,0.0002076254337168848
+subcellular_localization,size,cdconv,sham2,named,1,256,0.4257986251516377,0.043886675311059165,0.0002076254337168848
+subcellular_localization,size,cdconv,sham2,permuted,1,256,0.419328750505459,0.043886675311059165,0.0002076254337168848
+subcellular_localization,size,cdconv,sham3,none,1,256,0.44561261625556003,0.047976898082163544,0.0016931178539909553
+subcellular_localization,size,cdconv,sham3,named,1,256,0.438334007278609,0.047976898082163544,0.0016931178539909553
+subcellular_localization,size,cdconv,sham3,permuted,1,256,0.43873837444399516,0.047976898082163544,0.0016931178539909553
+subcellular_localization,size,cdconv,null0,none,1,256,0.471492114840275,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null0,named,1,256,0.4755357864941367,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null0,permuted,1,256,0.4723008491710473,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null1,none,1,256,0.471492114840275,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null1,named,1,256,0.4755357864941367,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null1,permuted,1,256,0.4723008491710473,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null2,none,1,256,0.471492114840275,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null2,named,1,256,0.4755357864941367,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null2,permuted,1,256,0.4723008491710473,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null3,none,1,256,0.471492114840275,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null3,named,1,256,0.4755357864941367,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,cdconv,null3,permuted,1,256,0.4723008491710473,0.005849550773780132,2.788477727300176e-05
+subcellular_localization,size,dimenet,intact,none,1,128,0.41366761019005255,0.0,0.0
+subcellular_localization,size,dimenet,erased,none,1,128,0.40760210270926,3.51738169112048e-05,0.29740727120878363
+subcellular_localization,size,dimenet,erased,named,1,128,0.4181156490093004,3.51738169112048e-05,0.29740727120878363
+subcellular_localization,size,dimenet,erased,permuted,1,128,0.41447634452082494,3.51738169112048e-05,0.29740727120878363
+subcellular_localization,size,dimenet,sham0,none,1,128,0.4088152042054185,0.019986406596473216,0.0018081689188607086
+subcellular_localization,size,dimenet,sham0,named,1,128,0.4253942579862515,0.019986406596473216,0.0018081689188607086
+subcellular_localization,size,dimenet,sham0,permuted,1,128,0.41245450869389405,0.019986406596473216,0.0018081689188607086
+subcellular_localization,size,dimenet,sham1,none,1,128,0.4108370400323494,0.017216646778681954,0.005174480158757322
+subcellular_localization,size,dimenet,sham1,named,1,128,0.41528507885159727,0.017216646778681954,0.005174480158757322
+subcellular_localization,size,dimenet,sham1,permuted,1,128,0.41124140719773555,0.017216646778681954,0.005174480158757322
+subcellular_localization,size,dimenet,sham2,none,1,128,0.40719773554387384,0.011713686039560911,0.0030429843337280715
+subcellular_localization,size,dimenet,sham2,named,1,128,0.41528507885159727,0.011713686039560911,0.0030429843337280715
+subcellular_localization,size,dimenet,sham2,permuted,1,128,0.40760210270926,0.011713686039560911,0.0030429843337280715
+subcellular_localization,size,dimenet,sham3,none,1,128,0.40921957137080467,0.010428343675895735,0.006653989800226134
+subcellular_localization,size,dimenet,sham3,named,1,128,0.41771128184391426,0.010428343675895735,0.006653989800226134
+subcellular_localization,size,dimenet,sham3,permuted,1,128,0.4132632430246664,0.010428343675895735,0.006653989800226134
+subcellular_localization,size,dimenet,null0,none,1,128,0.46219167003639305,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null0,named,1,128,0.4670440760210271,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null0,permuted,1,128,0.4638091386979377,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null1,none,1,128,0.46219167003639305,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null1,named,1,128,0.4670440760210271,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null1,permuted,1,128,0.4638091386979377,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null2,none,1,128,0.46219167003639305,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null2,named,1,128,0.4670440760210271,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null2,permuted,1,128,0.4638091386979377,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null3,none,1,128,0.46219167003639305,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null3,named,1,128,0.4670440760210271,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,dimenet,null3,permuted,1,128,0.4638091386979377,3.1164905819780486e-05,0.011544210314815118
+subcellular_localization,size,esm1b,intact,none,1,1280,0.6765062676910635,0.0,0.0
+subcellular_localization,size,esm1b,erased,none,1,1280,0.6862110796603316,0.005072986100468135,0.6517473335403553
+subcellular_localization,size,esm1b,erased,named,1,1280,0.6821674080064699,0.005072986100468135,0.6517473335403553
+subcellular_localization,size,esm1b,erased,permuted,1,1280,0.6825717751718561,0.005072986100468135,0.6517473335403553
+subcellular_localization,size,esm1b,sham0,none,1,1280,0.6898503841488072,0.0006893821993065874,0.0003394992004738251
+subcellular_localization,size,esm1b,sham0,named,1,1280,0.6874241811564901,0.0006893821993065874,0.0003394992004738251
+subcellular_localization,size,esm1b,sham0,permuted,1,1280,0.6862110796603316,0.0006893821993065874,0.0003394992004738251
+subcellular_localization,size,esm1b,sham1,none,1,1280,0.6785281035179943,0.000841882299383867,0.0005757478694161655
+subcellular_localization,size,esm1b,sham1,named,1,1280,0.6781237363526081,0.000841882299383867,0.0005757478694161655
+subcellular_localization,size,esm1b,sham1,permuted,1,1280,0.6797412050141528,0.000841882299383867,0.0005757478694161655
+subcellular_localization,size,esm1b,sham2,none,1,1280,0.6862110796603316,0.0006164856461006174,0.0023798395428409336
+subcellular_localization,size,esm1b,sham2,named,1,1280,0.6849979781641731,0.0006164856461006174,0.0023798395428409336
+subcellular_localization,size,esm1b,sham2,permuted,1,1280,0.6821674080064699,0.0006164856461006174,0.0023798395428409336
+subcellular_localization,size,esm1b,sham3,none,1,1280,0.6938940558026688,0.0006168617672444032,0.00032112341090140273
+subcellular_localization,size,esm1b,sham3,named,1,1280,0.6858067124949454,0.0006168617672444032,0.00032112341090140273
+subcellular_localization,size,esm1b,sham3,permuted,1,1280,0.6841892438334007,0.0006168617672444032,0.00032112341090140273
+subcellular_localization,size,esm1b,null0,none,1,1280,0.5232511120097049,0.005223690791996249,0.004973143348976916
+subcellular_localization,size,esm1b,null0,named,1,1280,0.5216336433481601,0.005223690791996249,0.004973143348976916
+subcellular_localization,size,esm1b,null0,permuted,1,1280,0.5163768701981399,0.005223690791996249,0.004973143348976916
+subcellular_localization,size,esm1b,null1,none,1,1280,0.5090982612211888,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null1,named,1,1280,0.5188030731904569,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null1,permuted,1,1280,0.5111200970481197,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null2,none,1,1280,0.5090982612211888,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null2,named,1,1280,0.5188030731904569,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null2,permuted,1,1280,0.5111200970481197,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null3,none,1,1280,0.5090982612211888,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null3,named,1,1280,0.5188030731904569,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm1b,null3,permuted,1,1280,0.5111200970481197,0.005148463388039426,0.00010060719582438704
+subcellular_localization,size,esm2_150m,intact,none,1,640,0.6732713303679742,0.0,0.0
+subcellular_localization,size,esm2_150m,erased,none,1,640,0.6732713303679742,0.005653260308649877,0.5541644260008068
+subcellular_localization,size,esm2_150m,erased,named,1,640,0.6748887990295188,0.005653260308649877,0.5541644260008068
+subcellular_localization,size,esm2_150m,erased,permuted,1,640,0.6732713303679742,0.005653260308649877,0.5541644260008068
+subcellular_localization,size,esm2_150m,sham0,none,1,640,0.6676101900525677,0.001362191056572315,0.0006743076757935729
+subcellular_localization,size,esm2_150m,sham0,named,1,640,0.6712494945410432,0.001362191056572315,0.0006743076757935729
+subcellular_localization,size,esm2_150m,sham0,permuted,1,640,0.6724625960372018,0.001362191056572315,0.0006743076757935729
+subcellular_localization,size,esm2_150m,sham1,none,1,640,0.6680145572179539,0.00270226375933047,0.0004984041400899475
+subcellular_localization,size,esm2_150m,sham1,named,1,640,0.6672058228871816,0.00270226375933047,0.0004984041400899475
+subcellular_localization,size,esm2_150m,sham1,permuted,1,640,0.6655883542256369,0.00270226375933047,0.0004984041400899475
+subcellular_localization,size,esm2_150m,sham2,none,1,640,0.6716538617064295,0.0009790049672088186,0.0015963276151256256
+subcellular_localization,size,esm2_150m,sham2,named,1,640,0.6756975333602911,0.0009790049672088186,0.0015963276151256256
+subcellular_localization,size,esm2_150m,sham2,permuted,1,640,0.6756975333602911,0.0009790049672088186,0.0015963276151256256
+subcellular_localization,size,esm2_150m,sham3,none,1,640,0.670845127375657,0.0011449905950152717,0.0017139074976852964
+subcellular_localization,size,esm2_150m,sham3,named,1,640,0.6773150020218358,0.0011449905950152717,0.0017139074976852964
+subcellular_localization,size,esm2_150m,sham3,permuted,1,640,0.6756975333602911,0.0011449905950152717,0.0017139074976852964
+subcellular_localization,size,esm2_150m,null0,none,1,640,0.5988677719369188,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null0,named,1,640,0.6057420137484836,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null0,permuted,1,640,0.6000808734330773,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null1,none,1,640,0.5988677719369188,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null1,named,1,640,0.6057420137484836,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null1,permuted,1,640,0.6000808734330773,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null2,none,1,640,0.5988677719369188,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null2,named,1,640,0.6057420137484836,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null2,permuted,1,640,0.6000808734330773,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null3,none,1,640,0.5988677719369188,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null3,named,1,640,0.6057420137484836,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_150m,null3,permuted,1,640,0.6000808734330773,0.005755431085494478,0.0003343030612374953
+subcellular_localization,size,esm2_35m,intact,none,1,480,0.6502224019409624,0.0,0.0
+subcellular_localization,size,esm2_35m,erased,none,1,480,0.6542660735948241,0.0066726368141316605,0.4844695099897558
+subcellular_localization,size,esm2_35m,erased,named,1,480,0.6570966437525273,0.0066726368141316605,0.4844695099897558
+subcellular_localization,size,esm2_35m,erased,permuted,1,480,0.6546704407602103,0.0066726368141316605,0.4844695099897558
+subcellular_localization,size,esm2_35m,sham0,none,1,480,0.6530529720986656,0.0029816143311961474,0.0001654339530127169
+subcellular_localization,size,esm2_35m,sham0,named,1,480,0.6510311362717347,0.0029816143311961474,0.0001654339530127169
+subcellular_localization,size,esm2_35m,sham0,permuted,1,480,0.6526486049332794,0.0029816143311961474,0.0001654339530127169
+subcellular_localization,size,esm2_35m,sham1,none,1,480,0.6465830974524869,0.002047339685437022,1.5689653887651644e-05
+subcellular_localization,size,esm2_35m,sham1,named,1,480,0.6477961989486454,0.002047339685437022,1.5689653887651644e-05
+subcellular_localization,size,esm2_35m,sham1,permuted,1,480,0.6477961989486454,0.002047339685437022,1.5689653887651644e-05
+subcellular_localization,size,esm2_35m,sham2,none,1,480,0.6486049332794177,0.001595447479784684,0.006156965258535929
+subcellular_localization,size,esm2_35m,sham2,named,1,480,0.6595228467448443,0.001595447479784684,0.006156965258535929
+subcellular_localization,size,esm2_35m,sham2,permuted,1,480,0.6554791750909826,0.001595447479784684,0.006156965258535929
+subcellular_localization,size,esm2_35m,sham3,none,1,480,0.6486049332794177,0.0019012549619641383,0.0025937031642151442
+subcellular_localization,size,esm2_35m,sham3,named,1,480,0.6482005661140315,0.0019012549619641383,0.0025937031642151442
+subcellular_localization,size,esm2_35m,sham3,permuted,1,480,0.6482005661140315,0.0019012549619641383,0.0025937031642151442
+subcellular_localization,size,esm2_35m,null0,none,1,480,0.594824100283057,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null0,named,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null0,permuted,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null1,none,1,480,0.594824100283057,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null1,named,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null1,permuted,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null2,none,1,480,0.594824100283057,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null2,named,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null2,permuted,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null3,none,1,480,0.594824100283057,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null3,named,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603
+subcellular_localization,size,esm2_35m,null3,permuted,1,480,0.5960372017792155,0.006487187715976117,0.0028309203345051603

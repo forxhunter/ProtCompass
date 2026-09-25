@@ -1,0 +1,73 @@
+\begingroup
+\fontsize{7.5}{9.1}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.01}
+\begin{longtable}{P{2.15cm}P{1cm}P{.85cm}P{.6cm}P{.85cm}P{6.25cm}}
+\caption{The 33 encoders the release evaluates, grouped by declared class. \emph{Coord.} is what the input audit
+measures. Parameter counts and widths (\emph{Dim.}) are those of the released checkpoint and the stored array; a dash
+marks a tokeniser with no learned parameters. Every encoder is scored on the ten downstream tasks except FoldVision,
+which is scored on nine.}\label{tab:panel}\\
+\toprule
+\rowcolor{CompassLavender!32}
+Encoder & Weights & Params. & Dim. & Coord. & Checkpoint \\
+
+\midrule
+\endfirsthead
+\multicolumn{6}{l}{\small\textit{Table \thetable{} (continued)}}\\
+\toprule
+\rowcolor{CompassLavender!32}
+Encoder & Weights & Params. & Dim. & Coord. & Checkpoint \\
+
+\midrule
+\endhead
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+
+
+\rowcolor{CompassApricot!35}
+\multicolumn{6}{l}{\textit{Sequence (9)}} \\*
+Ankh          & pretr. & 453M & 768  & no & \texttt{ElnaggarLab/\allowbreak ankh-base} \\
+ESM-1b        & pretr. & 651M & 1280 & no & \texttt{facebook/\allowbreak esm1b\_\allowbreak t33\_\allowbreak 650M\_\allowbreak UR50S} \\
+ESM2-150M     & pretr. & 148M & 640  & no & \texttt{facebook/\allowbreak esm2\_\allowbreak t30\_\allowbreak 150M\_\allowbreak UR50D} \\
+ESM2-35M      & pretr. & 34M  & 480  & no & \texttt{facebook/\allowbreak esm2\_\allowbreak t12\_\allowbreak 35M\_\allowbreak UR50D} \\
+ESM2-3B       & pretr. & 2.8B & 2560 & no & \texttt{facebook/\allowbreak esm2\_\allowbreak t36\_\allowbreak 3B\_\allowbreak UR50D} \\
+ESM2-650M     & pretr. & 651M & 1280 & no & \texttt{facebook/\allowbreak esm2\_\allowbreak t33\_\allowbreak 650M\_\allowbreak UR50D} \\
+ESM2-8M       & pretr. & 8M   & 320  & no & \texttt{facebook/\allowbreak esm2\_\allowbreak t6\_\allowbreak 8M\_\allowbreak UR50D} \\
+ProtBert      & pretr. & 419M & 1024 & no & \texttt{Rostlab/\allowbreak prot\_\allowbreak bert\_\allowbreak bfd} \\
+ProtT5-XL     & pretr. & 1.2B & 1024 & no & \texttt{Rostlab/\allowbreak prot\_\allowbreak t5\_\allowbreak xl\_\allowbreak half\_\allowbreak uniref50-enc} \\
+
+\rowcolor{CompassApricot!35}
+\multicolumn{6}{l}{\textit{Structure (19)}} \\*
+DimeNet       & rand.  & 363K & 128 & yes & \texttt{dimenet} \\
+ESM-IF1       & pretr. & 142M & 512 & yes & \texttt{esm\_\allowbreak if} \\
+Foldseek      & pretr. & --   & 20  & yes & \texttt{foldseek\_\allowbreak 3di} \\
+GCPNet        & rand.  & 1M   & 116 & yes & \texttt{gcpnet\_\allowbreak official\_\allowbreak random} \\
+GCPNet-pre    & pretr. & 1M   & 116 & yes & \texttt{model\_\allowbreak epoch\_\allowbreak 115\_\allowbreak localpearson\_\allowbreak 0\_\allowbreak 616...} \\
+GVP           & rand.  & 477K & 116 & yes & \texttt{gvp\_\allowbreak inproc} \\
+GearNet       & rand.  & 7M   & 512 & yes & \texttt{gearnet} \\
+GearNet-pre   & pretr. & 20M  & 512 & yes & \texttt{mc\_\allowbreak gearnet\_\allowbreak edge.pth} \\
+IPA           & rand.  & 648K & 128 & yes & \texttt{ipa} \\
+IPA-pre       & pretr. & 648K & 128 & yes & \texttt{best.pt} \\
+MACE          & rand.  & 584K & 128 & yes & \texttt{mace} \\
+PottsMPNN     & rand.  & 2M   & 128 & yes & \texttt{pottsmpnn} \\
+PottsMPNN-ft  & pretr. & 2M   & 128 & yes & \texttt{pottsmpnn\_\allowbreak ft\_\allowbreak pretrained} \\
+PottsMPNN-pre & pretr. & 2M   & 128 & yes & \texttt{pottsmpnn\_\allowbreak pretrained} \\
+PottsMPNN-sol & pretr. & 2M   & 128 & yes & \texttt{pottsmpnn\_\allowbreak soluble\_\allowbreak pretrained} \\
+ProteinMPNN   & pretr. & 2M   & 128 & yes & \texttt{proteinmpnn\_\allowbreak v48\_\allowbreak 020.pt} \\
+SchNet        & rand.  & 244K & 128 & yes & \texttt{schnet} \\
+TFN           & rand.  & 251K & 128 & yes & \texttt{tfn} \\
+TFN-pre       & pretr. & 251K & 128 & yes & \texttt{best.pt} \\
+
+\rowcolor{CompassApricot!35}
+\multicolumn{6}{l}{\textit{Multimodal (5)}} \\*
+CDConv        & rand.  & 619K & 256  & yes & \texttt{cdconv} \\
+ESM3          & pretr. & 1.4B & 1536 & yes & \texttt{esm3\_\allowbreak sm\_\allowbreak open\_\allowbreak v1.pth} \\
+FoldVision    & pretr. & 122M & 1024 & yes & \texttt{AlexanderKroll/\allowbreak foldvision-encoder} \\
+ProstT5       & pretr. & 1.2B & 1024 & no  & \texttt{Rostlab/\allowbreak ProstT5} \\
+SaProt        & pretr. & 651M & 1280 & yes & \texttt{westlake-repl/\allowbreak SaProt\_\allowbreak 650M\_\allowbreak AF2} \\
+
+
+\end{longtable}
+\endgroup

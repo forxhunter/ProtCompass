@@ -1,0 +1,21 @@
+% generated file: the whole tabular, so the caller never inputs rows into an open tabular
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}P{1.65cm}P{0.65cm}P{1.2cm}P{1.4cm}P{3.45cm}P{2.7cm}@{}}
+\toprule
+\rowcolor{CompassLavender!32}
+floor & width & atoms & window & what it contains & why it was added \\
+\midrule
+\texttt{ref\_\allowbreak length} & 2 & -- & -- & log length and length/600 & trivial baseline \\
+\texttt{ref\_\allowbreak position} & 5 & -- & -- & residue index, distance to the nearer terminus and its log, both scaled by length, log length & trivial baseline \\
+\texttt{ref\_\allowbreak aa} & 20 & -- & own residue & the residue's amino-acid one-hot; at protein level, the composition & an encoder handed residue identity gets no credit for recovering it \\
+\texttt{ref\_\allowbreak seq\_\allowbreak window} & 357 & -- & $\pm 8$ & amino-acid one-hot per offset with an out-of-chain flag; no property scale & context-matches the sequence side to the coordinate floors, which see a neighbourhood \\
+\texttt{ref\_\allowbreak seq\_\allowbreak expert} & 522 & -- & $\pm 8$, smoothed $3/7/15$ & the one-hot window, seven published residue scales over the same window, their means over three window widths, chain composition, position & the sequence side needed a descriptor of the effort ref\_global received \\
+\texttt{ref\_\allowbreak seq\_\allowbreak global} & 937 & -- & $\pm 8$, smoothed to $61$ & ref\_seq\_expert plus the chain's 400 dipeptide frequencies and two long-range scale averages & the non-local sequence analogue of ref\_global \\
+\texttt{ref\_\allowbreak coords} & 29 & CA & 16 nearest, five shells & sorted 16 nearest CA distances, chain-neighbour distances, contact counts at 5, 7, 9, 11, 13~\AA{} & first coordinate floor; CA only, which understates the input \\
+\texttt{ref\_\allowbreak backbone} & 326 & N, CA, C, O, CB & $\pm 2$ & all pairwise distances among the $5 \times 5$ atoms of the window, one chirality sign per offset, plus the ref\_coords kNN and shell block. No angle is precomputed & encoders receive N, CA, C, O and CB, so a CA-only floor is too weak \\
+\texttt{ref\_\allowbreak global} & 336 & N, CA, C, O, CB & $\pm 2$ plus whole chain & ref\_backbone plus the residue's distance and rank from the centroid and the leading eigenvector components of the 8~\AA{} contact map & ref\_backbone is local, so non-local probes still favoured the encoders \\
+\texttt{ref\_\allowbreak pairhist} & 335 & CA & whole chain & the joint histogram of (sequence separation, CA--CA distance) over all pairs, contact-map spectra at two cutoffs, and the residue's own row of the histogram & the non-local and fold-level probes needed the pair-distance distribution of the whole chain \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+% width is the number of features the probe receives at residue level; all coordinates enter as distances and one chirality sign, never as an angle or a frame

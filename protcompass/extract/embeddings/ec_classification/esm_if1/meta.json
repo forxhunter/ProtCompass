@@ -1,0 +1,38 @@
+{
+ "encoder": "esm_if1",
+ "family": "registry",
+ "target": "esm_if",
+ "weights": "pretrained",
+ "rule": "GVP-Transformer encoder output before decoding",
+ "env": "base",
+ "weights_sha256": "0edb76de890a0108",
+ "n_parameters": 141662150,
+ "task": "ec_classification",
+ "date": "2026-09-20 12:21",
+ "seconds": 543.6,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ec_classification.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 512,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 511,
+  "max_abs": 1.0864143371582031
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 1.503882278608584,
+  "rel_change_coord_swap": 0.445543380450129,
+  "rel_change_seq_shuffle": 3.5242829269089866e-07,
+  "rel_change_rigid_motion": 1.1080829110650216e-05,
+  "verdict": "pass"
+ }
+}

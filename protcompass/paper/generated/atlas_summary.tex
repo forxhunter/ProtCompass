@@ -1,0 +1,47 @@
+\begin{table}[!htbp]
+\centering
+\small
+\caption{\textbf{Latent-space atlas, one layer per scored downstream task.} Each layer is a stratified sample of the proteins the task was scored on, labelled by the task's own target (Appendix~\ref{sec:appendix_atlas}). CKA is debiased linear CKA between encoders on the full embeddings, averaged over the off-diagonal pairs; within/between is by declared class; rand/pre are the randomly initialised and pretrained structure encoders. $k$-NN purity ($k=10$) and the five-fold linear probe are given as the range over the encoders with the encoder at each end, against chance and the majority-class rate.}
+\label{tab:atlas_summary}
+
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lccccc}
+\toprule
+\rowcolor{CompassLavender!32}
+layer & $n$ & classes & CKA mean (range) & within / between & \makecell{rand--rand /\\pre--pre /\\rand--pre} \\
+\midrule
+EC classification & 2,242 & 7 & 0.290 (0.02--0.93) & 0.336 / 0.259 & 0.535 / 0.281 / 0.214 \\
+GO-MF & 2,215 & 9 & 0.288 (0.03--0.95) & 0.339 / 0.252 & 0.533 / 0.310 / 0.227 \\
+GO-BP & 2,087 & 9 & 0.287 (0.02--0.94) & 0.333 / 0.254 & 0.527 / 0.303 / 0.219 \\
+Localisation & 2,362 & 10 & 0.397 (0.03--0.94) & 0.442 / 0.365 & 0.574 / 0.467 / 0.323 \\
+Remote homology & 2,129 & 7 & 0.321 (0.02--0.93) & 0.353 / 0.297 & 0.553 / 0.270 / 0.219 \\
+Solubility & 1,999 & 2 & 0.360 (0.03--0.94) & 0.393 / 0.336 & 0.540 / 0.399 / 0.254 \\
+Membrane vs soluble & 1,999 & 2 & 0.396 (0.03--0.94) & 0.441 / 0.366 & 0.569 / 0.466 / 0.322 \\
+Stability & 1,998 & 4 & 0.484 (0.06--0.95) & 0.474 / 0.492 & 0.609 / 0.404 / 0.297 \\
+Fluorescence & 2,000 & 4 & 0.207 (0.00--0.91) & 0.282 / 0.155 & 0.345 / 0.352 / 0.243 \\
+PPI affinity & 1,998 & 4 & 0.618 (0.16--0.94) & 0.592 / 0.636 & 0.752 / 0.432 / 0.483 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\par\medskip
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lcccc}
+\toprule
+\rowcolor{CompassLavender!32}
+layer & purity min & purity max & chance & \makecell{probe min--max\\(majority)} \\
+\midrule
+EC classification & 0.289 (IPA-pre) & 0.802 (Ankh) & 0.209 & 0.362--0.937 (0.298) \\
+GO-MF & 0.259 (IPA-pre) & 0.559 (Ankh) & 0.236 & 0.333--0.708 (0.445) \\
+GO-BP & 0.168 (GearNet-pre) & 0.367 (Ankh) & 0.151 & 0.194--0.486 (0.292) \\
+Localisation & 0.179 (IPA-pre) & 0.467 (ProtT5-XL) & 0.153 & 0.275--0.624 (0.292) \\
+Remote homology & 0.282 (IPA-pre) & 0.748 (Ankh) & 0.187 & 0.402--0.925 (0.229) \\
+Solubility & 0.571 (Foldseek) & 0.628 (ProtT5-XL) & 0.576 & 0.598--0.696 (0.695) \\
+Membrane vs soluble & 0.635 (IPA-pre) & 0.762 (Ankh) & 0.603 & 0.682--0.825 (0.726) \\
+Stability & 0.394 (IPA-pre) & 0.485 (ESM2-150M) & 0.250 & 0.449--0.537 (0.254) \\
+Fluorescence & 0.276 (IPA-pre) & 0.346 (ProstT5) & 0.250 & 0.316--0.460 (0.250) \\
+PPI affinity & 0.482 (IPA-pre) & 0.596 (ESM2-650M) & 0.250 & 0.513--0.672 (0.250) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

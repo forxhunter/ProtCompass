@@ -1,0 +1,120 @@
+"""The demand rule restricted to encoders that can exhibit an effect at all.
+
+The sign test runs over all 33 encoders and the detection bound is computed from their spread. Some of those
+encoders score at or near the non-learned composition reference on the task: GearNet-pretrained reaches 0.036 on
+EC against a sequence-group mean of 0.745. Erasing a subspace from a representation that already scores at the
+floor cannot produce a drop, so those cells contribute noise to the sign test and width to the spread the detection
+bound is computed from. Both effects push toward "no demand", which is the direction of the paper's two negative
+results.
+
+This recomputes the rule over the encoders that clear the composition reference of the downstream table on that
+task, and reports what changes.
+
+  python demand_restricted.py [--markdown]
+"""
+import os as _os  # release: repository root, override with the PROTCOMPASS_ROOT environment variable
+PROTCOMPASS_ROOT = _os.environ.get("PROTCOMPASS_ROOT") or _os.path.abspath(
+    _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "../.."))
+import argparse
+import glob
+import sys
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from scipy.stats import binomtest
+
+ROOT = Path((PROTCOMPASS_ROOT + "/protcompass"))
+sys.path.insert(0, str(ROOT / "scripts"))
+from causal_demand_v2 import MIN_CV, MIN_EFFECT, holm, variation  # noqa: E402
+from exclusion_bounds import TASK_LABEL, mde  # noqa: E402
+
+
+def erasure():
+    frames = []
+    for f in sorted(set(glob.glob(str(ROOT / "**" / "parts" / "erasure_v2*.csv"), recursive=True))):
+        try:
+            frames.append(pd.read_csv(f))
+        except Exception:
+            continue
+    d = pd.concat(frames, ignore_index=True)
+    return d.drop_duplicates(subset=["task", "encoder", "concept", "arm"], keep="last")
+
+
+def competent():
+    """Per task, the encoders that beat the non-learned composition reference on it."""
+    s = pd.read_csv(ROOT / "extract" / "scores2_selected.csv")
+    w = s.pivot(index="encoder", columns="task", values="score")
+    ref = w.loc["ref_composition"]
+    return {t: set(w.index[(w[t] > ref[t]) & (w.index != "ref_composition")]) for t in w.columns}
+
+
+def rule(cond, cv):
+    rows = []
+    for task, g in cond.groupby("task"):
+        ps, meta = [], []
+        for concept, gg in g.groupby("concept"):
+            k, n = int((gg.effect > 0).sum()), len(gg)
+            ps.append(binomtest(k, n, 0.5).pvalue if n else 1.0)
+            meta.append((concept, gg.effect.mean(), gg.effect.std(), n))
+        for (concept, mean, sd, n), a in zip(meta, holm(ps)):
+            v = float(cv.get((task, concept), np.nan))
+            varies = bool(v >= MIN_CV) if np.isfinite(v) else True
+            rows.append(dict(task=task, concept=concept, mean_effect=mean, sd=sd, n=n, p_holm=a,
+                             demanded=bool(a < 0.05 and mean >= MIN_EFFECT and varies)))
+    return pd.DataFrame(rows)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--markdown", action="store_true")
+    a = ap.parse_args()
+    d = erasure()
+    cond = d[(d.arm == "conditional") & d.erasure_ok.fillna(False)]
+    cv = variation()
+    keep = competent()
+
+    full = rule(cond, cv)
+    sub = cond[[e in keep.get(t, set()) for t, e in zip(cond.task, cond.encoder)]]
+    restricted = rule(sub, cv)
+
+    ctrl = pd.concat([pd.read_csv(f) for f in sorted(glob.glob(
+        str(ROOT / "**" / "parts" / "erasure_control*.csv"), recursive=True))], ignore_index=True)
+    pc = ctrl[ctrl.check == "positive control"]
+    reach = pc.pivot_table(index="task", columns="requested_rank", values="effect", aggfunc="mean").max(axis=1)
+
+    rows = []
+    for task in sorted(set(full.task)):
+        f_, r_ = full[full.task == task], restricted[restricted.task == task]
+        # the per-task bound is the largest per-property minimum detectable effect, each property at its own
+        # coverage, which is the definition Figure 4 and the results text use (exclusion_bounds.csv, column mde)
+        b_f = float(np.nanmax([mde(s_, int(n_)) for s_, n_ in zip(f_.sd, f_.n)])) if len(f_) else np.nan
+        b_r = float(np.nanmax([mde(s_, int(n_)) for s_, n_ in zip(r_.sd, r_.n)])) if len(r_) else np.nan
+        rows.append(dict(task=TASK_LABEL.get(task, task),
+                         n_all=int(f_.n.max()) if len(f_) else 0, n_kept=int(r_.n.max()) if len(r_) else 0,
+                         named_all=", ".join(sorted(f_.concept[f_.demanded])) or "none",
+                         named_kept=", ".join(sorted(r_.concept[r_.demanded])) or "none",
+                         bound_all=b_f, bound_kept=b_r,
+                         max_effect_kept=r_.mean_effect.max() if len(r_) else np.nan,
+                         reach=reach.get(task, np.nan)))
+    t = pd.DataFrame(rows)
+    t.to_csv(ROOT / "erasure" / "demand_restricted.csv", index=False)
+
+    same = int((t.named_all == t.named_kept).sum())
+    if a.markdown:
+        print("<!-- generated by scripts/demand_restricted.py; do not edit by hand -->\n")
+        print("| task | encoders kept | named over all encoders | named over the kept ones | bound, all | bound, kept |")
+        print("|---|---|---|---|---|---|")
+        for r in t.itertuples():
+            print(f"| {r.task} | {r.n_kept} of {r.n_all} | {r.named_all} | {r.named_kept} | "
+                  f"{r.bound_all:+.3f} | {r.bound_kept:+.3f} |")
+        print(f"\nThe named property is unchanged on {same} of {len(t)} tasks. Restricting to the encoders that "
+              f"clear the composition reference removes the cells that cannot move and tightens the detection "
+              f"bound on the tasks where it changes at all.")
+        return
+    print(t.round(3).to_string(index=False))
+    print(f"\nnamed set unchanged on {same} of {len(t)} tasks")
+
+
+if __name__ == "__main__":
+    main()

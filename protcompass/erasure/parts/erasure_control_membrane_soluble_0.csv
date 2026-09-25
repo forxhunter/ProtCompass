@@ -1,0 +1,4 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+membrane_soluble,esm1b,positive control,the task label itself,1,1,0.900101521390986,0.5335407849081065,0.9001319063143445,0.36659112140623795
+membrane_soluble,proteinmpnn,positive control,the task label itself,1,1,0.7736495986806985,0.5196018502630977,0.7764313086250285,0.25682945836193083
+membrane_soluble,gvp,positive control,the task label itself,1,1,0.806741163349348,0.5342035932852893,0.7973605629909251,0.26315696970563573

@@ -1,0 +1,5 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+solubility,esm2_650m,positive control,the task label itself,1,1,0.7047590453585004,0.5019345482560741,0.7052646337387483,0.20333008548267417
+solubility,prottrans_t5_xl_u50,positive control,the task label itself,1,1,0.7141712032720207,0.5080412628096552,0.7160930056025423,0.20805174279288707
+solubility,esm_if1,positive control,the task label itself,1,1,0.634296736476573,0.5155783534530128,0.6356378910874824,0.12005953763446953
+solubility,gearnet_pretrained,positive control,the task label itself,1,1,0.5658511162598355,0.5012547655599426,0.5549944201170359,0.053739654557093286

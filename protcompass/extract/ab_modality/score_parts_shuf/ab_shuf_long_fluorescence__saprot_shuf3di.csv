@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+fluorescence,saprot_shuf3di,linear,0,1.0,spearman,0.21309156629815681,0.8919903039932251,6000,3000,1280,1
+fluorescence,saprot_shuf3di,linear,1,1.0,spearman,0.20917055942188015,0.8966879844665527,6000,3000,1280,1
+fluorescence,saprot_shuf3di,linear,2,1.0,spearman,0.20715361556933454,0.8871505260467529,6000,3000,1280,1
+fluorescence,saprot_shuf3di,mlp2,0,1.0,spearman,0.2088522890043155,0.8614866733551025,6000,3000,1280,1
+fluorescence,saprot_shuf3di,mlp2,1,1.0,spearman,0.2032602164103869,0.8793627023696899,6000,3000,1280,1
+fluorescence,saprot_shuf3di,mlp2,2,1.0,spearman,0.20310441886883282,0.8689210414886475,6000,3000,1280,1

@@ -1,0 +1,2 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+fluorescence,esm1b,positive control,the task label itself,1,8,0.5924933039287221,-0.02154424879396272,0.5914199259960295,0.6129641747899923

@@ -1,0 +1,43 @@
+{
+ "encoder": "prottrans_t5_xl_u50",
+ "family": "hf_plm",
+ "target": "Rostlab/prot_t5_xl_half_uniref50-enc",
+ "weights": "pretrained",
+ "rule": "final residue states, special tokens removed, masked mean over valid residues",
+ "env": "base",
+ "checkpoint": "Rostlab/prot_t5_xl_half_uniref50-enc",
+ "checkpoint_revision": "94a6abc029ae13029317b140b7424e012bf8dfbf",
+ "dtype": "float16",
+ "hidden_size": 1024,
+ "n_layers": 24,
+ "n_parameters": 1208141824,
+ "inputs_passed": "amino-acid sequence only",
+ "task": "ec_classification",
+ "date": "2026-09-20 11:39",
+ "seconds": 138.3,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/ec_classification.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 1024,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 8993,
+  "numerical_rank": 1024,
+  "max_abs": 0.4077962040901184
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.0,
+  "rel_change_coord_swap": 0.0,
+  "rel_change_seq_shuffle": 0.7503630666663541,
+  "rel_change_rigid_motion": 0.0,
+  "verdict": "pass"
+ }
+}

@@ -1,0 +1,17 @@
+encoder,ok,dim,load_s,s_per_protein,max_abs_diff_repeat,weights_sha256,error
+schnet,True,128.0,4.5,0.137,0.0,a554781da0916f60,
+tfn,True,128.0,0.1,0.018,8.344650268554688e-07,b07ce6d9887ef8db,
+dimenet,True,128.0,0.0,0.005,0.0,71e5f811f644cdf2,
+egnn,True,128.0,0.0,0.005,0.0,cceefbf723f20edb,
+ipa,True,128.0,0.0,0.003,1.1920928955078125e-06,e78c71b9309a3464,
+mace,True,128.0,0.0,0.002,0.0,e8e9d6fd9722cc4e,
+gearnet,True,512.0,0.0,0.004,0.0,c0af89eafe340139,
+pottsmpnn,True,128.0,0.0,0.144,0.0,e3b0c44298fc1c14,
+proteinmpnn,True,128.0,3.2,0.003,0.0,01d6f9d31117f274,
+pottsmpnn_pretrained,True,128.0,0.0,0.673,0.0,e3b0c44298fc1c14,
+pottsmpnn_soluble,True,128.0,0.0,0.959,0.0,e3b0c44298fc1c14,
+pottsmpnn_ft,True,128.0,0.0,2.667,0.0,e3b0c44298fc1c14,
+gearnet_pretrained,True,512.0,2.7,0.085,1.2516975402832031e-06,9eaaa8a2c8a79a37,
+tfn_pretrained,False,,,,,,RuntimeError: tfn_pretrained: load_pretrained() did not change any weight
+ipa_pretrained,False,,,,,,RuntimeError: ipa_pretrained: load_pretrained() did not change any weight
+esm_if1,True,512.0,2.9,0.041,1.1920928955078125e-06,0edb76de890a0108,

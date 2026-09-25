@@ -1,0 +1,24 @@
+stage,what,start,end,seconds,note
+audit,saprot_shuf3di/stage1,2026-09-25 15:36:18,2026-09-25 15:36:33,15,
+extract_downstream,saprot_shuf3di/remote_homology,2026-09-25 15:36:53,2026-09-25 15:45:22,509,same-letter fraction 0.1135
+score,saprot_shuf3di/remote_homology,2026-09-25 15:45:46,2026-09-25 15:45:48,2,
+extract_downstream,saprot_shuf3di/fluorescence,2026-09-25 15:46:21,2026-09-25 16:01:18,898,same-letter fraction 0.1035
+score,saprot_shuf3di/fluorescence,2026-09-25 16:01:21,2026-09-25 16:01:24,3,
+extract_downstream,saprot_shuf3di/ec_classification,2026-09-25 15:45:22,2026-09-25 16:01:43,981,same-letter fraction 0.0945
+score,saprot_shuf3di/ec_classification,2026-09-25 16:01:57,2026-09-25 16:02:00,3,
+extract_downstream,saprot_shuf3di/go_mf,2026-09-25 16:01:43,2026-09-25 16:17:50,967,same-letter fraction 0.1056
+score,saprot_shuf3di/go_mf,2026-09-25 16:18:03,2026-09-25 16:18:11,9,
+extract_downstream,saprot_shuf3di/subcellular_localization,2026-09-25 16:01:18,2026-09-25 16:20:25,1146,same-letter fraction 0.2027
+score,saprot_shuf3di/subcellular_localization,2026-09-25 16:20:45,2026-09-25 16:20:48,3,
+score,saprot_shuf3di/ppi_affinity,2026-09-25 16:21:50,2026-09-25 16:21:53,3,
+score,saprot_shuf3di/stability,2026-09-25 16:26:57,2026-09-25 16:27:00,3,
+score,saprot_shuf3di/solubility,2026-09-25 16:27:32,2026-09-25 16:27:36,4,
+extract_downstream,saprot_shuf3di/go_bp,2026-09-25 16:17:50,2026-09-25 16:34:14,984,same-letter fraction 0.1079
+extract_downstream,saprot_shuf3di/ppi_affinity,2026-09-25 16:34:14,2026-09-25 16:34:14,0,same-letter fraction 0.0000
+extract_downstream,saprot_shuf3di/stability,2026-09-25 16:34:14,2026-09-25 16:34:14,0,same-letter fraction 0.0000
+extract_downstream,saprot_shuf3di/solubility,2026-09-25 16:34:14,2026-09-25 16:34:14,0,same-letter fraction 0.0000
+score,saprot_shuf3di/go_bp,2026-09-25 16:34:38,2026-09-25 16:34:56,18,
+extract_downstream,saprot_shuf3di/membrane_soluble,2026-09-25 16:20:25,2026-09-25 16:40:48,1224,same-letter fraction 0.1967
+score,saprot_shuf3di/membrane_soluble,2026-09-25 16:40:58,2026-09-25 16:41:02,4,
+extract_probing,saprot_shuf3di,2026-09-25 16:34:22,2026-09-25 16:49:06,884,
+probing_symmetric_run,saprot_shuf3di,2026-09-25 16:49:09,2026-09-25 16:50:22,73,

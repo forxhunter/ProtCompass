@@ -1,0 +1,6 @@
+subset,n,crd_below,crd_cells,H4,arch_vs_pairhist,H1,per_encoder,seq_below,seq_cells,H2,und_best_gap,H3
+cohort,1990,21,27,False,esm_if1:+0.302 esm3:+0.381 esm2_650m:+0.339,False,esm3:6 esm_if1:7 proteinmpnn:8,0,27,True,bfactor:+0.202 rsa:+0.259 rsa_bins:+0.170,True
+superfamily_novel_draw,562,21,27,False,esm_if1:+0.210 esm3:+0.205 esm2_650m:+0.171,False,esm3:6 esm_if1:7 proteinmpnn:8,0,27,True,bfactor:+0.193 rsa:+0.236 rsa_bins:+0.147,True
+superfamily_novel_split,218,21,27,False,esm_if1:+0.147 esm3:+0.107 esm2_650m:+0.046,False,esm3:6 esm_if1:7 proteinmpnn:8,0,27,True,bfactor:+0.212 rsa:+0.238 rsa_bins:+0.147,True
+topology_novel_draw,188,21,27,False,esm_if1:+0.172 esm3:+0.156 esm2_650m:+0.074,False,esm3:6 esm_if1:7 proteinmpnn:8,0,27,True,bfactor:+0.196 rsa:+0.241 rsa_bins:+0.147,True
+topology_novel_split,51,21,27,False,esm_if1:+0.072 esm3:+0.072 esm2_650m:+0.027,False,esm3:6 esm_if1:7 proteinmpnn:8,0,27,True,bfactor:+0.223 rsa:+0.255 rsa_bins:+0.145,True

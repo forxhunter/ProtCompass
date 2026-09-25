@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+remote_homology,esm3_seqonly,linear,0,1.0,accuracy,0.34243697478991597,2.2048494815826416,6000,476,1536,895
+remote_homology,esm3_seqonly,linear,1,1.0,accuracy,0.35294117647058826,2.180570602416992,6000,476,1536,895
+remote_homology,esm3_seqonly,linear,2,1.0,accuracy,0.34663865546218486,2.179948329925537,6000,476,1536,895
+remote_homology,esm3_seqonly,mlp2,0,1.0,accuracy,0.30462184873949577,2.4821953773498535,6000,476,1536,895
+remote_homology,esm3_seqonly,mlp2,1,1.0,accuracy,0.3172268907563025,2.465658664703369,6000,476,1536,895
+remote_homology,esm3_seqonly,mlp2,2,1.0,accuracy,0.3067226890756303,2.4634149074554443,6000,476,1536,895

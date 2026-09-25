@@ -1,0 +1,125 @@
+{
+ "probing": {
+  "cells": 885,
+  "median": 0.0029171908498365215,
+  "mean": 0.006250370995304891,
+  "max": 0.10360401154435757,
+  "max_cell": [
+   "gearnet_pretrained",
+   "asphericity"
+  ],
+  "per_probe_median": {
+   "architecture_label": 0.0108397461697071,
+   "asphericity": 0.008351736924609962,
+   "asphericity_len_resid": 0.010423514746194669,
+   "bfactor": 0.001306660259437359,
+   "contact_density": 0.00689063407317253,
+   "contact_order": 0.011336177545835045,
+   "contact_order_len_resid": 0.01261857255706642,
+   "core_surface": 0.002490370872895286,
+   "distance_bins": 0.0025784161131512545,
+   "dssp_3": 0.0018080056313267926,
+   "dssp_8": 0.0032224609604496164,
+   "local_curvature": 0.0008156740823970334,
+   "phi_angle_bins": 0.0018499882710148146,
+   "phi_circular": 0.00034000202680476474,
+   "psi_angle_bins": 0.0013157734539981736,
+   "psi_circular": 0.0010180018745346684,
+   "radius_of_gyration": 0.011358709580549308,
+   "radius_of_gyration_len_resid": 0.010140399704291534,
+   "rsa": 0.0006331018414276509,
+   "rsa_bins": 0.002180800953395027,
+   "sequence_recovery": 0.00014379733722410054
+  }
+ },
+ "downstream": {
+  "cells": 329,
+  "median": 0.0059,
+  "mean": 0.02018996960486322,
+  "min": 0.0001,
+  "max": 0.2545,
+  "below_0.05": 290,
+  "above_0.1": 16,
+  "above_0.1_tasks": [
+   "ppi_affinity",
+   "stability"
+  ],
+  "per_task": {
+   "ec_classification": {
+    "median": 0.0074,
+    "max": 0.04,
+    "mean": 0.010557575757575757
+   },
+   "fluorescence": {
+    "median": 0.008,
+    "max": 0.0222,
+    "mean": 0.008024242424242423
+   },
+   "go_bp": {
+    "median": 0.0024,
+    "max": 0.0059,
+    "mean": 0.0027696969696969697
+   },
+   "go_mf": {
+    "median": 0.0031,
+    "max": 0.0085,
+    "mean": 0.0036242424242424244
+   },
+   "membrane_soluble": {
+    "median": 0.0036,
+    "max": 0.0082,
+    "mean": 0.0038727272727272725
+   },
+   "ppi_affinity": {
+    "median": 0.0671,
+    "max": 0.2545,
+    "mean": 0.10103636363636363
+   },
+   "remote_homology": {
+    "median": 0.00545,
+    "max": 0.0111,
+    "mean": 0.005640625
+   },
+   "solubility": {
+    "median": 0.0067,
+    "max": 0.033,
+    "mean": 0.00803030303030303
+   },
+   "stability": {
+    "median": 0.0493,
+    "max": 0.121,
+    "mean": 0.051960606060606054
+   },
+   "subcellular_localization": {
+    "median": 0.0045,
+    "max": 0.0166,
+    "mean": 0.005942424242424242
+   }
+  },
+  "ppi_above_0.1": 14,
+  "ppi_n": 33,
+  "ppi_top5": [
+   [
+    "esm3",
+    0.2545
+   ],
+   [
+    "schnet",
+    0.2386
+   ],
+   [
+    "dimenet",
+    0.2265
+   ],
+   [
+    "esm1b",
+    0.2155
+   ],
+   [
+    "protbert_bfd",
+    0.2058
+   ]
+  ],
+  "other_nine_mean": 0.011176689189189187
+ }
+}

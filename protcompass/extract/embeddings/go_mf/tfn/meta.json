@@ -1,0 +1,39 @@
+{
+ "encoder": "tfn",
+ "family": "registry",
+ "target": "tfn",
+ "weights": "random",
+ "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "env": "base",
+ "seed": 20260919,
+ "weights_sha256": "b07ce6d9887ef8db",
+ "n_parameters": 250880,
+ "task": "go_mf",
+ "date": "2026-09-20 12:47",
+ "seconds": 24.1,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/go_mf.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 2904,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10404,
+  "dim": 128,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10403,
+  "numerical_rank": 127,
+  "max_abs": 3.827603816986084
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.035918458072776736,
+  "rel_change_coord_swap": 0.08890219183144087,
+  "rel_change_seq_shuffle": 0.15717390618985286,
+  "rel_change_rigid_motion": 1.1076085967631164e-07,
+  "verdict": "pass"
+ }
+}
