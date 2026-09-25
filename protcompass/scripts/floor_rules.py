@@ -41,14 +41,14 @@ DETERMINED = ["phi_circular", "psi_circular", "local_curvature", "dssp_3", "dssp
               "contact_density", "distance_bins", "contact_order_len_resid", "radius_of_gyration_len_resid",
               "asphericity_len_resid"]
 TAUTOLOGICAL = ["contact_density", "contact_order_len_resid"]
-NAME = {"esm1b": "ESM-1b", "prottrans_t5_xl_u50": "ProtT5-XL", "protbert_bfd": "ProtBert-BFD", "esm2_8m": "ESM-2 8M",
-        "esm2_35m": "ESM-2 35M", "esm2_150m": "ESM-2 150M", "esm2_650m": "ESM-2 650M", "esm2_3b": "ESM-2 3B",
+NAME = {"esm1b": "ESM-1b", "prottrans_t5_xl_u50": "ProtT5-XL", "protbert_bfd": "ProtBert-BFD", "esm2_8m": "ESM2-8M",
+        "esm2_35m": "ESM2-35M", "esm2_150m": "ESM2-150M", "esm2_650m": "ESM2-650M", "esm2_3b": "ESM2-3B",
         "ankh_base": "Ankh", "prostt5": "ProstT5", "schnet": "SchNet", "tfn": "TFN", "dimenet": "DimeNet",
         "ipa": "IPA", "mace": "MACE", "gearnet": "GearNet", "gvp": "GVP", "cdconv": "CDConv",
         "gcpnet_random": "GCPNet", "pottsmpnn": "PottsMPNN", "proteinmpnn": "ProteinMPNN",
-        "pottsmpnn_pretrained": "PottsMPNN (pt)", "pottsmpnn_soluble": "PottsMPNN (sol)",
-        "pottsmpnn_ft": "PottsMPNN (ft)", "gearnet_pretrained": "GearNet (pt)", "tfn_pretrained": "TFN (pt)",
-        "ipa_pretrained": "IPA (pt)", "gcpnet_pretrained": "GCPNet (pt)", "esm_if1": "ESM-IF1", "saprot": "SaProt",
+        "pottsmpnn_pretrained": "PottsMPNN-pre", "pottsmpnn_soluble": "PottsMPNN-sol",
+        "pottsmpnn_ft": "PottsMPNN-ft", "gearnet_pretrained": "GearNet-pre", "tfn_pretrained": "TFN-pre",
+        "ipa_pretrained": "IPA-pre", "gcpnet_pretrained": "GCPNet-pre", "esm_if1": "ESM-IF1", "saprot": "SaProt",
         "esm3": "ESM3", "foldseek_3di": "Foldseek 3Di", "foldvision": "FoldVision"}
 
 

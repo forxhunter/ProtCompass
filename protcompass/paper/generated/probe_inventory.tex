@@ -2,22 +2,25 @@
 \fontsize{8}{9.6}\selectfont
 \setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{1.08}
-\begin{longtable}{P{3.0cm}P{2.35cm}P{2.15cm}P{5.2cm}}
-\caption{Every probe in the suite and its status. Fifteen enter the floor comparison; the other six are excluded
-for the stated reason, which does not depend on their result. \emph{Undetermined} means the label is not a function
-of the encoder's input, and \emph{not established} means we can neither exhibit such a function nor rule one out
-(Appendix~\ref{sec:appendix_determinacy}). \emph{Tautological} means the floor descriptor contains the label by
-construction, so no choice of features separates a representation from the descriptor there.}\label{tab:probe_inventory}\\
+\begin{longtable}{P{3.0cm}P{0.7cm}P{2.0cm}P{1.9cm}P{5.0cm}}
+\caption{Every probe in the suite, its protein property group (PPG) and its status. Fifteen enter the floor
+comparison; the other six are excluded for the stated reason, which does not depend on their result. \emph{Determined}
+means the label is a closed-form function of the encoder's input; for two determined labels, contact density and
+contact order, the floor descriptor contains the label by construction. \emph{Undetermined} means the label is not a
+function of the encoder's input, and \emph{not established} means we can neither exhibit such a function nor rule one
+out (Appendix~\ref{sec:appendix_determinacy}). PPGs: I1 local conformation, I2 local curvature, I3 secondary structure,
+I4 solvent accessibility, I5 local flexibility, I6 burial and packing, I7 residue contacts, I8 global geometry, I9 fold
+architecture, I10 sequence.}\label{tab:probe_inventory}\label{tab:appendix_full_probing_tasks}\\
 \toprule
 \rowcolor{CompassLavender!32}
-probe & label status & in the comparison & note \\
+probe & PPG & label status & in the comparison & note \\
 
 \midrule
 \endfirsthead
-\multicolumn{4}{l}{\small\textit{Table \thetable{} (continued)}}\\
+\multicolumn{5}{l}{\small\textit{Table \thetable{} (continued)}}\\
 \toprule
 \rowcolor{CompassLavender!32}
-probe & label status & in the comparison & note \\
+probe & PPG & label status & in the comparison & note \\
 
 \midrule
 \endhead
@@ -26,27 +29,27 @@ probe & label status & in the comparison & note \\
 \bottomrule
 \endlastfoot
 
-backbone $\phi$ & determined & yes & a closed-form function of the coordinates \\
-backbone $\psi$ & determined & yes & a closed-form function of the coordinates \\
-local curvature & determined & yes & a closed-form function of the coordinates \\
-DSSP-3 & determined & yes & a closed-form function of the coordinates \\
-DSSP-8 & determined & yes & a closed-form function of the coordinates \\
-RSA & undetermined & yes & not a function of the encoder's input \\
-RSA bins & undetermined & yes & not a function of the encoder's input \\
-B-factor & undetermined & yes & not a function of the encoder's input \\
-core/surface & determined & yes & a closed-form function of the coordinates \\
-contact density & tautological & yes & the floor contains the label by construction \\
-CA distance bins & determined & yes & a closed-form function of the coordinates \\
-contact order & tautological & yes & the floor contains the label by construction \\
-radius of gyration & determined & yes & a closed-form function of the coordinates \\
-asphericity & determined & yes & a closed-form function of the coordinates \\
-fold architecture & not established & yes & neither shown to be a function of the encoder's input nor shown not to be \\
-asphericity (raw) & --- & no & raw form; the length-residualised form is reported \\
-contact order (raw) & --- & no & raw form; the length-residualised form is reported \\
-$\phi$ bins & --- & no & binned twin of backbone $\phi$; the circular form is reported \\
-$\psi$ bins & --- & no & binned twin of backbone $\psi$; the circular form is reported \\
-radius of gyration (raw) & --- & no & raw form; the length-residualised form is reported, since length alone predicts it \\
-sequence recovery & --- & no & uninformative for any source given residue identity: 7 encoders and 2 floors score 1.000 \\
+backbone $\phi$ & I1 & determined & yes & a closed-form function of the coordinates \\
+backbone $\psi$ & I1 & determined & yes & a closed-form function of the coordinates \\
+local curvature & I2 & determined & yes & a closed-form function of the coordinates \\
+DSSP-3 & I3 & determined & yes & a closed-form function of the coordinates \\
+DSSP-8 & I3 & determined & yes & a closed-form function of the coordinates \\
+RSA & I4 & undetermined & yes & not a function of the encoder's input \\
+RSA bins & I4 & undetermined & yes & not a function of the encoder's input \\
+B-factor & I5 & undetermined & yes & not a function of the encoder's input \\
+core/surface & I6 & determined & yes & a closed-form function of the coordinates \\
+contact density & I6 & determined & yes & the floor contains the label by construction \\
+CA distance bins & I7 & determined & yes & a closed-form function of the coordinates \\
+contact order & I8 & determined & yes & the floor contains the label by construction \\
+radius of gyration & I8 & determined & yes & a closed-form function of the coordinates \\
+asphericity & I8 & determined & yes & a closed-form function of the coordinates \\
+fold architecture & I9 & not established & yes & neither shown to be a function of the encoder's input nor shown not to be \\
+asphericity (raw) & I8 & --- & no & raw form; the length-residualised form is reported \\
+contact order (raw) & I8 & --- & no & raw form; the length-residualised form is reported \\
+$\phi$ bins & I1 & --- & no & binned twin of backbone $\phi$; the circular form is reported \\
+$\psi$ bins & I1 & --- & no & binned twin of backbone $\psi$; the circular form is reported \\
+radius of gyration (raw) & I8 & --- & no & raw form; the length-residualised form is reported, since length alone predicts it \\
+sequence recovery & I10 & --- & no & uninformative for any source given residue identity: 7 encoders and 2 floors score 1.000 \\
 
 \end{longtable}
 \endgroup

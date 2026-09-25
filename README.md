@@ -40,6 +40,7 @@ downstream prediction against sequence baselines, and erasure with a variance-ma
 - [Within-model, pretraining, fixed-head and stability controls](#within-model-pretraining-fixed-head-and-stability-controls)
 - [Repository layout](#repository-layout)
 - [Data and embeddings](#data-and-embeddings)
+- [Model weights](#model-weights)
 - [Environment](#environment)
 - [Quick start](#quick-start)
 - [Reproducing each table and figure](#reproducing-each-table-and-figure)
@@ -165,9 +166,9 @@ residues (`protcompass/contact_task/`, `protcompass/masif_site/`).
 
 ## Key findings
 
-Numbers are copied from the manuscript; the section is given for each.
+Numbers are copied from the manuscript. Each paragraph names the section of the paper it comes from.
 
-**Structural probing (Sec. 3.1, Table 1, Figure 2).**
+**Structural probing** (Main Results, "Structural Probing: Separating Learned Signal from Input"; Table 1 and Figure 2).
 - Across the 245 coordinate-encoder–label comparisons on determined labels, 231 score below their input-matched
   floor, 3 are unresolved and 11 score above it; none of the 110 sequence-only comparisons falls below its sequence
   floor.
@@ -180,7 +181,7 @@ Numbers are copied from the manuscript; the section is given for each.
 
 <p align="center"><img src="figures/Figure2.png" alt="Figure 2" width="760"></p>
 
-**Downstream prediction (Sec. 3.2, Figure 3).**
+**Downstream prediction** (Main Results, "Downstream Prediction: What Do Protein Encoders Add?"; Figure 3).
 - Sequence-only encoders achieve higher mean performance on all ten tasks. The advantage ranges from 0.090 to 0.473
   on nine tasks, with a mean gap of 0.186 across the panel; eight of these task-level differences remain significant
   after Holm correction. On PPI affinity the gap is 0.011, against a mean seed standard deviation of 0.101.
@@ -193,13 +194,13 @@ Numbers are copied from the manuscript; the section is given for each.
 
 <p align="center"><img src="figures/Figure3.png" alt="Figure 3" width="760"></p>
 
-**Concept erasure (Sec. 3.3, Figure 4).**
+**Concept erasure** (Main Results, "Concept Erasure: Separating Property Use from Representation Loss"; Figure 4).
 - LEACE lowers the linear readout of the erased property from a median 0.669 to −0.003; nonlinear readouts keep much
   of it. Synthetic tests recover a property that is used and give effects within ±0.007 when it is not.
 - Against the sham, eight task–property pairs show a consistent drop, but the real erasure removes a median 3.6× more
   representation variance than the sham. Against the variance-matched null, two of the eight remain consistent, and
   one of these does not reproduce on held-out proteins. The variance match is within 1% on 62% of audited cells and
-  within 5% on 84% (Sec. 2).
+  within 5% on 84% (Study Design, "Measuring What a Task Uses").
 - Over 60 task–property pairs the repair rule names seven candidates: four on PPI affinity, two on fluorescence, and
   amino-acid composition on stability.
 - The four PPI signals disappear when training and test share no protein chains. On fluorescence, simple mutation
@@ -210,21 +211,23 @@ Numbers are copied from the manuscript; the section is given for each.
 
 <p align="center"><img src="figures/Figure4.png" alt="Figure 4" width="760"></p>
 
-**Rankings across prediction levels (Sec. 3.4, Figure 5).** On residue-pair contacts, coordinate-reading and
+**Rankings across prediction levels** (Main Results, "Visualization and Residue-Level Evaluation"; Figure 5). On
+residue-pair contacts, coordinate-reading and
 sequence-only encoders perform similarly on average (AUPRC 0.263 against 0.247, one-sided Mann–Whitney p = 0.35), and
 an encoder's contact rank is only weakly related to its rank on the ten pooled tasks (ρ = 0.22). The pooled ranking
 transfers to interface-residue prediction (ρ = 0.73).
 
 <p align="center"><img src="figures/residue_rankings.png" alt="Figure 5" width="620"></p>
 
-**Robustness (Sec. 3.5).** After projecting all representations to 116 dimensions, the mean sequence-only lead on the
+**Robustness** (Main Results, "Ablation Studies"). After projecting all representations to 116 dimensions, the mean sequence-only lead on the
 downstream tasks is 0.164, against 0.186 at native widths. Keeping the vector channels of four equivariant encoders
 raises their probe scores, and all 44 determined encoder–label comparisons stay below their input floors. With a
 nonlinear head the stability composition signal is positive on 7 of 12 encoders.
 
 ## Confirmation cohorts and held-out tests
 
-(Sec. 3.6 and the confirmation appendix.)
+(Main Results, "Confirmation on Unseen Data", and the appendix "Confirmation on data and splits the development did
+not use".)
 
 - **Unseen CATH topologies.** On 1,924 domains from unseen CATH topologies, 234 of 245 coordinate cells remain below
   their floor and no sequence-only cell does; undetermined labels show larger margins by +0.178 [+0.146, +0.217].
@@ -248,7 +251,7 @@ reduced by UMAP (k = 10, seed 42) and Procrustes-aligned to ESM2-150M. Encoders 
 k-nearest-neighbour overlap on the full embeddings, and each panel is scored by 10-NN label purity.
 
 - On all ten task layers the encoder whose ten nearest neighbours most often share a protein's label reads sequence
-  only (Sec. 3.4).
+  only (Main Results, "Visualization and Residue-Level Evaluation").
 - Neighbourhood purity against chance detects all four failures in a discarded embedding cache (all-zero dMaSIF
   embeddings, a collapsed PottsMPNN checkpoint, an incomplete IPA entry, and an unseeded GCPNet wrapper).
 
@@ -264,7 +267,8 @@ Each of these analyses has a pre-specification written before scoring (`PRESPEC.
 folder; `extract/ab_modality/PRESPEC.md` has one local path shortened for this release, so its checksum no longer
 matches, see `protcompass/ENVIRONMENT.md`).
 
-- **Within-model modality ablation** (`protcompass/extract/ab_modality/`). ESM3 is run with the true sequence and no
+- **Within-model modality ablation** (appendix "Controls for the downstream comparison", "Removing the structure
+  input from the same checkpoint"; `protcompass/extract/ab_modality/`). ESM3 is run with the true sequence and no
   structure, and SaProt with every 3Di token replaced by `#`. The structure input raises fold recognition for both
   models (ESM3 +0.055, SaProt +0.117) and lowers fluorescence for both (ESM3 −0.119, SaProt −0.136). Removing the
   structure input lowers the probe score on 29 of the 30 cells; with the structure input SaProt is below the floor of
@@ -273,15 +277,18 @@ matches, see `protcompass/ENVIRONMENT.md`).
 - **Shuffled-3Di control for SaProt.** A third source keeps each protein's own 3Di tokens and permutes their positions.
   The full model scores above the shuffled one on all ten tasks (+0.069 to +0.458) and all fifteen probes, and the
   shuffled model scores below the `#` model on eight tasks and twelve probes (`*_shuf.csv`, `table_shuf3di*.tex`).
-- **Random against pretrained pairs** (`protcompass/symmetric/ab_train_pairs/`). Over five architectures present in
+- **Random against pretrained pairs** (appendix "Controls for the probing comparison", "What pretraining changes at
+  a fixed architecture and input"; `protcompass/symmetric/ab_train_pairs/`). Over five architectures present in
   both states (GCPNet, GearNet, IPA, TFN, PottsMPNN), 38 of the 75 probe cells rise with pretraining, 29 fall and 8 are
   unresolved; 54 of the 55 determined cells of the random versions and 53 of the 55 of the pretrained versions are
   below the floor.
-- **Fixed-head erasure** (`protcompass/erasure/ab_fixed_head/`). A head fitted once on the intact representation is
+- **Fixed-head erasure** (appendix "Controls for the erasure analysis", "A fixed head: does the fitted predictor rely
+  on the erased directions?"; `protcompass/erasure/ab_fixed_head/`). A head fitted once on the intact representation is
   scored on erased inputs. The fixed-head rule names three pairs: burial and packing on fluorescence (+0.056, 33 of 33
   encoders), composition on fluorescence (+0.031, 26 of 32) and composition on solubility (+0.021, 30 of 32).
   Composition on stability has a positive mean (+0.047) but is positive on 21 of 32 encoders (Holm p = 0.22).
-- **Stability composition decomposition** (`protcompass/erasure/ab_stability_decomp/`). The composition descriptor is
+- **Stability composition decomposition** (appendix "Controls for the erasure analysis", "Competing explanations on
+  fluorescence and stability"; `protcompass/erasure/ab_stability_decomp/`). The composition descriptor is
   split exactly into the parent background and the substitution vector. The repair is carried by the parent
   background (+0.085 on 29 of 32 encoders and 19 of 20 families with the wild-type and mutant residues and the site
   environment in every arm); the substitution vector repairs nothing (+0.003 with the released competitors, +0.002
@@ -311,55 +318,105 @@ matches, see `protcompass/ENVIRONMENT.md`).
 All paths inside the released code are relative to one root, read from the environment variable `PROTCOMPASS_ROOT`.
 It defaults to the repository root, so no setting is needed when the scripts are run from a clone. Large inputs
 downloaded from Hugging Face go to the same relative paths under `protcompass/`. Third-party encoder code is expected
-under `protcompass/external_repos/` and checkpoints under `protcompass/checkpoints/`. Scripts that start a worker in
+under `protcompass/external_repos/` and checkpoints under `protcompass/checkpoints/` (see [Model weights](#model-weights)).
+Scripts that start a worker in
 another conda environment look for it under `~/miniconda3/envs/<name>/`.
 
 ## Data and embeddings
 
-Files larger than 5 MB, embeddings and structures are hosted on Hugging Face, in the collection
-[huggingface.co/collections/Anonymoususer2223/](https://huggingface.co/collections/Anonymoususer2223/):
-
-- dataset [Anonymoususer2223/ProtEnv](https://huggingface.co/datasets/Anonymoususer2223/ProtEnv): task data and
-  ESMFold-predicted structures;
-- embeddings repository [Anonymoususer2223/ProtCompass_Embeddings](https://huggingface.co/Anonymoususer2223/ProtCompass_Embeddings).
-
-The release files are stored under a `protcompass/` folder in these repositories, at the same relative path as in
-this repository, so a download into the repository root puts them where the scripts look:
+Files larger than 5 MB, embeddings and label files are in the Hugging Face repository
+[Anonymoususer2223/ProtCompass_Embeddings](https://huggingface.co/Anonymoususer2223/ProtCompass_Embeddings) (a model
+repository), part of the collection [huggingface.co/collections/Anonymoususer2223/](https://huggingface.co/collections/Anonymoususer2223/).
+Its files sit at the repository root and mirror `protcompass/`: the Hugging Face path `<x>` is `protcompass/<x>` here.
+Downloading into `protcompass/` therefore puts every file where the scripts look:
 
 ```bash
 pip install -U huggingface_hub
-# inputs (structures, labels, manifests)
-huggingface-cli download Anonymoususer2223/ProtEnv --repo-type dataset \
-    --include "protcompass/extract/manifest/*" "protcompass/probing_data/labels.h5" --local-dir .
-# embeddings and large outputs, one folder at a time
+cd ProtCompass
+# one folder, for example the downstream embeddings of one task
 huggingface-cli download Anonymoususer2223/ProtCompass_Embeddings \
-    --include "protcompass/extract/embeddings/stability/*" --local-dir .
+    --include "extract/embeddings/stability/*" --local-dir protcompass
+# the task manifests and the probing labels
+huggingface-cli download Anonymoususer2223/ProtCompass_Embeddings \
+    --include "extract/manifest/*" "probing_data/*" --local-dir protcompass
 ```
 
-| Relative path | Size | Repository | Used by |
-|---|---|---|---|
-| `protcompass/extract/embeddings/<task>/<encoder>/{train,valid,test}.npy`, `ids_*.txt` | 6.1 GB | Embeddings | downstream scoring, erasure, atlas |
-| `protcompass/probing_embeddings/` | 96 GB | Embeddings | probing fits of encoders |
-| `protcompass/probing_embeddings_vframe/` | 4.9 GB | Embeddings | vector-frame probing |
-| `protcompass/extract/ab_modality/embeddings/`, `protcompass/extract/ab_modality/probing_embeddings/` | 1.4 GB, 22 GB | Embeddings | modality ablation |
-| `protcompass/confirmation/embeddings/`, `protcompass/confirmation2/embeddings/`, `protcompass/confirmation_downstream/embeddings/` | 3.5 GB, 2.4 GB, 0.5 GB | Embeddings | confirmation cohorts |
-| `protcompass/masif_site/embeddings/` | 19 GB | Embeddings | interface task |
-| `protcompass/symmetric/results_*/by_source/*__test_predictions.npz` | 3.5 GB | Embeddings | bootstrap intervals of the floor comparison |
-| `protcompass/prereg/results*/by_source/*.npz`, `protcompass/probing_results_atom/` predictions | about 1.1 GB | Embeddings | pre-registered test, atom-matched floors |
-| `protcompass/confirmation_downstream/predictions/*.npz`, `bighead_matched/*.npz` | 17 MB, 1.9 GB | Embeddings | held-out bootstrap, multi-output heads |
-| `protcompass/erasure/concepts/*.npz`, `protcompass/erasure/ab_stability_decomp/descriptors.csv` | 14 MB, 5.8 MB | Embeddings | property caches of the erasure |
-| `protcompass/atlas/data_v4/atlas.json` | 28 MB | Embeddings | atlas figures and summary table |
-| `protcompass/extract/manifest/{ec_classification,fluorescence,go_bp,go_mf,membrane_soluble,stability,subcellular_localization}.csv` | 13–23 MB each | ProtEnv | protein lists, splits, labels (the three smaller manifests are in this repository) |
-| `protcompass/probing_data/labels.h5` | 316 MB | ProtEnv | probing labels |
-| `protcompass/masif_site/labels.h5`, `protcompass/confirmation*/labels_v44.h5`, `protcompass/prereg/labels_*.h5` | 49 MB, 37 MB and 25 MB, 5–62 MB | ProtEnv | residue-level and confirmation labels |
-| `protcompass/structures/`, `protcompass/extract/structures/`, `protcompass/probing_data/structures/`, `protcompass/confirmation*/structures/` | 41 GB, 19 GB, 1.7 GB, 0.3 GB | ProtEnv | structures read by the encoders and the floors |
-| `protcompass/extract/cache/` | 2.6 GB | ProtEnv | parsed coordinates |
-| `protcompass/checkpoints/` (`tfn_pretrained/best.pt`, `ipa_pretrained/best.pt`, GearNet, ProteinMPNN) | about 0.4 GB | Embeddings | pretrained structure encoders |
+The same repository also holds, under `embeddings/` and `probing_IF/`, the files of the earlier version of the
+benchmark; the current paper does not use them.
 
-Public checkpoints (ESM-1b, ESM2, ProtBert, ProtT5, Ankh, ProstT5, SaProt, FoldVision) load from the Hugging Face hub;
-the exact identifiers and revisions are in `protcompass/paper/generated/encoder_inventory.tex` and in each `meta.json`.
-ESM3 uses the `esm3-sm-open-v1` weights, which are distributed by their authors under their own license and are
-expected under `protcompass/esm3-sm-open-v1/`.
+| Hugging Face path (= path under `protcompass/`) | Contents | Size |
+|---|---|---|
+| `extract/embeddings/<task>/<encoder>/` | pooled embeddings (`train/valid/test.npy`, `ids_*.txt`, `meta.json`) of the 33 encoders and the composition reference on the ten tasks | 6.5 GB |
+| `extract/manifest/*.csv` | task manifests: id, split, sequence, structure file, label (the three smaller ones are also in this repository) | 0.12 GB |
+| `extract/pairs/ppi_affinity_pairs.csv`, `extract/encoder_input_audit.csv`, `encoder_atom_audit.csv`, `encoder_sidechain_audit.csv` | PPI pairs and input audit (also in this repository) | <0.01 GB |
+| `probing_embeddings/<encoder>/` | per-residue and pooled embeddings of the 33 encoders on the 19,461 CATH 4.3 domains | 96.9 GB |
+| `probing_embeddings_vframe/` | GVP, GCPNet and MACE with the direction of their vector channels kept | 5.2 GB |
+| `probing_data/labels.h5`, `probing_data/splits/` | probe labels, coordinates and splits | 0.32 GB |
+| `extract/ab_modality/embeddings/`, `extract/ab_modality/probing_embeddings/` | ESM3 and SaProt without structure input, and SaProt with shuffled 3Di tokens | 1.5 GB, 23.5 GB |
+| `confirmation/`, `confirmation2/` | the two CATH 4.4 probing cohorts (`labels_v44.h5`, `cohort_manifest.csv`, embeddings) | 3.7 GB, 2.6 GB |
+| `confirmation_downstream/` | held-out downstream proteins (cohort lists and embeddings) | 0.54 GB |
+| `masif_site/` | residue-level interface task (`labels.h5`, exclusions, summary, embeddings) | 20.2 GB |
+| `atlas/data_v4/*.json` | latent-space atlas data, including `atlas.json` | 0.06 GB |
+| `checkpoints/<encoder>/<file>` | pretrained checkpoints of six structure encoders (see [Model weights](#model-weights)) | 0.16 GB |
+
+**Structures.** The manifests give the structure file each row was extracted from (`structure_path`). The
+ESMFold structures of stability, fluorescence, solubility and PPI affinity are in the dataset
+[Anonymoususer2223/ProtEnv](https://huggingface.co/datasets/Anonymoususer2223/ProtEnv) under `predicted_structures/`.
+The experimental (PDB), AlphaFold DB, SCOPe and CATH structures are public and are not redistributed;
+`structures/fetch_structures.py` and `probing_data/make_probing_data.py` fetch them.
+
+**Files that are not uploaded.** Intermediate files that the scripts write while they run are not in the Hugging Face
+repository. The summary tables built from them are in this repository, so every table of the paper can be
+regenerated without them. A released script rebuilds each of them:
+
+| Path under `protcompass/` | Regenerated by |
+|---|---|
+| `extract/cache/` (parsed coordinates) | `extract/prepare_caches.py` (also on first use by `extract/extract.py`) |
+| `symmetric/results_*/by_source/*__test_predictions.npz`, `symmetric/nbr_cache_*` | `scripts/symmetric_run.py` |
+| `prereg/results*/by_source/*.npz` | `scripts/prereg_run.py` |
+| `prereg/labels_*.h5` | `scripts/prereg_labels.py`, `scripts/prereg_merge_cohortB.py` |
+| `confirmation/merged/`, `confirmation2/merged/` | `scripts/confirmation_merge.py` |
+| `confirmation_downstream/predictions/*.npz` | `scripts/addback_holdout.py` |
+| `confirmation_downstream/bighead_matched/*.npz` | `scripts/bighead_holdout.py` |
+| `erasure/concepts/*.npz` (the fluorescence and PPI-affinity caches are in this repository) | `scripts/common_struct.py` |
+| `erasure/ab_stability_decomp/descriptors.csv` | `scripts/ab_stability_decomp.py` |
+
+## Model weights
+
+The code reads the pretrained checkpoints of six structure encoders from fixed paths (these paths are not changed for
+the release): `protcompass/checkpoints/proteinmpnn_v48_020.pt`, `protcompass/checkpoints/gearnet/mc_gearnet_edge.pth`,
+`protcompass/external_repos/GCPNet/checkpoints/PSR/` and `protcompass/external_repos/PottsMPNN/...`. The files are in
+the `checkpoints/` folder of the Hugging Face repository
+[Anonymoususer2223/ProtCompass_Embeddings](https://huggingface.co/Anonymoususer2223/ProtCompass_Embeddings), one
+folder per encoder (`checkpoints/<encoder>/<file>`), with the upstream licence of each file and `SHA256SUMS`.
+`checkpoints/README.md` in that repository has a script that links the downloaded files to the paths the code reads.
+
+```bash
+huggingface-cli download Anonymoususer2223/ProtCompass_Embeddings --include "checkpoints/*" --local-dir hf_weights
+(cd hf_weights/checkpoints && sha256sum -c SHA256SUMS)
+# then run the link script in hf_weights/checkpoints/README.md from the root of this repository
+```
+
+| Encoder | Hugging Face file | Path the code reads |
+|---|---|---|
+| ProteinMPNN | `checkpoints/proteinmpnn/proteinmpnn_v48_020.pt` | `protcompass/checkpoints/proteinmpnn_v48_020.pt` |
+| GearNet (pretrained) | `checkpoints/gearnet_pretrained/mc_gearnet_edge.pth` | `protcompass/checkpoints/gearnet/mc_gearnet_edge.pth` |
+| GCPNet (pretrained) | `checkpoints/gcpnet_pretrained/<file>.ckpt` | `protcompass/external_repos/GCPNet/checkpoints/PSR/<file>.ckpt` |
+| PottsMPNN (pretrained) | `checkpoints/pottsmpnn_pretrained/pottsmpnn_20.pt` | `protcompass/external_repos/PottsMPNN/proteinmpnn_compatible_model_weights/pottsmpnn_20.pt` |
+| PottsMPNN (soluble) | `checkpoints/pottsmpnn_soluble/sol_pottsmpnn_20.pt` | `protcompass/external_repos/PottsMPNN/soluble_model_weights/sol_pottsmpnn_20.pt` |
+| PottsMPNN (fine-tuned) | `checkpoints/pottsmpnn_ft/potts_ft.pt` | `protcompass/external_repos/PottsMPNN/ft_model_weights/potts_ft.pt` |
+
+The TFN-pre and IPA-pre weights (read from `protcompass/checkpoints/tfn_pretrained/best.pt` and
+`protcompass/checkpoints/ipa_pretrained/best.pt`) are not included yet.
+
+The sequence and multimodal models (ESM-1b, ESM2, ProtBert, ProtT5, Ankh, ProstT5, SaProt, FoldVision) load from the
+Hugging Face hub, ESM-IF1 through `torch.hub` from the ESM release, and Foldseek 3Di states are computed by the
+`mini3di` package. The exact identifiers and revisions are in `protcompass/paper/generated/encoder_inventory.tex` and in
+each `meta.json`.
+
+ESM3 weights (`esm3-sm-open-v1`) are not redistributed. Obtain them from EvolutionaryScale under their licence (the
+gated Hugging Face repository `EvolutionaryScale/esm3-sm-open-v1`) and place them at `protcompass/esm3-sm-open-v1/`;
+the code reads `protcompass/esm3-sm-open-v1/data/weights/esm3_sm_open_v1.pth`.
 
 ## Environment
 
@@ -409,193 +466,211 @@ Hugging Face and a GPU for extraction. The extraction also needs the third-party
 
 ## Reproducing each table and figure
 
-Paths are relative to `protcompass/`, except paths that start with `figures/`, which are in the top-level `figures/`
-folder. "repo" means every listed file is in this repository; "Hugging Face" means at least one listed file is in the
-download table above. `paper/generated/*.tex` are the tables as printed in the paper; the scripts print the same
-numbers (the paper versions add layout commands).
+The tables below follow the order of the paper. Appendix sections and tables are named by their titles. Paths are
+relative to `protcompass/`, except paths that start with `figures/`, which are in the top-level `figures/` folder.
+"repo" means every listed file is in this repository; "Hugging Face" means at least one listed file is in the
+embeddings repository (see [Data and embeddings](#data-and-embeddings)). `paper/generated/*.tex` are the tables as
+printed in the paper; the scripts print the same numbers (the paper versions add layout commands). A "Text" row is a
+statement in the text whose numbers come from the listed files.
 
 **Main text**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Figure 1 (framework overview) | – | `figures/Figure1.png` | repo |
-| Figure 2 (probing scores and input floors) | `scripts/make_figure2_symmetric.py`, `scripts/make_panels_original_style.py` | `symmetric/results_superfamily/by_source/*.csv`, `extract/encoder_input_audit.csv`, `probing_results/floor_assignment.csv`, `symmetric/figure2_symmetric_values.csv` | repo |
-| Table 1 (probing against input-matched floors) | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/headline_reanalysis.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/headline_reanalysis.json`, `symmetric/hypotheses_superfamily.json` | repo |
-| Figure 3 (downstream heatmap, 33 x 10) | `scripts/make_figures_paper.py`, `scripts/make_panels_original_style.py`, `scripts/make_main_figures.py`, `extract/score2.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv` | repo |
-| Figure 4 (erasure and repair) | `scripts/make_figures_paper.py`, `scripts/exclusion_bounds.py`, `scripts/named_pair_verdicts.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/parts/erasure_v2_*.csv`, `erasure/parts/erasure_control_*.csv`, `erasure/named_pair_verdicts_full.csv`, `erasure/named_pair_cells_full.csv` | repo |
-| Figure 5 (encoder rankings across prediction levels) | `paper/scripts/plot_residue_rankings.py`, `scripts/residue_readout_report.py` | `paper/generated/residue_rankings.csv`, `paper/generated/contact_task.tex`, `paper/generated/masif_task.tex` | repo |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Study Design | Figure 1: Overview of ProtCompass | – | `figures/Figure1.png` | repo |
+| Structural Probing: Separating Learned Signal from Input | Figure 2: Structural probe scores depend on what the encoder receives as input | `scripts/make_figure2_symmetric.py`, `scripts/make_panels_original_style.py` | `symmetric/results_superfamily/by_source/*.csv`, `extract/encoder_input_audit.csv`, `probing_results/floor_assignment.csv`, `symmetric/figure2_symmetric_values.csv` | repo |
+| Structural Probing: Separating Learned Signal from Input | Table 1: Structural probing against input-matched floors | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/headline_reanalysis.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/headline_reanalysis.json`, `symmetric/hypotheses_superfamily.json` | repo |
+| Downstream Prediction: What Do Protein Encoders Add? | Text: Downstream protocol and panel | `extract/score2.py` | `extract/scores2_long.csv`, `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/scores2_missing.csv`, `extract/encoder_input_audit.csv` | repo; partly working notes (not released) |
+| Downstream Prediction: What Do Protein Encoders Add? | Text: Large pretrained encoders | `scripts/group_controls.py`, `scripts/fixed_dim_report.py`, `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json`, `extract/scores2_wide.csv` | repo |
+| Downstream Prediction: What Do Protein Encoders Add? | Text: Sequence-only lead; atlas purity | `scripts/build_atlas_v4.py` | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv`, `atlas/data_v4/atlas.json` | repo; Hugging Face |
+| Downstream Prediction: What Do Protein Encoders Add? | Figure 3: Downstream performance of 33 protein encoders across ten biological prediction tasks | `scripts/make_figures_paper.py`, `scripts/make_panels_original_style.py`, `scripts/make_main_figures.py`, `extract/score2.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv` | repo |
+| Concept Erasure: Separating Property Use from Representation Loss | Figure 4: Property use measured by erasure and repair | `scripts/make_figures_paper.py`, `scripts/exclusion_bounds.py`, `scripts/named_pair_verdicts.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/parts/erasure_v2_*.csv`, `erasure/parts/erasure_control_*.csv`, `erasure/named_pair_verdicts_full.csv`, `erasure/named_pair_cells_full.csv` | repo |
+| Visualization and Residue-Level Evaluation | Figure 5: Encoder rankings across prediction levels | `paper/scripts/plot_residue_rankings.py`, `scripts/residue_readout_report.py` | `paper/generated/residue_rankings.csv`, `paper/generated/contact_task.tex`, `paper/generated/masif_task.tex` | repo |
 
-**Additional controls**
+**Appendix: Scope of this appendix**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Appendix: fixed-head erasure | `scripts/ab_fixed_head.py`, `scripts/ab_fixed_head_summary.py` | `erasure/ab_fixed_head/summary.csv`, `erasure/ab_fixed_head/cells.csv`, `erasure/ab_fixed_head/projection_check.txt`, `erasure/ab_fixed_head/PRESPEC.md`, `erasure/ab_fixed_head/PRESPEC.sha256`, `erasure/ab_fixed_head/fixed_head.tex`, `paper/generated/fixed_head.tex` | repo; partly working notes (not released) |
-| Appendix: within-model modality ablation, ESM3/SaProt, shuffled-3Di control | `extract/ab_modality/ab_extract.py`, `extract/ab_modality/ab_score.py`, `extract/ab_modality/ab_bootstrap.py`, `extract/ab_modality/ab_symmetric_run.py`, `extract/ab_modality/ab_probe_decide.py`, `extract/ab_modality/ab_latex.py`, `extract/ab_modality/ab_shuf_extract.py`, `extract/ab_modality/ab_shuf_score.py`, `extract/ab_modality/ab_shuf_bootstrap.py`, `extract/ab_modality/ab_shuf_symmetric_run.py`, `extract/ab_modality/ab_shuf_probe_decide.py`, `extract/ab_modality/ab_shuf_latex.py`, `extract/ab_modality/ab_shuf_probing.sh`, `extract/ab_modality/finish_pipeline.sh`, `extract/patched/esm3_seqonly.py`, `extract/patched/saprot_seqonly.py`, `extract/patched/saprot_shuf3di.py` | `extract/ab_modality/downstream_deltas.csv`, `extract/ab_modality/probing_deltas.csv`, `extract/ab_modality/probing_floor_cells.csv`, `extract/ab_modality/downstream_deltas_shuf.csv`, `extract/ab_modality/probing_deltas_shuf.csv`, `extract/ab_modality/PRESPEC.md`, `extract/ab_modality/PRESPEC.sha256`, `extract/ab_modality/PRESPEC_shuf.md`, `extract/ab_modality/PRESPEC_shuf.sha256`, `extract/ab_modality/*shuf*.csv`, `extract/ab_modality/downstream_group_summary.csv`, `extract/ab_modality/scores_ab_long.csv`, `extract/ab_modality/scores_ab_selected.csv`, `extract/ab_modality/refit_check.csv`, `extract/ab_modality/encoder_input_audit_ab.csv`, `paper/generated/modality_downstream.tex`, `paper/generated/modality_probing.tex`, `paper/generated/modality_shuf3di.tex`, `paper/generated/modality_shuf3di_probing.tex`, `paper/generated/modality_shuf3di_merged.tex`, `extract/ab_modality/table_*.tex` | repo; partly working notes (not released) |
-| Appendix: stability composition decomposition | `scripts/ab_stability_decomp.py`, `scripts/ab_stability_decomp_v2.py`, `scripts/ab_stability_decomp_v2_shard.py` | `erasure/ab_stability_decomp/v2_verdicts.csv`, `erasure/ab_stability_decomp/no_representation.csv`, `erasure/ab_stability_decomp/parent_contrasts.csv`, `erasure/ab_stability_decomp/PRESPEC.md`, `erasure/ab_stability_decomp/PRESPEC.sha256`, `erasure/ab_stability_decomp/PRESPEC_addendum.md`, `erasure/ab_stability_decomp/PRESPEC_addendum.sha256` | repo; partly working notes (not released) |
-| Appendix: random vs pretrained pairs | `scripts/ab_train_pairs.py`, `scripts/ab_train_pairs_report.py` | `symmetric/ab_train_pairs/probing_cells.csv`, `symmetric/ab_train_pairs/probing_summary.csv`, `symmetric/ab_train_pairs/downstream.csv`, `symmetric/ab_train_pairs/downstream_summary.csv`, `symmetric/ab_train_pairs/PRESPEC.md`, `symmetric/ab_train_pairs/PRESPEC.sha256`, `symmetric/ab_train_pairs/train_pairs.tex`, `symmetric/ab_train_pairs/train_pairs_matrix.tex`, `symmetric/ab_train_pairs/train_pairs_downstream.tex`, `paper/generated/train_pairs.tex`, `figures/train_pairs.png` | repo; partly working notes (not released) |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Scope of this appendix | Table: What each comparison establishes | – | – | – |
 
-**Withdrawn analysis**
+**Appendix: The Encoder Panel**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Appendix: withdrawn correlational analysis (zero as missing) | `scripts/iah_eval.py` | `audit/iah_eval_published_zero_missing.csv` | repo; the earlier manuscript table it parses is not included |
-| Appendix: withdrawn correlational analysis (14 tasks) | `scripts/iah_eval.py` | `audit/iah_eval_published.csv` | repo |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| The Encoder Panel | Text: Encoder panel and exclusions | `extract/input_audit.py` | `extract/encoder_input_audit.csv`, `extract/scores2_long.csv` | repo |
+| The evaluated panel | Text: Encoder read-out rules | `extract/common.py` | `extract/embeddings/*/*/meta.json` | repo |
+| The evaluated panel | Table: The 33 encoders the release evaluates, grouped by declared class; Table: Every probe in the suite, its protein property group (PPG) and its status | `scripts/emit_inventory.py` | `extract/encoder_input_audit.csv`, `extract/scores2_selected.csv`, `extract/embeddings/stability/*/meta.json`, `probing_results/floor_vs_encoders.csv`, `probing_results/by_source/esm2_650m.csv`, `paper/generated/probe_inventory.tex`, `paper/generated/encoder_inventory.tex` | repo |
 
-**Latent-space atlas**
+**Appendix: Controls for the probing comparison**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Sec. 3.2 sequence-only lead; atlas purity | `scripts/build_atlas_v4.py` | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv`, `atlas/data_v4/atlas.json` | repo; Hugging Face |
-| Appendix: latent-space atlas (maps, CKA, summary table) | `scripts/build_atlas_v4.py`, `scripts/make_atlas_figures_paper.py`, `scripts/emit_atlas_summary.py` | `atlas/data_v4/atlas.json`, `atlas/data_v4/summary.json`, `atlas/data/ec_class_names.json`, `paper/generated/atlas_summary.tex`, `figures/atlas/*.png` | repo; Hugging Face |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Floors matched to each encoder's input, and floors chosen on validation | Table: Inputs each encoder is measured to read, and the multi-atom floors it is held to under the input-matched rule | `scripts/floor_rules.py` | `probing_results/floor_admissibility.csv`, `probing_results_atom/by_source/*.csv`, `probing_results_val/by_source/*.csv`, `probing_results_atom_val/by_source/*.csv`, `extract/encoder_atom_audit.csv`, `paper/generated/floor_admissibility.tex`, `paper/generated/floor_rules_counts.tex` | repo |
+| Floors matched to each encoder's input, and floors chosen on validation | Table: Determined-probe cells at or below the floor under the four rules (scripts/floor_rules.py) | `scripts/floor_rules.py`, `scripts/floor_rules_readout_bound.py` | `probing_results/floor_rules_counts.csv`, `probing_results/floor_rules_cells.csv`, `probing_results/floor_rules_readout_bound.csv` | repo |
+| The floor comparison with one protocol for encoders and floors | Table: The floor comparison on the eleven determined labels under one protocol | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/symmetric_latex.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `paper/generated/symmetric_counts.tex` | repo |
+| The headline counts by label and by encoder | Text: Headline counts by label and encoder | `probing_data/make_probing_data.py`, `extract/atom_audit.py` | `symmetric/cells_superfamily.csv`, `extract/encoder_atom_audit.csv`, `paper/generated/encoder_inventory.tex` | repo |
+| The headline counts by label and by encoder | Text: Discard score and restricted probing (per-encoder tables released) | `scripts/discard_score.py`, `scripts/probing_restricted.py` | `probing_results/discard_score.csv`, `probing_results/probing_restricted.csv` | repo |
+| The headline counts by label and by encoder | Table: The 200 coordinate cells on the nine determined labels no floor contains, by the determinacy of the label for the …; Table: The cells of the input-matched rule on the eleven determined labels, split by label and encoder group, and the gap … | `scripts/headline_reanalysis.py` | `symmetric/headline_counts_by_saturation.csv`, `symmetric/gap_regression.csv`, `symmetric/undetermined_without_esm3.csv`, `symmetric/headline_reanalysis.json`, `paper/generated/headline_atoms.tex`, `paper/generated/headline_reanalysis.tex` | repo |
+| What pretraining changes at a fixed architecture and input | Table: Pretrained minus randomly initialised version of the same architecture on the fifteen probes of the admissible …; Figure: Floor, randomly initialised and pretrained versions of five architectures on the fifteen probes of the floor … | `scripts/ab_train_pairs.py`, `scripts/ab_train_pairs_report.py` | `symmetric/ab_train_pairs/probing_cells.csv`, `symmetric/ab_train_pairs/probing_summary.csv`, `symmetric/ab_train_pairs/downstream.csv`, `symmetric/ab_train_pairs/downstream_summary.csv`, `symmetric/ab_train_pairs/PRESPEC.md`, `symmetric/ab_train_pairs/PRESPEC.sha256`, `symmetric/ab_train_pairs/train_pairs.tex`, `symmetric/ab_train_pairs/train_pairs_matrix.tex`, `symmetric/ab_train_pairs/train_pairs_downstream.tex`, `paper/generated/train_pairs.tex`, `figures/train_pairs.png` | repo; partly working notes (not released) |
+| Control-task selectivity against the floors | Table: Selectivity on DSSP-3 against the floor verdict on DSSP-3 (medians over encoders; floor verdicts from the … | `scripts/symmetric_decide.py`, `scripts/symmetric_latex.py` | `symmetric/selectivity_superfamily.csv`, `paper/generated/symmetric_selectivity.tex` | repo |
+| Equivariant encoders with the direction of their vector channels kept | Text: Vector-frame equivariant encoders | `scripts/vframe_compare.py`, `extract/extract_vector_frame.py` | `symmetric/vframe_superfamily.csv` | repo |
+| Is the floor comparison a comparison of capacity? | Table: The floor comparison with every source projected to 116 dimensions before probing, next to the released run | `scripts/emit_matched_capacity_table.py` | `probing_results/by_source_k116/*.csv`, `probing_results/floor_assignment.csv`, `paper/generated/matched_capacity.tex` | repo |
+| Labels the input does not determine, and a floor built for fold architecture | Table: Fold architecture on the eleven shared CATH architectures, against the descriptor floors and the two floors built … | `scripts/emit_latex_tables.py`, `scripts/architecture_all_floors.py`, `scripts/architecture_alignment_floor.py`, `scripts/sequence_alignment_floor.py`, `scripts/pairhist_floor.py` | `probing_results/architecture_all_floors.csv`, `probing_results/architecture_strong_floors_*.csv`, `probing_results/sequence_alignment_floor.csv`, `paper/generated/strong_floors.tex` | repo |
 
-**Seed uncertainty**
+**Appendix: Controls for the downstream comparison**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Appendix: probing seed variability | `scripts/uncertainty_stats.py`, `scripts/architecture_seed_interval.py`, `scripts/make_uncertainty_figures.py` | `probing_results/uncertainty_stats.json`, `probing_results/scores_long.csv`, `probing_results/protocol.json`, `probing_results/architecture_seed_interval.csv`, `figures/uncertainty_appendix/IIP/*.png` | repo |
-| Appendix: downstream seed variability | `scripts/make_uncertainty_figures.py` | `extract/scores2_selected.csv`, `extract/scores2_wide.csv`, `extract/scores2_missing.csv`, `extract/scores2_long.csv`, `figures/uncertainty_appendix/downstream/*.png` | repo |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| A non-learned reference for the downstream tasks | Table: Every downstream task against a reference that uses no learned representation | `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json` | repo |
+| A non-learned reference for the downstream tasks | Table: Every downstream task against a reference that uses no learned representation | `scripts/emit_latex_tables.py`, `scripts/downstream_reference_table.py`, `scripts/make_downstream_reference.py` | `extract/scores2_selected.csv`, `paper/generated/downstream_reference.tex` | repo |
+| Removing the structure input from the same checkpoint | Table: Within-model modality ablation on the downstream tasks; Table: Within-model modality ablation on the structural probes (superfamily split, symmetric protocol); Table: Shuffled-3Di control for SaProt on the ten downstream tasks (left) and the fifteen probes (right; below the rule, … | `extract/ab_modality/ab_extract.py`, `extract/ab_modality/ab_score.py`, `extract/ab_modality/ab_bootstrap.py`, `extract/ab_modality/ab_symmetric_run.py`, `extract/ab_modality/ab_probe_decide.py`, `extract/ab_modality/ab_latex.py`, `extract/ab_modality/ab_shuf_extract.py`, `extract/ab_modality/ab_shuf_score.py`, `extract/ab_modality/ab_shuf_bootstrap.py`, `extract/ab_modality/ab_shuf_symmetric_run.py`, `extract/ab_modality/ab_shuf_probe_decide.py`, `extract/ab_modality/ab_shuf_latex.py`, `extract/ab_modality/ab_shuf_probing.sh`, `extract/ab_modality/finish_pipeline.sh`, `extract/patched/esm3_seqonly.py`, `extract/patched/saprot_seqonly.py`, `extract/patched/saprot_shuf3di.py` | `extract/ab_modality/downstream_deltas.csv`, `extract/ab_modality/probing_deltas.csv`, `extract/ab_modality/probing_floor_cells.csv`, `extract/ab_modality/downstream_deltas_shuf.csv`, `extract/ab_modality/probing_deltas_shuf.csv`, `extract/ab_modality/PRESPEC.md`, `extract/ab_modality/PRESPEC.sha256`, `extract/ab_modality/PRESPEC_shuf.md`, `extract/ab_modality/PRESPEC_shuf.sha256`, `extract/ab_modality/*shuf*.csv`, `extract/ab_modality/downstream_group_summary.csv`, `extract/ab_modality/scores_ab_long.csv`, `extract/ab_modality/scores_ab_selected.csv`, `extract/ab_modality/refit_check.csv`, `extract/ab_modality/encoder_input_audit_ab.csv`, `paper/generated/modality_downstream.tex`, `paper/generated/modality_probing.tex`, `paper/generated/modality_shuf3di.tex`, `paper/generated/modality_shuf3di_probing.tex`, `paper/generated/modality_shuf3di_merged.tex`, `extract/ab_modality/table_*.tex` | repo; partly working notes (not released) |
+| The group comparison with each confound held fixed | Table: The sequence-versus-coordinate comparison under each restriction, at each encoder's native width and with every … | `scripts/group_controls.py` | `extract/scores2_selected.csv` | repo |
+| The group comparison with each confound held fixed | Table: The sequence-versus-coordinate comparison under each restriction, at each encoder's native width and with every … | `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json` | repo |
+| The group comparison with each confound held fixed | Table: The sequence-versus-coordinate comparison under each restriction, at each encoder's native width and with every … | `scripts/emit_latex_tables.py`, `scripts/group_controls.py` | `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `extract/embeddings/stability/*/meta.json`, `paper/generated/group_controls.tex` | repo |
+| The group comparison with each confound held fixed | Table: The sequence-versus-coordinate comparison under each restriction, at each encoder's native width and with every … | `scripts/emit_group_controls_merged.py`, `scripts/group_controls.py`, `scripts/group_controls_multiplicity.py`, `scripts/fixed_dim_report.py`, `extract/score2_fixed_dim.py` | `extract/group_controls_multiplicity.csv`, `extract/score_fixed_dim/group_summary.csv`, `extract/group_controls_merged.tex`, `paper/generated/group_controls_merged.tex` | repo |
+| The group comparison with each confound held fixed | Table: The sequence-versus-coordinate comparison under each restriction, at each encoder's native width and with every … | `scripts/group_controls_multiplicity.py` | `extract/scores2_selected.csv`, `extract/group_controls_holm.csv`, `extract/group_controls_multiplicity.csv`, `paper/generated/group_controls_multiplicity.tex` | repo |
+| The group comparison with each confound held fixed | Table: The sequence-versus-coordinate comparison under each restriction, at each encoder's native width and with every … | `scripts/fixed_dim_report.py`, `extract/score2_fixed_dim.py` | `extract/score_fixed_dim/*.csv`, `paper/generated/fixed_dim.tex` | repo |
+| The group comparison with each confound held fixed | Table: The group gap as the training budget is reduced | `scripts/emit_latex_tables.py`, `scripts/train_size_sweep.py`, `scripts/run_train_size_sweep.sh` | `extract/score_parts/scores2_long_*.csv`, `paper/generated/train_size.tex` | repo |
 
-**Confirmation and held-out tests**
+**Appendix: Controls for the erasure analysis**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Appendix Table: matched null on held-out proteins | `scripts/matched_null.py`, `scripts/matched_null_report.py` | `confirmation_downstream/matched_null_summary.csv`, `confirmation_downstream/matched_null_cells.csv` | repo |
-| Appendix: CATH 4.4 confirmation cohort novelty | `scripts/confirmation_novelty.py` | `confirmation/novelty/novelty_verdicts.csv`, `confirmation/novelty/novelty_cells.csv` | repo |
-| Appendix Table: second probing cohort | `scripts/confirmation2_report.py`, `scripts/confirmation_novelty.py`, `scripts/confirmation2_freeze.py`, `scripts/confirmation2_run.sh` | `confirmation2/cells_current.csv`, `confirmation2/cells_released.csv`, `confirmation2/novelty/novelty_verdicts.csv`, `confirmation2/freeze.json`, `confirmation2/verdicts.json`, `paper/generated/confirmation2_probing.tex` | repo |
-| Appendix Table: pre-registered determinacy test | `scripts/prereg_decide.py`, `scripts/prereg_latex.py`, `scripts/prereg_freeze.py`, `scripts/prereg_labels.py`, `scripts/prereg_floors.py`, `scripts/prereg_run.py`, `scripts/prereg_determinacy.py` | `prereg/decision.json`, `prereg/decision_cohortB.json`, `prereg/units.csv`, `prereg/cells.csv`, `prereg/cells_cohortB.csv`, `prereg/freeze.json`, `prereg/freeze.sha256.json`, `prereg/POST_FREEZE_LOG.md`, `prereg/determinacy_checks.csv`, `paper/generated/prereg_cells.tex` | repo |
-| Appendix: remote homology label counts (held-out) | – | `extract/manifest/remote_homology.csv` | repo |
-| Appendix: multi-output heads, label counts | `scripts/bighead_holdout.py`, `scripts/emit_bighead_table.py` | `extract/manifest/ec_classification.csv`, `extract/manifest/remote_homology.csv`, `confirmation_downstream/bighead_matched/remote_holdout.csv`, `paper/generated/bighead_holdout.tex` | repo; Hugging Face |
-| Appendix Table: probing confirmation cohort | `scripts/confirmation_report.py`, `scripts/confirmation_freeze.py`, `scripts/confirmation_build_labels.py`, `scripts/confirmation_merge.py` | `confirmation/confirmation_cells.csv`, `confirmation/confirmation_verdicts.json`, `confirmation/freeze.json`, `confirmation/probing_results/by_source/*.csv`, `paper/generated/confirmation_probing.tex` | repo |
-| Appendix Table: downstream confirmation | `scripts/holdout_report.py`, `scripts/downstream_holdout_freeze.py`, `scripts/addback_holdout.py`, `scripts/t4_extract_holdout.sh` | `confirmation_downstream/addback_holdout.csv`, `confirmation_downstream/holdout_contrasts.csv`, `confirmation_downstream/holdout_verdicts.json`, `confirmation_downstream/freeze.json`, `confirmation_downstream/cohort_*.csv`, `confirmation_downstream/ids_*.txt`, `paper/generated/confirmation_downstream.tex` | repo |
-| Appendix Table: held-out paired bootstrap | `scripts/holdout_bootstrap.py` | `confirmation_downstream/holdout_bootstrap_summary.csv`, `confirmation_downstream/holdout_bootstrap.csv`, `confirmation_downstream/holdout_bootstrap_matched_summary.csv`, `confirmation_downstream/predictions/*.npz`, `paper/generated/holdout_bootstrap.tex` | repo; Hugging Face |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| A positive control: can the protocol find a demand that was planted? | Table: Mean conditional effect when the label is a known function of one property, over the encoders whose erasure … | `scripts/emit_latex_tables.py`, `scripts/erasure_positive_control.py` | `erasure/positive_control.csv`, `erasure/positive_control_verdict.csv`, `paper/generated/positive_control.tex` | repo |
+| A positive control: can the protocol find a demand that was planted? | Table: Mean conditional effect when the label is a known function of one property, over the encoders whose erasure … | `scripts/emit_latex_tables.py`, `scripts/erasure_positive_control.py` | `erasure/positive_control_nonlinear.csv`, `erasure/positive_control_nonlinear_verdict.csv`, `paper/generated/nonlinear_control.tex` | repo |
+| What the erasure removes: linear access | Table: Readout of the erased property before and after its LEACE erasure, median over the 32 cells of each property | `scripts/emit_latex_tables.py`, `scripts/recoverability_check.py` | `erasure/recoverability_check.csv`, `paper/generated/recoverability.tex` | repo |
+| The eraser against the reference LEACE implementation | Text: Eraser against reference LEACE | `qd/leace_check/leace_check.py`, `qd/leace_check/basis_panel.py`, `qd/leace_check/exact_panel.py`, `qd/leace_check/identity_check.py`, `qd/leace_check/summarize.py`, `qd/leace_check/floor_test.py` | `qd/leace_check/results.csv`, `qd/leace_check/results_basis.csv`, `qd/leace_check/results_basis_panel.csv`, `qd/leace_check/identity_check.csv` | repo |
+| The null the erasure is read against | Text: Sham variance audit | `scripts/sham_variance_audit.py`, `scripts/panel.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv` | repo |
+| The null the erasure is read against | Text: Variance match of the null | `scripts/sham_variance_audit.py`, `scripts/named_pair_verdicts.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_cells.csv` | repo |
+| The null the erasure is read against | Table: The released conditional effect of every pair the standard effect rule names (*), and of stability composition, … | `scripts/erasure.py`, `scripts/addback_named_pairs.py`, `scripts/common_struct.py` | `erasure/concepts/fluorescence.npz`, `erasure/concepts/ppi_affinity.npz`, `extract/manifest/fluorescence.csv`, `extract/pairs/ppi_affinity_pairs.csv` | repo; Hugging Face |
+| The null the erasure is read against | Table: The released conditional effect of every pair the standard effect rule names (*), and of stability composition, … | – | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/named_pair_cells_full.csv` | repo |
+| The null the erasure is read against | Table: The released conditional effect of every pair the standard effect rule names (*), and of stability composition, … | `scripts/matched_null_stage1_report.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/matched_null_stage1.csv`, `erasure/named_pair_verdicts_full.csv`, `extract/scores2_selected.csv`, `extract/scores2_long.csv`, `erasure/parts_matched/*.csv`, `paper/generated/matched_null_stage1.tex` | repo |
+| What the effect rule can detect, and how its verdicts depend on the settings | Text: Rank ladder (EC, remote homology) | `scripts/erasure_v2.py`, `scripts/exclusion_bounds.py` | `erasure/parts/erasure_control_*.csv`, `erasure/parts/erasure_control_ladder_*.csv`, `erasure/exclusion_bounds.csv` | repo |
+| What the effect rule can detect, and how its verdicts depend on the settings | Text: Erasure controls and naming sensitivity | `scripts/exclusion_bounds.py`, `scripts/causal_demand_v2.py`, `scripts/sweep_status.py`, `scripts/finalize_snapshot.sh`, `scripts/erasure_v2.py` | `erasure/exclusion_bounds.csv`, `erasure/causal_demand_v2_report.txt`, `erasure/SNAPSHOT_COVERAGE.txt`, `erasure/parts/erasure_v2_*.csv`, `erasure/causal_demand_v2.csv` | repo |
+| What the effect rule can detect, and how its verdicts depend on the settings | Table: Every task as a detection, a bound or an abstention | `scripts/exclusion_decisions.py` | `erasure/exclusion_decisions.csv`, `erasure/exclusion_decisions_per_property.csv`, `paper/generated/exclusion_decisions.tex` | repo |
+| The repair rule and the pairs it names | Table: Every task-property pair under the repair rule, ordered by the Holm-adjusted p over the 60 pairs | – | `paper/generated/named_pairs_full.tex`, `paper/generated/bighead_holdout.tex` | repo |
+| The repair rule and the pairs it names | Table: Every task-property pair under the repair rule, ordered by the Holm-adjusted p over the 60 pairs | `scripts/named_pair_verdicts.py`, `scripts/addback_named_pairs.py`, `scripts/emit_named_pairs_with_families.py`, `scripts/family_weighted_repair.py` | `erasure/named_pairs_full/*.csv`, `erasure/named_pairs_full_remote/*.csv`, `erasure/named_pairs_full_remote_partial/*.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_verdicts_full.csv`, `paper/generated/named_pairs_full.tex`, `erasure/named_pairs_full_families.tex`, `paper/generated/named_pairs_full_families.tex`, `erasure/family_weighted_repair_full.csv` | repo |
+| Calibrating the repair rule on labels whose answer is set | Text: Permuted-descriptor null of the repair | `scripts/repair_permuted_null.py` | `erasure/repair_permuted_null_full.csv`, `erasure/repair_permuted_null_pairs_full.csv` | repo |
+| Calibrating the repair rule on labels whose answer is set | Table: The effect rule and the repair rule on labels whose answer is set, over the encoders whose erasure verified … | `scripts/matched_null_calibration.py`, `scripts/matched_null_calibration_report.py` | `erasure/calibration/*.csv`, `erasure/matched_null_calibration_cells.csv`, `erasure/matched_null_calibration_rules.csv`, `erasure/matched_null_calibration_summary.csv`, `paper/generated/calibration.tex` | repo |
+| Does the named property repair its own erasure? A selective add-back | Text: Repair with an MLP head | `scripts/named_pair_verdicts.py`, `scripts/mlp_repair_summary.py` | `erasure/named_pair_mlp_summary.csv`, `erasure/named_pair_verdicts_mlp.csv` | repo |
+| Does the named property repair its own erasure? A selective add-back | Table: Selective repair | `scripts/emit_addback_table.py`, `scripts/addback_rescue.py` | `erasure/addback_rescue.csv`, `paper/generated/addback.tex` | repo |
+| A fixed head: does the fitted predictor rely on the erased directions? | Table: Fixed-head and retrained-head erasure effects and the repair contrast on the eleven named pairs | `scripts/ab_fixed_head.py`, `scripts/ab_fixed_head_summary.py` | `erasure/ab_fixed_head/summary.csv`, `erasure/ab_fixed_head/cells.csv`, `erasure/ab_fixed_head/projection_check.txt`, `erasure/ab_fixed_head/PRESPEC.md`, `erasure/ab_fixed_head/PRESPEC.sha256`, `erasure/ab_fixed_head/fixed_head.tex`, `paper/generated/fixed_head.tex` | repo; partly working notes (not released) |
+| Competing explanations on fluorescence and stability | Text: Fluorescence competing explanations | `scripts/gfp_competing.py`, `scripts/gfp_competing_groups.py`, `scripts/gfp_competing_report.py` | `erasure/gfp_competing/verdicts.csv`, `erasure/gfp_competing/cells_summary.csv`, `erasure/gfp_competing/covariates.csv`, `qd/gfp_competing/PRESPEC.md` | repo |
+| Competing explanations on fluorescence and stability | Text: Stability competing explanations | `scripts/stability_competing.py` | `erasure/stability_competing/verdicts.csv`, `erasure/stability_competing/cells_summary.csv`, `erasure/stability_competing/rerun_vs_released.csv`, `qd/stability_competing/PRESPEC.md` | repo |
+| Competing explanations on fluorescence and stability | Table: The stability composition repair split into its two parts | `scripts/ab_stability_decomp.py`, `scripts/ab_stability_decomp_v2.py`, `scripts/ab_stability_decomp_v2_shard.py` | `erasure/ab_stability_decomp/v2_verdicts.csv`, `erasure/ab_stability_decomp/no_representation.csv`, `erasure/ab_stability_decomp/parent_contrasts.csv`, `erasure/ab_stability_decomp/PRESPEC.md`, `erasure/ab_stability_decomp/PRESPEC.sha256`, `erasure/ab_stability_decomp/PRESPEC_addendum.md`, `erasure/ab_stability_decomp/PRESPEC_addendum.sha256` | repo; partly working notes (not released) |
+| The repair rule with task-calibrated floors, well-matched cells and one vote per family | Table: Every task-property pair that at least one variant of the repair rule names, with the mean repair contrast in that … | `scripts/naming_sensitivity.py` | `erasure/naming_sensitivity.csv`, `erasure/exclusion_decisions.csv`, `erasure/named_pair_cells_full.csv`, `erasure/family_weighted_repair_full.csv`, `paper/generated/naming_sensitivity.tex` | repo |
+| Composition on stability with a nonlinear head and a nonlinear erasure | Table: Composition on stability | `scripts/stability_nonlinear_summary.py`, `scripts/addback_kernel.py` | `erasure/stability_nonlinear.csv`, `erasure/stability_nonlinear_cells.csv`, `erasure/named_pairs_kernel/recoverability.csv`, `paper/generated/stability_nonlinear.tex` | repo |
+| PPI affinity with chain-disjoint folds | Table: The repair contrast against the variance-matched null on PPI affinity with chain-disjoint folds (five folds, three … | `scripts/ppi_repair_cv.py`, `scripts/ppi_repair_cv_report.py` | `erasure/ppi_cv*/*.csv`, `erasure/ppi_repair_cv_all_summary.csv`, `erasure/ppi_repair_cv_random_summary.csv`, `paper/generated/ppi_repair_cv_all.tex` | repo |
 
-**Residue-level tasks**
+**Appendix: Confirmation on data and splits the development did not use**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Appendix: MaSIF interface task construction | `scripts/masif_build_labels.py`, `scripts/masif_interface_probe.py` | `masif_site/summary.json`, `masif_site/exclusions.csv`, `masif_site/labels.h5` | repo; Hugging Face |
-| Appendix Table: MaSIF interface results | `scripts/masif_interface_probe.py`, `scripts/residue_readout_report.py` | `masif_site/results/by_source/*.csv`, `masif_site/masif_group_summary.csv`, `paper/generated/masif_task.tex` | repo |
-| Appendix Table: contact task | `scripts/t8_contact_task.py`, `scripts/residue_readout_report.py` | `contact_task/contact_auprc.csv`, `contact_task/contact_group_summary.csv`, `contact_task/protocol.json`, `paper/generated/contact_task.tex` | repo |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Confirmation on data and splits the development did not use | Table: The four confirmation tests | – | `symmetric/hypotheses_topology.json`, `confirmation/confirmation_verdicts.json`, `confirmation2/verdicts.json`, `prereg/decision.json`, `prereg/decision_cohortB.json`, `confirmation_downstream/holdout_verdicts.json` | repo |
+| A frozen test on folds absent from training | Table: The four hypotheses frozen before the topology-disjoint split was scored, as the frozen rules decide them … | `scripts/symmetric_decide.py` | `symmetric/cells_topology.csv`, `extract/encoder_input_audit.csv` | repo |
+| A frozen test on folds absent from training | Table: The four hypotheses frozen before the topology-disjoint split was scored, as the frozen rules decide them … | `scripts/symmetric_decide.py`, `scripts/vframe_compare.py`, `scripts/symmetric_freeze.py`, `scripts/symmetric_latex.py` | `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/hypotheses_topology.json`, `symmetric/selectivity_topology.csv`, `symmetric/vframe_topology.csv`, `symmetric/freeze_topology.json`, `symmetric/freeze_topology.sha256.json`, `paper/generated/symmetric_hypotheses.tex` | repo |
+| The probing headline on CATH 4.4 domains absent from CATH 4.3 | Table: The probing hypotheses of the two CATH 4.4 cohorts, as the rules frozen before scoring decide them | `scripts/confirmation_novelty.py` | `confirmation/novelty/novelty_verdicts.csv`, `confirmation/novelty/novelty_cells.csv` | repo |
+| The probing headline on CATH 4.4 domains absent from CATH 4.3 | Table: The probing hypotheses of the two CATH 4.4 cohorts, as the rules frozen before scoring decide them | `scripts/confirmation_report.py`, `scripts/confirmation_freeze.py`, `scripts/confirmation_build_labels.py`, `scripts/confirmation_merge.py` | `confirmation/confirmation_cells.csv`, `confirmation/confirmation_verdicts.json`, `confirmation/freeze.json`, `confirmation/probing_results/by_source/*.csv`, `paper/generated/confirmation_probing.tex` | repo |
+| The probing headline on CATH 4.4 domains absent from CATH 4.3 | Table: The probing hypotheses of the two CATH 4.4 cohorts, as the rules frozen before scoring decide them | `scripts/emit_cohorts_merged.py`, `scripts/confirmation_report.py`, `scripts/confirmation2_report.py` | `confirmation/confirmation_probing.tex`, `confirmation2/confirmation2_probing.tex`, `confirmation2/confirmation_cohorts.tex`, `paper/generated/confirmation_cohorts.tex` | repo |
+| The probing headline on CATH 4.4 domains absent from CATH 4.3 | Table: The probing hypotheses of the two CATH 4.4 cohorts, as the rules frozen before scoring decide them | `scripts/confirmation2_report.py`, `scripts/confirmation_novelty.py`, `scripts/confirmation2_freeze.py`, `scripts/confirmation2_run.sh` | `confirmation2/cells_current.csv`, `confirmation2/cells_released.csv`, `confirmation2/novelty/novelty_verdicts.csv`, `confirmation2/freeze.json`, `confirmation2/verdicts.json`, `paper/generated/confirmation2_probing.tex` | repo |
+| A pre-registered test of determinacy on new labels | Table: The pre-registered labels by determinacy status | `scripts/prereg_decide.py`, `scripts/prereg_latex.py`, `scripts/prereg_freeze.py`, `scripts/prereg_labels.py`, `scripts/prereg_floors.py`, `scripts/prereg_run.py`, `scripts/prereg_determinacy.py` | `prereg/decision.json`, `prereg/decision_cohortB.json`, `prereg/units.csv`, `prereg/cells.csv`, `prereg/cells_cohortB.csv`, `prereg/freeze.json`, `prereg/freeze.sha256.json`, `prereg/POST_FREEZE_LOG.md`, `prereg/determinacy_checks.csv`, `paper/generated/prereg_cells.tex` | repo |
+| The demand results on downstream proteins never scored | Table: The four downstream hypotheses as the rules frozen before scoring decide them | – | `extract/manifest/remote_homology.csv` | repo |
+| The demand results on downstream proteins never scored | Table: The four downstream hypotheses as the rules frozen before scoring decide them | `scripts/holdout_report.py`, `scripts/downstream_holdout_freeze.py`, `scripts/addback_holdout.py`, `scripts/t4_extract_holdout.sh` | `confirmation_downstream/addback_holdout.csv`, `confirmation_downstream/holdout_contrasts.csv`, `confirmation_downstream/holdout_verdicts.json`, `confirmation_downstream/freeze.json`, `confirmation_downstream/cohort_*.csv`, `confirmation_downstream/ids_*.txt`, `paper/generated/confirmation_downstream.tex` | repo |
+| The demand results on downstream proteins never scored | Table: Both contrasts against both nulls, on the frozen held-out cohorts | `scripts/matched_null.py`, `scripts/matched_null_report.py` | `confirmation_downstream/matched_null_summary.csv`, `confirmation_downstream/matched_null_cells.csv` | repo |
+| The demand results on downstream proteins never scored | Table: Both contrasts against both nulls, on the frozen held-out cohorts | `scripts/bighead_holdout.py`, `scripts/emit_bighead_table.py` | `extract/manifest/ec_classification.csv`, `extract/manifest/remote_homology.csv`, `confirmation_downstream/bighead_matched/remote_holdout.csv`, `paper/generated/bighead_holdout.tex` | repo; Hugging Face |
+| The demand results on downstream proteins never scored | Table: The held-out effect Δ_sham and repair contrast R_sham with intervals over proteins | `scripts/holdout_bootstrap.py` | `confirmation_downstream/holdout_bootstrap_summary.csv`, `confirmation_downstream/holdout_bootstrap.csv`, `confirmation_downstream/holdout_bootstrap_matched_summary.csv`, `confirmation_downstream/predictions/*.npz`, `paper/generated/holdout_bootstrap.tex` | repo; partly not uploaded, regenerated by a script (see Data and embeddings) |
 
-**Erasure and repair**
+**Appendix: Two residue-level tasks, and what the pooled readout hides**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Appendix: encoder panel and exclusions | `extract/input_audit.py` | `extract/encoder_input_audit.csv`, `extract/scores2_long.csv` | repo |
-| Appendix: rank ladder (EC, remote homology) | `scripts/erasure_v2.py`, `scripts/exclusion_bounds.py` | `erasure/parts/erasure_control_*.csv`, `erasure/parts/erasure_control_ladder_*.csv`, `erasure/exclusion_bounds.csv` | repo |
-| Appendix: erasure controls and naming sensitivity | `scripts/exclusion_bounds.py`, `scripts/causal_demand_v2.py`, `scripts/sweep_status.py`, `scripts/finalize_snapshot.sh`, `scripts/erasure_v2.py` | `erasure/exclusion_bounds.csv`, `erasure/causal_demand_v2_report.txt`, `erasure/SNAPSHOT_COVERAGE.txt`, `erasure/parts/erasure_v2_*.csv`, `erasure/causal_demand_v2.csv` | repo |
-| Appendix Table: repair rule with task-calibrated floors | `scripts/naming_sensitivity.py` | `erasure/naming_sensitivity.csv`, `erasure/exclusion_decisions.csv`, `erasure/named_pair_cells_full.csv`, `erasure/family_weighted_repair_full.csv`, `paper/generated/naming_sensitivity.tex` | repo |
-| Appendix Table: stability composition, nonlinear head and erasure | `scripts/stability_nonlinear_summary.py`, `scripts/addback_kernel.py` | `erasure/stability_nonlinear.csv`, `erasure/stability_nonlinear_cells.csv`, `erasure/named_pairs_kernel/recoverability.csv`, `paper/generated/stability_nonlinear.tex` | repo |
-| Appendix: sham variance audit | `scripts/sham_variance_audit.py`, `scripts/panel.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv` | repo |
-| Appendix: variance match of the null | `scripts/sham_variance_audit.py`, `scripts/named_pair_verdicts.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_cells.csv` | repo |
-| Appendix: two-machine identity check | `scripts/erasure.py`, `scripts/addback_named_pairs.py`, `scripts/common_struct.py` | `erasure/concepts/fluorescence.npz`, `erasure/concepts/ppi_affinity.npz`, `extract/manifest/fluorescence.csv`, `extract/pairs/ppi_affinity_pairs.csv` | repo; Hugging Face |
-| Appendix: variance removed on the two machines | – | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/named_pair_cells_full.csv` | repo |
-| Appendix Table: matched null stage 1 | `scripts/matched_null_stage1_report.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/matched_null_stage1.csv`, `erasure/named_pair_verdicts_full.csv`, `extract/scores2_selected.csv`, `extract/scores2_long.csv`, `erasure/parts_matched/*.csv`, `paper/generated/matched_null_stage1.tex` | repo |
-| Appendix: EC rows of the named pairs | – | `paper/generated/named_pairs_full.tex`, `paper/generated/bighead_holdout.tex` | repo |
-| Appendix: fluorescence competing explanations | `scripts/gfp_competing.py`, `scripts/gfp_competing_groups.py`, `scripts/gfp_competing_report.py` | `erasure/gfp_competing/verdicts.csv`, `erasure/gfp_competing/cells_summary.csv`, `erasure/gfp_competing/covariates.csv`, `qd/gfp_competing/PRESPEC.md` | repo |
-| Appendix: stability competing explanations | `scripts/stability_competing.py` | `erasure/stability_competing/verdicts.csv`, `erasure/stability_competing/cells_summary.csv`, `erasure/stability_competing/rerun_vs_released.csv`, `qd/stability_competing/PRESPEC.md` | repo |
-| Appendix: eraser against reference LEACE | `qd/leace_check/leace_check.py`, `qd/leace_check/basis_panel.py`, `qd/leace_check/exact_panel.py`, `qd/leace_check/identity_check.py`, `qd/leace_check/summarize.py`, `qd/leace_check/floor_test.py` | `qd/leace_check/results.csv`, `qd/leace_check/results_basis.csv`, `qd/leace_check/results_basis_panel.csv`, `qd/leace_check/identity_check.csv` | repo |
-| Appendix: permuted-descriptor null of the repair | `scripts/repair_permuted_null.py` | `erasure/repair_permuted_null_full.csv`, `erasure/repair_permuted_null_pairs_full.csv` | repo |
-| Appendix: repair with an MLP head | `scripts/named_pair_verdicts.py`, `scripts/mlp_repair_summary.py` | `erasure/named_pair_mlp_summary.csv`, `erasure/named_pair_verdicts_mlp.csv` | repo |
-| Appendix Table: family-weighted repair | `scripts/family_weighted_repair.py` | `erasure/family_weighted_repair_full.csv`, `paper/generated/family_weighted_repair_full.tex` | repo |
-| Appendix Table: PPI affinity with chain-disjoint folds | `scripts/ppi_repair_cv.py`, `scripts/ppi_repair_cv_report.py` | `erasure/ppi_cv*/*.csv`, `erasure/ppi_repair_cv_all_summary.csv`, `erasure/ppi_repair_cv_random_summary.csv`, `paper/generated/ppi_repair_cv_all.tex` | repo |
-| Appendix Table: positive control | `scripts/emit_latex_tables.py`, `scripts/erasure_positive_control.py` | `erasure/positive_control.csv`, `erasure/positive_control_verdict.csv`, `paper/generated/positive_control.tex` | repo |
-| Appendix Table: recoverability after erasure | `scripts/emit_latex_tables.py`, `scripts/recoverability_check.py` | `erasure/recoverability_check.csv`, `paper/generated/recoverability.tex` | repo |
-| Appendix Table: nonlinear positive control | `scripts/emit_latex_tables.py`, `scripts/erasure_positive_control.py` | `erasure/positive_control_nonlinear.csv`, `erasure/positive_control_nonlinear_verdict.csv`, `paper/generated/nonlinear_control.tex` | repo |
-| Appendix Table: demand prediction test | `scripts/demand_prediction_test_v2.py`, `scripts/causal_demand_v2.py` | `erasure/causal_demand_v2.csv`, `extract/scores2_selected.csv`, `erasure/demand_prediction_test_v2.csv`, `paper/generated/prediction_test_v2.tex` | repo |
-| Appendix Table: demand restricted | `scripts/emit_latex_tables.py`, `scripts/demand_restricted.py` | `erasure/demand_restricted.csv`, `paper/generated/demand_restricted.tex` | repo |
-| Appendix Table: exclusion decisions | `scripts/exclusion_decisions.py` | `erasure/exclusion_decisions.csv`, `erasure/exclusion_decisions_per_property.csv`, `paper/generated/exclusion_decisions.tex` | repo |
-| Appendix Table: named pairs (full grid) | `scripts/named_pair_verdicts.py`, `scripts/addback_named_pairs.py`, `scripts/emit_named_pairs_with_families.py`, `scripts/family_weighted_repair.py` | `erasure/named_pairs_full/*.csv`, `erasure/named_pairs_full_remote/*.csv`, `erasure/named_pairs_full_remote_partial/*.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_verdicts_full.csv`, `paper/generated/named_pairs_full.tex`, `erasure/named_pairs_full_families.tex`, `paper/generated/named_pairs_full_families.tex`, `erasure/family_weighted_repair_full.csv` | repo |
-| Appendix Table: calibration of the repair rule | `scripts/matched_null_calibration.py`, `scripts/matched_null_calibration_report.py` | `erasure/calibration/*.csv`, `erasure/matched_null_calibration_cells.csv`, `erasure/matched_null_calibration_rules.csv`, `erasure/matched_null_calibration_summary.csv`, `paper/generated/calibration.tex` | repo |
-| Appendix Table: selective add-back | `scripts/emit_addback_table.py`, `scripts/addback_rescue.py` | `erasure/addback_rescue.csv`, `paper/generated/addback.tex` | repo |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Two residue-level tasks, and what the pooled readout hides | Table: Residue-level tasks | `scripts/residue_readout_report.py` | `contact_task/contact_group_summary.csv`, `masif_site/masif_group_summary.csv` | repo |
+| Two residue-level tasks, and what the pooled readout hides | Table: The two residue-resolved tasks per encoder, two-layer readout | `scripts/t8_contact_task.py`, `scripts/residue_readout_report.py` | `contact_task/contact_auprc.csv`, `contact_task/contact_group_summary.csv`, `contact_task/protocol.json`, `paper/generated/contact_task.tex` | repo |
+| Two residue-level tasks, and what the pooled readout hides | Table: The two residue-resolved tasks per encoder, two-layer readout | `scripts/emit_residue_tasks_merged.py`, `scripts/residue_readout_report.py` | `contact_task/contact_auprc.csv`, `masif_site/results/by_source/*.csv`, `contact_task/residue_tasks_merged.tex`, `paper/generated/residue_tasks_merged.tex` | repo |
+| Two residue-level tasks, and what the pooled readout hides | Table: The two residue-resolved tasks per encoder, two-layer readout | `scripts/masif_interface_probe.py`, `scripts/residue_readout_report.py` | `masif_site/results/by_source/*.csv`, `masif_site/masif_group_summary.csv`, `paper/generated/masif_task.tex` | repo |
+| Two residue-level tasks, and what the pooled readout hides | Text: MaSIF interface task construction | `scripts/masif_build_labels.py`, `scripts/masif_interface_probe.py` | `masif_site/summary.json`, `masif_site/exclusions.csv`, `masif_site/labels.h5` | repo; Hugging Face |
 
-**Downstream prediction and encoder panel**
+**Appendix: Tasks and protocols**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Sec. 3.2 downstream protocol and panel | `extract/score2.py` | `extract/scores2_long.csv`, `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/scores2_missing.csv`, `extract/encoder_input_audit.csv` | repo; partly working notes (not released) |
-| Sec. 3.2 large pretrained encoders | `scripts/group_controls.py`, `scripts/fixed_dim_report.py`, `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json`, `extract/scores2_wide.csv` | repo |
-| Appendix: downstream label counts | `extract/score2.py`, `extract/build_manifests2.py` | `extract/manifest/*.csv` | repo; Hugging Face |
-| Appendix: the four excluded tasks | – | `extract/manifest/*.csv` | repo; Hugging Face; partly working notes (not released) |
-| Appendix: group gap (all encoders) | `scripts/emit_latex_tables.py`, `scripts/group_controls.py` | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv`, `paper/generated/group_controls.tex` | repo |
-| Appendix: grouping by input audit | – | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv` | repo |
-| Appendix: PPI affinity noise | – | `extract/scores2_selected.csv`, `extract/scores2_wide.csv`, `extract/scores2_long.csv` | repo |
-| Appendix: pretraining a geometric network | – | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv` | repo |
-| Appendix: confounds of the comparison | – | `extract/scores2_selected.csv`, `extract/scores2_long.csv` | repo |
-| Appendix Tables: full downstream scores and seed SD | `scripts/emit_downstream_table.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/scores2_missing.csv`, `extract/encoder_input_audit.csv`, `paper/generated/downstream_full.tex`, `paper/generated/downstream_full_sd.tex` | repo |
-| Appendix: composition reference vs large sequence models | `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json` | repo |
-| Appendix: group gap by structure source | `scripts/group_controls.py` | `extract/scores2_selected.csv` | repo |
-| Appendix: large pretrained downstream comparison | `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json` | repo |
-| Appendix Table: downstream composition reference | `scripts/emit_latex_tables.py`, `scripts/downstream_reference_table.py`, `scripts/make_downstream_reference.py` | `extract/scores2_selected.csv`, `paper/generated/downstream_reference.tex` | repo |
-| Appendix Table: group controls | `scripts/emit_latex_tables.py`, `scripts/group_controls.py` | `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `extract/embeddings/stability/*/meta.json`, `paper/generated/group_controls.tex` | repo |
-| Appendix Table: group controls multiplicity | `scripts/group_controls_multiplicity.py` | `extract/scores2_selected.csv`, `extract/group_controls_holm.csv`, `extract/group_controls_multiplicity.csv`, `paper/generated/group_controls_multiplicity.tex` | repo |
-| Appendix Table: training-set size | `scripts/emit_latex_tables.py`, `scripts/train_size_sweep.py`, `scripts/run_train_size_sweep.sh` | `extract/score_parts/scores2_long_*.csv`, `paper/generated/train_size.tex` | repo |
-| Appendix Table: fixed dimension | `scripts/fixed_dim_report.py`, `extract/score2_fixed_dim.py` | `extract/score_fixed_dim/*.csv`, `paper/generated/fixed_dim.tex` | repo |
-| Appendix Tables: probe and encoder inventory | `scripts/emit_inventory.py` | `extract/encoder_input_audit.csv`, `extract/scores2_selected.csv`, `extract/embeddings/stability/*/meta.json`, `probing_results/floor_vs_encoders.csv`, `probing_results/by_source/esm2_650m.csv`, `paper/generated/probe_inventory.tex`, `paper/generated/encoder_inventory.tex` | repo |
-| Appendix Table: group controls merged with fixed dimension and multiplicity | `scripts/emit_group_controls_merged.py`, `scripts/group_controls.py`, `scripts/group_controls_multiplicity.py`, `scripts/fixed_dim_report.py`, `extract/score2_fixed_dim.py` | `extract/group_controls_multiplicity.csv`, `extract/score_fixed_dim/group_summary.csv`, `extract/group_controls_merged.tex`, `paper/generated/group_controls_merged.tex` | repo |
-| Appendix: encoder read-out rules | `extract/common.py` | `extract/embeddings/*/*/meta.json` | repo |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Tasks and protocols | Text: B-factor label definition | `probing_data/make_probing_data.py` | – | script only |
+| The probing suite | Table: Every probe in the suite, its protein property group (PPG) and its status | `probing_data/make_probing_data.py` | `probing_data/schema.md` | repo |
+| Probe protocol | Text: Probe labels and splits | `probing_data/make_probing_data.py`, `probing_data/probing_dataset.py` | `probing_data/labels.h5`, `probing_results/protocol.json`, `probing_data/splits/*`, `probing_data/schema.md` | repo; Hugging Face |
+| Probe protocol | Text: Probe pipeline protocol | `scripts/run_probing_suite.py`, `scripts/probing_io.py` | `probing_results/protocol.json` | repo |
+| The non-learned floors, in full | Table: The non-learned floors | `scripts/emit_floor_definitions.py`, `scripts/precompute_floor_protein_features.py` | `probing_results/by_source/ref_*.csv`, `paper/generated/floor_definitions.tex` | repo |
+| Determined, undetermined, and not established, label by label | Table: The numerical check of the eleven determined labels | `scripts/check_label_determinacy.py`, `scripts/emit_label_determinacy.py` | `probing_results/label_determinacy.csv`, `probing_data/labels.h5` | repo; Hugging Face |
+| Determined, undetermined, and not established, label by label | Table: The numerical check of the eleven determined labels | `scripts/check_label_determinacy.py`, `scripts/emit_label_determinacy.py` | `probing_results/label_determinacy.csv`, `paper/generated/label_determinacy.tex` | repo |
+| Determined, undetermined, and not established, label by label | Table: Every probe in the comparison with the argument for its status, the floor it is read against, and the best encoder | `scripts/determinacy_table.py` | `probing_results/floor_vs_encoders.csv`, `probing_results/determinacy_table.csv`, `paper/generated/determinacy.tex` | repo |
+| The downstream tasks | Table: Downstream tasks used to evaluate the transfer performance of frozen encoder representations; Table: Structures and splits of the ten scored tasks | `extract/build_manifests.py`, `extract/build_manifests2.py` | `extract/manifest/*.csv`, `extract/pairs/ppi_affinity_pairs.csv` | repo; Hugging Face |
+| Downstream results in detail | Text: Confounds of the comparison | – | `extract/scores2_selected.csv`, `extract/scores2_long.csv` | repo |
+| Downstream results in detail | Text: Downstream label counts | `extract/score2.py`, `extract/build_manifests2.py` | `extract/manifest/*.csv` | repo; Hugging Face |
+| Downstream results in detail | Text: Group gap (all encoders) | `scripts/emit_latex_tables.py`, `scripts/group_controls.py` | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv`, `paper/generated/group_controls.tex` | repo |
+| Downstream results in detail | Text: Grouping by input audit | – | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv` | repo |
+| Downstream results in detail | Text: PPI affinity noise | – | `extract/scores2_selected.csv`, `extract/scores2_wide.csv`, `extract/scores2_long.csv` | repo |
+| Downstream results in detail | Text: Pretraining a geometric network | – | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv` | repo |
+| Downstream results in detail | Text: The four excluded tasks | – | `extract/manifest/*.csv` | repo; Hugging Face; partly working notes (not released) |
+| Downstream results in detail | Table: Downstream task scores on all ten scored tasks; Table: Seed standard deviation of every cell of Table, over the three seeds of the selected head | `scripts/emit_downstream_table.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/scores2_missing.csv`, `extract/encoder_input_audit.csv`, `paper/generated/downstream_full.tex`, `paper/generated/downstream_full_sd.tex` | repo |
 
-**Structural probing**
+**Appendix: Tasks and analyses the paper evaluated and does not use**
 
-| Paper element | Script(s) | Result file(s) | Where |
-|---|---|---|---|
-| Appendix: floors matched to input / chosen on validation | `scripts/floor_rules.py`, `scripts/floor_rules_readout_bound.py` | `probing_results/floor_rules_counts.csv`, `probing_results/floor_rules_cells.csv`, `probing_results/floor_rules_readout_bound.csv` | repo |
-| Appendix: probe pipeline protocol | `scripts/run_probing_suite.py`, `scripts/probing_io.py` | `probing_results/protocol.json` | repo |
-| Appendix: probe labels and splits | `probing_data/make_probing_data.py`, `probing_data/probing_dataset.py` | `probing_data/labels.h5`, `probing_results/protocol.json`, `probing_data/splits/*`, `probing_data/schema.md` | repo; Hugging Face |
-| Appendix: label determinacy check | `scripts/check_label_determinacy.py`, `scripts/emit_label_determinacy.py` | `probing_results/label_determinacy.csv`, `probing_data/labels.h5` | repo; Hugging Face |
-| Appendix: B-factor label definition | `probing_data/make_probing_data.py` | – | script only |
-| Appendix Table: encoders against floors | `scripts/floor_vs_encoders.py` | `probing_results/floor_vs_encoders.csv`, `probing_results/label_determinacy.csv` | repo |
-| Appendix Table: conditional floor (released rule, test) | `scripts/emit_conditional_floor_table.py` | `probing_results/by_source/*.csv`, `probing_results/floor_assignment.csv`, `extract/encoder_input_audit.csv`, `paper/generated/conditional_floor.tex` | repo |
-| Appendix Table: conventional vs matched readings (not input in the PDF) | – | `symmetric/cells_superfamily.csv`, `symmetric/selectivity_superfamily.csv`, `erasure/named_pair_verdicts_full.csv` | repo |
-| Appendix Table: symmetric floor comparison | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/symmetric_latex.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `paper/generated/symmetric_counts.tex` | repo |
-| Appendix: headline counts by label and encoder | `probing_data/make_probing_data.py`, `extract/atom_audit.py` | `symmetric/cells_superfamily.csv`, `extract/encoder_atom_audit.csv`, `paper/generated/encoder_inventory.tex` | repo |
-| Appendix Tables: headline atoms and headline split | `scripts/headline_reanalysis.py` | `symmetric/headline_counts_by_saturation.csv`, `symmetric/gap_regression.csv`, `symmetric/undetermined_without_esm3.csv`, `symmetric/headline_reanalysis.json`, `paper/generated/headline_atoms.tex`, `paper/generated/headline_reanalysis.tex` | repo |
-| Appendix: vector-frame equivariant encoders | `scripts/vframe_compare.py`, `extract/extract_vector_frame.py` | `symmetric/vframe_superfamily.csv` | repo |
-| Appendix Table: frozen test on unseen topologies | `scripts/symmetric_decide.py` | `symmetric/cells_topology.csv`, `extract/encoder_input_audit.csv` | repo |
-| Appendix Table: frozen topology hypotheses | `scripts/symmetric_decide.py`, `scripts/vframe_compare.py`, `scripts/symmetric_freeze.py`, `scripts/symmetric_latex.py` | `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/hypotheses_topology.json`, `symmetric/selectivity_topology.csv`, `symmetric/vframe_topology.csv`, `symmetric/freeze_topology.json`, `symmetric/freeze_topology.sha256.json`, `paper/generated/symmetric_hypotheses.tex` | repo |
-| Appendix Table: graded discard score | `scripts/discard_score.py`, `scripts/emit_latex_tables.py` | `probing_results/discard_score.csv`, `paper/generated/discard.tex` | repo |
-| Appendix Table: grid reproducibility | `scripts/grid_reproducibility.py`, `scripts/named_pair_verdicts.py` | `erasure/named_pair_verdicts_full.csv`, `erasure/named_pair_cells_full.csv`, `erasure/grid_reproducibility.csv`, `erasure/named_pair_cells.csv`, `erasure/named_pair_verdicts.csv`, `paper/generated/grid_reproducibility.tex` | repo |
-| Appendix Table: label determinacy (generated) | `scripts/check_label_determinacy.py`, `scripts/emit_label_determinacy.py` | `probing_results/label_determinacy.csv`, `paper/generated/label_determinacy.tex` | repo |
-| Appendix Table: capacity control | `scripts/emit_latex_tables.py`, `scripts/capacity_control.py`, `scripts/run_capacity_matched.sh` | `probing_results/capacity_control.csv`, `paper/generated/capacity.tex` | repo |
-| Appendix Table: matched capacity | `scripts/emit_matched_capacity_table.py` | `probing_results/by_source_k116/*.csv`, `probing_results/floor_assignment.csv`, `paper/generated/matched_capacity.tex` | repo |
-| Appendix Table: strong floors | `scripts/emit_latex_tables.py`, `scripts/architecture_all_floors.py`, `scripts/architecture_alignment_floor.py`, `scripts/sequence_alignment_floor.py`, `scripts/pairhist_floor.py` | `probing_results/architecture_all_floors.csv`, `probing_results/architecture_strong_floors_*.csv`, `probing_results/sequence_alignment_floor.csv`, `paper/generated/strong_floors.tex` | repo |
-| Appendix Table: probing restricted to large pretrained | `scripts/emit_latex_tables.py`, `scripts/probing_restricted.py` | `probing_results/probing_restricted.csv`, `paper/generated/probing_restricted.tex` | repo |
-| Appendix Table: floor admissibility | `scripts/floor_rules.py` | `probing_results/floor_admissibility.csv`, `probing_results_atom/by_source/*.csv`, `probing_results_val/by_source/*.csv`, `probing_results_atom_val/by_source/*.csv`, `extract/encoder_atom_audit.csv`, `paper/generated/floor_admissibility.tex`, `paper/generated/floor_rules_counts.tex` | repo |
-| Appendix Table: floor definitions | `scripts/emit_floor_definitions.py`, `scripts/precompute_floor_protein_features.py` | `probing_results/by_source/ref_*.csv`, `paper/generated/floor_definitions.tex` | repo |
-| Appendix Table: determinacy by probe | `scripts/determinacy_table.py` | `probing_results/floor_vs_encoders.csv`, `probing_results/determinacy_table.csv`, `paper/generated/determinacy.tex` | repo |
-| Appendix Table: selectivity (control task) | `scripts/symmetric_decide.py`, `scripts/symmetric_latex.py` | `symmetric/selectivity_superfamily.csv`, `paper/generated/symmetric_selectivity.tex` | repo |
-| Appendix Figure: per-class probing radars | `scripts/make_figure2_radars_sixfloors.py`, `scripts/make_figures_paper.py`, `scripts/make_panels_original_style.py` | `probing_results/by_source/*.csv`, `probing_results/floor_assignment.csv`, `figures/Figure2_radars.png` | repo |
-| Appendix: discard score and restricted probing (per-encoder tables released) | `scripts/discard_score.py`, `scripts/probing_restricted.py` | `probing_results/discard_score.csv`, `probing_results/probing_restricted.csv` | repo |
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Tasks and analyses the paper evaluated and does not use | Text: Withdrawn correlational analysis (14 tasks) | `scripts/iah_eval.py` | `audit/iah_eval_published.csv` | repo |
+| Tasks and analyses the paper evaluated and does not use | Text: Withdrawn correlational analysis (zero as missing) | `scripts/iah_eval.py` | `audit/iah_eval_published_zero_missing.csv` | repo; the earlier manuscript table it parses is not included |
+
+**Appendix: Seed variability**
+
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Seed variability | Figure: Seed standard deviation of the three-seed MLP-2 readout across (encoder, probe) cells | `scripts/uncertainty_stats.py`, `scripts/architecture_seed_interval.py`, `scripts/make_uncertainty_figures.py` | `probing_results/uncertainty_stats.json`, `probing_results/scores_long.csv`, `probing_results/protocol.json`, `probing_results/architecture_seed_interval.csv`, `figures/uncertainty_appendix/IIP/appendix_std_heatmap.png` | repo |
+| Seed variability | Text: Downstream seed variability | `scripts/make_uncertainty_figures.py` | `extract/scores2_selected.csv`, `extract/scores2_wide.csv`, `extract/scores2_missing.csv`, `extract/scores2_long.csv` | repo |
+
+**Appendix: Latent-Space Atlas**
+
+| Where in the paper | Table, figure or statement | Script(s) | Result file(s) | Location |
+|---|---|---|---|---|
+| Latent-Space Atlas | Table: Latent-space atlas, one layer per scored downstream task; Figures: encoder similarity (debiased linear CKA) on every layer, and the atlas maps of the ten task layers | `scripts/build_atlas_v4.py`, `scripts/make_atlas_figures_paper.py`, `scripts/emit_atlas_summary.py` | `atlas/data_v4/atlas.json`, `atlas/data_v4/summary.json`, `atlas/data/ec_class_names.json`, `paper/generated/atlas_summary.tex`, `figures/atlas/*.png` | repo; Hugging Face |
 
 ## Additional tables and figures (not in the paper PDF)
 
-The paper refers to the following tables and figures in this repository.
+These tables and figures were part of the appendix and are now released here only. The paper text refers to several of
+them as released tables. Paths are relative to `protcompass/`, except those that start with `figures/`.
 
 | Item | Files | Script |
 |---|---|---|
-| Does a named demand predict anything the erasure did not measure? (partial-correlation test) | `paper/generated/prediction_test_v2.tex`, `erasure/demand_prediction_test_v2.csv` | `scripts/demand_prediction_test_v2.py` |
-| Random against pretrained pairs: per-probe differences and downstream differences | `symmetric/ab_train_pairs/train_pairs_matrix.tex`, `train_pairs_downstream.tex`, `probing_cells.csv`, `downstream.csv` | `scripts/ab_train_pairs_report.py` |
+| Random against pretrained pairs: per-probe differences (matrix) | `symmetric/ab_train_pairs/train_pairs_matrix.tex`, `symmetric/ab_train_pairs/probing_cells.csv` | `scripts/ab_train_pairs_report.py` |
+| Random against pretrained pairs: downstream differences | `symmetric/ab_train_pairs/train_pairs_downstream.tex`, `symmetric/ab_train_pairs/downstream.csv` | `scripts/ab_train_pairs_report.py` |
+| Shuffled-3Di control for SaProt, full tables with intervals (downstream tasks and probes) | `extract/ab_modality/table_shuf3di.tex`, `extract/ab_modality/table_shuf3di_probing.tex`, `extract/ab_modality/downstream_deltas_shuf.csv`, `extract/ab_modality/probing_deltas_shuf.csv` (also `paper/generated/modality_shuf3di.tex`, `modality_shuf3di_probing.tex`) | `extract/ab_modality/ab_shuf_latex.py` |
 | Graded discard score (floor minus encoder, per encoder) | `paper/generated/discard.tex`, `probing_results/discard_score.csv` | `scripts/discard_score.py`, `scripts/emit_latex_tables.py discard` |
-| Probing restricted to large pretrained encoders | `paper/generated/probing_restricted.tex`, `probing_results/probing_restricted.csv` | `scripts/probing_restricted.py` |
-| Demand restricted to subsets of encoders | `paper/generated/demand_restricted.tex`, `erasure/demand_restricted.csv` | `scripts/demand_restricted.py` |
+| Probing restricted to large pretrained encoders | `paper/generated/probing_restricted.tex`, `probing_results/probing_restricted.csv` | `scripts/probing_restricted.py`, `scripts/emit_latex_tables.py probing-restricted` |
+| Demand restricted to subsets of encoders | `paper/generated/demand_restricted.tex`, `erasure/demand_restricted.csv` | `scripts/demand_restricted.py`, `scripts/emit_latex_tables.py demand-restricted` |
 | Reproducibility of the repair grid across the two machines | `paper/generated/grid_reproducibility.tex`, `erasure/grid_reproducibility.csv` | `scripts/grid_reproducibility.py` |
-| Family-weighted repair over the full grid | `paper/generated/family_weighted_repair_full.tex`, `erasure/family_weighted_repair_full.csv` | `scripts/family_weighted_repair.py --tag full` |
-| SaProt shuffled-3Di control with intervals | `extract/ab_modality/table_shuf3di.tex`, `table_shuf3di_probing.tex`, `downstream_deltas_shuf.csv`, `probing_deltas_shuf.csv`, `paper/generated/modality_shuf3di.tex`, `modality_shuf3di_probing.tex` | `extract/ab_modality/ab_shuf_latex.py` |
-| Probing capacity control and matched capacity | `paper/generated/capacity.tex`, `matched_capacity.tex`, `probing_results/capacity_control.csv` | `scripts/capacity_control.py`, `scripts/emit_matched_capacity_table.py` |
-| Group controls, fixed dimension and multiplicity as separate tables | `paper/generated/group_controls.tex`, `fixed_dim.tex`, `group_controls_multiplicity.tex` | `scripts/group_controls.py`, `fixed_dim_report.py`, `group_controls_multiplicity.py` |
+| Family-weighted repair over the full 60-pair grid | `paper/generated/family_weighted_repair_full.tex`, `erasure/family_weighted_repair_full.csv` | `scripts/family_weighted_repair.py --tag full` |
+| Does a named demand predict anything the erasure did not measure? (partial-correlation test) | `paper/generated/prediction_test_v2.tex`, `erasure/demand_prediction_test_v2.csv` | `scripts/demand_prediction_test_v2.py` |
+| Encoders against the non-learned floors, per probe | `probing_results/floor_vs_encoders.csv` | `scripts/floor_vs_encoders.py` |
+| The floor comparison under the released rule, read on test (conditional floor) | `paper/generated/conditional_floor.tex`, `probing_results/by_source/*.csv`, `probing_results/floor_assignment.csv` | `scripts/emit_conditional_floor_table.py` |
 | Per-class probing radars against the six sequence floors and all ten floors | `figures/Figure2_radars.png` | `scripts/make_figure2_radars_sixfloors.py` |
-| Latent-space atlas maps and CKA matrices for every layer (31 PNG files, 23 MB) | `figures/atlas/maps_*.png`, `cka_*.png`, `encoder_map_*.png` | `scripts/make_atlas_figures_paper.py` |
+| Mean probe score of every encoder with its seed spread (error bars; sequence, structure and multimodal encoders) | `figures/uncertainty_appendix/IIP/appendix_uncertainty_sequence.png`, `appendix_uncertainty_structure.png`, `appendix_uncertainty_multimodal.png` | `scripts/make_uncertainty_figures.py` |
+| Downstream scores with their seed spread (error bars per class, and the seed standard deviation map) | `figures/uncertainty_appendix/downstream/*.png` | `scripts/make_uncertainty_figures.py` |
+
+Also released and not in the PDF: the probing capacity control (`paper/generated/capacity.tex`,
+`probing_results/capacity_control.csv`, `scripts/capacity_control.py`), which the matched-capacity table replaced, and
+the group controls, fixed-dimension and multiplicity tables as separate tables (`paper/generated/group_controls.tex`,
+`fixed_dim.tex`, `group_controls_multiplicity.tex`), which the paper prints as one merged table.
 
 ## Earlier version
 
 An earlier version of this benchmark was released in this repository. Its directories (`src/`, `scripts/`,
 `downstream_tasks/`, `reproduction_package/`) and `environment.yml` stay in place, and the figure files it used
-(`figures/main.jpg`) are kept. The current paper does not use them. The extraction harness of the current paper imports an
-updated copy of the encoder wrappers from `protcompass/src/`.
+(`figures/main.jpg`) are kept. The current paper uses them only to document why four earlier tasks were excluded
+(the source notes of the appendix "Tasks and analyses the paper evaluated and does not use" cite
+`downstream_tasks/evaluate_tasks.py`, `downstream_tasks/config.py` and `downstream_tasks/tasks/load_proteinworkshop.py`). The extraction harness of the
+current paper imports an updated copy of the encoder wrappers from `protcompass/src/`.
 
 The earlier version estimated which information properties a downstream task needs from the correlation, over
 encoders, between probe scores and task scores (the "information alignment" analysis), and ranked encoders for a new
-task from those estimates (the ESP and ESP++ selectors). This analysis is withdrawn. The appendix "Correlational
+task from those estimates (the ESP and ESP++ selectors). This analysis is withdrawn. The appendix "Tasks and
 analyses the paper evaluated and does not use" gives the reasons: the selector chose the neighbour tasks of a held-out
 task with that task's own scores, so the held-out scores entered the prediction; without that selection it reaches a
 median Spearman of 0.674 over the 14 tasks, while two predictors that use no probing information reach 0.690 and

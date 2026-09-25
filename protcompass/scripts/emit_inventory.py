@@ -113,21 +113,27 @@ NOT_ENTERED = {
 }
 
 
+PPG = {"phi_circular": "I1", "psi_circular": "I1", "phi_angle_bins": "I1", "psi_angle_bins": "I1",
+       "local_curvature": "I2", "dssp_3": "I3", "dssp_8": "I3", "rsa": "I4", "rsa_bins": "I4", "bfactor": "I5",
+       "core_surface": "I6", "contact_density": "I6", "distance_bins": "I7", "contact_order_len_resid": "I8",
+       "radius_of_gyration_len_resid": "I8", "asphericity_len_resid": "I8", "contact_order": "I8",
+       "radius_of_gyration": "I8", "asphericity": "I8", "architecture_label": "I9", "sequence_recovery": "I10"}
+
+
 def probes():
     f = pd.read_csv(ROOT / "probing_results" / "floor_vs_encoders.csv").set_index("probe")
     every = sorted(pd.read_csv(ROOT / "probing_results" / "by_source" / "esm2_650m.csv").probe.unique())
     entered = list(f.index)
-    _open("lllp{0.40\\linewidth}", "probe & label status & in the comparison & note")
+    _open("llllp{0.40\\linewidth}", "probe & PPG & label status & in the comparison & note")
     for p in entered:
-        status = ("not established" if p in UNRESOLVED else
-                  "undetermined" if p in UND else "tautological" if p in TAUT else "determined")
+        status = ("not established" if p in UNRESOLVED else "undetermined" if p in UND else "determined")
         note = ("the floor contains the label by construction" if p in TAUT else
                 "neither shown to be a function of the encoder's input nor shown not to be" if p in UNRESOLVED else
                 "not a function of the encoder's input" if p in UND else
                 "a closed-form function of the coordinates")
-        print(f"{PROBE_LABEL.get(p, p)} & {status} & yes & {note} \\\\")
+        print(f"{PROBE_LABEL.get(p, p)} & {PPG[p]} & {status} & yes & {note} \\\\")
     for p in [q for q in every if q not in entered]:
-        print(f"{PROBE_LABEL.get(p, p)} & --- & no & {NOT_ENTERED.get(p, 'not in the comparison set')} \\\\")
+        print(f"{PROBE_LABEL.get(p, p)} & {PPG[p]} & --- & no & {NOT_ENTERED.get(p, 'not in the comparison set')} \\\\")
     _close()
     print(f"% {len(every)} probes in the suite, {len(entered)} enter the floor comparison")
 
