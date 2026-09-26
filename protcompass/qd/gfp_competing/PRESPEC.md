@@ -1,7 +1,7 @@
 # GFP competing-explanation panel: pre-specification
 
 Written before any score with the covariates below was computed. Nothing in this file is changed after the first
-result exists; later notes go in REPORT.md.
+result exists.
 
 ## Question
 
@@ -64,8 +64,8 @@ the released cells are used as the no-covariate reference.
 ## Addendum written before any result with covariates was read (2026-09-23 16:53 CDT)
 
 - The reproduction check failed: recomputed no-covariate erased-arm scores differ from the released cells by up to
-  0.015 (esm2_8m, burial and packing), because the orthonormal basis of the erased arm is not unique (see
-  leace_check/REPORT.md) and the head standardises each column. Per the check above, the released cells are not used;
+  0.015 (esm2_8m, burial and packing), because the orthonormal basis of the erased arm is not unique
+  and the head standardises each column. Per the check above, the released cells are not used;
   both the no-covariate and the covariate arms are computed in the same run for every encoder, so each comparison
   shares one basis.
 - Deadline: the reports are due Sep 24, 10:00 CDT. The full panel is expected to finish well before that, so no

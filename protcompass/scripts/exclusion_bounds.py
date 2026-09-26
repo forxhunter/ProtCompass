@@ -158,7 +158,7 @@ def main():
 
 
 def markdown():
-    """The same bounds as a markdown block for FINDINGS.md, so the document cannot drift from them."""
+    """The same bounds as a markdown table, printed from the result files so the table cannot drift from them."""
     v2 = load("erasure_v2*.csv")
     ctrl = load("erasure_control*.csv")
     cond = v2[(v2.arm == "conditional") & v2.erasure_ok.fillna(False)]

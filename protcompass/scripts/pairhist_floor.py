@@ -203,7 +203,7 @@ def architecture(data, X, rows):
         te = arch[idx["test"]]
         counts = np.bincount(te[te >= 0], minlength=int(arch.max()) + 1)
         settings = [("all_classes", arch, int(arch.max()) + 1)] if split == R.SPLIT else []
-        keep = np.where(counts >= MIN_TEST)[0]                              # the class cut of FINDINGS section 3
+        keep = np.where(counts >= MIN_TEST)[0]                              # the class cut of architecture_robustness.py
         remap = -np.ones(int(arch.max()) + 1, dtype=np.int64)
         remap[keep] = np.arange(len(keep))
         settings.append((f"test_ge{MIN_TEST}", np.where(arch >= 0, remap[np.clip(arch, 0, None)], -1), len(keep)))

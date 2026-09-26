@@ -23,9 +23,6 @@ step "causal demand"
 $PY scripts/causal_demand_v2.py > erasure/causal_demand_v2_report.txt 2>&1
 tail -25 erasure/causal_demand_v2_report.txt
 
-step "generated tables spliced into FINDINGS.md"
-$PY scripts/splice_findings.py
-
 step "Figure 4"
 $PY scripts/make_main_figures.py 2>&1 | tail -4
 
@@ -38,8 +35,5 @@ pdflatex -interaction=nonstopmode main.tex > /dev/null 2>&1
 grep -c "undefined" main.log || true
 pdfinfo main.pdf | grep Pages
 
-step "consistency check"
-cd "$PROTCOMPASS_ROOT/protcompass"
-$PY scripts/check_document_claims.py | tail -5
 echo
 echo "SNAPSHOT COMPLETE"

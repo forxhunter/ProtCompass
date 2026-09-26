@@ -173,7 +173,7 @@ def main():
     print(t[show].round(4).to_string(index=False))
 
     # The full-test column of this rerun should reproduce the published table. If it does not, the two are not
-    # measuring the same thing and nothing below can be compared to FINDINGS.md section 1.
+    # measuring the same thing and nothing below can be compared to the published floor table.
     pub = RES / "floor_vs_encoders.csv"
     if pub.exists():
         q = pd.read_csv(pub).set_index("probe")

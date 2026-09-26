@@ -1,6 +1,6 @@
 """Settle the undecided fold-architecture cell with 15 optimiser seeds.
 
-The cell is the strictest one FINDINGS.md section 3 defines for itself: topology-disjoint split, matched MLP-2
+The cell is the strictest fold-architecture comparison: topology-disjoint split, matched MLP-2
 readout, restricted class set. At three seeds the gap between the best encoder and the best floor was
 -0.011 / +0.144 / +0.047 once `ref_pairhist` is in the floor set, so its sign was not resolved. This script reruns
 that cell at 15 seeds for the whole 33-encoder panel and for the distinct protein-level floors, so the

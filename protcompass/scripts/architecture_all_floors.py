@@ -1,6 +1,6 @@
 """Fold architecture against all seven non-learned floors, on both splits and both class sets.
 
-FINDINGS.md section 3 says encoders "clearly exceed every non-learned floor" on fold architecture, but
+This script checks whether encoders exceed every non-learned floor on fold architecture.
 `scripts/architecture_robustness.py` ran only `ref_aa` and `ref_global`. This script runs all seven reference
 feature sets -- ref_length, ref_position, ref_aa, ref_seq_window, ref_coords, ref_backbone, ref_global -- through the
 identical probe, split, readout and seed protocol as the encoders, so the best floor in each cell is measured rather

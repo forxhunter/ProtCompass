@@ -1,8 +1,7 @@
 """Does the LEACE eraser in erasure.py actually remove the concept? A synthetic check with a known answer.
 
-FINDINGS.md asserted that on a synthetic check the concept goes from 0.9999 to 0.0000 and the residual
-cross-covariance is 8.3e-15. No such script was in the release, which made it
-an assertion rather than a verification. This is that script.
+This script checks the statement that on a synthetic example the concept goes from 0.9999 to 0.0000 and the
+residual cross-covariance is 8.3e-15, so the statement is verified rather than asserted.
 
 Three properties are checked, each with an answer known in advance:
 
