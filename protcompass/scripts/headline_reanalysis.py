@@ -1,6 +1,6 @@
 """Re-reading the headline comparisons on existing results (no model is fitted or scored here).
 
-Four analyses of the symmetric probing cells and the downstream scores, answering the round-6 review:
+Four analyses of the symmetric probing cells and the downstream scores:
   1. probing counts split by whether the label's best floor is saturated (>= 0.95) or contained in a floor, for all
      coordinate encoders, the pretrained ones and the pretrained ones of at least 100M parameters;
   2. the gap to the input-matched floor regressed on log parameters, pretraining and reading coordinates, with label

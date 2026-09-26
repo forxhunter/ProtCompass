@@ -178,13 +178,13 @@ SPECS = [
     Spec("ipa_pretrained", "registry", "ipa_pretrained", "pretrained", True, True, R_GNN + "; input in canonical pose",
          checkpoint=str(HOMECK / "ipa_pretrained" / "best.pt"), canonical_pose=True, note="same frame dependence as ipa"),
     Spec("gcpnet_pretrained", "patched", "gcpnet_official", "pretrained", True, True, "official PSR model; 100 scalar channels + 16 vector norms, mean over the heavy atoms of each residue",
-         paper="GCPNet", env="gcpnet", note="supervised PSR checkpoint, not a self-supervised pretraining; diagnosed by the atlas re-extraction agent"),
-    Spec("esm_if1", "registry", "esm_if", "pretrained", True, False, "GVP-Transformer encoder output before decoding", paper="ESM-IF1", note="diagnosed by the atlas re-extraction agent"),
+         paper="GCPNet", env="gcpnet", note="supervised PSR checkpoint, not a self-supervised pretraining; diagnosed during the atlas re-extraction"),
+    Spec("esm_if1", "registry", "esm_if", "pretrained", True, False, "GVP-Transformer encoder output before decoding", paper="ESM-IF1", note="diagnosed during the atlas re-extraction"),
     # multimodal
     Spec("saprot", "patched", "saprot_hf", "pretrained", True, True, "final hidden states at the L residue positions of AA+3Di tokens", paper="SaProt",
          note="needs real 3Di tokens"),
     Spec("esm3", "patched", "esm3_inproc", "pretrained", True, True, "final trunk residue embeddings, sequence and structure tracks", paper="ESM3"),
-    # token models handled by the atlas re-extraction agent
+    # token models handled during the atlas re-extraction
     Spec("foldseek_3di", "patched", "foldseek_3di", "pretrained", True, False, "one-hot 3Di state per residue; protein level is the state frequency", paper="Foldseek"),
     Spec("geobpe", "patched", "geobpe_freq", "pretrained", True, False, "normalised frequency of the quantised GeoBPE token stream (bpe_iter=220); no residue states",
          paper="GeoBPE", env="GeoBPE-6", note="tokenizer trained by the authors on 500 structures"),

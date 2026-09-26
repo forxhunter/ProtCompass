@@ -1,8 +1,8 @@
 #!/bin/bash
 export PROTCOMPASS_ROOT="${PROTCOMPASS_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)}"  # release: repository root
-# Two scoring jobs the round-1 review asked for, run one after the other so they do not contend for the GPU.
+# Two scoring jobs added to the analysis, run one after the other so they do not contend for the GPU.
 #   1. membrane/soluble for all 33 encoders. It was the one extracted task with no downstream table, while the
-#      interventional sweep already covered it, which the review flagged as an inconsistency.
+#      interventional sweep already covered it, which was an inconsistency.
 #   2. the non-learned downstream reference (amino-acid composition and length, no encoder) on all ten tasks.
 cd "$PROTCOMPASS_ROOT/protcompass/extract"
 PY=$HOME/miniconda3/envs/protein_embeddings/bin/python

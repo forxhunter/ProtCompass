@@ -1,4 +1,4 @@
-"""The causal demand matrix read against the sham null, with the round-6 corrections applied.
+"""The causal demand matrix read against the sham null, with the later corrections applied.
 
 Version 1 reported `rotation - erased`, where the rotation arm is a random rotation truncated to d - r axes. That arm
 is not the same map as the erasure, removes an order of magnitude less of the representation's variance, and scores

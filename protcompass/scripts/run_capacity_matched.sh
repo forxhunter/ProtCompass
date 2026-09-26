@@ -1,13 +1,13 @@
 #!/bin/bash
 export PROTCOMPASS_ROOT="${PROTCOMPASS_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)}"  # release: repository root
-# The matched-capacity re-probe the reviews ask for, plus the two sources added after round 3. Runs on the CPU:
+# The matched-capacity re-probe, plus the two sources added later. Runs on the CPU:
 # another project's AlphaFold job holds the card, and the probes are small enough that waiting for the GPU costs
 # more than not using it.
 cd "$PROTCOMPASS_ROOT/protcompass"
 PY=$HOME/miniconda3/envs/protein_embeddings/bin/python
 export CUDA_VISIBLE_DEVICES="" OMP_NUM_THREADS=10   # another project restarted its AlphaFold job on the card
 
-echo "=== the two sources added after round 3 ==="
+echo "=== the two sources added later ==="
 $PY scripts/run_probing_suite.py ref_backbone_w0 ref_seq_global
 
 echo

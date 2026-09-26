@@ -1,4 +1,4 @@
-"""The four checks that decide whether the causal demand matrix survives review.
+"""The four checks that decide whether the causal demand matrix holds up.
 
 1. positive control     Erase the subspace that predicts the task label itself. If the score does not collapse, the
                         method is not sensitive on that task and every null result there is uninformative. This is

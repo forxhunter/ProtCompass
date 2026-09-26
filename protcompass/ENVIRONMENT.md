@@ -41,10 +41,9 @@ keep the same pairs under the matched-null effect rule (Appendix, matched-null s
 | `erasure/ab_stability_decomp/` | stability composition decomposition |
 | `extract/ab_modality/` | ESM3 and SaProt within-model modality ablation, with the SaProt shuffled-3Di control |
 
-Each directory holds `PRESPEC.md` and its sha256, both written before the scores were computed.
-`extract/ab_modality/PRESPEC.md` has one line changed for this release (a local interpreter path was shortened to
-`~/miniconda3/...`), so its checksum no longer matches `PRESPEC.sha256`; the other pre-specification files are
-unchanged.
+Each directory holds `PRESPEC.md` and its sha256, both written before the scores were computed. The released copies
+were edited for anonymity only; `PRESPEC_REDACTIONS.md` lists every changed line and explains how the checksums relate
+to the originals.
 
 ## SaProt extraction cells computed on the second machine (2026-09-25, from 16:06)
 

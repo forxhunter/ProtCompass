@@ -57,7 +57,7 @@ python -c "import transformers; print(f'Transformers {transformers.__version__}'
 All data is now unified in a single directory:
 
 ```
-/home/tianyu16/esm3_separate_machine/structure_encoder_data/
+$PROTCOMPASS_ROOT/structure_encoder_data/
 ├── tape/                                  # TAPE benchmark datasets
 │   ├── secondary_structure/
 │   ├── contact_prediction/
@@ -72,7 +72,7 @@ All data is now unified in a single directory:
 ├── solubility/                            # Solubility prediction
 └── processed/                             # Processed HDF5 files
 
-/home/tianyu16/esm3_separate_machine/downstream_tasks/embeddings/
+$PROTCOMPASS_ROOT/downstream_tasks/embeddings/
 └── {task}/{encoder}/                      # Output embeddings (37GB+)
 ```
 

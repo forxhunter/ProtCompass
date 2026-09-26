@@ -6,7 +6,7 @@ Written 2026-09-25 before any extraction or scoring of the new source. The sha25
 
 ## Question
 
-A reviewer asks whether `saprot_seqonly` (every 3Di token replaced by `#`) is a valid counterfactual or an
+The question is whether `saprot_seqonly` (every 3Di token replaced by `#`) is a valid counterfactual or an
 out-of-distribution input. The control keeps a structure track that is present and in distribution for each protein
 (its own 3Di alphabet and composition) and removes only the residue-to-structure correspondence. Three states:
 

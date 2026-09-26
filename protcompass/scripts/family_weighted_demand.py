@@ -2,7 +2,7 @@
 
 The panel is not 33 independent draws. Ten of the 23 coordinate encoders are randomly initialised counterparts of
 pretrained networks that are also in the panel, ESM-2 appears at five scales, and PottsMPNN at four. The sign test
-behind every named demand treats these as equally weighted observations, which review pointed out overstates the
+behind every named demand treats these as equally weighted observations, which overstates the
 evidence for whichever effect the repeated architectures happen to carry.
 
 This script recomputes the rule with the encoders first averaged inside an architecture family and the test then run

@@ -1,7 +1,7 @@
 """Uncertainty over proteins for the held-out demand results, from the saved per-protein predictions.
 
 Every interval in the released paper is a seed spread, which measures training instability conditional on the
-proteins sampled. Review asked for the other source: resampling the evaluation units. This script provides it
+proteins sampled. The other source is resampling the evaluation units. This script provides it
 without a second pass over the GPU, because scripts/addback_holdout.py wrote the per-protein prediction of every
 arm and descriptor.
 

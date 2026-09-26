@@ -2,7 +2,7 @@
 
 The floor comparison is reported as a count of cells below the floor, which is stable under the descriptor
 selection but says only which side of a line each encoder falls on. The empirical content the determinacy argument
-does not predict is *how much* each encoder discarded, and a reviewer asked for it as a per-encoder score. It is
+does not predict is *how much* each encoder discarded, and it is reported here as a per-encoder score. It is
 the mean gap to the floor over the informative determined probes, on the sign convention that a positive score
 means information was lost:
 

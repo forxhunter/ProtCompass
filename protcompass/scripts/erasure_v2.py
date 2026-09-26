@@ -1,9 +1,9 @@
-"""The causal demand experiment with the controls the round-6 review showed were necessary.
+"""The causal demand experiment with the controls a later check showed were necessary.
 
 What changed, and why. The first version compared a LEACE erasure of a named property against erasing a random
 subspace of the same rank. Those two arms are not the same class of transformation: LEACE removes the directions its
 un-whitening step biases toward high variance, so it removed 6.7 to 23 times more of the representation's variance
-than the rank-matched random control. The reviewer then showed the consequence directly: a composition vector
+than the rank-matched random control. A check then showed the consequence directly: a composition vector
 row-permuted across proteins, carrying no relation to the protein it is assigned to, produced a mean effect of +0.029
 on stability with 9 of 10 encoders positive and a sign test at p = 0.021 — it passed this experiment's own
 significance rule. Fifteen of the eighteen effects reported as demands were at or below that sham level.

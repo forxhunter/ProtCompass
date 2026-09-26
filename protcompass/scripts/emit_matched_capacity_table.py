@@ -4,7 +4,7 @@ Reads probing_results/by_source_k<K>/*.csv, written by `PROJECT_K=<K> run_probin
 body of one table: for each determined probe the coordinate floor and the count of coordinate encoders below it,
 the sequence floor and the count of sequence-only encoders below it, next to the released (unprojected) counts; and
 for each undetermined label the best encoder minus the best floor. The projected run scores the eight original
-floors; the three sequence floors added after review are not projected.
+floors; the three sequence floors added later are not projected.
 
   python emit_matched_capacity_table.py [K] > ../../manuscript/ICLR/ProtCompass_ICLR2027/generated/matched_capacity.tex
 """

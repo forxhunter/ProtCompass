@@ -1,7 +1,7 @@
 """Is the property still recoverable after erasure by a probe that LEACE does not constrain?
 
-The erasure check in the sweep is a linear probe, and LEACE removes linear predictability by construction, so a
-reviewer's objection is that the check cannot fail and therefore verifies nothing. That is right about the linear
+The erasure check in the sweep is a linear probe, and LEACE removes linear predictability by construction, so an
+obvious objection is that the check cannot fail and therefore verifies nothing. That is right about the linear
 probe and it is why this exists: the same before-and-after measurement is repeated with a two-layer MLP, which
 LEACE makes no promise about. If the property is still recoverable nonlinearly, the erasure removed access rather
 than information, and every effect in the sweep has to be read as the cost of removing linear access.

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate uncertainty figure for NeurIPS appendix.
+Generate the uncertainty figure for the appendix of the earlier version.
 Shows error bars (std dev across 5 seeds) for all encoders across all 10 invariant tasks.
 """
 
@@ -28,7 +28,7 @@ sys.modules.update({'src': _src, 'src.probes': _pr, 'src.probes.probe_battery': 
 import torch
 
 # ── paths ──────────────────────────────────────────────────────────────────
-ROOT     = Path("/home/tianyu16/esm3_separate_machine")
+ROOT     = Path(__import__("os").environ.get("PROTCOMPASS_ROOT") or Path(__file__).resolve().parents[1])  # repository root
 ARCH_DIR = ROOT / "probing_results_architecture_full"
 FALL_DIR = ROOT / "structure_encoder_data" / "probing_results"
 DOWN_CSV = ROOT / "outputs" / "downstream_v1" / "downstream_results.csv"

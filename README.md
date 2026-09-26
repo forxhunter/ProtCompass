@@ -264,8 +264,9 @@ Files: `protcompass/scripts/build_atlas_v4.py` (build), `make_atlas_figures_pape
 ## Within-model, pretraining, fixed-head and stability controls
 
 Each of these analyses has a pre-specification written before scoring (`PRESPEC.md` and its sha256 in the listed
-folder; `extract/ab_modality/PRESPEC.md` has one local path shortened for this release, so its checksum no longer
-matches, see `protcompass/ENVIRONMENT.md`).
+folder). The released copies were edited for anonymity only; `protcompass/PRESPEC_REDACTIONS.md` lists every changed
+line. The `.sha256` files are the checksums recorded before scoring and refer to the unedited originals, which will be
+released with the de-anonymised version.
 
 - **Within-model modality ablation** (appendix "Controls for the downstream comparison", "Removing the structure
   input from the same checkpoint"; `protcompass/extract/ab_modality/`). ESM3 is run with the true sequence and no
@@ -309,6 +310,7 @@ matches, see `protcompass/ENVIRONMENT.md`).
 | `protcompass/atlas/` | latent-space atlas summary |
 | `protcompass/qd/leace_check/` | comparison of the eraser with the reference LEACE implementation |
 | `protcompass/qd/gfp_competing/`, `protcompass/qd/stability_competing/` | pre-specifications of the competing-explanation panels on fluorescence and stability |
+| `protcompass/PRESPEC_REDACTIONS.md` | every line of a released pre-specification that differs from the original |
 | `protcompass/audit/` | inputs and results of the withdrawn correlational analysis |
 | `protcompass/paper/generated/` | the LaTeX tables as they appear in the paper; scripts that emit tables write here |
 | `protcompass/paper/figures/` | scripts that draw figures write here |
@@ -407,7 +409,8 @@ huggingface-cli download Anonymoususer2223/ProtCompass_Embeddings --include "che
 | PottsMPNN (fine-tuned) | `checkpoints/pottsmpnn_ft/potts_ft.pt` | `protcompass/external_repos/PottsMPNN/ft_model_weights/potts_ft.pt` |
 
 The TFN-pre and IPA-pre weights (read from `protcompass/checkpoints/tfn_pretrained/best.pt` and
-`protcompass/checkpoints/ipa_pretrained/best.pt`) are not included yet.
+`protcompass/checkpoints/ipa_pretrained/best.pt`) were taken from the models' released repositories and are not
+redistributed here.
 
 The sequence and multimodal models (ESM-1b, ESM2, ProtBert, ProtT5, Ankh, ProstT5, SaProt, FoldVision) load from the
 Hugging Face hub, ESM-IF1 through `torch.hub` from the ESM release, and Foldseek 3Di states are computed by the

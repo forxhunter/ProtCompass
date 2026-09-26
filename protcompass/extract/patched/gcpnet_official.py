@@ -1,6 +1,6 @@
 """Official GCPNet (PSR checkpoint), restored with strict=True, loaded once, on the all-atom structure file.
 
-Reason for the patch (found by the atlas re-extraction agent, protcompass/atlas/reextract/README.md): the project's
+Reason for the patch (found during the atlas re-extraction): the project's
 gcpnet_worker.py defines its own 44-tensor network; none of the 399 checkpoint tensors match it and strict=False hides that,
 so "gcpnet_pretrained" ran with random weights, rebuilt unseeded in a new subprocess for every protein. The model build below
 follows protcompass/atlas/reextract/extract_gcpnet.py. Output per residue: mean over the residue's heavy atoms of the 100

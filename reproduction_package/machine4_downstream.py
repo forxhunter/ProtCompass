@@ -5,6 +5,9 @@ import sys
 import time
 from pathlib import Path
 
+# repository root; set PROTCOMPASS_ROOT to use another copy
+ROOT = __import__("os").environ.get("PROTCOMPASS_ROOT") or str(Path(__file__).resolve().parents[1])
+
 ENCODERS = ["dimenet", "esm1b", "esm_if", "gearnet", "ipa_pretrained",
             "pottsmpnn_ft_pretrained", "proteinae", "saprot", "tfn_pretrained"]
 
@@ -20,7 +23,7 @@ SEQUENCE_ENCODERS = {"esm1b"}
 
 def check_exists(encoder, task):
     """Check if meta.json exists."""
-    path = Path(f"/home/tianyu16/esm3_separate_machine/downstream_tasks/embeddings/{task}/{encoder}/meta.json")
+    path = Path(f"{ROOT}/downstream_tasks/embeddings/{task}/{encoder}/meta.json")
     return path.exists()
 
 def run_job(encoder, task):
@@ -41,7 +44,7 @@ def run_job(encoder, task):
     ]
 
     try:
-        result = subprocess.run(cmd, cwd="/home/tianyu16/esm3_separate_machine", timeout=7200)
+        result = subprocess.run(cmd, cwd=ROOT, timeout=7200)
         if result.returncode == 0:
             print(f"[SUCCESS] {encoder} × {task}")
             return True

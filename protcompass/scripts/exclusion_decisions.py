@@ -1,6 +1,6 @@
 """Exclusions as confidence bounds rather than as minimum detectable effects, with the rank stated.
 
-Two problems with the way Section 4.3 stated its two null results, both raised in review.
+Two problems with the way Section 4.3 stated its two null results.
 
 First, a minimum detectable effect is a property of the design, not of the data. "The observed effect is below the
 MDE" says the design would probably have missed an effect of that size; it does not bound the effect. A bound needs
@@ -14,7 +14,7 @@ classification into Figure 4 with a rank-256 reference bar while the text called
 range here is evaluated at the largest rank any property block occupies on that task, which is the rank the effects
 being compared against it were measured at.
 
-Three outcomes, following the review's suggestion:
+Three outcomes:
 
   detected      the largest effect clears the detection bound and the naming rule
   bounded       the reachable range is positive at the property rank and every Holm-adjusted upper limit is below

@@ -1,4 +1,4 @@
-"""LaTeX bodies for the tables added in response to the round-1 review.
+"""LaTeX bodies for the added appendix tables.
 
 Each one is generated from the released files so that the paper cannot drift from them:
 
@@ -149,7 +149,7 @@ def demand_restricted():
 
 
 def strong_floors():
-    """Fold architecture against the two floors added after the round-1 review, next to the eight built before."""
+    """Fold architecture against the two floors added later, next to the eight built before."""
     import glob
     FL = ["ref_length", "ref_position", "ref_aa", "ref_seq_window", "ref_coords", "ref_backbone", "ref_global",
           "ref_pairhist"]

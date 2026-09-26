@@ -1,6 +1,6 @@
 """Determinacy as a measured quantity, label by label, instead of a binary flag.
 
-The paper marks each probe label determined or undetermined by the atoms an encoder receives, and a reviewer's
+The paper marks each probe label determined or undetermined by the atoms an encoder receives. A possible
 objection is that this is a gradient presented as a binary and is never argued label by label. Two labels make the
 objection concrete: relative solvent accessibility is marked undetermined although a fixed descriptor of the same
 atoms reaches 0.90 on it, and fold architecture is marked undetermined although structural alignment reaches 0.655

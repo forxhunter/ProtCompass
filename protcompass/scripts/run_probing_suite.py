@@ -378,7 +378,7 @@ class Data:
     def _pairhist_one(self, i):
         """Everything `ref_pairhist` needs for one protein, from its CA coordinates alone.
 
-        The descriptor a reviewer asked for, built to win rather than to be safe: the joint histogram of
+        A descriptor built to win rather than to be safe: the joint histogram of
         (sequence separation, CA-CA distance) over all residue pairs, which is the smallest generic extension of the
         pairwise-distance histogram `ref_global` already keeps, plus the leading eigenvalues of the contact map at two
         cutoffs and a few global spectral summaries. Nothing here is specific to any probed label and nothing is fitted.
@@ -464,7 +464,7 @@ class Data:
         """The sequence-side floor built with the effort the coordinate side received.
 
         `ref_seq_window` is a one-hot window and nothing more, while the coordinate side has `ref_global` and
-        `ref_pairhist`. A reviewer's objection was that the two sides therefore received different amounts of
+        `ref_pairhist`. One objection was that the two sides therefore received different amounts of
         descriptor-design effort and that the headline separation could be that difference. This is the strongest
         fixed sequence descriptor we can write without fitting anything: the one-hot window, the same window under
         seven published per-residue property scales, smoothed averages of those scales over three window widths,
@@ -532,7 +532,7 @@ class Data:
         if source == "ref_seq_global":
             return {p: self.seq_global_features(self.rows[p]) for p in PARTS}
         if source == "ref_backbone_w0":
-            # the ablation the review asks for: the same descriptor with no window, so the only atoms it sees are
+            # an ablation: the same descriptor with no window, so the only atoms it sees are
             # the residue's own five. phi needs C(i-1) and psi needs N(i+1), so if the floor were carrying a
             # precomputed angle rather than recovering it from the window, this would still score high.
             return {p: self.backbone_features_residue(self.chosen[p], W=0) for p in PARTS}

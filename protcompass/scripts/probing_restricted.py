@@ -2,7 +2,7 @@
 
 The downstream claim is reported over all encoders and again over pretrained encoders of at least 100M parameters,
 because the coordinate side is half randomly initialised and mostly small. The probing claim was reported only over
-all encoders, and a reviewer pointed out that "233 of 245 coordinate cells fall below the floor" is then partly a
+all encoders, and "233 of 245 coordinate cells fall below the floor" is then partly a
 statement that small untrained geometric networks discard more than large pretrained language models do. The same
 restriction is applied here.
 

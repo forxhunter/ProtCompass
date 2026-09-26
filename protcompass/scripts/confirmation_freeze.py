@@ -1,7 +1,7 @@
 """Freeze the confirmation analysis before the uninspected cohort is scored.
 
 Every floor, descriptor, threshold and naming rule in this paper was developed against the same CATH 4.3 splits the
-results are reported on. Appendix O.7 says so, and review made it the central objection: splitting an already
+results are reported on. Appendix O.7 says so, and it is the central objection to the analysis: splitting an already
 inspected test set afterwards measures one internal selection effect and does not remove the dependence introduced by
 repeated descriptor design.
 

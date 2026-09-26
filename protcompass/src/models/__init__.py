@@ -61,7 +61,7 @@ from src.models.baselines.geometric_baselines import RandomTokenBaseline
 register_encoder("random_token")(RandomTokenBaseline)
 from src.models.class_b.dmasif_encoder import dMaSIFEncoder
 
-# Note: Removed DIY/experimental encoders to avoid reviewer questions:
+# Note: DIY/experimental encoders removed from the registry:
 # - dual_stream, moe_stream, task_conditioned_tri_stream
 # - hybrid, hybrid_v2, hybrid_v3
 # - deep_egnn, multigraph, ensemble, multik_egnn

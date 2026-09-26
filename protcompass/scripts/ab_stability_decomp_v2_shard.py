@@ -1,4 +1,4 @@
-"""Shard runner for ab_stability_decomp_v2.py (main session, 2026-09-25): runs the same run_cell for a given encoder
+"""Shard runner for ab_stability_decomp_v2.py (2026-09-25): runs the same run_cell for a given encoder
 list and writes v2cells_p<pass>s<tag>.csv / v2parent_p<pass>s<tag>.csv, which report() merges through its
 v2cells_*.csv / v2parent_*.csv globs (duplicates dropped). The analysis code is imported unchanged."""
 import argparse

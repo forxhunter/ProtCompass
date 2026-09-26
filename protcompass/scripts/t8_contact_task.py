@@ -4,7 +4,7 @@ Both tasks in the original suite that used a residue-level or residue-pair reado
 prediction was computed from CA-only coordinates indexed as though they were N, CA and C, and interface-site
 prediction was labelled by chain membership. Everything that survived reads a pooled protein-level representation,
 so the downstream comparison of Section 4.2 cannot say whether a coordinate encoder carries residue-resolved
-structure that pooling discards. That is the regime such encoders are built for, and review named it as the single
+structure that pooling discards. That is the regime such encoders are built for, and it is the single
 addition that would most change what the downstream side can conclude.
 
 Nothing new has to be extracted. The rebuilt probing dataset already carries the pair labels, sampled at 512 pairs

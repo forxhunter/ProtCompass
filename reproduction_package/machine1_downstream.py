@@ -9,7 +9,7 @@ import time
 from pathlib import Path
 
 
-BASE_DIR = Path("/raid/tianyu/2026_ed")
+BASE_DIR = Path(os.environ.get("PROTCOMPASS_ROOT") or Path(__file__).resolve().parents[1])  # repository root
 
 ALL_ENCODERS = ["ankh", "dmasif_pretrained", "esm2", "foldvision", "gearnet_pretrained",
                 "mace", "pottsmpnn_pretrained", "proteinbert_bfd", "saprot_pretrained"]

@@ -1,7 +1,7 @@
 """Score the `ref_pairhist` floor on the two probes where encoders still beat every non-learned floor.
 
-Round 5 of review asks for a descriptor that is trying to win rather than one built to be safe, and names the one it
-would try first: the joint histogram of (sequence separation, CA-CA distance) over the contact map. `ref_pairhist`
+This script tests a descriptor that is trying to win rather than one built to be safe, starting with the one to
+try first: the joint histogram of (sequence separation, CA-CA distance) over the contact map. `ref_pairhist`
 (defined in run_probing_suite.py) is that descriptor plus the leading contact-map eigenvalues and a few spectral
 summaries. Only the two contested probes are scored here, through the suite's own `run_probe`, splits and seeds:
 

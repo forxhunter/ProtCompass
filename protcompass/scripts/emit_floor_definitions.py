@@ -1,6 +1,6 @@
 """The eight non-learned floors, with what each contains and how wide it is.
 
-The review could not tell what the floors are: the paper named them and gave one dimension. A floor comparison is
+An earlier draft did not say what the floors are: the paper named them and gave one dimension. A floor comparison is
 only interpretable if the reader can see what the descriptor holds and how many features the probe was given, since
 a wider descriptor is easier to read with a fixed head. Both are printed here from the code that builds them
 (`scripts/run_probing_suite.py`) and the released runs.
@@ -16,7 +16,7 @@ import pandas as pd
 
 ROOT = Path((PROTCOMPASS_ROOT + "/protcompass"))
 
-# atoms and window are part of the definition, not commentary: a reviewer could not tell from the paper whether a
+# atoms and window are part of the definition, not commentary: a reader could not tell from the paper whether a
 # floor carries a precomputed dihedral or recovers one from a window, which is the difference between an upper
 # bound on what the input determines and a partial answer key.
 FLOORS = [

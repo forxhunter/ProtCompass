@@ -1,7 +1,7 @@
 """Build the non-learned downstream reference: amino-acid composition and length, no encoder.
 
 The probing side of this work compares every encoder against fixed functions of its own input. The downstream side
-did not have the same control, and a reviewer pointed out that it needs one: four tasks were removed from the
+did not have the same control, and it needs one: four tasks were removed from the
 benchmark because a trivial feature solved them, and the same test was never applied to the nine that stayed. It is
 also directly implied by the interventional result, where amino-acid composition is the property named on five of
 the six tasks that name one. If a task's scores are largely a readout of composition, that is a fact about the task

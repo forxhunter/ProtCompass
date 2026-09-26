@@ -1,5 +1,5 @@
 """Repair contrast with an MLP-2 head against the linear head, on the same 12 encoders and the 8 pairs of
-erasure/named_pair_mlp_pairs.csv (plan item 2.3). Reads erasure/named_pair_cells_mlp.csv (named_pair_verdicts.py
+erasure/named_pair_mlp_pairs.csv. Reads erasure/named_pair_cells_mlp.csv (named_pair_verdicts.py
 --src erasure/named_pairs_mlp --tag mlp) and erasure/named_pair_cells.csv; writes erasure/named_pair_mlp_summary.csv.
 """
 import pandas as pd

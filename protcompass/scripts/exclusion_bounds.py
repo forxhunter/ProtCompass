@@ -2,7 +2,7 @@
 
 "We found no demand" is not a stable claim: anyone who adds a variant may find one. "On this task we can exclude a
 demand larger than X" is stable, because it is a statement about the sensitivity of the instrument rather than about
-the outcome of one run. Nothing a later reviewer adds can overturn a sensitivity measurement, and the bound only
+the outcome of one run. Nothing added later can overturn a sensitivity measurement, and the bound only
 tightens as coverage grows.
 
 Three quantities, all already measured by the experiment rather than assumed:

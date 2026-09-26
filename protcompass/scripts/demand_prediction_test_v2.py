@@ -1,6 +1,6 @@
 """The external prediction test, with the nuisance leakage removed and the contrast given an interval.
 
-Two problems with the first version, both raised in review.
+Two problems with the first version.
 
 First, the nuisance summaries include the quantities being assessed: the encoder's general readout strength is the
 mean readout over all eight properties, which contains the property under test, and its general downstream standing

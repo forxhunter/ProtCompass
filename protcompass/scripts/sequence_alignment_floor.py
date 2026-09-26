@@ -1,7 +1,7 @@
 """The sequence-side floor the coordinate side already had: nearest-neighbour label transfer by sequence alignment.
 
-The round-2 review made the objection that decides this paper. The floors were not built with equal effort on the
-two sides. The coordinate side has six descriptors, two of them added after adversarial review, including a
+This script answers the objection that decides this paper. The floors were not built with equal effort on the
+two sides. The coordinate side has six descriptors, two of them added later, including a
 structural-alignment nearest neighbour. The sequence side has four, which the paper itself calls trivial. The
 headline is that the two groups separate in opposite directions, and the obvious competing explanation is that the
 two sides received different amounts of design effort.

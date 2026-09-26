@@ -1,7 +1,7 @@
 """The group comparison with the confounds the design cannot remove held fixed one at a time.
 
 The downstream group means put ten pretrained language models of 8M to 3B parameters against a coordinate group
-that contains ten randomly initialised networks and several below a million parameters. A reviewer's objection is
+that contains ten randomly initialised networks and several below a million parameters. An obvious objection is
 that this compares pretraining and scale, not input modality, and that the subset of coordinate encoders comparable
 in scale is exactly the subset that competes. That objection cannot be answered by a better statistic, because the
 panel contains no large randomly initialised sequence model and no coordinate model above 1.5B; it can only be

@@ -1,6 +1,6 @@
 """A prospective decision: which descriptor should repair a restricted representation on each task?
 
-The add-back of Appendix B.14 answers a question about the erasure it inverts. Review asked for something else: a
+The add-back of Appendix B.14 answers a question about the erasure it inverts. This test asks for something else: a
 decision the measurement makes in advance, tested on data that was not used to make it. This is that test.
 
 The decision. A practitioner has a representation that is too small for the task and one descriptor's worth of extra
@@ -12,7 +12,7 @@ That difference is what makes the prediction falsifiable rather than a restateme
 The protocol. The restricted representation is the encoder projected to 32 dimensions by a PCA fitted on the
 released training split, identical for every task and every descriptor, so nothing about the restriction is chosen
 per prediction. Each candidate descriptor block is concatenated to it, the head is refitted under the released
-protocol, and the score is read once on the held-out cohort. The comparators the review names are all present: no
+protocol, and the score is read once on the held-out cohort. The comparators are all present: no
 descriptor, composition only, every descriptor at once, a descriptor predicted not to help, and the descriptor a
 validation split would have chosen.
 

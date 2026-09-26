@@ -5,7 +5,7 @@ descriptor built from coordinates it never received. Section 2 states the rule t
 held to the floors built from the inputs the audit measured it to use. Under that rule the two groups separate
 completely and in opposite directions, which the headline table hides.
 
-This omission was found by the round-6 review. It does not weaken the claim about coordinate encoders; it identifies
+This omission was found in a later check. It does not weaken the claim about coordinate encoders; it identifies
 who the claim is about, and it surfaces a positive result about sequence models that was in the data all along.
 
   python emit_conditional_floor_table.py [--latex OUT.tex]

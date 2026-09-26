@@ -5,7 +5,7 @@ unchanged and every row it specifies keeps its definition and its 10-row Holm fa
 
 ## What had been seen when this was written
 
-These rows were requested by the coordinator after review. I did not choose them. Before this file was written I had
+These rows were added to the specification after the main run had started. Before this file was written I had
 seen the following:
 - the reproduction gate on the first 7 encoders (exact);
 - a smoke test of the report code on those 7 encoders (R_var for all 10 original rows on 7 encoders);

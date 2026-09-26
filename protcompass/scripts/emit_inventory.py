@@ -1,6 +1,6 @@
 """The encoder inventory and the probe inventory, generated from the released files.
 
-A reviewer could not enumerate the evaluated models from the paper: the specification tables described the
+An earlier draft did not let a reader enumerate the evaluated models: the specification tables described the
 predecessor panel, listed encoders that are excluded, and omitted two that are scored. Both tables here are
 generated from what the release actually contains, so they cannot drift again.
 

@@ -3,7 +3,7 @@
 Fold architecture is the one probe where an encoder beats every floor we had built, so it is the result most in
 need of a floor that was built to win. The floors in the main table are generic descriptors of the input pushed
 through the same probe. The standard non-learned way to assign a fold, however, is not a probe on a descriptor: it
-is structural alignment against the training set. A reviewer pointed out that omitting it leaves the paper's one
+is structural alignment against the training set. Omitting it would leave the paper's one
 surviving positive result protected by the weakest of the available baselines.
 
 Two floors are added here, both non-learned in the same sense as the others: nothing is fitted on the labels.

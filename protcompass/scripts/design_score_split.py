@@ -1,6 +1,6 @@
 """Selection-corrected floor comparison: choose the floor on one half of the test set, report on the other.
 
-Two successive reviewers made the same objection to the headline table: the "best floor" is a maximum over eight
+One objection to the headline table: the "best floor" is a maximum over eight
 descriptors, each designed after seeing the previous one lose, and the maximum is read on the same test set the
 comparison is reported on. The number is therefore a function of descriptor effort and of selection on test.
 
@@ -99,7 +99,7 @@ def main():
     print(f"\ndesign-half argmax floor differs from full-test argmax floor on {flips} of {len(t)} probes")
     # the same set the rest of the paper calls informative determined: determined, minus the two probes whose
     # floor contains the label by construction. Reporting a different denominator here is what produced the
-    # "8 of 11" next to "six of nine" that a reviewer found.
+    # "8 of 11" next to "six of nine" in an earlier draft.
     det = t[t.determined == "yes"]
     print(f"informative determined probes where no encoder beats the design-selected floor on the score half: "
           f"{int((det.gap_selection_corrected < 0).sum())} of {len(det)} "

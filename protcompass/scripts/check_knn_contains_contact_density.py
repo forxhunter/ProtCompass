@@ -1,7 +1,7 @@
 """Does the kNN distance block of the coordinate floors still contain the contact-density label?
 
 Section 2 of FINDINGS.md used to present the 8 A shell feature as a fault that was found and corrected by moving the
-shells to 5, 7, 9, 11, 13 A. An adversarial reviewer argued the correction does not remove the label, because the
+shells to 5, 7, 9, 11, 13 A. The concern is that the correction does not remove the label, because the
 descriptor also stores the 16 smallest CA-CA distances, and
 
     contact_count = #{k : knn_k < 8}

@@ -309,7 +309,7 @@ def load_mutation_effect(subsample_size=None):
     import random
 
     # Use unified structure_encoder_data location
-    pg_dir = Path("/raid/tianyu/2026_ed/structure_encoder_data/proteingym")
+    pg_dir = Path(os.environ.get("PROTCOMPASS_ROOT") or ROOT) / "structure_encoder_data" / "proteingym"
     dms_dir = pg_dir / "DMS_ProteinGym_substitutions"
 
     # Load structure mapping (created by map_proteingym_structures.py)
