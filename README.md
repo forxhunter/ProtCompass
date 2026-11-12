@@ -461,6 +461,9 @@ python scripts/make_figures_paper.py        # Figures 3 and 4 (also an older Fig
 python scripts/make_figure2_symmetric.py    # Figure 2 as in the paper; run after make_figures_paper.py
 python scripts/make_figure2_radars_sixfloors.py
 python paper/scripts/plot_residue_rankings.py
+
+# The same four data figures in one unified layout, written to figures/
+python scripts/make_figures_unified.py      # Figure 2, Figure 3, Figure 4 and the residue-ranking figure
 ```
 
 Scripts that fit probes, extract embeddings or run the erasure grids need the embeddings, structures and labels from
