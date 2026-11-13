@@ -6,7 +6,7 @@ the sequence floor and the count of sequence-only encoders below it, next to the
 for each undetermined label the best encoder minus the best floor. The projected run scores the eight original
 floors; the three sequence floors added later are not projected.
 
-  python emit_matched_capacity_table.py [K] > ../../manuscript/ICLR/ProtCompass_ICLR2027/generated/matched_capacity.tex
+  python scripts/emit_matched_capacity_table.py [K] > paper/generated/matched_capacity.tex     # from protcompass/
 """
 import os as _os  # release: repository root, override with the PROTCOMPASS_ROOT environment variable
 PROTCOMPASS_ROOT = _os.environ.get("PROTCOMPASS_ROOT") or _os.path.abspath(

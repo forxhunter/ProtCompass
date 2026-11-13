@@ -1,8 +1,8 @@
-"""Figures 2, 3 and 4 of the ICLR manuscript in one style: the palette and typography of make_panels_original_style
+"""Figures 2, 3 and 4 in the earlier layout, in one style: the palette and typography of make_panels_original_style
 (Arial 8 pt, teal colour map for probing, rose colour map for downstream, navy / orange / purple for the declared
 encoder classes, grey for non-learned floors), so the three read as one family.
 
-  python make_figures_paper.py            # writes Figure2.png, Figure3.png, Figure4.png to the ICLR figures dir
+  python make_figures_paper.py            # writes Figure2.png, Figure3.png, Figure4.png to paper/figures/
 """
 import os as _os  # release: repository root, override with the PROTCOMPASS_ROOT environment variable
 PROTCOMPASS_ROOT = _os.environ.get("PROTCOMPASS_ROOT") or _os.path.abspath(
