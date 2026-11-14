@@ -52,6 +52,7 @@ frequencies added to the composition-and-length reference), written by `scripts/
 with Biopython 1.87 for the physicochemical descriptors. The analysis was not pre-specified. All five variants that
 were scored are in `summary.csv`; the recomputed `ref_composition` reproduces the released scores on the ten tasks.
 The feature matrices are not stored and are rebuilt by the script from the task manifests.
+`split_relatedness.csv` in the same folder is written by `scripts/split_relatedness.py`.
 
 ## SaProt extraction cells computed on the second machine (2026-09-25, from 16:06)
 

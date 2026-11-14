@@ -1,0 +1,11 @@
+task,n_train,n_test,test_with_train_seq_ge50,test_with_train_seq_ge90,test_with_other_test_seq_ge90,n_test_parents,test_pairs_with_a_training_chain,test_pairs_with_both_chains_in_training
+ec_classification,6000,3000,0.129,0.0777,0.8917,,,
+go_mf,6000,2904,0.1257,0.0437,0.0964,,,
+go_bp,6000,2903,0.1261,0.0406,0.0965,,,
+subcellular_localization,6000,2473,0.0028,0.0,0.0,,,
+remote_homology,6000,480,0.0,0.0,0.0375,,,
+solubility,5417,1329,0.0128,0.0053,0.0045,,,
+membrane_soluble,6000,3000,0.0023,0.0003,0.069,,,
+stability,6000,3000,0.1827,0.0737,1.0,17.0,,
+fluorescence,6000,3000,1.0,0.9883,0.9583,,,
+ppi_affinity,2352,326,,,,,1.0,0.0276
