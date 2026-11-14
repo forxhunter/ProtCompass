@@ -83,7 +83,10 @@ Code: `protcompass/scripts/run_probing_suite.py` (probe protocol), `protcompass/
 - Ten scored tasks (listed below). Pooled protein embeddings, readout selected on validation, test score averaged over
   three seeds. Training is capped at 6,000 proteins on eight tasks.
 - **Reference.** `ref_composition`, a non-learned descriptor of amino-acid composition and length, is scored like an
-  encoder (`protcompass/scripts/make_downstream_reference.py`, `downstream_reference_table.py`).
+  encoder (`protcompass/scripts/make_downstream_reference.py`, `downstream_reference_table.py`). Its 23 columns are
+  the 20 amino-acid frequencies, log length, length/600 and the fraction of residues outside the 20-letter alphabet,
+  which is zero for every chain. Four variants that add physicochemical descriptors and dipeptide frequencies are
+  scored with the same protocol (`protcompass/scripts/downstream_reference_variants.py`).
 - **Group controls.** Encoders are grouped by the measured input audit (sequence-only against coordinate-reading), and
   the comparison is repeated by training status, parameter count (at least 100M), architecture family, a common
   116-dimensional projection and 25% or 50% of the training data (`group_controls.py`, `group_controls_multiplicity.py`,
@@ -201,6 +204,13 @@ Section S3).
 - The composition-and-length reference comes within 0.02 of the median encoder on solubility, GO-BP, localization and
   fluorescence. On these four tasks the best encoder exceeds it by 0.119–0.235, and the median of the eight pretrained
   sequence encoders with at least 100M parameters exceeds it by 0.103–0.205.
+- The reference depends on its feature set on four tasks. Adding 20 physicochemical descriptors to composition changes
+  the reference by at most 0.038 on nine tasks and raises it to 0.428 on PPI affinity, where the composition reference
+  varies between seeds (seed SD 0.286). Adding the 400 dipeptide frequencies changes it by at most 0.021 on six tasks
+  and raises it from 0.086 to 0.372 on EC classification, from 0.090 to 0.388 on stability, from 0.362 to 0.605 on
+  fluorescence and from 0.091 to 0.488 on PPI affinity; 17, 13, 0 and 1 of the 33 encoders exceed this extended
+  reference on the four tasks (SI Table S10, panel b). This analysis was added on 2026-11-13 and was not pre-specified;
+  all five variants that were scored are reported.
 - Median seed standard deviation of the downstream cells: 0.0059.
 
 <p align="center"><img src="figures/Figure3.png" alt="Figure 3" width="760"></p>
@@ -463,6 +473,7 @@ git clone <this repository> ProtCompass && cd ProtCompass/protcompass
 # Tables, printed as LaTeX
 python scripts/emit_downstream_table.py scores          # full downstream table (33 x 10; SI Table S16)
 python scripts/emit_latex_tables.py downstream-reference # composition-and-length reference (SI Table S10)
+python scripts/downstream_reference_variants.py --latex  # reference variants (SI Table S10, panel b)
 # repair rule over the 60 task-property pairs (SI Table S21 lists the seven pairs it names)
 python scripts/named_pair_verdicts.py --tag full --latex \
     --src erasure/named_pairs_full erasure/named_pairs_full_remote erasure/named_pairs_full_remote_partial
@@ -544,6 +555,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | S3.2 | Text: Downstream protocol and panel | `extract/score2.py` | `extract/scores2_long.csv`, `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/scores2_missing.csv`, `extract/encoder_input_audit.csv` | repo; partly working notes (not released) |
 | S3.3 | Table S10: Downstream performance relative to amino-acid composition and length | `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json` | repo |
 | S3.3 | Table S10: Downstream performance relative to amino-acid composition and length | `scripts/emit_latex_tables.py`, `scripts/downstream_reference_table.py`, `scripts/make_downstream_reference.py` | `extract/scores2_selected.csv`, `paper/generated/downstream_reference.tex` | repo |
+| S3.3 | Table S10, panel (b): Reference variants with physicochemical descriptors and dipeptide frequencies | `scripts/downstream_reference_variants.py` | `extract/ref_variants/summary.csv`, `extract/ref_variants/summary_wide.csv`, `extract/ref_variants/scores2_long.csv`, `extract/ref_variants/scores2_selected.csv`, `extract/ref_variants/scores2_wide.csv` | repo |
 | S3.4 | Table S11: Effect of structure input within a fixed checkpoint; Table S12: SaProt control with shuffled structure tokens; Text: the same ablation on the structural probes | `extract/ab_modality/ab_extract.py`, `extract/ab_modality/ab_score.py`, `extract/ab_modality/ab_bootstrap.py`, `extract/ab_modality/ab_symmetric_run.py`, `extract/ab_modality/ab_probe_decide.py`, `extract/ab_modality/ab_latex.py`, `extract/ab_modality/ab_shuf_extract.py`, `extract/ab_modality/ab_shuf_score.py`, `extract/ab_modality/ab_shuf_bootstrap.py`, `extract/ab_modality/ab_shuf_symmetric_run.py`, `extract/ab_modality/ab_shuf_probe_decide.py`, `extract/ab_modality/ab_shuf_latex.py`, `extract/ab_modality/ab_shuf_probing.sh`, `extract/ab_modality/finish_pipeline.sh`, `extract/patched/esm3_seqonly.py`, `extract/patched/saprot_seqonly.py`, `extract/patched/saprot_shuf3di.py` | `extract/ab_modality/downstream_deltas.csv`, `extract/ab_modality/probing_deltas.csv`, `extract/ab_modality/probing_floor_cells.csv`, `extract/ab_modality/downstream_deltas_shuf.csv`, `extract/ab_modality/probing_deltas_shuf.csv`, `extract/ab_modality/PRESPEC.md`, `extract/ab_modality/PRESPEC.sha256`, `extract/ab_modality/PRESPEC_shuf.md`, `extract/ab_modality/PRESPEC_shuf.sha256`, `extract/ab_modality/*shuf*.csv`, `extract/ab_modality/downstream_group_summary.csv`, `extract/ab_modality/scores_ab_long.csv`, `extract/ab_modality/scores_ab_selected.csv`, `extract/ab_modality/refit_check.csv`, `extract/ab_modality/encoder_input_audit_ab.csv`, `paper/generated/modality_downstream.tex`, `paper/generated/modality_probing.tex`, `paper/generated/modality_shuf3di.tex`, `paper/generated/modality_shuf3di_probing.tex`, `paper/generated/modality_shuf3di_merged.tex`, `extract/ab_modality/table_*.tex` | repo; partly working notes (not released) |
 | S3.5 | Text: Confounds of the comparison | – | `extract/scores2_selected.csv`, `extract/scores2_long.csv` | repo |
 | S3.5 | Text: Grouping by input audit | – | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv` | repo |

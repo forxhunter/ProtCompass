@@ -45,6 +45,14 @@ Each directory holds `PRESPEC.md` and its sha256, both written before the scores
 were edited for anonymity only; `PRESPEC_REDACTIONS.md` lists every changed line and explains how the checksums relate
 to the originals.
 
+## Analysis added on 2026-11-13 (local, main environment)
+
+`extract/ref_variants/` holds the downstream reference variants (physicochemical descriptors and dipeptide
+frequencies added to the composition-and-length reference), written by `scripts/downstream_reference_variants.py`
+with Biopython 1.87 for the physicochemical descriptors. The analysis was not pre-specified. All five variants that
+were scored are in `summary.csv`; the recomputed `ref_composition` reproduces the released scores on the ten tasks.
+The feature matrices are not stored and are rebuilt by the script from the task manifests.
+
 ## SaProt extraction cells computed on the second machine (2026-09-25, from 16:06)
 
 To shorten the GPU path of the modality ablation, part of the SaProt extraction ran on the second machine (RTX PRO
