@@ -193,7 +193,7 @@ Figure 2; SI Section S2).
 
 <p align="center"><img src="figures/Figure2.png" alt="Figure 2" width="760"></p>
 
-**Downstream prediction** (Results, "Simple Sequence References Clarify Downstream Predictive Value"; Figure 3; SI
+**Downstream prediction** (Results, "Sequence References Reveal Task-Dependent Predictive Value"; Figure 3; SI
 Section S3).
 - Sequence-only encoders achieve higher mean performance on all ten tasks. The advantage ranges from 0.090 to 0.473
   on nine tasks, with a mean gap of 0.186 across the panel; eight of these task-level differences remain significant
@@ -234,7 +234,7 @@ Section S4).
 
 <p align="center"><img src="figures/Figure4.png" alt="Figure 4" width="760"></p>
 
-**Rankings across prediction levels** (Results, "Simple Sequence References Clarify Downstream Predictive Value";
+**Rankings across prediction levels** (Results, "Sequence References Reveal Task-Dependent Predictive Value";
 Supplementary Fig. S1; SI Section S6). On residue-pair contacts, coordinate-reading and
 sequence-only encoders perform similarly on average (AUPRC 0.263 against 0.247, one-sided Mann–Whitney p = 0.35), and
 an encoder's contact rank is only weakly related to its rank on the ten pooled tasks (ρ = 0.22). The pooled ranking
@@ -511,7 +511,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | Introduction | Figure 1: Overview of ProtCompass | – | `figures/Figure1.png` | repo |
 | Results, "Input Determinacy Changes the Interpretation of Structural Probes" | Figure 2: Structural probe scores depend on the information available to the encoder | `scripts/make_figures_unified.py`, `scripts/make_figure2_symmetric.py`, `scripts/make_panels_original_style.py` | `symmetric/results_superfamily/by_source/*.csv`, `extract/encoder_input_audit.csv`, `probing_results/floor_assignment.csv`, `symmetric/figure2_symmetric_values.csv`, `figures/Figure2.png` | repo |
 | Results, "Input Determinacy Changes the Interpretation of Structural Probes" | Table 1: Structural probing against input-matched reference floors | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/headline_reanalysis.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/headline_reanalysis.json`, `symmetric/hypotheses_superfamily.json` | repo |
-| Results, "Simple Sequence References Clarify Downstream Predictive Value" | Figure 3: Downstream predictive performance of 33 protein encoders across ten biological tasks | `scripts/make_figures_unified.py`, `scripts/make_panels_original_style.py`, `extract/score2.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `figures/Figure3.png` | repo |
+| Results, "Sequence References Reveal Task-Dependent Predictive Value" | Figure 3: Downstream predictive performance of 33 protein encoders across ten biological tasks | `scripts/make_figures_unified.py`, `scripts/make_panels_original_style.py`, `extract/score2.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `figures/Figure3.png` | repo |
 | Results, "Variance-Matched Erasure Identifies Selective Property Dependence" | Figure 4: Variance-matched controls and selective repair refine evidence for task-specific property dependence | `scripts/make_figures_unified.py`, `scripts/exclusion_bounds.py`, `scripts/named_pair_verdicts.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/parts/erasure_v2_*.csv`, `erasure/parts/erasure_control_*.csv`, `erasure/named_pair_verdicts_full.csv`, `erasure/named_pair_cells_full.csv`, `figures/Figure4.png` | repo |
 
 **SI Section S1: Encoder Panel and Input Audit**
