@@ -179,7 +179,7 @@ residues (`protcompass/contact_task/`, `protcompass/masif_site/`).
 Numbers are copied from the manuscript and its Supporting Information (SI). Each paragraph names where they are
 reported.
 
-**Structural probing** (Results, "Input Determinacy Changes the Interpretation of Structural Probes"; Table 1 and
+**Structural probing** (Results, "Input References Reveal What Structural Probes Measure"; Table 1 and
 Figure 2; SI Section S2).
 - Across the 245 coordinate-encoder–label comparisons on determined labels, 231 score below their input-matched
   floor, 3 are unresolved and 11 score above it; none of the 110 sequence-only comparisons falls below its sequence
@@ -215,7 +215,7 @@ Section S3).
 
 <p align="center"><img src="figures/Figure3.png" alt="Figure 3" width="760"></p>
 
-**Concept erasure** (Results, "Variance-Matched Erasure Identifies Selective Property Dependence"; Figure 4; SI
+**Concept erasure** (Results, "Controlled Erasure and Repair Link Parent Protein Composition to Stability Prediction"; Figure 4; SI
 Section S4).
 - LEACE lowers the linear readout of the erased property from a median 0.669 to −0.003; nonlinear readouts keep much
   of it. Synthetic tests recover a property that is used and give effects within ±0.007 when it is not.
@@ -249,8 +249,8 @@ nonlinear head the stability composition signal is positive on 7 of 12 encoders.
 
 ## Confirmation cohorts and held-out tests
 
-(Results, "Input Determinacy Changes the Interpretation of Structural Probes" and "Variance-Matched Erasure Identifies
-Selective Property Dependence"; SI Section S5, Tables S26 to S33.)
+(Results, "Input References Reveal What Structural Probes Measure" and "Controlled Erasure and Repair Link Parent
+Protein Composition to Stability Prediction"; SI Section S5, Tables S26 to S33.)
 
 - **Unseen CATH topologies.** On 1,924 domains from unseen CATH topologies, 234 of 245 coordinate cells remain below
   their floor and no sequence-only cell does; undetermined labels show larger margins by +0.178 [+0.146, +0.217].
@@ -508,11 +508,11 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 
 | Where in the manuscript | Table, figure or statement | Script(s) | Result file(s) | Location |
 |---|---|---|---|---|
-| Introduction | Figure 1: Overview of ProtCompass | – | `figures/Figure1.png` | repo |
-| Results, "Input Determinacy Changes the Interpretation of Structural Probes" | Figure 2: Structural probe scores depend on the information available to the encoder | `scripts/make_figures_unified.py`, `scripts/make_figure2_symmetric.py`, `scripts/make_panels_original_style.py` | `symmetric/results_superfamily/by_source/*.csv`, `extract/encoder_input_audit.csv`, `probing_results/floor_assignment.csv`, `symmetric/figure2_symmetric_values.csv`, `figures/Figure2.png` | repo |
-| Results, "Input Determinacy Changes the Interpretation of Structural Probes" | Table 1: Structural probing against input-matched reference floors | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/headline_reanalysis.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/headline_reanalysis.json`, `symmetric/hypotheses_superfamily.json` | repo |
+| Introduction | Figure 1: Overview of ProtCompass and its evaluation framework | – | `figures/Figure1.png` | repo |
+| Results, "Input References Reveal What Structural Probes Measure" | Figure 2: Structural probing performance of protein encoders and input references | `scripts/make_figures_unified.py`, `scripts/make_figure2_symmetric.py`, `scripts/make_panels_original_style.py` | `symmetric/results_superfamily/by_source/*.csv`, `extract/encoder_input_audit.csv`, `probing_results/floor_assignment.csv`, `symmetric/figure2_symmetric_values.csv`, `figures/Figure2.png` | repo |
+| Results, "Input References Reveal What Structural Probes Measure" | Table 1: Structural probing compared with input references | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/headline_reanalysis.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/headline_reanalysis.json`, `symmetric/hypotheses_superfamily.json` | repo |
 | Results, "Sequence References Reveal Task-Dependent Predictive Value" | Figure 3: Downstream predictive performance of 33 protein encoders across ten biological tasks | `scripts/make_figures_unified.py`, `scripts/make_panels_original_style.py`, `extract/score2.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `figures/Figure3.png` | repo |
-| Results, "Variance-Matched Erasure Identifies Selective Property Dependence" | Figure 4: Variance-matched controls and selective repair refine evidence for task-specific property dependence | `scripts/make_figures_unified.py`, `scripts/exclusion_bounds.py`, `scripts/named_pair_verdicts.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/parts/erasure_v2_*.csv`, `erasure/parts/erasure_control_*.csv`, `erasure/named_pair_verdicts_full.csv`, `erasure/named_pair_cells_full.csv`, `figures/Figure4.png` | repo |
+| Results, "Controlled Erasure and Repair Link Parent Protein Composition to Stability Prediction" | Figure 4: Property erasure and selective repair across ten biological prediction tasks | `scripts/make_figures_unified.py`, `scripts/exclusion_bounds.py`, `scripts/named_pair_verdicts.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/parts/erasure_v2_*.csv`, `erasure/parts/erasure_control_*.csv`, `erasure/named_pair_verdicts_full.csv`, `erasure/named_pair_cells_full.csv`, `figures/Figure4.png` | repo |
 
 **SI Section S1: Encoder Panel and Input Audit**
 
