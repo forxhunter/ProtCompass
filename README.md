@@ -134,8 +134,7 @@ ProstT5 is declared multimodal and measured sequence-only. An encoder fails the 
 respond to an input that the extraction supplies to it; the 10 encoders that do not read coordinates receive only the
 amino-acid sequence. EGNN (a randomly initialized network that received coordinates and whose embeddings do not change
 when the coordinates change) and GeoBPE (its output changes under a rigid motion) failed the audit and are not
-released. dMaSIF is not evaluated: the extraction wrapper of the earlier version ran the model on a CPU, the official
-implementation requires a CUDA device, and the wrapper stored zero vectors when the call raised an error. A second audit records which atoms each coordinate-reading encoder uses, so that its floor
+released. A second audit records which atoms each coordinate-reading encoder uses, so that its floor
 is built from the same atoms. Results: `protcompass/extract/encoder_input_audit.csv`, `encoder_atom_audit.csv`,
 `encoder_sidechain_audit.csv`; the full panel with checkpoints is `protcompass/paper/generated/encoder_inventory.tex`
 (SI Table S1).
