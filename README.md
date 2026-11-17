@@ -168,7 +168,7 @@ binding) were excluded after their labels were found unusable as labelled. Ten a
 | GO-MF | F-max | ProteinWorkshop |
 | GO-BP | F-max | ProteinWorkshop |
 | Solubility | AUROC | FLIP |
-| PPI affinity (ΔΔG) | Spearman ρ | SKEMPI2 |
+| PPI affinity (binding free energy ΔG of a protein pair) | Spearman ρ | SKEMPI2 |
 | Subcellular localization (10-class) | accuracy | DeepLoc 2 |
 | Membrane vs soluble | AUROC | DeepLoc 2 |
 
@@ -551,7 +551,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 
 | Where in the manuscript | Table, figure or statement | Script(s) | Result file(s) | Location |
 |---|---|---|---|---|
-| S3.1 | Table S8: Ten scored downstream tasks; Table S9: Data partitions and structure sources | `extract/build_manifests.py`, `extract/build_manifests2.py` | `extract/manifest/*.csv`, `extract/pairs/ppi_affinity_pairs.csv` | repo; Hugging Face |
+| S3.1 | Table S8: The fourteen candidate downstream tasks (ten scored, four not scored with the reason); Table S9: Data partitions and structure sources | `extract/build_manifests.py`, `extract/build_manifests2.py` | `extract/manifest/*.csv`, `extract/pairs/ppi_affinity_pairs.csv` | repo; Hugging Face |
 | S3.1 | Text: Downstream label counts | `extract/score2.py`, `extract/build_manifests2.py` | `extract/manifest/*.csv` | repo; Hugging Face |
 | S3.1, S6.1 | Text: The four excluded tasks | – | `extract/manifest/*.csv` | repo; Hugging Face; partly working notes (not released) |
 | S3.2 | Text: Downstream protocol and panel | `extract/score2.py` | `extract/scores2_long.csv`, `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/scores2_missing.csv`, `extract/encoder_input_audit.csv` | repo; partly working notes (not released) |
