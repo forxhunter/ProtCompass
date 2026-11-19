@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+ppi_affinity,dmasif,linear,0,0.5,spearman,0.17815919667069732,0.7377055883407593,1176,326,32,1
+ppi_affinity,dmasif,linear,1,0.5,spearman,0.09210961325172193,0.6811792254447937,1176,326,32,1
+ppi_affinity,dmasif,linear,2,0.5,spearman,0.27843111176418817,0.7549678683280945,1176,326,32,1
+ppi_affinity,dmasif,mlp2,0,0.5,spearman,0.31340184119081943,0.5901809334754944,1176,326,32,1
+ppi_affinity,dmasif,mlp2,1,0.5,spearman,0.26370706808620137,0.5831272602081299,1176,326,32,1
+ppi_affinity,dmasif,mlp2,2,0.5,spearman,0.3063179517224076,0.5815027952194214,1176,326,32,1

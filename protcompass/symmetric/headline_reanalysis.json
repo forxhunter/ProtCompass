@@ -3,16 +3,16 @@
     {
       "labels": "saturated",
       "subset": "all coordinate",
-      "cells": 112,
-      "below": 112,
+      "cells": 117,
+      "below": 117,
       "unresolved": 0,
       "above": 0
     },
     {
       "labels": "saturated",
       "subset": "pretrained coordinate",
-      "cells": 62,
-      "below": 62,
+      "cells": 67,
+      "below": 67,
       "unresolved": 0,
       "above": 0
     },
@@ -35,16 +35,16 @@
     {
       "labels": "contained",
       "subset": "all coordinate",
-      "cells": 45,
-      "below": 45,
+      "cells": 47,
+      "below": 47,
       "unresolved": 0,
       "above": 0
     },
     {
       "labels": "contained",
       "subset": "pretrained coordinate",
-      "cells": 25,
-      "below": 25,
+      "cells": 27,
+      "below": 27,
       "unresolved": 0,
       "above": 0
     },
@@ -67,16 +67,16 @@
     {
       "labels": "open",
       "subset": "all coordinate",
-      "cells": 88,
-      "below": 74,
+      "cells": 92,
+      "below": 78,
       "unresolved": 3,
       "above": 11
     },
     {
       "labels": "open",
       "subset": "pretrained coordinate",
-      "cells": 48,
-      "below": 35,
+      "cells": 52,
+      "below": 39,
       "unresolved": 3,
       "above": 10
     },
@@ -98,37 +98,37 @@
     }
   ],
   "regression": {
-    "cells": 281,
-    "families": 20,
+    "cells": 290,
+    "families": 21,
     "labels": 9,
     "rows": [
       {
         "term": "intercept",
-        "coef": -0.31283905037533866,
-        "se": 0.1506411052379591,
-        "lo": -0.6080956166417385,
-        "hi": -0.017582484108938812
+        "coef": -0.36917008631365794,
+        "se": 0.1320560112259482,
+        "lo": -0.6279998683165164,
+        "hi": -0.11034030431079944
       },
       {
         "term": "log10 parameters",
-        "coef": 0.04479237854894872,
-        "se": 0.02023469819657039,
-        "lo": 0.005132370083670755,
-        "hi": 0.08445238701422669
+        "coef": 0.053656321420222995,
+        "se": 0.017186738154668597,
+        "lo": 0.019970314637072543,
+        "hi": 0.08734232820337345
       },
       {
         "term": "pretrained",
-        "coef": 0.0837720032120158,
-        "se": 0.03669119636382727,
-        "lo": 0.011857258338914364,
-        "hi": 0.15568674808511723
+        "coef": 0.06745799047309102,
+        "se": 0.031880745242138166,
+        "lo": 0.0049717297985002185,
+        "hi": 0.12994425114768182
       },
       {
         "term": "reads coordinates",
-        "coef": -0.2583169341726055,
-        "se": 0.05678037257196041,
-        "lo": -0.36960646441364786,
-        "hi": -0.14702740393156308
+        "coef": -0.2510554914718841,
+        "se": 0.05929381024384053,
+        "lo": -0.36727135954981155,
+        "hi": -0.13483962339395666
       }
     ]
   },
@@ -168,10 +168,10 @@
   },
   "per_encoder_determinacy": {
     "determined": {
-      "below": 123,
+      "below": 132,
       "unresolved": 3,
       "above": 0,
-      "cells": 126
+      "cells": 135
     },
     "not determined": {
       "below": 58,
@@ -247,8 +247,8 @@
     {
       "labels": "saturated",
       "group": "coordinate",
-      "cells": 112,
-      "below_margin": 101,
+      "cells": 117,
+      "below_margin": 106,
       "within_margin": 8,
       "above_margin": 0
     },
@@ -263,8 +263,8 @@
     {
       "labels": "open",
       "group": "coordinate",
-      "cells": 88,
-      "below_margin": 72,
+      "cells": 92,
+      "below_margin": 76,
       "within_margin": 4,
       "above_margin": 11
     },
@@ -301,8 +301,8 @@
   },
   "pretrained_without_unchecked": {
     "seq_families": 6,
-    "crd_families": 7,
+    "crd_families": 8,
     "tasks_seq_leads": 10,
-    "mean_gap": 0.11665382142857139
+    "mean_gap": 0.13586452083333334
   }
 }

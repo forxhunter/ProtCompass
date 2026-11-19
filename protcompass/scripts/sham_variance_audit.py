@@ -36,8 +36,11 @@ def main():
     ap.add_argument("--tasks", nargs="+", default=list(TASK_KIND))
     ap.add_argument("--concepts", nargs="+", default=None)
     ap.add_argument("--out", default=str(OUT / "sham_variance_audit.csv"))
+    ap.add_argument("--encoders", nargs="+", default=None, help="audit only these sources (an encoder added later)")
     a = ap.parse_args()
     encoders = sorted(d.name for d in (EMB / "stability").iterdir() if (d / "meta.json").exists())
+    if a.encoders:
+        encoders = [e for e in encoders if e in a.encoders]
     rows = []
     for task in a.tasks:
         common_struct.set_task(task)

@@ -174,7 +174,7 @@ def fig2():
     fam, _ = S.matrix()
     uses = P.audit()
     encs = [s for s in fam.index if not s.startswith("ref_") and s in uses.index]
-    assert len(encs) == 33, len(encs)
+    assert len(encs) == 34, len(encs)
     groups = {k: sorted([e for e in encs if P.declared(e) == k], key=lambda e: -fam.loc[e].mean())
               for k in ("seq", "struct", "multi")}
     order = groups["seq"] + groups["struct"] + groups["multi"]
@@ -212,7 +212,7 @@ def fig3():
     wall = pd.read_csv(ROOT / "extract" / "scores2_wide.csv", index_col=0)
     ref = wall.loc["ref_composition", TASKS]
     w = wall.drop(index="ref_composition")[TASKS]
-    assert len(w) == 33, len(w)
+    assert len(w) == 34, len(w)
     for t in TASKS:
         assert round(float(ref[t]), 3) == REF_TABLE[t], (t, ref[t])
     uses = P.audit().reindex(w.index).fillna(True).astype(bool)
@@ -420,7 +420,7 @@ def fig_residue():
             ax.plot([pooled, rank], [i, i], color=color, lw=1.1, zorder=2)
             ax.scatter(pooled, i, s=16, marker="o", edgecolor=color, facecolor="white", linewidth=0.8, zorder=3)
             ax.scatter(rank, i, s=14, marker="D", color=color, zorder=4)
-        ax.set_xlim(0.2, 33.8); ax.set_xticks([1, 5, 10, 15, 20, 25, 30, 33])
+        ax.set_xlim(0.2, 34.8); ax.set_xticks([1, 5, 10, 15, 20, 25, 30, 34])
         ax.set_xlabel(f"{what.capitalize()} prediction rank", fontsize=FS_AX)
         ax.set_ylim(len(names) - 0.4, -0.7)
         ax.set_yticks(range(len(names)))

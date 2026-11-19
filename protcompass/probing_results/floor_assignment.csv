@@ -2,6 +2,7 @@
 ankh_base,False
 cdconv,True
 dimenet,True
+dmasif,True
 esm1b,False
 esm2_150m,False
 esm2_35m,False

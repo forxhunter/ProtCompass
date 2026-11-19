@@ -1,6 +1,6 @@
 """The naming rule with one vote per architecture family instead of one per encoder.
 
-The panel is not 33 independent draws. Ten of the 23 coordinate encoders are randomly initialised counterparts of
+The panel is not 34 independent draws. Ten of the 24 coordinate encoders are randomly initialised counterparts of
 pretrained networks that are also in the panel, ESM-2 appears at five scales, and PottsMPNN at four. The sign test
 behind every named demand treats these as equally weighted observations, which overstates the
 evidence for whichever effect the repeated architectures happen to carry.
@@ -41,7 +41,7 @@ def family(enc):
     return {"esm1b": "ESM-1b", "esm3": "ESM3", "saprot": "SaProt", "esm_if1": "ESM-IF", "prostt5": "ProstT5",
             "ankh_base": "Ankh", "foldseek_3di": "Foldseek", "foldvision": "FoldVision",
             "proteinmpnn": "ProteinMPNN", "gvp": "GVP", "schnet": "SchNet", "dimenet": "DimeNet++",
-            "mace": "MACE", "cdconv": "CDConv"}.get(e, e)
+            "mace": "MACE", "cdconv": "CDConv", "dmasif": "dMaSIF"}.get(e, e)
 
 
 def holm(pvals):

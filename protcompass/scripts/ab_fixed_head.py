@@ -266,6 +266,8 @@ def main():
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--nshards", type=int, default=1)
     ap.add_argument("--limit", type=int, default=None, help="score at most this many cells (timing runs)")
+    ap.add_argument("--encoders", nargs="+", default=None,
+                    help="score only these encoders and write them to their own part file (an encoder added later)")
     a = ap.parse_args()
     DEST.mkdir(parents=True, exist_ok=True)
     if a.check:
@@ -282,6 +284,11 @@ def main():
             jobs.append((task, name, enc))
     mine = [j for i, j in enumerate(jobs) if i % a.nshards == a.shard][:a.limit]
     dest = DEST / "parts" / f"cells_shard{a.shard}of{a.nshards}.csv"
+    if a.encoders:
+        # The shard of a cell is its position in the job list, so a new panel member would move released cells
+        # between shards. Its cells are scored alone and kept in a part file of their own.
+        mine = [j for j in jobs if j[2] in a.encoders][:a.limit]
+        dest = DEST / "parts" / f"cells_shard_{'_'.join(a.encoders)}.csv"
     dest.parent.mkdir(parents=True, exist_ok=True)
     rows, done = [], set()
     if dest.exists():

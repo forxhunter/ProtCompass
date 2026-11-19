@@ -36,7 +36,7 @@ OPEN = ["dssp_3", "dssp_8", "core_surface", "distance_bins"]
 UNDET = ["rsa", "rsa_bins", "bfactor"]
 TEN = ["ref_length", "ref_position", "ref_aa", "ref_seq_window", "ref_seq_expert", "ref_seq_global",
        "ref_coords", "ref_backbone", "ref_global", "ref_pairhist"]
-SIDECHAIN = ["gcpnet_random", "gcpnet_pretrained", "foldvision"]
+SIDECHAIN = ["gcpnet_random", "gcpnet_pretrained", "foldvision", "dmasif"]
 
 
 def counts(c, name):

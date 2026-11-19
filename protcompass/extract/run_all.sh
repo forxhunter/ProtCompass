@@ -36,6 +36,8 @@ run_one() {
     cdc5090)    export PYTHONPATH=$PROTCOMPASS_ROOT/protcompass/extract/pylib_cdc5090;;
     gcpnet)     unset PYTHONPATH;;
     foldvision) export PYTHONPATH=$PROTCOMPASS_ROOT/protcompass/pylib_foldvision;;
+    dmasif)     export PYTHONPATH=$PROTCOMPASS_ROOT/protcompass/pylib_dmasif:$PROTCOMPASS_ROOT/protcompass/pylib
+                export DMASIF_TMP=/dev/shm; env=protein_embeddings;;   # pykeops, plyfile and pyvtk on top of the main environment
     *)          export PYTHONPATH=$PROTCOMPASS_ROOT/protcompass/pylib;;
   esac
   export OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 TOKENIZERS_PARALLELISM=false PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+subcellular_localization,dmasif,linear,0,1.0,accuracy,0.3736352608168217,1.7899619340896606,6000,2473,16,10
+subcellular_localization,dmasif,linear,1,1.0,accuracy,0.3736352608168217,1.7958860397338867,6000,2473,16,10
+subcellular_localization,dmasif,linear,2,1.0,accuracy,0.3671653861706429,1.8000338077545166,6000,2473,16,10
+subcellular_localization,dmasif,mlp2,0,1.0,accuracy,0.4423776789324707,1.4532179832458496,6000,2473,16,10
+subcellular_localization,dmasif,mlp2,1,1.0,accuracy,0.42903356247472707,1.4432799816131592,6000,2473,16,10
+subcellular_localization,dmasif,mlp2,2,1.0,accuracy,0.4512737565709664,1.4526481628417969,6000,2473,16,10

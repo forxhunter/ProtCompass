@@ -27,7 +27,7 @@ def main():
     cap = (r"\caption{The two residue-resolved tasks per encoder, two-layer readout: contact pairs (AUPRC, base rate "
            r"$0.028$, and $0.021$ for sequence separation alone) and interface residues on the 353 MaSIF-site test chains "
            r"(AUPRC, mean of three seeds, base rate $0.177$), each with the encoder's rank among those scored on the task, "
-           r"next to its mean rank among the 33 encoders over the ten pooled tasks. Encoders are ordered by that mean rank. "
+           r"next to its mean rank among the 34 encoders over the ten pooled tasks. Encoders are ordered by that mean rank. "
            r"Contact prediction has no floors, because every coordinate floor contains the label; the interface floors go "
            r"through the identical probe (\texttt{scripts/residue\_readout\_report.py}).}")
     print(cap + r"\label{tab:contact_task}\label{tab:masif_task}\\")

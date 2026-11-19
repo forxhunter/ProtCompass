@@ -1,7 +1,7 @@
 {
-  "T1_share_below": 0.9551020408163265,
-  "T1_below": 234,
-  "T1_cells": 245,
+  "T1_share_below": 0.95703125,
+  "T1_below": 245,
+  "T1_cells": 256,
   "T2_seq_below": 0,
   "T2_cells": 110,
   "T3_labels_with_encoder_above": {
@@ -22,6 +22,7 @@
     ],
     "rsa": [
       "ankh_base",
+      "dmasif",
       "esm1b",
       "esm2_150m",
       "esm2_35m",
@@ -44,6 +45,7 @@
     ],
     "rsa_bins": [
       "ankh_base",
+      "dmasif",
       "esm1b",
       "esm2_150m",
       "esm2_35m",
@@ -65,10 +67,10 @@
       "saprot"
     ]
   },
-  "T4_delta": 0.17823802634043304,
-  "T4_lo": 0.1456027972261938,
-  "T4_hi": 0.2173181345509429,
-  "T4_families": 15,
+  "T4_delta": 0.18944326856301671,
+  "T4_lo": 0.1524736023714115,
+  "T4_hi": 0.2373256417945214,
+  "T4_families": 16,
   "T1": true,
   "T2": true,
   "T3": true,

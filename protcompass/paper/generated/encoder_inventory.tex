@@ -3,7 +3,7 @@
 \setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{1.01}
 \begin{longtable}{P{2.15cm}P{1cm}P{.85cm}P{.6cm}P{.85cm}P{6.25cm}}
-\caption{The 33 encoders the release evaluates, grouped by declared class. \emph{Coord.} is what the input audit
+\caption{The 34 encoders the release evaluates, grouped by declared class. \emph{Coord.} is what the input audit
 measures. Parameter counts and widths (\emph{Dim.}) are those of the released checkpoint and the stored array; a dash
 marks a tokeniser with no learned parameters. Every encoder is scored on the ten downstream tasks except FoldVision,
 which is scored on nine.}\label{tab:panel}\\
@@ -39,8 +39,9 @@ ProtBert      & pretr. & 419M & 1024 & no & \texttt{Rostlab/\allowbreak prot\_\a
 ProtT5-XL     & pretr. & 1.2B & 1024 & no & \texttt{Rostlab/\allowbreak prot\_\allowbreak t5\_\allowbreak xl\_\allowbreak half\_\allowbreak uniref50-enc} \\
 
 \rowcolor{CompassApricot!35}
-\multicolumn{6}{l}{\textit{Structure (19)}} \\*
+\multicolumn{6}{l}{\textit{Structure (20)}} \\*
 DimeNet       & rand.  & 363K & 128 & yes & \texttt{dimenet} \\
+dMaSIF        & pretr. & 15K  & 16  & yes & \texttt{dMaSIF\_\allowbreak search\_\allowbreak 3layer\_\allowbreak 12A\_\allowbreak 16dim} \\
 ESM-IF1       & pretr. & 142M & 512 & yes & \texttt{esm\_\allowbreak if} \\
 Foldseek      & pretr. & --   & 20  & yes & \texttt{foldseek\_\allowbreak 3di} \\
 GCPNet        & rand.  & 1M   & 116 & yes & \texttt{gcpnet\_\allowbreak official\_\allowbreak random} \\

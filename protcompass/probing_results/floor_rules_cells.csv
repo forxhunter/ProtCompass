@@ -2,6 +2,7 @@ rule,probe,encoder,coordinates,score,floor,floor_source,floor_family,below
 released,phi_circular,ankh_base,False,0.8876676732839458,0.8173593047740932,ref_seq_expert,nonlinear,False
 released,phi_circular,cdconv,True,0.828090965864409,0.999738001460731,ref_global,nonlinear,True
 released,phi_circular,dimenet,True,0.8045977598632089,0.999738001460731,ref_global,nonlinear,True
+released,phi_circular,dmasif,True,0.7763637856578023,0.999738001460731,ref_global,nonlinear,True
 released,phi_circular,esm1b,False,0.8714869062693782,0.8173593047740932,ref_seq_expert,nonlinear,False
 released,phi_circular,esm2_150m,False,0.8772333941096466,0.8173593047740932,ref_seq_expert,nonlinear,False
 released,phi_circular,esm2_35m,False,0.8642291426363254,0.8173593047740932,ref_seq_expert,nonlinear,False
@@ -34,6 +35,7 @@ released,phi_circular,tfn_pretrained,True,0.8011841037797378,0.999738001460731,r
 released,psi_circular,ankh_base,False,0.7807934553291012,0.5066432176755096,ref_seq_expert,nonlinear,False
 released,psi_circular,cdconv,True,0.5926784206212676,0.9997749497247845,ref_global,nonlinear,True
 released,psi_circular,dimenet,True,0.3482794812759257,0.9997749497247845,ref_global,nonlinear,True
+released,psi_circular,dmasif,True,0.28276968853392287,0.9997749497247845,ref_global,nonlinear,True
 released,psi_circular,esm1b,False,0.7226531957436547,0.5066432176755096,ref_seq_expert,nonlinear,False
 released,psi_circular,esm2_150m,False,0.7478785192070578,0.5066432176755096,ref_seq_expert,nonlinear,False
 released,psi_circular,esm2_35m,False,0.6939956186684234,0.5066432176755096,ref_seq_expert,nonlinear,False
@@ -66,6 +68,7 @@ released,psi_circular,tfn_pretrained,True,0.3523385142287218,0.9997749497247845,
 released,local_curvature,ankh_base,False,0.7867291154490275,0.5190228427697646,ref_seq_expert,nonlinear,False
 released,local_curvature,cdconv,True,0.583762534471391,0.9997625524891484,ref_backbone,nonlinear,True
 released,local_curvature,dimenet,True,0.3677406520979969,0.9997625524891484,ref_backbone,nonlinear,True
+released,local_curvature,dmasif,True,0.30951446498011254,0.9997625524891484,ref_backbone,nonlinear,True
 released,local_curvature,esm1b,False,0.7318968731205014,0.5190228427697646,ref_seq_expert,nonlinear,False
 released,local_curvature,esm2_150m,False,0.7571135913076897,0.5190228427697646,ref_seq_expert,nonlinear,False
 released,local_curvature,esm2_35m,False,0.7074807117175733,0.5190228427697646,ref_seq_expert,nonlinear,False
@@ -98,6 +101,7 @@ released,local_curvature,tfn_pretrained,True,0.38085598063629583,0.9997625524891
 released,dssp_3,ankh_base,False,0.8361833100448193,0.6691337370328161,ref_seq_expert,nonlinear,False
 released,dssp_3,cdconv,True,0.643852231256349,0.9312187907176913,ref_backbone,nonlinear,True
 released,dssp_3,dimenet,True,0.5602784290738901,0.9312187907176913,ref_backbone,nonlinear,True
+released,dssp_3,dmasif,True,0.5197318982403766,0.9312187907176913,ref_backbone,nonlinear,True
 released,dssp_3,esm1b,False,0.8077363219219745,0.6691337370328161,ref_seq_expert,nonlinear,False
 released,dssp_3,esm2_150m,False,0.8188415170978599,0.6691337370328161,ref_seq_expert,nonlinear,False
 released,dssp_3,esm2_35m,False,0.7917957699922606,0.6691337370328161,ref_seq_expert,nonlinear,False
@@ -130,6 +134,7 @@ released,dssp_3,tfn_pretrained,True,0.5922138118231178,0.9312187907176913,ref_ba
 released,dssp_8,ankh_base,False,0.45320766943432894,0.29547613823265806,ref_seq_expert,nonlinear,False
 released,dssp_8,cdconv,True,0.27263705128051097,0.7513220398649847,ref_backbone,nonlinear,True
 released,dssp_8,dimenet,True,0.2221655671638518,0.7513220398649847,ref_backbone,nonlinear,True
+released,dssp_8,dmasif,True,0.20806543640784103,0.7513220398649847,ref_backbone,nonlinear,True
 released,dssp_8,esm1b,False,0.393693031625684,0.29547613823265806,ref_seq_expert,nonlinear,False
 released,dssp_8,esm2_150m,False,0.42419788370529643,0.29547613823265806,ref_seq_expert,nonlinear,False
 released,dssp_8,esm2_35m,False,0.37826587534891326,0.29547613823265806,ref_seq_expert,nonlinear,False
@@ -162,6 +167,7 @@ released,dssp_8,tfn_pretrained,True,0.2299928459474486,0.7513220398649847,ref_ba
 released,core_surface,ankh_base,False,0.7972224893129495,0.6697260154893327,ref_seq_expert,nonlinear,False
 released,core_surface,cdconv,True,0.8813234359561237,0.8972699092660233,ref_global,nonlinear,True
 released,core_surface,dimenet,True,0.7872357992886353,0.8972699092660233,ref_global,nonlinear,True
+released,core_surface,dmasif,True,0.8607342549206171,0.8972699092660233,ref_global,nonlinear,True
 released,core_surface,esm1b,False,0.7808279646846263,0.6697260154893327,ref_seq_expert,nonlinear,False
 released,core_surface,esm2_150m,False,0.785973893975518,0.6697260154893327,ref_seq_expert,nonlinear,False
 released,core_surface,esm2_35m,False,0.7636311225305104,0.6697260154893327,ref_seq_expert,nonlinear,False
@@ -194,6 +200,7 @@ released,core_surface,tfn_pretrained,True,0.6972243229139071,0.8972699092660233,
 released,contact_density,ankh_base,False,0.46967210799213915,0.3654368552957805,ref_seq_expert,nonlinear,False
 released,contact_density,cdconv,True,0.5518072032235759,0.9837309171230971,ref_coords,nonlinear,True
 released,contact_density,dimenet,True,0.4294829579661945,0.9837309171230971,ref_coords,nonlinear,True
+released,contact_density,dmasif,True,0.4818437707994967,0.9837309171230971,ref_coords,nonlinear,True
 released,contact_density,esm1b,False,0.4469224501693123,0.3654368552957805,ref_seq_expert,nonlinear,False
 released,contact_density,esm2_150m,False,0.4439672402383457,0.3654368552957805,ref_seq_expert,nonlinear,False
 released,contact_density,esm2_35m,False,0.42304606123498223,0.3654368552957805,ref_seq_expert,nonlinear,False
@@ -226,6 +233,7 @@ released,contact_density,tfn_pretrained,True,0.3308147122354574,0.98373091712309
 released,distance_bins,ankh_base,False,0.23818417340138645,0.12268398345274438,ref_seq_expert,nonlinear,False
 released,distance_bins,cdconv,True,0.14450284495779855,0.5556828457601578,ref_pairhist,nonlinear,True
 released,distance_bins,dimenet,True,0.12903158666861417,0.5556828457601578,ref_pairhist,nonlinear,True
+released,distance_bins,dmasif,True,0.1561979302998413,0.5556828457601578,ref_pairhist,nonlinear,True
 released,distance_bins,esm1b,False,0.17555043763734415,0.12268398345274438,ref_seq_expert,nonlinear,False
 released,distance_bins,esm2_150m,False,0.1675587939651074,0.12268398345274438,ref_seq_expert,nonlinear,False
 released,distance_bins,esm2_35m,False,0.14392578011046067,0.12268398345274438,ref_seq_expert,nonlinear,False
@@ -258,6 +266,7 @@ released,distance_bins,tfn_pretrained,True,0.20194268955698788,0.555682845760157
 released,contact_order_len_resid,ankh_base,False,0.7616544317841321,0.42303651398557074,ref_seq_expert,nonlinear,False
 released,contact_order_len_resid,cdconv,True,0.8592839066958755,0.9824515026169679,ref_pairhist,nonlinear,True
 released,contact_order_len_resid,dimenet,True,0.5737920981602384,0.9824515026169679,ref_pairhist,nonlinear,True
+released,contact_order_len_resid,dmasif,True,0.5225445588172346,0.9824515026169679,ref_pairhist,nonlinear,True
 released,contact_order_len_resid,esm1b,False,0.7130842898342973,0.42303651398557074,ref_seq_expert,nonlinear,False
 released,contact_order_len_resid,esm2_150m,False,0.7349125680179421,0.42303651398557074,ref_seq_expert,nonlinear,False
 released,contact_order_len_resid,esm2_35m,False,0.6888243503769174,0.42303651398557074,ref_seq_expert,nonlinear,False
@@ -291,6 +300,7 @@ released,contact_order_len_resid,tfn_pretrained,True,0.429576584606791,0.9824515
 released,radius_of_gyration_len_resid,ankh_base,False,0.747696062283509,0.5017261128686288,ref_seq_global,nonlinear,False
 released,radius_of_gyration_len_resid,cdconv,True,0.6708427134424009,0.996102855770422,ref_global,linear,True
 released,radius_of_gyration_len_resid,dimenet,True,0.7747938965258075,0.996102855770422,ref_global,linear,True
+released,radius_of_gyration_len_resid,dmasif,True,0.7604377905031042,0.996102855770422,ref_global,linear,True
 released,radius_of_gyration_len_resid,esm1b,False,0.7155510159707826,0.5017261128686288,ref_seq_global,nonlinear,False
 released,radius_of_gyration_len_resid,esm2_150m,False,0.7361567760280036,0.5017261128686288,ref_seq_global,nonlinear,False
 released,radius_of_gyration_len_resid,esm2_35m,False,0.7002349560089091,0.5017261128686288,ref_seq_global,nonlinear,False
@@ -324,6 +334,7 @@ released,radius_of_gyration_len_resid,tfn_pretrained,True,0.536475674815394,0.99
 released,asphericity_len_resid,ankh_base,False,0.6940864162803755,0.46331948644758647,ref_seq_global,nonlinear,False
 released,asphericity_len_resid,cdconv,True,0.582697632220097,0.9584191830911987,ref_global,nonlinear,True
 released,asphericity_len_resid,dimenet,True,0.7135635433295384,0.9584191830911987,ref_global,nonlinear,True
+released,asphericity_len_resid,dmasif,True,0.6432305609896497,0.9584191830911987,ref_global,nonlinear,True
 released,asphericity_len_resid,esm1b,False,0.6748277541316009,0.46331948644758647,ref_seq_global,nonlinear,False
 released,asphericity_len_resid,esm2_150m,False,0.6659133937525527,0.46331948644758647,ref_seq_global,nonlinear,False
 released,asphericity_len_resid,esm2_35m,False,0.658747167282488,0.46331948644758647,ref_seq_global,nonlinear,False
@@ -357,6 +368,7 @@ released,asphericity_len_resid,tfn_pretrained,True,0.463426609504335,0.958419183
 admissible,phi_circular,ankh_base,False,0.8876676732839458,0.8173593047740932,ref_seq_expert,nonlinear,False
 admissible,phi_circular,cdconv,True,0.828090965864409,0.937043200194736,ref_backbone@CA,nonlinear,True
 admissible,phi_circular,dimenet,True,0.8045977598632089,0.937043200194736,ref_backbone@CA,nonlinear,True
+admissible,phi_circular,dmasif,True,0.7763637856578023,0.999738001460731,ref_global,nonlinear,True
 admissible,phi_circular,esm1b,False,0.8714869062693782,0.8173593047740932,ref_seq_expert,nonlinear,False
 admissible,phi_circular,esm2_150m,False,0.8772333941096466,0.8173593047740932,ref_seq_expert,nonlinear,False
 admissible,phi_circular,esm2_35m,False,0.8642291426363254,0.8173593047740932,ref_seq_expert,nonlinear,False
@@ -389,6 +401,7 @@ admissible,phi_circular,tfn_pretrained,True,0.8011841037797378,0.937043200194736
 admissible,psi_circular,ankh_base,False,0.7807934553291012,0.5066432176755096,ref_seq_expert,nonlinear,False
 admissible,psi_circular,cdconv,True,0.5926784206212676,0.9475103845827321,ref_backbone@CA,nonlinear,True
 admissible,psi_circular,dimenet,True,0.3482794812759257,0.9475103845827321,ref_backbone@CA,nonlinear,True
+admissible,psi_circular,dmasif,True,0.28276968853392287,0.9997749497247845,ref_global,nonlinear,True
 admissible,psi_circular,esm1b,False,0.7226531957436547,0.5066432176755096,ref_seq_expert,nonlinear,False
 admissible,psi_circular,esm2_150m,False,0.7478785192070578,0.5066432176755096,ref_seq_expert,nonlinear,False
 admissible,psi_circular,esm2_35m,False,0.6939956186684234,0.5066432176755096,ref_seq_expert,nonlinear,False
@@ -421,6 +434,7 @@ admissible,psi_circular,tfn_pretrained,True,0.3523385142287218,0.947510384582732
 admissible,local_curvature,ankh_base,False,0.7867291154490275,0.5190228427697646,ref_seq_expert,nonlinear,False
 admissible,local_curvature,cdconv,True,0.583762534471391,0.9999071427180198,ref_global@CA,nonlinear,True
 admissible,local_curvature,dimenet,True,0.3677406520979969,0.9999071427180198,ref_global@CA,nonlinear,True
+admissible,local_curvature,dmasif,True,0.30951446498011254,0.9997625524891484,ref_backbone,nonlinear,True
 admissible,local_curvature,esm1b,False,0.7318968731205014,0.5190228427697646,ref_seq_expert,nonlinear,False
 admissible,local_curvature,esm2_150m,False,0.7571135913076897,0.5190228427697646,ref_seq_expert,nonlinear,False
 admissible,local_curvature,esm2_35m,False,0.7074807117175733,0.5190228427697646,ref_seq_expert,nonlinear,False
@@ -453,6 +467,7 @@ admissible,local_curvature,tfn_pretrained,True,0.38085598063629583,0.99990714271
 admissible,dssp_3,ankh_base,False,0.8361833100448193,0.6691337370328161,ref_seq_expert,nonlinear,False
 admissible,dssp_3,cdconv,True,0.643852231256349,0.9025609500668382,ref_backbone@CA,nonlinear,True
 admissible,dssp_3,dimenet,True,0.5602784290738901,0.9025609500668382,ref_backbone@CA,nonlinear,True
+admissible,dssp_3,dmasif,True,0.5197318982403766,0.9312187907176913,ref_backbone,nonlinear,True
 admissible,dssp_3,esm1b,False,0.8077363219219745,0.6691337370328161,ref_seq_expert,nonlinear,False
 admissible,dssp_3,esm2_150m,False,0.8188415170978599,0.6691337370328161,ref_seq_expert,nonlinear,False
 admissible,dssp_3,esm2_35m,False,0.7917957699922606,0.6691337370328161,ref_seq_expert,nonlinear,False
@@ -485,6 +500,7 @@ admissible,dssp_3,tfn_pretrained,True,0.5922138118231178,0.9025609500668382,ref_
 admissible,dssp_8,ankh_base,False,0.45320766943432894,0.29547613823265806,ref_seq_expert,nonlinear,False
 admissible,dssp_8,cdconv,True,0.27263705128051097,0.6490508488887207,ref_global@CA,nonlinear,True
 admissible,dssp_8,dimenet,True,0.2221655671638518,0.6490508488887207,ref_global@CA,nonlinear,True
+admissible,dssp_8,dmasif,True,0.20806543640784103,0.7513220398649847,ref_backbone,nonlinear,True
 admissible,dssp_8,esm1b,False,0.393693031625684,0.29547613823265806,ref_seq_expert,nonlinear,False
 admissible,dssp_8,esm2_150m,False,0.42419788370529643,0.29547613823265806,ref_seq_expert,nonlinear,False
 admissible,dssp_8,esm2_35m,False,0.37826587534891326,0.29547613823265806,ref_seq_expert,nonlinear,False
@@ -517,6 +533,7 @@ admissible,dssp_8,tfn_pretrained,True,0.2299928459474486,0.6490508488887207,ref_
 admissible,core_surface,ankh_base,False,0.7972224893129495,0.6697260154893327,ref_seq_expert,nonlinear,False
 admissible,core_surface,cdconv,True,0.8813234359561237,0.8947023104269926,ref_global@CA,nonlinear,True
 admissible,core_surface,dimenet,True,0.7872357992886353,0.8947023104269926,ref_global@CA,nonlinear,True
+admissible,core_surface,dmasif,True,0.8607342549206171,0.8972699092660233,ref_global,nonlinear,True
 admissible,core_surface,esm1b,False,0.7808279646846263,0.6697260154893327,ref_seq_expert,nonlinear,False
 admissible,core_surface,esm2_150m,False,0.785973893975518,0.6697260154893327,ref_seq_expert,nonlinear,False
 admissible,core_surface,esm2_35m,False,0.7636311225305104,0.6697260154893327,ref_seq_expert,nonlinear,False
@@ -549,6 +566,7 @@ admissible,core_surface,tfn_pretrained,True,0.6972243229139071,0.894702310426992
 admissible,contact_density,ankh_base,False,0.46967210799213915,0.3654368552957805,ref_seq_expert,nonlinear,False
 admissible,contact_density,cdconv,True,0.5518072032235759,0.9837309171230971,ref_coords,nonlinear,True
 admissible,contact_density,dimenet,True,0.4294829579661945,0.9837309171230971,ref_coords,nonlinear,True
+admissible,contact_density,dmasif,True,0.4818437707994967,0.9837309171230971,ref_coords,nonlinear,True
 admissible,contact_density,esm1b,False,0.4469224501693123,0.3654368552957805,ref_seq_expert,nonlinear,False
 admissible,contact_density,esm2_150m,False,0.4439672402383457,0.3654368552957805,ref_seq_expert,nonlinear,False
 admissible,contact_density,esm2_35m,False,0.42304606123498223,0.3654368552957805,ref_seq_expert,nonlinear,False
@@ -581,6 +599,7 @@ admissible,contact_density,tfn_pretrained,True,0.3308147122354574,0.983730917123
 admissible,distance_bins,ankh_base,False,0.23818417340138645,0.12268398345274438,ref_seq_expert,nonlinear,False
 admissible,distance_bins,cdconv,True,0.14450284495779855,0.5556828457601578,ref_pairhist,nonlinear,True
 admissible,distance_bins,dimenet,True,0.12903158666861417,0.5556828457601578,ref_pairhist,nonlinear,True
+admissible,distance_bins,dmasif,True,0.1561979302998413,0.5556828457601578,ref_pairhist,nonlinear,True
 admissible,distance_bins,esm1b,False,0.17555043763734415,0.12268398345274438,ref_seq_expert,nonlinear,False
 admissible,distance_bins,esm2_150m,False,0.1675587939651074,0.12268398345274438,ref_seq_expert,nonlinear,False
 admissible,distance_bins,esm2_35m,False,0.14392578011046067,0.12268398345274438,ref_seq_expert,nonlinear,False
@@ -613,6 +632,7 @@ admissible,distance_bins,tfn_pretrained,True,0.20194268955698788,0.5556828457601
 admissible,contact_order_len_resid,ankh_base,False,0.7616544317841321,0.42303651398557074,ref_seq_expert,nonlinear,False
 admissible,contact_order_len_resid,cdconv,True,0.8592839066958755,0.9824515026169679,ref_pairhist,nonlinear,True
 admissible,contact_order_len_resid,dimenet,True,0.5737920981602384,0.9824515026169679,ref_pairhist,nonlinear,True
+admissible,contact_order_len_resid,dmasif,True,0.5225445588172346,0.9824515026169679,ref_pairhist,nonlinear,True
 admissible,contact_order_len_resid,esm1b,False,0.7130842898342973,0.42303651398557074,ref_seq_expert,nonlinear,False
 admissible,contact_order_len_resid,esm2_150m,False,0.7349125680179421,0.42303651398557074,ref_seq_expert,nonlinear,False
 admissible,contact_order_len_resid,esm2_35m,False,0.6888243503769174,0.42303651398557074,ref_seq_expert,nonlinear,False
@@ -646,6 +666,7 @@ admissible,contact_order_len_resid,tfn_pretrained,True,0.429576584606791,0.98245
 admissible,radius_of_gyration_len_resid,ankh_base,False,0.747696062283509,0.5017261128686288,ref_seq_global,nonlinear,False
 admissible,radius_of_gyration_len_resid,cdconv,True,0.6708427134424009,0.996102855770422,ref_global@CA,linear,True
 admissible,radius_of_gyration_len_resid,dimenet,True,0.7747938965258075,0.996102855770422,ref_global@CA,linear,True
+admissible,radius_of_gyration_len_resid,dmasif,True,0.7604377905031042,0.996102855770422,ref_global,linear,True
 admissible,radius_of_gyration_len_resid,esm1b,False,0.7155510159707826,0.5017261128686288,ref_seq_global,nonlinear,False
 admissible,radius_of_gyration_len_resid,esm2_150m,False,0.7361567760280036,0.5017261128686288,ref_seq_global,nonlinear,False
 admissible,radius_of_gyration_len_resid,esm2_35m,False,0.7002349560089091,0.5017261128686288,ref_seq_global,nonlinear,False
@@ -679,6 +700,7 @@ admissible,radius_of_gyration_len_resid,tfn_pretrained,True,0.536475674815394,0.
 admissible,asphericity_len_resid,ankh_base,False,0.6940864162803755,0.46331948644758647,ref_seq_global,nonlinear,False
 admissible,asphericity_len_resid,cdconv,True,0.582697632220097,0.9584191830911987,ref_global@CA,nonlinear,True
 admissible,asphericity_len_resid,dimenet,True,0.7135635433295384,0.9584191830911987,ref_global@CA,nonlinear,True
+admissible,asphericity_len_resid,dmasif,True,0.6432305609896497,0.9584191830911987,ref_global,nonlinear,True
 admissible,asphericity_len_resid,esm1b,False,0.6748277541316009,0.46331948644758647,ref_seq_global,nonlinear,False
 admissible,asphericity_len_resid,esm2_150m,False,0.6659133937525527,0.46331948644758647,ref_seq_global,nonlinear,False
 admissible,asphericity_len_resid,esm2_35m,False,0.658747167282488,0.46331948644758647,ref_seq_global,nonlinear,False
@@ -712,6 +734,7 @@ admissible,asphericity_len_resid,tfn_pretrained,True,0.463426609504335,0.9584191
 validation,phi_circular,ankh_base,False,0.8876676732839458,0.8173593047740932,ref_seq_expert,nonlinear,False
 validation,phi_circular,cdconv,True,0.828090965864409,0.999738001460731,ref_global,nonlinear,True
 validation,phi_circular,dimenet,True,0.8045977598632089,0.999738001460731,ref_global,nonlinear,True
+validation,phi_circular,dmasif,True,0.7763637856578023,0.999738001460731,ref_global,nonlinear,True
 validation,phi_circular,esm1b,False,0.8714869062693782,0.8173593047740932,ref_seq_expert,nonlinear,False
 validation,phi_circular,esm2_150m,False,0.8772333941096466,0.8173593047740932,ref_seq_expert,nonlinear,False
 validation,phi_circular,esm2_35m,False,0.8642291426363254,0.8173593047740932,ref_seq_expert,nonlinear,False
@@ -744,6 +767,7 @@ validation,phi_circular,tfn_pretrained,True,0.8011841037797378,0.999738001460731
 validation,psi_circular,ankh_base,False,0.7807934553291012,0.5066432176755096,ref_seq_expert,nonlinear,False
 validation,psi_circular,cdconv,True,0.5926784206212676,0.9997749497247845,ref_global,nonlinear,True
 validation,psi_circular,dimenet,True,0.3482794812759257,0.9997749497247845,ref_global,nonlinear,True
+validation,psi_circular,dmasif,True,0.28276968853392287,0.9997749497247845,ref_global,nonlinear,True
 validation,psi_circular,esm1b,False,0.7226531957436547,0.5066432176755096,ref_seq_expert,nonlinear,False
 validation,psi_circular,esm2_150m,False,0.7478785192070578,0.5066432176755096,ref_seq_expert,nonlinear,False
 validation,psi_circular,esm2_35m,False,0.6939956186684234,0.5066432176755096,ref_seq_expert,nonlinear,False
@@ -776,6 +800,7 @@ validation,psi_circular,tfn_pretrained,True,0.3523385142287218,0.999774949724784
 validation,local_curvature,ankh_base,False,0.7867291154490275,0.5190228427697646,ref_seq_expert,nonlinear,False
 validation,local_curvature,cdconv,True,0.583762534471391,0.9997625524891484,ref_backbone,nonlinear,True
 validation,local_curvature,dimenet,True,0.3677406520979969,0.9997625524891484,ref_backbone,nonlinear,True
+validation,local_curvature,dmasif,True,0.30951446498011254,0.9997625524891484,ref_backbone,nonlinear,True
 validation,local_curvature,esm1b,False,0.7318968731205014,0.5190228427697646,ref_seq_expert,nonlinear,False
 validation,local_curvature,esm2_150m,False,0.7571135913076897,0.5190228427697646,ref_seq_expert,nonlinear,False
 validation,local_curvature,esm2_35m,False,0.7074807117175733,0.5190228427697646,ref_seq_expert,nonlinear,False
@@ -808,6 +833,7 @@ validation,local_curvature,tfn_pretrained,True,0.38085598063629583,0.99976255248
 validation,dssp_3,ankh_base,False,0.8361833100448193,0.6691337370328161,ref_seq_expert,nonlinear,False
 validation,dssp_3,cdconv,True,0.643852231256349,0.9312187907176913,ref_backbone,nonlinear,True
 validation,dssp_3,dimenet,True,0.5602784290738901,0.9312187907176913,ref_backbone,nonlinear,True
+validation,dssp_3,dmasif,True,0.5197318982403766,0.9312187907176913,ref_backbone,nonlinear,True
 validation,dssp_3,esm1b,False,0.8077363219219745,0.6691337370328161,ref_seq_expert,nonlinear,False
 validation,dssp_3,esm2_150m,False,0.8188415170978599,0.6691337370328161,ref_seq_expert,nonlinear,False
 validation,dssp_3,esm2_35m,False,0.7917957699922606,0.6691337370328161,ref_seq_expert,nonlinear,False
@@ -840,6 +866,7 @@ validation,dssp_3,tfn_pretrained,True,0.5922138118231178,0.9312187907176913,ref_
 validation,dssp_8,ankh_base,False,0.45320766943432894,0.29547613823265806,ref_seq_expert,nonlinear,False
 validation,dssp_8,cdconv,True,0.27263705128051097,0.7513220398649847,ref_backbone,nonlinear,True
 validation,dssp_8,dimenet,True,0.2221655671638518,0.7513220398649847,ref_backbone,nonlinear,True
+validation,dssp_8,dmasif,True,0.20806543640784103,0.7513220398649847,ref_backbone,nonlinear,True
 validation,dssp_8,esm1b,False,0.393693031625684,0.29547613823265806,ref_seq_expert,nonlinear,False
 validation,dssp_8,esm2_150m,False,0.42419788370529643,0.29547613823265806,ref_seq_expert,nonlinear,False
 validation,dssp_8,esm2_35m,False,0.37826587534891326,0.29547613823265806,ref_seq_expert,nonlinear,False
@@ -872,6 +899,7 @@ validation,dssp_8,tfn_pretrained,True,0.2299928459474486,0.7513220398649847,ref_
 validation,core_surface,ankh_base,False,0.7972224893129495,0.6650117956585263,ref_seq_global,nonlinear,False
 validation,core_surface,cdconv,True,0.8813234359561237,0.8972699092660233,ref_global,nonlinear,True
 validation,core_surface,dimenet,True,0.7872357992886353,0.8972699092660233,ref_global,nonlinear,True
+validation,core_surface,dmasif,True,0.8607342549206171,0.8972699092660233,ref_global,nonlinear,True
 validation,core_surface,esm1b,False,0.7808279646846263,0.6650117956585263,ref_seq_global,nonlinear,False
 validation,core_surface,esm2_150m,False,0.785973893975518,0.6650117956585263,ref_seq_global,nonlinear,False
 validation,core_surface,esm2_35m,False,0.7636311225305104,0.6650117956585263,ref_seq_global,nonlinear,False
@@ -904,6 +932,7 @@ validation,core_surface,tfn_pretrained,True,0.6972243229139071,0.897269909266023
 validation,contact_density,ankh_base,False,0.46967210799213915,0.3654368552957805,ref_seq_expert,nonlinear,False
 validation,contact_density,cdconv,True,0.5518072032235759,0.9837309171230971,ref_coords,nonlinear,True
 validation,contact_density,dimenet,True,0.4294829579661945,0.9837309171230971,ref_coords,nonlinear,True
+validation,contact_density,dmasif,True,0.4818437707994967,0.9837309171230971,ref_coords,nonlinear,True
 validation,contact_density,esm1b,False,0.4469224501693123,0.3654368552957805,ref_seq_expert,nonlinear,False
 validation,contact_density,esm2_150m,False,0.4439672402383457,0.3654368552957805,ref_seq_expert,nonlinear,False
 validation,contact_density,esm2_35m,False,0.42304606123498223,0.3654368552957805,ref_seq_expert,nonlinear,False
@@ -936,6 +965,7 @@ validation,contact_density,tfn_pretrained,True,0.3308147122354574,0.983730917123
 validation,distance_bins,ankh_base,False,0.23818417340138645,0.12268398345274438,ref_seq_expert,nonlinear,False
 validation,distance_bins,cdconv,True,0.14450284495779855,0.5556828457601578,ref_pairhist,nonlinear,True
 validation,distance_bins,dimenet,True,0.12903158666861417,0.5556828457601578,ref_pairhist,nonlinear,True
+validation,distance_bins,dmasif,True,0.1561979302998413,0.5556828457601578,ref_pairhist,nonlinear,True
 validation,distance_bins,esm1b,False,0.17555043763734415,0.12268398345274438,ref_seq_expert,nonlinear,False
 validation,distance_bins,esm2_150m,False,0.1675587939651074,0.12268398345274438,ref_seq_expert,nonlinear,False
 validation,distance_bins,esm2_35m,False,0.14392578011046067,0.12268398345274438,ref_seq_expert,nonlinear,False
@@ -968,6 +998,7 @@ validation,distance_bins,tfn_pretrained,True,0.20194268955698788,0.5556828457601
 validation,contact_order_len_resid,ankh_base,False,0.7616544317841321,0.42303651398557074,ref_seq_expert,nonlinear,False
 validation,contact_order_len_resid,cdconv,True,0.8592839066958755,0.9824515026169679,ref_pairhist,nonlinear,True
 validation,contact_order_len_resid,dimenet,True,0.5737920981602384,0.9824515026169679,ref_pairhist,nonlinear,True
+validation,contact_order_len_resid,dmasif,True,0.5225445588172346,0.9824515026169679,ref_pairhist,nonlinear,True
 validation,contact_order_len_resid,esm1b,False,0.7130842898342973,0.42303651398557074,ref_seq_expert,nonlinear,False
 validation,contact_order_len_resid,esm2_150m,False,0.7349125680179421,0.42303651398557074,ref_seq_expert,nonlinear,False
 validation,contact_order_len_resid,esm2_35m,False,0.6888243503769174,0.42303651398557074,ref_seq_expert,nonlinear,False
@@ -1001,6 +1032,7 @@ validation,contact_order_len_resid,tfn_pretrained,True,0.429576584606791,0.98245
 validation,radius_of_gyration_len_resid,ankh_base,False,0.747696062283509,0.48159216873473576,ref_seq_expert,nonlinear,False
 validation,radius_of_gyration_len_resid,cdconv,True,0.6708427134424009,0.9953944812275126,ref_global,nonlinear,True
 validation,radius_of_gyration_len_resid,dimenet,True,0.7747938965258075,0.9953944812275126,ref_global,nonlinear,True
+validation,radius_of_gyration_len_resid,dmasif,True,0.7604377905031042,0.9953944812275126,ref_global,nonlinear,True
 validation,radius_of_gyration_len_resid,esm1b,False,0.7155510159707826,0.48159216873473576,ref_seq_expert,nonlinear,False
 validation,radius_of_gyration_len_resid,esm2_150m,False,0.7361567760280036,0.48159216873473576,ref_seq_expert,nonlinear,False
 validation,radius_of_gyration_len_resid,esm2_35m,False,0.7002349560089091,0.48159216873473576,ref_seq_expert,nonlinear,False
@@ -1034,6 +1066,7 @@ validation,radius_of_gyration_len_resid,tfn_pretrained,True,0.536475674815394,0.
 validation,asphericity_len_resid,ankh_base,False,0.6940864162803755,0.4477241180590444,ref_seq_expert,nonlinear,False
 validation,asphericity_len_resid,cdconv,True,0.582697632220097,0.9584191830911987,ref_global,nonlinear,True
 validation,asphericity_len_resid,dimenet,True,0.7135635433295384,0.9584191830911987,ref_global,nonlinear,True
+validation,asphericity_len_resid,dmasif,True,0.6432305609896497,0.9584191830911987,ref_global,nonlinear,True
 validation,asphericity_len_resid,esm1b,False,0.6748277541316009,0.4477241180590444,ref_seq_expert,nonlinear,False
 validation,asphericity_len_resid,esm2_150m,False,0.6659133937525527,0.4477241180590444,ref_seq_expert,nonlinear,False
 validation,asphericity_len_resid,esm2_35m,False,0.658747167282488,0.4477241180590444,ref_seq_expert,nonlinear,False
@@ -1067,6 +1100,7 @@ validation,asphericity_len_resid,tfn_pretrained,True,0.463426609504335,0.9584191
 both,phi_circular,ankh_base,False,0.8876676732839458,0.8173593047740932,ref_seq_expert,nonlinear,False
 both,phi_circular,cdconv,True,0.828090965864409,0.9367221550899393,ref_global@CA,nonlinear,True
 both,phi_circular,dimenet,True,0.8045977598632089,0.9367221550899393,ref_global@CA,nonlinear,True
+both,phi_circular,dmasif,True,0.7763637856578023,0.999738001460731,ref_global,nonlinear,True
 both,phi_circular,esm1b,False,0.8714869062693782,0.8173593047740932,ref_seq_expert,nonlinear,False
 both,phi_circular,esm2_150m,False,0.8772333941096466,0.8173593047740932,ref_seq_expert,nonlinear,False
 both,phi_circular,esm2_35m,False,0.8642291426363254,0.8173593047740932,ref_seq_expert,nonlinear,False
@@ -1099,6 +1133,7 @@ both,phi_circular,tfn_pretrained,True,0.8011841037797378,0.9367221550899393,ref_
 both,psi_circular,ankh_base,False,0.7807934553291012,0.5066432176755096,ref_seq_expert,nonlinear,False
 both,psi_circular,cdconv,True,0.5926784206212676,0.9475103845827321,ref_backbone@CA,nonlinear,True
 both,psi_circular,dimenet,True,0.3482794812759257,0.9475103845827321,ref_backbone@CA,nonlinear,True
+both,psi_circular,dmasif,True,0.28276968853392287,0.9997749497247845,ref_global,nonlinear,True
 both,psi_circular,esm1b,False,0.7226531957436547,0.5066432176755096,ref_seq_expert,nonlinear,False
 both,psi_circular,esm2_150m,False,0.7478785192070578,0.5066432176755096,ref_seq_expert,nonlinear,False
 both,psi_circular,esm2_35m,False,0.6939956186684234,0.5066432176755096,ref_seq_expert,nonlinear,False
@@ -1131,6 +1166,7 @@ both,psi_circular,tfn_pretrained,True,0.3523385142287218,0.9475103845827321,ref_
 both,local_curvature,ankh_base,False,0.7867291154490275,0.5190228427697646,ref_seq_expert,nonlinear,False
 both,local_curvature,cdconv,True,0.583762534471391,0.9999071427180198,ref_global@CA,nonlinear,True
 both,local_curvature,dimenet,True,0.3677406520979969,0.9999071427180198,ref_global@CA,nonlinear,True
+both,local_curvature,dmasif,True,0.30951446498011254,0.9997625524891484,ref_backbone,nonlinear,True
 both,local_curvature,esm1b,False,0.7318968731205014,0.5190228427697646,ref_seq_expert,nonlinear,False
 both,local_curvature,esm2_150m,False,0.7571135913076897,0.5190228427697646,ref_seq_expert,nonlinear,False
 both,local_curvature,esm2_35m,False,0.7074807117175733,0.5190228427697646,ref_seq_expert,nonlinear,False
@@ -1163,6 +1199,7 @@ both,local_curvature,tfn_pretrained,True,0.38085598063629583,0.9999071427180198,
 both,dssp_3,ankh_base,False,0.8361833100448193,0.6691337370328161,ref_seq_expert,nonlinear,False
 both,dssp_3,cdconv,True,0.643852231256349,0.9008867146678395,ref_global@CA,nonlinear,True
 both,dssp_3,dimenet,True,0.5602784290738901,0.9008867146678395,ref_global@CA,nonlinear,True
+both,dssp_3,dmasif,True,0.5197318982403766,0.9312187907176913,ref_backbone,nonlinear,True
 both,dssp_3,esm1b,False,0.8077363219219745,0.6691337370328161,ref_seq_expert,nonlinear,False
 both,dssp_3,esm2_150m,False,0.8188415170978599,0.6691337370328161,ref_seq_expert,nonlinear,False
 both,dssp_3,esm2_35m,False,0.7917957699922606,0.6691337370328161,ref_seq_expert,nonlinear,False
@@ -1195,6 +1232,7 @@ both,dssp_3,tfn_pretrained,True,0.5922138118231178,0.9008867146678395,ref_global
 both,dssp_8,ankh_base,False,0.45320766943432894,0.29547613823265806,ref_seq_expert,nonlinear,False
 both,dssp_8,cdconv,True,0.27263705128051097,0.6488994960203016,ref_backbone@CA,nonlinear,True
 both,dssp_8,dimenet,True,0.2221655671638518,0.6488994960203016,ref_backbone@CA,nonlinear,True
+both,dssp_8,dmasif,True,0.20806543640784103,0.7513220398649847,ref_backbone,nonlinear,True
 both,dssp_8,esm1b,False,0.393693031625684,0.29547613823265806,ref_seq_expert,nonlinear,False
 both,dssp_8,esm2_150m,False,0.42419788370529643,0.29547613823265806,ref_seq_expert,nonlinear,False
 both,dssp_8,esm2_35m,False,0.37826587534891326,0.29547613823265806,ref_seq_expert,nonlinear,False
@@ -1227,6 +1265,7 @@ both,dssp_8,tfn_pretrained,True,0.2299928459474486,0.6488994960203016,ref_backbo
 both,core_surface,ankh_base,False,0.7972224893129495,0.6650117956585263,ref_seq_global,nonlinear,False
 both,core_surface,cdconv,True,0.8813234359561237,0.8934602560064889,ref_backbone@CA,nonlinear,True
 both,core_surface,dimenet,True,0.7872357992886353,0.8934602560064889,ref_backbone@CA,nonlinear,True
+both,core_surface,dmasif,True,0.8607342549206171,0.8972699092660233,ref_global,nonlinear,True
 both,core_surface,esm1b,False,0.7808279646846263,0.6650117956585263,ref_seq_global,nonlinear,False
 both,core_surface,esm2_150m,False,0.785973893975518,0.6650117956585263,ref_seq_global,nonlinear,False
 both,core_surface,esm2_35m,False,0.7636311225305104,0.6650117956585263,ref_seq_global,nonlinear,False
@@ -1259,6 +1298,7 @@ both,core_surface,tfn_pretrained,True,0.6972243229139071,0.8934602560064889,ref_
 both,contact_density,ankh_base,False,0.46967210799213915,0.3654368552957805,ref_seq_expert,nonlinear,False
 both,contact_density,cdconv,True,0.5518072032235759,0.9837309171230971,ref_coords,nonlinear,True
 both,contact_density,dimenet,True,0.4294829579661945,0.9837309171230971,ref_coords,nonlinear,True
+both,contact_density,dmasif,True,0.4818437707994967,0.9837309171230971,ref_coords,nonlinear,True
 both,contact_density,esm1b,False,0.4469224501693123,0.3654368552957805,ref_seq_expert,nonlinear,False
 both,contact_density,esm2_150m,False,0.4439672402383457,0.3654368552957805,ref_seq_expert,nonlinear,False
 both,contact_density,esm2_35m,False,0.42304606123498223,0.3654368552957805,ref_seq_expert,nonlinear,False
@@ -1291,6 +1331,7 @@ both,contact_density,tfn_pretrained,True,0.3308147122354574,0.9837309171230971,r
 both,distance_bins,ankh_base,False,0.23818417340138645,0.12268398345274438,ref_seq_expert,nonlinear,False
 both,distance_bins,cdconv,True,0.14450284495779855,0.5556828457601578,ref_pairhist,nonlinear,True
 both,distance_bins,dimenet,True,0.12903158666861417,0.5556828457601578,ref_pairhist,nonlinear,True
+both,distance_bins,dmasif,True,0.1561979302998413,0.5556828457601578,ref_pairhist,nonlinear,True
 both,distance_bins,esm1b,False,0.17555043763734415,0.12268398345274438,ref_seq_expert,nonlinear,False
 both,distance_bins,esm2_150m,False,0.1675587939651074,0.12268398345274438,ref_seq_expert,nonlinear,False
 both,distance_bins,esm2_35m,False,0.14392578011046067,0.12268398345274438,ref_seq_expert,nonlinear,False
@@ -1323,6 +1364,7 @@ both,distance_bins,tfn_pretrained,True,0.20194268955698788,0.5556828457601578,re
 both,contact_order_len_resid,ankh_base,False,0.7616544317841321,0.42303651398557074,ref_seq_expert,nonlinear,False
 both,contact_order_len_resid,cdconv,True,0.8592839066958755,0.9824515026169679,ref_pairhist,nonlinear,True
 both,contact_order_len_resid,dimenet,True,0.5737920981602384,0.9824515026169679,ref_pairhist,nonlinear,True
+both,contact_order_len_resid,dmasif,True,0.5225445588172346,0.9824515026169679,ref_pairhist,nonlinear,True
 both,contact_order_len_resid,esm1b,False,0.7130842898342973,0.42303651398557074,ref_seq_expert,nonlinear,False
 both,contact_order_len_resid,esm2_150m,False,0.7349125680179421,0.42303651398557074,ref_seq_expert,nonlinear,False
 both,contact_order_len_resid,esm2_35m,False,0.6888243503769174,0.42303651398557074,ref_seq_expert,nonlinear,False
@@ -1356,6 +1398,7 @@ both,contact_order_len_resid,tfn_pretrained,True,0.429576584606791,0.98245150261
 both,radius_of_gyration_len_resid,ankh_base,False,0.747696062283509,0.48159216873473576,ref_seq_expert,nonlinear,False
 both,radius_of_gyration_len_resid,cdconv,True,0.6708427134424009,0.9953944812275126,ref_global@CA,nonlinear,True
 both,radius_of_gyration_len_resid,dimenet,True,0.7747938965258075,0.9953944812275126,ref_global@CA,nonlinear,True
+both,radius_of_gyration_len_resid,dmasif,True,0.7604377905031042,0.9953944812275126,ref_global,nonlinear,True
 both,radius_of_gyration_len_resid,esm1b,False,0.7155510159707826,0.48159216873473576,ref_seq_expert,nonlinear,False
 both,radius_of_gyration_len_resid,esm2_150m,False,0.7361567760280036,0.48159216873473576,ref_seq_expert,nonlinear,False
 both,radius_of_gyration_len_resid,esm2_35m,False,0.7002349560089091,0.48159216873473576,ref_seq_expert,nonlinear,False
@@ -1389,6 +1432,7 @@ both,radius_of_gyration_len_resid,tfn_pretrained,True,0.536475674815394,0.995394
 both,asphericity_len_resid,ankh_base,False,0.6940864162803755,0.4477241180590444,ref_seq_expert,nonlinear,False
 both,asphericity_len_resid,cdconv,True,0.582697632220097,0.9584191830911987,ref_global@CA,nonlinear,True
 both,asphericity_len_resid,dimenet,True,0.7135635433295384,0.9584191830911987,ref_global@CA,nonlinear,True
+both,asphericity_len_resid,dmasif,True,0.6432305609896497,0.9584191830911987,ref_global,nonlinear,True
 both,asphericity_len_resid,esm1b,False,0.6748277541316009,0.4477241180590444,ref_seq_expert,nonlinear,False
 both,asphericity_len_resid,esm2_150m,False,0.6659133937525527,0.4477241180590444,ref_seq_expert,nonlinear,False
 both,asphericity_len_resid,esm2_35m,False,0.658747167282488,0.4477241180590444,ref_seq_expert,nonlinear,False

@@ -49,7 +49,7 @@ NAME = {"esm1b": "ESM-1b", "prottrans_t5_xl_u50": "ProtT5-XL", "protbert_bfd": "
         "pottsmpnn_pretrained": "PottsMPNN-pre", "pottsmpnn_soluble": "PottsMPNN-sol",
         "pottsmpnn_ft": "PottsMPNN-ft", "gearnet_pretrained": "GearNet-pre", "tfn_pretrained": "TFN-pre",
         "ipa_pretrained": "IPA-pre", "gcpnet_pretrained": "GCPNet-pre", "esm_if1": "ESM-IF1", "saprot": "SaProt",
-        "esm3": "ESM3", "foldseek_3di": "Foldseek 3Di", "foldvision": "FoldVision"}
+        "esm3": "ESM3", "foldseek_3di": "Foldseek 3Di", "foldvision": "FoldVision", "dmasif": "dMaSIF"}
 
 
 def scores(paths):
@@ -138,7 +138,7 @@ def main():
     S.to_csv(RES / "floor_rules_counts.csv", index=False)
     M.assign(floors=M.floors.map(lambda f: " ".join(f))).to_csv(RES / "floor_admissibility.csv")
     rel = S[S.rule == "released"].set_index("coordinates")
-    assert (int(rel.loc[True, "sum"]), int(rel.loc[True, "count"])) == (233, 245), rel
+    assert (int(rel.loc[True, "sum"]), int(rel.loc[True, "count"])) == (244, 256), rel   # 24 coordinate-reading encoders after dMaSIF was added (233 of 245 for 23)
     assert (int(rel.loc[False, "sum"]), int(rel.loc[False, "count"])) == (0, 110), rel
     moved = D.pivot_table(index=["probe", "encoder"], columns="rule", values="below").astype(bool)
     if a.latex_counts:

@@ -20,7 +20,7 @@ or the intervention alone explains:
 - it controls concept-erasure experiments for the representation capacity removed together with the property, and
   asks whether adding the property back repairs its own erasure.
 
-The release covers 33 encoders, 21 probes and ten downstream tasks. The section
+The release covers 34 encoders, 21 probes and ten downstream tasks. The section
 [Reproducing each table and figure](#reproducing-each-table-and-figure) maps every table and figure of the
 manuscript and of its Supporting Information (SI) to the script and the result files behind it.
 
@@ -118,18 +118,18 @@ results in `protcompass/erasure/`.
 
 ## Encoder panel and input audit
 
-33 encoders: 9 sequence-based, 19 structure-based and 5 multimodal (declared classes).
+34 encoders: 9 sequence-based, 20 structure-based and 5 multimodal (declared classes).
 
 | Class | Encoders |
 |---|---|
 | Sequence (9) | Ankh, ESM-1b, ESM2-8M, ESM2-35M, ESM2-150M, ESM2-650M, ESM2-3B, ProtBert, ProtT5-XL |
-| Structure (19) | DimeNet, ESM-IF1, Foldseek (3Di), GCPNet (random and pretrained), GVP, GearNet (random and pretrained), IPA (random and pretrained), MACE, PottsMPNN (random, pretrained, soluble, fine-tuned), ProteinMPNN, SchNet, TFN (random and pretrained) |
+| Structure (20) | DimeNet, dMaSIF, ESM-IF1, Foldseek (3Di), GCPNet (random and pretrained), GVP, GearNet (random and pretrained), IPA (random and pretrained), MACE, PottsMPNN (random, pretrained, soluble, fine-tuned), ProteinMPNN, SchNet, TFN (random and pretrained) |
 | Multimodal (5) | CDConv, ESM3, FoldVision, ProstT5, SaProt |
 
 **Input audit** (`protcompass/extract/input_audit.py`, `atom_audit.py`, `sidechain_audit.py`). The same 32 proteins
 are perturbed by swapping or jittering coordinates, shuffling the sequence, and rotating or translating the structure.
 Coordinate swapping tests whether an encoder uses coordinates, sequence shuffling whether it uses residue identity,
-and rigid-body motion is a sanity check. The audit finds 10 encoders that do not read coordinates and 23 that do.
+and rigid-body motion is a sanity check. The audit finds 10 encoders that do not read coordinates and 24 that do.
 ProstT5 is declared multimodal and measured sequence-only. An encoder fails the audit when its embeddings do not
 respond to an input that the extraction supplies to it; the 10 encoders that do not read coordinates receive only the
 amino-acid sequence. EGNN (a randomly initialized network that received coordinates and whose embeddings do not change
@@ -183,13 +183,13 @@ reported.
 
 **Structural probing** (Results, "Input References Reveal What Structural Probes Measure"; Table 1 and
 Figure 2; SI Section S2).
-- Across the 245 coordinate-encoder–label comparisons on determined labels, 231 score below their input-matched
+- Across the 256 coordinate-encoder–label comparisons on determined labels, 242 score below their input-matched
   floor, 3 are unresolved and 11 score above it; none of the 110 sequence-only comparisons falls below its sequence
   floor.
-- Removing contact density and contact order, whose floors contain the target: 186 of 200 coordinate comparisons fall
+- Removing contact density and contact order, whose floors contain the target: 195 of 209 coordinate comparisons fall
   below the floor, against 0 of 90 sequence-only comparisons.
-- A label-agnostic neighbourhood floor (K = 8) gives 131 of 176 against 0 of 80. On the four determined labels with
-  weaker floors, 74 of 88 coordinate comparisons fall below, including 35 of 48 pretrained comparisons.
+- A label-agnostic neighbourhood floor (K = 8) gives 139 of 184 against 0 of 80. On the four determined labels with
+  weaker floors, 78 of 92 coordinate comparisons fall below, including 39 of 52 pretrained comparisons.
 - On labels the input does not determine, encoders beat every written floor on relative solvent accessibility,
   B-factor and fold architecture.
 
@@ -197,12 +197,12 @@ Figure 2; SI Section S2).
 
 **Downstream prediction** (Results, "Sequence References Reveal Task-Dependent Predictive Value"; Figure 3; SI
 Section S3).
-- Sequence-only encoders achieve higher mean performance on all ten tasks. The advantage ranges from 0.090 to 0.473
-  on nine tasks, with a mean gap of 0.186 across the panel; eight of these task-level differences remain significant
-  after Holm correction. On PPI affinity the gap is 0.011, against a mean seed standard deviation of 0.101.
+- Sequence-only encoders achieve higher mean performance on all ten tasks. The advantage ranges from 0.091 to 0.483
+  on nine tasks, with a mean gap of 0.189 across the panel; eight of these task-level differences remain significant
+  after Holm correction. On PPI affinity the gap is 0.009, against a mean seed standard deviation of 0.100.
 - Restricted to pretrained models with at least 100M parameters (eight sequence-only, four coordinate-reading),
   sequence-only models score higher on eight of ten tasks, and the average gap shrinks to 0.048 and is not resolved
-  across architecture families (+0.049 [−0.016, +0.114]; permutation p = 0.093).
+  across architecture families (+0.049 [−0.016, +0.114]; permutation p = 0.097).
 - The composition-and-length reference comes within 0.02 of the median encoder on solubility, GO-BP, localization and
   fluorescence. On these four tasks the best encoder exceeds it by 0.119–0.235, and the median of the eight pretrained
   sequence encoders with at least 100M parameters exceeds it by 0.103–0.205.
@@ -210,7 +210,7 @@ Section S3).
   the reference by at most 0.038 on nine tasks and raises it to 0.428 on PPI affinity, where the composition reference
   varies between seeds (seed SD 0.286). Adding the 400 dipeptide frequencies changes it by at most 0.021 on six tasks
   and raises it from 0.086 to 0.372 on EC classification, from 0.090 to 0.388 on stability, from 0.362 to 0.605 on
-  fluorescence and from 0.091 to 0.488 on PPI affinity; 17, 13, 0 and 1 of the 33 encoders exceed this extended
+  fluorescence and from 0.091 to 0.488 on PPI affinity; 17, 13, 0 and 1 of the 34 encoders exceed this extended
   reference on the four tasks (SI Table S10, panel b). This analysis was added on 2026-11-13 and was not pre-specified;
   all five variants that were scored are reported.
 - Median seed standard deviation of the downstream cells: 0.0059.
@@ -221,31 +221,31 @@ Section S3).
 Section S4).
 - LEACE lowers the linear readout of the erased property from a median 0.669 to −0.003; nonlinear readouts keep much
   of it. Synthetic tests recover a property that is used and give effects within ±0.007 when it is not.
-- Against the sham, eight task–property pairs show a consistent drop, but the real erasure removes a median 3.6× more
+- Against the sham, eight task–property pairs show a consistent drop, but the real erasure removes a median 3.4× more
   representation variance than the sham. Against the variance-matched null, two of the eight remain consistent, and
-  one of these does not reproduce on held-out proteins. The variance match is within 1% on 62% of audited cells and
-  within 5% on 84%.
+  one of these does not reproduce on held-out proteins. The variance match is within 1% on 60% of audited cells and
+  within 5% on 83%.
 - Over 60 task–property pairs the repair rule names seven candidates: four on PPI affinity, two on fluorescence, and
   amino-acid composition on stability.
 - The four PPI signals disappear when training and test share no protein chains. On fluorescence, simple mutation
   statistics alone reach Spearman ρ = 0.49; with them included, the repairs for composition and burial/packing fall to
   +0.004 and +0.0003.
 - Composition on stability remains: with the same competing features it restores +0.100 and is positive for 30 of 32
-  encoders; a kernel-based intervention gives +0.085 on 32 of 33 encoders. The composition of the parent protein carries
+  encoders; a kernel-based intervention gives +0.084 on 33 of 34 encoders. The composition of the parent protein carries
   the signal (+0.085 on 29 of 32 encoders); the composition change introduced by the mutation does not (+0.002).
 
 <p align="center"><img src="figures/Figure4.png" alt="Figure 4" width="760"></p>
 
 **Rankings across prediction levels** (Results, "Sequence References Reveal Task-Dependent Predictive Value";
 Supplementary Fig. S1; SI Section S6). On residue-pair contacts, coordinate-reading and
-sequence-only encoders perform similarly on average (AUPRC 0.263 against 0.247, one-sided Mann–Whitney p = 0.35), and
-an encoder's contact rank is only weakly related to its rank on the ten pooled tasks (ρ = 0.22). The pooled ranking
-transfers to interface-residue prediction (ρ = 0.73).
+sequence-only encoders perform similarly on average (AUPRC 0.261 against 0.247, one-sided Mann–Whitney p = 0.33), and
+an encoder's contact rank is only weakly related to its rank on the ten pooled tasks (ρ = 0.20). The pooled ranking
+transfers to interface-residue prediction (ρ = 0.74).
 
 <p align="center"><img src="figures/residue_rankings.png" alt="Supplementary Fig. S1" width="620"></p>
 
 **Robustness** (SI Sections S2.6, S3.6 and S4.8). After projecting all representations to 116 dimensions, the mean sequence-only lead on the
-downstream tasks is 0.164, against 0.186 at native widths. Keeping the vector channels of four equivariant encoders
+downstream tasks is 0.169, against 0.189 at native widths. Keeping the vector channels of four equivariant encoders
 raises their probe scores, and all 44 determined encoder–label comparisons stay below their input floors. With a
 nonlinear head the stability composition signal is positive on 7 of 12 encoders.
 
@@ -254,9 +254,12 @@ nonlinear head the stability composition signal is positive on 7 of 12 encoders.
 (Results, "Input References Reveal What Structural Probes Measure" and "Controlled Erasure and Repair Link Parent
 Protein Composition to Stability Prediction"; SI Section S5, Tables S26 to S33.)
 
-- **Unseen CATH topologies.** On 1,924 domains from unseen CATH topologies, 234 of 245 coordinate cells remain below
-  their floor and no sequence-only cell does; undetermined labels show larger margins by +0.178 [+0.146, +0.217].
-  The hypotheses were frozen before scoring (`protcompass/symmetric/freeze_topology.json` and its sha256).
+- **Unseen CATH topologies.** On 1,924 domains from unseen CATH topologies, 245 of 256 coordinate cells remain below
+  their floor and no sequence-only cell does; undetermined labels show larger margins by +0.189 [+0.152, +0.237].
+  The hypotheses were frozen before scoring with the 33 encoders of the panel at that time
+  (`protcompass/symmetric/freeze_topology.json` and its sha256), for which the counts are 234 of 245 and
+  +0.178 [+0.146, +0.217] (`protcompass/symmetric/topology_frozen_panel33/`). dMaSIF was scored afterwards under the
+  same frozen protocol.
 - **Pre-registered new labels.** On three new labels whose determinacy and floors were fixed before scoring, every
   determined family falls below its floor and undetermined families shift upward by +0.136 [+0.081, +0.188]
   (`protcompass/prereg/freeze.json`, `freeze.sha256.json`, `decision.json`, `decision_cohortB.json`,
@@ -273,7 +276,7 @@ Protein Composition to Stability Prediction"; SI Section S5, Tables S26 to S33.)
 The atlas is released with this repository and is not part of the manuscript or its Supporting Information.
 
 The atlas maps where every encoder places the proteins of each scored task, one layer per task (about 2,000 proteins
-per layer, stratified by class, seed 42), for all 33 encoders (32 on remote homology). Each embedding is mean-pooled,
+per layer, stratified by class, seed 42), for the 33 encoders of the panel at the time it was built (32 on remote homology); dMaSIF joined the panel later and is not in the atlas. Each embedding is mean-pooled,
 reduced by UMAP (k = 10, seed 42) and Procrustes-aligned to ESM2-150M. Encoders are compared by debiased linear CKA and
 k-nearest-neighbour overlap on the full embeddings, and each panel is scored by 10-NN label purity.
 
@@ -309,7 +312,7 @@ changed line. The `.sha256` files are the checksums recorded before scoring and 
   unresolved; 54 of the 55 determined cells of the random versions and 53 of the 55 of the pretrained versions are
   below the floor.
 - **Fixed-head erasure** (SI Section S4.5, Table S22; `protcompass/erasure/ab_fixed_head/`). A head fitted once on the intact representation is
-  scored on erased inputs. The fixed-head rule names three pairs: burial and packing on fluorescence (+0.056, 33 of 33
+  scored on erased inputs. The fixed-head rule names three pairs: burial and packing on fluorescence (+0.055, 34 of 34
   encoders), composition on fluorescence (+0.031, 26 of 32) and composition on solubility (+0.021, 30 of 32).
   Composition on stability has a positive mean (+0.047) but is positive on 21 of 32 encoders (Holm p = 0.22).
 - **Stability composition decomposition** (SI Section S4.7, Table S24; `protcompass/erasure/ab_stability_decomp/`). The composition descriptor is
@@ -371,10 +374,10 @@ benchmark; the manuscript does not use them.
 
 | Hugging Face path (= path under `protcompass/`) | Contents | Size |
 |---|---|---|
-| `extract/embeddings/<task>/<encoder>/` | pooled embeddings (`train/valid/test.npy`, `ids_*.txt`, `meta.json`) of the 33 encoders and the composition reference on the ten tasks | 6.5 GB |
+| `extract/embeddings/<task>/<encoder>/` | pooled embeddings (`train/valid/test.npy`, `ids_*.txt`, `meta.json`) of 33 encoders (all but dMaSIF, whose embeddings are regenerated with `extract/patched/dmasif_official.py`) and the composition reference on the ten tasks | 6.5 GB |
 | `extract/manifest/*.csv` | task manifests: id, split, sequence, structure file, label (the three smaller ones are also in this repository) | 0.12 GB |
 | `extract/pairs/ppi_affinity_pairs.csv`, `extract/encoder_input_audit.csv`, `encoder_atom_audit.csv`, `encoder_sidechain_audit.csv` | PPI pairs and input audit (also in this repository) | <0.01 GB |
-| `probing_embeddings/<encoder>/` | per-residue and pooled embeddings of the 33 encoders on the 19,461 CATH 4.3 domains | 96.9 GB |
+| `probing_embeddings/<encoder>/` | per-residue and pooled embeddings of the same 33 encoders on the 19,461 CATH 4.3 domains | 96.9 GB |
 | `probing_embeddings_vframe/` | GVP, GCPNet and MACE with the direction of their vector channels kept | 5.2 GB |
 | `probing_data/labels.h5`, `probing_data/splits/` | probe labels, coordinates and splits | 0.32 GB |
 | `extract/ab_modality/embeddings/`, `extract/ab_modality/probing_embeddings/` | ESM3 and SaProt without structure input, and SaProt with shuffled 3Di tokens | 1.5 GB, 23.5 GB |
@@ -435,6 +438,10 @@ The TFN-pre and IPA-pre weights (read from `protcompass/checkpoints/tfn_pretrain
 `protcompass/checkpoints/ipa_pretrained/best.pt`) were taken from the models' released repositories and are not
 redistributed here.
 
+dMaSIF runs from a clone of https://github.com/FreyrS/dMaSIF (commit 0dcc26c) under `protcompass/external_repos/dMaSIF`
+with its released checkpoint `models/dMaSIF_search_3layer_12A_16dim`; hydrogens are added with `reduce`
+(`protcompass/ENVIRONMENT.md`).
+
 The sequence and multimodal models (ESM-1b, ESM2, ProtBert, ProtT5, Ankh, ProstT5, SaProt, FoldVision) load from the
 Hugging Face hub, ESM-IF1 through `torch.hub` from the ESM release, and Foldseek 3Di states are computed by the
 `mini3di` package. The exact identifiers and revisions are in `protcompass/paper/generated/encoder_inventory.tex` and in
@@ -473,7 +480,7 @@ git clone <this repository> ProtCompass && cd ProtCompass/protcompass
 # optional: export PROTCOMPASS_ROOT=/path/to/ProtCompass   (defaults to the repository root)
 
 # Tables, printed as LaTeX
-python scripts/emit_downstream_table.py scores          # full downstream table (33 x 10; SI Table S16)
+python scripts/emit_downstream_table.py scores          # full downstream table (34 x 10; SI Table S16)
 python scripts/emit_latex_tables.py downstream-reference # composition-and-length reference (SI Table S10)
 python scripts/downstream_reference_variants.py --latex  # reference variants (SI Table S10, panel b)
 # repair rule over the 60 task-property pairs (SI Table S21 lists the seven pairs it names)
@@ -513,7 +520,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | Introduction | Figure 1: Overview of ProtCompass and its evaluation framework | – | `figures/Figure1.png` | repo |
 | Results, "Input References Reveal What Structural Probes Measure" | Figure 2: Structural probing performance of protein encoders and input references | `scripts/make_figures_unified.py`, `scripts/make_figure2_symmetric.py`, `scripts/make_panels_original_style.py` | `symmetric/results_superfamily/by_source/*.csv`, `extract/encoder_input_audit.csv`, `probing_results/floor_assignment.csv`, `symmetric/figure2_symmetric_values.csv`, `figures/Figure2.png` | repo |
 | Results, "Input References Reveal What Structural Probes Measure" | Table 1: Structural probing compared with input references | `scripts/symmetric_run.py`, `scripts/symmetric_decide.py`, `scripts/headline_reanalysis.py` | `symmetric/cells_superfamily.csv`, `symmetric/counts_superfamily.csv`, `symmetric/cells_topology.csv`, `symmetric/counts_topology.csv`, `symmetric/headline_reanalysis.json`, `symmetric/hypotheses_superfamily.json` | repo |
-| Results, "Sequence References Reveal Task-Dependent Predictive Value" | Figure 3: Downstream predictive performance of 33 protein encoders across ten biological tasks | `scripts/make_figures_unified.py`, `scripts/make_panels_original_style.py`, `extract/score2.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `figures/Figure3.png` | repo |
+| Results, "Sequence References Reveal Task-Dependent Predictive Value" | Figure 3: Downstream predictive performance of 34 protein encoders across ten biological tasks | `scripts/make_figures_unified.py`, `scripts/make_panels_original_style.py`, `extract/score2.py` | `extract/scores2_wide.csv`, `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `figures/Figure3.png` | repo |
 | Results, "Controlled Erasure and Repair Link Parent Protein Composition to Stability Prediction" | Figure 4: Property erasure and selective repair across ten biological prediction tasks | `scripts/make_figures_unified.py`, `scripts/exclusion_bounds.py`, `scripts/named_pair_verdicts.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/parts/erasure_v2_*.csv`, `erasure/parts/erasure_control_*.csv`, `erasure/named_pair_verdicts_full.csv`, `erasure/named_pair_cells_full.csv`, `figures/Figure4.png` | repo |
 
 **SI Section S1: Encoder Panel and Input Audit**
@@ -523,7 +530,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | S1.1 | Table S1: Evaluated encoder panel (the same script emits the probe inventory behind Table S3) | `scripts/emit_inventory.py` | `extract/encoder_input_audit.csv`, `extract/scores2_selected.csv`, `extract/embeddings/stability/*/meta.json`, `probing_results/floor_vs_encoders.csv`, `probing_results/by_source/esm2_650m.csv`, `paper/generated/probe_inventory.tex`, `paper/generated/encoder_inventory.tex` | repo |
 | S1.1, S1.3, S1.4 | Text: Encoder panel, input audit and excluded implementations | `extract/input_audit.py` | `extract/encoder_input_audit.csv`, `extract/scores2_long.csv` | repo |
 | S1.2 | Text: Encoder read-out rules | `extract/common.py` | `extract/embeddings/*/*/meta.json` | repo |
-| S1.3 | Table S2: Atom inputs detected among the 23 coordinate-reading encoders | `extract/atom_audit.py`, `scripts/floor_rules.py` | `probing_results/floor_admissibility.csv`, `probing_results_atom/by_source/*.csv`, `probing_results_val/by_source/*.csv`, `probing_results_atom_val/by_source/*.csv`, `extract/encoder_atom_audit.csv`, `paper/generated/floor_admissibility.tex`, `paper/generated/floor_rules_counts.tex` | repo |
+| S1.3 | Table S2: Atom inputs detected among the 24 coordinate-reading encoders | `extract/atom_audit.py`, `scripts/floor_rules.py` | `probing_results/floor_admissibility.csv`, `probing_results_atom/by_source/*.csv`, `probing_results_val/by_source/*.csv`, `probing_results_atom_val/by_source/*.csv`, `extract/encoder_atom_audit.csv`, `paper/generated/floor_admissibility.tex`, `paper/generated/floor_rules_counts.tex` | repo |
 
 **SI Section S2: Structural Probing and Input-Matched References**
 
@@ -583,10 +590,10 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | S4.2 | Text: Nonlinear synthetic outcome | `scripts/emit_latex_tables.py`, `scripts/erasure_positive_control.py` | `erasure/positive_control_nonlinear.csv`, `erasure/positive_control_nonlinear_verdict.csv`, `paper/generated/nonlinear_control.tex` | repo |
 | S4.2 | Table S19: Property recoverability before and after LEACE | `scripts/emit_latex_tables.py`, `scripts/recoverability_check.py` | `erasure/recoverability_check.csv`, `paper/generated/recoverability.tex` | repo |
 | S4.2 | Text: Eraser against the reference LEACE implementation | `qd/leace_check/leace_check.py`, `qd/leace_check/basis_panel.py`, `qd/leace_check/exact_panel.py`, `qd/leace_check/identity_check.py`, `qd/leace_check/summarize.py`, `qd/leace_check/floor_test.py` | `qd/leace_check/results.csv`, `qd/leace_check/results_basis.csv`, `qd/leace_check/results_basis_panel.csv`, `qd/leace_check/identity_check.csv` | repo |
-| S4.3 | Text: Sham variance audit | `scripts/sham_variance_audit.py`, `scripts/panel.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv` | repo |
-| S4.3 | Text: Variance match of the control | `scripts/sham_variance_audit.py`, `scripts/named_pair_verdicts.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_cells.csv` | repo |
+| S4.3 | Text: Sham variance audit | `scripts/sham_variance_audit.py`, `scripts/panel.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/sham_variance_audit__dmasif.csv`, `erasure/sham_variance_audit_b__dmasif.csv` | repo |
+| S4.3 | Text: Variance match of the control | `scripts/sham_variance_audit.py`, `scripts/named_pair_verdicts.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/sham_variance_audit__dmasif.csv`, `erasure/sham_variance_audit_b__dmasif.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_cells.csv` | repo |
 | S4.3 | Table S20: Effects of nine task-property candidates against the sham and the variance-matched control | `scripts/erasure.py`, `scripts/addback_named_pairs.py`, `scripts/common_struct.py` | `erasure/concepts/fluorescence.npz`, `erasure/concepts/ppi_affinity.npz`, `extract/manifest/fluorescence.csv`, `extract/pairs/ppi_affinity_pairs.csv` | repo; Hugging Face |
-| S4.3 | Table S20 (as above) | – | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/named_pair_cells_full.csv` | repo |
+| S4.3 | Table S20 (as above) | – | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/sham_variance_audit__dmasif.csv`, `erasure/sham_variance_audit_b__dmasif.csv`, `erasure/named_pair_cells_full.csv` | repo |
 | S4.3 | Table S20 (as above) | `scripts/matched_null_stage1_report.py`, `scripts/erasure_v2.py`, `scripts/addback_named_pairs.py` | `erasure/matched_null_stage1.csv`, `erasure/named_pair_verdicts_full.csv`, `extract/scores2_selected.csv`, `extract/scores2_long.csv`, `erasure/parts_matched/*.csv`, `paper/generated/matched_null_stage1.tex` | repo |
 | S4.4 | Table S21: The seven pairs meeting the selective-repair rule (the released tables list all 60 pairs) | – | `paper/generated/named_pairs_full.tex`, `paper/generated/bighead_holdout.tex` | repo |
 | S4.4 | Table S21 (as above) | `scripts/named_pair_verdicts.py`, `scripts/addback_named_pairs.py`, `scripts/emit_named_pairs_with_families.py`, `scripts/family_weighted_repair.py` | `erasure/named_pairs_full/*.csv`, `erasure/named_pairs_full_remote/*.csv`, `erasure/named_pairs_full_remote_partial/*.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_verdicts_full.csv`, `paper/generated/named_pairs_full.tex`, `erasure/named_pairs_full_families.tex`, `paper/generated/named_pairs_full_families.tex`, `erasure/family_weighted_repair_full.csv` | repo |

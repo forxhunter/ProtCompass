@@ -2,6 +2,7 @@ probe,encoder,margin,floor,esm3,sidechain
 rsa,ankh_base,-0.13929088515781718,ref_global,False,False
 rsa,cdconv,-0.0327877567252135,ref_global,False,False
 rsa,dimenet,-0.10253877843088133,ref_global,False,False
+rsa,dmasif,0.052858448167787286,ref_global,False,True
 rsa,esm1b,-0.16766781963006117,ref_global,False,False
 rsa,esm2_150m,-0.1552432904464034,ref_global,False,False
 rsa,esm2_35m,-0.19973033685654862,ref_global,False,False
@@ -34,6 +35,7 @@ rsa,tfn_pretrained,-0.35066111544553347,ref_global,False,False
 rsa_bins,ankh_base,-0.1003478033366938,ref_global,False,False
 rsa_bins,cdconv,-0.05415891592465627,ref_global,False,False
 rsa_bins,dimenet,-0.1030100765168529,ref_global,False,False
+rsa_bins,dmasif,0.08652383545103637,ref_global,False,True
 rsa_bins,esm1b,-0.12579864275221608,ref_global,False,False
 rsa_bins,esm2_150m,-0.11898994612751312,ref_global,False,False
 rsa_bins,esm2_35m,-0.1511702336998153,ref_global,False,False
@@ -66,6 +68,7 @@ rsa_bins,tfn_pretrained,-0.25849225380882734,ref_global,False,False
 bfactor,ankh_base,-0.03950510093148829,ref_global,False,False
 bfactor,cdconv,-0.08687538713603005,ref_global,False,False
 bfactor,dimenet,-0.09573603228924382,ref_global,False,False
+bfactor,dmasif,-0.029920025437053743,ref_global,False,True
 bfactor,esm1b,-0.0578853482911772,ref_global,False,False
 bfactor,esm2_150m,-0.048510382227636484,ref_global,False,False
 bfactor,esm2_35m,-0.08236721121089374,ref_global,False,False

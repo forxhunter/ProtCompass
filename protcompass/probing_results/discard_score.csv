@@ -28,6 +28,7 @@ cdconv,0.321,9,619184,256,0,multi
 schnet,0.3562,9,244480,128,0,struct
 dimenet,0.3757,9,362752,128,0,struct
 mace,0.3787,9,584064,128,0,struct
+dmasif,0.3969,9,15194,16,1,struct
 tfn_pretrained,0.4259,9,250880,128,1,struct
 tfn,0.4279,9,250880,128,0,struct
 gearnet,0.4345,9,6641408,512,0,struct

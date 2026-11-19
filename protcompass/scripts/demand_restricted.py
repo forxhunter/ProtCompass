@@ -1,6 +1,6 @@
 """The demand rule restricted to encoders that can exhibit an effect at all.
 
-The sign test runs over all 33 encoders and the detection bound is computed from their spread. Some of those
+The sign test runs over all 34 encoders and the detection bound is computed from their spread. Some of those
 encoders score at or near the non-learned composition reference on the task: GearNet-pretrained reaches 0.036 on
 EC against a sequence-group mean of 0.745. Erasing a subspace from a representation that already scores at the
 floor cannot produce a drop, so those cells contribute noise to the sign test and width to the spread the detection

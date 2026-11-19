@@ -184,6 +184,9 @@ SPECS = [
     Spec("saprot", "patched", "saprot_hf", "pretrained", True, True, "final hidden states at the L residue positions of AA+3Di tokens", paper="SaProt",
          note="needs real 3Di tokens"),
     Spec("esm3", "patched", "esm3_inproc", "pretrained", True, True, "final trunk residue embeddings, sequence and structure tracks", paper="ESM3"),
+    Spec("dmasif", "patched", "dmasif_official", "pretrained", True, True,
+         "16-d surface descriptors (embedding_1) of the official search model, mean over the surface points nearest to each residue",
+         paper="dMaSIF", env="dmasif", note="surface model; hydrogens added with reduce as in the official preprocessing; fixed seed and principal-axis pose"),
     # token models handled during the atlas re-extraction
     Spec("foldseek_3di", "patched", "foldseek_3di", "pretrained", True, False, "one-hot 3Di state per residue; protein level is the state frequency", paper="Foldseek"),
     Spec("geobpe", "patched", "geobpe_freq", "pretrained", True, False, "normalised frequency of the quantised GeoBPE token stream (bpe_iter=220); no residue states",

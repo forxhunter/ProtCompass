@@ -104,7 +104,7 @@ def main():
         print("\\end{tabular}")
         print(f"% {a.task}: coordinate mean {out['mean_crd']:.4f} (n={out['n_crd']}) against sequence-only "
               f"{out['mean_seq']:.4f} (n={out['n_seq']}), Mann-Whitney one-sided p={out['mw_p']:.2f}; Spearman with "
-              f"pooled standing rho={out['rho']:+.3f}, p={out['rho_p']:.2g}; mean ranks over the 33 panel encoders")
+              f"pooled standing rho={out['rho']:+.3f}, p={out['rho_p']:.2g}; mean ranks over the {len(panel())} panel encoders")
         return
     for k, v in out.items():
         print(f"{k:16s} {v}")

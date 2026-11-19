@@ -56,7 +56,7 @@ def main():
     fam, pick = matrix()
     uses = P.audit()
     encs = [s for s in fam.index if not s.startswith("ref_") and s in uses.index]
-    assert len(encs) == 33, len(encs)
+    assert len(encs) == 34, len(encs)
     groups = {k: sorted([e for e in encs if P.declared(e) == k], key=lambda e: -fam.loc[e].mean())
               for k in ("seq", "struct", "multi")}
     seq_floor = fam.loc[SEQ_FLOORS].max()

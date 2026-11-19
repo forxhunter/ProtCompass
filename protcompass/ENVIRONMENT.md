@@ -15,6 +15,10 @@ details of the original record are omitted from this copy.
   is not part of this release; install the package with `pip install sentencepiece==0.2.2` instead. The FoldVision
   and CDConv environments used two similar directories: `pylib_foldvision/` (h5py 3.16.0) and `extract/pylib_cdc5090/`
   (h5py 3.16.0, pandas 3.0.6, python-dateutil 2.9.0.post0, pytz 2026.3.post1). They are not released either.
+- dMaSIF was extracted in the main environment with one more directory on `PYTHONPATH`, `pylib_dmasif/` (pykeops 2.3,
+  keopscore 2.3, plyfile 1.1.5, pyvtk 0.5.18, pybind11 3.1.0), which is not released. The extractor
+  (`extract/patched/dmasif_official.py`) reads a clone of https://github.com/FreyrS/dMaSIF at commit 0dcc26c from
+  `DMASIF_REPO` (default `protcompass/external_repos/dMaSIF`) and the `reduce` binary from `DMASIF_REDUCE`.
 
 ## Outputs computed on a second machine
 
@@ -31,6 +35,12 @@ The affected outputs are:
 of variance from the local refit, by up to 0.34 on one cell. Code, embeddings, property caches, manifests and pairs
 have identical md5 on both machines. The only identified difference is the numerical-library environment. Both runs
 keep the same pairs under the matched-null effect rule (Appendix, matched-null subsection).
+
+**dMaSIF (added on 2026-11-18).** The dMaSIF embeddings of 28,503 structures (five downstream tasks and part of the
+probing set) were computed on a third machine with an RTX 4090 and PyTorch 2.8.0, from a worklist of parsed atom
+records (`extract/remote_dmasif/`); the other structures were computed locally. For 60 structures computed on both
+machines the largest absolute difference between the two embeddings is 2.1e-6. Every analysis of the dMaSIF
+embeddings ran locally in the main environment, including the fluorescence and PPI-affinity cells of the repair grid.
 
 ## Analyses added on 2026-09-25 (all local, main environment)
 

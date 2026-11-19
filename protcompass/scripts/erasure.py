@@ -64,8 +64,11 @@ def leace_eraser(X, Z, ridge=1e-6):
     # range(P). Erasing leaves r directions with near-zero variance; standardising those back to unit variance would
     # resurrect the concept from numerical residue, so the erased data is expressed in an orthonormal basis of
     # range(P): (d - r) coordinates, full rank, nothing to rescale.
+    # A nonzero projection has a largest singular value of at least 1. When the concept spans the whole representation
+    # (r = d, a 16-d encoder against the 20 composition fractions) P is numerically zero, and a threshold relative to
+    # sv[0] would keep d directions of rounding noise; the floor of 1 returns an empty basis, which the callers skip.
     q, sv, _ = np.linalg.svd(P, full_matrices=False)
-    B = q[:, sv > sv[0] * 1e-8]
+    B = q[:, sv > max(sv[0], 1.0) * 1e-8]
     return mu, P, r, B
 
 

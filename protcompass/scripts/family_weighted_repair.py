@@ -1,6 +1,6 @@
 """The repair rule with one vote per architecture family, and with each family left out in turn.
 
-The naming rule of Section 4.3 runs its sign test over encoders, and the 33 encoders are not independent draws: the
+The naming rule of Section 4.3 runs its sign test over encoders, and the 34 encoders are not independent draws: the
 ESM-2 scales, the PottsMPNN variants, and random and pretrained runs of one network share most of what a sign test
 counts. This script applies the same rule to the repair contrast against the variance-matched null with the encoders
 first averaged inside an architecture family (the families of scripts/family_weighted_demand.py), and repeats it with

@@ -75,7 +75,7 @@ DISP = {"esm2_650m": "ESM2-650M", "esm2_150m": "ESM2-150M", "esm2_35m": "ESM2-35
         "pottsmpnn_soluble": "PottsMPNN-sol", "gearnet": "GearNet", "gearnet_pretrained": "GearNet-pre",
         "gcpnet_random": "GCPNet", "gcpnet_pretrained": "GCPNet-pre", "gvp": "GVP", "tfn": "TFN",
         "tfn_pretrained": "TFN-pre", "ipa": "IPA", "ipa_pretrained": "IPA-pre", "schnet": "SchNet",
-        "dimenet": "DimeNet", "mace": "MACE", "cdconv": "CDConv"}
+        "dimenet": "DimeNet", "mace": "MACE", "cdconv": "CDConv", "dmasif": "dMaSIF"}
 
 
 def audit():

@@ -1,6 +1,6 @@
 """Every number of Appendix sec:appendix_uncertainty, recomputed from the released per-seed tables.
 
-Probing: the nonlinear readout (mlp2, pair_mlp) is the seeded one; a cell is (source, probe) over the 33 encoders and
+Probing: the nonlinear readout (mlp2, pair_mlp) is the seeded one; a cell is (source, probe) over the 34 encoders and
 the ten released floors, on the paper's headline metric (Pearson, else circular cosine, else balanced accuracy).
 Downstream: the selected probe of each of the 329 encoder cells (extract/scores2_selected.csv).
 

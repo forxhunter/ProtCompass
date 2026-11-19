@@ -1,0 +1,46 @@
+{
+ "encoder": "dmasif",
+ "family": "patched",
+ "target": "dmasif_official",
+ "weights": "pretrained",
+ "rule": "16-d surface descriptors (embedding_1) of the official search model, mean over the surface points nearest to each residue",
+ "env": "base",
+ "checkpoint": "protcompass/external_repos/dMaSIF/models/dMaSIF_search_3layer_12A_16dim",
+ "repository": "https://github.com/FreyrS/dMaSIF",
+ "repository_commit": "0dcc26c",
+ "n_parameters": 15194,
+ "checkpoint_loaded_by": "strict load of 'model_state_dict': 180 tensors",
+ "inputs_passed": "all atoms of the structure file with hydrogens added by reduce (elements and coordinates); residue identity enters through side-chain atoms",
+ "patch": "patched/dmasif_official.py",
+ "seed": 20260919,
+ "atoms_of_other_elements_omitted": {},
+ "pose": "principal-axis pose of the CA trace with fixed axis signs, applied before hydrogens are added",
+ "task": "stability",
+ "date": "2026-11-18 16:31",
+ "seconds": 209.8,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/stability.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 3000,
+  "train": 6000,
+  "valid": 1500
+ },
+ "health": {
+  "n_rows": 10500,
+  "dim": 16,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 10500,
+  "numerical_rank": 16,
+  "max_abs": 1.7484853267669678
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.3430325390587839,
+  "rel_change_coord_swap": 0.13397732019725253,
+  "rel_change_seq_shuffle": 0.03287942566697047,
+  "rel_change_rigid_motion": 0.0010307555822610583,
+  "verdict": "pass"
+ }
+}

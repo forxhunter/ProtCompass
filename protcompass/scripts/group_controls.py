@@ -55,7 +55,7 @@ FAMILY = {"esm2_8m": "ESM-2", "esm2_35m": "ESM-2", "esm2_150m": "ESM-2", "esm2_6
           "pottsmpnn_soluble": "MPNN", "gearnet": "GearNet", "gearnet_pretrained": "GearNet",
           "gcpnet_random": "GCPNet", "gcpnet_pretrained": "GCPNet", "gvp": "GVP", "tfn": "TFN",
           "tfn_pretrained": "TFN", "ipa": "IPA", "ipa_pretrained": "IPA", "schnet": "SchNet",
-          "dimenet": "DimeNet", "mace": "MACE"}
+          "dimenet": "DimeNet", "mace": "MACE", "dmasif": "dMaSIF"}
 
 
 def meta():
