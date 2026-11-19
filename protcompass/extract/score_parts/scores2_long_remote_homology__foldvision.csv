@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+remote_homology,foldvision,linear,0,1.0,accuracy,0.15756302521008403,4.2914276123046875,6000,476,1024,895
+remote_homology,foldvision,linear,1,1.0,accuracy,0.15546218487394958,4.298919677734375,6000,476,1024,895
+remote_homology,foldvision,linear,2,1.0,accuracy,0.15546218487394958,4.27297306060791,6000,476,1024,895
+remote_homology,foldvision,mlp2,0,1.0,accuracy,0.14915966386554622,4.275216579437256,6000,476,1024,895
+remote_homology,foldvision,mlp2,1,1.0,accuracy,0.14705882352941177,4.316159248352051,6000,476,1024,895
+remote_homology,foldvision,mlp2,2,1.0,accuracy,0.17436974789915966,4.321915149688721,6000,476,1024,895

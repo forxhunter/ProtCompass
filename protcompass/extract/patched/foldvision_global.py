@@ -34,9 +34,12 @@ def write_canonical_copy(src, dst):
     if np.linalg.det(rot) < 0:
         rot[2] *= -1.0
     new = (xyz - centre) @ rot.T
+    # FoldVision's preprocessing splits each line on white space and reads only the coordinates and the element
+    # column. A file whose occupancy fills its field (SCOPe writes -99.00 for some atoms) leaves no space after z and
+    # the split fails, so the occupancy and B-factor fields are written as constants here.
     with open(dst, "w") as fh:
         for l, (x, y, z) in zip(lines, new):
-            fh.write(f"{l[:30]}{x:8.3f}{y:8.3f}{z:8.3f}{l[54:]}")
+            fh.write(f"{l[:30]}{x:8.3f}{y:8.3f}{z:8.3f}  1.00  0.00{l[66:].rstrip()}\n")
         fh.write("END\n")
 
 

@@ -1,0 +1,49 @@
+{
+ "encoder": "foldvision",
+ "family": "patched",
+ "target": "foldvision_global",
+ "weights": "pretrained",
+ "rule": "native FoldVisionEncoder.encode global embedding; no residue states",
+ "env": "base",
+ "checkpoint": "AlexanderKroll/foldvision-encoder",
+ "n_parameters": 122226304,
+ "inputs_passed": "the structure file as given (all atoms present in it), voxelised by FoldVision's own preprocessing",
+ "patch": "patched/foldvision_global.py",
+ "residue_level": false,
+ "pose": "principal-axis pose with fixed axis signs, applied to the structure file before voxelisation",
+ "task": "remote_homology",
+ "date": "2026-11-19 14:43",
+ "seconds": 1333.3,
+ "pooling": "masked mean over all residues of the chain",
+ "manifest": "manifest/remote_homology.csv",
+ "rows": "stage1 == 1",
+ "structure_coverage": "every row has a structure file whose sequence equals the task sequence (see manifest/coverage.csv)",
+ "n_per_split": {
+  "test": 480,
+  "train": 6000,
+  "valid": 506
+ },
+ "health": {
+  "n_rows": 6986,
+  "dim": 1024,
+  "nan_values": 0,
+  "all_zero_rows": 0,
+  "distinct_rows": 6986,
+  "numerical_rank": 1024,
+  "max_abs": 4.243710517883301
+ },
+ "input_audit": {
+  "rel_change_jitter_1A": 0.9399117827415466,
+  "rel_change_coord_swap": 0.1916034966707229,
+  "rel_change_seq_shuffle": 0.0293238116428256,
+  "rel_change_rigid_motion": 0.0002744854864431,
+  "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 0.0021473169326782227,
+  "max_relative_difference": 0.0007287318585440516,
+  "recomputed": "on the first machine, CPU"
+ }
+}

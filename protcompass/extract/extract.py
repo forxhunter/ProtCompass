@@ -134,12 +134,12 @@ def probing_subset(data, n_train=2000, n_test=1000, seed=0):
     return np.sort(np.concatenate([rng.choice(tr, n_train, replace=False), rng.choice(te, n_test, replace=False)]))
 
 
-def run_probing(key, layers, limit, labels=None, out_root=None):
+def run_probing(key, layers, limit, labels=None, out_root=None, structures=None):
     """Extract on the probing dataset. `labels` and `out_root` default to the released pair, so passing neither
     reproduces the released run exactly; the confirmation cohort passes its own labels file and output root."""
     sys.path.insert(0, str(ROOT / "." / "probing_data"))
     from probing_dataset import ProbingData
-    data = ProbingData(Path(labels)) if labels else ProbingData()
+    data = ProbingData(Path(labels), structures=structures) if labels else ProbingData()
     PROBE_OUT = Path(out_root) if out_root else globals()["PROBE_OUT"]
     dataset_name = labels or "protcompass/probing_data/labels.h5"
     lengths, offsets = data.length.astype(np.int64), data.offset.astype(np.int64)
@@ -253,8 +253,10 @@ if __name__ == "__main__":
     ap.add_argument("--out-root", default=None, help="alternative embeddings root for a held-out extraction")
     ap.add_argument("--probing-out", default=None,
                     help="an alternative output root for --task probing; the default is protcompass/probing_embeddings")
+    ap.add_argument("--probing-structures", default=None,
+                    help="folder of <id>.pdb files for --probing-labels, for the encoders that read a structure file")
     a = ap.parse_args()
     if a.task == "probing":
-        run_probing(a.encoder, a.layers, a.limit, a.probing_labels, a.probing_out)
+        run_probing(a.encoder, a.layers, a.limit, a.probing_labels, a.probing_out, a.probing_structures)
     else:
         run_downstream(a.encoder, a.task, a.full, a.limit, a.ids_file, a.out_root)

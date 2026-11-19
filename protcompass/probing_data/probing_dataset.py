@@ -24,8 +24,10 @@ PROTEIN_LABELS = ["contact_order", "radius_of_gyration", "asphericity"]
 
 
 class ProbingData:
-    def __init__(self, path=ROOT / "labels.h5"):
+    def __init__(self, path=ROOT / "labels.h5", structures=None):
+        """`structures`: folder of <id>.pdb files for a labels file other than the released one."""
         self.h = h5py.File(path, "r")
+        self.structures = Path(structures) if structures else ROOT / "structures"
         p = self.h["protein"]
         self.ids = [x.decode() for x in p["id"][:]]
         self.length = p["length"][:]
@@ -45,7 +47,7 @@ class ProbingData:
     def protein(self, i):
         r = self._rows(i)
         return {"id": self.ids[i], "coords": self.h["residue/coords"][r], "sequence": self.h["residue/aa"][r].astype(np.int64),
-                "mask": np.ones(int(self.length[i]), dtype=bool), "pdb_path": str(ROOT / "structures" / f"{self.ids[i]}.pdb")}
+                "mask": np.ones(int(self.length[i]), dtype=bool), "pdb_path": str(self.structures / f"{self.ids[i]}.pdb")}
 
     def residue_labels(self, i, names=RESIDUE_LABELS):
         r = self._rows(i)

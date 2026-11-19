@@ -42,6 +42,23 @@ records (`extract/remote_dmasif/`); the other structures were computed locally. 
 machines the largest absolute difference between the two embeddings is 2.1e-6. Every analysis of the dMaSIF
 embeddings ran locally in the main environment, including the fluorescence and PPI-affinity cells of the repair grid.
 
+**Cells added on 2026-11-19.** Two gaps of the panel were filled on the same third machine (RTX 4090, PyTorch 2.8.0),
+with `extract/common.py` and the wrappers in `extract/patched/` unchanged apart from the root path
+(`extract/remote_gap/gap_worker.py`):
+
+- FoldVision on remote homology. The earlier run stopped at a SCOPe file whose occupancy field fills its columns,
+  which FoldVision's white-space parser cannot split; `extract/patched/foldvision_global.py` now writes the occupancy
+  and B-factor fields as constants (FoldVision reads neither). Embeddings stored before the change are reproduced.
+- The interface task for SaProt, both GCPNet variants (third machine) and Foldseek 3Di (first machine, CPU). The
+  GCPNets read the all-atom files of `scripts/masif_write_structures.py`.
+
+`extract/remote_gap/finalize_gap.py` recomputes twelve proteins per encoder on the first machine (CPU) before it
+writes the embeddings; the largest relative difference is 2.1e-4 for SaProt and both GCPNets and 7.3e-4 for
+FoldVision, and each `meta.json` records it under `remote_check`. The downstream scores, the erasure cells, the
+repair grid and the variance audit of FoldVision on remote homology, and the interface probe of the four encoders,
+were also fitted on the third machine (`extract/remote_gap/prep_score.py`), with scikit-learn 1.7.2, SciPy 1.15.3 and
+pandas 2.3.3 as in the main environment. Summaries and tables were rebuilt locally.
+
 ## Analyses added on 2026-09-25 (all local, main environment)
 
 | Directory | Contents |

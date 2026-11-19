@@ -162,9 +162,9 @@
     "assignments": 210,
     "min_two_sided_p": 0.009523809523809525,
     "holm_first_threshold": 0.005,
-    "mean_gap": 0.04891055555555555,
-    "boot_lo": -0.01594697916666666,
-    "boot_hi": 0.11357991666666666
+    "mean_gap": 0.053828888888888884,
+    "boot_lo": -0.015771173611111095,
+    "boot_hi": 0.12375699999999999
   },
   "per_encoder_determinacy": {
     "determined": {
@@ -303,6 +303,6 @@
     "seq_families": 6,
     "crd_families": 8,
     "tasks_seq_leads": 10,
-    "mean_gap": 0.13586452083333334
+    "mean_gap": 0.13675358333333332
   }
 }

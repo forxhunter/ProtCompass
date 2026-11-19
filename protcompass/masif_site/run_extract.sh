@@ -1,8 +1,11 @@
 #!/bin/bash
 export PROTCOMPASS_ROOT="${PROTCOMPASS_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)}"  # release: repository root
 # Residue-level extraction on the MaSIF-site chains, one encoder at a time, three passes so that an encoder that
-# ran out of GPU memory next to the erasure grid is retried. The five encoders left out read a PDB file
-# (SaProt, Foldseek 3Di, both GCPNets) or need a separate environment (CDConv); GeoBPE and FoldVision have no residue states.
+# ran out of GPU memory next to the erasure grid is retried. This script covers 28 encoders. SaProt, Foldseek 3Di
+# and both GCPNet variants were added afterwards: the first two from the backbone coordinates of labels.h5, the
+# GCPNets from the all-atom files of scripts/masif_write_structures.py (extract.py --probing-structures). dMaSIF
+# is not scored on this task because its checkpoint was trained on 307 of the 348 test structures; GeoBPE and
+# FoldVision have no residue states.
 cd "$PROTCOMPASS_ROOT/protcompass/extract"
 L=$PROTCOMPASS_ROOT/protcompass/masif_site/labels.h5
 O=$PROTCOMPASS_ROOT/protcompass/masif_site/embeddings

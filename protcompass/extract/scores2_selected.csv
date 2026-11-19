@@ -222,6 +222,7 @@ remote_homology,esm2_8m,0.1975,0.0042,3
 remote_homology,esm3,0.4027,0.0012,3
 remote_homology,esm_if1,0.3585,0.0032,3
 remote_homology,foldseek_3di,0.1534,0.0036,3
+remote_homology,foldvision,0.1562,0.0012,3
 remote_homology,gcpnet_pretrained,0.1345,0.0042,3
 remote_homology,gcpnet_random,0.1071,0.0036,3
 remote_homology,gearnet,0.0469,0.0053,3

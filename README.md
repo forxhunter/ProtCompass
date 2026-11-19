@@ -133,8 +133,9 @@ and rigid-body motion is a sanity check. The audit finds 10 encoders that do not
 ProstT5 is declared multimodal and measured sequence-only. An encoder fails the audit when its embeddings do not
 respond to an input that the extraction supplies to it; the 10 encoders that do not read coordinates receive only the
 amino-acid sequence. EGNN (a randomly initialized network that received coordinates and whose embeddings do not change
-when the coordinates change) and GeoBPE (its output changes under a rigid motion) failed the audit and are not
-released. A second audit records which atoms each coordinate-reading encoder uses, so that its floor
+when the coordinates change: the egnn-pytorch default initialisation has standard deviation 1e-3) and GeoBPE (its
+token frequencies change by 5% to 27% when coordinates move by 0.001 Å) do not meet the audit criteria and are not
+part of the panel. A second audit records which atoms each coordinate-reading encoder uses, so that its floor
 is built from the same atoms. Results: `protcompass/extract/encoder_input_audit.csv`, `encoder_atom_audit.csv`,
 `encoder_sidechain_audit.csv`; the full panel with checkpoints is `protcompass/paper/generated/encoder_inventory.tex`
 (SI Table S1).
@@ -201,8 +202,8 @@ Section S3).
   on nine tasks, with a mean gap of 0.189 across the panel; eight of these task-level differences remain significant
   after Holm correction. On PPI affinity the gap is 0.009, against a mean seed standard deviation of 0.100.
 - Restricted to pretrained models with at least 100M parameters (eight sequence-only, four coordinate-reading),
-  sequence-only models score higher on eight of ten tasks, and the average gap shrinks to 0.048 and is not resolved
-  across architecture families (+0.049 [−0.016, +0.114]; permutation p = 0.097).
+  sequence-only models score higher on eight of ten tasks, and the average gap shrinks to 0.052 and is not resolved
+  across architecture families (+0.054 [−0.016, +0.124]; permutation p = 0.076).
 - The composition-and-length reference comes within 0.02 of the median encoder on solubility, GO-BP, localization and
   fluorescence. On these four tasks the best encoder exceeds it by 0.119–0.235, and the median of the eight pretrained
   sequence encoders with at least 100M parameters exceeds it by 0.103–0.205.
@@ -240,7 +241,7 @@ Section S4).
 Supplementary Fig. S1; SI Section S6). On residue-pair contacts, coordinate-reading and
 sequence-only encoders perform similarly on average (AUPRC 0.261 against 0.247, one-sided Mann–Whitney p = 0.33), and
 an encoder's contact rank is only weakly related to its rank on the ten pooled tasks (ρ = 0.20). The pooled ranking
-transfers to interface-residue prediction (ρ = 0.74).
+transfers to interface-residue prediction (ρ = 0.76 over 32 encoders).
 
 <p align="center"><img src="figures/residue_rankings.png" alt="Supplementary Fig. S1" width="620"></p>
 
@@ -572,7 +573,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | S3.5 | Tables S13 and S14: Sequence-only minus coordinate-reading performance under nested restrictions, and additional group-comparison diagnostics | `scripts/group_controls.py` | `extract/scores2_selected.csv` | repo |
 | S3.5 | Tables S13 and S14 (as above) | `scripts/headline_reanalysis.py` | `symmetric/headline_reanalysis.json` | repo |
 | S3.5 | Tables S13 and S14 (as above) | `scripts/emit_latex_tables.py`, `scripts/group_controls.py` | `extract/scores2_selected.csv`, `extract/encoder_input_audit.csv`, `extract/embeddings/stability/*/meta.json`, `paper/generated/group_controls.tex` | repo |
-| S3.5 | Tables S13 and S14 (as above) | `scripts/emit_group_controls_merged.py`, `scripts/group_controls.py`, `scripts/group_controls_multiplicity.py`, `scripts/fixed_dim_report.py`, `extract/score2_fixed_dim.py` | `extract/group_controls_multiplicity.csv`, `extract/score_fixed_dim/group_summary.csv`, `extract/group_controls_merged.tex`, `paper/generated/group_controls_merged.tex` | repo |
+| S3.5 | Tables S13 and S14 (as above) | `scripts/emit_group_controls_merged.py`, `scripts/group_controls.py`, `scripts/group_controls_multiplicity.py`, `scripts/group_family_bootstrap.py`, `scripts/fixed_dim_report.py`, `extract/score2_fixed_dim.py` | `extract/group_controls_multiplicity.csv`, `extract/score_fixed_dim/group_summary.csv`, `extract/group_controls_merged.tex`, `paper/generated/group_controls_merged.tex` | repo |
 | S3.5 | Tables S13 and S14 (as above) | `scripts/group_controls_multiplicity.py` | `extract/scores2_selected.csv`, `extract/group_controls_holm.csv`, `extract/group_controls_multiplicity.csv`, `paper/generated/group_controls_multiplicity.tex` | repo |
 | S3.5, S3.6 | Tables S13 and S14 (as above): representations projected to 116 dimensions | `scripts/fixed_dim_report.py`, `extract/score2_fixed_dim.py` | `extract/score_fixed_dim/*.csv`, `paper/generated/fixed_dim.tex` | repo |
 | S3.5 | Text: Group gap (all encoders) | `scripts/emit_latex_tables.py`, `scripts/group_controls.py` | `extract/scores2_wide.csv`, `extract/encoder_input_audit.csv`, `paper/generated/group_controls.tex` | repo |
@@ -636,7 +637,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 |---|---|---|---|---|
 | S6.1 | Table S34: The two residue-resolved tasks | `scripts/residue_readout_report.py` | `contact_task/contact_group_summary.csv`, `masif_site/masif_group_summary.csv` | repo |
 | S6.3 | Figure S1: Encoder rankings on pooled and residue-level prediction tasks | `scripts/make_figures_unified.py`, `scripts/residue_readout_report.py` | `paper/generated/residue_rankings.csv`, `paper/generated/contact_task.tex`, `paper/generated/masif_task.tex`, `figures/residue_rankings.png` | repo |
-| S6.4 | Text: Interface task construction | `scripts/masif_build_labels.py`, `scripts/masif_interface_probe.py` | `masif_site/summary.json`, `masif_site/exclusions.csv`, `masif_site/labels.h5` | repo; Hugging Face |
+| S6.4 | Text: Interface task construction | `scripts/masif_build_labels.py`, `scripts/masif_write_structures.py`, `scripts/masif_interface_probe.py` | `masif_site/summary.json`, `masif_site/exclusions.csv`, `masif_site/labels.h5` | repo; Hugging Face |
 | S6.6 | Table S35: Complete encoder ranking on the two residue-level tasks | `scripts/t8_contact_task.py`, `scripts/residue_readout_report.py` | `contact_task/contact_auprc.csv`, `contact_task/contact_group_summary.csv`, `contact_task/protocol.json`, `paper/generated/contact_task.tex` | repo |
 | S6.6 | Table S35 (as above) | `scripts/emit_residue_tasks_merged.py`, `scripts/residue_readout_report.py` | `contact_task/contact_auprc.csv`, `masif_site/results/by_source/*.csv`, `contact_task/residue_tasks_merged.tex`, `paper/generated/residue_tasks_merged.tex` | repo |
 | S6.6 | Table S35 (as above); Table S36: Input-derived reference scores on interface-residue prediction | `scripts/masif_interface_probe.py`, `scripts/residue_readout_report.py` | `masif_site/results/by_source/*.csv`, `masif_site/masif_group_summary.csv`, `paper/generated/masif_task.tex` | repo |

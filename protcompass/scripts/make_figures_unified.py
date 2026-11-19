@@ -262,7 +262,7 @@ def fig3():
 
     h_meas = [Line2D([], [], color=MEASURED[k], lw=3, solid_capstyle="butt", label=MEASURED_LABEL[k])
               for k in (False, True)]
-    legend_in(fig, h_meas + H_DECLARED + [H_MISSING], 1.6, 0.42, ncol=3)
+    legend_in(fig, h_meas + H_DECLARED + ([H_MISSING] if np.isnan(w.values).any() else []), 1.6, 0.42, ncol=3)
     save(fig, "Figure3")
     med = w.median()
     print("fig3 check: reference within 0.02 of the encoder median on",
@@ -406,7 +406,7 @@ def _read_table(name):
 def fig_residue():
     contact, interface = _read_table("contact_task.tex"), _read_table("masif_task.tex")
     names = sorted(contact.keys() & interface.keys(), key=lambda k: contact[k][3])
-    assert len(names) == 12
+    assert len(names) == 13
     for k in names:
         assert contact[k][3] == interface[k][3]
     height = ROW * len(names)

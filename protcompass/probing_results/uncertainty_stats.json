@@ -1,44 +1,44 @@
 {
  "probing": {
-  "cells": 885,
-  "median": 0.0029171908498365215,
-  "mean": 0.006250370995304891,
+  "cells": 906,
+  "median": 0.002874436815941628,
+  "mean": 0.006189332734714899,
   "max": 0.10360401154435757,
   "max_cell": [
    "gearnet_pretrained",
    "asphericity"
   ],
   "per_probe_median": {
-   "architecture_label": 0.0108397461697071,
-   "asphericity": 0.008351736924609962,
+   "architecture_label": 0.010713539944487073,
+   "asphericity": 0.008357461720087452,
    "asphericity_len_resid": 0.010423514746194669,
-   "bfactor": 0.001306660259437359,
-   "contact_density": 0.00689063407317253,
-   "contact_order": 0.011336177545835045,
-   "contact_order_len_resid": 0.01261857255706642,
-   "core_surface": 0.002490370872895286,
-   "distance_bins": 0.0025784161131512545,
-   "dssp_3": 0.0018080056313267926,
-   "dssp_8": 0.0032224609604496164,
-   "local_curvature": 0.0008156740823970334,
-   "phi_angle_bins": 0.0018499882710148146,
-   "phi_circular": 0.00034000202680476474,
-   "psi_angle_bins": 0.0013157734539981736,
-   "psi_circular": 0.0010180018745346684,
-   "radius_of_gyration": 0.011358709580549308,
-   "radius_of_gyration_len_resid": 0.010140399704291534,
-   "rsa": 0.0006331018414276509,
-   "rsa_bins": 0.002180800953395027,
-   "sequence_recovery": 0.00014379733722410054
+   "bfactor": 0.0013346088937900627,
+   "contact_density": 0.0064633959606922265,
+   "contact_order": 0.010744244556674257,
+   "contact_order_len_resid": 0.012608499689812869,
+   "core_surface": 0.0025172521163912003,
+   "distance_bins": 0.002492907276587381,
+   "dssp_3": 0.0017907901573700066,
+   "dssp_8": 0.00322627826968743,
+   "local_curvature": 0.0008635259445076387,
+   "phi_angle_bins": 0.0017727541956495056,
+   "phi_circular": 0.0003312852017059639,
+   "psi_angle_bins": 0.001364196634030936,
+   "psi_circular": 0.0010227121142022313,
+   "radius_of_gyration": 0.011144247261109762,
+   "radius_of_gyration_len_resid": 0.009980782275681317,
+   "rsa": 0.0006403347287906305,
+   "rsa_bins": 0.0021403405554464554,
+   "sequence_recovery": 0.00015176575076164068
   }
  },
  "downstream": {
-  "cells": 329,
-  "median": 0.0059,
-  "mean": 0.02018996960486322,
+  "cells": 340,
+  "median": 0.005849999999999999,
+  "mean": 0.019836764705882352,
   "min": 0.0001,
   "max": 0.2545,
-  "below_0.05": 290,
+  "below_0.05": 300,
   "above_0.1": 16,
   "above_0.1_tasks": [
    "ppi_affinity",
@@ -46,58 +46,58 @@
   ],
   "per_task": {
    "ec_classification": {
-    "median": 0.0074,
+    "median": 0.0072,
     "max": 0.04,
-    "mean": 0.010557575757575757
+    "mean": 0.010288235294117647
    },
    "fluorescence": {
-    "median": 0.008,
+    "median": 0.0076500000000000005,
     "max": 0.0222,
-    "mean": 0.008024242424242423
+    "mean": 0.00788235294117647
    },
    "go_bp": {
-    "median": 0.0024,
+    "median": 0.0023499999999999997,
     "max": 0.0059,
-    "mean": 0.0027696969696969697
+    "mean": 0.002691176470588235
    },
    "go_mf": {
     "median": 0.0031,
     "max": 0.0085,
-    "mean": 0.0036242424242424244
+    "mean": 0.0035911764705882352
    },
    "membrane_soluble": {
     "median": 0.0036,
     "max": 0.0082,
-    "mean": 0.0038727272727272725
+    "mean": 0.003844117647058824
    },
    "ppi_affinity": {
-    "median": 0.0671,
+    "median": 0.06665,
     "max": 0.2545,
-    "mean": 0.10103636363636363
+    "mean": 0.09967647058823528
    },
    "remote_homology": {
-    "median": 0.00545,
+    "median": 0.0053,
     "max": 0.0111,
-    "mean": 0.005640625
+    "mean": 0.0053794117647058826
    },
    "solubility": {
-    "median": 0.0067,
+    "median": 0.00655,
     "max": 0.033,
-    "mean": 0.00803030303030303
+    "mean": 0.007894117647058822
    },
    "stability": {
-    "median": 0.0493,
+    "median": 0.049199999999999994,
     "max": 0.121,
-    "mean": 0.051960606060606054
+    "mean": 0.051023529411764704
    },
    "subcellular_localization": {
-    "median": 0.0045,
+    "median": 0.0046,
     "max": 0.0166,
-    "mean": 0.005942424242424242
+    "mean": 0.006097058823529412
    }
   },
   "ppi_above_0.1": 14,
-  "ppi_n": 33,
+  "ppi_n": 34,
   "ppi_top5": [
    [
     "esm3",
@@ -120,6 +120,6 @@
     0.2058
    ]
   ],
-  "other_nine_mean": 0.011176689189189187
+  "other_nine_mean": 0.0109656862745098
  }
 }
