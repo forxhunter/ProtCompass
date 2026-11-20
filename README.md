@@ -184,13 +184,13 @@ reported.
 
 **Structural probing** (Results, "Input References Reveal What Structural Probes Measure"; Table 1 and
 Figure 2; SI Section S2).
-- Across the 256 coordinate-encoder–label comparisons on determined labels, 242 score below their input-matched
-  floor, 3 are unresolved and 11 score above it; none of the 110 sequence-only comparisons falls below its sequence
+- Across the 256 coordinate-encoder–label comparisons on determined labels, 238 score below their input-matched
+  floor, 2 are unresolved and 16 score above it; none of the 110 sequence-only comparisons falls below its sequence
   floor.
-- Removing contact density and contact order, whose floors contain the target: 195 of 209 coordinate comparisons fall
+- Removing contact density and contact order, whose floors contain the target: 191 of 209 coordinate comparisons fall
   below the floor, against 0 of 90 sequence-only comparisons.
-- A label-agnostic neighbourhood floor (K = 8) gives 139 of 184 against 0 of 80. On the four determined labels with
-  weaker floors, 78 of 92 coordinate comparisons fall below, including 39 of 52 pretrained comparisons.
+- A label-agnostic neighbourhood floor (K = 8) gives 124 of 184 against 0 of 80. On the four determined labels with
+  weaker floors, 74 of 92 coordinate comparisons fall below, including 35 of 52 pretrained comparisons.
 - On labels the input does not determine, encoders beat every written floor on relative solvent accessibility,
   B-factor and fold architecture.
 
@@ -198,20 +198,20 @@ Figure 2; SI Section S2).
 
 **Downstream prediction** (Results, "Sequence References Reveal Task-Dependent Predictive Value"; Figure 3; SI
 Section S3).
-- Sequence-only encoders achieve higher mean performance on all ten tasks. The advantage ranges from 0.091 to 0.483
-  on nine tasks, with a mean gap of 0.189 across the panel; eight of these task-level differences remain significant
-  after Holm correction. On PPI affinity the gap is 0.009, against a mean seed standard deviation of 0.100.
+- Sequence-only encoders achieve higher mean performance on nine of ten tasks. The advantage ranges from 0.087 to
+  0.435 on these nine tasks, with a mean gap of 0.175 across the panel; eight of the task-level differences remain
+  significant after Holm correction. On PPI affinity the gap is −0.004, against a mean seed standard deviation of 0.099.
 - Restricted to pretrained models with at least 100M parameters (eight sequence-only, four coordinate-reading),
   sequence-only models score higher on eight of ten tasks, and the average gap shrinks to 0.052 and is not resolved
-  across architecture families (+0.054 [−0.016, +0.124]; permutation p = 0.076).
-- The composition-and-length reference comes within 0.02 of the median encoder on solubility, GO-BP, localization and
-  fluorescence. On these four tasks the best encoder exceeds it by 0.119–0.235, and the median of the eight pretrained
+  across architecture families (+0.053 [−0.016, +0.122]; permutation p = 0.081).
+- The composition-and-length reference comes within 0.02 of the median encoder on solubility, GO-BP and localization.
+  On these three tasks the best encoder exceeds it by 0.119–0.235, and the median of the eight pretrained
   sequence encoders with at least 100M parameters exceeds it by 0.103–0.205.
 - The reference depends on its feature set on four tasks. Adding 20 physicochemical descriptors to composition changes
   the reference by at most 0.038 on nine tasks and raises it to 0.428 on PPI affinity, where the composition reference
   varies between seeds (seed SD 0.286). Adding the 400 dipeptide frequencies changes it by at most 0.021 on six tasks
   and raises it from 0.086 to 0.372 on EC classification, from 0.090 to 0.388 on stability, from 0.362 to 0.605 on
-  fluorescence and from 0.091 to 0.488 on PPI affinity; 17, 13, 0 and 1 of the 34 encoders exceed this extended
+  fluorescence and from 0.091 to 0.488 on PPI affinity; 19, 14, 0 and 1 of the 34 encoders exceed this extended
   reference on the four tasks (SI Table S10, panel b). This analysis was added on 2026-11-13 and was not pre-specified;
   all five variants that were scored are reported.
 - Median seed standard deviation of the downstream cells: 0.0059.
@@ -239,14 +239,14 @@ Section S4).
 
 **Rankings across prediction levels** (Results, "Sequence References Reveal Task-Dependent Predictive Value";
 Supplementary Fig. S1; SI Section S6). On residue-pair contacts, coordinate-reading and
-sequence-only encoders perform similarly on average (AUPRC 0.261 against 0.247, one-sided Mann–Whitney p = 0.33), and
-an encoder's contact rank is only weakly related to its rank on the ten pooled tasks (ρ = 0.20). The pooled ranking
-transfers to interface-residue prediction (ρ = 0.76 over 32 encoders).
+sequence-only encoders perform similarly on average (AUPRC 0.270 against 0.247, one-sided Mann–Whitney p = 0.30), and
+an encoder's contact rank is only weakly related to its rank on the ten pooled tasks (ρ = 0.31). The pooled ranking
+transfers to interface-residue prediction (ρ = 0.79 over 32 encoders).
 
 <p align="center"><img src="figures/residue_rankings.png" alt="Supplementary Fig. S1" width="620"></p>
 
 **Robustness** (SI Sections S2.6, S3.6 and S4.8). After projecting all representations to 116 dimensions, the mean sequence-only lead on the
-downstream tasks is 0.169, against 0.189 at native widths. Keeping the vector channels of four equivariant encoders
+downstream tasks is 0.158, against 0.175 at native widths. Keeping the vector channels of four equivariant encoders
 raises their probe scores, and all 44 determined encoder–label comparisons stay below their input floors. With a
 nonlinear head the stability composition signal is positive on 7 of 12 encoders.
 
@@ -255,12 +255,14 @@ nonlinear head the stability composition signal is positive on 7 of 12 encoders.
 (Results, "Input References Reveal What Structural Probes Measure" and "Controlled Erasure and Repair Link Parent
 Protein Composition to Stability Prediction"; SI Section S5, Tables S26 to S33.)
 
-- **Unseen CATH topologies.** On 1,924 domains from unseen CATH topologies, 245 of 256 coordinate cells remain below
-  their floor and no sequence-only cell does; undetermined labels show larger margins by +0.189 [+0.152, +0.237].
+- **Unseen CATH topologies.** On 1,924 domains from unseen CATH topologies, 240 of 256 coordinate cells remain below
+  their floor and no sequence-only cell does; undetermined labels show larger margins by +0.181 [+0.146, +0.230].
   The hypotheses were frozen before scoring with the 33 encoders of the panel at that time
   (`protcompass/symmetric/freeze_topology.json` and its sha256), for which the counts are 234 of 245 and
   +0.178 [+0.146, +0.217] (`protcompass/symmetric/topology_frozen_panel33/`). dMaSIF was scored afterwards under the
-  same frozen protocol.
+  same frozen protocol. Seven encoders were later re-extracted with the model code released with their checkpoints
+  (see "Model weights") and rescored under the same protocol; before the re-extraction the 34-encoder counts were
+  245 of 256 and +0.189 [+0.152, +0.237].
 - **Pre-registered new labels.** On three new labels whose determinacy and floors were fixed before scoring, every
   determined family falls below its floor and undetermined families shift upward by +0.136 [+0.081, +0.188]
   (`protcompass/prereg/freeze.json`, `freeze.sha256.json`, `decision.json`, `decision_cohortB.json`,
@@ -309,8 +311,8 @@ changed line. The `.sha256` files are the checksums recorded before scoring and 
   The full model scores above the shuffled one on all ten tasks (+0.069 to +0.458) and all fifteen probes, and the
   shuffled model scores below the `#` model on eight tasks and twelve probes (`*_shuf.csv`, `table_shuf3di*.tex`).
 - **Random against pretrained pairs** (SI Section S2.6; `protcompass/symmetric/ab_train_pairs/`). Over five architectures present in
-  both states (GCPNet, GearNet, IPA, TFN, PottsMPNN), 38 of the 75 probe cells rise with pretraining, 29 fall and 8 are
-  unresolved; 54 of the 55 determined cells of the random versions and 53 of the 55 of the pretrained versions are
+  both states (GCPNet, GearNet, IPA, TFN, PottsMPNN), 48 of the 75 probe cells rise with pretraining, 19 fall and 8 are
+  unresolved; 54 of the 55 determined cells of the random versions and 50 of the 55 of the pretrained versions are
   below the floor.
 - **Fixed-head erasure** (SI Section S4.5, Table S22; `protcompass/erasure/ab_fixed_head/`). A head fitted once on the intact representation is
   scored on erased inputs. The fixed-head rule names three pairs: burial and packing on fluorescence (+0.055, 34 of 34
@@ -442,6 +444,17 @@ redistributed here.
 dMaSIF runs from a clone of https://github.com/FreyrS/dMaSIF (commit 0dcc26c) under `protcompass/external_repos/dMaSIF`
 with its released checkpoint `models/dMaSIF_search_3layer_12A_16dim`; hydrogens are added with `reduce`
 (`protcompass/ENVIRONMENT.md`).
+
+ProteinMPNN, the four PottsMPNN variants, ESM-IF1 and pretrained GearNet are run through the model code released with
+their checkpoints (`protcompass/extract/patched/mpnn_official*.py`, `esm_if1_official.py`, `gearnet_official.py`):
+the ProteinMPNN and PottsMPNN classes from clones under `protcompass/external_repos/ProteinMPNN` and
+`protcompass/external_repos/PottsMPNN` with the 48 neighbours stored in each checkpoint, the ESM inverse-folding helper
+of the `esm` package, and TorchDrug's GearNet-Edge with its graph construction (3,072-dimensional output, the six
+layers concatenated). Until 2026-11-19 these seven encoders ran through wrappers in `protcompass/src/` that loaded the
+same weights but did not reproduce the released computation; their embeddings and the probing, downstream and residue-task
+analyses were recomputed (`protcompass/ENVIRONMENT.md`); the erasure, repair and held-out downstream results in this
+commit still use the earlier embeddings of these seven encoders and are being recomputed. The randomly initialised GearNet remains the 512-dimensional relational
+graph network of `protcompass/src/`.
 
 The sequence and multimodal models (ESM-1b, ESM2, ProtBert, ProtT5, Ankh, ProstT5, SaProt, FoldVision) load from the
 Hugging Face hub, ESM-IF1 through `torch.hub` from the ESM release, and Foldseek 3Di states are computed by the

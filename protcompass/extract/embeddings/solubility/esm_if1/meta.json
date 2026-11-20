@@ -1,15 +1,18 @@
 {
  "encoder": "esm_if1",
- "family": "registry",
- "target": "esm_if",
+ "family": "patched",
+ "target": "esm_if1_official",
  "weights": "pretrained",
- "rule": "GVP-Transformer encoder output before decoding",
+ "rule": "GVP-Transformer encoder output through the official helper, start and end positions removed",
  "env": "base",
- "weights_sha256": "0edb76de890a0108",
+ "checkpoint": "esm_if1_gvp4_t16_142M_UR50 (torch.hub, facebookresearch/esm)",
+ "weights_sha256": "c0a274eb401c5487",
  "n_parameters": 141662150,
+ "inputs_passed": "N, CA, C coordinates of the chain through the official coordinate batch converter; no sequence",
+ "patch": "patched/esm_if1_official.py",
  "task": "solubility",
- "date": "2026-09-19 22:02",
- "seconds": 873.4,
+ "date": "2026-11-19 17:38",
+ "seconds": 273.5,
  "pooling": "masked mean over all residues of the chain",
  "manifest": "manifest/solubility.csv",
  "rows": "stage1 == 1",
@@ -26,13 +29,20 @@
   "all_zero_rows": 0,
   "distinct_rows": 8109,
   "numerical_rank": 511,
-  "max_abs": 1.3087021112442017
+  "max_abs": 1.2519304752349854
  },
  "input_audit": {
-  "rel_change_jitter_1A": 1.5038822793102065,
-  "rel_change_coord_swap": 0.44554334835815607,
-  "rel_change_seq_shuffle": 3.6325903813996154e-07,
-  "rel_change_rigid_motion": 1.1064801131076545e-05,
+  "rel_change_jitter_1A": 1.4695566629879764,
+  "rel_change_coord_swap": 0.4454478531030473,
+  "rel_change_seq_shuffle": 0.0,
+  "rel_change_rigid_motion": 9.309091401385775e-06,
   "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 6.285682320594788e-05,
+  "max_relative_difference": 0.00012382482236716896,
+  "recomputed": "on the first machine, CPU"
  }
 }

@@ -1,15 +1,21 @@
 {
  "encoder": "pottsmpnn_pretrained",
- "family": "registry",
- "target": "pottsmpnn_pretrained",
+ "family": "patched",
+ "target": "mpnn_official_pottsmpnn_pretrained",
  "weights": "pretrained",
- "rule": "encoder h_V, masked mean",
+ "rule": "official model with the 48 neighbours of the checkpoint; encoder h_V",
  "env": "base",
- "weights_sha256": "1cfd2bd3bed04f09",
+ "checkpoint": "protcompass/external_repos/PottsMPNN/proteinmpnn_compatible_model_weights/pottsmpnn_20.pt",
+ "checkpoint_sha256": "28b1620a71883142",
+ "checkpoint_loaded_by": "every checkpoint tensor loaded; only the Potts output layer, unused by the encoder, is absent",
+ "k_neighbors": 48,
+ "weights_sha256": "27791afcc3899c7e",
  "n_parameters": 1712085,
+ "inputs_passed": "N, CA, C, O coordinates of the chain; no sequence",
+ "patch": "patched/mpnn_official.py",
  "task": "go_bp",
- "date": "2026-09-20 13:45",
- "seconds": 38.7,
+ "date": "2026-11-19 16:28",
+ "seconds": 44.4,
  "pooling": "masked mean over all residues of the chain",
  "manifest": "manifest/go_bp.csv",
  "rows": "stage1 == 1",
@@ -29,10 +35,17 @@
   "max_abs": 3.315916061401367
  },
  "input_audit": {
-  "rel_change_jitter_1A": 0.6454550569687352,
-  "rel_change_coord_swap": 0.12076814557594767,
+  "rel_change_jitter_1A": 0.4936789944192216,
+  "rel_change_coord_swap": 0.107498585008856,
   "rel_change_seq_shuffle": 0.0,
-  "rel_change_rigid_motion": 1.1436842851380084e-07,
+  "rel_change_rigid_motion": 1.1043636955904972e-07,
   "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 1.9073486328125e-06,
+  "max_relative_difference": 1.5041707683849381e-06,
+  "recomputed": "on the first machine, CPU"
  }
 }

@@ -1,7 +1,7 @@
 {
   "H1": {
     "confirmed": false,
-    "detail": "per encoder below of 9: esm3 6, esm_if1 7, proteinmpnn 8"
+    "detail": "per encoder below of 9: esm3 6, esm_if1 7, proteinmpnn 7"
   },
   "H2": {
     "confirmed": true,
@@ -13,11 +13,11 @@
   },
   "H4": {
     "confirmed": false,
-    "detail": "vs ref_pairhist: esm_if1 +0.291, esm3 +0.384, esm2_650m +0.309"
+    "detail": "vs ref_pairhist: esm_if1 +0.325, esm3 +0.384, esm2_650m +0.309"
   },
   "H1b": {
     "confirmed": false,
-    "detail": "per encoder below of 9: esm3 6, esm_if1 6, proteinmpnn 8"
+    "detail": "per encoder below of 9: esm3 6, esm_if1 6, proteinmpnn 7"
   },
   "H2b": {
     "confirmed": true,
@@ -25,6 +25,6 @@
   },
   "H5": {
     "confirmed": false,
-    "detail": "47 domains; H1 False (esm3:6 esm_if1:7 proteinmpnn:8), H2 True (0 of 27), H3 True (bfactor:+0.158 rsa:+0.269 rsa_bins:+0.148), H4 False"
+    "detail": "47 domains; H1 False (esm3:6 esm_if1:7 proteinmpnn:7), H2 True (0 of 27), H3 True (bfactor:+0.158 rsa:+0.269 rsa_bins:+0.148), H4 False"
   }
 }

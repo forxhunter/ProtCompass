@@ -68,17 +68,17 @@
       "labels": "open",
       "subset": "all coordinate",
       "cells": 92,
-      "below": 78,
-      "unresolved": 3,
-      "above": 11
+      "below": 74,
+      "unresolved": 2,
+      "above": 16
     },
     {
       "labels": "open",
       "subset": "pretrained coordinate",
       "cells": 52,
-      "below": 39,
-      "unresolved": 3,
-      "above": 10
+      "below": 35,
+      "unresolved": 2,
+      "above": 15
     },
     {
       "labels": "open",
@@ -104,31 +104,31 @@
     "rows": [
       {
         "term": "intercept",
-        "coef": -0.36917008631365794,
-        "se": 0.1320560112259482,
-        "lo": -0.6279998683165164,
-        "hi": -0.11034030431079944
+        "coef": -0.46796736014854823,
+        "se": 0.11107502657692513,
+        "lo": -0.6856744122393215,
+        "hi": -0.250260308057775
       },
       {
         "term": "log10 parameters",
-        "coef": 0.053656321420222995,
-        "se": 0.017186738154668597,
-        "lo": 0.019970314637072543,
-        "hi": 0.08734232820337345
+        "coef": 0.061321107184116326,
+        "se": 0.015256560527122882,
+        "lo": 0.03141824855095548,
+        "hi": 0.09122396581727718
       },
       {
         "term": "pretrained",
-        "coef": 0.06745799047309102,
-        "se": 0.031880745242138166,
-        "lo": 0.0049717297985002185,
-        "hi": 0.12994425114768182
+        "coef": 0.09852142222349113,
+        "se": 0.04010166896087294,
+        "lo": 0.019922151060180165,
+        "hi": 0.17712069338680209
       },
       {
         "term": "reads coordinates",
-        "coef": -0.2510554914718841,
-        "se": 0.05929381024384053,
-        "lo": -0.36727135954981155,
-        "hi": -0.13483962339395666
+        "coef": -0.1997152213263972,
+        "se": 0.03255978467265579,
+        "lo": -0.26353239928480254,
+        "hi": -0.13589804336799188
       }
     ]
   },
@@ -137,23 +137,23 @@
       {
         "probe": "bfactor",
         "encoder": "esm_if1",
-        "margin": 0.07262274652836176
+        "margin": 0.06955799743039781
       },
       {
         "probe": "rsa",
         "encoder": "esm_if1",
-        "margin": 0.04866592318255447
+        "margin": 0.04883281256779881
       },
       {
         "probe": "rsa_bins",
         "encoder": "esm_if1",
-        "margin": 0.07140128247907551
+        "margin": 0.07057996192551153
       }
     ],
     "n_above": {
       "bfactor": 2,
-      "rsa": 7,
-      "rsa_bins": 7
+      "rsa": 8,
+      "rsa_bins": 8
     }
   },
   "downstream_large": {
@@ -162,21 +162,21 @@
     "assignments": 210,
     "min_two_sided_p": 0.009523809523809525,
     "holm_first_threshold": 0.005,
-    "mean_gap": 0.053828888888888884,
-    "boot_lo": -0.015771173611111095,
-    "boot_hi": 0.12375699999999999
+    "mean_gap": 0.05289138888888887,
+    "boot_lo": -0.015983055555555535,
+    "boot_hi": 0.12203872222222219
   },
   "per_encoder_determinacy": {
     "determined": {
-      "below": 132,
-      "unresolved": 3,
-      "above": 0,
+      "below": 131,
+      "unresolved": 2,
+      "above": 2,
       "cells": 135
     },
     "not determined": {
-      "below": 58,
+      "below": 55,
       "unresolved": 0,
-      "above": 0,
+      "above": 3,
       "cells": 58
     },
     "not established": {
@@ -198,6 +198,21 @@
       "status": "not established"
     },
     {
+      "encoder": "gearnet_pretrained",
+      "probe": "dssp_3",
+      "status": "not determined"
+    },
+    {
+      "encoder": "pottsmpnn_soluble",
+      "probe": "dssp_3",
+      "status": "determined"
+    },
+    {
+      "encoder": "proteinmpnn",
+      "probe": "dssp_3",
+      "status": "determined"
+    },
+    {
       "encoder": "esm3",
       "probe": "dssp_8",
       "status": "not established"
@@ -208,6 +223,11 @@
       "status": "not established"
     },
     {
+      "encoder": "gearnet_pretrained",
+      "probe": "dssp_8",
+      "status": "not determined"
+    },
+    {
       "encoder": "esm3",
       "probe": "core_surface",
       "status": "not established"
@@ -216,6 +236,11 @@
       "encoder": "esm_if1",
       "probe": "core_surface",
       "status": "not established"
+    },
+    {
+      "encoder": "gearnet_pretrained",
+      "probe": "core_surface",
+      "status": "not determined"
     },
     {
       "encoder": "pottsmpnn",
@@ -248,8 +273,8 @@
       "labels": "saturated",
       "group": "coordinate",
       "cells": 117,
-      "below_margin": 106,
-      "within_margin": 8,
+      "below_margin": 104,
+      "within_margin": 12,
       "above_margin": 0
     },
     {
@@ -264,9 +289,9 @@
       "labels": "open",
       "group": "coordinate",
       "cells": 92,
-      "below_margin": 76,
-      "within_margin": 4,
-      "above_margin": 11
+      "below_margin": 72,
+      "within_margin": 5,
+      "above_margin": 12
     },
     {
       "labels": "open",
@@ -303,6 +328,6 @@
     "seq_families": 6,
     "crd_families": 8,
     "tasks_seq_leads": 10,
-    "mean_gap": 0.13675358333333332
+    "mean_gap": 0.13346733333333333
   }
 }

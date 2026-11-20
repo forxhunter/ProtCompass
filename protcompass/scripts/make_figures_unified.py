@@ -440,4 +440,7 @@ def fig_residue():
 
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
-    fig2(); fig3(); fig4(); fig_residue()
+    todo = sys.argv[1:] or ["fig2", "fig3", "fig4", "residue"]     # optional: a subset of the four figures
+    for name, f in (("fig2", fig2), ("fig3", fig3), ("fig4", fig4), ("residue", fig_residue)):
+        if name in todo:
+            f()

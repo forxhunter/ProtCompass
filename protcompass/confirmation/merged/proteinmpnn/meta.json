@@ -1,18 +1,21 @@
 {
  "encoder": "proteinmpnn",
- "family": "registry",
- "target": "proteinmpnn_pretrained",
+ "family": "patched",
+ "target": "mpnn_official",
  "weights": "pretrained",
- "rule": "encoder h_V after 3 encoder layers, before the decoder",
+ "rule": "official model and features; encoder h_V after 3 encoder layers, before the decoder",
  "env": "base",
  "checkpoint": "protcompass/checkpoints/proteinmpnn_v48_020.pt",
  "checkpoint_sha256": "c9cb4a671d796041",
- "checkpoint_loaded_by": "wrapper load_pretrained()",
+ "checkpoint_loaded_by": "strict=True",
+ "k_neighbors": 48,
  "weights_sha256": "01d6f9d31117f274",
  "n_parameters": 1660485,
+ "inputs_passed": "N, CA, C, O coordinates of the chain; no sequence",
+ "patch": "patched/mpnn_official.py",
  "dataset": "confirmation/merged/labels.h5",
- "date": "2026-09-22 16:03",
- "seconds": 14.3,
+ "date": "2026-11-19 21:34",
+ "seconds": 8.2,
  "n_domains": 5490,
  "dim": 128,
  "row_convention": "row r of residue_fp16.npy is row r of residue/* in the merged labels.h5",
@@ -23,14 +26,21 @@
   "all_zero_rows": 0,
   "distinct_rows": 1990,
   "numerical_rank": 127,
-  "max_abs": 2.2646827697753906
+  "max_abs": 3.5557525157928467
  },
  "input_audit": {
-  "rel_change_jitter_1A": 0.287102170257815,
-  "rel_change_coord_swap": 0.10679043855416422,
+  "rel_change_jitter_1A": 0.5964249937330186,
+  "rel_change_coord_swap": 0.1312427645157524,
   "rel_change_seq_shuffle": 0.0,
-  "rel_change_rigid_motion": 2.3937372048497713e-07,
+  "rel_change_rigid_motion": 1.938296224965055e-07,
   "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 0.0009768009185791016,
+  "max_relative_difference": 0.0001880346389953047,
+  "recomputed": "on the first machine, CPU"
  },
  "merged_from": [
   "probing_embeddings/proteinmpnn",

@@ -59,6 +59,36 @@ repair grid and the variance audit of FoldVision on remote homology, and the int
 were also fitted on the third machine (`extract/remote_gap/prep_score.py`), with scikit-learn 1.7.2, SciPy 1.15.3 and
 pandas 2.3.3 as in the main environment. Summaries and tables were rebuilt locally.
 
+**Seven encoders re-extracted on 2026-11-19.** ProteinMPNN, the four PottsMPNN variants, ESM-IF1 and pretrained
+GearNet had been extracted through wrappers of `src/` that loaded the released weights into a computation that
+differs from the released one: the ProteinMPNN wrapper built its neighbour lists and distance features differently,
+the PottsMPNN wrappers used 64 neighbours where the checkpoints were trained with 48, the ESM-IF1 wrapper omitted the
+start and end positions that the released helper adds, and the GearNet wrapper used its own graph construction and
+layer readout. On the same coordinates the embeddings differed from those of the released code by a relative 0.17 to
+1.3. The wrappers in `extract/patched/` (`mpnn_official*.py`, `esm_if1_official.py`, `gearnet_official.py`) call the
+released classes with the settings stored in each checkpoint and load every tensor strictly. The ProteinMPNN,
+PottsMPNN and ESM-IF1 wrappers reproduce a reference run of the released code on test proteins with a difference of
+zero, and the GearNet wrapper gives the same output as TorchDrug's `Protein.from_pdb` pipeline on the released
+structure files.
+
+- GearNet needs TorchDrug. It was installed into a directory of its own that was put on `PYTHONPATH`
+  (`pip install --target pylib_torchdrug torchdrug==0.2.1 rdkit-pypi==2022.9.5`, with torch-cluster 1.6.3 built for
+  the local PyTorch); the directory is not released. The fused sparse message step of TorchDrug fails on current
+  PyTorch, so the wrapper calls `aggregate(message())`, which TorchDrug defines as the same computation.
+- TorchDrug's radius graph keeps at most 32 neighbours per residue, and torch-cluster selects them differently on the
+  CPU and on a GPU. GearNet-pre embeddings of long chains therefore differ by 1 to 5 per cent between the two; two
+  GPUs agree to 1e-6. The released embeddings are the GPU ones.
+- The embeddings were computed on the third machine (RTX 4090, PyTorch 2.8.0) with `extract/remote_gap/gap_worker.py`
+  on all ten tasks, the probing set, the interface chains, the two CATH 4.4 cohorts and the held-out cohorts.
+  `extract/remote_gap/finalize_gap.py` recomputed twelve proteins of every set on the first machine before writing
+  them; the largest relative difference is 7e-4, and each `meta.json` records its own value under `remote_check`.
+- The input and atom audits of the seven encoders were repeated and pass, with unchanged input groups and atom sets.
+- Downstream scores (all training fractions and the fixed width), the probing suites, both symmetric runs, the
+  interface probe, the contact task and the fold-architecture runs of these encoders were fitted on the third machine
+  with the scripts of this repository; summaries and tables were rebuilt locally.
+- The randomly initialised GearNet was not replaced. The released GearNet-Edge architecture with random weights gives
+  activations in the thousands, which do not fit the half-precision storage of the residue embeddings.
+
 ## Analyses added on 2026-09-25 (all local, main environment)
 
 | Directory | Contents |

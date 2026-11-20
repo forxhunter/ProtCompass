@@ -1,18 +1,21 @@
 {
  "encoder": "proteinmpnn",
- "family": "registry",
- "target": "proteinmpnn_pretrained",
+ "family": "patched",
+ "target": "mpnn_official",
  "weights": "pretrained",
- "rule": "encoder h_V after 3 encoder layers, before the decoder",
+ "rule": "official model and features; encoder h_V after 3 encoder layers, before the decoder",
  "env": "base",
  "checkpoint": "protcompass/checkpoints/proteinmpnn_v48_020.pt",
  "checkpoint_sha256": "c9cb4a671d796041",
- "checkpoint_loaded_by": "wrapper load_pretrained()",
+ "checkpoint_loaded_by": "strict=True",
+ "k_neighbors": 48,
  "weights_sha256": "01d6f9d31117f274",
  "n_parameters": 1660485,
+ "inputs_passed": "N, CA, C, O coordinates of the chain; no sequence",
+ "patch": "patched/mpnn_official.py",
  "task": "membrane_soluble",
- "date": "2026-09-20 16:30",
- "seconds": 122.7,
+ "date": "2026-11-19 16:26",
+ "seconds": 51.2,
  "pooling": "masked mean over all residues of the chain",
  "manifest": "manifest/membrane_soluble.csv",
  "rows": "stage1 == 1",
@@ -29,13 +32,20 @@
   "all_zero_rows": 0,
   "distinct_rows": 10500,
   "numerical_rank": 127,
-  "max_abs": 2.2565181255340576
+  "max_abs": 3.5743942260742188
  },
  "input_audit": {
-  "rel_change_jitter_1A": 0.2876636765789369,
-  "rel_change_coord_swap": 0.1046977269374211,
+  "rel_change_jitter_1A": 0.5065565860851691,
+  "rel_change_coord_swap": 0.1149509992701249,
   "rel_change_seq_shuffle": 0.0,
-  "rel_change_rigid_motion": 1.6183316549153264e-07,
+  "rel_change_rigid_motion": 1.1473838216398113e-07,
   "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 1.5720725059509277e-06,
+  "max_relative_difference": 1.4506274510495132e-06,
+  "recomputed": "on the first machine, CPU"
  }
 }

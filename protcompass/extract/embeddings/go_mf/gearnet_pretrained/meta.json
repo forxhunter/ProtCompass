@@ -1,18 +1,20 @@
 {
  "encoder": "gearnet_pretrained",
- "family": "registry",
- "target": "gearnet_pretrained",
+ "family": "patched",
+ "target": "gearnet_official",
  "weights": "pretrained",
- "rule": "final invariant node states of the wrapper, masked mean over valid residues",
+ "rule": "official TorchDrug GearNet-Edge and graph construction; concatenated node states of the six layers",
  "env": "base",
  "checkpoint": "protcompass/checkpoints/gearnet/mc_gearnet_edge.pth",
  "checkpoint_sha256": "6dc11e2db6eff3c9",
- "checkpoint_loaded_by": "wrapper load_pretrained()",
+ "checkpoint_loaded_by": "strict=True",
  "weights_sha256": "9eaaa8a2c8a79a37",
  "n_parameters": 20145635,
+ "inputs_passed": "CA coordinates and residue identity; graph and edge features by TorchDrug",
+ "patch": "patched/gearnet_official.py",
  "task": "go_mf",
- "date": "2026-09-20 13:41",
- "seconds": 2822.2,
+ "date": "2026-11-19 20:09",
+ "seconds": 266.7,
  "pooling": "masked mean over all residues of the chain",
  "manifest": "manifest/go_mf.csv",
  "rows": "stage1 == 1",
@@ -24,18 +26,25 @@
  },
  "health": {
   "n_rows": 10404,
-  "dim": 512,
+  "dim": 3072,
   "nan_values": 0,
   "all_zero_rows": 0,
   "distinct_rows": 10404,
-  "numerical_rank": 512,
-  "max_abs": 279.6271057128906
+  "numerical_rank": 2999,
+  "max_abs": 31.98621368408203
  },
  "input_audit": {
-  "rel_change_jitter_1A": 0.6126985694386917,
-  "rel_change_coord_swap": 0.8348703599707765,
-  "rel_change_seq_shuffle": 0.9662573093575675,
-  "rel_change_rigid_motion": 1.2599318430699313e-07,
+  "rel_change_jitter_1A": 4.524098528950244,
+  "rel_change_coord_swap": 0.5908195118388841,
+  "rel_change_seq_shuffle": 0.5536844616909269,
+  "rel_change_rigid_motion": 1.0087259865295462e-06,
   "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 1.6689300537109375e-06,
+  "max_relative_difference": 4.2597784499776026e-07,
+  "recomputed": "on the first machine, GPU"
  }
 }

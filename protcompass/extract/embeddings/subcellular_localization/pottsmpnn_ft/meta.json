@@ -1,15 +1,21 @@
 {
  "encoder": "pottsmpnn_ft",
- "family": "registry",
- "target": "pottsmpnn_ft_pretrained",
+ "family": "patched",
+ "target": "mpnn_official_pottsmpnn_ft",
  "weights": "pretrained",
- "rule": "encoder h_V, masked mean",
+ "rule": "official model with the 48 neighbours of the checkpoint; encoder h_V",
  "env": "base",
- "weights_sha256": "b8171c21b2e3eab7",
+ "checkpoint": "protcompass/external_repos/PottsMPNN/ft_model_weights/potts_ft.pt",
+ "checkpoint_sha256": "b672ff4ed1492560",
+ "checkpoint_loaded_by": "strict=True",
+ "k_neighbors": 48,
+ "weights_sha256": "dd7e4d1fd6b84e6d",
  "n_parameters": 1712085,
+ "inputs_passed": "N, CA, C, O coordinates of the chain; no sequence",
+ "patch": "patched/mpnn_official.py",
  "task": "subcellular_localization",
- "date": "2026-09-20 05:09",
- "seconds": 43.4,
+ "date": "2026-11-19 16:47",
+ "seconds": 51.7,
  "pooling": "masked mean over all residues of the chain",
  "manifest": "manifest/subcellular_localization.csv",
  "rows": "stage1 == 1",
@@ -26,13 +32,20 @@
   "all_zero_rows": 0,
   "distinct_rows": 9973,
   "numerical_rank": 127,
-  "max_abs": 2.580057144165039
+  "max_abs": 2.580056667327881
  },
  "input_audit": {
-  "rel_change_jitter_1A": 0.5082692283690026,
-  "rel_change_coord_swap": 0.13421373340726975,
+  "rel_change_jitter_1A": 0.4283189040874303,
+  "rel_change_coord_swap": 0.1034467530099243,
   "rel_change_seq_shuffle": 0.0,
-  "rel_change_rigid_motion": 1.330835728765909e-07,
+  "rel_change_rigid_motion": 1.2625204680227868e-07,
   "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 1.7061829566955566e-06,
+  "max_relative_difference": 2.693630676731118e-06,
+  "recomputed": "on the first machine, CPU"
  }
 }

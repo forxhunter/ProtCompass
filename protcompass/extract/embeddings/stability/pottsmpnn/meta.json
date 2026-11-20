@@ -1,16 +1,22 @@
 {
  "encoder": "pottsmpnn",
- "family": "registry",
- "target": "pottsmpnn",
+ "family": "patched",
+ "target": "mpnn_official_pottsmpnn_random",
  "weights": "random",
- "rule": "encoder h_V after 3 layers, masked mean",
+ "rule": "official architecture with 48 neighbours, random weights; encoder h_V after 3 layers",
  "env": "base",
- "seed": 20260919,
- "weights_sha256": "fd9636d73a1e9994",
+ "checkpoint": null,
+ "checkpoint_sha256": null,
+ "checkpoint_loaded_by": "none (random weights, fixed seed)",
+ "k_neighbors": 48,
+ "weights_sha256": "b352729e99ddbd22",
  "n_parameters": 1712085,
+ "inputs_passed": "N, CA, C, O coordinates of the chain; no sequence",
+ "patch": "patched/mpnn_official.py",
+ "seed": 20260919,
  "task": "stability",
- "date": "2026-09-19 19:14",
- "seconds": 207.0,
+ "date": "2026-11-19 16:27",
+ "seconds": 30.6,
  "pooling": "masked mean over all residues of the chain",
  "manifest": "manifest/stability.csv",
  "rows": "stage1 == 1",
@@ -27,13 +33,20 @@
   "all_zero_rows": 0,
   "distinct_rows": 10500,
   "numerical_rank": 127,
-  "max_abs": 3.0391757488250732
+  "max_abs": 2.998181104660034
  },
  "input_audit": {
-  "rel_change_jitter_1A": 0.07189607480629943,
-  "rel_change_coord_swap": 0.06452992568345384,
+  "rel_change_jitter_1A": 0.076168108056397,
+  "rel_change_coord_swap": 0.068108140412608,
   "rel_change_seq_shuffle": 0.0,
-  "rel_change_rigid_motion": 1.150863828075338e-07,
+  "rel_change_rigid_motion": 1.1985654796563578e-07,
   "verdict": "pass"
+ },
+ "computed_on": "second GPU machine (NVIDIA GeForce RTX 4090, PyTorch 2.8.0+cu128) with extract/remote_gap/gap_worker.py; same wrapper code and checkpoint",
+ "remote_check": {
+  "n_proteins": 12,
+  "max_abs_difference": 7.152557373046875e-07,
+  "max_relative_difference": 1.4520941249429598e-07,
+  "recomputed": "on the first machine, CPU"
  }
 }

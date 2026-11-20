@@ -27,10 +27,10 @@
     "H4": false
   },
   "detail": {
-    "H1": "coordinate encoders below their floor on the nine informative determined probes: esm3 6/9, esm_if1 7/9, proteinmpnn 8/9",
+    "H1": "coordinate encoders below their floor on the nine informative determined probes: esm3 6/9, esm_if1 7/9, proteinmpnn 7/9",
     "H2": "sequence-only cells below the sequence floor: 0 of 27",
     "H3": "best encoder minus best floor: B-factor +0.203, RSA +0.255, RSA bins +0.168",
-    "H4": "against ref_pairhist on fold architecture: esm_if1 +0.302, esm3 +0.381, esm2_650m +0.339"
+    "H4": "against ref_pairhist on fold architecture: esm_if1 +0.331, esm3 +0.381, esm2_650m +0.339"
   },
   "n_cells": 78
 }

@@ -7,7 +7,7 @@ contained,all coordinate,47,47,0,0
 contained,pretrained coordinate,27,27,0,0
 contained,"pretrained coordinate, $\geq$100M",7,7,0,0
 contained,sequence-only,20,0,0,20
-open,all coordinate,92,78,3,11
-open,pretrained coordinate,52,39,3,10
+open,all coordinate,92,74,2,16
+open,pretrained coordinate,52,35,2,15
 open,"pretrained coordinate, $\geq$100M",12,6,0,6
 open,sequence-only,40,0,0,40
