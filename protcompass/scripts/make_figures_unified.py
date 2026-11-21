@@ -47,17 +47,17 @@ REF_TABLE = {"ec_classification": 0.086, "go_mf": 0.227, "go_bp": 0.274, "subcel
 # Follow-up outcome of the seven pairs that pass the repair rule (chain-disjoint PPI folds; mutation-feature controls).
 RETAINED, CHAIN, FLOOR = "retained", "chain", "floor"
 FOLLOW = {("stability", "amino-acid composition"): RETAINED,
+          ("solubility", "amino-acid composition"): RETAINED,
           ("fluorescence", "amino-acid composition"): FLOOR,
           ("fluorescence", "burial and packing"): FLOOR,
           ("ppi_affinity", "secondary structure content"): CHAIN,
           ("ppi_affinity", "contact order"): CHAIN,
-          ("ppi_affinity", "size"): CHAIN,
-          ("ppi_affinity", "global shape"): CHAIN}
+          ("ppi_affinity", "size"): CHAIN}
 FOLLOW_MARK = {RETAINED: r"$\checkmark$", CHAIN: r"$\dagger$", FLOOR: r"$\ddagger$"}
-GROUP_ORDER = [[("stability", "amino-acid composition")],
+GROUP_ORDER = [[("stability", "amino-acid composition"), ("solubility", "amino-acid composition")],
                [("fluorescence", "amino-acid composition"), ("fluorescence", "burial and packing")],
                [("ppi_affinity", "secondary structure content"), ("ppi_affinity", "contact order"),
-                ("ppi_affinity", "size"), ("ppi_affinity", "global shape")]]
+                ("ppi_affinity", "size")]]
 
 # ---- shared style --------------------------------------------------------------------------------------------------
 W = 6.6                                   # canvas width in inches, identical for every figure
@@ -339,7 +339,7 @@ def _attribution(ax):
              "secondary structure content": "sec. structure", "global shape": "global shape",
              "contact order": "contact order", "size": "size"}
     task = dict(TASK_NAME, ppi_affinity="PPI")
-    ax.axhspan(-0.5, 0.5, color="#eef0f3", zorder=0, lw=0)       # locates the retained pair; encodes no value
+    ax.axhspan(-0.5, len(GROUP_ORDER[0]) - 0.5, color="#eef0f3", zorder=0, lw=0)   # locates the retained pairs; encodes no value
     for b in np.cumsum([len(g) for g in GROUP_ORDER]):
         ax.axhline(b - 0.5, color="#b9bcc4", lw=0.5, ls=(0, (2, 2)), zorder=1)
     labels, marks = [], []
@@ -352,7 +352,7 @@ def _attribution(ax):
         ax.errorbar(r.R_null, i, xerr=1.96 * se, fmt="o", ms=4.2, ecolor=col, elinewidth=0.8, capsize=1.5,
                     zorder=4, **style)
         labels.append(f"{task[r.task]} / {short.get(r.concept, r.concept)}"
-                      f"{'' if r.named_by_effect_rule else ' +'} ({int(r.pos_null)}/{int(r.n)})")
+                      f"{' +' if r.passes_R_rule and not r.named_by_effect_rule else ''} ({int(r.pos_null)}/{int(r.n)})")
         marks.append(FOLLOW_MARK.get(FOLLOW.get((r.task, r.concept)), ""))
     ax.axvline(0, color=MUTED, lw=0.6, zorder=1)
     ax.set_yticks(range(len(V))); ax.set_yticklabels(labels)

@@ -98,7 +98,7 @@ def latex():
     head = {"released": "released ($0.02$)", "mde": "task MDE", "reach5": "5\\% of reach", "matched": "matched cells",
             "family": "families"}
     lab = {"fluorescence": "fluorescence", "stability": "stability", "ppi_affinity": "PPI affinity", "go_mf": "GO-MF",
-           "solubility": "solubility", "ec_classification": "EC"}
+           "go_bp": "GO-BP", "solubility": "solubility", "ec_classification": "EC"}
     short = {"amino-acid composition": "composition", "burial and packing": "burial and packing",
              "secondary structure content": "secondary structure", "contact order": "contact order",
              "global shape": "global shape", "size": "size"}

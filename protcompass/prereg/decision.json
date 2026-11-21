@@ -5,22 +5,22 @@
     "passes": true
   },
   "H2": {
-    "share": 0.46,
+    "share": 0.54,
     "n_units": 50,
     "passes": false
   },
   "H3": {
-    "delta_G": 0.13597137727944403,
+    "delta_G": 0.12315327602396842,
     "ci": [
-      0.08067072890138645,
-      0.18784767526928983
+      0.03593063752185815,
+      0.1770308807615471
     ],
     "passes": true
   },
   "threshold_sweep": {
     "0.50": {
       "H1": true,
-      "H2": false
+      "H2": true
     },
     "0.55": {
       "H1": true,
@@ -70,7 +70,7 @@
     },
     "undetermined": {
       "n": 80,
-      "below_or_at_floor": 37
+      "below_or_at_floor": 32
     },
     "not_established": {
       "n": 5,
@@ -90,7 +90,7 @@
   "sc_contacts": {
     "not_established": {
       "n": 30,
-      "below_or_at_floor": 8
+      "below_or_at_floor": 7
     },
     "determined": {
       "n": 2,

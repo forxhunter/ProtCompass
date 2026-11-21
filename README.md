@@ -220,20 +220,22 @@ Section S3).
 
 **Concept erasure** (Results, "Controlled Erasure and Repair Link Parent Protein Composition to Stability Prediction"; Figure 4; SI
 Section S4).
-- LEACE lowers the linear readout of the erased property from a median 0.669 to −0.003; nonlinear readouts keep much
-  of it. Synthetic tests recover a property that is used and give effects within ±0.007 when it is not.
-- Against the sham, eight task–property pairs show a consistent drop, but the real erasure removes a median 3.4× more
-  representation variance than the sham. Against the variance-matched null, two of the eight remain consistent, and
-  one of these does not reproduce on held-out proteins. The variance match is within 1% on 60% of audited cells and
-  within 5% on 83%.
-- Over 60 task–property pairs the repair rule names seven candidates: four on PPI affinity, two on fluorescence, and
-  amino-acid composition on stability.
-- The four PPI signals disappear when training and test share no protein chains. On fluorescence, simple mutation
+- LEACE lowers the linear readout of the erased property from a median 0.718 to 0.002; nonlinear readouts keep much
+  of it. Synthetic tests recover a property that is used and give effects within ±0.011 when it is not.
+- Against the sham, eight task–property pairs show a consistent drop, but the real erasure removes a median 3.6× more
+  representation variance than the sham. Against the variance-matched null, two of the eight remain consistent: burial
+  and packing, and amino-acid composition, both on fluorescence. The variance match is within 1% on 60% of audited
+  cells and within 5% on 83%.
+- Over 60 task–property pairs the repair rule names seven candidates: three on PPI affinity, two on fluorescence,
+  amino-acid composition on stability and amino-acid composition on solubility.
+- The three PPI signals disappear when training and test share no protein chains. On fluorescence, simple mutation
   statistics alone reach Spearman ρ = 0.49; with them included, the repairs for composition and burial/packing fall to
-  +0.004 and +0.0003.
-- Composition on stability remains: with the same competing features it restores +0.100 and is positive for 30 of 32
-  encoders; a kernel-based intervention gives +0.084 on 33 of 34 encoders. The composition of the parent protein carries
-  the signal (+0.085 on 29 of 32 encoders); the composition change introduced by the mutation does not (+0.002).
+  +0.004 and +0.0004.
+- Two pairs are retained: composition on stability, and composition on solubility with a contrast of +0.021 at the
+  selection threshold of 0.02. On stability, with the same competing features composition restores +0.101 and is
+  positive for 30 of 32 encoders; a kernel-based intervention gives +0.080 on 33 of 34 encoders. The composition of the
+  parent protein carries the signal (+0.088 on 31 of 32 encoders); the composition change introduced by the mutation
+  does not (+0.002).
 
 <p align="center"><img src="figures/Figure4.png" alt="Figure 4" width="760"></p>
 
@@ -264,15 +266,20 @@ Protein Composition to Stability Prediction"; SI Section S5, Tables S26 to S33.)
   (see "Model weights") and rescored under the same protocol; before the re-extraction the 34-encoder counts were
   245 of 256 and +0.189 [+0.152, +0.237].
 - **Pre-registered new labels.** On three new labels whose determinacy and floors were fixed before scoring, every
-  determined family falls below its floor and undetermined families shift upward by +0.136 [+0.081, +0.188]
+  determined family falls below its floor and undetermined families shift upward by +0.123 [+0.036, +0.177]
   (`protcompass/prereg/freeze.json`, `freeze.sha256.json`, `decision.json`, `decision_cohortB.json`,
-  `POST_FREEZE_LOG.md`).
+  `POST_FREEZE_LOG.md`). These are the values after the seven encoders were re-extracted and rescored under the frozen
+  protocol; before the re-extraction the difference was +0.136 [+0.081, +0.188], and no verdict differs
+  (`protcompass/prereg/before_reextraction/`).
 - **Two CATH 4.4 cohorts** of domains absent from CATH 4.3 (`protcompass/confirmation/`, `protcompass/confirmation2/`).
   The sequence-only and undetermined-label predictions hold in both; two predictions on individual encoders fail.
 - **Downstream held-out proteins.** Previously unscored proteins, with the fitting and scoring rules frozen before
   evaluation (`protcompass/confirmation_downstream/freeze.json`). Selective repair holds on these proteins, while the
   variance-matched erasure effect can lose its consistency in sign. Paired protein bootstraps quantify uncertainty,
-  and multi-output readouts complete the four tasks that need larger heads.
+  and multi-output readouts complete the four tasks that need larger heads. Four encoders of the held-out panels
+  (ESM-IF1, ProteinMPNN, GearNet-pre and PottsMPNN-pre) were re-extracted after this evaluation and the analyses were
+  repeated under the frozen rules; no verdict differs, and the outputs from before the re-extraction are in
+  `protcompass/confirmation_downstream/before_reextraction/`.
 
 ## Latent-space atlas
 
@@ -316,11 +323,11 @@ changed line. The `.sha256` files are the checksums recorded before scoring and 
   below the floor.
 - **Fixed-head erasure** (SI Section S4.5, Table S22; `protcompass/erasure/ab_fixed_head/`). A head fitted once on the intact representation is
   scored on erased inputs. The fixed-head rule names three pairs: burial and packing on fluorescence (+0.055, 34 of 34
-  encoders), composition on fluorescence (+0.031, 26 of 32) and composition on solubility (+0.021, 30 of 32).
-  Composition on stability has a positive mean (+0.047) but is positive on 21 of 32 encoders (Holm p = 0.22).
+  encoders), composition on fluorescence (+0.034, 27 of 32) and composition on solubility (+0.022, 30 of 32).
+  Composition on stability has a positive mean (+0.049) but is positive on 22 of 32 encoders (Holm p = 0.20).
 - **Stability composition decomposition** (SI Section S4.7, Table S24; `protcompass/erasure/ab_stability_decomp/`). The composition descriptor is
   split exactly into the parent background and the substitution vector. The repair is carried by the parent
-  background (+0.085 on 29 of 32 encoders and 19 of 20 families with the wild-type and mutant residues and the site
+  background (+0.088 on 31 of 32 encoders and 20 of 20 families with the wild-type and mutant residues and the site
   environment in every arm); the substitution vector repairs nothing (+0.003 with the released competitors, +0.002
   with the larger set).
 
@@ -452,8 +459,11 @@ the ProteinMPNN and PottsMPNN classes from clones under `protcompass/external_re
 of the `esm` package, and TorchDrug's GearNet-Edge with its graph construction (3,072-dimensional output, the six
 layers concatenated). Until 2026-11-19 these seven encoders ran through wrappers in `protcompass/src/` that loaded the
 same weights but did not reproduce the released computation; their embeddings and the probing, downstream and residue-task
-analyses were recomputed (`protcompass/ENVIRONMENT.md`); the erasure, repair and held-out downstream results in this
-commit still use the earlier embeddings of these seven encoders and are being recomputed. The randomly initialised GearNet remains the 512-dimensional relational
+analyses, and the erasure, repair and held-out downstream analyses, were recomputed (`protcompass/ENVIRONMENT.md`). The
+files of the first screening version of the erasure analysis (`protcompass/erasure/parts/erasure_conditional_*.csv`,
+`erasure_results_*.csv` and the tables derived from them, `paper/generated/demand_restricted.tex` and
+`prediction_test_v2.tex`), which the manuscript does not use, still hold the earlier rows of these seven encoders and
+are being recomputed. The randomly initialised GearNet remains the 512-dimensional relational
 graph network of `protcompass/src/`.
 
 The sequence and multimodal models (ESM-1b, ESM2, ProtBert, ProtT5, Ankh, ProstT5, SaProt, FoldVision) load from the
@@ -603,7 +613,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | S4.2 | Table S18: Synthetic positive controls for the sham-referenced erasure effect | `scripts/emit_latex_tables.py`, `scripts/erasure_positive_control.py` | `erasure/positive_control.csv`, `erasure/positive_control_verdict.csv`, `paper/generated/positive_control.tex` | repo |
 | S4.2 | Text: Nonlinear synthetic outcome | `scripts/emit_latex_tables.py`, `scripts/erasure_positive_control.py` | `erasure/positive_control_nonlinear.csv`, `erasure/positive_control_nonlinear_verdict.csv`, `paper/generated/nonlinear_control.tex` | repo |
 | S4.2 | Table S19: Property recoverability before and after LEACE | `scripts/emit_latex_tables.py`, `scripts/recoverability_check.py` | `erasure/recoverability_check.csv`, `paper/generated/recoverability.tex` | repo |
-| S4.2 | Text: Eraser against the reference LEACE implementation | `qd/leace_check/leace_check.py`, `qd/leace_check/basis_panel.py`, `qd/leace_check/exact_panel.py`, `qd/leace_check/identity_check.py`, `qd/leace_check/summarize.py`, `qd/leace_check/floor_test.py` | `qd/leace_check/results.csv`, `qd/leace_check/results_basis.csv`, `qd/leace_check/results_basis_panel.csv`, `qd/leace_check/identity_check.csv` | repo |
+| S4.2 | Text: Eraser against the reference LEACE implementation | `qd/leace_check/leace_check.py`, `qd/leace_check/basis_panel.py`, `qd/leace_check/exact_panel.py`, `qd/leace_check/identity_check.py`, `qd/leace_check/summarize.py`, `qd/leace_check/floor_test.py` | `qd/leace_check/results.csv`, `qd/leace_check/results_basis.csv`, `qd/leace_check/results_basis_panel.csv`, `qd/leace_check/results_exact_panel.csv`, `qd/leace_check/identity_check.csv` | repo |
 | S4.3 | Text: Sham variance audit | `scripts/sham_variance_audit.py`, `scripts/panel.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/sham_variance_audit__dmasif.csv`, `erasure/sham_variance_audit_b__dmasif.csv` | repo |
 | S4.3 | Text: Variance match of the control | `scripts/sham_variance_audit.py`, `scripts/named_pair_verdicts.py` | `erasure/sham_variance_audit.csv`, `erasure/sham_variance_audit_b.csv`, `erasure/sham_variance_audit__dmasif.csv`, `erasure/sham_variance_audit_b__dmasif.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_cells.csv` | repo |
 | S4.3 | Table S20: Effects of nine task-property candidates against the sham and the variance-matched control | `scripts/erasure.py`, `scripts/addback_named_pairs.py`, `scripts/common_struct.py` | `erasure/concepts/fluorescence.npz`, `erasure/concepts/ppi_affinity.npz`, `extract/manifest/fluorescence.csv`, `extract/pairs/ppi_affinity_pairs.csv` | repo; Hugging Face |
@@ -613,7 +623,7 @@ rows. A "Text" row is a statement in the text whose numbers come from the listed
 | S4.4 | Table S21 (as above) | `scripts/named_pair_verdicts.py`, `scripts/addback_named_pairs.py`, `scripts/emit_named_pairs_with_families.py`, `scripts/family_weighted_repair.py` | `erasure/named_pairs_full/*.csv`, `erasure/named_pairs_full_remote/*.csv`, `erasure/named_pairs_full_remote_partial/*.csv`, `erasure/named_pair_cells_full.csv`, `erasure/named_pair_verdicts_full.csv`, `paper/generated/named_pairs_full.tex`, `erasure/named_pairs_full_families.tex`, `paper/generated/named_pairs_full_families.tex`, `erasure/family_weighted_repair_full.csv` | repo |
 | S4.4 | Text: Permuted-descriptor control of the repair | `scripts/repair_permuted_null.py` | `erasure/repair_permuted_null_full.csv`, `erasure/repair_permuted_null_pairs_full.csv` | repo |
 | S4.4 | Text: Calibration of the repair rule on synthetic outcomes | `scripts/matched_null_calibration.py`, `scripts/matched_null_calibration_report.py` | `erasure/calibration/*.csv`, `erasure/matched_null_calibration_cells.csv`, `erasure/matched_null_calibration_rules.csv`, `erasure/matched_null_calibration_summary.csv`, `paper/generated/calibration.tex` | repo |
-| S4.4 | Text: Six-encoder add-back study of composition | `scripts/emit_addback_table.py`, `scripts/addback_rescue.py` | `erasure/addback_rescue.csv`, `paper/generated/addback.tex` | repo |
+| S4.4 | Text: Six-encoder add-back study of composition | `scripts/emit_addback_table.py`, `scripts/addback_rescue.py`, `scripts/addback_matched_summary.py` | `erasure/addback_rescue.csv`, `erasure/addback_rescue_matched.csv`, `erasure/addback_rescue_matched_summary.csv`, `paper/generated/addback.tex` | repo |
 | S4.5 | Table S22: Fixed-head erasure effects compared with the retrained selective-repair results | `scripts/ab_fixed_head.py`, `scripts/ab_fixed_head_summary.py` | `erasure/ab_fixed_head/summary.csv`, `erasure/ab_fixed_head/cells.csv`, `erasure/ab_fixed_head/projection_check.txt`, `erasure/ab_fixed_head/PRESPEC.md`, `erasure/ab_fixed_head/PRESPEC.sha256`, `erasure/ab_fixed_head/fixed_head.tex`, `paper/generated/fixed_head.tex` | repo; partly working notes (not released) |
 | S4.6 | Text: Fluorescence competing explanations | `scripts/gfp_competing.py`, `scripts/gfp_competing_groups.py`, `scripts/gfp_competing_report.py` | `erasure/gfp_competing/verdicts.csv`, `erasure/gfp_competing/cells_summary.csv`, `erasure/gfp_competing/covariates.csv`, `qd/gfp_competing/PRESPEC.md` | repo |
 | S4.6 | Table S23: Selective repair on PPI affinity with chain-disjoint cross-validation | `scripts/ppi_repair_cv.py`, `scripts/ppi_repair_cv_report.py` | `erasure/ppi_cv*/*.csv`, `erasure/ppi_repair_cv_all_summary.csv`, `erasure/ppi_repair_cv_random_summary.csv`, `paper/generated/ppi_repair_cv_all.tex` | repo |

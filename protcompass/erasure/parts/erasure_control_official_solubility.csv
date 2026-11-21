@@ -1,0 +1,4 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+solubility,esm_if1,positive control,the task label itself,1,1,0.6441337585751754,0.4865346377607958,0.6436550782599828,0.157120440499187
+solubility,proteinmpnn,positive control,the task label itself,1,1,0.6159114469741173,0.5078401604287163,0.6155333178493941,0.10769315742067787
+solubility,gearnet_pretrained,positive control,the task label itself,1,1,0.6425475989508687,0.49192758048343876,0.633563137650331,0.14163555716689225

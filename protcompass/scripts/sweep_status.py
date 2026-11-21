@@ -13,9 +13,14 @@ sys.path.insert(0, str(Path(__file__).parent))
 from erasure import EMB, TASK_KIND
 
 
+def live(files):
+    """Drop files in backup folders and in returned copies of the second machine (stale rows)."""
+    return [f for f in files if "backup" not in f and "returned" not in f and "_old" not in f]
+
+
 def coverage():
     encs = sorted(d.name for d in (EMB / "stability").iterdir() if (d / "meta.json").exists())
-    files = sorted(set(glob.glob("**/parts/erasure_v2*.csv", recursive=True)))
+    files = sorted(set(live(glob.glob("**/parts/erasure_v2*.csv", recursive=True))))
     # A worker that is still starting, or that died before its first flush, leaves a part file with no header.
     # Reading is best-effort for the same reason the sweep's own resume is: an unreadable part means those cells
     # are not yet done, never that the status is wrong.

@@ -1,0 +1,4 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+stability,esm_if1,positive control,the task label itself,1,1,0.2677529798669968,-0.099534298023534,0.25540815051088755,0.3549424485344216
+stability,proteinmpnn,positive control,the task label itself,1,1,0.13983105973551427,-0.09478753295072878,0.15203715681327556,0.24682468976400435
+stability,gearnet_pretrained,positive control,the task label itself,1,1,0.4761473163812673,0.04173474200898975,0.3879808041922803,0.34624606218329057

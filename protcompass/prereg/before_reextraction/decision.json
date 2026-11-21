@@ -1,0 +1,100 @@
+{
+  "H1": {
+    "share": 1.0,
+    "n_units": 5,
+    "passes": true
+  },
+  "H2": {
+    "share": 0.46,
+    "n_units": 50,
+    "passes": false
+  },
+  "H3": {
+    "delta_G": 0.13597137727944403,
+    "ci": [
+      0.08067072890138645,
+      0.18784767526928983
+    ],
+    "passes": true
+  },
+  "threshold_sweep": {
+    "0.50": {
+      "H1": true,
+      "H2": false
+    },
+    "0.55": {
+      "H1": true,
+      "H2": false
+    },
+    "0.60": {
+      "H1": true,
+      "H2": false
+    },
+    "0.65": {
+      "H1": true,
+      "H2": false
+    },
+    "0.70": {
+      "H1": true,
+      "H2": false
+    },
+    "0.75": {
+      "H1": true,
+      "H2": false
+    },
+    "0.80": {
+      "H1": true,
+      "H2": false
+    },
+    "0.85": {
+      "H1": true,
+      "H2": false
+    },
+    "0.90": {
+      "H1": true,
+      "H2": false
+    },
+    "0.95": {
+      "H1": true,
+      "H2": false
+    },
+    "1.00": {
+      "H1": false,
+      "H2": false
+    }
+  },
+  "cells": {
+    "determined": {
+      "n": 11,
+      "below_or_at_floor": 11
+    },
+    "undetermined": {
+      "n": 80,
+      "below_or_at_floor": 37
+    },
+    "not_established": {
+      "n": 5,
+      "below_or_at_floor": 4
+    }
+  },
+  "ca_dihedral": {
+    "undetermined": {
+      "n": 10,
+      "below_or_at_floor": 0
+    },
+    "determined": {
+      "n": 22,
+      "below_or_at_floor": 22
+    }
+  },
+  "sc_contacts": {
+    "not_established": {
+      "n": 30,
+      "below_or_at_floor": 8
+    },
+    "determined": {
+      "n": 2,
+      "below_or_at_floor": 0
+    }
+  }
+}

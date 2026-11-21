@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+remote_homology,gearnet_pretrained,linear,0,0.5,accuracy,0.27310924369747897,3.560781717300415,3000,476,3072,895
+remote_homology,gearnet_pretrained,linear,1,0.5,accuracy,0.296218487394958,3.5991594791412354,3000,476,3072,895
+remote_homology,gearnet_pretrained,linear,2,0.5,accuracy,0.2689075630252101,3.585754871368408,3000,476,3072,895
+remote_homology,gearnet_pretrained,mlp2,0,0.5,accuracy,0.2668067226890756,4.089913845062256,3000,476,3072,895
+remote_homology,gearnet_pretrained,mlp2,1,0.5,accuracy,0.29411764705882354,4.164908409118652,3000,476,3072,895
+remote_homology,gearnet_pretrained,mlp2,2,0.5,accuracy,0.2773109243697479,4.013830661773682,3000,476,3072,895

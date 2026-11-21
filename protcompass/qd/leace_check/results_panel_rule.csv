@@ -1,0 +1,11 @@
+concept,variant,n,mean,pos,p,fam_pos,fam_n,src,p_holm,passes
+amino-acid composition,"released map, released head, SVD basis",32,0.026673935107940406,30,2.4633482098579407e-07,18,20,results_basis_panel.csv,2.4633482098579407e-07,True
+burial and packing,"released map, released head, SVD basis",34,0.02342626313192732,34,1.1641532182693481e-10,22,22,results_basis_panel.csv,2.3283064365386963e-10,True
+amino-acid composition,"released map, released head, principal-axes basis",32,0.02937563540992366,30,2.4633482098579407e-07,18,20,results_basis_panel.csv,2.4633482098579407e-07,True
+burial and packing,"released map, released head, principal-axes basis",34,0.0214133831184862,33,4.0745362639427185e-09,21,22,results_basis_panel.csv,8.149072527885437e-09,True
+amino-acid composition,"released map, rotation-invariant head",32,0.027372071778353685,30,2.4633482098579407e-07,18,20,results_basis_panel.csv,2.4633482098579407e-07,True
+burial and packing,"released map, rotation-invariant head",34,0.02428093617691411,34,1.1641532182693481e-10,22,22,results_basis_panel.csv,2.3283064365386963e-10,True
+amino-acid composition,"exact LEACE map, released head",32,0.0275686498379138,29,2.5560148060321808e-06,17,20,results_exact_panel.csv,2.5560148060321808e-06,True
+burial and packing,"exact LEACE map, released head",33,0.02340068776817369,33,2.3283064365386963e-10,22,22,results_exact_panel.csv,4.656612873077393e-10,True
+amino-acid composition,"exact LEACE map, rotation-invariant head",32,0.027867480447228338,28,1.9301194697618484e-05,17,20,results_exact_panel.csv,1.9301194697618484e-05,True
+burial and packing,"exact LEACE map, rotation-invariant head",34,0.02386227345023976,34,1.1641532182693481e-10,22,22,results_exact_panel.csv,2.3283064365386963e-10,True

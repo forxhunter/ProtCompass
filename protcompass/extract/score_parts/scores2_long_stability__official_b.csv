@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+stability,gearnet_pretrained,linear,0,1.0,spearman,0.4716341984032342,0.8158082365989685,6000,3000,3072,1
+stability,gearnet_pretrained,linear,1,1.0,spearman,0.4709763022863223,0.8107932806015015,6000,3000,3072,1
+stability,gearnet_pretrained,linear,2,1.0,spearman,0.5420078837127316,0.8070982694625854,6000,3000,3072,1
+stability,gearnet_pretrained,mlp2,0,1.0,spearman,0.49015842846418795,0.7468147873878479,6000,3000,3072,1
+stability,gearnet_pretrained,mlp2,1,1.0,spearman,0.46478864128704545,0.7519734501838684,6000,3000,3072,1
+stability,gearnet_pretrained,mlp2,2,1.0,spearman,0.44709580841621643,0.7512221336364746,6000,3000,3072,1

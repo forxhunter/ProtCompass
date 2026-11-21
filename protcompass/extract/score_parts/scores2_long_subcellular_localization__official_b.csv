@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+subcellular_localization,gearnet_pretrained,linear,0,1.0,accuracy,0.589971694298423,1.2657278776168823,6000,2473,3072,10
+subcellular_localization,gearnet_pretrained,linear,1,1.0,accuracy,0.5891629599676507,1.2590714693069458,6000,2473,3072,10
+subcellular_localization,gearnet_pretrained,linear,2,1.0,accuracy,0.5839061868176304,1.2581485509872437,6000,2473,3072,10
+subcellular_localization,gearnet_pretrained,mlp2,0,1.0,accuracy,0.6069551152446422,1.1141489744186401,6000,2473,3072,10
+subcellular_localization,gearnet_pretrained,mlp2,1,1.0,accuracy,0.613829357056207,1.1141937971115112,6000,2473,3072,10
+subcellular_localization,gearnet_pretrained,mlp2,2,1.0,accuracy,0.6198948645369996,1.1148695945739746,6000,2473,3072,10

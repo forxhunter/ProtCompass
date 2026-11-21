@@ -61,6 +61,8 @@ def main():
     V = pd.read_csv(VERDICTS)
     V = V[V.named_by_effect_rule | V.passes_R_rule].reset_index(drop=True)
     order = {k: i for i, k in enumerate(zip(V.task, V.concept))}
+    # cells of pairs that the current verdicts no longer name stay in the part files and are left out here
+    C = C[[k in order for k in zip(C.task, C.concept)]].copy()
     C["_o"] = [order[(t, c)] for t, c in zip(C.task, C.concept)]
     C = C.sort_values(["_o", "encoder"]).drop(columns="_o").reset_index(drop=True)
     lead = ["task", "concept", "encoder", "rank", "dim", "S_intact", "S_erased", "S_sham", "S_null",

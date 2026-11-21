@@ -1,0 +1,9 @@
+{
+  "H4": {
+    "delta_G": 0.2530514998879903,
+    "direction_accuracy": 0.9090909090909091,
+    "n_cells": 22,
+    "n_determined": 7,
+    "passes": true
+  }
+}

@@ -155,6 +155,10 @@ def verdict(d, gate=True):
     enough to discard a true positive: on the planted runs the erasure of the planted property cuts its readout by
     just under half, which the check reads as a failure although the label's score falls by 0.7."""
     out = []
+    # The rule is applied to the six independent blocks, as in the sweep. Charge and hydrophobic fraction are linear
+    # functions of composition; whether their erasure verifies depends on the numerical environment (never in the
+    # first run, mostly in the rerun of 2026-11-20), so they must not enter the Holm correction through that gate.
+    d = d[d.concept.isin(list(INDEPENDENT_BLOCKS))]
     for planted, g in d.groupby("planted"):
         g = g[g.erasure_ok] if gate else g
         ps, meta = [], []
@@ -177,18 +181,23 @@ def main():
                     help="plant a nonlinear function of the property instead of a linear one. The linear control "
                          "shows the protocol recovers a linearly carried demand; it says nothing about a demand a "
                          "task uses nonlinearly, which is what the exclusions need.")
+    ap.add_argument("--verdict-only", action="store_true", help="rewrite the verdict files from the stored cells")
     a = ap.parse_args()
     global NONLINEAR
     NONLINEAR = a.nonlinear
-    common_struct.set_task(TASK)
-    rng = np.random.default_rng(0)
-    rows = []
-    for planted in a.planted:
-        print(f"\n=== planted: {planted} ===", flush=True)
-        for enc in a.encoders:
-            rows += one_encoder(enc, planted, rng)
-        pd.DataFrame(rows).to_csv(OUT / f"positive_control{'_nonlinear' if a.nonlinear else ''}.csv", index=False)
-    d = pd.DataFrame(rows)
+    cells = OUT / f"positive_control{'_nonlinear' if a.nonlinear else ''}.csv"
+    if a.verdict_only:
+        d = pd.read_csv(cells)
+    else:
+        common_struct.set_task(TASK)
+        rng = np.random.default_rng(0)
+        rows = []
+        for planted in a.planted:
+            print(f"\n=== planted: {planted} ===", flush=True)
+            for enc in a.encoders:
+                rows += one_encoder(enc, planted, rng)
+            pd.DataFrame(rows).to_csv(cells, index=False)
+        d = pd.DataFrame(rows)
     for gate in (True, False):
         v = verdict(d, gate)
         v["erasure_gate"] = gate

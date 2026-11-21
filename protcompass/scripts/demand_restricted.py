@@ -30,9 +30,14 @@ from causal_demand_v2 import MIN_CV, MIN_EFFECT, holm, variation  # noqa: E402
 from exclusion_bounds import TASK_LABEL, mde  # noqa: E402
 
 
+def live(files):
+    """Drop files in backup folders and in returned copies of the second machine (stale rows)."""
+    return [f for f in files if "backup" not in f and "returned" not in f and "_old" not in f]
+
+
 def erasure():
     frames = []
-    for f in sorted(set(glob.glob(str(ROOT / "**" / "parts" / "erasure_v2*.csv"), recursive=True))):
+    for f in sorted(set(live(glob.glob(str(ROOT / "**" / "parts" / "erasure_v2*.csv"), recursive=True)))):
         try:
             frames.append(pd.read_csv(f))
         except Exception:
@@ -78,8 +83,8 @@ def main():
     sub = cond[[e in keep.get(t, set()) for t, e in zip(cond.task, cond.encoder)]]
     restricted = rule(sub, cv)
 
-    ctrl = pd.concat([pd.read_csv(f) for f in sorted(glob.glob(
-        str(ROOT / "**" / "parts" / "erasure_control*.csv"), recursive=True))], ignore_index=True)
+    ctrl = pd.concat([pd.read_csv(f) for f in sorted(live(glob.glob(
+        str(ROOT / "**" / "parts" / "erasure_control*.csv"), recursive=True)))], ignore_index=True)
     pc = ctrl[ctrl.check == "positive control"]
     reach = pc.pivot_table(index="task", columns="requested_rank", values="effect", aggfunc="mean").max(axis=1)
 

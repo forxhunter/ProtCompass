@@ -20,6 +20,9 @@ HERE = Path(__file__).parent
 PY = sys.executable
 
 
+SIX_BLOCKS = ["amino-acid composition", "burial and packing", "contact order", "global shape",
+              "secondary structure content", "size"]     # common_struct.INDEPENDENT_BLOCKS
+
 def _open(cols, header):
     print("% generated file: the whole tabular, so the caller never inputs rows into an open tabular")
     print("\\begin{tabular}{" + cols + "}")
@@ -104,7 +107,7 @@ def nonlinear_control():
     # gated means (encoders whose erasure verified), the set the rule is computed on, as in positive_control()
     d = pd.read_csv(HERE.parent / "erasure" / "positive_control_nonlinear.csv")
     v = pd.read_csv(HERE.parent / "erasure" / "positive_control_nonlinear_verdict.csv")
-    ok = d[d.erasure_ok.fillna(False).astype(bool)]
+    ok = d[d.erasure_ok.fillna(False).astype(bool) & d.concept.isin(SIX_BLOCKS)]   # the six blocks the rule tests
     piv = ok.pivot_table(index="concept", columns="planted", values="effect", aggfunc="mean")
     cnt = ok.pivot_table(index="concept", columns="planted", values="effect", aggfunc="count")
     cols = [c for c in ["amino-acid composition", "global shape", "none"] if c in piv.columns]
@@ -181,7 +184,7 @@ def positive_control():
     v = pd.read_csv(HERE.parent / "erasure" / "positive_control_verdict.csv")
     # cells are means over the encoders whose erasure verified, which is the set the paper's rule (and the verdict
     # file) is computed on; an earlier version averaged over all twelve and disagreed with the text on global shape
-    ok = d[d.erasure_ok.fillna(False).astype(bool)]
+    ok = d[d.erasure_ok.fillna(False).astype(bool) & d.concept.isin(SIX_BLOCKS)]   # the six blocks the rule tests
     piv = ok.pivot_table(index="concept", columns="planted", values="effect", aggfunc="mean")
     cnt = ok.pivot_table(index="concept", columns="planted", values="effect", aggfunc="count")
     cols = [c for c in ["amino-acid composition", "secondary structure content", "global shape", "none"]

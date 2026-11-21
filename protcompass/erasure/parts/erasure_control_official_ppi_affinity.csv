@@ -1,0 +1,4 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+ppi_affinity,esm_if1,positive control,the task label itself,1,1,0.45782181484036844,-0.017133825752249178,0.4549383995825863,0.4720722253348355
+ppi_affinity,proteinmpnn,positive control,the task label itself,1,1,0.3135930355476825,0.009690285227733117,0.2844674154856211,0.27477713025788797
+ppi_affinity,gearnet_pretrained,positive control,the task label itself,1,1,0.5380022164168718,0.2658228316668436,0.5621431883118941,0.2963203566450505

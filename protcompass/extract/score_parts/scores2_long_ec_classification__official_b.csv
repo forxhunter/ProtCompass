@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+ec_classification,gearnet_pretrained,linear,0,1.0,accuracy,0.733103448275862,2.0425634384155273,6000,2900,3072,373
+ec_classification,gearnet_pretrained,linear,1,1.0,accuracy,0.7562068965517241,2.154331684112549,6000,2900,3072,373
+ec_classification,gearnet_pretrained,linear,2,1.0,accuracy,0.7572413793103449,2.1113088130950928,6000,2900,3072,373
+ec_classification,gearnet_pretrained,mlp2,0,1.0,accuracy,0.723448275862069,2.308156728744507,6000,2900,3072,373
+ec_classification,gearnet_pretrained,mlp2,1,1.0,accuracy,0.7382758620689656,2.423699140548706,6000,2900,3072,373
+ec_classification,gearnet_pretrained,mlp2,2,1.0,accuracy,0.716551724137931,2.441239833831787,6000,2900,3072,373

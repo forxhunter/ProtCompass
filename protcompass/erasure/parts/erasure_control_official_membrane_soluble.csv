@@ -1,0 +1,4 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+membrane_soluble,esm_if1,positive control,the task label itself,1,1,0.8189821169831465,0.560762697323267,0.8223697380462136,0.2616070407229466
+membrane_soluble,proteinmpnn,positive control,the task label itself,1,1,0.7778909765118585,0.4298525318386334,0.7760264742049874,0.34617394236635396
+membrane_soluble,gearnet_pretrained,positive control,the task label itself,1,1,0.852533030199039,0.46160894722794177,0.856204243880119,0.3945952966521772

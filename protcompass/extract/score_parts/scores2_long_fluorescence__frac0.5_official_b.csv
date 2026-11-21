@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+fluorescence,gearnet_pretrained,linear,0,0.5,spearman,0.4730248556385777,0.6561052799224854,3000,3000,3072,1
+fluorescence,gearnet_pretrained,linear,1,0.5,spearman,0.4619072969770676,0.6486413478851318,3000,3000,3072,1
+fluorescence,gearnet_pretrained,linear,2,0.5,spearman,0.4606121385233079,0.6280972361564636,3000,3000,3072,1
+fluorescence,gearnet_pretrained,mlp2,0,0.5,spearman,0.4814000286090845,0.5825495719909668,3000,3000,3072,1
+fluorescence,gearnet_pretrained,mlp2,1,0.5,spearman,0.48815510335671364,0.5695241093635559,3000,3000,3072,1
+fluorescence,gearnet_pretrained,mlp2,2,0.5,spearman,0.4901593262428468,0.5746145844459534,3000,3000,3072,1

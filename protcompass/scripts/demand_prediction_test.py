@@ -43,8 +43,13 @@ LABEL = {"ec_classification": "EC", "go_mf": "GO-MF", "go_bp": "GO-BP",
          "membrane_soluble": "membrane"}
 
 
+def live(files):
+    """Drop files in backup folders and in returned copies of the second machine (stale rows)."""
+    return [f for f in files if "backup" not in f and "returned" not in f and "_old" not in f]
+
+
 def erasure():
-    files = sorted(set(glob.glob(str(ROOT / "**" / "parts" / "erasure_v2*.csv"), recursive=True)))
+    files = sorted(set(live(glob.glob(str(ROOT / "**" / "parts" / "erasure_v2*.csv"), recursive=True))))
     frames = []
     for f in files:
         try:

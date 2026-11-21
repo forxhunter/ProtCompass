@@ -89,6 +89,47 @@ structure files.
 - The randomly initialised GearNet was not replaced. The released GearNet-Edge architecture with random weights gives
   activations in the thousands, which do not fit the half-precision storage of the residue embeddings.
 
+**Erasure and repair analyses of the seven encoders (2026-11-20).** Every erasure, repair and held-out downstream
+cell of the seven re-extracted encoders was refitted with the scripts of this repository. The rows of the other 27
+encoders were kept as released. The new rows are in part files whose names contain `official`, for example
+`erasure/parts/erasure_v2_official_*.csv` and `erasure/named_pairs_full/*__official*.csv`; the earlier rows of the seven
+encoders were removed from the other part files.
+
+- Most cells were fitted on the third machine (scikit-learn 1.7.2, SciPy 1.15.3 and pandas 2.3.3 as in the main
+  environment). The fixed-head erasure, the candidate repair grid, the LEACE comparison of `qd/leace_check/`, the
+  recoverability check, the variance-matched add-back study, the pre-registered labels and the held-out downstream
+  analyses were fitted on the first machine.
+- An erasure cell is reproducible for a fixed number of BLAS threads and changes with that number. The erasure sweep,
+  the full and candidate repair grids and the LEACE comparison used four threads (three for the repair grid of
+  pretrained GearNet). The chain-disjoint PPI cross-validation, the kernel repair, the competing-feature and
+  decomposition analyses, the control ladder, the two-layer checks and repairs, the add-back study, the
+  recoverability check, the synthetic positive controls and the calibration used three. The fixed-head erasure used
+  one. In a test of three encoders on two properties, single
+  scores fitted with one and with four threads differ by a mean 0.0004 to 0.0012 on solubility, 0.002 to 0.004 on
+  fluorescence and 0.022 to 0.045 on PPI affinity, with a largest difference of 0.18 on one PPI cell. ProteinMPNN cells
+  fitted with four threads on the first machine equal the rows fitted with four threads on the third machine.
+- The synthetic positive controls (linear and nonlinear outcome) were rerun for all twelve encoders in one call,
+  because the encoders share one random stream, and the calibration parts 0, 1 and 3 were replaced. The decision rule
+  of the positive control is now applied to the six independent property blocks, as in the sweep
+  (`scripts/erasure_positive_control.py`). Charge and hydrophobic fraction are linear functions of composition, and
+  whether their erasure passes the verification step differed between the first run and the rerun.
+  `erasure/positive_control_nonlinear_extra_ssc.csv` holds one more nonlinear condition (secondary-structure content
+  planted), which no table uses.
+- `scripts/erasure_robustness.py` skips a label rank when fewer than eight dimensions would remain. ProteinMPNN has 128
+  dimensions, so its largest rank in the control ladder is 116 where the other encoders have 128.
+- The recoverability check and the variance-matched add-back study were rerun for all their encoders. The released
+  files take the rows of the re-extracted encoders from the rerun and keep the earlier rows of the other encoders.
+  For the unchanged encoders the post-erasure probe scores of the two runs differ by a median 0.035 (linear probe) and
+  0.030 (two-layer probe, trained on the GPU), and by up to 1.09 on single cells of the stability task.
+  `scripts/addback_matched_summary.py` writes the per-task summary of the add-back study and reproduces the earlier
+  summary file from the earlier cells.
+  The six-encoder add-back study (`erasure/addback_rescue.csv`) was rerun in the same way on the third machine and
+  merged by the same rule. There the scores of the unchanged encoders differ between the two runs by a median 0.0006
+  and at most 0.006 with the linear probe, and by a median 0.004 and at most 0.038 with the two-layer probe.
+- The pre-registered labels and the held-out downstream proteins were evaluated before the re-extraction. Their
+  outputs from that time are in `prereg/before_reextraction/` and `confirmation_downstream/before_reextraction/`; the
+  files in `prereg/` and `confirmation_downstream/` hold the repeated analyses. No verdict differs.
+
 ## Analyses added on 2026-09-25 (all local, main environment)
 
 | Directory | Contents |

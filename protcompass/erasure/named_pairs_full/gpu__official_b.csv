@@ -1,0 +1,841 @@
+task,concept,encoder,arm,descriptor,rank,dim,score,var_removed,prop_removed
+ec_classification,amino-acid composition,gearnet_pretrained,intact,none,19,3072,0.635,0.0,0.0
+ec_classification,amino-acid composition,gearnet_pretrained,erased,none,19,3072,0.6403333333333333,0.08711478798592165,0.995333733922168
+ec_classification,amino-acid composition,gearnet_pretrained,erased,named,19,3072,0.652,0.08711478798592165,0.995333733922168
+ec_classification,amino-acid composition,gearnet_pretrained,erased,permuted,19,3072,0.6506666666666666,0.08711478798592165,0.995333733922168
+ec_classification,amino-acid composition,gearnet_pretrained,sham0,none,19,3072,0.6656666666666666,0.006032436238053163,0.005733192827822253
+ec_classification,amino-acid composition,gearnet_pretrained,sham0,named,19,3072,0.6703333333333333,0.006032436238053163,0.005733192827822253
+ec_classification,amino-acid composition,gearnet_pretrained,sham0,permuted,19,3072,0.6713333333333333,0.006032436238053163,0.005733192827822253
+ec_classification,amino-acid composition,gearnet_pretrained,sham1,none,19,3072,0.649,0.006450037458014313,0.005429434114587295
+ec_classification,amino-acid composition,gearnet_pretrained,sham1,named,19,3072,0.6606666666666666,0.006450037458014313,0.005429434114587295
+ec_classification,amino-acid composition,gearnet_pretrained,sham1,permuted,19,3072,0.66,0.006450037458014313,0.005429434114587295
+ec_classification,amino-acid composition,gearnet_pretrained,sham2,none,19,3072,0.6643333333333333,0.006569649575388303,0.0058643182465221155
+ec_classification,amino-acid composition,gearnet_pretrained,sham2,named,19,3072,0.6646666666666666,0.006569649575388303,0.0058643182465221155
+ec_classification,amino-acid composition,gearnet_pretrained,sham2,permuted,19,3072,0.6633333333333333,0.006569649575388303,0.0058643182465221155
+ec_classification,amino-acid composition,gearnet_pretrained,sham3,none,19,3072,0.66,0.00644490109908169,0.005440573962450679
+ec_classification,amino-acid composition,gearnet_pretrained,sham3,named,19,3072,0.647,0.00644490109908169,0.005440573962450679
+ec_classification,amino-acid composition,gearnet_pretrained,sham3,permuted,19,3072,0.6493333333333333,0.00644490109908169,0.005440573962450679
+ec_classification,amino-acid composition,gearnet_pretrained,null0,none,19,3072,0.7443333333333333,0.08723617770739323,0.01356003427017749
+ec_classification,amino-acid composition,gearnet_pretrained,null0,named,19,3072,0.7546666666666667,0.08723617770739323,0.01356003427017749
+ec_classification,amino-acid composition,gearnet_pretrained,null0,permuted,19,3072,0.7446666666666667,0.08723617770739323,0.01356003427017749
+ec_classification,amino-acid composition,gearnet_pretrained,null1,none,19,3072,0.7543333333333333,0.08640187771021623,0.030888036133240315
+ec_classification,amino-acid composition,gearnet_pretrained,null1,named,19,3072,0.751,0.08640187771021623,0.030888036133240315
+ec_classification,amino-acid composition,gearnet_pretrained,null1,permuted,19,3072,0.7363333333333333,0.08640187771021623,0.030888036133240315
+ec_classification,amino-acid composition,gearnet_pretrained,null2,none,19,3072,0.7453333333333333,0.08643410989661882,0.016572443886191057
+ec_classification,amino-acid composition,gearnet_pretrained,null2,named,19,3072,0.7556666666666667,0.08643410989661882,0.016572443886191057
+ec_classification,amino-acid composition,gearnet_pretrained,null2,permuted,19,3072,0.7466666666666667,0.08643410989661882,0.016572443886191057
+ec_classification,amino-acid composition,gearnet_pretrained,null3,none,19,3072,0.753,0.08634834172127337,0.021105046289901064
+ec_classification,amino-acid composition,gearnet_pretrained,null3,named,19,3072,0.753,0.08634834172127337,0.021105046289901064
+ec_classification,amino-acid composition,gearnet_pretrained,null3,permuted,19,3072,0.742,0.08634834172127337,0.021105046289901064
+ec_classification,burial and packing,gearnet_pretrained,intact,none,2,3072,0.635,0.0,0.0
+ec_classification,burial and packing,gearnet_pretrained,erased,none,2,3072,0.6546666666666666,0.019448686577532626,0.9457882064214141
+ec_classification,burial and packing,gearnet_pretrained,erased,named,2,3072,0.654,0.019448686577532626,0.9457882064214141
+ec_classification,burial and packing,gearnet_pretrained,erased,permuted,2,3072,0.6543333333333333,0.019448686577532626,0.9457882064214141
+ec_classification,burial and packing,gearnet_pretrained,sham0,none,2,3072,0.65,0.0007677263411367541,9.494772416518416e-05
+ec_classification,burial and packing,gearnet_pretrained,sham0,named,2,3072,0.624,0.0007677263411367541,9.494772416518416e-05
+ec_classification,burial and packing,gearnet_pretrained,sham0,permuted,2,3072,0.6236666666666667,0.0007677263411367541,9.494772416518416e-05
+ec_classification,burial and packing,gearnet_pretrained,sham1,none,2,3072,0.65,0.000559771610902704,0.00022362159086608546
+ec_classification,burial and packing,gearnet_pretrained,sham1,named,2,3072,0.642,0.000559771610902704,0.00022362159086608546
+ec_classification,burial and packing,gearnet_pretrained,sham1,permuted,2,3072,0.6436666666666667,0.000559771610902704,0.00022362159086608546
+ec_classification,burial and packing,gearnet_pretrained,sham2,none,2,3072,0.6316666666666667,0.0007252721636283876,0.0007804597180257611
+ec_classification,burial and packing,gearnet_pretrained,sham2,named,2,3072,0.6303333333333333,0.0007252721636283876,0.0007804597180257611
+ec_classification,burial and packing,gearnet_pretrained,sham2,permuted,2,3072,0.6303333333333333,0.0007252721636283876,0.0007804597180257611
+ec_classification,burial and packing,gearnet_pretrained,sham3,none,2,3072,0.6296666666666667,0.0005130092934253483,0.0002167098561143277
+ec_classification,burial and packing,gearnet_pretrained,sham3,named,2,3072,0.6413333333333333,0.0005130092934253483,0.0002167098561143277
+ec_classification,burial and packing,gearnet_pretrained,sham3,permuted,2,3072,0.6396666666666667,0.0005130092934253483,0.0002167098561143277
+ec_classification,burial and packing,gearnet_pretrained,null0,none,2,3072,0.7416666666666667,0.01930460064607531,0.00010891596426787498
+ec_classification,burial and packing,gearnet_pretrained,null0,named,2,3072,0.7556666666666667,0.01930460064607531,0.00010891596426787498
+ec_classification,burial and packing,gearnet_pretrained,null0,permuted,2,3072,0.7553333333333333,0.01930460064607531,0.00010891596426787498
+ec_classification,burial and packing,gearnet_pretrained,null1,none,2,3072,0.7503333333333333,0.01962806212824364,0.00501286200200779
+ec_classification,burial and packing,gearnet_pretrained,null1,named,2,3072,0.7546666666666667,0.01962806212824364,0.00501286200200779
+ec_classification,burial and packing,gearnet_pretrained,null1,permuted,2,3072,0.754,0.01962806212824364,0.00501286200200779
+ec_classification,burial and packing,gearnet_pretrained,null2,none,2,3072,0.7506666666666667,0.018051459538509618,0.0012005198328225442
+ec_classification,burial and packing,gearnet_pretrained,null2,named,2,3072,0.756,0.018051459538509618,0.0012005198328225442
+ec_classification,burial and packing,gearnet_pretrained,null2,permuted,2,3072,0.756,0.018051459538509618,0.0012005198328225442
+ec_classification,burial and packing,gearnet_pretrained,null3,none,2,3072,0.7473333333333333,0.019518655198416668,0.00011637627161931174
+ec_classification,burial and packing,gearnet_pretrained,null3,named,2,3072,0.754,0.019518655198416668,0.00011637627161931174
+ec_classification,burial and packing,gearnet_pretrained,null3,permuted,2,3072,0.7546666666666667,0.019518655198416668,0.00011637627161931174
+ec_classification,contact order,gearnet_pretrained,intact,none,1,3072,0.635,0.0,0.0
+ec_classification,contact order,gearnet_pretrained,erased,none,1,3072,0.631,0.007173080551731603,0.9450823744369993
+ec_classification,contact order,gearnet_pretrained,erased,named,1,3072,0.6256666666666667,0.007173080551731603,0.9450823744369993
+ec_classification,contact order,gearnet_pretrained,erased,permuted,1,3072,0.6263333333333333,0.007173080551731603,0.9450823744369993
+ec_classification,contact order,gearnet_pretrained,sham0,none,1,3072,0.6306666666666667,0.00029585131513831797,0.0002573495588509278
+ec_classification,contact order,gearnet_pretrained,sham0,named,1,3072,0.629,0.00029585131513831797,0.0002573495588509278
+ec_classification,contact order,gearnet_pretrained,sham0,permuted,1,3072,0.6286666666666667,0.00029585131513831797,0.0002573495588509278
+ec_classification,contact order,gearnet_pretrained,sham1,none,1,3072,0.6423333333333333,0.00038347249655801274,0.0003676396041609742
+ec_classification,contact order,gearnet_pretrained,sham1,named,1,3072,0.63,0.00038347249655801274,0.0003676396041609742
+ec_classification,contact order,gearnet_pretrained,sham1,permuted,1,3072,0.6296666666666667,0.00038347249655801274,0.0003676396041609742
+ec_classification,contact order,gearnet_pretrained,sham2,none,1,3072,0.6316666666666667,0.0005474252176830285,0.0007790320780517446
+ec_classification,contact order,gearnet_pretrained,sham2,named,1,3072,0.6256666666666667,0.0005474252176830285,0.0007790320780517446
+ec_classification,contact order,gearnet_pretrained,sham2,permuted,1,3072,0.6256666666666667,0.0005474252176830285,0.0007790320780517446
+ec_classification,contact order,gearnet_pretrained,sham3,none,1,3072,0.629,0.00026193808604690894,6.0785299817567306e-05
+ec_classification,contact order,gearnet_pretrained,sham3,named,1,3072,0.6423333333333333,0.00026193808604690894,6.0785299817567306e-05
+ec_classification,contact order,gearnet_pretrained,sham3,permuted,1,3072,0.6433333333333333,0.00026193808604690894,6.0785299817567306e-05
+ec_classification,contact order,gearnet_pretrained,null0,none,1,3072,0.7496666666666667,0.00691868970697207,8.630105265627908e-05
+ec_classification,contact order,gearnet_pretrained,null0,named,1,3072,0.747,0.00691868970697207,8.630105265627908e-05
+ec_classification,contact order,gearnet_pretrained,null0,permuted,1,3072,0.746,0.00691868970697207,8.630105265627908e-05
+ec_classification,contact order,gearnet_pretrained,null1,none,1,3072,0.748,0.006623181798303679,0.008151014674775303
+ec_classification,contact order,gearnet_pretrained,null1,named,1,3072,0.7473333333333333,0.006623181798303679,0.008151014674775303
+ec_classification,contact order,gearnet_pretrained,null1,permuted,1,3072,0.7453333333333333,0.006623181798303679,0.008151014674775303
+ec_classification,contact order,gearnet_pretrained,null2,none,1,3072,0.7486666666666667,0.007830826981937489,4.207642303133419e-06
+ec_classification,contact order,gearnet_pretrained,null2,named,1,3072,0.7476666666666667,0.007830826981937489,4.207642303133419e-06
+ec_classification,contact order,gearnet_pretrained,null2,permuted,1,3072,0.746,0.007830826981937489,4.207642303133419e-06
+ec_classification,contact order,gearnet_pretrained,null3,none,1,3072,0.7476666666666667,0.006211030078264956,0.00020429071438199387
+ec_classification,contact order,gearnet_pretrained,null3,named,1,3072,0.747,0.006211030078264956,0.00020429071438199387
+ec_classification,contact order,gearnet_pretrained,null3,permuted,1,3072,0.7456666666666667,0.006211030078264956,0.00020429071438199387
+ec_classification,global shape,gearnet_pretrained,intact,none,3,3072,0.635,0.0,0.0
+ec_classification,global shape,gearnet_pretrained,erased,none,3,3072,0.6316666666666667,0.01428431810543862,0.9016688481543284
+ec_classification,global shape,gearnet_pretrained,erased,named,3,3072,0.6436666666666667,0.01428431810543862,0.9016688481543284
+ec_classification,global shape,gearnet_pretrained,erased,permuted,3,3072,0.643,0.01428431810543862,0.9016688481543284
+ec_classification,global shape,gearnet_pretrained,sham0,none,3,3072,0.6513333333333333,0.0010004019278478937,0.00021411578343577542
+ec_classification,global shape,gearnet_pretrained,sham0,named,3,3072,0.6286666666666667,0.0010004019278478937,0.00021411578343577542
+ec_classification,global shape,gearnet_pretrained,sham0,permuted,3,3072,0.6293333333333333,0.0010004019278478937,0.00021411578343577542
+ec_classification,global shape,gearnet_pretrained,sham1,none,3,3072,0.643,0.0010182247926368015,0.0012310207223069636
+ec_classification,global shape,gearnet_pretrained,sham1,named,3,3072,0.63,0.0010182247926368015,0.0012310207223069636
+ec_classification,global shape,gearnet_pretrained,sham1,permuted,3,3072,0.6273333333333333,0.0010182247926368015,0.0012310207223069636
+ec_classification,global shape,gearnet_pretrained,sham2,none,3,3072,0.6396666666666667,0.001183439201168257,0.00014386725218606955
+ec_classification,global shape,gearnet_pretrained,sham2,named,3,3072,0.6393333333333333,0.001183439201168257,0.00014386725218606955
+ec_classification,global shape,gearnet_pretrained,sham2,permuted,3,3072,0.6386666666666667,0.001183439201168257,0.00014386725218606955
+ec_classification,global shape,gearnet_pretrained,sham3,none,3,3072,0.6496666666666666,0.0008953775898584704,0.0003192126873770018
+ec_classification,global shape,gearnet_pretrained,sham3,named,3,3072,0.6413333333333333,0.0008953775898584704,0.0003192126873770018
+ec_classification,global shape,gearnet_pretrained,sham3,permuted,3,3072,0.641,0.0008953775898584704,0.0003192126873770018
+ec_classification,global shape,gearnet_pretrained,null0,none,3,3072,0.742,0.014407802923911195,0.0030555958996402177
+ec_classification,global shape,gearnet_pretrained,null0,named,3,3072,0.7616666666666667,0.014407802923911195,0.0030555958996402177
+ec_classification,global shape,gearnet_pretrained,null0,permuted,3,3072,0.7596666666666667,0.014407802923911195,0.0030555958996402177
+ec_classification,global shape,gearnet_pretrained,null1,none,3,3072,0.7456666666666667,0.014313260729568289,0.0007617185776697122
+ec_classification,global shape,gearnet_pretrained,null1,named,3,3072,0.754,0.014313260729568289,0.0007617185776697122
+ec_classification,global shape,gearnet_pretrained,null1,permuted,3,3072,0.7533333333333333,0.014313260729568289,0.0007617185776697122
+ec_classification,global shape,gearnet_pretrained,null2,none,3,3072,0.741,0.014257010176274787,0.004087718193342416
+ec_classification,global shape,gearnet_pretrained,null2,named,3,3072,0.757,0.014257010176274787,0.004087718193342416
+ec_classification,global shape,gearnet_pretrained,null2,permuted,3,3072,0.7543333333333333,0.014257010176274787,0.004087718193342416
+ec_classification,global shape,gearnet_pretrained,null3,none,3,3072,0.7383333333333333,0.014366391078590612,0.0048586733980554575
+ec_classification,global shape,gearnet_pretrained,null3,named,3,3072,0.762,0.014366391078590612,0.0048586733980554575
+ec_classification,global shape,gearnet_pretrained,null3,permuted,3,3072,0.7613333333333333,0.014366391078590612,0.0048586733980554575
+ec_classification,secondary structure content,gearnet_pretrained,intact,none,2,3072,0.635,0.0,0.0
+ec_classification,secondary structure content,gearnet_pretrained,erased,none,2,3072,0.64,0.018608341560958586,0.9790832548575059
+ec_classification,secondary structure content,gearnet_pretrained,erased,named,2,3072,0.6476666666666666,0.018608341560958586,0.9790832548575059
+ec_classification,secondary structure content,gearnet_pretrained,erased,permuted,2,3072,0.647,0.018608341560958586,0.9790832548575059
+ec_classification,secondary structure content,gearnet_pretrained,sham0,none,2,3072,0.6313333333333333,0.0006266886508385916,0.00018560294948888334
+ec_classification,secondary structure content,gearnet_pretrained,sham0,named,2,3072,0.612,0.0006266886508385916,0.00018560294948888334
+ec_classification,secondary structure content,gearnet_pretrained,sham0,permuted,2,3072,0.6096666666666667,0.0006266886508385916,0.00018560294948888334
+ec_classification,secondary structure content,gearnet_pretrained,sham1,none,2,3072,0.6256666666666667,0.0007082895395149613,0.0009033767319400754
+ec_classification,secondary structure content,gearnet_pretrained,sham1,named,2,3072,0.641,0.0007082895395149613,0.0009033767319400754
+ec_classification,secondary structure content,gearnet_pretrained,sham1,permuted,2,3072,0.6416666666666667,0.0007082895395149613,0.0009033767319400754
+ec_classification,secondary structure content,gearnet_pretrained,sham2,none,2,3072,0.631,0.0009615064558653463,0.0001909009408397333
+ec_classification,secondary structure content,gearnet_pretrained,sham2,named,2,3072,0.647,0.0009615064558653463,0.0001909009408397333
+ec_classification,secondary structure content,gearnet_pretrained,sham2,permuted,2,3072,0.6476666666666666,0.0009615064558653463,0.0001909009408397333
+ec_classification,secondary structure content,gearnet_pretrained,sham3,none,2,3072,0.6343333333333333,0.0007202315183042485,0.00015204887293041036
+ec_classification,secondary structure content,gearnet_pretrained,sham3,named,2,3072,0.6463333333333333,0.0007202315183042485,0.00015204887293041036
+ec_classification,secondary structure content,gearnet_pretrained,sham3,permuted,2,3072,0.6486666666666666,0.0007202315183042485,0.00015204887293041036
+ec_classification,secondary structure content,gearnet_pretrained,null0,none,2,3072,0.7493333333333333,0.0184369684170671,0.018441874872412556
+ec_classification,secondary structure content,gearnet_pretrained,null0,named,2,3072,0.7463333333333333,0.0184369684170671,0.018441874872412556
+ec_classification,secondary structure content,gearnet_pretrained,null0,permuted,2,3072,0.7456666666666667,0.0184369684170671,0.018441874872412556
+ec_classification,secondary structure content,gearnet_pretrained,null1,none,2,3072,0.7503333333333333,0.018423428678484344,0.012886068606027035
+ec_classification,secondary structure content,gearnet_pretrained,null1,named,2,3072,0.745,0.018423428678484344,0.012886068606027035
+ec_classification,secondary structure content,gearnet_pretrained,null1,permuted,2,3072,0.7433333333333333,0.018423428678484344,0.012886068606027035
+ec_classification,secondary structure content,gearnet_pretrained,null2,none,2,3072,0.7506666666666667,0.018051459538509618,0.006485151495512653
+ec_classification,secondary structure content,gearnet_pretrained,null2,named,2,3072,0.7466666666666667,0.018051459538509618,0.006485151495512653
+ec_classification,secondary structure content,gearnet_pretrained,null2,permuted,2,3072,0.7506666666666667,0.018051459538509618,0.006485151495512653
+ec_classification,secondary structure content,gearnet_pretrained,null3,none,2,3072,0.7496666666666667,0.018730748860199875,0.021550164847223274
+ec_classification,secondary structure content,gearnet_pretrained,null3,named,2,3072,0.7463333333333333,0.018730748860199875,0.021550164847223274
+ec_classification,secondary structure content,gearnet_pretrained,null3,permuted,2,3072,0.7436666666666667,0.018730748860199875,0.021550164847223274
+ec_classification,size,gearnet_pretrained,intact,none,1,3072,0.635,0.0,0.0
+ec_classification,size,gearnet_pretrained,erased,none,1,3072,0.6323333333333333,0.006526605205852687,0.8952161795454511
+ec_classification,size,gearnet_pretrained,erased,named,1,3072,0.6286666666666667,0.006526605205852687,0.8952161795454511
+ec_classification,size,gearnet_pretrained,erased,permuted,1,3072,0.63,0.006526605205852687,0.8952161795454511
+ec_classification,size,gearnet_pretrained,sham0,none,1,3072,0.6256666666666667,0.0003611021346177079,0.00045567683128955316
+ec_classification,size,gearnet_pretrained,sham0,named,1,3072,0.6186666666666667,0.0003611021346177079,0.00045567683128955316
+ec_classification,size,gearnet_pretrained,sham0,permuted,1,3072,0.62,0.0003611021346177079,0.00045567683128955316
+ec_classification,size,gearnet_pretrained,sham1,none,1,3072,0.6293333333333333,0.00033999196252187946,0.0005849602172499635
+ec_classification,size,gearnet_pretrained,sham1,named,1,3072,0.6416666666666667,0.00033999196252187946,0.0005849602172499635
+ec_classification,size,gearnet_pretrained,sham1,permuted,1,3072,0.6423333333333333,0.00033999196252187946,0.0005849602172499635
+ec_classification,size,gearnet_pretrained,sham2,none,1,3072,0.6483333333333333,0.00045534495779608886,2.961860755501533e-05
+ec_classification,size,gearnet_pretrained,sham2,named,1,3072,0.655,0.00045534495779608886,2.961860755501533e-05
+ec_classification,size,gearnet_pretrained,sham2,permuted,1,3072,0.6553333333333333,0.00045534495779608886,2.961860755501533e-05
+ec_classification,size,gearnet_pretrained,sham3,none,1,3072,0.628,0.00027237528714463277,0.00011231884575713114
+ec_classification,size,gearnet_pretrained,sham3,named,1,3072,0.6343333333333333,0.00027237528714463277,0.00011231884575713114
+ec_classification,size,gearnet_pretrained,sham3,permuted,1,3072,0.6333333333333333,0.00027237528714463277,0.00011231884575713114
+ec_classification,size,gearnet_pretrained,null0,none,1,3072,0.7486666666666667,0.006161987551095649,0.0018151139137092542
+ec_classification,size,gearnet_pretrained,null0,named,1,3072,0.746,0.006161987551095649,0.0018151139137092542
+ec_classification,size,gearnet_pretrained,null0,permuted,1,3072,0.7463333333333333,0.006161987551095649,0.0018151139137092542
+ec_classification,size,gearnet_pretrained,null1,none,1,3072,0.748,0.006623181798303679,0.004967315687370855
+ec_classification,size,gearnet_pretrained,null1,named,1,3072,0.7463333333333333,0.006623181798303679,0.004967315687370855
+ec_classification,size,gearnet_pretrained,null1,permuted,1,3072,0.7466666666666667,0.006623181798303679,0.004967315687370855
+ec_classification,size,gearnet_pretrained,null2,none,1,3072,0.749,0.00592051798041171,0.0008542308168413282
+ec_classification,size,gearnet_pretrained,null2,named,1,3072,0.7466666666666667,0.00592051798041171,0.0008542308168413282
+ec_classification,size,gearnet_pretrained,null2,permuted,1,3072,0.7466666666666667,0.00592051798041171,0.0008542308168413282
+ec_classification,size,gearnet_pretrained,null3,none,1,3072,0.7476666666666667,0.006211030078264956,0.000845309003597472
+ec_classification,size,gearnet_pretrained,null3,named,1,3072,0.7463333333333333,0.006211030078264956,0.000845309003597472
+ec_classification,size,gearnet_pretrained,null3,permuted,1,3072,0.7466666666666667,0.006211030078264956,0.000845309003597472
+go_bp,amino-acid composition,gearnet_pretrained,intact,none,19,3072,0.32881134028136827,0.0,0.0
+go_bp,amino-acid composition,gearnet_pretrained,erased,none,19,3072,0.3188209386888668,0.07050708257166671,0.9910637547644351
+go_bp,amino-acid composition,gearnet_pretrained,erased,named,19,3072,0.33066988629801325,0.07050708257166671,0.9910637547644351
+go_bp,amino-acid composition,gearnet_pretrained,erased,permuted,19,3072,0.3161989911808973,0.07050708257166671,0.9910637547644351
+go_bp,amino-acid composition,gearnet_pretrained,sham0,none,19,3072,0.3278376339568616,0.00663824989570605,0.0064005416699467466
+go_bp,amino-acid composition,gearnet_pretrained,sham0,named,19,3072,0.32764394855128703,0.00663824989570605,0.0064005416699467466
+go_bp,amino-acid composition,gearnet_pretrained,sham0,permuted,19,3072,0.32703186703747394,0.00663824989570605,0.0064005416699467466
+go_bp,amino-acid composition,gearnet_pretrained,sham1,none,19,3072,0.3246784340577956,0.006559909336548597,0.007049901916929557
+go_bp,amino-acid composition,gearnet_pretrained,sham1,named,19,3072,0.32474353298727243,0.006559909336548597,0.007049901916929557
+go_bp,amino-acid composition,gearnet_pretrained,sham1,permuted,19,3072,0.3240466505225595,0.006559909336548597,0.007049901916929557
+go_bp,amino-acid composition,gearnet_pretrained,sham2,none,19,3072,0.32581727897260065,0.006095455986818044,0.0059984702372954946
+go_bp,amino-acid composition,gearnet_pretrained,sham2,named,19,3072,0.3261788451266635,0.006095455986818044,0.0059984702372954946
+go_bp,amino-acid composition,gearnet_pretrained,sham2,permuted,19,3072,0.3254966221692667,0.006095455986818044,0.0059984702372954946
+go_bp,amino-acid composition,gearnet_pretrained,sham3,none,19,3072,0.32598161989194363,0.0061458387443342755,0.005849762407299952
+go_bp,amino-acid composition,gearnet_pretrained,sham3,named,19,3072,0.32456049895151495,0.0061458387443342755,0.005849762407299952
+go_bp,amino-acid composition,gearnet_pretrained,sham3,permuted,19,3072,0.32464821942640176,0.0061458387443342755,0.005849762407299952
+go_bp,amino-acid composition,gearnet_pretrained,null0,none,19,3072,0.2986127645872999,0.06984430410340181,0.030265062997874015
+go_bp,amino-acid composition,gearnet_pretrained,null0,named,19,3072,0.29956813105157604,0.06984430410340181,0.030265062997874015
+go_bp,amino-acid composition,gearnet_pretrained,null0,permuted,19,3072,0.2983968937852661,0.06984430410340181,0.030265062997874015
+go_bp,amino-acid composition,gearnet_pretrained,null1,none,19,3072,0.29872314714113507,0.06984284654017425,0.013204090860972184
+go_bp,amino-acid composition,gearnet_pretrained,null1,named,19,3072,0.2999626268475027,0.06984284654017425,0.013204090860972184
+go_bp,amino-acid composition,gearnet_pretrained,null1,permuted,19,3072,0.2987903204859148,0.06984284654017425,0.013204090860972184
+go_bp,amino-acid composition,gearnet_pretrained,null2,none,19,3072,0.29838003502848875,0.07064160515277085,0.015343592752220747
+go_bp,amino-acid composition,gearnet_pretrained,null2,named,19,3072,0.2988698278147895,0.07064160515277085,0.015343592752220747
+go_bp,amino-acid composition,gearnet_pretrained,null2,permuted,19,3072,0.2982982075085034,0.07064160515277085,0.015343592752220747
+go_bp,amino-acid composition,gearnet_pretrained,null3,none,19,3072,0.29856743994316864,0.06985482479870542,0.007358874042291186
+go_bp,amino-acid composition,gearnet_pretrained,null3,named,19,3072,0.2989347519247979,0.06985482479870542,0.007358874042291186
+go_bp,amino-acid composition,gearnet_pretrained,null3,permuted,19,3072,0.29846595071520166,0.06985482479870542,0.007358874042291186
+go_bp,burial and packing,gearnet_pretrained,intact,none,2,3072,0.32881134028136827,0.0,0.0
+go_bp,burial and packing,gearnet_pretrained,erased,none,2,3072,0.32613478365212784,0.02188788730005997,0.8936654167928492
+go_bp,burial and packing,gearnet_pretrained,erased,named,2,3072,0.3271371822539001,0.02188788730005997,0.8936654167928492
+go_bp,burial and packing,gearnet_pretrained,erased,permuted,2,3072,0.3271384761521799,0.02188788730005997,0.8936654167928492
+go_bp,burial and packing,gearnet_pretrained,sham0,none,2,3072,0.32636456186312907,0.0006085780998811297,0.00024850542192811353
+go_bp,burial and packing,gearnet_pretrained,sham0,named,2,3072,0.3264672911012314,0.0006085780998811297,0.00024850542192811353
+go_bp,burial and packing,gearnet_pretrained,sham0,permuted,2,3072,0.3264789227022261,0.0006085780998811297,0.00024850542192811353
+go_bp,burial and packing,gearnet_pretrained,sham1,none,2,3072,0.32630598496550134,0.0006260184199303742,2.8173686407839682e-05
+go_bp,burial and packing,gearnet_pretrained,sham1,named,2,3072,0.32702436817878244,0.0006260184199303742,2.8173686407839682e-05
+go_bp,burial and packing,gearnet_pretrained,sham1,permuted,2,3072,0.32686473839889163,0.0006260184199303742,2.8173686407839682e-05
+go_bp,burial and packing,gearnet_pretrained,sham2,none,2,3072,0.3265602660233812,0.0006919134890971401,0.0002248717476667217
+go_bp,burial and packing,gearnet_pretrained,sham2,named,2,3072,0.3273664857938978,0.0006919134890971401,0.0002248717476667217
+go_bp,burial and packing,gearnet_pretrained,sham2,permuted,2,3072,0.3274997154163382,0.0006919134890971401,0.0002248717476667217
+go_bp,burial and packing,gearnet_pretrained,sham3,none,2,3072,0.3255604560825342,0.0007753421917231496,0.0008660073628643516
+go_bp,burial and packing,gearnet_pretrained,sham3,named,2,3072,0.325148305689718,0.0007753421917231496,0.0008660073628643516
+go_bp,burial and packing,gearnet_pretrained,sham3,permuted,2,3072,0.32493824609600563,0.0007753421917231496,0.0008660073628643516
+go_bp,burial and packing,gearnet_pretrained,null0,none,2,3072,0.2959388818563788,0.02168686340305237,0.05181600935708586
+go_bp,burial and packing,gearnet_pretrained,null0,named,2,3072,0.29710083118223257,0.02168686340305237,0.05181600935708586
+go_bp,burial and packing,gearnet_pretrained,null0,permuted,2,3072,0.2958592788061908,0.02168686340305237,0.05181600935708586
+go_bp,burial and packing,gearnet_pretrained,null1,none,2,3072,0.2978373394891686,0.021831150790811216,0.011866798584347471
+go_bp,burial and packing,gearnet_pretrained,null1,named,2,3072,0.2981399686020172,0.021831150790811216,0.011866798584347471
+go_bp,burial and packing,gearnet_pretrained,null1,permuted,2,3072,0.2976879654664682,0.021831150790811216,0.011866798584347471
+go_bp,burial and packing,gearnet_pretrained,null2,none,2,3072,0.2973265625230888,0.0219919395927346,0.0014967489379780208
+go_bp,burial and packing,gearnet_pretrained,null2,named,2,3072,0.2975759504358722,0.0219919395927346,0.0014967489379780208
+go_bp,burial and packing,gearnet_pretrained,null2,permuted,2,3072,0.2969734055012294,0.0219919395927346,0.0014967489379780208
+go_bp,burial and packing,gearnet_pretrained,null3,none,2,3072,0.2957068076243601,0.0217098196892761,0.05352831056410157
+go_bp,burial and packing,gearnet_pretrained,null3,named,2,3072,0.29696291921242046,0.0217098196892761,0.05352831056410157
+go_bp,burial and packing,gearnet_pretrained,null3,permuted,2,3072,0.2958351235902734,0.0217098196892761,0.05352831056410157
+go_bp,contact order,gearnet_pretrained,intact,none,1,3072,0.32881134028136827,0.0,0.0
+go_bp,contact order,gearnet_pretrained,erased,none,1,3072,0.32609323278539154,0.004286920104140668,0.8434653872461437
+go_bp,contact order,gearnet_pretrained,erased,named,1,3072,0.32616067603676024,0.004286920104140668,0.8434653872461437
+go_bp,contact order,gearnet_pretrained,erased,permuted,1,3072,0.32597600652602476,0.004286920104140668,0.8434653872461437
+go_bp,contact order,gearnet_pretrained,sham0,none,1,3072,0.325674140260205,0.0002306914349513578,7.4115875663416375e-06
+go_bp,contact order,gearnet_pretrained,sham0,named,1,3072,0.3255503299181896,0.0002306914349513578,7.4115875663416375e-06
+go_bp,contact order,gearnet_pretrained,sham0,permuted,1,3072,0.3251266329636271,0.0002306914349513578,7.4115875663416375e-06
+go_bp,contact order,gearnet_pretrained,sham1,none,1,3072,0.3266064300153321,0.00038705586599807607,2.4142391090165027e-05
+go_bp,contact order,gearnet_pretrained,sham1,named,1,3072,0.32720050347571406,0.00038705586599807607,2.4142391090165027e-05
+go_bp,contact order,gearnet_pretrained,sham1,permuted,1,3072,0.3271316608607727,0.00038705586599807607,2.4142391090165027e-05
+go_bp,contact order,gearnet_pretrained,sham2,none,1,3072,0.3266202080319483,0.00029161867160609756,0.000423150770893832
+go_bp,contact order,gearnet_pretrained,sham2,named,1,3072,0.3268454875851621,0.00029161867160609756,0.000423150770893832
+go_bp,contact order,gearnet_pretrained,sham2,permuted,1,3072,0.3271138241018637,0.00029161867160609756,0.000423150770893832
+go_bp,contact order,gearnet_pretrained,sham3,none,1,3072,0.32656146563898786,0.0002943347081539871,0.0003844785431921238
+go_bp,contact order,gearnet_pretrained,sham3,named,1,3072,0.3272050349637685,0.0002943347081539871,0.0003844785431921238
+go_bp,contact order,gearnet_pretrained,sham3,permuted,1,3072,0.32676055839729856,0.0002943347081539871,0.0003844785431921238
+go_bp,contact order,gearnet_pretrained,null0,none,1,3072,0.2985692731053983,0.004193873636873846,0.00039301844570927
+go_bp,contact order,gearnet_pretrained,null0,named,1,3072,0.29855353331008505,0.004193873636873846,0.00039301844570927
+go_bp,contact order,gearnet_pretrained,null0,permuted,1,3072,0.29859931631301817,0.004193873636873846,0.00039301844570927
+go_bp,contact order,gearnet_pretrained,null1,none,1,3072,0.2985692731053983,0.004193873636873846,0.00039301844570927
+go_bp,contact order,gearnet_pretrained,null1,named,1,3072,0.29855353331008505,0.004193873636873846,0.00039301844570927
+go_bp,contact order,gearnet_pretrained,null1,permuted,1,3072,0.29859931631301817,0.004193873636873846,0.00039301844570927
+go_bp,contact order,gearnet_pretrained,null2,none,1,3072,0.2980372435818424,0.004452078881231558,0.0002357373881323177
+go_bp,contact order,gearnet_pretrained,null2,named,1,3072,0.29777306766673484,0.004452078881231558,0.0002357373881323177
+go_bp,contact order,gearnet_pretrained,null2,permuted,1,3072,0.29745674007650486,0.004452078881231558,0.0002357373881323177
+go_bp,contact order,gearnet_pretrained,null3,none,1,3072,0.29794214739682795,0.0043802652450994906,3.322652996951003e-05
+go_bp,contact order,gearnet_pretrained,null3,named,1,3072,0.2978856343690836,0.0043802652450994906,3.322652996951003e-05
+go_bp,contact order,gearnet_pretrained,null3,permuted,1,3072,0.2979184245120639,0.0043802652450994906,3.322652996951003e-05
+go_bp,global shape,gearnet_pretrained,intact,none,3,3072,0.32881134028136827,0.0,0.0
+go_bp,global shape,gearnet_pretrained,erased,none,3,3072,0.3268751366851507,0.01091828750722601,0.8120654213139772
+go_bp,global shape,gearnet_pretrained,erased,named,3,3072,0.32574677279417297,0.01091828750722601,0.8120654213139772
+go_bp,global shape,gearnet_pretrained,erased,permuted,3,3072,0.3259769468083343,0.01091828750722601,0.8120654213139772
+go_bp,global shape,gearnet_pretrained,sham0,none,3,3072,0.3266013692938863,0.0008769932342128639,0.00024437119419284947
+go_bp,global shape,gearnet_pretrained,sham0,named,3,3072,0.32656787811417376,0.0008769932342128639,0.00024437119419284947
+go_bp,global shape,gearnet_pretrained,sham0,permuted,3,3072,0.32589666946339685,0.0008769932342128639,0.00024437119419284947
+go_bp,global shape,gearnet_pretrained,sham1,none,3,3072,0.32388582381319914,0.0009411049246410563,0.0008358386715988653
+go_bp,global shape,gearnet_pretrained,sham1,named,3,3072,0.3246222070686656,0.0009411049246410563,0.0008358386715988653
+go_bp,global shape,gearnet_pretrained,sham1,permuted,3,3072,0.3238845644163766,0.0009411049246410563,0.0008358386715988653
+go_bp,global shape,gearnet_pretrained,sham2,none,3,3072,0.32688904569854954,0.0009951398257996846,0.0022106600284761413
+go_bp,global shape,gearnet_pretrained,sham2,named,3,3072,0.3272493738270109,0.0009951398257996846,0.0022106600284761413
+go_bp,global shape,gearnet_pretrained,sham2,permuted,3,3072,0.32754192119746,0.0009951398257996846,0.0022106600284761413
+go_bp,global shape,gearnet_pretrained,sham3,none,3,3072,0.3274088781668237,0.0012192208726909959,0.00012494474310731363
+go_bp,global shape,gearnet_pretrained,sham3,named,3,3072,0.32809761777592505,0.0012192208726909959,0.00012494474310731363
+go_bp,global shape,gearnet_pretrained,sham3,permuted,3,3072,0.32783895657402,0.0012192208726909959,0.00012494474310731363
+go_bp,global shape,gearnet_pretrained,null0,none,3,3072,0.2985607796760446,0.010918012547558975,0.0010267533399501705
+go_bp,global shape,gearnet_pretrained,null0,named,3,3072,0.2988983583646486,0.010918012547558975,0.0010267533399501705
+go_bp,global shape,gearnet_pretrained,null0,permuted,3,3072,0.29881752563616176,0.010918012547558975,0.0010267533399501705
+go_bp,global shape,gearnet_pretrained,null1,none,3,3072,0.2978336636935511,0.010971420031677281,0.0004868519811567218
+go_bp,global shape,gearnet_pretrained,null1,named,3,3072,0.29737064022035936,0.010971420031677281,0.0004868519811567218
+go_bp,global shape,gearnet_pretrained,null1,permuted,3,3072,0.2979241981243452,0.010971420031677281,0.0004868519811567218
+go_bp,global shape,gearnet_pretrained,null2,none,3,3072,0.2975734391334674,0.0109072847757683,0.00015070289963237116
+go_bp,global shape,gearnet_pretrained,null2,named,3,3072,0.29714064954639335,0.0109072847757683,0.00015070289963237116
+go_bp,global shape,gearnet_pretrained,null2,permuted,3,3072,0.2976887858024593,0.0109072847757683,0.00015070289963237116
+go_bp,global shape,gearnet_pretrained,null3,none,3,3072,0.29867788029617565,0.010830715381427658,0.0018296988920362134
+go_bp,global shape,gearnet_pretrained,null3,named,3,3072,0.29818946552546594,0.010830715381427658,0.0018296988920362134
+go_bp,global shape,gearnet_pretrained,null3,permuted,3,3072,0.29816115072341626,0.010830715381427658,0.0018296988920362134
+go_bp,secondary structure content,gearnet_pretrained,intact,none,2,3072,0.32881134028136827,0.0,0.0
+go_bp,secondary structure content,gearnet_pretrained,erased,none,2,3072,0.3283291467520519,0.020023324642138296,0.9596411533315001
+go_bp,secondary structure content,gearnet_pretrained,erased,named,2,3072,0.3282618931366981,0.020023324642138296,0.9596411533315001
+go_bp,secondary structure content,gearnet_pretrained,erased,permuted,2,3072,0.32836242081156297,0.020023324642138296,0.9596411533315001
+go_bp,secondary structure content,gearnet_pretrained,sham0,none,2,3072,0.32952566335642947,0.0006184268179915131,0.002387307752805823
+go_bp,secondary structure content,gearnet_pretrained,sham0,named,2,3072,0.3280864614327948,0.0006184268179915131,0.002387307752805823
+go_bp,secondary structure content,gearnet_pretrained,sham0,permuted,2,3072,0.3276047198139813,0.0006184268179915131,0.002387307752805823
+go_bp,secondary structure content,gearnet_pretrained,sham1,none,2,3072,0.32639469237684154,0.0006585138464539897,0.0013132531271230485
+go_bp,secondary structure content,gearnet_pretrained,sham1,named,2,3072,0.32666870875027054,0.0006585138464539897,0.0013132531271230485
+go_bp,secondary structure content,gearnet_pretrained,sham1,permuted,2,3072,0.3263099910493081,0.0006585138464539897,0.0013132531271230485
+go_bp,secondary structure content,gearnet_pretrained,sham2,none,2,3072,0.32654542468359027,0.0006037690357894032,8.625242672255506e-05
+go_bp,secondary structure content,gearnet_pretrained,sham2,named,2,3072,0.326125476475815,0.0006037690357894032,8.625242672255506e-05
+go_bp,secondary structure content,gearnet_pretrained,sham2,permuted,2,3072,0.32555681394542363,0.0006037690357894032,8.625242672255506e-05
+go_bp,secondary structure content,gearnet_pretrained,sham3,none,2,3072,0.32377980920664295,0.0005871151586731571,0.00040572704903008017
+go_bp,secondary structure content,gearnet_pretrained,sham3,named,2,3072,0.32449266520342446,0.0005871151586731571,0.00040572704903008017
+go_bp,secondary structure content,gearnet_pretrained,sham3,permuted,2,3072,0.324823121141976,0.0005871151586731571,0.00040572704903008017
+go_bp,secondary structure content,gearnet_pretrained,null0,none,2,3072,0.29719205836252993,0.01991673868252697,0.0005453447437783199
+go_bp,secondary structure content,gearnet_pretrained,null0,named,2,3072,0.29739459077182134,0.01991673868252697,0.0005453447437783199
+go_bp,secondary structure content,gearnet_pretrained,null0,permuted,2,3072,0.29708311241515434,0.01991673868252697,0.0005453447437783199
+go_bp,secondary structure content,gearnet_pretrained,null1,none,2,3072,0.2980088309837634,0.01989062387497864,0.0003055518236910748
+go_bp,secondary structure content,gearnet_pretrained,null1,named,2,3072,0.2977414354725939,0.01989062387497864,0.0003055518236910748
+go_bp,secondary structure content,gearnet_pretrained,null1,permuted,2,3072,0.29799591915851115,0.01989062387497864,0.0003055518236910748
+go_bp,secondary structure content,gearnet_pretrained,null2,none,2,3072,0.2972826261547655,0.019834465940064105,0.0005453069011940315
+go_bp,secondary structure content,gearnet_pretrained,null2,named,2,3072,0.2975953663847823,0.019834465940064105,0.0005453069011940315
+go_bp,secondary structure content,gearnet_pretrained,null2,permuted,2,3072,0.29697572022503865,0.019834465940064105,0.0005453069011940315
+go_bp,secondary structure content,gearnet_pretrained,null3,none,2,3072,0.29634309493585403,0.01991722466798307,0.06956233890473806
+go_bp,secondary structure content,gearnet_pretrained,null3,named,2,3072,0.2973508144094941,0.01991722466798307,0.06956233890473806
+go_bp,secondary structure content,gearnet_pretrained,null3,permuted,2,3072,0.29648154153833406,0.01991722466798307,0.06956233890473806
+go_bp,size,gearnet_pretrained,intact,none,1,3072,0.32881134028136827,0.0,0.0
+go_bp,size,gearnet_pretrained,erased,none,1,3072,0.3253448680952073,0.010546122558419468,0.8030746554961293
+go_bp,size,gearnet_pretrained,erased,named,1,3072,0.32512501821194584,0.010546122558419468,0.8030746554961293
+go_bp,size,gearnet_pretrained,erased,permuted,1,3072,0.32512469704985475,0.010546122558419468,0.8030746554961293
+go_bp,size,gearnet_pretrained,sham0,none,1,3072,0.3254784647476804,0.0002900112393106058,6.049035908828326e-05
+go_bp,size,gearnet_pretrained,sham0,named,1,3072,0.32493171302993884,0.0002900112393106058,6.049035908828326e-05
+go_bp,size,gearnet_pretrained,sham0,permuted,1,3072,0.3249428620285198,0.0002900112393106058,6.049035908828326e-05
+go_bp,size,gearnet_pretrained,sham1,none,1,3072,0.3286651522015589,0.0003786683350571751,7.332938538262557e-05
+go_bp,size,gearnet_pretrained,sham1,named,1,3072,0.3281249904867601,0.0003786683350571751,7.332938538262557e-05
+go_bp,size,gearnet_pretrained,sham1,permuted,1,3072,0.3282216468107171,0.0003786683350571751,7.332938538262557e-05
+go_bp,size,gearnet_pretrained,sham2,none,1,3072,0.32643668336712145,0.0003253561477566391,0.00040731389117187877
+go_bp,size,gearnet_pretrained,sham2,named,1,3072,0.32586916946012834,0.0003253561477566391,0.00040731389117187877
+go_bp,size,gearnet_pretrained,sham2,permuted,1,3072,0.32670306091773577,0.0003253561477566391,0.00040731389117187877
+go_bp,size,gearnet_pretrained,sham3,none,1,3072,0.32675092654537286,0.00039404582902458074,0.0006259386791757082
+go_bp,size,gearnet_pretrained,sham3,named,1,3072,0.3276073946018109,0.00039404582902458074,0.0006259386791757082
+go_bp,size,gearnet_pretrained,sham3,permuted,1,3072,0.3273616619146242,0.00039404582902458074,0.0006259386791757082
+go_bp,size,gearnet_pretrained,null0,none,1,3072,0.297368778021576,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null0,named,1,3072,0.2972669341514957,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null0,permuted,1,3072,0.2967247390575498,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null1,none,1,3072,0.29784508880855254,0.012159499083183256,0.020705007083396287
+go_bp,size,gearnet_pretrained,null1,named,1,3072,0.2981164036843229,0.012159499083183256,0.020705007083396287
+go_bp,size,gearnet_pretrained,null1,permuted,1,3072,0.2976069339860574,0.012159499083183256,0.020705007083396287
+go_bp,size,gearnet_pretrained,null2,none,1,3072,0.297368778021576,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null2,named,1,3072,0.2972669341514957,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null2,permuted,1,3072,0.2967247390575498,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null3,none,1,3072,0.297368778021576,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null3,named,1,3072,0.2972669341514957,0.010286224837637081,7.566470955477911e-05
+go_bp,size,gearnet_pretrained,null3,permuted,1,3072,0.2967247390575498,0.010286224837637081,7.566470955477911e-05
+go_mf,amino-acid composition,gearnet_pretrained,intact,none,19,3072,0.452495016161843,0.0,0.0
+go_mf,amino-acid composition,gearnet_pretrained,erased,none,19,3072,0.4409613504541106,0.07124155178950475,0.9914171578429798
+go_mf,amino-acid composition,gearnet_pretrained,erased,named,19,3072,0.4474289806911596,0.07124155178950475,0.9914171578429798
+go_mf,amino-acid composition,gearnet_pretrained,erased,permuted,19,3072,0.44065546019373747,0.07124155178950475,0.9914171578429798
+go_mf,amino-acid composition,gearnet_pretrained,sham0,none,19,3072,0.4442404119679599,0.006242018655725379,0.005003667935427725
+go_mf,amino-acid composition,gearnet_pretrained,sham0,named,19,3072,0.4447861318443193,0.006242018655725379,0.005003667935427725
+go_mf,amino-acid composition,gearnet_pretrained,sham0,permuted,19,3072,0.44367655184191274,0.006242018655725379,0.005003667935427725
+go_mf,amino-acid composition,gearnet_pretrained,sham1,none,19,3072,0.443336094309239,0.006236871448558778,0.005046663246886518
+go_mf,amino-acid composition,gearnet_pretrained,sham1,named,19,3072,0.44331032483257804,0.006236871448558778,0.005046663246886518
+go_mf,amino-acid composition,gearnet_pretrained,sham1,permuted,19,3072,0.4427585957537883,0.006236871448558778,0.005046663246886518
+go_mf,amino-acid composition,gearnet_pretrained,sham2,none,19,3072,0.44971436125177344,0.006167772465065724,0.007287008946350704
+go_mf,amino-acid composition,gearnet_pretrained,sham2,named,19,3072,0.4504281538303094,0.006167772465065724,0.007287008946350704
+go_mf,amino-acid composition,gearnet_pretrained,sham2,permuted,19,3072,0.4480839992508308,0.006167772465065724,0.007287008946350704
+go_mf,amino-acid composition,gearnet_pretrained,sham3,none,19,3072,0.44867207041253376,0.0061870966040808995,0.006220751243454226
+go_mf,amino-acid composition,gearnet_pretrained,sham3,named,19,3072,0.44848592232952117,0.0061870966040808995,0.006220751243454226
+go_mf,amino-acid composition,gearnet_pretrained,sham3,permuted,19,3072,0.4459873745003251,0.0061870966040808995,0.006220751243454226
+go_mf,amino-acid composition,gearnet_pretrained,null0,none,19,3072,0.41128617585068616,0.07080207854129439,0.045860810650470096
+go_mf,amino-acid composition,gearnet_pretrained,null0,named,19,3072,0.411888316760156,0.07080207854129439,0.045860810650470096
+go_mf,amino-acid composition,gearnet_pretrained,null0,permuted,19,3072,0.40864352753234334,0.07080207854129439,0.045860810650470096
+go_mf,amino-acid composition,gearnet_pretrained,null1,none,19,3072,0.41414324402885705,0.07109589911403502,0.01473569669001662
+go_mf,amino-acid composition,gearnet_pretrained,null1,named,19,3072,0.41299641560985423,0.07109589911403502,0.01473569669001662
+go_mf,amino-acid composition,gearnet_pretrained,null1,permuted,19,3072,0.4110746674332878,0.07109589911403502,0.01473569669001662
+go_mf,amino-acid composition,gearnet_pretrained,null2,none,19,3072,0.4155269585488149,0.0705868504779188,0.016368685716225184
+go_mf,amino-acid composition,gearnet_pretrained,null2,named,19,3072,0.41515671145676425,0.0705868504779188,0.016368685716225184
+go_mf,amino-acid composition,gearnet_pretrained,null2,permuted,19,3072,0.4141680453543565,0.0705868504779188,0.016368685716225184
+go_mf,amino-acid composition,gearnet_pretrained,null3,none,19,3072,0.41517512726502276,0.0707435542149164,0.008713075475426546
+go_mf,amino-acid composition,gearnet_pretrained,null3,named,19,3072,0.4117190355731682,0.0707435542149164,0.008713075475426546
+go_mf,amino-acid composition,gearnet_pretrained,null3,permuted,19,3072,0.4126418378102578,0.0707435542149164,0.008713075475426546
+go_mf,burial and packing,gearnet_pretrained,intact,none,2,3072,0.452495016161843,0.0,0.0
+go_mf,burial and packing,gearnet_pretrained,erased,none,2,3072,0.44507914341596194,0.021031257799949632,0.9125640543030131
+go_mf,burial and packing,gearnet_pretrained,erased,named,2,3072,0.44646433093058585,0.021031257799949632,0.9125640543030131
+go_mf,burial and packing,gearnet_pretrained,erased,permuted,2,3072,0.44620681810098645,0.021031257799949632,0.9125640543030131
+go_mf,burial and packing,gearnet_pretrained,sham0,none,2,3072,0.4456528850599558,0.0007914906415454892,0.00035877395956807057
+go_mf,burial and packing,gearnet_pretrained,sham0,named,2,3072,0.44461179546371865,0.0007914906415454892,0.00035877395956807057
+go_mf,burial and packing,gearnet_pretrained,sham0,permuted,2,3072,0.4446080324905841,0.0007914906415454892,0.00035877395956807057
+go_mf,burial and packing,gearnet_pretrained,sham1,none,2,3072,0.44534957816496024,0.0005610170084646704,0.00023971072452844133
+go_mf,burial and packing,gearnet_pretrained,sham1,named,2,3072,0.4451548863166711,0.0005610170084646704,0.00023971072452844133
+go_mf,burial and packing,gearnet_pretrained,sham1,permuted,2,3072,0.4445110652249095,0.0005610170084646704,0.00023971072452844133
+go_mf,burial and packing,gearnet_pretrained,sham2,none,2,3072,0.444638180624809,0.0006205937697306707,0.00022280366377191996
+go_mf,burial and packing,gearnet_pretrained,sham2,named,2,3072,0.4444950954602723,0.0006205937697306707,0.00022280366377191996
+go_mf,burial and packing,gearnet_pretrained,sham2,permuted,2,3072,0.4443283093038668,0.0006205937697306707,0.00022280366377191996
+go_mf,burial and packing,gearnet_pretrained,sham3,none,2,3072,0.4438239293147689,0.0006299072609359246,5.3286036997057806e-05
+go_mf,burial and packing,gearnet_pretrained,sham3,named,2,3072,0.44307823747663666,0.0006299072609359246,5.3286036997057806e-05
+go_mf,burial and packing,gearnet_pretrained,sham3,permuted,2,3072,0.4432293112732367,0.0006299072609359246,5.3286036997057806e-05
+go_mf,burial and packing,gearnet_pretrained,null0,none,2,3072,0.414241346612171,0.021231830649617978,0.0034945215215087533
+go_mf,burial and packing,gearnet_pretrained,null0,named,2,3072,0.41450682814735634,0.021231830649617978,0.0034945215215087533
+go_mf,burial and packing,gearnet_pretrained,null0,permuted,2,3072,0.41405401352167415,0.021231830649617978,0.0034945215215087533
+go_mf,burial and packing,gearnet_pretrained,null1,none,2,3072,0.4126595577595352,0.0208887007419839,0.01102106752992138
+go_mf,burial and packing,gearnet_pretrained,null1,named,2,3072,0.41294841414956374,0.0208887007419839,0.01102106752992138
+go_mf,burial and packing,gearnet_pretrained,null1,permuted,2,3072,0.41313573904892253,0.0208887007419839,0.01102106752992138
+go_mf,burial and packing,gearnet_pretrained,null2,none,2,3072,0.4114219263162693,0.02113651059658539,0.03383756585355946
+go_mf,burial and packing,gearnet_pretrained,null2,named,2,3072,0.41085574692213467,0.02113651059658539,0.03383756585355946
+go_mf,burial and packing,gearnet_pretrained,null2,permuted,2,3072,0.410606277307905,0.02113651059658539,0.03383756585355946
+go_mf,burial and packing,gearnet_pretrained,null3,none,2,3072,0.41035364138921615,0.02113419388328497,0.0035843048083874507
+go_mf,burial and packing,gearnet_pretrained,null3,named,2,3072,0.41127796870275135,0.02113419388328497,0.0035843048083874507
+go_mf,burial and packing,gearnet_pretrained,null3,permuted,2,3072,0.41101476396170733,0.02113419388328497,0.0035843048083874507
+go_mf,contact order,gearnet_pretrained,intact,none,1,3072,0.452495016161843,0.0,0.0
+go_mf,contact order,gearnet_pretrained,erased,none,1,3072,0.4447395260743799,0.004784033016362432,0.8512886872127464
+go_mf,contact order,gearnet_pretrained,erased,named,1,3072,0.44274227863590193,0.004784033016362432,0.8512886872127464
+go_mf,contact order,gearnet_pretrained,erased,permuted,1,3072,0.4461002420100549,0.004784033016362432,0.8512886872127464
+go_mf,contact order,gearnet_pretrained,sham0,none,1,3072,0.4447568558905005,0.0002868099576175398,3.091077218875249e-05
+go_mf,contact order,gearnet_pretrained,sham0,named,1,3072,0.4451455673002206,0.0002868099576175398,3.091077218875249e-05
+go_mf,contact order,gearnet_pretrained,sham0,permuted,1,3072,0.4463311698569118,0.0002868099576175398,3.091077218875249e-05
+go_mf,contact order,gearnet_pretrained,sham1,none,1,3072,0.4434282573192769,0.00032971155850614053,0.00021179710677965424
+go_mf,contact order,gearnet_pretrained,sham1,named,1,3072,0.4431647206966538,0.00032971155850614053,0.00021179710677965424
+go_mf,contact order,gearnet_pretrained,sham1,permuted,1,3072,0.44317977899982797,0.00032971155850614053,0.00021179710677965424
+go_mf,contact order,gearnet_pretrained,sham2,none,1,3072,0.44442616963521103,0.0003946665017784401,0.00026480602504308504
+go_mf,contact order,gearnet_pretrained,sham2,named,1,3072,0.44430374634545644,0.0003946665017784401,0.00026480602504308504
+go_mf,contact order,gearnet_pretrained,sham2,permuted,1,3072,0.4438857474779841,0.0003946665017784401,0.00026480602504308504
+go_mf,contact order,gearnet_pretrained,sham3,none,1,3072,0.4436555984008693,0.0002608874426601737,1.5282335843358474e-05
+go_mf,contact order,gearnet_pretrained,sham3,named,1,3072,0.4435447469062891,0.0002608874426601737,1.5282335843358474e-05
+go_mf,contact order,gearnet_pretrained,sham3,permuted,1,3072,0.4434134722093081,0.0002608874426601737,1.5282335843358474e-05
+go_mf,contact order,gearnet_pretrained,null0,none,1,3072,0.4140849266875646,0.005117556310491822,0.004010912660165622
+go_mf,contact order,gearnet_pretrained,null0,named,1,3072,0.4154018422611472,0.005117556310491822,0.004010912660165622
+go_mf,contact order,gearnet_pretrained,null0,permuted,1,3072,0.415301275897842,0.005117556310491822,0.004010912660165622
+go_mf,contact order,gearnet_pretrained,null1,none,1,3072,0.41291281853636896,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null1,named,1,3072,0.41311247128128864,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null1,permuted,1,3072,0.4131604505220539,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null2,none,1,3072,0.41291281853636896,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null2,named,1,3072,0.41311247128128864,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null2,permuted,1,3072,0.4131604505220539,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null3,none,1,3072,0.41291281853636896,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null3,named,1,3072,0.41311247128128864,0.004716274519742547,0.005525825764263748
+go_mf,contact order,gearnet_pretrained,null3,permuted,1,3072,0.4131604505220539,0.004716274519742547,0.005525825764263748
+go_mf,global shape,gearnet_pretrained,intact,none,3,3072,0.452495016161843,0.0,0.0
+go_mf,global shape,gearnet_pretrained,erased,none,3,3072,0.44275167002469334,0.009370078270484417,0.8340894331115773
+go_mf,global shape,gearnet_pretrained,erased,named,3,3072,0.4434969809203549,0.009370078270484417,0.8340894331115773
+go_mf,global shape,gearnet_pretrained,erased,permuted,3,3072,0.4413047356985192,0.009370078270484417,0.8340894331115773
+go_mf,global shape,gearnet_pretrained,sham0,none,3,3072,0.4450253745143974,0.0009270660708891043,0.0001059024054621549
+go_mf,global shape,gearnet_pretrained,sham0,named,3,3072,0.44444864577315607,0.0009270660708891043,0.0001059024054621549
+go_mf,global shape,gearnet_pretrained,sham0,permuted,3,3072,0.44330072594480513,0.0009270660708891043,0.0001059024054621549
+go_mf,global shape,gearnet_pretrained,sham1,none,3,3072,0.44547647139913454,0.0010660852622618178,0.0002947834466502375
+go_mf,global shape,gearnet_pretrained,sham1,named,3,3072,0.44490137572223265,0.0010660852622618178,0.0002947834466502375
+go_mf,global shape,gearnet_pretrained,sham1,permuted,3,3072,0.4443263421801819,0.0010660852622618178,0.0002947834466502375
+go_mf,global shape,gearnet_pretrained,sham2,none,3,3072,0.4443395891844846,0.0009205388913826607,0.0014240653778343493
+go_mf,global shape,gearnet_pretrained,sham2,named,3,3072,0.4444373314542087,0.0009205388913826607,0.0014240653778343493
+go_mf,global shape,gearnet_pretrained,sham2,permuted,3,3072,0.4431727235414474,0.0009205388913826607,0.0014240653778343493
+go_mf,global shape,gearnet_pretrained,sham3,none,3,3072,0.44431249921404614,0.0010911593549152165,0.0006579020266341828
+go_mf,global shape,gearnet_pretrained,sham3,named,3,3072,0.4456824297402455,0.0010911593549152165,0.0006579020266341828
+go_mf,global shape,gearnet_pretrained,sham3,permuted,3,3072,0.4461869829894442,0.0010911593549152165,0.0006579020266341828
+go_mf,global shape,gearnet_pretrained,null0,none,3,3072,0.41308790608074203,0.009294722515472031,0.0032480095416398402
+go_mf,global shape,gearnet_pretrained,null0,named,3,3072,0.41395745945798007,0.009294722515472031,0.0032480095416398402
+go_mf,global shape,gearnet_pretrained,null0,permuted,3,3072,0.4134220504975805,0.009294722515472031,0.0032480095416398402
+go_mf,global shape,gearnet_pretrained,null1,none,3,3072,0.41320702538188187,0.009279574967658188,0.0005297239936649101
+go_mf,global shape,gearnet_pretrained,null1,named,3,3072,0.41327161931010975,0.009279574967658188,0.0005297239936649101
+go_mf,global shape,gearnet_pretrained,null1,permuted,3,3072,0.412944279867211,0.009279574967658188,0.0005297239936649101
+go_mf,global shape,gearnet_pretrained,null2,none,3,3072,0.4121271358503446,0.009423741259755425,4.6034078919343635e-05
+go_mf,global shape,gearnet_pretrained,null2,named,3,3072,0.41227233047265593,0.009423741259755425,4.6034078919343635e-05
+go_mf,global shape,gearnet_pretrained,null2,permuted,3,3072,0.4127287266650804,0.009423741259755425,4.6034078919343635e-05
+go_mf,global shape,gearnet_pretrained,null3,none,3,3072,0.4127415484740857,0.009407088954471066,6.0371718516694095e-05
+go_mf,global shape,gearnet_pretrained,null3,named,3,3072,0.4130988495136897,0.009407088954471066,6.0371718516694095e-05
+go_mf,global shape,gearnet_pretrained,null3,permuted,3,3072,0.4126050209671623,0.009407088954471066,6.0371718516694095e-05
+go_mf,secondary structure content,gearnet_pretrained,intact,none,2,3072,0.452495016161843,0.0,0.0
+go_mf,secondary structure content,gearnet_pretrained,erased,none,2,3072,0.4438994987414931,0.01851402006403946,0.9559999300365004
+go_mf,secondary structure content,gearnet_pretrained,erased,named,2,3072,0.4425486608417772,0.01851402006403946,0.9559999300365004
+go_mf,secondary structure content,gearnet_pretrained,erased,permuted,2,3072,0.44361840469851443,0.01851402006403946,0.9559999300365004
+go_mf,secondary structure content,gearnet_pretrained,sham0,none,2,3072,0.44568511265518923,0.0005251797682372938,0.00036126666882907443
+go_mf,secondary structure content,gearnet_pretrained,sham0,named,2,3072,0.44460967149281555,0.0005251797682372938,0.00036126666882907443
+go_mf,secondary structure content,gearnet_pretrained,sham0,permuted,2,3072,0.44328910645584246,0.0005251797682372938,0.00036126666882907443
+go_mf,secondary structure content,gearnet_pretrained,sham1,none,2,3072,0.4426661294160954,0.000590701916207248,0.0005477611396921267
+go_mf,secondary structure content,gearnet_pretrained,sham1,named,2,3072,0.4428000106511335,0.000590701916207248,0.0005477611396921267
+go_mf,secondary structure content,gearnet_pretrained,sham1,permuted,2,3072,0.44228800079217634,0.000590701916207248,0.0005477611396921267
+go_mf,secondary structure content,gearnet_pretrained,sham2,none,2,3072,0.4431125363861074,0.0006590348214271513,0.00034234922753029196
+go_mf,secondary structure content,gearnet_pretrained,sham2,named,2,3072,0.4451349594662348,0.0006590348214271513,0.00034234922753029196
+go_mf,secondary structure content,gearnet_pretrained,sham2,permuted,2,3072,0.4442852826143568,0.0006590348214271513,0.00034234922753029196
+go_mf,secondary structure content,gearnet_pretrained,sham3,none,2,3072,0.44612060507799955,0.000683048955971044,0.00041196170911772523
+go_mf,secondary structure content,gearnet_pretrained,sham3,named,2,3072,0.44478365660545566,0.000683048955971044,0.00041196170911772523
+go_mf,secondary structure content,gearnet_pretrained,sham3,permuted,2,3072,0.44468242317166123,0.000683048955971044,0.00041196170911772523
+go_mf,secondary structure content,gearnet_pretrained,null0,none,2,3072,0.41262586905993737,0.018416087681612625,0.001564495013116951
+go_mf,secondary structure content,gearnet_pretrained,null0,named,2,3072,0.4118676531805059,0.018416087681612625,0.001564495013116951
+go_mf,secondary structure content,gearnet_pretrained,null0,permuted,2,3072,0.41255214874295043,0.018416087681612625,0.001564495013116951
+go_mf,secondary structure content,gearnet_pretrained,null1,none,2,3072,0.41185670202715274,0.018341413198037726,0.014057906722532598
+go_mf,secondary structure content,gearnet_pretrained,null1,named,2,3072,0.41129918518256053,0.018341413198037726,0.014057906722532598
+go_mf,secondary structure content,gearnet_pretrained,null1,permuted,2,3072,0.4118613070628547,0.018341413198037726,0.014057906722532598
+go_mf,secondary structure content,gearnet_pretrained,null2,none,2,3072,0.41052303151758407,0.018855010232496694,0.001722042418499603
+go_mf,secondary structure content,gearnet_pretrained,null2,named,2,3072,0.41126591851330513,0.018855010232496694,0.001722042418499603
+go_mf,secondary structure content,gearnet_pretrained,null2,permuted,2,3072,0.40974547564412755,0.018855010232496694,0.001722042418499603
+go_mf,secondary structure content,gearnet_pretrained,null3,none,2,3072,0.4135749995960817,0.018485460546882493,0.001486295344584776
+go_mf,secondary structure content,gearnet_pretrained,null3,named,2,3072,0.41306158473371896,0.018485460546882493,0.001486295344584776
+go_mf,secondary structure content,gearnet_pretrained,null3,permuted,2,3072,0.4133660227440721,0.018485460546882493,0.001486295344584776
+go_mf,size,gearnet_pretrained,intact,none,1,3072,0.452495016161843,0.0,0.0
+go_mf,size,gearnet_pretrained,erased,none,1,3072,0.4480200381485171,0.010469887595923155,0.8314933481844313
+go_mf,size,gearnet_pretrained,erased,named,1,3072,0.4484602110312981,0.010469887595923155,0.8314933481844313
+go_mf,size,gearnet_pretrained,erased,permuted,1,3072,0.44758463022670864,0.010469887595923155,0.8314933481844313
+go_mf,size,gearnet_pretrained,sham0,none,1,3072,0.44342340254435864,0.0004782812864470021,0.0001873526733023878
+go_mf,size,gearnet_pretrained,sham0,named,1,3072,0.44266284316910726,0.0004782812864470021,0.0001873526733023878
+go_mf,size,gearnet_pretrained,sham0,permuted,1,3072,0.4424958435765099,0.0004782812864470021,0.0001873526733023878
+go_mf,size,gearnet_pretrained,sham1,none,1,3072,0.44561139999517324,0.0003027178419090504,2.5214014191643486e-05
+go_mf,size,gearnet_pretrained,sham1,named,1,3072,0.44686309728980494,0.0003027178419090504,2.5214014191643486e-05
+go_mf,size,gearnet_pretrained,sham1,permuted,1,3072,0.446374028603917,0.0003027178419090504,2.5214014191643486e-05
+go_mf,size,gearnet_pretrained,sham2,none,1,3072,0.44501211786524697,0.0003405434687479003,0.0002007663928900172
+go_mf,size,gearnet_pretrained,sham2,named,1,3072,0.4432568881166111,0.0003405434687479003,0.0002007663928900172
+go_mf,size,gearnet_pretrained,sham2,permuted,1,3072,0.44260183278652765,0.0003405434687479003,0.0002007663928900172
+go_mf,size,gearnet_pretrained,sham3,none,1,3072,0.44675327253678676,0.00039706036317566085,7.427610009780317e-05
+go_mf,size,gearnet_pretrained,sham3,named,1,3072,0.4477194596101311,0.00039706036317566085,7.427610009780317e-05
+go_mf,size,gearnet_pretrained,sham3,permuted,1,3072,0.44739875968933335,0.00039706036317566085,7.427610009780317e-05
+go_mf,size,gearnet_pretrained,null0,none,1,3072,0.4127050388365282,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null0,named,1,3072,0.41233555323696586,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null0,permuted,1,3072,0.4127712086573505,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null1,none,1,3072,0.4114906083141451,0.009002541876153014,0.00040611588110806007
+go_mf,size,gearnet_pretrained,null1,named,1,3072,0.4108948195682944,0.009002541876153014,0.00040611588110806007
+go_mf,size,gearnet_pretrained,null1,permuted,1,3072,0.4119241667584295,0.009002541876153014,0.00040611588110806007
+go_mf,size,gearnet_pretrained,null2,none,1,3072,0.4127050388365282,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null2,named,1,3072,0.41233555323696586,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null2,permuted,1,3072,0.4127712086573505,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null3,none,1,3072,0.4127050388365282,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null3,named,1,3072,0.41233555323696586,0.010687697363869209,0.0013432258703466315
+go_mf,size,gearnet_pretrained,null3,permuted,1,3072,0.4127712086573505,0.010687697363869209,0.0013432258703466315
+remote_homology,amino-acid composition,gearnet_pretrained,intact,none,19,3072,0.26666666666666666,0.0,0.0
+remote_homology,amino-acid composition,gearnet_pretrained,erased,none,19,3072,0.35,0.08135374801342521,0.987294220634068
+remote_homology,amino-acid composition,gearnet_pretrained,erased,named,19,3072,0.3458333333333333,0.08135374801342521,0.987294220634068
+remote_homology,amino-acid composition,gearnet_pretrained,erased,permuted,19,3072,0.34791666666666665,0.08135374801342521,0.987294220634068
+remote_homology,amino-acid composition,gearnet_pretrained,sham0,none,19,3072,0.34791666666666665,0.006107166462123614,0.006714857564905197
+remote_homology,amino-acid composition,gearnet_pretrained,sham0,named,19,3072,0.34791666666666665,0.006107166462123614,0.006714857564905197
+remote_homology,amino-acid composition,gearnet_pretrained,sham0,permuted,19,3072,0.35,0.006107166462123614,0.006714857564905197
+remote_homology,amino-acid composition,gearnet_pretrained,sham1,none,19,3072,0.35208333333333336,0.0060966746709055775,0.00661002640789965
+remote_homology,amino-acid composition,gearnet_pretrained,sham1,named,19,3072,0.36666666666666664,0.0060966746709055775,0.00661002640789965
+remote_homology,amino-acid composition,gearnet_pretrained,sham1,permuted,19,3072,0.36666666666666664,0.0060966746709055775,0.00661002640789965
+remote_homology,amino-acid composition,gearnet_pretrained,sham2,none,19,3072,0.3541666666666667,0.005931651613877986,0.005685366361492639
+remote_homology,amino-acid composition,gearnet_pretrained,sham2,named,19,3072,0.3625,0.005931651613877986,0.005685366361492639
+remote_homology,amino-acid composition,gearnet_pretrained,sham2,permuted,19,3072,0.35625,0.005931651613877986,0.005685366361492639
+remote_homology,amino-acid composition,gearnet_pretrained,sham3,none,19,3072,0.34791666666666665,0.00606283582587952,0.005868664468957063
+remote_homology,amino-acid composition,gearnet_pretrained,sham3,named,19,3072,0.3416666666666667,0.00606283582587952,0.005868664468957063
+remote_homology,amino-acid composition,gearnet_pretrained,sham3,permuted,19,3072,0.33958333333333335,0.00606283582587952,0.005868664468957063
+remote_homology,amino-acid composition,gearnet_pretrained,null0,none,19,3072,0.19375,0.08179795673025414,0.016967385591912354
+remote_homology,amino-acid composition,gearnet_pretrained,null0,named,19,3072,0.19583333333333333,0.08179795673025414,0.016967385591912354
+remote_homology,amino-acid composition,gearnet_pretrained,null0,permuted,19,3072,0.18541666666666667,0.08179795673025414,0.016967385591912354
+remote_homology,amino-acid composition,gearnet_pretrained,null1,none,19,3072,0.18541666666666667,0.08077808571067935,0.015843651375380574
+remote_homology,amino-acid composition,gearnet_pretrained,null1,named,19,3072,0.18333333333333332,0.08077808571067935,0.015843651375380574
+remote_homology,amino-acid composition,gearnet_pretrained,null1,permuted,19,3072,0.175,0.08077808571067935,0.015843651375380574
+remote_homology,amino-acid composition,gearnet_pretrained,null2,none,19,3072,0.18333333333333332,0.0817937962666273,0.011776093554880962
+remote_homology,amino-acid composition,gearnet_pretrained,null2,named,19,3072,0.18125,0.0817937962666273,0.011776093554880962
+remote_homology,amino-acid composition,gearnet_pretrained,null2,permuted,19,3072,0.17291666666666666,0.0817937962666273,0.011776093554880962
+remote_homology,amino-acid composition,gearnet_pretrained,null3,none,19,3072,0.19375,0.08167388460824931,0.019436672941902544
+remote_homology,amino-acid composition,gearnet_pretrained,null3,named,19,3072,0.18958333333333333,0.08167388460824931,0.019436672941902544
+remote_homology,amino-acid composition,gearnet_pretrained,null3,permuted,19,3072,0.18333333333333332,0.08167388460824931,0.019436672941902544
+remote_homology,burial and packing,gearnet_pretrained,intact,none,2,3072,0.26666666666666666,0.0,0.0
+remote_homology,burial and packing,gearnet_pretrained,erased,none,2,3072,0.3333333333333333,0.01406263092308202,0.7347310748885392
+remote_homology,burial and packing,gearnet_pretrained,erased,named,2,3072,0.33125,0.01406263092308202,0.7347310748885392
+remote_homology,burial and packing,gearnet_pretrained,erased,permuted,2,3072,0.33125,0.01406263092308202,0.7347310748885392
+remote_homology,burial and packing,gearnet_pretrained,sham0,none,2,3072,0.3125,0.0007191100839073483,0.0006350904477681052
+remote_homology,burial and packing,gearnet_pretrained,sham0,named,2,3072,0.3145833333333333,0.0007191100839073483,0.0006350904477681052
+remote_homology,burial and packing,gearnet_pretrained,sham0,permuted,2,3072,0.3125,0.0007191100839073483,0.0006350904477681052
+remote_homology,burial and packing,gearnet_pretrained,sham1,none,2,3072,0.3375,0.0005142026616685724,0.0011232643914894647
+remote_homology,burial and packing,gearnet_pretrained,sham1,named,2,3072,0.32083333333333336,0.0005142026616685724,0.0011232643914894647
+remote_homology,burial and packing,gearnet_pretrained,sham1,permuted,2,3072,0.31875,0.0005142026616685724,0.0011232643914894647
+remote_homology,burial and packing,gearnet_pretrained,sham2,none,2,3072,0.34375,0.0007450860454765174,5.561173153889598e-05
+remote_homology,burial and packing,gearnet_pretrained,sham2,named,2,3072,0.32916666666666666,0.0007450860454765174,5.561173153889598e-05
+remote_homology,burial and packing,gearnet_pretrained,sham2,permuted,2,3072,0.32916666666666666,0.0007450860454765174,5.561173153889598e-05
+remote_homology,burial and packing,gearnet_pretrained,sham3,none,2,3072,0.3375,0.0006302920620264718,0.00024365500477585567
+remote_homology,burial and packing,gearnet_pretrained,sham3,named,2,3072,0.325,0.0006302920620264718,0.00024365500477585567
+remote_homology,burial and packing,gearnet_pretrained,sham3,permuted,2,3072,0.325,0.0006302920620264718,0.00024365500477585567
+remote_homology,burial and packing,gearnet_pretrained,null0,none,2,3072,0.19791666666666666,0.014250588511073858,0.0004548044116224892
+remote_homology,burial and packing,gearnet_pretrained,null0,named,2,3072,0.17708333333333334,0.014250588511073858,0.0004548044116224892
+remote_homology,burial and packing,gearnet_pretrained,null0,permuted,2,3072,0.17708333333333334,0.014250588511073858,0.0004548044116224892
+remote_homology,burial and packing,gearnet_pretrained,null1,none,2,3072,0.19375,0.013941072767141627,0.0005243031007509114
+remote_homology,burial and packing,gearnet_pretrained,null1,named,2,3072,0.18125,0.013941072767141627,0.0005243031007509114
+remote_homology,burial and packing,gearnet_pretrained,null1,permuted,2,3072,0.17916666666666667,0.013941072767141627,0.0005243031007509114
+remote_homology,burial and packing,gearnet_pretrained,null2,none,2,3072,0.19375,0.013941072767141627,0.0005243031007509114
+remote_homology,burial and packing,gearnet_pretrained,null2,named,2,3072,0.18125,0.013941072767141627,0.0005243031007509114
+remote_homology,burial and packing,gearnet_pretrained,null2,permuted,2,3072,0.17916666666666667,0.013941072767141627,0.0005243031007509114
+remote_homology,burial and packing,gearnet_pretrained,null3,none,2,3072,0.19583333333333333,0.013821607513788248,0.0005384017203626801
+remote_homology,burial and packing,gearnet_pretrained,null3,named,2,3072,0.17916666666666667,0.013821607513788248,0.0005384017203626801
+remote_homology,burial and packing,gearnet_pretrained,null3,permuted,2,3072,0.17916666666666667,0.013821607513788248,0.0005384017203626801
+remote_homology,contact order,gearnet_pretrained,intact,none,1,3072,0.26666666666666666,0.0,0.0
+remote_homology,contact order,gearnet_pretrained,erased,none,1,3072,0.33958333333333335,0.007928993390206251,0.7885044680899892
+remote_homology,contact order,gearnet_pretrained,erased,named,1,3072,0.33125,0.007928993390206251,0.7885044680899892
+remote_homology,contact order,gearnet_pretrained,erased,permuted,1,3072,0.33125,0.007928993390206251,0.7885044680899892
+remote_homology,contact order,gearnet_pretrained,sham0,none,1,3072,0.325,0.00020765397234767669,0.0010015077280406404
+remote_homology,contact order,gearnet_pretrained,sham0,named,1,3072,0.325,0.00020765397234767669,0.0010015077280406404
+remote_homology,contact order,gearnet_pretrained,sham0,permuted,1,3072,0.325,0.00020765397234767669,0.0010015077280406404
+remote_homology,contact order,gearnet_pretrained,sham1,none,1,3072,0.3458333333333333,0.00027799029925335006,6.47723445635906e-05
+remote_homology,contact order,gearnet_pretrained,sham1,named,1,3072,0.3416666666666667,0.00027799029925335006,6.47723445635906e-05
+remote_homology,contact order,gearnet_pretrained,sham1,permuted,1,3072,0.3416666666666667,0.00027799029925335006,6.47723445635906e-05
+remote_homology,contact order,gearnet_pretrained,sham2,none,1,3072,0.3333333333333333,0.00033372917484730813,1.0801915606428736e-07
+remote_homology,contact order,gearnet_pretrained,sham2,named,1,3072,0.35,0.00033372917484730813,1.0801915606428736e-07
+remote_homology,contact order,gearnet_pretrained,sham2,permuted,1,3072,0.35208333333333336,0.00033372917484730813,1.0801915606428736e-07
+remote_homology,contact order,gearnet_pretrained,sham3,none,1,3072,0.32708333333333334,0.0004273906503378111,0.0002455459642564106
+remote_homology,contact order,gearnet_pretrained,sham3,named,1,3072,0.325,0.0004273906503378111,0.0002455459642564106
+remote_homology,contact order,gearnet_pretrained,sham3,permuted,1,3072,0.325,0.0004273906503378111,0.0002455459642564106
+remote_homology,contact order,gearnet_pretrained,null0,none,1,3072,0.17916666666666667,0.0078685003561495,0.005749416048131839
+remote_homology,contact order,gearnet_pretrained,null0,named,1,3072,0.17291666666666666,0.0078685003561495,0.005749416048131839
+remote_homology,contact order,gearnet_pretrained,null0,permuted,1,3072,0.17083333333333334,0.0078685003561495,0.005749416048131839
+remote_homology,contact order,gearnet_pretrained,null1,none,1,3072,0.17916666666666667,0.0078685003561495,0.005749416048131839
+remote_homology,contact order,gearnet_pretrained,null1,named,1,3072,0.17291666666666666,0.0078685003561495,0.005749416048131839
+remote_homology,contact order,gearnet_pretrained,null1,permuted,1,3072,0.17083333333333334,0.0078685003561495,0.005749416048131839
+remote_homology,contact order,gearnet_pretrained,null2,none,1,3072,0.175,0.008697531652458457,0.00629874944806641
+remote_homology,contact order,gearnet_pretrained,null2,named,1,3072,0.17291666666666666,0.008697531652458457,0.00629874944806641
+remote_homology,contact order,gearnet_pretrained,null2,permuted,1,3072,0.175,0.008697531652458457,0.00629874944806641
+remote_homology,contact order,gearnet_pretrained,null3,none,1,3072,0.175,0.007627486313316001,0.037271032502138146
+remote_homology,contact order,gearnet_pretrained,null3,named,1,3072,0.17291666666666666,0.007627486313316001,0.037271032502138146
+remote_homology,contact order,gearnet_pretrained,null3,permuted,1,3072,0.17083333333333334,0.007627486313316001,0.037271032502138146
+remote_homology,global shape,gearnet_pretrained,intact,none,3,3072,0.26666666666666666,0.0,0.0
+remote_homology,global shape,gearnet_pretrained,erased,none,3,3072,0.32083333333333336,0.007974585295841496,0.8155423754622305
+remote_homology,global shape,gearnet_pretrained,erased,named,3,3072,0.31875,0.007974585295841496,0.8155423754622305
+remote_homology,global shape,gearnet_pretrained,erased,permuted,3,3072,0.31666666666666665,0.007974585295841496,0.8155423754622305
+remote_homology,global shape,gearnet_pretrained,sham0,none,3,3072,0.32916666666666666,0.0012220250837410296,0.00011464444337117019
+remote_homology,global shape,gearnet_pretrained,sham0,named,3,3072,0.3333333333333333,0.0012220250837410296,0.00011464444337117019
+remote_homology,global shape,gearnet_pretrained,sham0,permuted,3,3072,0.33125,0.0012220250837410296,0.00011464444337117019
+remote_homology,global shape,gearnet_pretrained,sham1,none,3,3072,0.31666666666666665,0.000900078540228666,0.00027626759188537076
+remote_homology,global shape,gearnet_pretrained,sham1,named,3,3072,0.325,0.000900078540228666,0.00027626759188537076
+remote_homology,global shape,gearnet_pretrained,sham1,permuted,3,3072,0.325,0.000900078540228666,0.00027626759188537076
+remote_homology,global shape,gearnet_pretrained,sham2,none,3,3072,0.3375,0.0010010358187158008,0.001493240241756122
+remote_homology,global shape,gearnet_pretrained,sham2,named,3,3072,0.3333333333333333,0.0010010358187158008,0.001493240241756122
+remote_homology,global shape,gearnet_pretrained,sham2,permuted,3,3072,0.32916666666666666,0.0010010358187158008,0.001493240241756122
+remote_homology,global shape,gearnet_pretrained,sham3,none,3,3072,0.33541666666666664,0.0009582664347096426,0.0017821048044306398
+remote_homology,global shape,gearnet_pretrained,sham3,named,3,3072,0.33541666666666664,0.0009582664347096426,0.0017821048044306398
+remote_homology,global shape,gearnet_pretrained,sham3,permuted,3,3072,0.33541666666666664,0.0009582664347096426,0.0017821048044306398
+remote_homology,global shape,gearnet_pretrained,null0,none,3,3072,0.19791666666666666,0.007943238722884827,0.000337249442138865
+remote_homology,global shape,gearnet_pretrained,null0,named,3,3072,0.1875,0.007943238722884827,0.000337249442138865
+remote_homology,global shape,gearnet_pretrained,null0,permuted,3,3072,0.18958333333333333,0.007943238722884827,0.000337249442138865
+remote_homology,global shape,gearnet_pretrained,null1,none,3,3072,0.19166666666666668,0.007907731227956849,0.0006737055714450824
+remote_homology,global shape,gearnet_pretrained,null1,named,3,3072,0.18333333333333332,0.007907731227956849,0.0006737055714450824
+remote_homology,global shape,gearnet_pretrained,null1,permuted,3,3072,0.18541666666666667,0.007907731227956849,0.0006737055714450824
+remote_homology,global shape,gearnet_pretrained,null2,none,3,3072,0.17708333333333334,0.007942069385860617,3.3884525481142624e-05
+remote_homology,global shape,gearnet_pretrained,null2,named,3,3072,0.175,0.007942069385860617,3.3884525481142624e-05
+remote_homology,global shape,gearnet_pretrained,null2,permuted,3,3072,0.17083333333333334,0.007942069385860617,3.3884525481142624e-05
+remote_homology,global shape,gearnet_pretrained,null3,none,3,3072,0.19166666666666668,0.00792332062407175,3.172148332997171e-05
+remote_homology,global shape,gearnet_pretrained,null3,named,3,3072,0.18125,0.00792332062407175,3.172148332997171e-05
+remote_homology,global shape,gearnet_pretrained,null3,permuted,3,3072,0.18125,0.00792332062407175,3.172148332997171e-05
+remote_homology,secondary structure content,gearnet_pretrained,intact,none,2,3072,0.26666666666666666,0.0,0.0
+remote_homology,secondary structure content,gearnet_pretrained,erased,none,2,3072,0.32083333333333336,0.01755105848672578,0.9457610550053751
+remote_homology,secondary structure content,gearnet_pretrained,erased,named,2,3072,0.33125,0.01755105848672578,0.9457610550053751
+remote_homology,secondary structure content,gearnet_pretrained,erased,permuted,2,3072,0.33125,0.01755105848672578,0.9457610550053751
+remote_homology,secondary structure content,gearnet_pretrained,sham0,none,2,3072,0.31875,0.0006360031279385447,0.0002901449575422044
+remote_homology,secondary structure content,gearnet_pretrained,sham0,named,2,3072,0.32916666666666666,0.0006360031279385447,0.0002901449575422044
+remote_homology,secondary structure content,gearnet_pretrained,sham0,permuted,2,3072,0.32916666666666666,0.0006360031279385447,0.0002901449575422044
+remote_homology,secondary structure content,gearnet_pretrained,sham1,none,2,3072,0.32083333333333336,0.0006710693462468331,0.000399480753048409
+remote_homology,secondary structure content,gearnet_pretrained,sham1,named,2,3072,0.325,0.0006710693462468331,0.000399480753048409
+remote_homology,secondary structure content,gearnet_pretrained,sham1,permuted,2,3072,0.32916666666666666,0.0006710693462468331,0.000399480753048409
+remote_homology,secondary structure content,gearnet_pretrained,sham2,none,2,3072,0.3145833333333333,0.0006315881446464777,0.0010417049347719587
+remote_homology,secondary structure content,gearnet_pretrained,sham2,named,2,3072,0.33125,0.0006315881446464777,0.0010417049347719587
+remote_homology,secondary structure content,gearnet_pretrained,sham2,permuted,2,3072,0.33125,0.0006315881446464777,0.0010417049347719587
+remote_homology,secondary structure content,gearnet_pretrained,sham3,none,2,3072,0.3229166666666667,0.0006449599825874008,0.00022455364517759424
+remote_homology,secondary structure content,gearnet_pretrained,sham3,named,2,3072,0.3125,0.0006449599825874008,0.00022455364517759424
+remote_homology,secondary structure content,gearnet_pretrained,sham3,permuted,2,3072,0.3145833333333333,0.0006449599825874008,0.00022455364517759424
+remote_homology,secondary structure content,gearnet_pretrained,null0,none,2,3072,0.19166666666666668,0.017599041524856585,0.008064293752867435
+remote_homology,secondary structure content,gearnet_pretrained,null0,named,2,3072,0.18541666666666667,0.017599041524856585,0.008064293752867435
+remote_homology,secondary structure content,gearnet_pretrained,null0,permuted,2,3072,0.18333333333333332,0.017599041524856585,0.008064293752867435
+remote_homology,secondary structure content,gearnet_pretrained,null1,none,2,3072,0.19375,0.0175337671599628,0.004914474732351848
+remote_homology,secondary structure content,gearnet_pretrained,null1,named,2,3072,0.18541666666666667,0.0175337671599628,0.004914474732351848
+remote_homology,secondary structure content,gearnet_pretrained,null1,permuted,2,3072,0.18541666666666667,0.0175337671599628,0.004914474732351848
+remote_homology,secondary structure content,gearnet_pretrained,null2,none,2,3072,0.19166666666666668,0.017732500976002985,0.030164590929645962
+remote_homology,secondary structure content,gearnet_pretrained,null2,named,2,3072,0.18958333333333333,0.017732500976002985,0.030164590929645962
+remote_homology,secondary structure content,gearnet_pretrained,null2,permuted,2,3072,0.18333333333333332,0.017732500976002985,0.030164590929645962
+remote_homology,secondary structure content,gearnet_pretrained,null3,none,2,3072,0.19791666666666666,0.017105949676311738,0.007503019515843312
+remote_homology,secondary structure content,gearnet_pretrained,null3,named,2,3072,0.1875,0.017105949676311738,0.007503019515843312
+remote_homology,secondary structure content,gearnet_pretrained,null3,permuted,2,3072,0.18541666666666667,0.017105949676311738,0.007503019515843312
+remote_homology,size,gearnet_pretrained,intact,none,1,3072,0.26666666666666666,0.0,0.0
+remote_homology,size,gearnet_pretrained,erased,none,1,3072,0.31666666666666665,0.009321223878403395,0.8418879085754676
+remote_homology,size,gearnet_pretrained,erased,named,1,3072,0.3229166666666667,0.009321223878403395,0.8418879085754676
+remote_homology,size,gearnet_pretrained,erased,permuted,1,3072,0.3229166666666667,0.009321223878403395,0.8418879085754676
+remote_homology,size,gearnet_pretrained,sham0,none,1,3072,0.30833333333333335,0.00038433890796696346,0.0006496808333142923
+remote_homology,size,gearnet_pretrained,sham0,named,1,3072,0.33125,0.00038433890796696346,0.0006496808333142923
+remote_homology,size,gearnet_pretrained,sham0,permuted,1,3072,0.33125,0.00038433890796696346,0.0006496808333142923
+remote_homology,size,gearnet_pretrained,sham1,none,1,3072,0.31666666666666665,0.00027981769373974785,7.62029669587605e-07
+remote_homology,size,gearnet_pretrained,sham1,named,1,3072,0.3145833333333333,0.00027981769373974785,7.62029669587605e-07
+remote_homology,size,gearnet_pretrained,sham1,permuted,1,3072,0.3145833333333333,0.00027981769373974785,7.62029669587605e-07
+remote_homology,size,gearnet_pretrained,sham2,none,1,3072,0.33125,0.00026353560624825523,0.00024971170626353345
+remote_homology,size,gearnet_pretrained,sham2,named,1,3072,0.32708333333333334,0.00026353560624825523,0.00024971170626353345
+remote_homology,size,gearnet_pretrained,sham2,permuted,1,3072,0.325,0.00026353560624825523,0.00024971170626353345
+remote_homology,size,gearnet_pretrained,sham3,none,1,3072,0.33541666666666664,0.0003040063079488009,0.00016176100764742074
+remote_homology,size,gearnet_pretrained,sham3,named,1,3072,0.32083333333333336,0.0003040063079488009,0.00016176100764742074
+remote_homology,size,gearnet_pretrained,sham3,permuted,1,3072,0.32083333333333336,0.0003040063079488009,0.00016176100764742074
+remote_homology,size,gearnet_pretrained,null0,none,1,3072,0.17291666666666666,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null0,named,1,3072,0.175,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null0,permuted,1,3072,0.175,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null1,none,1,3072,0.175,0.01045446416399154,0.012744305789891053
+remote_homology,size,gearnet_pretrained,null1,named,1,3072,0.175,0.01045446416399154,0.012744305789891053
+remote_homology,size,gearnet_pretrained,null1,permuted,1,3072,0.17291666666666666,0.01045446416399154,0.012744305789891053
+remote_homology,size,gearnet_pretrained,null2,none,1,3072,0.17291666666666666,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null2,named,1,3072,0.175,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null2,permuted,1,3072,0.175,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null3,none,1,3072,0.17291666666666666,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null3,named,1,3072,0.175,0.008901509872399904,0.00019178211994352878
+remote_homology,size,gearnet_pretrained,null3,permuted,1,3072,0.175,0.008901509872399904,0.00019178211994352878
+subcellular_localization,amino-acid composition,gearnet_pretrained,intact,none,19,3072,0.5806712494945411,0.0,0.0
+subcellular_localization,amino-acid composition,gearnet_pretrained,erased,none,19,3072,0.5175899716942984,0.08791492831725989,0.992771852846829
+subcellular_localization,amino-acid composition,gearnet_pretrained,erased,named,19,3072,0.5487262434290335,0.08791492831725989,0.992771852846829
+subcellular_localization,amino-acid composition,gearnet_pretrained,erased,permuted,19,3072,0.5135463000404367,0.08791492831725989,0.992771852846829
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham0,none,19,3072,0.5875454913061059,0.0072230064326545,0.006271146958165441
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham0,named,19,3072,0.5604528912252326,0.0072230064326545,0.006271146958165441
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham0,permuted,19,3072,0.5531742822482815,0.0072230064326545,0.006271146958165441
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham1,none,19,3072,0.5790537808329964,0.006036948882189197,0.006008405383364002
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham1,named,19,3072,0.5677315002021835,0.006036948882189197,0.006008405383364002
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham1,permuted,19,3072,0.5774363121714516,0.006036948882189197,0.006008405383364002
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham2,none,19,3072,0.570966437525273,0.006360888949203947,0.0056220712857351085
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham2,named,19,3072,0.5713708046906592,0.006360888949203947,0.0056220712857351085
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham2,permuted,19,3072,0.5713708046906592,0.006360888949203947,0.0056220712857351085
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham3,none,19,3072,0.5673271330367974,0.005964062028273043,0.006110556537503253
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham3,named,19,3072,0.5701577031945007,0.005964062028273043,0.006110556537503253
+subcellular_localization,amino-acid composition,gearnet_pretrained,sham3,permuted,19,3072,0.5673271330367974,0.005964062028273043,0.006110556537503253
+subcellular_localization,amino-acid composition,gearnet_pretrained,null0,none,19,3072,0.2272543469470279,0.08711655679947816,0.021575048921049444
+subcellular_localization,amino-acid composition,gearnet_pretrained,null0,named,19,3072,0.2587949858471492,0.08711655679947816,0.021575048921049444
+subcellular_localization,amino-acid composition,gearnet_pretrained,null0,permuted,19,3072,0.17306914678528104,0.08711655679947816,0.021575048921049444
+subcellular_localization,amino-acid composition,gearnet_pretrained,null1,none,19,3072,0.16538617064294378,0.08765620770770255,0.015847181289262324
+subcellular_localization,amino-acid composition,gearnet_pretrained,null1,named,19,3072,0.2575818843509907,0.08765620770770255,0.015847181289262324
+subcellular_localization,amino-acid composition,gearnet_pretrained,null1,permuted,19,3072,0.17670845127375656,0.08765620770770255,0.015847181289262324
+subcellular_localization,amino-acid composition,gearnet_pretrained,null2,none,19,3072,0.16336433481601295,0.0870716514821196,0.018049997666368944
+subcellular_localization,amino-acid composition,gearnet_pretrained,null2,named,19,3072,0.2600080873433077,0.0870716514821196,0.018049997666368944
+subcellular_localization,amino-acid composition,gearnet_pretrained,null2,permuted,19,3072,0.18115649009300444,0.0870716514821196,0.018049997666368944
+subcellular_localization,amino-acid composition,gearnet_pretrained,null3,none,19,3072,0.1694298422968055,0.08717380475894154,0.014386553709133332
+subcellular_localization,amino-acid composition,gearnet_pretrained,null3,named,19,3072,0.2515163768701981,0.08717380475894154,0.014386553709133332
+subcellular_localization,amino-acid composition,gearnet_pretrained,null3,permuted,19,3072,0.16376870198139912,0.08717380475894154,0.014386553709133332
+subcellular_localization,burial and packing,gearnet_pretrained,intact,none,2,3072,0.5806712494945411,0.0,0.0
+subcellular_localization,burial and packing,gearnet_pretrained,erased,none,2,3072,0.5653052972098666,0.02845019802156834,0.8907060641044157
+subcellular_localization,burial and packing,gearnet_pretrained,erased,named,2,3072,0.566518398706025,0.02845019802156834,0.8907060641044157
+subcellular_localization,burial and packing,gearnet_pretrained,erased,permuted,2,3072,0.5657096643752527,0.02845019802156834,0.8907060641044157
+subcellular_localization,burial and packing,gearnet_pretrained,sham0,none,2,3072,0.5883542256368783,0.0007204104393890853,0.0008976834909225628
+subcellular_localization,burial and packing,gearnet_pretrained,sham0,named,2,3072,0.5766275778406793,0.0007204104393890853,0.0008976834909225628
+subcellular_localization,burial and packing,gearnet_pretrained,sham0,permuted,2,3072,0.5770319450060655,0.0007204104393890853,0.0008976834909225628
+subcellular_localization,burial and packing,gearnet_pretrained,sham1,none,2,3072,0.5903760614638092,0.0006077756893650976,0.0006797985349481506
+subcellular_localization,burial and packing,gearnet_pretrained,sham1,named,2,3072,0.5835018196522442,0.0006077756893650976,0.0006797985349481506
+subcellular_localization,burial and packing,gearnet_pretrained,sham1,permuted,2,3072,0.5835018196522442,0.0006077756893650976,0.0006797985349481506
+subcellular_localization,burial and packing,gearnet_pretrained,sham2,none,2,3072,0.5843105539830166,0.000565562092076477,9.629612519401753e-05
+subcellular_localization,burial and packing,gearnet_pretrained,sham2,named,2,3072,0.5919935301253538,0.000565562092076477,9.629612519401753e-05
+subcellular_localization,burial and packing,gearnet_pretrained,sham2,permuted,2,3072,0.5891629599676507,0.000565562092076477,9.629612519401753e-05
+subcellular_localization,burial and packing,gearnet_pretrained,sham3,none,2,3072,0.5847149211484027,0.0005700337246314913,7.375077002680364e-05
+subcellular_localization,burial and packing,gearnet_pretrained,sham3,named,2,3072,0.5835018196522442,0.0005700337246314913,7.375077002680364e-05
+subcellular_localization,burial and packing,gearnet_pretrained,sham3,permuted,2,3072,0.5822887181560857,0.0005700337246314913,7.375077002680364e-05
+subcellular_localization,burial and packing,gearnet_pretrained,null0,none,2,3072,0.18398706025070763,0.026584523916395986,0.03145233862228858
+subcellular_localization,burial and packing,gearnet_pretrained,null0,named,2,3072,0.23048928427011728,0.026584523916395986,0.03145233862228858
+subcellular_localization,burial and packing,gearnet_pretrained,null0,permuted,2,3072,0.22078447230084916,0.026584523916395986,0.03145233862228858
+subcellular_localization,burial and packing,gearnet_pretrained,null1,none,2,3072,0.2397897290739992,0.031022763852939672,0.001055350539347799
+subcellular_localization,burial and packing,gearnet_pretrained,null1,named,2,3072,0.2410028305701577,0.031022763852939672,0.001055350539347799
+subcellular_localization,burial and packing,gearnet_pretrained,null1,permuted,2,3072,0.23776789324706835,0.031022763852939672,0.001055350539347799
+subcellular_localization,burial and packing,gearnet_pretrained,null2,none,2,3072,0.17994338859684594,0.027036271197549033,0.0015761035606359775
+subcellular_localization,burial and packing,gearnet_pretrained,null2,named,2,3072,0.23210675293166194,0.027036271197549033,0.0015761035606359775
+subcellular_localization,burial and packing,gearnet_pretrained,null2,permuted,2,3072,0.22644561261625556,0.027036271197549033,0.0015761035606359775
+subcellular_localization,burial and packing,gearnet_pretrained,null3,none,2,3072,0.18560452891225232,0.02792857429404727,0.006568019146749315
+subcellular_localization,burial and packing,gearnet_pretrained,null3,named,2,3072,0.2272543469470279,0.02792857429404727,0.006568019146749315
+subcellular_localization,burial and packing,gearnet_pretrained,null3,permuted,2,3072,0.22118883946623535,0.02792857429404727,0.006568019146749315
+subcellular_localization,contact order,gearnet_pretrained,intact,none,1,3072,0.5806712494945411,0.0,0.0
+subcellular_localization,contact order,gearnet_pretrained,erased,none,1,3072,0.5701577031945007,0.004955449507127452,0.8692405289518
+subcellular_localization,contact order,gearnet_pretrained,erased,named,1,3072,0.5843105539830166,0.004955449507127452,0.8692405289518
+subcellular_localization,contact order,gearnet_pretrained,erased,permuted,1,3072,0.5826930853214719,0.004955449507127452,0.8692405289518
+subcellular_localization,contact order,gearnet_pretrained,sham0,none,1,3072,0.5802668823291549,0.00035908827448782876,3.4661432224969424e-05
+subcellular_localization,contact order,gearnet_pretrained,sham0,named,1,3072,0.5798625151637687,0.00035908827448782876,3.4661432224969424e-05
+subcellular_localization,contact order,gearnet_pretrained,sham0,permuted,1,3072,0.578245046502224,0.00035908827448782876,3.4661432224969424e-05
+subcellular_localization,contact order,gearnet_pretrained,sham1,none,1,3072,0.5875454913061059,0.00029437775767804375,0.00010879294628018954
+subcellular_localization,contact order,gearnet_pretrained,sham1,named,1,3072,0.589971694298423,0.00029437775767804375,0.00010879294628018954
+subcellular_localization,contact order,gearnet_pretrained,sham1,permuted,1,3072,0.5859280226445612,0.00029437775767804375,0.00010879294628018954
+subcellular_localization,contact order,gearnet_pretrained,sham2,none,1,3072,0.5859280226445612,0.00028859230245259493,0.0007248154331029877
+subcellular_localization,contact order,gearnet_pretrained,sham2,named,1,3072,0.5822887181560857,0.00028859230245259493,0.0007248154331029877
+subcellular_localization,contact order,gearnet_pretrained,sham2,permuted,1,3072,0.5826930853214719,0.00028859230245259493,0.0007248154331029877
+subcellular_localization,contact order,gearnet_pretrained,sham3,none,1,3072,0.5859280226445612,0.0002941577015835861,0.00023219584188705067
+subcellular_localization,contact order,gearnet_pretrained,sham3,named,1,3072,0.5875454913061059,0.0002941577015835861,0.00023219584188705067
+subcellular_localization,contact order,gearnet_pretrained,sham3,permuted,1,3072,0.5883542256368783,0.0002941577015835861,0.00023219584188705067
+subcellular_localization,contact order,gearnet_pretrained,null0,none,1,3072,0.17873028710068742,0.004933368179239062,0.0021994512170312452
+subcellular_localization,contact order,gearnet_pretrained,null0,named,1,3072,0.24019409623938537,0.004933368179239062,0.0021994512170312452
+subcellular_localization,contact order,gearnet_pretrained,null0,permuted,1,3072,0.23493732308936513,0.004933368179239062,0.0021994512170312452
+subcellular_localization,contact order,gearnet_pretrained,null1,none,1,3072,0.1763040841083704,0.00456650324883312,0.0007654267522619884
+subcellular_localization,contact order,gearnet_pretrained,null1,named,1,3072,0.24059846340477153,0.00456650324883312,0.0007654267522619884
+subcellular_localization,contact order,gearnet_pretrained,null1,permuted,1,3072,0.23493732308936513,0.00456650324883312,0.0007654267522619884
+subcellular_localization,contact order,gearnet_pretrained,null2,none,1,3072,0.17711281843914276,0.005214119566212316,0.0004473262777514586
+subcellular_localization,contact order,gearnet_pretrained,null2,named,1,3072,0.23857662757784068,0.005214119566212316,0.0004473262777514586
+subcellular_localization,contact order,gearnet_pretrained,null2,permuted,1,3072,0.2357460574201375,0.005214119566212316,0.0004473262777514586
+subcellular_localization,contact order,gearnet_pretrained,null3,none,1,3072,0.17832591993530125,0.005267596266593122,0.00014194693832991767
+subcellular_localization,contact order,gearnet_pretrained,null3,named,1,3072,0.236959158916296,0.005267596266593122,0.00014194693832991767
+subcellular_localization,contact order,gearnet_pretrained,null3,permuted,1,3072,0.23372422159320663,0.005267596266593122,0.00014194693832991767
+subcellular_localization,global shape,gearnet_pretrained,intact,none,3,3072,0.5806712494945411,0.0,0.0
+subcellular_localization,global shape,gearnet_pretrained,erased,none,3,3072,0.5677315002021835,0.012038343319480171,0.8335049161663406
+subcellular_localization,global shape,gearnet_pretrained,erased,named,3,3072,0.5697533360291145,0.012038343319480171,0.8335049161663406
+subcellular_localization,global shape,gearnet_pretrained,erased,permuted,3,3072,0.5677315002021835,0.012038343319480171,0.8335049161663406
+subcellular_localization,global shape,gearnet_pretrained,sham0,none,3,3072,0.5915891629599677,0.0009033109776998005,0.0005216549672890647
+subcellular_localization,global shape,gearnet_pretrained,sham0,named,3,3072,0.5883542256368783,0.0009033109776998005,0.0005216549672890647
+subcellular_localization,global shape,gearnet_pretrained,sham0,permuted,3,3072,0.5887585928022645,0.0009033109776998005,0.0005216549672890647
+subcellular_localization,global shape,gearnet_pretrained,sham1,none,3,3072,0.5818843509906996,0.001090115858876306,0.0002901730450740603
+subcellular_localization,global shape,gearnet_pretrained,sham1,named,3,3072,0.5855236554791751,0.001090115858876306,0.0002901730450740603
+subcellular_localization,global shape,gearnet_pretrained,sham1,permuted,3,3072,0.5855236554791751,0.001090115858876306,0.0002901730450740603
+subcellular_localization,global shape,gearnet_pretrained,sham2,none,3,3072,0.5794581479983826,0.0009535430911510323,0.0012594953031329625
+subcellular_localization,global shape,gearnet_pretrained,sham2,named,3,3072,0.5786494136676101,0.0009535430911510323,0.0012594953031329625
+subcellular_localization,global shape,gearnet_pretrained,sham2,permuted,3,3072,0.5794581479983826,0.0009535430911510323,0.0012594953031329625
+subcellular_localization,global shape,gearnet_pretrained,sham3,none,3,3072,0.5705620703598868,0.0010490520069293963,0.0010809785820299345
+subcellular_localization,global shape,gearnet_pretrained,sham3,named,3,3072,0.5705620703598868,0.0010490520069293963,0.0010809785820299345
+subcellular_localization,global shape,gearnet_pretrained,sham3,permuted,3,3072,0.5705620703598868,0.0010490520069293963,0.0010809785820299345
+subcellular_localization,global shape,gearnet_pretrained,null0,none,3,3072,0.23898099474322684,0.012143616560539638,0.0010367167751157425
+subcellular_localization,global shape,gearnet_pretrained,null0,named,3,3072,0.18762636473918318,0.012143616560539638,0.0010367167751157425
+subcellular_localization,global shape,gearnet_pretrained,null0,permuted,3,3072,0.1888394662353417,0.012143616560539638,0.0010367167751157425
+subcellular_localization,global shape,gearnet_pretrained,null1,none,3,3072,0.2466639708855641,0.011919161827227187,0.0026203080863073103
+subcellular_localization,global shape,gearnet_pretrained,null1,named,3,3072,0.18479579458148,0.011919161827227187,0.0026203080863073103
+subcellular_localization,global shape,gearnet_pretrained,null1,permuted,3,3072,0.18520016174686615,0.011919161827227187,0.0026203080863073103
+subcellular_localization,global shape,gearnet_pretrained,null2,none,3,3072,0.23736352608168218,0.012103350244011324,0.0014983361942985107
+subcellular_localization,global shape,gearnet_pretrained,null2,named,3,3072,0.1819652244237768,0.012103350244011324,0.0014983361942985107
+subcellular_localization,global shape,gearnet_pretrained,null2,permuted,3,3072,0.18236959158916297,0.012103350244011324,0.0014983361942985107
+subcellular_localization,global shape,gearnet_pretrained,null3,none,3,3072,0.23453295592397896,0.011935625144739892,0.0005261148258222104
+subcellular_localization,global shape,gearnet_pretrained,null3,named,3,3072,0.187221997573797,0.011935625144739892,0.0005261148258222104
+subcellular_localization,global shape,gearnet_pretrained,null3,permuted,3,3072,0.18479579458148,0.011935625144739892,0.0005261148258222104
+subcellular_localization,secondary structure content,gearnet_pretrained,intact,none,2,3072,0.5806712494945411,0.0,0.0
+subcellular_localization,secondary structure content,gearnet_pretrained,erased,none,2,3072,0.5968459361099878,0.02020147892423052,0.9722179226557699
+subcellular_localization,secondary structure content,gearnet_pretrained,erased,named,2,3072,0.5887585928022645,0.02020147892423052,0.9722179226557699
+subcellular_localization,secondary structure content,gearnet_pretrained,erased,permuted,2,3072,0.5859280226445612,0.02020147892423052,0.9722179226557699
+subcellular_localization,secondary structure content,gearnet_pretrained,sham0,none,2,3072,0.5810756166599272,0.000571744136041441,0.0015987890747493072
+subcellular_localization,secondary structure content,gearnet_pretrained,sham0,named,2,3072,0.5806712494945411,0.000571744136041441,0.0015987890747493072
+subcellular_localization,secondary structure content,gearnet_pretrained,sham0,permuted,2,3072,0.5907804286291953,0.000571744136041441,0.0015987890747493072
+subcellular_localization,secondary structure content,gearnet_pretrained,sham1,none,2,3072,0.5750101091791346,0.0005163769567941845,0.00028219029778353555
+subcellular_localization,secondary structure content,gearnet_pretrained,sham1,named,2,3072,0.5794581479983826,0.0005163769567941845,0.00028219029778353555
+subcellular_localization,secondary structure content,gearnet_pretrained,sham1,permuted,2,3072,0.5766275778406793,0.0005163769567941845,0.00028219029778353555
+subcellular_localization,secondary structure content,gearnet_pretrained,sham2,none,2,3072,0.5835018196522442,0.0006803822691096029,0.0005245734784332656
+subcellular_localization,secondary structure content,gearnet_pretrained,sham2,named,2,3072,0.5891629599676507,0.0006803822691096029,0.0005245734784332656
+subcellular_localization,secondary structure content,gearnet_pretrained,sham2,permuted,2,3072,0.5903760614638092,0.0006803822691096029,0.0005245734784332656
+subcellular_localization,secondary structure content,gearnet_pretrained,sham3,none,2,3072,0.5729882733522038,0.0006554504102278536,3.1687335133256944e-05
+subcellular_localization,secondary structure content,gearnet_pretrained,sham3,named,2,3072,0.5863323898099474,0.0006554504102278536,3.1687335133256944e-05
+subcellular_localization,secondary structure content,gearnet_pretrained,sham3,permuted,2,3072,0.5818843509906996,0.0006554504102278536,3.1687335133256944e-05
+subcellular_localization,secondary structure content,gearnet_pretrained,null0,none,2,3072,0.1815608572583906,0.0202831304853911,0.014202588950430473
+subcellular_localization,secondary structure content,gearnet_pretrained,null0,named,2,3072,0.2357460574201375,0.0202831304853911,0.014202588950430473
+subcellular_localization,secondary structure content,gearnet_pretrained,null0,permuted,2,3072,0.17023857662757785,0.0202831304853911,0.014202588950430473
+subcellular_localization,secondary structure content,gearnet_pretrained,null1,none,2,3072,0.18115649009300444,0.019758954001282913,0.013223668773989505
+subcellular_localization,secondary structure content,gearnet_pretrained,null1,named,2,3072,0.2329154872624343,0.019758954001282913,0.013223668773989505
+subcellular_localization,secondary structure content,gearnet_pretrained,null1,permuted,2,3072,0.17023857662757785,0.019758954001282913,0.013223668773989505
+subcellular_localization,secondary structure content,gearnet_pretrained,null2,none,2,3072,0.18560452891225232,0.021198742403977455,0.01857002239717065
+subcellular_localization,secondary structure content,gearnet_pretrained,null2,named,2,3072,0.23170238576627578,0.021198742403977455,0.01857002239717065
+subcellular_localization,secondary structure content,gearnet_pretrained,null2,permuted,2,3072,0.16619490497371614,0.021198742403977455,0.01857002239717065
+subcellular_localization,secondary structure content,gearnet_pretrained,null3,none,2,3072,0.18236959158916297,0.02004809071481861,0.0026528408241666135
+subcellular_localization,secondary structure content,gearnet_pretrained,null3,named,2,3072,0.23736352608168218,0.02004809071481861,0.0026528408241666135
+subcellular_localization,secondary structure content,gearnet_pretrained,null3,permuted,2,3072,0.23008491710473108,0.02004809071481861,0.0026528408241666135
+subcellular_localization,size,gearnet_pretrained,intact,none,1,3072,0.5806712494945411,0.0,0.0
+subcellular_localization,size,gearnet_pretrained,erased,none,1,3072,0.5830974524868581,0.009632091236394191,0.8235185941287639
+subcellular_localization,size,gearnet_pretrained,erased,named,1,3072,0.5721795390214315,0.009632091236394191,0.8235185941287639
+subcellular_localization,size,gearnet_pretrained,erased,permuted,1,3072,0.5705620703598868,0.009632091236394191,0.8235185941287639
+subcellular_localization,size,gearnet_pretrained,sham0,none,1,3072,0.5907804286291953,0.00033601842402730675,4.315672124688419e-05
+subcellular_localization,size,gearnet_pretrained,sham0,named,1,3072,0.5936109987868985,0.00033601842402730675,4.315672124688419e-05
+subcellular_localization,size,gearnet_pretrained,sham0,permuted,1,3072,0.5928022644561262,0.00033601842402730675,4.315672124688419e-05
+subcellular_localization,size,gearnet_pretrained,sham1,none,1,3072,0.5928022644561262,0.0003303990419840641,0.00024644297413933813
+subcellular_localization,size,gearnet_pretrained,sham1,named,1,3072,0.5826930853214719,0.0003303990419840641,0.00024644297413933813
+subcellular_localization,size,gearnet_pretrained,sham1,permuted,1,3072,0.5843105539830166,0.0003303990419840641,0.00024644297413933813
+subcellular_localization,size,gearnet_pretrained,sham2,none,1,3072,0.5972503032753741,0.00037589945356364396,0.0005346948518449857
+subcellular_localization,size,gearnet_pretrained,sham2,named,1,3072,0.5956328346138293,0.00037589945356364396,0.0005346948518449857
+subcellular_localization,size,gearnet_pretrained,sham2,permuted,1,3072,0.594824100283057,0.00037589945356364396,0.0005346948518449857
+subcellular_localization,size,gearnet_pretrained,sham3,none,1,3072,0.59239789729074,0.0002033419367524214,0.0007611889938902161
+subcellular_localization,size,gearnet_pretrained,sham3,named,1,3072,0.5814799838253134,0.0002033419367524214,0.0007611889938902161
+subcellular_localization,size,gearnet_pretrained,sham3,permuted,1,3072,0.5822887181560857,0.0002033419367524214,0.0007611889938902161
+subcellular_localization,size,gearnet_pretrained,null0,none,1,3072,0.1746866154468257,0.00973021649985406,0.01813766007580475
+subcellular_localization,size,gearnet_pretrained,null0,named,1,3072,0.2341285887585928,0.00973021649985406,0.01813766007580475
+subcellular_localization,size,gearnet_pretrained,null0,permuted,1,3072,0.23453295592397896,0.00973021649985406,0.01813766007580475
+subcellular_localization,size,gearnet_pretrained,null1,none,1,3072,0.17751718560452892,0.008983145579415819,0.002503676937661181
+subcellular_localization,size,gearnet_pretrained,null1,named,1,3072,0.236959158916296,0.008983145579415819,0.002503676937661181
+subcellular_localization,size,gearnet_pretrained,null1,permuted,1,3072,0.236959158916296,0.008983145579415819,0.002503676937661181
+subcellular_localization,size,gearnet_pretrained,null2,none,1,3072,0.17589971694298423,0.0103548420066637,0.0013420404189485868
+subcellular_localization,size,gearnet_pretrained,null2,named,1,3072,0.2329154872624343,0.0103548420066637,0.0013420404189485868
+subcellular_localization,size,gearnet_pretrained,null2,permuted,1,3072,0.23210675293166194,0.0103548420066637,0.0013420404189485868
+subcellular_localization,size,gearnet_pretrained,null3,none,1,3072,0.1746866154468257,0.00973021649985406,0.01813766007580475
+subcellular_localization,size,gearnet_pretrained,null3,named,1,3072,0.2341285887585928,0.00973021649985406,0.01813766007580475
+subcellular_localization,size,gearnet_pretrained,null3,permuted,1,3072,0.23453295592397896,0.00973021649985406,0.01813766007580475

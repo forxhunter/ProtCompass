@@ -1,0 +1,4 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+fluorescence,esm_if1,positive control,the task label itself,1,1,0.4211655388130673,-0.011636416279596324,0.4193408036953326,0.43097721997492894
+fluorescence,proteinmpnn,positive control,the task label itself,1,1,0.37461814009640154,-0.015953229532463243,0.37180699737623246,0.3877602269086957
+fluorescence,gearnet_pretrained,positive control,the task label itself,1,1,0.523994795575946,0.005315661725945669,0.49501155162312493,0.48969588989717927

@@ -1,0 +1,841 @@
+task,concept,encoder,arm,descriptor,rank,dim,score,var_removed,prop_removed
+fluorescence,amino-acid composition,pottsmpnn_soluble,intact,none,20,128,0.3738551438308243,0.0,0.0
+fluorescence,amino-acid composition,pottsmpnn_soluble,erased,none,20,128,0.3452920180658169,0.11867604974781776,0.055517365357507065
+fluorescence,amino-acid composition,pottsmpnn_soluble,erased,named,20,128,0.3985437849897847,0.11867604974781776,0.055517365357507065
+fluorescence,amino-acid composition,pottsmpnn_soluble,erased,permuted,20,128,0.3415581590233702,0.11867604974781776,0.055517365357507065
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham0,none,20,128,0.355355191433898,0.198352205007856,0.007992534840267962
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham0,named,20,128,0.3960246778964637,0.198352205007856,0.007992534840267962
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham0,permuted,20,128,0.3507271496248843,0.198352205007856,0.007992534840267962
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham1,none,20,128,0.3568011460749713,0.15391071253488942,0.009215163961536321
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham1,named,20,128,0.4027941431639272,0.15391071253488942,0.009215163961536321
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham1,permuted,20,128,0.3531835535958194,0.15391071253488942,0.009215163961536321
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham2,none,20,128,0.33392826749006455,0.20832454254322086,0.00896491097621488
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham2,named,20,128,0.3891355579692015,0.20832454254322086,0.00896491097621488
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham2,permuted,20,128,0.326908511371898,0.20832454254322086,0.00896491097621488
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham3,none,20,128,0.3434767411248556,0.20960933475671717,0.009291413268682991
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham3,named,20,128,0.39307913649577675,0.20960933475671717,0.009291413268682991
+fluorescence,amino-acid composition,pottsmpnn_soluble,sham3,permuted,20,128,0.33792663320848987,0.20960933475671717,0.009291413268682991
+fluorescence,amino-acid composition,pottsmpnn_soluble,null0,none,20,128,0.3539710337705344,0.1181336692865339,0.004017302484881635
+fluorescence,amino-acid composition,pottsmpnn_soluble,null0,named,20,128,0.39849486717949345,0.1181336692865339,0.004017302484881635
+fluorescence,amino-acid composition,pottsmpnn_soluble,null0,permuted,20,128,0.3508156468655982,0.1181336692865339,0.004017302484881635
+fluorescence,amino-acid composition,pottsmpnn_soluble,null1,none,20,128,0.3550928475476781,0.11754919828525168,0.004004760802345908
+fluorescence,amino-acid composition,pottsmpnn_soluble,null1,named,20,128,0.398954732157784,0.11754919828525168,0.004004760802345908
+fluorescence,amino-acid composition,pottsmpnn_soluble,null1,permuted,20,128,0.3514947846310899,0.11754919828525168,0.004004760802345908
+fluorescence,amino-acid composition,pottsmpnn_soluble,null2,none,20,128,0.3550928475476781,0.11754919828525168,0.004004760802345908
+fluorescence,amino-acid composition,pottsmpnn_soluble,null2,named,20,128,0.398954732157784,0.11754919828525168,0.004004760802345908
+fluorescence,amino-acid composition,pottsmpnn_soluble,null2,permuted,20,128,0.3514947846310899,0.11754919828525168,0.004004760802345908
+fluorescence,amino-acid composition,pottsmpnn_soluble,null3,none,20,128,0.35262669468688734,0.11816097807666892,0.004298297326880696
+fluorescence,amino-acid composition,pottsmpnn_soluble,null3,named,20,128,0.3971780351543315,0.11816097807666892,0.004298297326880696
+fluorescence,amino-acid composition,pottsmpnn_soluble,null3,permuted,20,128,0.3494526503586344,0.11816097807666892,0.004298297326880696
+fluorescence,burial and packing,pottsmpnn_soluble,intact,none,2,128,0.3738551438308243,0.0,0.0
+fluorescence,burial and packing,pottsmpnn_soluble,erased,none,2,128,0.3151981052263732,0.1342259888863112,0.5544377079664686
+fluorescence,burial and packing,pottsmpnn_soluble,erased,named,2,128,0.37431163138098067,0.1342259888863112,0.5544377079664686
+fluorescence,burial and packing,pottsmpnn_soluble,erased,permuted,2,128,0.3152034496352251,0.1342259888863112,0.5544377079664686
+fluorescence,burial and packing,pottsmpnn_soluble,sham0,none,2,128,0.36904640250438686,0.04551252898216762,0.010476748115762047
+fluorescence,burial and packing,pottsmpnn_soluble,sham0,named,2,128,0.37358274856200774,0.04551252898216762,0.010476748115762047
+fluorescence,burial and packing,pottsmpnn_soluble,sham0,permuted,2,128,0.3691397107354528,0.04551252898216762,0.010476748115762047
+fluorescence,burial and packing,pottsmpnn_soluble,sham1,none,2,128,0.3750321668672059,0.010403126223359038,0.001463226651242211
+fluorescence,burial and packing,pottsmpnn_soluble,sham1,named,2,128,0.37593359567957646,0.010403126223359038,0.001463226651242211
+fluorescence,burial and packing,pottsmpnn_soluble,sham1,permuted,2,128,0.37502983982900084,0.010403126223359038,0.001463226651242211
+fluorescence,burial and packing,pottsmpnn_soluble,sham2,none,2,128,0.3738391357193895,0.019367096236036052,0.008260929509439463
+fluorescence,burial and packing,pottsmpnn_soluble,sham2,named,2,128,0.37623834611426754,0.019367096236036052,0.008260929509439463
+fluorescence,burial and packing,pottsmpnn_soluble,sham2,permuted,2,128,0.373783063877986,0.019367096236036052,0.008260929509439463
+fluorescence,burial and packing,pottsmpnn_soluble,sham3,none,2,128,0.37447057364683106,0.016178932965078552,0.00019060446826302258
+fluorescence,burial and packing,pottsmpnn_soluble,sham3,named,2,128,0.37460006654408423,0.016178932965078552,0.00019060446826302258
+fluorescence,burial and packing,pottsmpnn_soluble,sham3,permuted,2,128,0.3744300442869635,0.016178932965078552,0.00019060446826302258
+fluorescence,burial and packing,pottsmpnn_soluble,null0,none,2,128,0.3661484809289752,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null0,named,2,128,0.37622427231166755,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null0,permuted,2,128,0.3659140855050488,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null1,none,2,128,0.3661484809289752,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null1,named,2,128,0.37622427231166755,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null1,permuted,2,128,0.3659140855050488,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null2,none,2,128,0.3661484809289752,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null2,named,2,128,0.37622427231166755,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null2,permuted,2,128,0.3659140855050488,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null3,none,2,128,0.3661484809289752,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null3,named,2,128,0.37622427231166755,0.13604220642696097,0.042827722148902514
+fluorescence,burial and packing,pottsmpnn_soluble,null3,permuted,2,128,0.3659140855050488,0.13604220642696097,0.042827722148902514
+fluorescence,contact order,pottsmpnn_soluble,intact,none,1,128,0.3738551438308243,0.0,0.0
+fluorescence,contact order,pottsmpnn_soluble,erased,none,1,128,0.37418027129672066,0.016484434867845232,0.3614083930565767
+fluorescence,contact order,pottsmpnn_soluble,erased,named,1,128,0.37495214742451455,0.016484434867845232,0.3614083930565767
+fluorescence,contact order,pottsmpnn_soluble,erased,permuted,1,128,0.3743962420011508,0.016484434867845232,0.3614083930565767
+fluorescence,contact order,pottsmpnn_soluble,sham0,none,1,128,0.37325498467517637,0.0064688994997821325,7.970964133074965e-06
+fluorescence,contact order,pottsmpnn_soluble,sham0,named,1,128,0.37365050715822495,0.0064688994997821325,7.970964133074965e-06
+fluorescence,contact order,pottsmpnn_soluble,sham0,permuted,1,128,0.37342957054982,0.0064688994997821325,7.970964133074965e-06
+fluorescence,contact order,pottsmpnn_soluble,sham1,none,1,128,0.3747115912391739,0.006580945563319007,0.00017002514919539635
+fluorescence,contact order,pottsmpnn_soluble,sham1,named,1,128,0.37520433946765375,0.006580945563319007,0.00017002514919539635
+fluorescence,contact order,pottsmpnn_soluble,sham1,permuted,1,128,0.37496773324630356,0.006580945563319007,0.00017002514919539635
+fluorescence,contact order,pottsmpnn_soluble,sham2,none,1,128,0.3715377258283761,0.007175181332927827,6.713300458316418e-06
+fluorescence,contact order,pottsmpnn_soluble,sham2,named,1,128,0.37267109545054344,0.007175181332927827,6.713300458316418e-06
+fluorescence,contact order,pottsmpnn_soluble,sham2,permuted,1,128,0.3717230989808884,0.007175181332927827,6.713300458316418e-06
+fluorescence,contact order,pottsmpnn_soluble,sham3,none,1,128,0.36496831450182615,0.020387808144250674,0.00018528396416905846
+fluorescence,contact order,pottsmpnn_soluble,sham3,named,1,128,0.37028940074113503,0.020387808144250674,0.00018528396416905846
+fluorescence,contact order,pottsmpnn_soluble,sham3,permuted,1,128,0.3652964553377306,0.020387808144250674,0.00018528396416905846
+fluorescence,contact order,pottsmpnn_soluble,null0,none,1,128,0.36615763305688437,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null0,named,1,128,0.37224925232065625,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null0,permuted,1,128,0.3650781347025514,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null1,none,1,128,0.36615763305688437,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null1,named,1,128,0.37224925232065625,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null1,permuted,1,128,0.3650781347025514,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null2,none,1,128,0.36615763305688437,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null2,named,1,128,0.37224925232065625,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null2,permuted,1,128,0.3650781347025514,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null3,none,1,128,0.36615763305688437,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null3,named,1,128,0.37224925232065625,0.01598571276315064,0.00025015546797058086
+fluorescence,contact order,pottsmpnn_soluble,null3,permuted,1,128,0.3650781347025514,0.01598571276315064,0.00025015546797058086
+fluorescence,global shape,pottsmpnn_soluble,intact,none,3,128,0.3738551438308243,0.0,0.0
+fluorescence,global shape,pottsmpnn_soluble,erased,none,3,128,0.3461853244702405,0.05844388860968286,0.5173814589769696
+fluorescence,global shape,pottsmpnn_soluble,erased,named,3,128,0.3671837146603961,0.05844388860968286,0.5173814589769696
+fluorescence,global shape,pottsmpnn_soluble,erased,permuted,3,128,0.34601580718263275,0.05844388860968286,0.5173814589769696
+fluorescence,global shape,pottsmpnn_soluble,sham0,none,3,128,0.37185580705814875,0.019708970238697998,0.006636279219805363
+fluorescence,global shape,pottsmpnn_soluble,sham0,named,3,128,0.3729134056937174,0.019708970238697998,0.006636279219805363
+fluorescence,global shape,pottsmpnn_soluble,sham0,permuted,3,128,0.3717180777347442,0.019708970238697998,0.006636279219805363
+fluorescence,global shape,pottsmpnn_soluble,sham1,none,3,128,0.3713792285224576,0.012692123170160774,0.005837738660115166
+fluorescence,global shape,pottsmpnn_soluble,sham1,named,3,128,0.37179394695925,0.012692123170160774,0.005837738660115166
+fluorescence,global shape,pottsmpnn_soluble,sham1,permuted,3,128,0.3710544868959426,0.012692123170160774,0.005837738660115166
+fluorescence,global shape,pottsmpnn_soluble,sham2,none,3,128,0.3733553466991283,0.009771325432874178,0.006399087209030929
+fluorescence,global shape,pottsmpnn_soluble,sham2,named,3,128,0.3729727247202379,0.009771325432874178,0.006399087209030929
+fluorescence,global shape,pottsmpnn_soluble,sham2,permuted,3,128,0.3731872827546747,0.009771325432874178,0.006399087209030929
+fluorescence,global shape,pottsmpnn_soluble,sham3,none,3,128,0.37566980178406817,0.024235025956563683,0.013109320303682281
+fluorescence,global shape,pottsmpnn_soluble,sham3,named,3,128,0.37546303543810855,0.024235025956563683,0.013109320303682281
+fluorescence,global shape,pottsmpnn_soluble,sham3,permuted,3,128,0.3757426576385657,0.024235025956563683,0.013109320303682281
+fluorescence,global shape,pottsmpnn_soluble,null0,none,3,128,0.37281298654953443,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null0,named,3,128,0.3752093798279608,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null0,permuted,3,128,0.3715366516568722,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null1,none,3,128,0.37281298654953443,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null1,named,3,128,0.3752093798279608,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null1,permuted,3,128,0.3715366516568722,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null2,none,3,128,0.37281298654953443,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null2,named,3,128,0.3752093798279608,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null2,permuted,3,128,0.3715366516568722,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null3,none,3,128,0.37281298654953443,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null3,named,3,128,0.3752093798279608,0.058253169571675034,0.05126984426961856
+fluorescence,global shape,pottsmpnn_soluble,null3,permuted,3,128,0.3715366516568722,0.058253169571675034,0.05126984426961856
+fluorescence,secondary structure content,pottsmpnn_soluble,intact,none,3,128,0.3738551438308243,0.0,0.0
+fluorescence,secondary structure content,pottsmpnn_soluble,erased,none,3,128,0.3433748744162191,0.2505406004948306,0.7761082909994856
+fluorescence,secondary structure content,pottsmpnn_soluble,erased,named,3,128,0.34793904847245566,0.2505406004948306,0.7761082909994856
+fluorescence,secondary structure content,pottsmpnn_soluble,erased,permuted,3,128,0.3421010628153184,0.2505406004948306,0.7761082909994856
+fluorescence,secondary structure content,pottsmpnn_soluble,sham0,none,3,128,0.3756673511705772,0.018971777646953125,0.014392621041872777
+fluorescence,secondary structure content,pottsmpnn_soluble,sham0,named,3,128,0.3751859983170557,0.018971777646953125,0.014392621041872777
+fluorescence,secondary structure content,pottsmpnn_soluble,sham0,permuted,3,128,0.3746955975744902,0.018971777646953125,0.014392621041872777
+fluorescence,secondary structure content,pottsmpnn_soluble,sham1,none,3,128,0.3648205389077523,0.016571890619937135,0.01608826463403723
+fluorescence,secondary structure content,pottsmpnn_soluble,sham1,named,3,128,0.369393615941007,0.016571890619937135,0.01608826463403723
+fluorescence,secondary structure content,pottsmpnn_soluble,sham1,permuted,3,128,0.3637542362158142,0.016571890619937135,0.01608826463403723
+fluorescence,secondary structure content,pottsmpnn_soluble,sham2,none,3,128,0.3680221949778708,0.017526548452683532,0.024260970387025127
+fluorescence,secondary structure content,pottsmpnn_soluble,sham2,named,3,128,0.36971916125139487,0.017526548452683532,0.024260970387025127
+fluorescence,secondary structure content,pottsmpnn_soluble,sham2,permuted,3,128,0.3670284672066872,0.017526548452683532,0.024260970387025127
+fluorescence,secondary structure content,pottsmpnn_soluble,sham3,none,3,128,0.3686354035503416,0.020201182826723674,0.03630798388137635
+fluorescence,secondary structure content,pottsmpnn_soluble,sham3,named,3,128,0.36968693477273346,0.020201182826723674,0.03630798388137635
+fluorescence,secondary structure content,pottsmpnn_soluble,sham3,permuted,3,128,0.36705327694562534,0.020201182826723674,0.03630798388137635
+fluorescence,secondary structure content,pottsmpnn_soluble,null0,none,3,128,0.33662999685224315,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null0,named,3,128,0.35496988813801583,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null0,permuted,3,128,0.33592989218358854,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null1,none,3,128,0.33662999685224315,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null1,named,3,128,0.35496988813801583,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null1,permuted,3,128,0.33592989218358854,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null2,none,3,128,0.33662999685224315,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null2,named,3,128,0.35496988813801583,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null2,permuted,3,128,0.33592989218358854,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null3,none,3,128,0.33662999685224315,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null3,named,3,128,0.35496988813801583,0.2020925934833384,0.16664822234456667
+fluorescence,secondary structure content,pottsmpnn_soluble,null3,permuted,3,128,0.33592989218358854,0.2020925934833384,0.16664822234456667
+fluorescence,size,pottsmpnn_soluble,intact,none,1,128,0.3738551438308243,0.0,0.0
+fluorescence,size,pottsmpnn_soluble,erased,none,1,128,0.36896506062833156,0.11976505359417833,0.04135025734471309
+fluorescence,size,pottsmpnn_soluble,erased,named,1,128,0.37283160063259807,0.11976505359417833,0.04135025734471309
+fluorescence,size,pottsmpnn_soluble,erased,permuted,1,128,0.36936361937393214,0.11976505359417833,0.04135025734471309
+fluorescence,size,pottsmpnn_soluble,sham0,none,1,128,0.3756409578454681,0.01607280735816552,0.00015100300049242232
+fluorescence,size,pottsmpnn_soluble,sham0,named,1,128,0.379578765672907,0.01607280735816552,0.00015100300049242232
+fluorescence,size,pottsmpnn_soluble,sham0,permuted,1,128,0.3761400295280045,0.01607280735816552,0.00015100300049242232
+fluorescence,size,pottsmpnn_soluble,sham1,none,1,128,0.36869025341886524,0.012989490748075982,4.0446830872675754e-05
+fluorescence,size,pottsmpnn_soluble,sham1,named,1,128,0.37347296058865004,0.012989490748075982,4.0446830872675754e-05
+fluorescence,size,pottsmpnn_soluble,sham1,permuted,1,128,0.3691698462135954,0.012989490748075982,4.0446830872675754e-05
+fluorescence,size,pottsmpnn_soluble,sham2,none,1,128,0.36331790677302045,0.007411422018689384,0.00037316664825792767
+fluorescence,size,pottsmpnn_soluble,sham2,named,1,128,0.3677088353908517,0.007411422018689384,0.00037316664825792767
+fluorescence,size,pottsmpnn_soluble,sham2,permuted,1,128,0.36402047805772086,0.007411422018689384,0.00037316664825792767
+fluorescence,size,pottsmpnn_soluble,sham3,none,1,128,0.37660913976018395,0.0076481881069832,0.0003875972136435646
+fluorescence,size,pottsmpnn_soluble,sham3,named,1,128,0.3806322654318206,0.0076481881069832,0.0003875972136435646
+fluorescence,size,pottsmpnn_soluble,sham3,permuted,1,128,0.37713245175740995,0.0076481881069832,0.0003875972136435646
+fluorescence,size,pottsmpnn_soluble,null0,none,1,128,0.3663699236181817,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null0,named,1,128,0.37068677796475874,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null0,permuted,1,128,0.3652664523251822,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null1,none,1,128,0.3663699236181817,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null1,named,1,128,0.37068677796475874,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null1,permuted,1,128,0.3652664523251822,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null2,none,1,128,0.3663699236181817,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null2,named,1,128,0.37068677796475874,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null2,permuted,1,128,0.3652664523251822,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null3,none,1,128,0.3663699236181817,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null3,named,1,128,0.37068677796475874,0.10398163630879065,0.00019924155395101284
+fluorescence,size,pottsmpnn_soluble,null3,permuted,1,128,0.3652664523251822,0.10398163630879065,0.00019924155395101284
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,intact,none,19,128,0.7781960173110654,0.0,0.0
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,erased,none,19,128,0.7215084744147029,0.10755146912052127,0.2666875213319535
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,erased,named,19,128,0.8090557795698925,0.10755146912052127,0.2666875213319535
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,erased,permuted,19,128,0.718544454930222,0.10755146912052127,0.2666875213319535
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham0,none,19,128,0.7811511000533821,0.15799881049410502,0.03753157728156176
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham0,named,19,128,0.8120287357965378,0.15799881049410502,0.03753157728156176
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham0,permuted,19,128,0.7750508798520552,0.15799881049410502,0.03753157728156176
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham1,none,19,128,0.7480988570502556,0.12019925052233449,0.03700751629975496
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham1,named,19,128,0.80808941985053,0.12019925052233449,0.03700751629975496
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham1,permuted,19,128,0.7440362140623809,0.12019925052233449,0.03700751629975496
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham2,none,19,128,0.7605727617631358,0.1105969366812235,0.03590831218006707
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham2,named,19,128,0.8077682929154274,0.1105969366812235,0.03590831218006707
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham2,permuted,19,128,0.7575712079615649,0.1105969366812235,0.03590831218006707
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham3,none,19,128,0.7440868556013117,0.1615578014296679,0.04429630996765899
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham3,named,19,128,0.8051951069549301,0.1615578014296679,0.04429630996765899
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,sham3,permuted,19,128,0.7425908449630139,0.1615578014296679,0.04429630996765899
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null0,none,19,128,0.7323964052848319,0.10725245909980119,0.05684269072953796
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null0,named,19,128,0.8039135781285748,0.10725245909980119,0.05684269072953796
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null0,permuted,19,128,0.7293841273926638,0.10725245909980119,0.05684269072953796
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null1,none,19,128,0.7199487150156334,0.10649165148973849,0.045975248237999256
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null1,named,19,128,0.8023847994356745,0.10649165148973849,0.045975248237999256
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null1,permuted,19,128,0.7166433119804774,0.10649165148973849,0.045975248237999256
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null2,none,19,128,0.7259810159765119,0.10654881397866478,0.051455726708388605
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null2,named,19,128,0.7997943357736598,0.10654881397866478,0.051455726708388605
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null2,permuted,19,128,0.7222853752001829,0.10654881397866478,0.051455726708388605
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null3,none,19,128,0.7199487150156334,0.10649165148973849,0.045975248237999256
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null3,named,19,128,0.8023847994356745,0.10649165148973849,0.045975248237999256
+membrane_soluble,amino-acid composition,pottsmpnn_soluble,null3,permuted,19,128,0.7166433119804774,0.10649165148973849,0.045975248237999256
+membrane_soluble,burial and packing,pottsmpnn_soluble,intact,none,2,128,0.7781960173110654,0.0,0.0
+membrane_soluble,burial and packing,pottsmpnn_soluble,erased,none,2,128,0.7798272706474492,0.2293735518395993,0.4809481890860451
+membrane_soluble,burial and packing,pottsmpnn_soluble,erased,named,2,128,0.780716178601388,0.2293735518395993,0.4809481890860451
+membrane_soluble,burial and packing,pottsmpnn_soluble,erased,permuted,2,128,0.7785612321741782,0.2293735518395993,0.4809481890860451
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham0,none,2,128,0.780509441965988,0.01210086755813522,0.0007509785680441805
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham0,named,2,128,0.778867464539007,0.01210086755813522,0.0007509785680441805
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham0,permuted,2,128,0.7794668220468237,0.01210086755813522,0.0007509785680441805
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham1,none,2,128,0.7794066479829178,0.020931246919498103,0.011051504573698412
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham1,named,2,128,0.7794918449248838,0.020931246919498103,0.011051504573698412
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham1,permuted,2,128,0.7785159526805461,0.020931246919498103,0.011051504573698412
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham2,none,2,128,0.7772022515823991,0.01726388668685419,0.004050964729088613
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham2,named,2,128,0.7770497311827957,0.01726388668685419,0.004050964729088613
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham2,permuted,2,128,0.7761000533821398,0.01726388668685419,0.004050964729088613
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham3,none,2,128,0.7777116458857622,0.010616273850112878,0.0042347228340182674
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham3,named,2,128,0.7784468418744759,0.010616273850112878,0.0042347228340182674
+membrane_soluble,burial and packing,pottsmpnn_soluble,sham3,permuted,2,128,0.7768233337146344,0.010616273850112878,0.0042347228340182674
+membrane_soluble,burial and packing,pottsmpnn_soluble,null0,none,2,128,0.7276486120643637,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null0,named,2,128,0.7527864762068177,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null0,permuted,2,128,0.7272470544497827,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null1,none,2,128,0.7276486120643637,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null1,named,2,128,0.7527864762068177,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null1,permuted,2,128,0.7272470544497827,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null2,none,2,128,0.7276486120643637,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null2,named,2,128,0.7527864762068177,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null2,permuted,2,128,0.7272470544497827,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null3,none,2,128,0.7276486120643637,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null3,named,2,128,0.7527864762068177,0.17050688180665263,0.0070629062233497075
+membrane_soluble,burial and packing,pottsmpnn_soluble,null3,permuted,2,128,0.7272470544497827,0.17050688180665263,0.0070629062233497075
+membrane_soluble,contact order,pottsmpnn_soluble,intact,none,1,128,0.7781960173110654,0.0,0.0
+membrane_soluble,contact order,pottsmpnn_soluble,erased,none,1,128,0.7780196655990239,0.0018852263376472056,0.28670775309609753
+membrane_soluble,contact order,pottsmpnn_soluble,erased,named,1,128,0.7787596278502249,0.0018852263376472056,0.28670775309609753
+membrane_soluble,contact order,pottsmpnn_soluble,erased,permuted,1,128,0.776450373674979,0.0018852263376472056,0.28670775309609753
+membrane_soluble,contact order,pottsmpnn_soluble,sham0,none,1,128,0.7821943157553573,0.002547408369194093,3.900665303868678e-05
+membrane_soluble,contact order,pottsmpnn_soluble,sham0,named,1,128,0.7846930288644857,0.002547408369194093,3.900665303868678e-05
+membrane_soluble,contact order,pottsmpnn_soluble,sham0,permuted,1,128,0.7807757568824831,0.002547408369194093,3.900665303868678e-05
+membrane_soluble,contact order,pottsmpnn_soluble,sham1,none,1,128,0.7788269513078625,0.023598034461532857,0.0012360935016876295
+membrane_soluble,contact order,pottsmpnn_soluble,sham1,named,1,128,0.7805005052238236,0.023598034461532857,0.0012360935016876295
+membrane_soluble,contact order,pottsmpnn_soluble,sham1,permuted,1,128,0.7775168249065814,0.023598034461532857,0.0012360935016876295
+membrane_soluble,contact order,pottsmpnn_soluble,sham2,none,1,128,0.7802335945245177,0.006707679838567904,5.923466444868186e-05
+membrane_soluble,contact order,pottsmpnn_soluble,sham2,named,1,128,0.7829056804316328,0.006707679838567904,5.923466444868186e-05
+membrane_soluble,contact order,pottsmpnn_soluble,sham2,permuted,1,128,0.7791999113475176,0.006707679838567904,5.923466444868186e-05
+membrane_soluble,contact order,pottsmpnn_soluble,sham3,none,1,128,0.7789907915808739,0.01265366713433258,0.0068077110222386494
+membrane_soluble,contact order,pottsmpnn_soluble,sham3,named,1,128,0.7819268092732402,0.01265366713433258,0.0068077110222386494
+membrane_soluble,contact order,pottsmpnn_soluble,sham3,permuted,1,128,0.7778016090902158,0.01265366713433258,0.0068077110222386494
+membrane_soluble,contact order,pottsmpnn_soluble,null0,none,1,128,0.7790074734995804,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null0,named,1,128,0.7813780933043545,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null0,permuted,1,128,0.7780512420880044,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null1,none,1,128,0.7790074734995804,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null1,named,1,128,0.7813780933043545,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null1,permuted,1,128,0.7780512420880044,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null2,none,1,128,0.7790074734995804,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null2,named,1,128,0.7813780933043545,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null2,permuted,1,128,0.7780512420880044,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null3,none,1,128,0.7790074734995804,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null3,named,1,128,0.7813780933043545,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,contact order,pottsmpnn_soluble,null3,permuted,1,128,0.7780512420880044,0.0019515251997693772,0.0063989943147374495
+membrane_soluble,global shape,pottsmpnn_soluble,intact,none,3,128,0.7781960173110654,0.0,0.0
+membrane_soluble,global shape,pottsmpnn_soluble,erased,none,3,128,0.7594324334629756,0.033206382061850004,0.5033579859458299
+membrane_soluble,global shape,pottsmpnn_soluble,erased,named,3,128,0.7684531810035843,0.033206382061850004,0.5033579859458299
+membrane_soluble,global shape,pottsmpnn_soluble,erased,permuted,3,128,0.7577433891939298,0.033206382061850004,0.5033579859458299
+membrane_soluble,global shape,pottsmpnn_soluble,sham0,none,3,128,0.7769919402501334,0.03969641533151447,0.003203979363219256
+membrane_soluble,global shape,pottsmpnn_soluble,sham0,named,3,128,0.7847347336612522,0.03969641533151447,0.003203979363219256
+membrane_soluble,global shape,pottsmpnn_soluble,sham0,permuted,3,128,0.7744270952489896,0.03969641533151447,0.003203979363219256
+membrane_soluble,global shape,pottsmpnn_soluble,sham1,none,3,128,0.7778933596431021,0.028025464204794903,0.03446744383126288
+membrane_soluble,global shape,pottsmpnn_soluble,sham1,named,3,128,0.7847430746206054,0.028025464204794903,0.03446744383126288
+membrane_soluble,global shape,pottsmpnn_soluble,sham1,permuted,3,128,0.7753767730496453,0.028025464204794903,0.03446744383126288
+membrane_soluble,global shape,pottsmpnn_soluble,sham2,none,3,128,0.7762889165332114,0.03377638906265423,0.06165975689002556
+membrane_soluble,global shape,pottsmpnn_soluble,sham2,named,3,128,0.7852393617021276,0.03377638906265423,0.06165975689002556
+membrane_soluble,global shape,pottsmpnn_soluble,sham2,permuted,3,128,0.7741440984137877,0.03377638906265423,0.06165975689002556
+membrane_soluble,global shape,pottsmpnn_soluble,sham3,none,3,128,0.7696435550598643,0.016634795976952166,0.0026217616059318605
+membrane_soluble,global shape,pottsmpnn_soluble,sham3,named,3,128,0.7749215949820788,0.016634795976952166,0.0026217616059318605
+membrane_soluble,global shape,pottsmpnn_soluble,sham3,permuted,3,128,0.7673158316174788,0.016634795976952166,0.0026217616059318605
+membrane_soluble,global shape,pottsmpnn_soluble,null0,none,3,128,0.7733260886143521,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null0,named,3,128,0.7770080263860291,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null0,permuted,3,128,0.7719289779226721,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null1,none,3,128,0.7733260886143521,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null1,named,3,128,0.7770080263860291,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null1,permuted,3,128,0.7719289779226721,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null2,none,3,128,0.7744580759551589,0.03351541421308146,0.042478553593920276
+membrane_soluble,global shape,pottsmpnn_soluble,null2,named,3,128,0.7804337775489971,0.03351541421308146,0.042478553593920276
+membrane_soluble,global shape,pottsmpnn_soluble,null2,permuted,3,128,0.7731455664226341,0.03351541421308146,0.042478553593920276
+membrane_soluble,global shape,pottsmpnn_soluble,null3,none,3,128,0.7733260886143521,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null3,named,3,128,0.7770080263860291,0.03352670646385281,0.04075449288131494
+membrane_soluble,global shape,pottsmpnn_soluble,null3,permuted,3,128,0.7719289779226721,0.03352670646385281,0.04075449288131494
+membrane_soluble,secondary structure content,pottsmpnn_soluble,intact,none,2,128,0.7781960173110654,0.0,0.0
+membrane_soluble,secondary structure content,pottsmpnn_soluble,erased,none,2,128,0.7533030199039121,0.04724272112309669,0.6101300704261046
+membrane_soluble,secondary structure content,pottsmpnn_soluble,erased,named,2,128,0.780449267902082,0.04724272112309669,0.6101300704261046
+membrane_soluble,secondary structure content,pottsmpnn_soluble,erased,permuted,2,128,0.7525821227026614,0.04724272112309669,0.6101300704261046
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham0,none,2,128,0.7787649898955235,0.012309562085963233,0.005856759807640444
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham0,named,2,128,0.7791427161976664,0.012309562085963233,0.005856759807640444
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham0,permuted,2,128,0.7783318557919622,0.012309562085963233,0.005856759807640444
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham1,none,2,128,0.7755924464272097,0.01085057508206888,0.003549549443529365
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham1,named,2,128,0.7778707198962862,0.01085057508206888,0.003549549443529365
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham1,permuted,2,128,0.7751807605048426,0.01085057508206888,0.003549549443529365
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham2,none,2,128,0.7804528425989475,0.00749908336442362,0.008448916787393124
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham2,named,2,128,0.7796550894150843,0.00749908336442362,0.008448916787393124
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham2,permuted,2,128,0.7797688839319759,0.00749908336442362,0.008448916787393124
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham3,none,2,128,0.7756287891786776,0.019235862551655658,0.010085863802818507
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham3,named,2,128,0.775382730877755,0.019235862551655658,0.010085863802818507
+membrane_soluble,secondary structure content,pottsmpnn_soluble,sham3,permuted,2,128,0.7751825478532753,0.019235862551655658,0.010085863802818507
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null0,none,2,128,0.7383018045069778,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null0,named,2,128,0.7771480353466026,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null0,permuted,2,128,0.7377685788911766,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null1,none,2,128,0.7383018045069778,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null1,named,2,128,0.7771480353466026,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null1,permuted,2,128,0.7377685788911766,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null2,none,2,128,0.7383018045069778,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null2,named,2,128,0.7771480353466026,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null2,permuted,2,128,0.7377685788911766,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null3,none,2,128,0.7383018045069778,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null3,named,2,128,0.7771480353466026,0.04717579161617924,0.12204843529300369
+membrane_soluble,secondary structure content,pottsmpnn_soluble,null3,permuted,2,128,0.7377685788911766,0.04717579161617924,0.12204843529300369
+membrane_soluble,size,pottsmpnn_soluble,intact,none,1,128,0.7781960173110654,0.0,0.0
+membrane_soluble,size,pottsmpnn_soluble,erased,none,1,128,0.7756722813238771,0.010177701309566745,0.4140046545602296
+membrane_soluble,size,pottsmpnn_soluble,erased,named,1,128,0.7851488027148632,0.010177701309566745,0.4140046545602296
+membrane_soluble,size,pottsmpnn_soluble,erased,permuted,1,128,0.7751998255547929,0.010177701309566745,0.4140046545602296
+membrane_soluble,size,pottsmpnn_soluble,sham0,none,1,128,0.7816545365286358,0.029594195165418502,0.00021021167419532638
+membrane_soluble,size,pottsmpnn_soluble,sham0,named,1,128,0.7873776262106307,0.029594195165418502,0.00021021167419532638
+membrane_soluble,size,pottsmpnn_soluble,sham0,permuted,1,128,0.7812017415923129,0.029594195165418502,0.00021021167419532638
+membrane_soluble,size,pottsmpnn_soluble,sham1,none,1,128,0.7800816699077251,0.0032489240725790403,0.011728877255908876
+membrane_soluble,size,pottsmpnn_soluble,sham1,named,1,128,0.7849134685045376,0.0032489240725790403,0.011728877255908876
+membrane_soluble,size,pottsmpnn_soluble,sham1,permuted,1,128,0.7796026605277206,0.0032489240725790403,0.011728877255908876
+membrane_soluble,size,pottsmpnn_soluble,sham2,none,1,128,0.7782502335468621,0.011647189915628409,0.0036342444286667774
+membrane_soluble,size,pottsmpnn_soluble,sham2,named,1,128,0.7839911967131854,0.011647189915628409,0.0036342444286667774
+membrane_soluble,size,pottsmpnn_soluble,sham2,permuted,1,128,0.7778349729276292,0.011647189915628409,0.0036342444286667774
+membrane_soluble,size,pottsmpnn_soluble,sham3,none,1,128,0.7780595830473576,0.009120613435589897,5.190437261104464e-07
+membrane_soluble,size,pottsmpnn_soluble,sham3,named,1,128,0.781384646915275,0.009120613435589897,5.190437261104464e-07
+membrane_soluble,size,pottsmpnn_soluble,sham3,permuted,1,128,0.7776616001296424,0.009120613435589897,5.190437261104464e-07
+membrane_soluble,size,pottsmpnn_soluble,null0,none,1,128,0.7796372159307557,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null0,named,1,128,0.7824671842827728,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null0,permuted,1,128,0.779391753412644,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null1,none,1,128,0.7796372159307557,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null1,named,1,128,0.7824671842827728,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null1,permuted,1,128,0.779391753412644,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null2,none,1,128,0.7796372159307557,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null2,named,1,128,0.7824671842827728,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null2,permuted,1,128,0.779391753412644,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null3,none,1,128,0.7796372159307557,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null3,named,1,128,0.7824671842827728,0.008830828459361006,0.0031169277091791514
+membrane_soluble,size,pottsmpnn_soluble,null3,permuted,1,128,0.779391753412644,0.008830828459361006,0.0031169277091791514
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,intact,none,40,256,0.33005999589910207,0.0,0.0
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,erased,none,40,256,0.39018940884947473,0.3740932412160416,0.9363579052487341
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,erased,named,40,256,0.1811237483018403,0.3740932412160416,0.9363579052487341
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,erased,permuted,40,256,0.3927035107322474,0.3740932412160416,0.9363579052487341
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham0,none,40,256,0.33802279058588347,0.3239365144835349,0.14676851517081635
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham0,named,40,256,0.24596928872150178,0.3239365144835349,0.14676851517081635
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham0,permuted,40,256,0.3376099216123676,0.3239365144835349,0.14676851517081635
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham1,none,40,256,0.33073350573047927,0.2706449657645429,0.1512575549813997
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham1,named,40,256,0.2725917174483289,0.2706449657645429,0.1512575549813997
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham1,permuted,40,256,0.32208455883183973,0.2706449657645429,0.1512575549813997
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham2,none,40,256,0.21344182921029084,0.3328533484691001,0.14667309333649814
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham2,named,40,256,0.1900347215246953,0.3328533484691001,0.14667309333649814
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham2,permuted,40,256,0.21302982615324628,0.3328533484691001,0.14667309333649814
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham3,none,40,256,0.10017614473176507,0.279760136806638,0.1527754355714095
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham3,named,40,256,0.17562673735873305,0.279760136806638,0.1527754355714095
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,sham3,permuted,40,256,0.10537250947603692,0.279760136806638,0.1527754355714095
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null0,none,40,256,0.30259710864523115,0.3726865659127421,0.0223703083764758
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null0,named,40,256,0.2939834911386206,0.3726865659127421,0.0223703083764758
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null0,permuted,40,256,0.2983923914438922,0.3726865659127421,0.0223703083764758
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null1,none,40,256,0.2640350772455298,0.3726865996382094,0.022369779672254397
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null1,named,40,256,0.2605307132861784,0.3726865996382094,0.022369779672254397
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null1,permuted,40,256,0.27134410499647965,0.3726865996382094,0.022369779672254397
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null2,none,40,256,0.2640350772455298,0.3726865996382094,0.022369779672254397
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null2,named,40,256,0.2605307132861784,0.3726865996382094,0.022369779672254397
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null2,permuted,40,256,0.27134410499647965,0.3726865996382094,0.022369779672254397
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null3,none,40,256,0.4011370176128276,0.3725185668627925,0.020694415706324465
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null3,named,40,256,0.31671570352648487,0.3725185668627925,0.020694415706324465
+ppi_affinity,amino-acid composition,pottsmpnn_soluble,null3,permuted,40,256,0.3842516464224757,0.3725185668627925,0.020694415706324465
+ppi_affinity,burial and packing,pottsmpnn_soluble,intact,none,4,256,0.33005999589910207,0.0,0.0
+ppi_affinity,burial and packing,pottsmpnn_soluble,erased,none,4,256,0.37335599264740094,0.06307522950408506,0.8029073730688051
+ppi_affinity,burial and packing,pottsmpnn_soluble,erased,named,4,256,0.3586774961758046,0.06307522950408506,0.8029073730688051
+ppi_affinity,burial and packing,pottsmpnn_soluble,erased,permuted,4,256,0.3746829230480212,0.06307522950408506,0.8029073730688051
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham0,none,4,256,0.30170313648026087,0.031869930429369586,0.003771762331894357
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham0,named,4,256,0.3058221279509412,0.031869930429369586,0.003771762331894357
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham0,permuted,4,256,0.3042425231239956,0.031869930429369586,0.003771762331894357
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham1,none,4,256,0.28967642261037396,0.06335856020340969,0.00990532271407818
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham1,named,4,256,0.34731355477305065,0.06335856020340969,0.00990532271407818
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham1,permuted,4,256,0.28897295206908974,0.06335856020340969,0.00990532271407818
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham2,none,4,256,0.28463834739705574,0.056921158906308,0.008303354849941935
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham2,named,4,256,0.3136955600578844,0.056921158906308,0.008303354849941935
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham2,permuted,4,256,0.2815352491305047,0.056921158906308,0.008303354849941935
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham3,none,4,256,0.3294898764943981,0.03086588518690281,0.005493342245795119
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham3,named,4,256,0.3289675556789099,0.03086588518690281,0.005493342245795119
+ppi_affinity,burial and packing,pottsmpnn_soluble,sham3,permuted,4,256,0.32894504185065604,0.03086588518690281,0.005493342245795119
+ppi_affinity,burial and packing,pottsmpnn_soluble,null0,none,4,256,0.2654693812885914,0.06274628164053686,0.033562918918727536
+ppi_affinity,burial and packing,pottsmpnn_soluble,null0,named,4,256,0.2560277744521236,0.06274628164053686,0.033562918918727536
+ppi_affinity,burial and packing,pottsmpnn_soluble,null0,permuted,4,256,0.2563944034860721,0.06274628164053686,0.033562918918727536
+ppi_affinity,burial and packing,pottsmpnn_soluble,null1,none,4,256,0.24962761262945038,0.06261243722015941,0.0744013641548702
+ppi_affinity,burial and packing,pottsmpnn_soluble,null1,named,4,256,0.28252256709108114,0.06261243722015941,0.0744013641548702
+ppi_affinity,burial and packing,pottsmpnn_soluble,null1,permuted,4,256,0.24914564352152477,0.06261243722015941,0.0744013641548702
+ppi_affinity,burial and packing,pottsmpnn_soluble,null2,none,4,256,0.24461378307732862,0.062466446288179434,0.023876613165599525
+ppi_affinity,burial and packing,pottsmpnn_soluble,null2,named,4,256,0.24463352597287427,0.062466446288179434,0.023876613165599525
+ppi_affinity,burial and packing,pottsmpnn_soluble,null2,permuted,4,256,0.24903878942896635,0.062466446288179434,0.023876613165599525
+ppi_affinity,burial and packing,pottsmpnn_soluble,null3,none,4,256,0.2853584435345889,0.06323106537511824,0.0758828324649039
+ppi_affinity,burial and packing,pottsmpnn_soluble,null3,named,4,256,0.30055423850613994,0.06323106537511824,0.0758828324649039
+ppi_affinity,burial and packing,pottsmpnn_soluble,null3,permuted,4,256,0.2891113255212035,0.06323106537511824,0.0758828324649039
+ppi_affinity,contact order,pottsmpnn_soluble,intact,none,2,256,0.33005999589910207,0.0,0.0
+ppi_affinity,contact order,pottsmpnn_soluble,erased,none,2,256,0.28393366457271174,0.053936489952474465,0.8620555813465716
+ppi_affinity,contact order,pottsmpnn_soluble,erased,named,2,256,0.26308049092756863,0.053936489952474465,0.8620555813465716
+ppi_affinity,contact order,pottsmpnn_soluble,erased,permuted,2,256,0.2816453937056541,0.053936489952474465,0.8620555813465716
+ppi_affinity,contact order,pottsmpnn_soluble,sham0,none,2,256,0.3368747585282338,0.010521838563522956,0.0030286837900511676
+ppi_affinity,contact order,pottsmpnn_soluble,sham0,named,2,256,0.30240574110507384,0.010521838563522956,0.0030286837900511676
+ppi_affinity,contact order,pottsmpnn_soluble,sham0,permuted,2,256,0.3356636877514735,0.010521838563522956,0.0030286837900511676
+ppi_affinity,contact order,pottsmpnn_soluble,sham1,none,2,256,0.307284660870967,0.009728513945550521,0.0028743292031183643
+ppi_affinity,contact order,pottsmpnn_soluble,sham1,named,2,256,0.31481068728962464,0.009728513945550521,0.0028743292031183643
+ppi_affinity,contact order,pottsmpnn_soluble,sham1,permuted,2,256,0.3070184781476894,0.009728513945550521,0.0028743292031183643
+ppi_affinity,contact order,pottsmpnn_soluble,sham2,none,2,256,0.3490031309918514,0.028922617697156983,0.007244500312524327
+ppi_affinity,contact order,pottsmpnn_soluble,sham2,named,2,256,0.34433549484495535,0.028922617697156983,0.007244500312524327
+ppi_affinity,contact order,pottsmpnn_soluble,sham2,permuted,2,256,0.3507129696560806,0.028922617697156983,0.007244500312524327
+ppi_affinity,contact order,pottsmpnn_soluble,sham3,none,2,256,0.302018849625697,0.007468789601655201,0.005431098992896177
+ppi_affinity,contact order,pottsmpnn_soluble,sham3,named,2,256,0.2996975007494357,0.007468789601655201,0.005431098992896177
+ppi_affinity,contact order,pottsmpnn_soluble,sham3,permuted,2,256,0.3035593150281398,0.007468789601655201,0.005431098992896177
+ppi_affinity,contact order,pottsmpnn_soluble,null0,none,2,256,0.29280497882118117,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null0,named,2,256,0.2864837885806905,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null0,permuted,2,256,0.333628610860624,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null1,none,2,256,0.29280497882118117,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null1,named,2,256,0.2864837885806905,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null1,permuted,2,256,0.333628610860624,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null2,none,2,256,0.29280497882118117,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null2,named,2,256,0.2864837885806905,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null2,permuted,2,256,0.333628610860624,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null3,none,2,256,0.29280497882118117,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null3,named,2,256,0.2864837885806905,0.05440856866958543,0.03335851703990922
+ppi_affinity,contact order,pottsmpnn_soluble,null3,permuted,2,256,0.333628610860624,0.05440856866958543,0.03335851703990922
+ppi_affinity,global shape,pottsmpnn_soluble,intact,none,6,256,0.33005999589910207,0.0,0.0
+ppi_affinity,global shape,pottsmpnn_soluble,erased,none,6,256,0.3398249359459532,0.1782490163760383,0.8062996421903664
+ppi_affinity,global shape,pottsmpnn_soluble,erased,named,6,256,0.3384304640605716,0.1782490163760383,0.8062996421903664
+ppi_affinity,global shape,pottsmpnn_soluble,erased,permuted,6,256,0.34167245532911905,0.1782490163760383,0.8062996421903664
+ppi_affinity,global shape,pottsmpnn_soluble,sham0,none,6,256,0.3100443366650005,0.029303060352094734,0.028042230362793852
+ppi_affinity,global shape,pottsmpnn_soluble,sham0,named,6,256,0.3492947716593853,0.029303060352094734,0.028042230362793852
+ppi_affinity,global shape,pottsmpnn_soluble,sham0,permuted,6,256,0.31292627986478144,0.029303060352094734,0.028042230362793852
+ppi_affinity,global shape,pottsmpnn_soluble,sham1,none,6,256,0.36434665131340627,0.05035393700913027,0.010303556262344027
+ppi_affinity,global shape,pottsmpnn_soluble,sham1,named,6,256,0.3232585683836284,0.05035393700913027,0.010303556262344027
+ppi_affinity,global shape,pottsmpnn_soluble,sham1,permuted,6,256,0.3645021699116518,0.05035393700913027,0.010303556262344027
+ppi_affinity,global shape,pottsmpnn_soluble,sham2,none,6,256,0.2567324572764677,0.059067411962311245,0.022349324504439494
+ppi_affinity,global shape,pottsmpnn_soluble,sham2,named,6,256,0.23303855805557747,0.059067411962311245,0.022349324504439494
+ppi_affinity,global shape,pottsmpnn_soluble,sham2,permuted,6,256,0.25723486201311596,0.059067411962311245,0.022349324504439494
+ppi_affinity,global shape,pottsmpnn_soluble,sham3,none,6,256,0.27979042744083504,0.043241355936953885,0.030358135677606035
+ppi_affinity,global shape,pottsmpnn_soluble,sham3,named,6,256,0.27359635373833124,0.043241355936953885,0.030358135677606035
+ppi_affinity,global shape,pottsmpnn_soluble,sham3,permuted,6,256,0.2797143999746549,0.043241355936953885,0.030358135677606035
+ppi_affinity,global shape,pottsmpnn_soluble,null0,none,6,256,0.29398245203885504,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null0,named,6,256,0.2802308325581383,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null0,permuted,6,256,0.3117361642666266,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null1,none,6,256,0.29398245203885504,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null1,named,6,256,0.2802308325581383,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null1,permuted,6,256,0.3117361642666266,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null2,none,6,256,0.29398245203885504,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null2,named,6,256,0.2802308325581383,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null2,permuted,6,256,0.3117361642666266,0.17687715097206957,0.01168089886880086
+ppi_affinity,global shape,pottsmpnn_soluble,null3,none,6,256,0.29054233908167404,0.17932868260631063,0.019843125043684684
+ppi_affinity,global shape,pottsmpnn_soluble,null3,named,6,256,0.280774801285409,0.17932868260631063,0.019843125043684684
+ppi_affinity,global shape,pottsmpnn_soluble,null3,permuted,6,256,0.2899071027583283,0.17932868260631063,0.019843125043684684
+ppi_affinity,secondary structure content,pottsmpnn_soluble,intact,none,6,256,0.33005999589910207,0.0,0.0
+ppi_affinity,secondary structure content,pottsmpnn_soluble,erased,none,6,256,0.2227786601537312,0.07850012154821207,0.8299282907796119
+ppi_affinity,secondary structure content,pottsmpnn_soluble,erased,named,6,256,0.336268790181618,0.07850012154821207,0.8299282907796119
+ppi_affinity,secondary structure content,pottsmpnn_soluble,erased,permuted,6,256,0.2251199251088324,0.07850012154821207,0.8299282907796119
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham0,none,6,256,0.21724770528494902,0.03797068273838211,0.03734703205951617
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham0,named,6,256,0.25418856786708227,0.03797068273838211,0.03734703205951617
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham0,permuted,6,256,0.22347433744677372,0.03797068273838211,0.03734703205951617
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham1,none,6,256,0.2753325162632879,0.042863092555959104,0.014087908810822669
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham1,named,6,256,0.2151937514150252,0.042863092555959104,0.014087908810822669
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham1,permuted,6,256,0.279607199515508,0.042863092555959104,0.014087908810822669
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham2,none,6,256,0.3044920802510242,0.06265644545859794,0.014510307503221465
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham2,named,6,256,0.3306046573595498,0.06265644545859794,0.014510307503221465
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham2,permuted,6,256,0.30539384566423616,0.06265644545859794,0.014510307503221465
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham3,none,6,256,0.3155922634966201,0.03409733697284345,0.014740701963265379
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham3,named,6,256,0.31074295807404534,0.03409733697284345,0.014740701963265379
+ppi_affinity,secondary structure content,pottsmpnn_soluble,sham3,permuted,6,256,0.3197233777978986,0.03409733697284345,0.014740701963265379
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null0,none,6,256,0.2626385271606171,0.07783011264115691,0.01948248684568432
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null0,named,6,256,0.2814226799892357,0.07783011264115691,0.01948248684568432
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null0,permuted,6,256,0.24855075890574163,0.07783011264115691,0.01948248684568432
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null1,none,6,256,0.21721272225950852,0.07816980003517815,0.0186673604774108
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null1,named,6,256,0.29891436589279186,0.07816980003517815,0.0186673604774108
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null1,permuted,6,256,0.22061594717501212,0.07816980003517815,0.0186673604774108
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null2,none,6,256,0.24985465592822534,0.07859879643600687,0.01743137958496177
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null2,named,6,256,0.267287459511733,0.07859879643600687,0.01743137958496177
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null2,permuted,6,256,0.24214418930118073,0.07859879643600687,0.01743137958496177
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null3,none,6,256,0.28086416386524715,0.0784003822149466,0.025776073325218363
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null3,named,6,256,0.3000289735746493,0.0784003822149466,0.025776073325218363
+ppi_affinity,secondary structure content,pottsmpnn_soluble,null3,permuted,6,256,0.28606139452599033,0.0784003822149466,0.025776073325218363
+ppi_affinity,size,pottsmpnn_soluble,intact,none,2,256,0.33005999589910207,0.0,0.0
+ppi_affinity,size,pottsmpnn_soluble,erased,none,2,256,0.28600770770476974,0.05392869413406898,0.7910451851840437
+ppi_affinity,size,pottsmpnn_soluble,erased,named,2,256,0.2833287353258615,0.05392869413406898,0.7910451851840437
+ppi_affinity,size,pottsmpnn_soluble,erased,permuted,2,256,0.28455643169887074,0.05392869413406898,0.7910451851840437
+ppi_affinity,size,pottsmpnn_soluble,sham0,none,2,256,0.21322535009246582,0.016897244979337533,0.0013507313312376423
+ppi_affinity,size,pottsmpnn_soluble,sham0,named,2,256,0.2393214747880367,0.016897244979337533,0.0013507313312376423
+ppi_affinity,size,pottsmpnn_soluble,sham0,permuted,2,256,0.21037440670235738,0.016897244979337533,0.0013507313312376423
+ppi_affinity,size,pottsmpnn_soluble,sham1,none,2,256,0.30624071197316766,0.00410255465861864,0.014046264217085325
+ppi_affinity,size,pottsmpnn_soluble,sham1,named,2,256,0.32692018277416796,0.00410255465861864,0.014046264217085325
+ppi_affinity,size,pottsmpnn_soluble,sham1,permuted,2,256,0.30596396506894014,0.00410255465861864,0.014046264217085325
+ppi_affinity,size,pottsmpnn_soluble,sham2,none,2,256,0.30743394487061915,0.01912467431031395,0.005273670493349258
+ppi_affinity,size,pottsmpnn_soluble,sham2,named,2,256,0.30125892133048393,0.01912467431031395,0.005273670493349258
+ppi_affinity,size,pottsmpnn_soluble,sham2,permuted,2,256,0.30904021992488084,0.01912467431031395,0.005273670493349258
+ppi_affinity,size,pottsmpnn_soluble,sham3,none,2,256,0.3052662095763665,0.014760584118766018,0.0035293617409977163
+ppi_affinity,size,pottsmpnn_soluble,sham3,named,2,256,0.30745680506546147,0.014760584118766018,0.0035293617409977163
+ppi_affinity,size,pottsmpnn_soluble,sham3,permuted,2,256,0.30795834388563853,0.014760584118766018,0.0035293617409977163
+ppi_affinity,size,pottsmpnn_soluble,null0,none,2,256,0.3010933581011714,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null0,named,2,256,0.2914983108659893,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null0,permuted,2,256,0.29990774526866726,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null1,none,2,256,0.29280497882118117,0.05440856866958543,0.011811243760901258
+ppi_affinity,size,pottsmpnn_soluble,null1,named,2,256,0.3043838406921117,0.05440856866958543,0.011811243760901258
+ppi_affinity,size,pottsmpnn_soluble,null1,permuted,2,256,0.29570822356615606,0.05440856866958543,0.011811243760901258
+ppi_affinity,size,pottsmpnn_soluble,null2,none,2,256,0.3010933581011714,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null2,named,2,256,0.2914983108659893,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null2,permuted,2,256,0.29990774526866726,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null3,none,2,256,0.3010933581011714,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null3,named,2,256,0.2914983108659893,0.05343679468410867,0.009101176472344097
+ppi_affinity,size,pottsmpnn_soluble,null3,permuted,2,256,0.29990774526866726,0.05343679468410867,0.009101176472344097
+solubility,amino-acid composition,pottsmpnn_soluble,intact,none,19,128,0.6038396392619826,0.0,0.0
+solubility,amino-acid composition,pottsmpnn_soluble,erased,none,19,128,0.5788236360443445,0.0902119605453452,0.22691767144346442
+solubility,amino-acid composition,pottsmpnn_soluble,erased,named,19,128,0.6386360160202122,0.0902119605453452,0.22691767144346442
+solubility,amino-acid composition,pottsmpnn_soluble,erased,permuted,19,128,0.5660975374871833,0.0902119605453452,0.22691767144346442
+solubility,amino-acid composition,pottsmpnn_soluble,sham0,none,19,128,0.6053691503282783,0.15820616718826253,0.03486325149026315
+solubility,amino-acid composition,pottsmpnn_soluble,sham0,named,19,128,0.6470115053221321,0.15820616718826253,0.03486325149026315
+solubility,amino-acid composition,pottsmpnn_soluble,sham0,permuted,19,128,0.5931358942258125,0.15820616718826253,0.03486325149026315
+solubility,amino-acid composition,pottsmpnn_soluble,sham1,none,19,128,0.596871866626635,0.13849411685538726,0.03201650167324466
+solubility,amino-acid composition,pottsmpnn_soluble,sham1,named,19,128,0.6350275028749144,0.13849411685538726,0.03201650167324466
+solubility,amino-acid composition,pottsmpnn_soluble,sham1,permuted,19,128,0.5849331830258261,0.13849411685538726,0.03201650167324466
+solubility,amino-acid composition,pottsmpnn_soluble,sham2,none,19,128,0.5955207985180737,0.14178508755037555,0.03414984310156399
+solubility,amino-acid composition,pottsmpnn_soluble,sham2,named,19,128,0.6333167164229834,0.14178508755037555,0.03414984310156399
+solubility,amino-acid composition,pottsmpnn_soluble,sham2,permuted,19,128,0.5850096585791409,0.14178508755037555,0.03414984310156399
+solubility,amino-acid composition,pottsmpnn_soluble,sham3,none,19,128,0.5989197119987311,0.1342199265497347,0.03751153133455276
+solubility,amino-acid composition,pottsmpnn_soluble,sham3,named,19,128,0.6280484005279646,0.1342199265497347,0.03751153133455276
+solubility,amino-acid composition,pottsmpnn_soluble,sham3,permuted,19,128,0.5834688178012428,0.1342199265497347,0.03751153133455276
+solubility,amino-acid composition,pottsmpnn_soluble,null0,none,19,128,0.5912806539509536,0.08998671575536021,0.02464531615122545
+solubility,amino-acid composition,pottsmpnn_soluble,null0,named,19,128,0.630651401768568,0.08998671575536021,0.02464531615122545
+solubility,amino-acid composition,pottsmpnn_soluble,null0,permuted,19,128,0.579271159652631,0.08998671575536021,0.02464531615122545
+solubility,amino-acid composition,pottsmpnn_soluble,null1,none,19,128,0.60160202122055,0.08935088104975797,0.02568702555006197
+solubility,amino-acid composition,pottsmpnn_soluble,null1,named,19,128,0.6299319650818288,0.08935088104975797,0.02568702555006197
+solubility,amino-acid composition,pottsmpnn_soluble,null1,permuted,19,128,0.5898446130053759,0.08935088104975797,0.02568702555006197
+solubility,amino-acid composition,pottsmpnn_soluble,null2,none,19,128,0.6089493391945708,0.08933916754075055,0.021936613050516973
+solubility,amino-acid composition,pottsmpnn_soluble,null2,named,19,128,0.6362482793000503,0.08933916754075055,0.021936613050516973
+solubility,amino-acid composition,pottsmpnn_soluble,null2,permuted,19,128,0.5959654896984597,0.08933916754075055,0.021936613050516973
+solubility,amino-acid composition,pottsmpnn_soluble,null3,none,19,128,0.597849054252324,0.08934897687944587,0.0221058979178399
+solubility,amino-acid composition,pottsmpnn_soluble,null3,named,19,128,0.6297676842635971,0.08934897687944587,0.0221058979178399
+solubility,amino-acid composition,pottsmpnn_soluble,null3,permuted,19,128,0.5859471922142222,0.08934897687944587,0.0221058979178399
+solubility,burial and packing,pottsmpnn_soluble,intact,none,2,128,0.6038396392619826,0.0,0.0
+solubility,burial and packing,pottsmpnn_soluble,erased,none,2,128,0.6010468653520424,0.1627528483313716,0.5503806057037668
+solubility,burial and packing,pottsmpnn_soluble,erased,named,2,128,0.6104845151166677,0.1627528483313716,0.5503806057037668
+solubility,burial and packing,pottsmpnn_soluble,erased,permuted,2,128,0.5984636911067429,0.1627528483313716,0.5503806057037668
+solubility,burial and packing,pottsmpnn_soluble,sham0,none,2,128,0.6028822786315975,0.012041205042160441,0.0073268339959192685
+solubility,burial and packing,pottsmpnn_soluble,sham0,named,2,128,0.6030748837288347,0.012041205042160441,0.0073268339959192685
+solubility,burial and packing,pottsmpnn_soluble,sham0,permuted,2,128,0.5993785653186199,0.012041205042160441,0.0073268339959192685
+solubility,burial and packing,pottsmpnn_soluble,sham1,none,2,128,0.6063831595166745,0.01627744170083445,0.0007457870327028937
+solubility,burial and packing,pottsmpnn_soluble,sham1,named,2,128,0.6068165209854582,0.01627744170083445,0.0007457870327028937
+solubility,burial and packing,pottsmpnn_soluble,sham1,permuted,2,128,0.6032674888260718,0.01627744170083445,0.0007457870327028937
+solubility,burial and packing,pottsmpnn_soluble,sham2,none,2,128,0.6220096642439966,0.015020294674972678,0.02555400155849874
+solubility,burial and packing,pottsmpnn_soluble,sham2,named,2,128,0.6209729956323962,0.015020294674972678,0.02555400155849874
+solubility,burial and packing,pottsmpnn_soluble,sham2,permuted,2,128,0.6194009981475921,0.015020294674972678,0.02555400155849874
+solubility,burial and packing,pottsmpnn_soluble,sham3,none,2,128,0.604270168302866,0.008368235127295676,0.0029654211183005597
+solubility,burial and packing,pottsmpnn_soluble,sham3,named,2,128,0.605785517229659,0.008368235127295676,0.0029654211183005597
+solubility,burial and packing,pottsmpnn_soluble,sham3,permuted,2,128,0.6014575673976218,0.008368235127295676,0.0029654211183005597
+solubility,burial and packing,pottsmpnn_soluble,null0,none,2,128,0.6018682694432014,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null0,named,2,128,0.6017068210528701,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null0,permuted,2,128,0.5987837554595048,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null1,none,2,128,0.6018682694432014,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null1,named,2,128,0.6017068210528701,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null1,permuted,2,128,0.5987837554595048,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null2,none,2,128,0.6018682694432014,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null2,named,2,128,0.6017068210528701,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null2,permuted,2,128,0.5987837554595048,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null3,none,2,128,0.6018682694432014,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null3,named,2,128,0.6017068210528701,0.1366771853606663,0.05016718095641359
+solubility,burial and packing,pottsmpnn_soluble,null3,permuted,2,128,0.5987837554595048,0.1366771853606663,0.05016718095641359
+solubility,contact order,pottsmpnn_soluble,intact,none,1,128,0.6038396392619826,0.0,0.0
+solubility,contact order,pottsmpnn_soluble,erased,none,1,128,0.6114277136075501,0.002212338692099025,0.2698976346218461
+solubility,contact order,pottsmpnn_soluble,erased,named,1,128,0.6114843621655611,0.002212338692099025,0.2698976346218461
+solubility,contact order,pottsmpnn_soluble,erased,permuted,1,128,0.610770590334623,0.002212338692099025,0.2698976346218461
+solubility,contact order,pottsmpnn_soluble,sham0,none,1,128,0.6048423187387766,0.014585184711136345,0.0006714505463067955
+solubility,contact order,pottsmpnn_soluble,sham0,named,1,128,0.6058053442249628,0.014585184711136345,0.0006714505463067955
+solubility,contact order,pottsmpnn_soluble,sham0,permuted,1,128,0.6045590759487217,0.014585184711136345,0.0006714505463067955
+solubility,contact order,pottsmpnn_soluble,sham1,none,1,128,0.603298645532978,0.020099224097244406,0.0017137641305999818
+solubility,contact order,pottsmpnn_soluble,sham1,named,1,128,0.6040407416429214,0.020099224097244406,0.0017137641305999818
+solubility,contact order,pottsmpnn_soluble,sham1,permuted,1,128,0.6028539543525919,0.020099224097244406,0.0017137641305999818
+solubility,contact order,pottsmpnn_soluble,sham2,none,1,128,0.6019787341313227,0.0065440438414470226,0.00030769686878762137
+solubility,contact order,pottsmpnn_soluble,sham2,named,1,128,0.6024489171628137,0.0065440438414470226,0.00030769686878762137
+solubility,contact order,pottsmpnn_soluble,sham2,permuted,1,128,0.6012592974445836,0.0065440438414470226,0.00030769686878762137
+solubility,contact order,pottsmpnn_soluble,sham3,none,1,128,0.6043438114282802,0.005767030082957536,1.2652373959642915e-07
+solubility,contact order,pottsmpnn_soluble,sham3,named,1,128,0.6043976275583905,0.005767030082957536,1.2652373959642915e-07
+solubility,contact order,pottsmpnn_soluble,sham3,permuted,1,128,0.6129742192412493,0.005767030082957536,1.2652373959642915e-07
+solubility,contact order,pottsmpnn_soluble,null0,none,1,128,0.6043324817166779,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null0,named,1,128,0.6039982552244132,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null0,permuted,1,128,0.6036215423136404,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null1,none,1,128,0.6043324817166779,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null1,named,1,128,0.6039982552244132,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null1,permuted,1,128,0.6036215423136404,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null2,none,1,128,0.6043324817166779,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null2,named,1,128,0.6039982552244132,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null2,permuted,1,128,0.6036215423136404,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null3,none,1,128,0.6043324817166779,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null3,named,1,128,0.6039982552244132,0.0023145670991880918,9.994002126312296e-06
+solubility,contact order,pottsmpnn_soluble,null3,permuted,1,128,0.6036215423136404,0.0023145670991880918,9.994002126312296e-06
+solubility,global shape,pottsmpnn_soluble,intact,none,3,128,0.6038396392619826,0.0,0.0
+solubility,global shape,pottsmpnn_soluble,erased,none,3,128,0.5875248545548273,0.03209121922622782,0.44488027006685127
+solubility,global shape,pottsmpnn_soluble,erased,named,3,128,0.603986925512811,0.03209121922622782,0.44488027006685127
+solubility,global shape,pottsmpnn_soluble,erased,permuted,3,128,0.5884680530457098,0.03209121922622782,0.44488027006685127
+solubility,global shape,pottsmpnn_soluble,sham0,none,3,128,0.6009533952313244,0.06383886820317153,0.001313735418251305
+solubility,global shape,pottsmpnn_soluble,sham0,named,3,128,0.6074368226956783,0.06383886820317153,0.001313735418251305
+solubility,global shape,pottsmpnn_soluble,sham0,permuted,3,128,0.6013357729978983,0.06383886820317153,0.001313735418251305
+solubility,global shape,pottsmpnn_soluble,sham1,none,3,128,0.6062302084100449,0.01951381913139183,0.016330364680886222
+solubility,global shape,pottsmpnn_soluble,sham1,named,3,128,0.6109858548550646,0.01951381913139183,0.016330364680886222
+solubility,global shape,pottsmpnn_soluble,sham1,permuted,3,128,0.6065021214884976,0.01951381913139183,0.016330364680886222
+solubility,global shape,pottsmpnn_soluble,sham2,none,3,128,0.6180584273227325,0.021518987034831794,0.007527664222467645
+solubility,global shape,pottsmpnn_soluble,sham2,named,3,128,0.6197040679329507,0.021518987034831794,0.007527664222467645
+solubility,global shape,pottsmpnn_soluble,sham2,permuted,3,128,0.6182028811456605,0.021518987034831794,0.007527664222467645
+solubility,global shape,pottsmpnn_soluble,sham3,none,3,128,0.6051227291009307,0.013375031001545246,0.00915674949382339
+solubility,global shape,pottsmpnn_soluble,sham3,named,3,128,0.611184124808103,0.013375031001545246,0.00915674949382339
+solubility,global shape,pottsmpnn_soluble,sham3,permuted,3,128,0.6056014094161233,0.013375031001545246,0.00915674949382339
+solubility,global shape,pottsmpnn_soluble,null0,none,3,128,0.604782837752865,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null0,named,3,128,0.6095583111931886,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null0,permuted,3,128,0.6055249338628085,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null1,none,3,128,0.604782837752865,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null1,named,3,128,0.6095583111931886,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null1,permuted,3,128,0.6055249338628085,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null2,none,3,128,0.604782837752865,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null2,named,3,128,0.6095583111931886,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null2,permuted,3,128,0.6055249338628085,0.03204228724444835,0.021064919351699962
+solubility,global shape,pottsmpnn_soluble,null3,none,3,128,0.5986874529108861,0.03237464981189575,0.02115093546075486
+solubility,global shape,pottsmpnn_soluble,null3,named,3,128,0.6040662334940264,0.03237464981189575,0.02115093546075486
+solubility,global shape,pottsmpnn_soluble,null3,permuted,3,128,0.5991321440912721,0.03237464981189575,0.02115093546075486
+solubility,secondary structure content,pottsmpnn_soluble,intact,none,2,128,0.6038396392619826,0.0,0.0
+solubility,secondary structure content,pottsmpnn_soluble,erased,none,2,128,0.6084423346003728,0.08955045191530053,0.5895343291686707
+solubility,secondary structure content,pottsmpnn_soluble,erased,named,2,128,0.6047261891948541,0.08955045191530053,0.5895343291686707
+solubility,secondary structure content,pottsmpnn_soluble,erased,permuted,2,128,0.6082553943589366,0.08955045191530053,0.5895343291686707
+solubility,secondary structure content,pottsmpnn_soluble,sham0,none,2,128,0.6010043789335343,0.07486270982996335,0.01461867534590744
+solubility,secondary structure content,pottsmpnn_soluble,sham0,named,2,128,0.5993983923139237,0.07486270982996335,0.01461867534590744
+solubility,secondary structure content,pottsmpnn_soluble,sham0,permuted,2,128,0.5987016150503888,0.07486270982996335,0.01461867534590744
+solubility,secondary structure content,pottsmpnn_soluble,sham1,none,2,128,0.6047969998923677,0.027285987575027648,0.04646220937871892
+solubility,secondary structure content,pottsmpnn_soluble,sham1,named,2,128,0.6044004599862911,0.027285987575027648,0.04646220937871892
+solubility,secondary structure content,pottsmpnn_soluble,sham1,permuted,2,128,0.6037376718575629,0.027285987575027648,0.04646220937871892
+solubility,secondary structure content,pottsmpnn_soluble,sham2,none,2,128,0.602528225144029,0.0374397612863121,0.0032109456652453794
+solubility,secondary structure content,pottsmpnn_soluble,sham2,named,2,128,0.6024347550233109,0.0374397612863121,0.0032109456652453794
+solubility,secondary structure content,pottsmpnn_soluble,sham2,permuted,2,128,0.6018116208851904,0.0374397612863121,0.0032109456652453794
+solubility,secondary structure content,pottsmpnn_soluble,sham3,none,2,128,0.6121499827221898,0.006426576903328041,0.002927821826560706
+solubility,secondary structure content,pottsmpnn_soluble,sham3,named,2,128,0.6110255088456724,0.006426576903328041,0.002927821826560706
+solubility,secondary structure content,pottsmpnn_soluble,sham3,permuted,2,128,0.6117307833929087,0.006426576903328041,0.002927821826560706
+solubility,secondary structure content,pottsmpnn_soluble,null0,none,2,128,0.6019985611266265,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null0,named,2,128,0.6015963563647488,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null0,permuted,2,128,0.6012734595840864,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null1,none,2,128,0.6019985611266265,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null1,named,2,128,0.6015963563647488,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null1,permuted,2,128,0.6012734595840864,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null2,none,2,128,0.6019985611266265,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null2,named,2,128,0.6015963563647488,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null2,permuted,2,128,0.6012734595840864,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null3,none,2,128,0.6019985611266265,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null3,named,2,128,0.6015963563647488,0.09471769057380264,0.10301259361026971
+solubility,secondary structure content,pottsmpnn_soluble,null3,permuted,2,128,0.6012734595840864,0.09471769057380264,0.10301259361026971
+solubility,size,pottsmpnn_soluble,intact,none,1,128,0.6038396392619826,0.0,0.0
+solubility,size,pottsmpnn_soluble,erased,none,1,128,0.60723855274264,0.0177698012434907,0.42965311945146833
+solubility,size,pottsmpnn_soluble,erased,named,1,128,0.6058676576387748,0.0177698012434907,0.42965311945146833
+solubility,size,pottsmpnn_soluble,erased,permuted,1,128,0.6062726948285531,0.0177698012434907,0.42965311945146833
+solubility,size,pottsmpnn_soluble,sham0,none,1,128,0.6057317010995485,0.012135243269226437,0.0010785499896066586
+solubility,size,pottsmpnn_soluble,sham0,named,1,128,0.6069892990873917,0.012135243269226437,0.0010785499896066586
+solubility,size,pottsmpnn_soluble,sham0,permuted,1,128,0.6045874002277272,0.012135243269226437,0.0010785499896066586
+solubility,size,pottsmpnn_soluble,sham1,none,1,128,0.6034855857744141,0.007371843987385884,0.025906169861334094
+solubility,size,pottsmpnn_soluble,sham1,named,1,128,0.6075076333931919,0.007371843987385884,0.025906169861334094
+solubility,size,pottsmpnn_soluble,sham1,permuted,1,128,0.6025877061299405,0.007371843987385884,0.025906169861334094
+solubility,size,pottsmpnn_soluble,sham2,none,1,128,0.610113467061696,0.00162996716228192,0.0008671736200330793
+solubility,size,pottsmpnn_soluble,sham2,named,1,128,0.615361955961411,0.00162996716228192,0.0008671736200330793
+solubility,size,pottsmpnn_soluble,sham2,permuted,1,128,0.6088332096506484,0.00162996716228192,0.0008671736200330793
+solubility,size,pottsmpnn_soluble,sham3,none,1,128,0.6225110039823936,0.0014754706366718606,0.0014891243962282807
+solubility,size,pottsmpnn_soluble,sham3,named,1,128,0.6144527466053352,0.0014754706366718606,0.0014891243962282807
+solubility,size,pottsmpnn_soluble,sham3,permuted,1,128,0.6218312212862622,0.0014754706366718606,0.0014891243962282807
+solubility,size,pottsmpnn_soluble,null0,none,1,128,0.6053974746072839,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null0,named,1,128,0.6074736442583855,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null0,permuted,1,128,0.6044089572699927,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null1,none,1,128,0.6053974746072839,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null1,named,1,128,0.6074736442583855,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null1,permuted,1,128,0.6044089572699927,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null2,none,1,128,0.6053974746072839,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null2,named,1,128,0.6074736442583855,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null2,permuted,1,128,0.6044089572699927,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null3,none,1,128,0.6053974746072839,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null3,named,1,128,0.6074736442583855,0.016978454080559202,0.03156678890358
+solubility,size,pottsmpnn_soluble,null3,permuted,1,128,0.6044089572699927,0.016978454080559202,0.03156678890358
+stability,amino-acid composition,pottsmpnn_soluble,intact,none,18,128,0.19464312658426852,0.0,0.0
+stability,amino-acid composition,pottsmpnn_soluble,erased,none,18,128,0.06626391526407369,0.09911862263753224,0.18467379454688693
+stability,amino-acid composition,pottsmpnn_soluble,erased,named,18,128,0.3109372695851316,0.09911862263753224,0.18467379454688693
+stability,amino-acid composition,pottsmpnn_soluble,erased,permuted,18,128,0.0632587430357082,0.09911862263753224,0.18467379454688693
+stability,amino-acid composition,pottsmpnn_soluble,sham0,none,18,128,0.09788248228569801,0.1589382527022295,0.024274697434643278
+stability,amino-acid composition,pottsmpnn_soluble,sham0,named,18,128,0.2470812501488143,0.1589382527022295,0.024274697434643278
+stability,amino-acid composition,pottsmpnn_soluble,sham0,permuted,18,128,0.09169615422282162,0.1589382527022295,0.024274697434643278
+stability,amino-acid composition,pottsmpnn_soluble,sham1,none,18,128,0.2488985087014974,0.14206589639101885,0.01812976525741572
+stability,amino-acid composition,pottsmpnn_soluble,sham1,named,18,128,0.38470085305850255,0.14206589639101885,0.01812976525741572
+stability,amino-acid composition,pottsmpnn_soluble,sham1,permuted,18,128,0.24048769201495238,0.14206589639101885,0.01812976525741572
+stability,amino-acid composition,pottsmpnn_soluble,sham2,none,18,128,0.36542767141280647,0.11428521635517885,0.02132718167261305
+stability,amino-acid composition,pottsmpnn_soluble,sham2,named,18,128,0.46595795741094226,0.11428521635517885,0.02132718167261305
+stability,amino-acid composition,pottsmpnn_soluble,sham2,permuted,18,128,0.35910992644344447,0.11428521635517885,0.02132718167261305
+stability,amino-acid composition,pottsmpnn_soluble,sham3,none,18,128,-0.05466910641969677,0.09241100569582195,0.024415688069725605
+stability,amino-acid composition,pottsmpnn_soluble,sham3,named,18,128,0.17738063860833672,0.09241100569582195,0.024415688069725605
+stability,amino-acid composition,pottsmpnn_soluble,sham3,permuted,18,128,-0.05696486047246052,0.09241100569582195,0.024415688069725605
+stability,amino-acid composition,pottsmpnn_soluble,null0,none,18,128,0.0020631788738958807,0.09936585208022253,0.014419441191031335
+stability,amino-acid composition,pottsmpnn_soluble,null0,named,18,128,0.11610163791693232,0.09936585208022253,0.014419441191031335
+stability,amino-acid composition,pottsmpnn_soluble,null0,permuted,18,128,-0.00977006024693863,0.09936585208022253,0.014419441191031335
+stability,amino-acid composition,pottsmpnn_soluble,null1,none,18,128,-0.06223443785840259,0.10000893848423276,0.012957756240639662
+stability,amino-acid composition,pottsmpnn_soluble,null1,named,18,128,0.1233137136529755,0.10000893848423276,0.012957756240639662
+stability,amino-acid composition,pottsmpnn_soluble,null1,permuted,18,128,-0.05905830931419704,0.10000893848423276,0.012957756240639662
+stability,amino-acid composition,pottsmpnn_soluble,null2,none,18,128,-0.05300747408086746,0.0993486256245597,0.014410301277587911
+stability,amino-acid composition,pottsmpnn_soluble,null2,named,18,128,0.06911331416223039,0.0993486256245597,0.014410301277587911
+stability,amino-acid composition,pottsmpnn_soluble,null2,permuted,18,128,-0.048890933571893176,0.0993486256245597,0.014410301277587911
+stability,amino-acid composition,pottsmpnn_soluble,null3,none,18,128,0.1397152691637962,0.09827655045277395,0.014100585242135422
+stability,amino-acid composition,pottsmpnn_soluble,null3,named,18,128,0.30748895667243864,0.09827655045277395,0.014100585242135422
+stability,amino-acid composition,pottsmpnn_soluble,null3,permuted,18,128,0.14921193055451343,0.09827655045277395,0.014100585242135422
+stability,burial and packing,pottsmpnn_soluble,intact,none,2,128,0.19464312658426852,0.0,0.0
+stability,burial and packing,pottsmpnn_soluble,erased,none,2,128,0.2895911862745332,0.07763773747942748,0.6354292932519656
+stability,burial and packing,pottsmpnn_soluble,erased,named,2,128,0.1593913673933933,0.07763773747942748,0.6354292932519656
+stability,burial and packing,pottsmpnn_soluble,erased,permuted,2,128,0.2896257588401813,0.07763773747942748,0.6354292932519656
+stability,burial and packing,pottsmpnn_soluble,sham0,none,2,128,0.2668249861226446,0.014424456636345728,0.0015706429910539166
+stability,burial and packing,pottsmpnn_soluble,sham0,named,2,128,0.2267785693628997,0.014424456636345728,0.0015706429910539166
+stability,burial and packing,pottsmpnn_soluble,sham0,permuted,2,128,0.26680318779010276,0.014424456636345728,0.0015706429910539166
+stability,burial and packing,pottsmpnn_soluble,sham1,none,2,128,0.21213858553095372,0.014448686683436573,0.00876151675712411
+stability,burial and packing,pottsmpnn_soluble,sham1,named,2,128,0.1983697518616548,0.014448686683436573,0.00876151675712411
+stability,burial and packing,pottsmpnn_soluble,sham1,permuted,2,128,0.21233983314872817,0.014448686683436573,0.00876151675712411
+stability,burial and packing,pottsmpnn_soluble,sham2,none,2,128,0.1702646847429346,0.008757104911079838,0.024575975394258598
+stability,burial and packing,pottsmpnn_soluble,sham2,named,2,128,0.16246582431358514,0.008757104911079838,0.024575975394258598
+stability,burial and packing,pottsmpnn_soluble,sham2,permuted,2,128,0.17028155401089448,0.008757104911079838,0.024575975394258598
+stability,burial and packing,pottsmpnn_soluble,sham3,none,2,128,0.17372992337004386,0.014277898675259859,0.01042961633799988
+stability,burial and packing,pottsmpnn_soluble,sham3,named,2,128,0.18842518383895343,0.014277898675259859,0.01042961633799988
+stability,burial and packing,pottsmpnn_soluble,sham3,permuted,2,128,0.21150212662260046,0.014277898675259859,0.01042961633799988
+stability,burial and packing,pottsmpnn_soluble,null0,none,2,128,0.12808060356541992,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null0,named,2,128,0.18880133102423355,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null0,permuted,2,128,0.12475724288433934,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null1,none,2,128,0.12808060356541992,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null1,named,2,128,0.18880133102423355,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null1,permuted,2,128,0.12475724288433934,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null2,none,2,128,0.12808060356541992,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null2,named,2,128,0.18880133102423355,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null2,permuted,2,128,0.12475724288433934,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null3,none,2,128,0.12808060356541992,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null3,named,2,128,0.18880133102423355,0.07670004090728533,0.17908964355143575
+stability,burial and packing,pottsmpnn_soluble,null3,permuted,2,128,0.12475724288433934,0.07670004090728533,0.17908964355143575
+stability,contact order,pottsmpnn_soluble,intact,none,1,128,0.19464312658426852,0.0,0.0
+stability,contact order,pottsmpnn_soluble,erased,none,1,128,0.29233256754469955,0.009258360681783873,0.5958716627000111
+stability,contact order,pottsmpnn_soluble,erased,named,1,128,0.23495112133444399,0.009258360681783873,0.5958716627000111
+stability,contact order,pottsmpnn_soluble,erased,permuted,1,128,0.29308125778679317,0.009258360681783873,0.5958716627000111
+stability,contact order,pottsmpnn_soluble,sham0,none,1,128,0.14380362155691376,0.00813878495407283,0.0008443583382680142
+stability,contact order,pottsmpnn_soluble,sham0,named,1,128,0.14175911779312353,0.00813878495407283,0.0008443583382680142
+stability,contact order,pottsmpnn_soluble,sham0,permuted,1,128,0.14495645798229218,0.00813878495407283,0.0008443583382680142
+stability,contact order,pottsmpnn_soluble,sham1,none,1,128,0.21485856137147188,0.011659518350414233,0.000420511674772861
+stability,contact order,pottsmpnn_soluble,sham1,named,1,128,0.21805345036215815,0.011659518350414233,0.000420511674772861
+stability,contact order,pottsmpnn_soluble,sham1,permuted,1,128,0.21602421603152505,0.011659518350414233,0.000420511674772861
+stability,contact order,pottsmpnn_soluble,sham2,none,1,128,0.1795190126069545,0.0018057169959063701,0.0013630411534213405
+stability,contact order,pottsmpnn_soluble,sham2,named,1,128,0.16920857620979843,0.0018057169959063701,0.0013630411534213405
+stability,contact order,pottsmpnn_soluble,sham2,permuted,1,128,0.1814805049674171,0.0018057169959063701,0.0013630411534213405
+stability,contact order,pottsmpnn_soluble,sham3,none,1,128,0.24980955895302182,0.01384682507679047,0.002273797963280755
+stability,contact order,pottsmpnn_soluble,sham3,named,1,128,0.24342547317454385,0.01384682507679047,0.002273797963280755
+stability,contact order,pottsmpnn_soluble,sham3,permuted,1,128,0.2502665016848692,0.01384682507679047,0.002273797963280755
+stability,contact order,pottsmpnn_soluble,null0,none,1,128,0.2419211997779969,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null0,named,1,128,0.1807647456769019,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null0,permuted,1,128,0.13474872657931689,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null1,none,1,128,0.2419211997779969,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null1,named,1,128,0.1807647456769019,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null1,permuted,1,128,0.13474872657931689,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null2,none,1,128,0.2419211997779969,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null2,named,1,128,0.1807647456769019,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null2,permuted,1,128,0.13474872657931689,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null3,none,1,128,0.2419211997779969,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null3,named,1,128,0.1807647456769019,0.008968065031488281,0.011496473580058009
+stability,contact order,pottsmpnn_soluble,null3,permuted,1,128,0.13474872657931689,0.008968065031488281,0.011496473580058009
+stability,global shape,pottsmpnn_soluble,intact,none,3,128,0.19464312658426852,0.0,0.0
+stability,global shape,pottsmpnn_soluble,erased,none,3,128,0.26578321810066596,0.04822316777320823,0.7439674214805324
+stability,global shape,pottsmpnn_soluble,erased,named,3,128,0.25768631215880455,0.04822316777320823,0.7439674214805324
+stability,global shape,pottsmpnn_soluble,erased,permuted,3,128,0.2686173193424373,0.04822316777320823,0.7439674214805324
+stability,global shape,pottsmpnn_soluble,sham0,none,3,128,0.227482325114446,0.019123166841077066,0.010237570739676793
+stability,global shape,pottsmpnn_soluble,sham0,named,3,128,0.22715191333715018,0.019123166841077066,0.010237570739676793
+stability,global shape,pottsmpnn_soluble,sham0,permuted,3,128,0.2297979269857824,0.019123166841077066,0.010237570739676793
+stability,global shape,pottsmpnn_soluble,sham1,none,3,128,0.2725648518272392,0.007782226551294902,0.024770354307447562
+stability,global shape,pottsmpnn_soluble,sham1,named,3,128,0.26855801633973453,0.007782226551294902,0.024770354307447562
+stability,global shape,pottsmpnn_soluble,sham1,permuted,3,128,0.274705966145756,0.007782226551294902,0.024770354307447562
+stability,global shape,pottsmpnn_soluble,sham2,none,3,128,0.1850504057695806,0.021755276950065405,0.002328755350258893
+stability,global shape,pottsmpnn_soluble,sham2,named,3,128,0.17663237704818982,0.021755276950065405,0.002328755350258893
+stability,global shape,pottsmpnn_soluble,sham2,permuted,3,128,0.18781064348964963,0.021755276950065405,0.002328755350258893
+stability,global shape,pottsmpnn_soluble,sham3,none,3,128,0.1594699499721919,0.04471076292980303,0.009862086365414191
+stability,global shape,pottsmpnn_soluble,sham3,named,3,128,0.1403355788298543,0.04471076292980303,0.009862086365414191
+stability,global shape,pottsmpnn_soluble,sham3,permuted,3,128,0.1620380552882808,0.04471076292980303,0.009862086365414191
+stability,global shape,pottsmpnn_soluble,null0,none,3,128,0.36959302632840263,0.04869445855914811,0.16419446921349734
+stability,global shape,pottsmpnn_soluble,null0,named,3,128,0.26142498675456927,0.04869445855914811,0.16419446921349734
+stability,global shape,pottsmpnn_soluble,null0,permuted,3,128,0.345312107074304,0.04869445855914811,0.16419446921349734
+stability,global shape,pottsmpnn_soluble,null1,none,3,128,0.20038162624017128,0.04853224665714473,0.06523747541265901
+stability,global shape,pottsmpnn_soluble,null1,named,3,128,0.15907923760107925,0.04853224665714473,0.06523747541265901
+stability,global shape,pottsmpnn_soluble,null1,permuted,3,128,0.19664944165351622,0.04853224665714473,0.06523747541265901
+stability,global shape,pottsmpnn_soluble,null2,none,3,128,0.20038162624017128,0.04853224665714473,0.06523747541265901
+stability,global shape,pottsmpnn_soluble,null2,named,3,128,0.15907923760107925,0.04853224665714473,0.06523747541265901
+stability,global shape,pottsmpnn_soluble,null2,permuted,3,128,0.19664944165351622,0.04853224665714473,0.06523747541265901
+stability,global shape,pottsmpnn_soluble,null3,none,3,128,0.36959302632840263,0.04869445855914811,0.16419446921349734
+stability,global shape,pottsmpnn_soluble,null3,named,3,128,0.26142498675456927,0.04869445855914811,0.16419446921349734
+stability,global shape,pottsmpnn_soluble,null3,permuted,3,128,0.345312107074304,0.04869445855914811,0.16419446921349734
+stability,secondary structure content,pottsmpnn_soluble,intact,none,2,128,0.19464312658426852,0.0,0.0
+stability,secondary structure content,pottsmpnn_soluble,erased,none,2,128,0.16779596541383388,0.07890501564980101,0.5939127614500418
+stability,secondary structure content,pottsmpnn_soluble,erased,named,2,128,0.20581988697204612,0.07890501564980101,0.5939127614500418
+stability,secondary structure content,pottsmpnn_soluble,erased,permuted,2,128,0.16783411988493432,0.07890501564980101,0.5939127614500418
+stability,secondary structure content,pottsmpnn_soluble,sham0,none,2,128,0.20845070519015904,0.015493406939328769,0.010106730107531159
+stability,secondary structure content,pottsmpnn_soluble,sham0,named,2,128,0.23711942706662406,0.015493406939328769,0.010106730107531159
+stability,secondary structure content,pottsmpnn_soluble,sham0,permuted,2,128,0.2086488789205892,0.015493406939328769,0.010106730107531159
+stability,secondary structure content,pottsmpnn_soluble,sham1,none,2,128,0.25941281747665235,0.01705156207460734,0.005044575289349651
+stability,secondary structure content,pottsmpnn_soluble,sham1,named,2,128,0.24730859180780368,0.01705156207460734,0.005044575289349651
+stability,secondary structure content,pottsmpnn_soluble,sham1,permuted,2,128,0.25975238113571614,0.01705156207460734,0.005044575289349651
+stability,secondary structure content,pottsmpnn_soluble,sham2,none,2,128,0.15058265607972915,0.005975900907172815,0.00708461275779515
+stability,secondary structure content,pottsmpnn_soluble,sham2,named,2,128,0.16836366120450735,0.005975900907172815,0.00708461275779515
+stability,secondary structure content,pottsmpnn_soluble,sham2,permuted,2,128,0.15056323938763477,0.005975900907172815,0.00708461275779515
+stability,secondary structure content,pottsmpnn_soluble,sham3,none,2,128,0.16617078704104726,0.02644088718186166,0.025145085655965183
+stability,secondary structure content,pottsmpnn_soluble,sham3,named,2,128,0.1400618848520024,0.02644088718186166,0.025145085655965183
+stability,secondary structure content,pottsmpnn_soluble,sham3,permuted,2,128,0.16630660410437337,0.02644088718186166,0.025145085655965183
+stability,secondary structure content,pottsmpnn_soluble,null0,none,2,128,0.12808060356541992,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null0,named,2,128,0.09954344615625578,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null0,permuted,2,128,0.13570636338027503,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null1,none,2,128,0.12808060356541992,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null1,named,2,128,0.09954344615625578,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null1,permuted,2,128,0.13570636338027503,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null2,none,2,128,0.12808060356541992,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null2,named,2,128,0.09954344615625578,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null2,permuted,2,128,0.13570636338027503,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null3,none,2,128,0.12808060356541992,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null3,named,2,128,0.09954344615625578,0.07670004090728533,0.026101752637907705
+stability,secondary structure content,pottsmpnn_soluble,null3,permuted,2,128,0.13570636338027503,0.07670004090728533,0.026101752637907705
+stability,size,pottsmpnn_soluble,intact,none,1,128,0.19464312658426852,0.0,0.0
+stability,size,pottsmpnn_soluble,erased,none,1,128,0.19004645696142905,0.0747879397815513,0.1263692534411005
+stability,size,pottsmpnn_soluble,erased,named,1,128,0.19373253390460948,0.0747879397815513,0.1263692534411005
+stability,size,pottsmpnn_soluble,erased,permuted,1,128,0.18856043688217541,0.0747879397815513,0.1263692534411005
+stability,size,pottsmpnn_soluble,sham0,none,1,128,0.22196235658126506,0.007881963772272016,0.0003620533411408111
+stability,size,pottsmpnn_soluble,sham0,named,1,128,0.211621767331554,0.007881963772272016,0.0003620533411408111
+stability,size,pottsmpnn_soluble,sham0,permuted,1,128,0.22085808433136708,0.007881963772272016,0.0003620533411408111
+stability,size,pottsmpnn_soluble,sham1,none,1,128,0.20319786506747164,0.008081891594574175,0.000463565640796304
+stability,size,pottsmpnn_soluble,sham1,named,1,128,0.19411618024608066,0.008081891594574175,0.000463565640796304
+stability,size,pottsmpnn_soluble,sham1,permuted,1,128,0.20202990854759253,0.008081891594574175,0.000463565640796304
+stability,size,pottsmpnn_soluble,sham2,none,1,128,0.20133950393860492,0.006268406818079386,0.00044291775463334293
+stability,size,pottsmpnn_soluble,sham2,named,1,128,0.18704169319206723,0.006268406818079386,0.00044291775463334293
+stability,size,pottsmpnn_soluble,sham2,permuted,1,128,0.1999752762005538,0.006268406818079386,0.00044291775463334293
+stability,size,pottsmpnn_soluble,sham3,none,1,128,0.2172542336524174,0.009325227158328286,0.00013872693951433313
+stability,size,pottsmpnn_soluble,sham3,named,1,128,0.18766402093005813,0.009325227158328286,0.00013872693951433313
+stability,size,pottsmpnn_soluble,sham3,permuted,1,128,0.21593477284338536,0.009325227158328286,0.00013872693951433313
+stability,size,pottsmpnn_soluble,null0,none,1,128,0.11984905749107223,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null0,named,1,128,0.14790710648942007,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null0,permuted,1,128,0.12385524406655803,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null1,none,1,128,0.11984905749107223,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null1,named,1,128,0.14790710648942007,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null1,permuted,1,128,0.12385524406655803,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null2,none,1,128,0.11984905749107223,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null2,named,1,128,0.14790710648942007,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null2,permuted,1,128,0.12385524406655803,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null3,none,1,128,0.11984905749107223,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null3,named,1,128,0.14790710648942007,0.058751899992396384,0.0021448507489465474
+stability,size,pottsmpnn_soluble,null3,permuted,1,128,0.12385524406655803,0.058751899992396384,0.0021448507489465474

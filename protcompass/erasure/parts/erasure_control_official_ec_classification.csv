@@ -1,0 +1,22 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+ec_classification,esm_if1,positive control,the task label itself,1,1,0.686,0.6826666666666666,0.6811666666666667,-0.0014999999999999458
+ec_classification,esm_if1,positive control,the task label itself,2,2,0.686,0.7023333333333334,0.6763333333333333,-0.026000000000000023
+ec_classification,esm_if1,positive control,the task label itself,3,3,0.686,0.6913333333333334,0.6775,-0.013833333333333364
+ec_classification,esm_if1,positive control,the task label itself,5,5,0.686,0.6916666666666667,0.6785,-0.01316666666666666
+ec_classification,esm_if1,positive control,the task label itself,8,8,0.686,0.693,0.6785,-0.014499999999999957
+ec_classification,esm_if1,positive control,the task label itself,13,13,0.686,0.6876666666666666,0.681,-0.006666666666666599
+ec_classification,esm_if1,positive control,the task label itself,19,19,0.686,0.6786666666666666,0.6785,-0.0001666666666666483
+ec_classification,proteinmpnn,positive control,the task label itself,1,1,0.5456666666666666,0.562,0.542,-0.020000000000000018
+ec_classification,proteinmpnn,positive control,the task label itself,2,2,0.5456666666666666,0.5653333333333334,0.5458333333333334,-0.019499999999999962
+ec_classification,proteinmpnn,positive control,the task label itself,3,3,0.5456666666666666,0.5506666666666666,0.5343333333333333,-0.01633333333333331
+ec_classification,proteinmpnn,positive control,the task label itself,5,5,0.5456666666666666,0.5526666666666666,0.5411666666666666,-0.011500000000000066
+ec_classification,proteinmpnn,positive control,the task label itself,8,8,0.5456666666666666,0.547,0.5325,-0.014500000000000068
+ec_classification,proteinmpnn,positive control,the task label itself,13,13,0.5456666666666666,0.5563333333333333,0.5256666666666667,-0.03066666666666662
+ec_classification,proteinmpnn,positive control,the task label itself,19,19,0.5456666666666666,0.5473333333333333,0.525,-0.022333333333333316
+ec_classification,gearnet_pretrained,positive control,the task label itself,1,1,0.635,0.6396666666666667,0.6443333333333333,0.004666666666666597
+ec_classification,gearnet_pretrained,positive control,the task label itself,2,2,0.635,0.634,0.6288333333333334,-0.005166666666666653
+ec_classification,gearnet_pretrained,positive control,the task label itself,3,3,0.635,0.6366666666666667,0.631,-0.005666666666666709
+ec_classification,gearnet_pretrained,positive control,the task label itself,5,5,0.635,0.737,0.6451666666666667,-0.09183333333333332
+ec_classification,gearnet_pretrained,positive control,the task label itself,8,8,0.635,0.7306666666666667,0.6416666666666666,-0.08900000000000008
+ec_classification,gearnet_pretrained,positive control,the task label itself,13,13,0.635,0.733,0.6345000000000001,-0.09849999999999992
+ec_classification,gearnet_pretrained,positive control,the task label itself,19,19,0.635,0.7,0.649,-0.050999999999999934

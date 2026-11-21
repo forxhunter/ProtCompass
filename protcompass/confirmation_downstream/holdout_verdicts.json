@@ -6,9 +6,9 @@
     "D4": null
   },
   "detail": {
-    "D1": "membrane vs soluble +0.047 over 15 encoders, 15 positive, one-sided p=3.05e-05; subcellular localisation +0.028 over 15 encoders, 15 positive, one-sided p=3.05e-05",
-    "D2": "membrane vs soluble R=+0.0444 (15/15 positive) against permuted +0.0009, other +0.0059; subcellular localisation R=+0.0290 (15/15 positive) against permuted -0.0002, other +0.0005",
-    "D3": "stability +0.081 over 15 encoders, 14 positive, one-sided p=0.000488: names composition. GO-BP is multilabel and not scored in this pass, so its half is undecided; the decidable half fails",
+    "D1": "membrane vs soluble +0.044 over 15 encoders, 15 positive, one-sided p=3.05e-05; subcellular localisation +0.029 over 15 encoders, 15 positive, one-sided p=3.05e-05",
+    "D2": "membrane vs soluble R=+0.0423 (15/15 positive) against permuted +0.0010, other +0.0026; subcellular localisation R=+0.0294 (15/15 positive) against permuted +0.0006, other +0.0004",
+    "D3": "stability +0.096 over 15 encoders, 15 positive, one-sided p=3.05e-05: names composition. GO-BP is multilabel and not scored in this pass, so its half is undecided; the decidable half fails",
     "D4": "remote homology not scored"
   }
 }

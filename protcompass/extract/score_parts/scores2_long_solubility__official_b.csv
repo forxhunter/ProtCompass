@@ -1,0 +1,7 @@
+task,encoder,probe,seed,train_frac,metric,score,val_loss,n_train,n_test,dim,n_out
+solubility,gearnet_pretrained,linear,0,1.0,AUROC,0.6345573198434233,0.6779881119728088,5417,1329,3072,2
+solubility,gearnet_pretrained,linear,1,1.0,AUROC,0.6398001438873373,0.6858141422271729,5417,1329,3072,2
+solubility,gearnet_pretrained,linear,2,1.0,AUROC,0.6379873900309868,0.678634524345398,5417,1329,3072,2
+solubility,gearnet_pretrained,mlp2,0,1.0,AUROC,0.6237459425470324,0.5593485832214355,5417,1329,3072,2
+solubility,gearnet_pretrained,mlp2,1,1.0,AUROC,0.691846006559903,0.5790571570396423,5417,1329,3072,2
+solubility,gearnet_pretrained,mlp2,2,1.0,AUROC,0.6725769995524764,0.5521746277809143,5417,1329,3072,2

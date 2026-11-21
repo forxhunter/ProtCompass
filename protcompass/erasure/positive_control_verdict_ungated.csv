@@ -1,33 +1,25 @@
 planted,concept,mean_effect,n,p_holm,named,erasure_gate
-amino-acid composition,amino-acid composition,0.6120474869558935,12,0.05078125,False,False
-amino-acid composition,burial and packing,0.005208708591091124,12,1.0,False,False
-amino-acid composition,charge,0.013140072731613021,12,0.8759765625,False,False
-amino-acid composition,contact order,0.0033122140223447887,12,1.0,False,False
-amino-acid composition,global shape,-0.0036265969708564397,12,0.27001953125,False,False
-amino-acid composition,hydrophobic fraction,-0.005025936101647234,12,1.0,False,False
-amino-acid composition,secondary structure content,-0.0024684167310586335,12,0.8759765625,False,False
-amino-acid composition,size,-0.0012081171465809018,12,1.0,False,False
-global shape,amino-acid composition,0.019976625503575676,12,1.0,False,False
-global shape,burial and packing,0.09295983481035203,12,0.00390625,True,False
-global shape,charge,-0.0025250517743884682,12,1.0,False,False
-global shape,contact order,-0.003042953498599777,12,1.0,False,False
-global shape,global shape,0.514858237539804,12,0.00390625,True,False
-global shape,hydrophobic fraction,-0.0009951877772430718,12,1.0,False,False
-global shape,secondary structure content,-0.02485594619387053,12,0.8759765625,False,False
-global shape,size,-0.023020950348006844,12,0.8759765625,False,False
-none,amino-acid composition,-0.0023748524490576775,12,1.0,False,False
-none,burial and packing,0.001463094804541394,12,1.0,False,False
-none,charge,0.002088790491347091,12,1.0,False,False
-none,contact order,0.000854621465328308,12,1.0,False,False
-none,global shape,-0.0012100981838380684,12,1.0,False,False
-none,hydrophobic fraction,0.0010648860319009163,12,1.0,False,False
-none,secondary structure content,0.00138951880871197,12,1.0,False,False
-none,size,0.0007419977984935861,12,1.0,False,False
-secondary structure content,amino-acid composition,-0.008344803556830031,12,1.0,False,False
-secondary structure content,burial and packing,0.0061083901108088005,12,1.0,False,False
-secondary structure content,charge,-0.010876964603613351,12,0.27001953125,False,False
-secondary structure content,contact order,-0.01341942365154091,12,1.0,False,False
-secondary structure content,global shape,0.0007896315198356098,12,1.0,False,False
-secondary structure content,hydrophobic fraction,0.0013510766809838072,12,1.0,False,False
-secondary structure content,secondary structure content,0.19989210309912253,12,0.05078125,False,False
-secondary structure content,size,0.002702343436062868,12,1.0,False,False
+amino-acid composition,amino-acid composition,0.6386518674181086,12,0.0029296875,True,False
+amino-acid composition,burial and packing,0.002542538961516652,12,1.0,False,False
+amino-acid composition,contact order,-0.0024145505522340416,12,1.0,False,False
+amino-acid composition,global shape,-0.017635825922499185,12,0.0029296875,False,False
+amino-acid composition,secondary structure content,-0.0019628639958737463,12,0.154296875,False,False
+amino-acid composition,size,-0.0022603863252281167,12,1.0,False,False
+global shape,amino-acid composition,0.029973571824224023,12,0.583984375,False,False
+global shape,burial and packing,0.08952453277433076,12,0.0029296875,True,False
+global shape,contact order,-0.006828240536471151,12,1.0,False,False
+global shape,global shape,0.5329547773283086,12,0.0029296875,True,False
+global shape,secondary structure content,-0.018912971866873397,12,1.0,False,False
+global shape,size,-0.020947536512689224,12,0.583984375,False,False
+none,amino-acid composition,-0.00034659317431284185,12,1.0,False,False
+none,burial and packing,-0.0008240403014365583,12,1.0,False,False
+none,contact order,-0.0014182566761026083,12,1.0,False,False
+none,global shape,-0.0014867312886491502,12,1.0,False,False
+none,secondary structure content,1.4272371956191692e-05,12,1.0,False,False
+none,size,-0.0023331778518345743,12,1.0,False,False
+secondary structure content,amino-acid composition,-0.01580239526199451,12,1.0,False,False
+secondary structure content,burial and packing,0.020801441866826826,12,0.0380859375,True,False
+secondary structure content,contact order,0.0012561329420394663,12,1.0,False,False
+secondary structure content,global shape,-0.0010883688246336087,12,1.0,False,False
+secondary structure content,secondary structure content,0.24545453126037997,12,0.0380859375,True,False
+secondary structure content,size,0.003986803480015191,12,1.0,False,False

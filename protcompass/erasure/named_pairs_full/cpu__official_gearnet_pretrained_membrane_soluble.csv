@@ -1,0 +1,169 @@
+task,concept,encoder,arm,descriptor,rank,dim,score,var_removed,prop_removed
+membrane_soluble,amino-acid composition,gearnet_pretrained,intact,none,19,3072,0.852533030199039,0.0,0.0
+membrane_soluble,amino-acid composition,gearnet_pretrained,erased,none,19,3072,0.8123629699534813,0.09022661922496444,0.9930865660910345
+membrane_soluble,amino-acid composition,gearnet_pretrained,erased,named,19,3072,0.8524996663616259,0.09022661922496444,0.9930865660910345
+membrane_soluble,amino-acid composition,gearnet_pretrained,erased,permuted,19,3072,0.8101645313810723,0.09022661922496444,0.9930865660910345
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham0,none,19,3072,0.8539015433157935,0.006050510544404308,0.006774963216260366
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham0,named,19,3072,0.8543734033020667,0.006050510544404308,0.006774963216260366
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham0,permuted,19,3072,0.8527457246625486,0.006050510544404308,0.006774963216260366
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham1,none,19,3072,0.8458781362007167,0.0064864450483201885,0.005037400379591994
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham1,named,19,3072,0.8472770342408297,0.0064864450483201885,0.005037400379591994
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham1,permuted,19,3072,0.8447133808053077,0.0064864450483201885,0.005037400379591994
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham2,none,19,3072,0.8501564525661557,0.006225756938519567,0.0061247021814544444
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham2,named,19,3072,0.8509565888812628,0.006225756938519567,0.0061247021814544444
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham2,permuted,19,3072,0.8492556289559978,0.006225756938519567,0.0061247021814544444
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham3,none,19,3072,0.8519628660489591,0.005929331191975695,0.00564424605210212
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham3,named,19,3072,0.8525086031037902,0.005929331191975695,0.00564424605210212
+membrane_soluble,amino-acid composition,gearnet_pretrained,sham3,permuted,19,3072,0.8505562228323038,0.005929331191975695,0.00564424605210212
+membrane_soluble,amino-acid composition,gearnet_pretrained,null0,none,19,3072,0.6927148869442539,0.08938111113836866,0.02942891256975355
+membrane_soluble,amino-acid composition,gearnet_pretrained,null0,named,19,3072,0.7370286166399757,0.08938111113836866,0.02942891256975355
+membrane_soluble,amino-acid composition,gearnet_pretrained,null0,permuted,19,3072,0.691024055326775,0.08938111113836866,0.02942891256975355
+membrane_soluble,amino-acid composition,gearnet_pretrained,null1,none,19,3072,0.7281824334629757,0.08932466295709007,0.014063466768766242
+membrane_soluble,amino-acid composition,gearnet_pretrained,null1,named,19,3072,0.7370679383054984,0.08932466295709007,0.014063466768766242
+membrane_soluble,amino-acid composition,gearnet_pretrained,null1,permuted,19,3072,0.7267954510790818,0.08932466295709007,0.014063466768766242
+membrane_soluble,amino-acid composition,gearnet_pretrained,null2,none,19,3072,0.7308849042934493,0.08933803425291598,0.0409619868344
+membrane_soluble,amino-acid composition,gearnet_pretrained,null2,named,19,3072,0.7426557852894075,0.08933803425291598,0.0409619868344
+membrane_soluble,amino-acid composition,gearnet_pretrained,null2,permuted,19,3072,0.7291678582322887,0.08933803425291598,0.0409619868344
+membrane_soluble,amino-acid composition,gearnet_pretrained,null3,none,19,3072,0.7287835783192252,0.08934968037736912,0.019423615395078864
+membrane_soluble,amino-acid composition,gearnet_pretrained,null3,named,19,3072,0.7377155542210021,0.08934968037736912,0.019423615395078864
+membrane_soluble,amino-acid composition,gearnet_pretrained,null3,permuted,19,3072,0.7276569530237169,0.08934968037736912,0.019423615395078864
+membrane_soluble,burial and packing,gearnet_pretrained,intact,none,2,3072,0.852533030199039,0.0,0.0
+membrane_soluble,burial and packing,gearnet_pretrained,erased,none,2,3072,0.8532163930832,0.028220775537386777,0.8879008710653502
+membrane_soluble,burial and packing,gearnet_pretrained,erased,named,2,3072,0.8535232212308396,0.028220775537386777,0.8879008710653502
+membrane_soluble,burial and packing,gearnet_pretrained,erased,permuted,2,3072,0.8529435245557845,0.028220775537386777,0.8879008710653502
+membrane_soluble,burial and packing,gearnet_pretrained,sham0,none,2,3072,0.8549620367192863,0.000691427865937122,0.0007590342800628536
+membrane_soluble,burial and packing,gearnet_pretrained,sham0,named,2,3072,0.8550037415160527,0.000691427865937122,0.0007590342800628536
+membrane_soluble,burial and packing,gearnet_pretrained,sham0,permuted,2,3072,0.8545878851140091,0.000691427865937122,0.0007590342800628536
+membrane_soluble,burial and packing,gearnet_pretrained,sham1,none,2,3072,0.855401724433768,0.0007043729160477463,0.000925101106914239
+membrane_soluble,burial and packing,gearnet_pretrained,sham1,named,2,3072,0.8553856382978724,0.0007043729160477463,0.000925101106914239
+membrane_soluble,burial and packing,gearnet_pretrained,sham1,permuted,2,3072,0.8551133655532678,0.0007043729160477463,0.000925101106914239
+membrane_soluble,burial and packing,gearnet_pretrained,sham2,none,2,3072,0.8544490677190575,0.0008178192790440075,1.5690367909493297e-05
+membrane_soluble,burial and packing,gearnet_pretrained,sham2,named,2,3072,0.8544222574925646,0.0008178192790440075,1.5690367909493297e-05
+membrane_soluble,burial and packing,gearnet_pretrained,sham2,permuted,2,3072,0.8541893064134828,0.0008178192790440075,1.5690367909493297e-05
+membrane_soluble,burial and packing,gearnet_pretrained,sham3,none,2,3072,0.854758278997941,0.000568882074783672,6.226830070032996e-05
+membrane_soluble,burial and packing,gearnet_pretrained,sham3,named,2,3072,0.8547713862197819,0.000568882074783672,6.226830070032996e-05
+membrane_soluble,burial and packing,gearnet_pretrained,sham3,permuted,2,3072,0.8544341731487837,0.000568882074783672,6.226830070032996e-05
+membrane_soluble,burial and packing,gearnet_pretrained,null0,none,2,3072,0.7197127850224967,0.02772777114148206,0.01485671299211544
+membrane_soluble,burial and packing,gearnet_pretrained,null0,named,2,3072,0.7206755700449936,0.02772777114148206,0.01485671299211544
+membrane_soluble,burial and packing,gearnet_pretrained,null0,permuted,2,3072,0.7193177810188361,0.02772777114148206,0.01485671299211544
+membrane_soluble,burial and packing,gearnet_pretrained,null1,none,2,3072,0.7340669802867384,0.03145945787531923,0.000309295593016623
+membrane_soluble,burial and packing,gearnet_pretrained,null1,named,2,3072,0.7353407639365515,0.03145945787531923,0.000309295593016623
+membrane_soluble,burial and packing,gearnet_pretrained,null1,permuted,2,3072,0.7336767425455654,0.03145945787531923,0.000309295593016623
+membrane_soluble,burial and packing,gearnet_pretrained,null2,none,2,3072,0.7205057719438726,0.02578121404455369,0.01218017788874226
+membrane_soluble,burial and packing,gearnet_pretrained,null2,named,2,3072,0.721434001563334,0.02578121404455369,0.01218017788874226
+membrane_soluble,burial and packing,gearnet_pretrained,null2,permuted,2,3072,0.7199362035766033,0.02578121404455369,0.01218017788874226
+membrane_soluble,burial and packing,gearnet_pretrained,null3,none,2,3072,0.7324970925798826,0.027378735825857703,0.0013658227706766501
+membrane_soluble,burial and packing,gearnet_pretrained,null3,named,2,3072,0.7335009866163349,0.027378735825857703,0.0013658227706766501
+membrane_soluble,burial and packing,gearnet_pretrained,null3,permuted,2,3072,0.7322516300617707,0.027378735825857703,0.0013658227706766501
+membrane_soluble,contact order,gearnet_pretrained,intact,none,1,3072,0.852533030199039,0.0,0.0
+membrane_soluble,contact order,gearnet_pretrained,erased,none,1,3072,0.8552932919621751,0.004910169027654954,0.8713187482587493
+membrane_soluble,contact order,gearnet_pretrained,erased,named,1,3072,0.8551771143140395,0.004910169027654954,0.8713187482587493
+membrane_soluble,contact order,gearnet_pretrained,erased,permuted,1,3072,0.8550573619690383,0.004910169027654954,0.8713187482587493
+membrane_soluble,contact order,gearnet_pretrained,sham0,none,1,3072,0.8551366010828949,0.0002817330818729591,0.0002213238184028965
+membrane_soluble,contact order,gearnet_pretrained,sham0,named,1,3072,0.8554047033478227,0.0002817330818729591,0.0002213238184028965
+membrane_soluble,contact order,gearnet_pretrained,sham0,permuted,1,3072,0.8549811017692366,0.0002817330818729591,0.0002213238184028965
+membrane_soluble,contact order,gearnet_pretrained,sham1,none,1,3072,0.8538747330893007,0.0005228445869152054,7.517572910820114e-05
+membrane_soluble,contact order,gearnet_pretrained,sham1,named,1,3072,0.8541190040417906,0.0005228445869152054,7.517572910820114e-05
+membrane_soluble,contact order,gearnet_pretrained,sham1,permuted,1,3072,0.8536096097384275,0.0005228445869152054,7.517572910820114e-05
+membrane_soluble,contact order,gearnet_pretrained,sham2,none,1,3072,0.8544842189049036,0.0002829163111200961,0.0004375166170591527
+membrane_soluble,contact order,gearnet_pretrained,sham2,named,1,3072,0.8546379308701288,0.0002829163111200961,0.0004375166170591527
+membrane_soluble,contact order,gearnet_pretrained,sham2,permuted,1,3072,0.8541589214901243,0.0002829163111200961,0.0004375166170591527
+membrane_soluble,contact order,gearnet_pretrained,sham3,none,1,3072,0.8552134570655074,0.0002779676238566786,0.0013296602801284862
+membrane_soluble,contact order,gearnet_pretrained,sham3,named,1,3072,0.85537789312133,0.0002779676238566786,0.0013296602801284862
+membrane_soluble,contact order,gearnet_pretrained,sham3,permuted,1,3072,0.8548976921757034,0.0002779676238566786,0.0013296602801284862
+membrane_soluble,contact order,gearnet_pretrained,null0,none,1,3072,0.7334300884618318,0.004915238177236714,0.0014632165914516548
+membrane_soluble,contact order,gearnet_pretrained,null0,named,1,3072,0.7334306842446427,0.004915238177236714,0.0014632165914516548
+membrane_soluble,contact order,gearnet_pretrained,null0,permuted,1,3072,0.7332722060169299,0.004915238177236714,0.0014632165914516548
+membrane_soluble,contact order,gearnet_pretrained,null1,none,1,3072,0.733561160680241,0.004566120358857839,0.0019961917232351745
+membrane_soluble,contact order,gearnet_pretrained,null1,named,1,3072,0.7335456703271562,0.004566120358857839,0.0019961917232351745
+membrane_soluble,contact order,gearnet_pretrained,null1,permuted,1,3072,0.7334777510867079,0.004566120358857839,0.0019961917232351745
+membrane_soluble,contact order,gearnet_pretrained,null2,none,1,3072,0.733646357622207,0.005203269975840419,0.0009159322446322671
+membrane_soluble,contact order,gearnet_pretrained,null2,named,1,3072,0.7336314630519333,0.005203269975840419,0.0009159322446322671
+membrane_soluble,contact order,gearnet_pretrained,null2,permuted,1,3072,0.7334932414397926,0.005203269975840419,0.0009159322446322671
+membrane_soluble,contact order,gearnet_pretrained,null3,none,1,3072,0.7334122149775032,0.005324371192486299,0.0008245229514802777
+membrane_soluble,contact order,gearnet_pretrained,null3,named,1,3072,0.7334306842446427,0.005324371192486299,0.0008245229514802777
+membrane_soluble,contact order,gearnet_pretrained,null3,permuted,1,3072,0.7333025909402883,0.005324371192486299,0.0008245229514802777
+membrane_soluble,global shape,gearnet_pretrained,intact,none,3,3072,0.852533030199039,0.0,0.0
+membrane_soluble,global shape,gearnet_pretrained,erased,none,3,3072,0.8461772191718141,0.012239203611639327,0.8293605050030485
+membrane_soluble,global shape,gearnet_pretrained,erased,named,3,3072,0.8489893140395027,0.012239203611639327,0.8293605050030485
+membrane_soluble,global shape,gearnet_pretrained,erased,permuted,3,3072,0.8457530218104172,0.012239203611639327,0.8293605050030485
+membrane_soluble,global shape,gearnet_pretrained,sham0,none,3,3072,0.8553772973385191,0.0011605809347527973,0.00010926932283683577
+membrane_soluble,global shape,gearnet_pretrained,sham0,named,3,3072,0.8554845382444902,0.0011605809347527973,0.00010926932283683577
+membrane_soluble,global shape,gearnet_pretrained,sham0,permuted,3,3072,0.8547725777854038,0.0011605809347527973,0.00010926932283683577
+membrane_soluble,global shape,gearnet_pretrained,sham1,none,3,3072,0.8558330711888965,0.0008494167845369827,0.0013806340188224908
+membrane_soluble,global shape,gearnet_pretrained,sham1,named,3,3072,0.8560046566384505,0.0008494167845369827,0.0013806340188224908
+membrane_soluble,global shape,gearnet_pretrained,sham1,permuted,3,3072,0.855403511782201,0.0008494167845369827,0.0013806340188224908
+membrane_soluble,global shape,gearnet_pretrained,sham2,none,3,3072,0.8536286747883779,0.001225671718572685,0.004303076246662485
+membrane_soluble,global shape,gearnet_pretrained,sham2,named,3,3072,0.8537978771066881,0.001225671718572685,0.004303076246662485
+membrane_soluble,global shape,gearnet_pretrained,sham2,permuted,3,3072,0.8531478780599404,0.001225671718572685,0.004303076246662485
+membrane_soluble,global shape,gearnet_pretrained,sham3,none,3,3072,0.8561583686036758,0.0008246424636502159,0.0003140078174478367
+membrane_soluble,global shape,gearnet_pretrained,sham3,named,3,3072,0.8563877449858919,0.0008246424636502159,0.0003140078174478367
+membrane_soluble,global shape,gearnet_pretrained,sham3,permuted,3,3072,0.8557103399298408,0.0008246424636502159,0.0003140078174478367
+membrane_soluble,global shape,gearnet_pretrained,null0,none,3,3072,0.7329534622130709,0.012220389266570209,0.0011331712042784714
+membrane_soluble,global shape,gearnet_pretrained,null0,named,3,3072,0.7329427381224739,0.012220389266570209,0.0011331712042784714
+membrane_soluble,global shape,gearnet_pretrained,null0,permuted,3,3072,0.7321789445588348,0.012220389266570209,0.0011331712042784714
+membrane_soluble,global shape,gearnet_pretrained,null1,none,3,3072,0.7333973204072295,0.012296045830128444,0.0032520275306548996
+membrane_soluble,global shape,gearnet_pretrained,null1,named,3,3072,0.7334539197742698,0.012296045830128444,0.0032520275306548996
+membrane_soluble,global shape,gearnet_pretrained,null1,permuted,3,3072,0.7324309606878671,0.012296045830128444,0.0032520275306548996
+membrane_soluble,global shape,gearnet_pretrained,null2,none,3,3072,0.7313758293296728,0.012224553659863968,0.0032127909005253974
+membrane_soluble,global shape,gearnet_pretrained,null2,named,3,3072,0.7315998436665904,0.012224553659863968,0.0032127909005253974
+membrane_soluble,global shape,gearnet_pretrained,null2,permuted,3,3072,0.7304464081445894,0.012224553659863968,0.0032127909005253974
+membrane_soluble,global shape,gearnet_pretrained,null3,none,3,3072,0.732576331693739,0.01218163059678068,0.000543685752717793
+membrane_soluble,global shape,gearnet_pretrained,null3,named,3,3072,0.7326847641653321,0.01218163059678068,0.000543685752717793
+membrane_soluble,global shape,gearnet_pretrained,null3,permuted,3,3072,0.7317684502020895,0.01218163059678068,0.000543685752717793
+membrane_soluble,secondary structure content,gearnet_pretrained,intact,none,2,3072,0.852533030199039,0.0,0.0
+membrane_soluble,secondary structure content,gearnet_pretrained,erased,none,2,3072,0.8501993489285442,0.020718603191252294,0.9737933713997576
+membrane_soluble,secondary structure content,gearnet_pretrained,erased,named,2,3072,0.8536417820102189,0.020718603191252294,0.9737933713997576
+membrane_soluble,secondary structure content,gearnet_pretrained,erased,permuted,2,3072,0.8498204310607794,0.020718603191252294,0.9737933713997576
+membrane_soluble,secondary structure content,gearnet_pretrained,sham0,none,2,3072,0.8555071779913064,0.000690436437404629,0.00018071525430984892
+membrane_soluble,secondary structure content,gearnet_pretrained,sham0,named,2,3072,0.8555607984442919,0.000690436437404629,0.00018071525430984892
+membrane_soluble,secondary structure content,gearnet_pretrained,sham0,permuted,2,3072,0.85519617936399,0.000690436437404629,0.00018071525430984892
+membrane_soluble,secondary structure content,gearnet_pretrained,sham1,none,2,3072,0.8551348137344621,0.0007119963615668246,0.0002691705668856903
+membrane_soluble,secondary structure content,gearnet_pretrained,sham1,named,2,3072,0.855098470982994,0.0007119963615668246,0.0002691705668856903
+membrane_soluble,secondary structure content,gearnet_pretrained,sham1,permuted,2,3072,0.8546659326622436,0.0007119963615668246,0.0002691705668856903
+membrane_soluble,secondary structure content,gearnet_pretrained,sham2,none,2,3072,0.8523405923511019,0.0006200656093464652,0.0013774930989444156
+membrane_soluble,secondary structure content,gearnet_pretrained,sham2,named,2,3072,0.8523328471745596,0.0006200656093464652,0.0013774930989444156
+membrane_soluble,secondary structure content,gearnet_pretrained,sham2,permuted,2,3072,0.8519712070083124,0.0006200656093464652,0.0013774930989444156
+membrane_soluble,secondary structure content,gearnet_pretrained,sham3,none,2,3072,0.8558330711888965,0.0006034007073026926,0.0008029576199132249
+membrane_soluble,secondary structure content,gearnet_pretrained,sham3,named,2,3072,0.855826517577976,0.0006034007073026926,0.0008029576199132249
+membrane_soluble,secondary structure content,gearnet_pretrained,sham3,permuted,2,3072,0.8553778931213301,0.0006034007073026926,0.0008029576199132249
+membrane_soluble,secondary structure content,gearnet_pretrained,null0,none,2,3072,0.7340645971554947,0.020929378161792522,0.010169332229759687
+membrane_soluble,secondary structure content,gearnet_pretrained,null0,named,2,3072,0.7377334277053305,0.020929378161792522,0.010169332229759687
+membrane_soluble,secondary structure content,gearnet_pretrained,null0,permuted,2,3072,0.7338822876153435,0.020929378161792522,0.010169332229759687
+membrane_soluble,secondary structure content,gearnet_pretrained,null1,none,2,3072,0.7341974567223367,0.02092943818840831,0.010216125248303065
+membrane_soluble,secondary structure content,gearnet_pretrained,null1,named,2,3072,0.7378543716159536,0.02092943818840831,0.010216125248303065
+membrane_soluble,secondary structure content,gearnet_pretrained,null1,permuted,2,3072,0.7340925989476093,0.02092943818840831,0.010216125248303065
+membrane_soluble,secondary structure content,gearnet_pretrained,null2,none,2,3072,0.7313275709219859,0.020848689602398607,0.0034914581927353305
+membrane_soluble,secondary structure content,gearnet_pretrained,null2,named,2,3072,0.7351900308853809,0.020848689602398607,0.0034914581927353305
+membrane_soluble,secondary structure content,gearnet_pretrained,null2,permuted,2,3072,0.7311726673911385,0.020848689602398607,0.0034914581927353305
+membrane_soluble,secondary structure content,gearnet_pretrained,null3,none,2,3072,0.7331065783954853,0.020573349047757872,0.004996814456500687
+membrane_soluble,secondary structure content,gearnet_pretrained,null3,named,2,3072,0.73658654579425,0.020573349047757872,0.004996814456500687
+membrane_soluble,secondary structure content,gearnet_pretrained,null3,permuted,2,3072,0.7330624904674751,0.020573349047757872,0.004996814456500687
+membrane_soluble,size,gearnet_pretrained,intact,none,1,3072,0.852533030199039,0.0,0.0
+membrane_soluble,size,gearnet_pretrained,erased,none,1,3072,0.8547749609166476,0.009713979216976143,0.8205955566181803
+membrane_soluble,size,gearnet_pretrained,erased,named,1,3072,0.8558521362388469,0.009713979216976143,0.8205955566181803
+membrane_soluble,size,gearnet_pretrained,erased,permuted,1,3072,0.8546063543811484,0.009713979216976143,0.8205955566181803
+membrane_soluble,size,gearnet_pretrained,sham0,none,1,3072,0.8532789502783498,0.00041155581575380573,3.692919253028837e-05
+membrane_soluble,size,gearnet_pretrained,sham0,named,1,3072,0.8536405904445971,0.00041155581575380573,3.692919253028837e-05
+membrane_soluble,size,gearnet_pretrained,sham0,permuted,1,3072,0.853287887020514,0.00041155581575380573,3.692919253028837e-05
+membrane_soluble,size,gearnet_pretrained,sham1,none,1,3072,0.856105939716312,0.0002870009901084769,0.000937144366010001
+membrane_soluble,size,gearnet_pretrained,sham1,named,1,3072,0.8564890280637535,0.0002870009901084769,0.000937144366010001
+membrane_soluble,size,gearnet_pretrained,sham1,permuted,1,3072,0.8560606602226798,0.0002870009901084769,0.000937144366010001
+membrane_soluble,size,gearnet_pretrained,sham2,none,1,3072,0.8559927409822313,0.00034542803176573766,0.0004053106148493857
+membrane_soluble,size,gearnet_pretrained,sham2,named,1,3072,0.8562805040799208,0.00034542803176573766,0.0004053106148493857
+membrane_soluble,size,gearnet_pretrained,sham2,permuted,1,3072,0.8560457656524059,0.00034542803176573766,0.0004053106148493857
+membrane_soluble,size,gearnet_pretrained,sham3,none,1,3072,0.8544353647144056,0.00029902877392351535,3.792532586888164e-05
+membrane_soluble,size,gearnet_pretrained,sham3,named,1,3072,0.8546587832685121,0.00029902877392351535,3.792532586888164e-05
+membrane_soluble,size,gearnet_pretrained,sham3,permuted,1,3072,0.8543656581255243,0.00029902877392351535,3.792532586888164e-05
+membrane_soluble,size,gearnet_pretrained,null0,none,1,3072,0.7331375591016549,0.009924139787933717,0.009680159520029874
+membrane_soluble,size,gearnet_pretrained,null0,named,1,3072,0.7342612054831082,0.009924139787933717,0.009680159520029874
+membrane_soluble,size,gearnet_pretrained,null0,permuted,1,3072,0.7330035079691909,0.009924139787933717,0.009680159520029874
+membrane_soluble,size,gearnet_pretrained,null1,none,1,3072,0.7325149660642111,0.009218088932820834,0.0015343061314700979
+membrane_soluble,size,gearnet_pretrained,null1,named,1,3072,0.7339817833447724,0.009218088932820834,0.0015343061314700979
+membrane_soluble,size,gearnet_pretrained,null1,permuted,1,3072,0.7323523173568216,0.009218088932820834,0.0015343061314700979
+membrane_soluble,size,gearnet_pretrained,null2,none,1,3072,0.7335885666895448,0.01066268924639413,0.0055433316057582616
+membrane_soluble,size,gearnet_pretrained,null2,named,1,3072,0.7350500219248074,0.01066268924639413,0.0055433316057582616
+membrane_soluble,size,gearnet_pretrained,null2,permuted,1,3072,0.7333609776557614,0.01066268924639413,0.0055433316057582616
+membrane_soluble,size,gearnet_pretrained,null3,none,1,3072,0.7331375591016549,0.009924139787933717,0.009680159520029874
+membrane_soluble,size,gearnet_pretrained,null3,named,1,3072,0.7342612054831082,0.009924139787933717,0.009680159520029874
+membrane_soluble,size,gearnet_pretrained,null3,permuted,1,3072,0.7330035079691909,0.009924139787933717,0.009680159520029874

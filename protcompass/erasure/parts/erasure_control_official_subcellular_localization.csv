@@ -1,0 +1,19 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+subcellular_localization,esm_if1,positive control,the task label itself,1,1,0.49413667610190054,0.4585523655479175,0.48968863728265266,0.031136271734735155
+subcellular_localization,esm_if1,positive control,the task label itself,2,2,0.49413667610190054,0.3894055802668823,0.4902951880307319,0.10088960776384959
+subcellular_localization,esm_if1,positive control,the task label itself,3,3,0.49413667610190054,0.34654266073594825,0.4832187626364739,0.13667610190052565
+subcellular_localization,esm_if1,positive control,the task label itself,5,5,0.49413667610190054,0.3639304488475536,0.488071168621108,0.1241407197735544
+subcellular_localization,esm_if1,positive control,the task label itself,8,8,0.49413667610190054,0.35705620703598867,0.48887990295188033,0.13182369591589166
+subcellular_localization,esm_if1,positive control,the task label itself,9,13,0.49413667610190054,0.3558431055398302,0.4917104731095835,0.13586736756975332
+subcellular_localization,proteinmpnn,positive control,the task label itself,1,1,0.44520824909017387,0.42903356247472707,0.4450060655074808,0.015972503032753715
+subcellular_localization,proteinmpnn,positive control,the task label itself,2,2,0.44520824909017387,0.37808329963606957,0.44682571775171853,0.06874241811564896
+subcellular_localization,proteinmpnn,positive control,the task label itself,3,3,0.44520824909017387,0.3619086130206227,0.44945410432672867,0.08754549130610595
+subcellular_localization,proteinmpnn,positive control,the task label itself,5,5,0.44520824909017387,0.35624747270521634,0.4510715729882734,0.09482410028305704
+subcellular_localization,proteinmpnn,positive control,the task label itself,8,8,0.44520824909017387,0.35826930853214717,0.447836635665184,0.08956732713303683
+subcellular_localization,proteinmpnn,positive control,the task label itself,9,13,0.44520824909017387,0.357864941366761,0.4435907804286292,0.0857258390618682
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,1,1,0.5806712494945411,0.44399514759401537,0.5796603315810755,0.13566518398706018
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,2,2,0.5806712494945411,0.37201779215527697,0.5796603315810755,0.20764253942579858
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,3,3,0.5806712494945411,0.2507076425394258,0.5845127375657098,0.33380509502628397
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,5,5,0.5806712494945411,0.25636878285483217,0.578447230084917,0.3220784472300849
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,8,8,0.5806712494945411,0.31378892033966843,0.5853214718964821,0.27153255155681366
+subcellular_localization,gearnet_pretrained,positive control,the task label itself,9,13,0.5806712494945411,0.31378892033966843,0.5814799838253133,0.26769106348564486
