@@ -1,0 +1,64 @@
+task,encoder,check,concept,rank,requested_rank,base,after,random,effect
+ec_classification,proteinmpnn,positive control,the task label itself,8,8.0,0.5456666666666666,0.547,0.5325,-0.014500000000000068
+ec_classification,proteinmpnn,conditional,secondary structure content,3,,0.5456666666666666,0.574,0.5343333333333333,-0.03966666666666663
+ec_classification,proteinmpnn,conditional,burial and packing,2,,0.5456666666666666,0.577,0.5458333333333334,-0.031166666666666565
+ec_classification,proteinmpnn,conditional,global shape,3,,0.5456666666666666,0.54,0.5343333333333333,-0.005666666666666709
+ec_classification,proteinmpnn,conditional,contact order,1,,0.5456666666666666,0.5383333333333333,0.542,0.003666666666666707
+ec_classification,proteinmpnn,conditional,size,1,,0.5456666666666666,0.5513333333333333,0.542,-0.009333333333333305
+ec_classification,proteinmpnn,conditional,amino-acid composition,16,,0.5456666666666666,0.5353333333333333,0.523,-0.012333333333333307
+ec_classification,proteinmpnn,conditional,hydrophobic fraction,1,,0.5456666666666666,0.5633333333333334,0.542,-0.021333333333333315
+ec_classification,proteinmpnn,conditional,charge,2,,0.5456666666666666,0.554,0.5458333333333334,-0.008166666666666655
+ec_classification,pottsmpnn,positive control,the task label itself,8,8.0,0.3536666666666667,0.423,0.35433333333333333,-0.06866666666666665
+ec_classification,pottsmpnn,conditional,secondary structure content,3,,0.3536666666666667,0.42033333333333334,0.3625,-0.05783333333333335
+ec_classification,pottsmpnn,conditional,burial and packing,2,,0.3536666666666667,0.43766666666666665,0.36283333333333334,-0.07483333333333331
+ec_classification,pottsmpnn,conditional,global shape,3,,0.3536666666666667,0.41833333333333333,0.3625,-0.055833333333333346
+ec_classification,pottsmpnn,conditional,contact order,1,,0.3536666666666667,0.3426666666666667,0.3646666666666667,0.02200000000000002
+ec_classification,pottsmpnn,conditional,size,1,,0.3536666666666667,0.3973333333333333,0.3646666666666667,-0.03266666666666662
+ec_classification,pottsmpnn,conditional,amino-acid composition,16,,0.3536666666666667,0.375,0.3506666666666667,-0.024333333333333318
+ec_classification,pottsmpnn,conditional,hydrophobic fraction,1,,0.3536666666666667,0.4146666666666667,0.3646666666666667,-0.04999999999999999
+ec_classification,pottsmpnn,conditional,charge,2,,0.3536666666666667,0.3883333333333333,0.36283333333333334,-0.025499999999999967
+ec_classification,pottsmpnn_pretrained,positive control,the task label itself,8,8.0,0.5473333333333333,0.532,0.529,-0.0030000000000000027
+ec_classification,pottsmpnn_pretrained,conditional,secondary structure content,3,,0.5473333333333333,0.5616666666666666,0.538,-0.023666666666666614
+ec_classification,pottsmpnn_pretrained,conditional,burial and packing,2,,0.5473333333333333,0.571,0.5388333333333333,-0.03216666666666668
+ec_classification,pottsmpnn_pretrained,conditional,global shape,3,,0.5473333333333333,0.5306666666666666,0.538,0.007333333333333414
+ec_classification,pottsmpnn_pretrained,conditional,contact order,1,,0.5473333333333333,0.5213333333333333,0.5328333333333333,0.011499999999999955
+ec_classification,pottsmpnn_pretrained,conditional,size,1,,0.5473333333333333,0.5386666666666666,0.5328333333333333,-0.005833333333333357
+ec_classification,pottsmpnn_pretrained,conditional,amino-acid composition,16,,0.5473333333333333,0.5243333333333333,0.5176666666666667,-0.006666666666666599
+ec_classification,pottsmpnn_pretrained,conditional,hydrophobic fraction,1,,0.5473333333333333,0.5483333333333333,0.5328333333333333,-0.01550000000000007
+ec_classification,pottsmpnn_pretrained,conditional,charge,2,,0.5473333333333333,0.54,0.5388333333333333,-0.0011666666666667602
+ec_classification,pottsmpnn_soluble,positive control,the task label itself,8,8.0,0.547,0.5323333333333333,0.5228333333333334,-0.009499999999999953
+ec_classification,pottsmpnn_soluble,conditional,secondary structure content,3,,0.547,0.5696666666666667,0.5265,-0.043166666666666687
+ec_classification,pottsmpnn_soluble,conditional,burial and packing,2,,0.547,0.5566666666666666,0.5288333333333333,-0.027833333333333377
+ec_classification,pottsmpnn_soluble,conditional,global shape,3,,0.547,0.5493333333333333,0.5265,-0.022833333333333372
+ec_classification,pottsmpnn_soluble,conditional,contact order,1,,0.547,0.5313333333333333,0.5333333333333333,0.0020000000000000018
+ec_classification,pottsmpnn_soluble,conditional,size,1,,0.547,0.5386666666666666,0.5333333333333333,-0.005333333333333301
+ec_classification,pottsmpnn_soluble,conditional,amino-acid composition,16,,0.547,0.536,0.5158333333333334,-0.020166666666666666
+ec_classification,pottsmpnn_soluble,conditional,hydrophobic fraction,1,,0.547,0.564,0.5333333333333333,-0.03066666666666662
+ec_classification,pottsmpnn_soluble,conditional,charge,2,,0.547,0.5336666666666666,0.5288333333333333,-0.004833333333333356
+ec_classification,pottsmpnn_ft,positive control,the task label itself,8,8.0,0.574,0.5886666666666667,0.552,-0.036666666666666625
+ec_classification,pottsmpnn_ft,conditional,secondary structure content,3,,0.574,0.5886666666666667,0.5515000000000001,-0.03716666666666657
+ec_classification,pottsmpnn_ft,conditional,burial and packing,2,,0.574,0.5903333333333334,0.5575,-0.03283333333333338
+ec_classification,pottsmpnn_ft,conditional,global shape,3,,0.574,0.556,0.5515000000000001,-0.0044999999999999485
+ec_classification,pottsmpnn_ft,conditional,contact order,1,,0.574,0.556,0.5513333333333333,-0.004666666666666708
+ec_classification,pottsmpnn_ft,conditional,size,1,,0.574,0.5703333333333334,0.5513333333333333,-0.019000000000000017
+ec_classification,pottsmpnn_ft,conditional,amino-acid composition,16,,0.574,0.5546666666666666,0.5391666666666666,-0.01550000000000007
+ec_classification,pottsmpnn_ft,conditional,hydrophobic fraction,1,,0.574,0.572,0.5513333333333333,-0.02066666666666661
+ec_classification,pottsmpnn_ft,conditional,charge,2,,0.574,0.5653333333333334,0.5575,-0.007833333333333359
+ec_classification,esm_if1,positive control,the task label itself,8,8.0,0.686,0.693,0.6785,-0.014499999999999957
+ec_classification,esm_if1,conditional,secondary structure content,3,,0.686,0.6873333333333334,0.6775,-0.00983333333333336
+ec_classification,esm_if1,conditional,burial and packing,2,,0.686,0.6866666666666666,0.6763333333333333,-0.010333333333333306
+ec_classification,esm_if1,conditional,global shape,3,,0.686,0.6813333333333333,0.6775,-0.0038333333333333552
+ec_classification,esm_if1,conditional,contact order,1,,0.686,0.685,0.6811666666666667,-0.0038333333333333552
+ec_classification,esm_if1,conditional,size,1,,0.686,0.68,0.6811666666666667,0.0011666666666666492
+ec_classification,esm_if1,conditional,amino-acid composition,16,,0.686,0.686,0.6788333333333334,-0.0071666666666666545
+ec_classification,esm_if1,conditional,hydrophobic fraction,1,,0.686,0.6783333333333333,0.6811666666666667,0.0028333333333333544
+ec_classification,esm_if1,conditional,charge,2,,0.686,0.681,0.6763333333333333,-0.004666666666666708
+ec_classification,gearnet_pretrained,positive control,the task label itself,8,8.0,0.635,0.7306666666666667,0.6416666666666666,-0.08900000000000008
+ec_classification,gearnet_pretrained,conditional,secondary structure content,3,,0.635,0.6526666666666666,0.631,-0.021666666666666612
+ec_classification,gearnet_pretrained,conditional,burial and packing,2,,0.635,0.64,0.6288333333333334,-0.011166666666666658
+ec_classification,gearnet_pretrained,conditional,global shape,3,,0.635,0.631,0.631,0.0
+ec_classification,gearnet_pretrained,conditional,contact order,1,,0.635,0.618,0.6443333333333333,0.02633333333333332
+ec_classification,gearnet_pretrained,conditional,size,1,,0.635,0.6276666666666667,0.6443333333333333,0.016666666666666607
+ec_classification,gearnet_pretrained,conditional,amino-acid composition,16,,0.635,0.656,0.644,-0.01200000000000001
+ec_classification,gearnet_pretrained,conditional,hydrophobic fraction,1,,0.635,0.6376666666666667,0.6443333333333333,0.006666666666666599
+ec_classification,gearnet_pretrained,conditional,charge,2,,0.635,0.6456666666666667,0.6288333333333334,-0.016833333333333367

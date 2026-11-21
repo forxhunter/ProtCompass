@@ -461,9 +461,8 @@ layers concatenated). Until 2026-11-19 these seven encoders ran through wrappers
 same weights but did not reproduce the released computation; their embeddings and the probing, downstream and residue-task
 analyses, and the erasure, repair and held-out downstream analyses, were recomputed (`protcompass/ENVIRONMENT.md`). The
 files of the first screening version of the erasure analysis (`protcompass/erasure/parts/erasure_conditional_*.csv`,
-`erasure_results_*.csv` and the tables derived from them, `paper/generated/demand_restricted.tex` and
-`prediction_test_v2.tex`), which the manuscript does not use, still hold the earlier rows of these seven encoders and
-are being recomputed. The randomly initialised GearNet remains the 512-dimensional relational
+`erasure_results_*.csv`, `erasure/erasure_partial.csv`), which the manuscript does not use, were recomputed for these
+seven encoders as well. The randomly initialised GearNet remains the 512-dimensional relational
 graph network of `protcompass/src/`.
 
 The sequence and multimodal models (ESM-1b, ESM2, ProtBert, ProtT5, Ankh, ProstT5, SaProt, FoldVision) load from the

@@ -126,6 +126,12 @@ encoders were removed from the other part files.
   The six-encoder add-back study (`erasure/addback_rescue.csv`) was rerun in the same way on the third machine and
   merged by the same rule. There the scores of the unchanged encoders differ between the two runs by a median 0.0006
   and at most 0.006 with the linear probe, and by a median 0.004 and at most 0.038 with the two-layer probe.
+- The first screening version of the erasure analysis (`scripts/erasure.py` and `scripts/erasure_robustness.py
+  --skip-mlp --control-ranks 8`) was rerun for the seven encoders on the third machine with three BLAS threads
+  (`erasure/parts/erasure_results_official_*.csv`, `erasure_conditional_official_*.csv`). Their earlier rows were
+  removed from the other part files and from `erasure/erasure_partial.csv`, and `erasure/causal_demand.csv` was
+  rewritten. `erasure/demand_restricted.csv` and `erasure/demand_prediction_test*.csv` read the second-version sweep
+  and were rewritten after its rerun.
 - The pre-registered labels and the held-out downstream proteins were evaluated before the re-extraction. Their
   outputs from that time are in `prereg/before_reextraction/` and `confirmation_downstream/before_reextraction/`; the
   files in `prereg/` and `confirmation_downstream/` hold the repeated analyses. No verdict differs.
